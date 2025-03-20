@@ -32,6 +32,7 @@ Conexión estable a Internet
 
 Ejecuta estos comandos uno por uno:
 
+```
 cd && termux-setup-storage
 apt-get update -y && apt-get upgrade -y
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
@@ -40,6 +41,7 @@ yarn install
 npm install
 npm update
 npm start
+```
 
 📥 INSTALACIÓN EN VPS
 
