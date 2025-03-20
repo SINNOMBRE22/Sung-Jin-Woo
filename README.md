@@ -1,37 +1,27 @@
 
----
 
-SUNG JIN-WOO - BOT
-
-"Despierta. Ha llegado tu momento."
-
+# **SUNG JIN-WOO - BOT**  
+*"Despierta. Ha llegado tu momento."*  
 
 ---
 
-⚔️ ¿QUÉ ES SUNG JIN-WOO BOT?
-
-Sung Jin-Woo Bot es una herramienta poderosa que te permitirá dominar el mundo de WhatsApp con automatización avanzada. Desde la gestión de grupos hasta la ejecución de comandos personalizados, este bot te convierte en el cazador definitivo en el terreno digital.
-
+## ⚔️ **¿QUÉ ES SUNG JIN-WOO BOT?**  
+Sung Jin-Woo Bot es una herramienta poderosa que te permitirá dominar el mundo de WhatsApp con automatización avanzada. Desde la gestión de grupos hasta la ejecución de comandos personalizados, este bot te convierte en el cazador definitivo en el terreno digital.  
 
 ---
 
-🖥️ INSTALACIÓN EN VPS O TERMUX
+## 🖥️ **INSTALACIÓN EN VPS O TERMUX**  
 
-🛠️ REQUISITOS
+### **🛠️ REQUISITOS**  
+Antes de comenzar, asegúrate de tener:  
+- Un servidor VPS (Ubuntu recomendado) o Termux en Android  
+- Node.js y Git instalados  
+- Conexión estable a Internet  
 
-Antes de comenzar, asegúrate de tener:
+### **📥 INSTALACIÓN EN TERMUX**  
+Ejecuta estos comandos uno por uno:  
 
-Un servidor VPS (Ubuntu recomendado) o Termux en Android
-
-Node.js y Git instalados
-
-Conexión estable a Internet
-
-
-📥 INSTALACIÓN EN TERMUX
-
-Ejecuta estos comandos uno por uno:
-
+```bash
 cd && termux-setup-storage
 apt-get update -y && apt-get upgrade -y
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
@@ -148,6 +138,3 @@ Si tienes dudas o necesitas ayuda, puedes contactar a:
 "Cuando todos te abandonan, solo te queda volverte más fuerte."
 
 🚀 ¡Sung Jin-Woo Bot, el cazador definitivo de WhatsApp!
-
-
----
