@@ -1,7 +1,11 @@
-
+---
+ <P align="center">
+<img src="https://giffiles.alphacoders.com/152/15268.gif" width="230" height="230"/>
+</p>
+<br>
 ---
 
-# 🔥 Sung Jin-Woo Bot <img src="https://img.shields.io/badge/Version-2.0.0-blue" alt="Versión"> <img src="https://img.shields.io/badge/Licencia-MIT-green" alt="Licencia">
+#  Sung Jin-Woo <img src="https://img.shields.io/badge/Version-2.0.0-blue" alt="Versión"> <img src="https://img.shields.io/badge/Licencia-MIT-green" alt="Licencia">
 
 *"Despierta. Ha llegado tu momento." - Sistema de Cazadores*
 
@@ -104,6 +108,8 @@ Ejecuta !menu en WhatsApp para ver el panel interactivo de comandos.
 <a id="contribucion"></a>🌍 Contribución
 
 Envia tus ideas al creador
+[![Enviar WhatsApp](https://img.shields.io/badge/Enviar%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/BSE4ZCEPY7ZOP1)
+
 
 
 ---
@@ -126,9 +132,8 @@ Si el bot no responde, espamea con (.ds) o (.dsowner).
 
 ---
 
-<a id="soporte"></a>📞 Soporte
+<a id="soporte"></a> [![📞 Soporte](https://img.shields.io/badge/Enviar%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/BSE4ZCEPY7ZOP1)
 
-(Agrega aquí la información de soporte que consideres necesaria)
 
 
 ---
