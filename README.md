@@ -189,6 +189,7 @@ Mantén tu servidor/VPS actualizado.
 
 Si el bot no responde, espamea con (.ds) o (.dsowner).
 
+Si no resibes el QR espamea la opción (1 y enter)asta qué te dé el QR
 
 
 ---
