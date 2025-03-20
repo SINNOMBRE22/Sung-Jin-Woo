@@ -103,6 +103,9 @@ npm install
 ```bash
 npm start
 ```
+```bash
+npm start
+```
 # *<a id="vps-ubuntu"></a>VPS (Ubuntu)*
 ```bash
 sudo apt update && sudo apt full-upgrade -y
@@ -121,6 +124,9 @@ apt install yarn
 ```
 ```bash
 npm install
+```
+```bash
+npm start
 ```
 
 # *Iniciar El bot en PM2 :*#
