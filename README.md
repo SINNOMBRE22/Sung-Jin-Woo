@@ -92,7 +92,7 @@ pkg install -y git nodejs ffmpeg imagemagick yarn
 git clone https://github.com/SINNOMBRE22/Sung-Jin-Woo
 ```
 ```bash
-cd Sung-Jinwoo-Bot
+cd Sung-Jin-Woo
 ```
 ```bash
 yarn install
@@ -114,7 +114,7 @@ sudo apt install -y git nodejs ffmpeg imagemagick
 git clone https://github.com/SINNOMBRE22/Sung-Jin-Woo
 ```
 ```bash
-cd Sung-Jinwoo-Bot
+cd Sung-Jin-Woo
 ```
 ```bash
 yarn install
