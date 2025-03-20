@@ -52,14 +52,14 @@ npm start
 
 Si el bot se detiene, usa estos comandos:
 ```
-cd && cd Sung-Jinwoo-Bot
+cd Sung-Jinwoo-Bot
 npm start
 ```
 🔑 OBTENER NUEVO QR
 
 Si necesitas un nuevo código QR, usa:
 ```
-cd && cd Sung-Jinwoo-Bot
+cd Sung-Jinwoo-Bot
 rm -rf Jinwoosesion
 npm start
 ```
