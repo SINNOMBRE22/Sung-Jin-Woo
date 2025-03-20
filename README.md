@@ -89,7 +89,7 @@ pkg update -y && pkg upgrade -y
 pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/SINNOMBRE22/Sung-Jinwoo-Bot.git
+git clone https://github.com/SINNOMBRE22/Sung-Jin-Woo
 ```
 ```bash
 cd Sung-Jinwoo-Bot
@@ -111,7 +111,7 @@ sudo apt update && sudo apt full-upgrade -y
 sudo apt install -y git nodejs ffmpeg imagemagick
 ```
 ```bash
-git clone https://github.com/SINNOMBRE22/Sung-Jinwoo-Bot.git
+git clone https://github.com/SINNOMBRE22/Sung-Jin-Woo
 ```
 ```bash
 cd Sung-Jinwoo-Bot
