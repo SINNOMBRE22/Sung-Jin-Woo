@@ -1,4 +1,5 @@
 
+---
 
 # 🔥 Sung Jin-Woo Bot <img src="https://img.shields.io/badge/Version-2.0.0-blue" alt="Versión"> <img src="https://img.shields.io/badge/Licencia-MIT-green" alt="Licencia">
 
@@ -7,20 +8,20 @@
 ---
 
 ## 📌 Tabla de Contenidos
-- [🌟 Características Principales](#características-principales)
+- [🌟 Características Principales](#caracteristicas-principales)
 - [⚙️ Requisitos del Sistema](#requisitos-del-sistema)
-- [🚀 Instalación](#instalación)
+- [🚀 Instalación](#instalacion)
   - [Termux (Android)](#termux-android)
   - [VPS (Ubuntu)](#vps-ubuntu)
 - [🔧 Mantenimiento](#mantenimiento)
-- [📚 Guía de Comandos](#guía-de-comandos)
-- [🌍 Contribución](#contribución)
+- [📚 Guía de Comandos](#guia-de-comandos)
+- [🌍 Contribución](#contribucion)
 - [⚠️ Advertencias](#advertencias)
 - [📞 Soporte](#soporte)
 
 ---
 
-## 🌟 Características Principales
+## <a id="caracteristicas-principales"></a>🌟 Características Principales
 
 | Categoría           | Funcionalidades                                                                 |
 |---------------------|---------------------------------------------------------------------------------|
@@ -33,7 +34,7 @@
 
 ---
 
-## ⚙️ Requisitos del Sistema
+## <a id="requisitos-del-sistema"></a>⚙️ Requisitos del Sistema
 
 - **Sistema Operativo**: 
   - Ubuntu 20.04+ (Recomendado para VPS)
@@ -47,9 +48,9 @@
 
 ---
 
-## 🚀 Instalación
+## <a id="instalacion"></a>🚀 Instalación
 
-##Termux (Android)
+### <a id="termux-android"></a>Termux (Android)
 ```bash
 termux-setup-storage
 
@@ -67,8 +68,7 @@ npm install
 
 npm start
 ```
-
-##VPS (Ubuntu)
+<a id="vps-ubuntu"></a>VPS (Ubuntu)
 ```bash
 sudo apt update && sudo apt full-upgrade -y
 
@@ -86,12 +86,14 @@ npm start
 
 ---
 
-🔧 Mantenimiento
+<a id="mantenimiento"></a>🔧 Mantenimiento
+
+(Agrega aquí los detalles de mantenimiento que consideres necesarios)
 
 
 ---
 
-📚 Guía de Comandos
+<a id="guia-de-comandos"></a>📚 Guía de Comandos
 
 Ejecuta !menu en WhatsApp para ver el panel interactivo de comandos.
 📥 Documentación Completa de Comandos
@@ -99,30 +101,34 @@ Ejecuta !menu en WhatsApp para ver el panel interactivo de comandos.
 
 ---
 
-🌍 Contribución
+<a id="contribucion"></a>🌍 Contribución
 
 Envia tus ideas al creador
+
+
 ---
 
-⚠️ Advertencias
+<a id="advertencias"></a>⚠️ Advertencias
 
 ❗ Importante:
 
-Usa siempre un número secundario
+Usa siempre un número secundario.
 
-No modifiques los archivos de sesión manualmente
+No modifiques los archivos de sesión manualmente.
 
-El mal uso puede llevar a baneos temporales de WhatsApp
+El mal uso puede llevar a baneos temporales de WhatsApp.
 
-Mantén tu servidor/VPS actualizado
+Mantén tu servidor/VPS actualizado.
 
-Si El bot No responde espamea con (.ds) o (.dsowner)
+Si el bot no responde, espamea con (.ds) o (.dsowner).
 
 
 
 ---
 
-📞 Soporte
+<a id="soporte"></a>📞 Soporte
+
+(Agrega aquí la información de soporte que consideres necesaria)
 
 
 ---
@@ -130,3 +136,7 @@ Si El bot No responde espamea con (.ds) o (.dsowner)
 <img src="https://img.shields.io/badge/STATUS-EN%20DESARROLLO-success" alt="Estado"> <img src="https://img.shields.io/github/last-commit/SINNOMBRE22/Sung-Jinwoo-Bot" alt="Último Commit">
 
 > "El débil no tiene derecho a elegir cómo morir." - Sistema de Cazadores
+
+
+
+---
