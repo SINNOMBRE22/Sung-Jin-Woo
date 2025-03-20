@@ -51,55 +51,110 @@
 - **Memoria RAM**: Mínimo 1GB (Recomendado 2GB)
 
 ---
-
 ## <a id="instalacion"></a>🚀 Instalación
 
-### <a id="termux-android"></a>Termux (Android)
+# *<a id="instalar node.js"></a>Actualizar Node.js*
+
+
+```bash
+> apt install nodejs
+```
+```
+> node -v #verificamos la versión de node
+```
+```
+> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+```
+```
+> source ~/.nvm/nvm.sh
+```
+```
+> nvm --version
+```
+```
+> nvm ls-remote
+```
+```
+> nvm install 22.6.0   #Version a instalar
+```
+
+# *<a id="termux-android"></a>Termux (Android)*
 ```bash
 termux-setup-storage
-
+```
+```bash
 pkg update -y && pkg upgrade -y
-
+```
+```bash
 pkg install -y git nodejs ffmpeg imagemagick yarn
-
+```
+```bash
 git clone https://github.com/SINNOMBRE22/Sung-Jinwoo-Bot.git
-
+```
+```bash
 cd Sung-Jinwoo-Bot
-
+```
+```bash
 yarn install
-
+```
+```bash
 npm install
-
+```
+```bash
 npm start
 ```
-<a id="vps-ubuntu"></a>VPS (Ubuntu)
+# *<a id="vps-ubuntu"></a>VPS (Ubuntu)*
 ```bash
 sudo apt update && sudo apt full-upgrade -y
-
+```
+```bash
 sudo apt install -y git nodejs ffmpeg imagemagick
-
+```
+```bash
 git clone https://github.com/SINNOMBRE22/Sung-Jinwoo-Bot.git
+```
+```bash
 cd Sung-Jinwoo-Bot
-
+```
+```bash
 yarn install
-
+```
+```bash
 npm install
-
-npm start
 ```
 
+# *Iniciar El bot en PM2 :*#
+```bash 
+
+> pm2 start index.js --name "bot"
+
+```
+*Visualizar proceso en PM2 :*
+
+```bash 
+
+> pm2 monit
+[ ! ] Para salir del monitor usa la combinación de CTRL + c
+```
+
+*Eliminar PM2 para el bot :*
+
+```bash
+
+> pm2 kill
+```
 ---
 
 <a id="mantenimiento"></a>🔧 Mantenimiento
 
-(Agrega aquí los detalles de mantenimiento que consideres necesarios)
+(Reporta cualquier falla al creador via WhatsApp)
 
 
 ---
 
 <a id="guia-de-comandos"></a>📚 Guía de Comandos
 
-Ejecuta !menu en WhatsApp para ver el panel interactivo de comandos.
+Ejecuta .menu en WhatsApp para ver el panel interactivo de comandos.
 📥 Documentación Completa de Comandos
 
 
@@ -132,7 +187,7 @@ Si el bot no responde, espamea con (.ds) o (.dsowner).
 
 ---
 
-<a id="soporte"></a> [![📞 Soporte](https://img.shields.io/badge/Enviar%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/BSE4ZCEPY7ZOP1)
+<a id="soporte"></a> [![📞 Soporte](https://img.shields.io/badge/%20Soporte-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/BSE4ZCEPY7ZOP1)
 
 
 
