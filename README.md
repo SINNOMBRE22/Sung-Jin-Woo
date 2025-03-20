@@ -32,7 +32,6 @@ Conexión estable a Internet
 
 Ejecuta estos comandos uno por uno:
 
-```
 cd && termux-setup-storage
 apt-get update -y && apt-get upgrade -y
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
@@ -41,7 +40,6 @@ yarn install
 npm install
 npm update
 npm start
-```
 
 📥 INSTALACIÓN EN VPS
 
@@ -106,11 +104,40 @@ Se recomienda usar un número secundario para evitar baneos.
 
 ---
 
+📤 FORK, CLONACIÓN Y CONTRIBUCIÓN
+
+🔄 Clonar este repositorio
+
+Si deseas modificar el bot o contribuir a su mejora, puedes clonarlo con:
+
+git clone https://github.com/TU-USUARIO/Sung-Jinwoo-Bot.git
+cd Sung-Jinwoo-Bot
+
+🚀 Contribuir al proyecto
+
+Si deseas colaborar con mejoras, abre un Pull Request en este repositorio.
+
+1. Haz un fork del proyecto.
+
+
+2. Crea una nueva rama con tus cambios.
+
+
+3. Sube tus modificaciones.
+
+
+4. Abre un Pull Request explicando qué mejoras has realizado.
+
+
+
+
+---
+
 📞 CONTACTO Y SOPORTE
 
 Si tienes dudas o necesitas ayuda, puedes contactar a:
 
-🌐 Canal Oficial
+🌐 Repositorio en GitHub
 
 📩 WhatsApp: Contactar
 
@@ -121,3 +148,6 @@ Si tienes dudas o necesitas ayuda, puedes contactar a:
 "Cuando todos te abandonan, solo te queda volverte más fuerte."
 
 🚀 ¡Sung Jin-Woo Bot, el cazador definitivo de WhatsApp!
+
+
+---
