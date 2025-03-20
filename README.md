@@ -30,11 +30,11 @@ yarn install
 npm install
 npm update
 npm start
-
+```
 📥 INSTALACIÓN EN VPS
 
 Para instalar en un servidor con Ubuntu, usa:
-
+```
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y git nodejs ffmpeg imagemagick
 git clone https://github.com/TU-USUARIO/Sung-Jinwoo-Bot.git && cd Sung-Jinwoo-Bot
@@ -42,7 +42,7 @@ yarn install
 npm install
 npm update
 npm start
-
+```
 
 ---
 
@@ -51,18 +51,18 @@ npm start
 🔄 REINICIAR EL BOT
 
 Si el bot se detiene, usa estos comandos:
-
+```
 cd && cd Sung-Jinwoo-Bot
 npm start
-
+```
 🔑 OBTENER NUEVO QR
 
 Si necesitas un nuevo código QR, usa:
-
+```
 cd && cd Sung-Jinwoo-Bot
 rm -rf Jinwoosesion
 npm start
-
+```
 
 ---
 
@@ -99,35 +99,20 @@ Se recomienda usar un número secundario para evitar baneos.
 🔄 Clonar este repositorio
 
 Si deseas modificar el bot o contribuir a su mejora, puedes clonarlo con:
-
+```
 git clone https://github.com/TU-USUARIO/Sung-Jinwoo-Bot.git
+```
+```
 cd Sung-Jinwoo-Bot
-
+```
 🚀 Contribuir al proyecto
-
-Si deseas colaborar con mejoras, abre un Pull Request en este repositorio.
-
-1. Haz un fork del proyecto.
-
-
-2. Crea una nueva rama con tus cambios.
-
-
-3. Sube tus modificaciones.
-
-
-4. Abre un Pull Request explicando qué mejoras has realizado.
-
-
-
-
+ Envia tus ideas al creador 
 ---
 
 📞 CONTACTO Y SOPORTE
 
 Si tienes dudas o necesitas ayuda, puedes contactar a:
 
-🌐 Repositorio en GitHub
 
 📩 WhatsApp: Contactar
 
