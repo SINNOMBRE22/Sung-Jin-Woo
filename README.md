@@ -95,7 +95,7 @@ git clone https://github.com/SINNOMBRE22/Sung-Jin-Woo
 cd Sung-Jin-Woo
 ```
 ```bash
-yarn install
+apt install yarn
 ```
 ```bash
 npm install
@@ -117,7 +117,7 @@ git clone https://github.com/SINNOMBRE22/Sung-Jin-Woo
 cd Sung-Jin-Woo
 ```
 ```bash
-yarn install
+apt install yarn
 ```
 ```bash
 npm install
