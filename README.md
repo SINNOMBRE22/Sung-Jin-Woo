@@ -39,7 +39,7 @@
   - Ubuntu 20.04+ (Recomendado para VPS)
   - Termux (Android 8.0+)
 - **Dependencias**:
-  - Node.js v18.x+
+  - Node.js v22.6.0
   - Git
   - FFmpeg
   - ImageMagick
@@ -49,26 +49,38 @@
 
 ## 🚀 Instalación
 
-###Termux (Android)
+##Termux (Android)
 ```bash
 termux-setup-storage
+
 pkg update -y && pkg upgrade -y
+
 pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/TU-USUARIO/Sung-Jinwoo-Bot.git
+
+git clone https://github.com/SINNOMBRE22/Sung-Jinwoo-Bot.git
+
 cd Sung-Jinwoo-Bot
-yarn install --network-concurrency 1
-npm run build
+
+yarn install
+
+npm install
+
 npm start
 ```
 
-#VPS (Ubuntu)
+##VPS (Ubuntu)
 ```bash
 sudo apt update && sudo apt full-upgrade -y
+
 sudo apt install -y git nodejs ffmpeg imagemagick
-git clone https://github.com/TU-USUARIO/Sung-Jinwoo-Bot.git
+
+git clone https://github.com/SINNOMBRE22/Sung-Jinwoo-Bot.git
 cd Sung-Jinwoo-Bot
-yarn install --production
-npm run build
+
+yarn install
+
+npm install
+
 npm start
 ```
 
