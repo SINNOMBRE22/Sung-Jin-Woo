@@ -1,0 +1,17 @@
+#| Folders |#
+
+.github
+node_modules
+Jinwoosesion
+tmp
+jadibts
+pluginpilot
+plugins/supersecretlistener.js
+datasecret
+
+#| Files |#
+
+package-lock.json
+database.json
+../Irparpaya-a/
+../MiMi/
