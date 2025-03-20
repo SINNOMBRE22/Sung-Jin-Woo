@@ -33,7 +33,7 @@ npm start
 ```
 📥 INSTALACIÓN EN VPS
 
-Para instalar en un servidor con Ubuntu, usa:
+Para instalar en un servidor con Ubuntu:
 ```
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y git nodejs ffmpeg imagemagick
