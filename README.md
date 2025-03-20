@@ -118,8 +118,3 @@ Si El bot No responde espamea con (.ds) o (.dsowner)
 <img src="https://img.shields.io/badge/STATUS-EN%20DESARROLLO-success" alt="Estado"> <img src="https://img.shields.io/github/last-commit/SINNOMBRE22/Sung-Jinwoo-Bot" alt="Último Commit">
 
 > "El débil no tiene derecho a elegir cómo morir." - Sistema de Cazadores
-
-
-
-Con estos cambios se elimina la visualización del contenido como texto plano y se corrigen los enlaces de anclaje para que apunten correctamente a los encabezados.
-
