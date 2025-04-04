@@ -101,7 +101,7 @@ Content-Length: 9999999999
       `DELETE http://${host}/ HTTP/1.1[crlf]Host: ${host}[crlf]Cache-Control: no-cache[crlf]Connection: close[crlf][crlf]`,
       `DELETE http://${host}/ HTTP/1.1[crlf]Host: ${host}[crlf]User-Agent: Mozilla/5.0[crlf]Connection: Keep-Alive[crlf][crlf]`
     ],
-    trace: [aí
+    trace: [
       `TRACE http://${host}/ HTTP/1.1[crlf]Host: ${host}[crlf]Connection: close[crlf][crlf]`,
       `TRACE http://${host}/ HTTP/1.1[crlf]Host: ${host}[crlf]User-Agent: CustomTRACE[crlf]Connection: Keep-Alive[crlf][crlf]`,
       `TRACE http://${host}/ HTTP/1.0[crlf]Host: ${host}[crlf]Accept: */*[crlf]Connection: close[crlf][crlf]`,

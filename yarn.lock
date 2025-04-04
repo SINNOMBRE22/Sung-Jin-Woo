@@ -4231,7 +4231,7 @@ cryptiles@2.x.x:
   dependencies:
     boom "2.x.x"
 
-crypto-js@^4.0.0:
+crypto-js@^4.0.0, crypto-js@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/crypto-js/-/crypto-js-4.2.0.tgz"
   integrity sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==
@@ -5319,7 +5319,7 @@ file-type@^16.5.4:
     strtok3 "^6.2.4"
     token-types "^4.1.1"
 
-file-type@^17.1.1:
+file-type@^17.1.1, file-type@^17.1.6:
   version "17.1.6"
   resolved "https://registry.npmjs.org/file-type/-/file-type-17.1.6.tgz"
   integrity sha512-hlDw5Ev+9e883s0pwUsuuYNu4tD7GgpUnOvykjv1Gya0ZIjuKumthDRua90VUn6/nlRKAjcxLUnHNTIUWwWIiw==
@@ -6152,6 +6152,13 @@ image-size@^1.0.0:
   dependencies:
     queue "6.0.2"
 
+image-to-pdf@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/image-to-pdf/-/image-to-pdf-3.0.2.tgz"
+  integrity sha512-6/IQCt4f384zjQ1w8P7FHIN/tF0mau8RbAIydT/+wyfZ1RAb8E2fiKe9t/k0V880h0d3zRpw9Q1bM5AIgVL/4g==
+  dependencies:
+    pdfkit "^0.15.2"
+
 imagemaker.js@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npmjs.org/imagemaker.js/-/imagemaker.js-2.0.4.tgz"
@@ -6622,6 +6629,11 @@ joycon@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/joycon/-/joycon-3.1.1.tgz"
   integrity sha512-34wB/Y7MW7bzjKRjUKTa46I2Z7eV62Rkhva+KkopW7Qvv/OSWBqvkSY7vusOPrNuZcUG3tApvdVgNB8POj3SPw==
+
+jpeg-exif@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.npmjs.org/jpeg-exif/-/jpeg-exif-1.1.4.tgz"
+  integrity sha512-a+bKEcCjtuW5WTdgeXFzswSrdqi0jk4XlEtZlx5A94wCoBpFjfFTbo/Tra5SpNCl/YFZPvcV1dJc+TAYeg6ROQ==
 
 jpeg-js@^0.4.0, jpeg-js@^0.4.2:
   version "0.4.4"
@@ -8101,6 +8113,17 @@ pdfkit@^0.13.0:
   dependencies:
     crypto-js "^4.0.0"
     fontkit "^1.8.1"
+    linebreak "^1.0.2"
+    png-js "^1.0.0"
+
+pdfkit@^0.15.2:
+  version "0.15.2"
+  resolved "https://registry.npmjs.org/pdfkit/-/pdfkit-0.15.2.tgz"
+  integrity sha512-s3GjpdBFSCaeDSX/v73MI5UsPqH1kjKut2AXCgxQ5OH10lPVOu5q5vLAG0OCpz/EYqKsTSw1WHpENqMvp43RKg==
+  dependencies:
+    crypto-js "^4.2.0"
+    fontkit "^1.8.1"
+    jpeg-exif "^1.1.4"
     linebreak "^1.0.2"
     png-js "^1.0.0"
 
