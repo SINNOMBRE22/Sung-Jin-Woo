@@ -1,17 +1,1 @@
-
-
-const handler = async (m, {conn}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.cmd_list
-
-  conn.reply(m.chat, `
-*${tradutor.texto1}*
-
-${Object.entries(global.db.data.sticker).map(([key, value], index) => `*${index + 1}.-*\n*𝙲𝙾𝙳𝙸𝙶𝙾:* ${value.locked ? `*(𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘)* ${key}` : key}\n*𝙲𝙾𝙼𝙰𝙽𝙳𝙾/𝚃𝙴𝚇𝚃𝙾* ${value.text}`).join('\n\n')}
-`.trim(), null, {mentions: Object.values(global.db.data.sticker).map((x) => x.mentionedJid).reduce((a, b) => [...a, ...b], [])});
-};
-handler.command = ['listcmd', 'cmdlist'];
-handler.rowner = true;
-export default handler;
+const a0_0x29d472=a0_0x3f78;function a0_0x3f78(_0x5b5bac,_0x183ef5){const _0x35bf3b=a0_0x35bf();return a0_0x3f78=function(_0x3f78c7,_0x21963e){_0x3f78c7=_0x3f78c7-0x71;let _0x107c84=_0x35bf3b[_0x3f78c7];return _0x107c84;},a0_0x3f78(_0x5b5bac,_0x183ef5);}(function(_0x3b63b1,_0x38691b){const _0x349989=a0_0x3f78,_0x388a3c=_0x3b63b1();while(!![]){try{const _0x39c548=-parseInt(_0x349989(0x89))/0x1+parseInt(_0x349989(0x7e))/0x2*(-parseInt(_0x349989(0x72))/0x3)+-parseInt(_0x349989(0x76))/0x4+parseInt(_0x349989(0x8a))/0x5*(-parseInt(_0x349989(0x7c))/0x6)+-parseInt(_0x349989(0x8e))/0x7*(-parseInt(_0x349989(0x73))/0x8)+parseInt(_0x349989(0x85))/0x9*(-parseInt(_0x349989(0x8b))/0xa)+parseInt(_0x349989(0x7a))/0xb;if(_0x39c548===_0x38691b)break;else _0x388a3c['push'](_0x388a3c['shift']());}catch(_0x551fe0){_0x388a3c['push'](_0x388a3c['shift']());}}}(a0_0x35bf,0x3e7d3));const handler=async(_0x32e78c,{conn:_0x37bcff})=>{const _0xc9a3fa=a0_0x3f78,_0x4763fa=global,_0x49b8e8=_0x4763fa['db'][_0xc9a3fa(0x83)][_0xc9a3fa(0x8d)][_0x32e78c[_0xc9a3fa(0x8c)]][_0xc9a3fa(0x75)],_0xf65468=JSON['parse'](fs[_0xc9a3fa(0x86)](_0xc9a3fa(0x7f)+_0x49b8e8+_0xc9a3fa(0x84))),_0x3e69ad=_0xf65468[_0xc9a3fa(0x74)][_0xc9a3fa(0x87)];_0x37bcff['reply'](_0x32e78c['chat'],('\x0a*'+_0x3e69ad['texto1']+_0xc9a3fa(0x80)+Object['entries'](global['db'][_0xc9a3fa(0x83)][_0xc9a3fa(0x81)])[_0xc9a3fa(0x7d)](([_0x55e8ec,_0x379c09],_0x2a3d57)=>'*'+(_0x2a3d57+0x1)+'.-*\x0a*𝙲𝙾𝙳𝙸𝙶𝙾:*\x20'+(_0x379c09['locked']?'*(𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘)*\x20'+_0x55e8ec:_0x55e8ec)+_0xc9a3fa(0x78)+_0x379c09[_0xc9a3fa(0x71)])['join']('\x0a\x0a')+'\x0a')['trim'](),null,{'mentions':Object[_0xc9a3fa(0x77)](global['db'][_0xc9a3fa(0x83)]['sticker'])[_0xc9a3fa(0x7d)](_0x4ff015=>_0x4ff015[_0xc9a3fa(0x7b)])['reduce']((_0x22c239,_0x10c3fb)=>[..._0x22c239,..._0x10c3fb],[])});};function a0_0x35bf(){const _0x2881ca=['411817HKUsje','2089425eowpsp','20fmNGXj','sender','users','7AJVipq','text','722955OzwDvp','1138336rOsNlR','plugins','language','640116PVzCnd','values','\x0a*𝙲𝙾𝙼𝙰𝙽𝙳𝙾/𝚃𝙴𝚇𝚃𝙾*\x20','listcmd','19851546KwRsGf','mentionedJid','6niXgLP','map','4TFlGHV','./language/','*\x0a\x0a','sticker','command','data','.json','986949UIpVUB','readFileSync','cmd_list','cmdlist'];a0_0x35bf=function(){return _0x2881ca;};return a0_0x35bf();}handler[a0_0x29d472(0x82)]=[a0_0x29d472(0x79),a0_0x29d472(0x88)],handler['rowner']=!![];export default handler;

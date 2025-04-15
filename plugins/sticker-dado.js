@@ -1,15 +1,1 @@
-const handler = async (m, {conn}) => {
-  conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/sticker/dadu?apikey=${lolkeysapi}`, 'error.webp', '', m, {asSticker: true});
-};
-handler.command = ['dado', 'dados', 'dadu'];
-export default handler;
-
-/* import { sticker } from '../lib/sticker.js'
-let handler = async (m, { conn }) => {
-const dir = ['https://www.random.org/dice/dice1.png', 'https://www.random.org/dice/dice2.png', 'https://www.random.org/dice/dice3.png', 'https://www.random.org/dice/dice4.png', 'https://www.random.org/dice/dice5.png', 'https://www.random.org/dice/dice6.png'];
-let img = dir[Math.floor(Math.random() * dir.length)]
-//let stiker = await sticker(img, false, global.packname, global.author)
-await conn.sendFile(m.chat, img, 'error.webp', '', m, { asSticker: true })
-}
-handler.command = ['dado', 'dados', 'dadu']
-export default handler*/
+const a0_0x5c5ee6=a0_0x4602;(function(_0x59e9d0,_0x33e7b1){const _0x364126=a0_0x4602,_0xadc3d=_0x59e9d0();while(!![]){try{const _0x2dea1b=parseInt(_0x364126(0x1dd))/0x1*(parseInt(_0x364126(0x1dc))/0x2)+-parseInt(_0x364126(0x1e6))/0x3*(parseInt(_0x364126(0x1d9))/0x4)+parseInt(_0x364126(0x1da))/0x5+parseInt(_0x364126(0x1db))/0x6*(-parseInt(_0x364126(0x1de))/0x7)+-parseInt(_0x364126(0x1e1))/0x8*(parseInt(_0x364126(0x1e0))/0x9)+-parseInt(_0x364126(0x1e7))/0xa+-parseInt(_0x364126(0x1e2))/0xb*(-parseInt(_0x364126(0x1e5))/0xc);if(_0x2dea1b===_0x33e7b1)break;else _0xadc3d['push'](_0xadc3d['shift']());}catch(_0x3cfc93){_0xadc3d['push'](_0xadc3d['shift']());}}}(a0_0x3b32,0x28d41));const handler=async(_0x36c525,{conn:_0x5ca36e})=>{const _0x57b375=a0_0x4602;_0x5ca36e['sendFile'](_0x36c525[_0x57b375(0x1d6)],'https://api.lolhuman.xyz/api/sticker/dadu?apikey='+lolkeysapi,_0x57b375(0x1e3),'',_0x36c525,{'asSticker':!![]});};handler[a0_0x5c5ee6(0x1d7)]=[a0_0x5c5ee6(0x1d8),a0_0x5c5ee6(0x1e4),a0_0x5c5ee6(0x1df)];function a0_0x4602(_0x386471,_0x217be3){const _0x3b32b5=a0_0x3b32();return a0_0x4602=function(_0x46028f,_0x4f18c1){_0x46028f=_0x46028f-0x1d6;let _0x1de9a2=_0x3b32b5[_0x46028f];return _0x1de9a2;},a0_0x4602(_0x386471,_0x217be3);}export default handler;function a0_0x3b32(){const _0x2c4e31=['error.webp','dados','2748MCjecA','141oOFZXk','1693610xXUkcK','chat','command','dado','4044JahaEj','450100ioCAck','378GDTKCL','2BUeXCW','243882GuwTne','27643gYxxIZ','dadu','153qUuxak','15016xWJGvr','15895fVlbtQ'];a0_0x3b32=function(){return _0x2c4e31;};return a0_0x3b32();}

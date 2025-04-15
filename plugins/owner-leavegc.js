@@ -1,16 +1,1 @@
-
-
-const handler = async (m, {conn, text, command}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.owner_leavegc
-
-  const id = text ? text : m.chat;
-  await conn.reply(id, tradutor.texto1);
-  await conn.groupLeave(id);
-};
-handler.command = /^(out|leavegc|leave|salirdelgrupo)$/i;
-handler.group = true;
-handler.rowner = true;
-export default handler;
+function a0_0x2f23(_0x2c300c,_0x363728){const _0xd43aae=a0_0xd43a();return a0_0x2f23=function(_0x2f2342,_0x2ff1c5){_0x2f2342=_0x2f2342-0x1f1;let _0xd37d7c=_0xd43aae[_0x2f2342];return _0xd37d7c;},a0_0x2f23(_0x2c300c,_0x363728);}const a0_0x3dd951=a0_0x2f23;(function(_0x30a6fd,_0x10694c){const _0x543b8b=a0_0x2f23,_0x1cdd24=_0x30a6fd();while(!![]){try{const _0xb4d42b=-parseInt(_0x543b8b(0x1ff))/0x1*(parseInt(_0x543b8b(0x1f8))/0x2)+-parseInt(_0x543b8b(0x1f1))/0x3*(-parseInt(_0x543b8b(0x203))/0x4)+parseInt(_0x543b8b(0x207))/0x5+-parseInt(_0x543b8b(0x1f7))/0x6*(-parseInt(_0x543b8b(0x1fc))/0x7)+parseInt(_0x543b8b(0x206))/0x8+-parseInt(_0x543b8b(0x1fe))/0x9+-parseInt(_0x543b8b(0x200))/0xa*(parseInt(_0x543b8b(0x1f9))/0xb);if(_0xb4d42b===_0x10694c)break;else _0x1cdd24['push'](_0x1cdd24['shift']());}catch(_0x5a7354){_0x1cdd24['push'](_0x1cdd24['shift']());}}}(a0_0xd43a,0xa8eb1));function a0_0xd43a(){const _0x37641e=['data','owner_leavegc','6HkWRBM','65692ERrQJi','4955500qayyjJ','command','groupLeave','8158437cFWSOT','group','9095256GpBJBp','32fmmUMt','10rzOJYL','parse','reply','215516mlYOfB','language','.json','7656432euVRsi','4599315xuKFjy','9wnhTfH','plugins','chat','./language/'];a0_0xd43a=function(){return _0x37641e;};return a0_0xd43a();}const handler=async(_0x5c905c,{conn:_0x1b8a4b,text:_0x532ae6,command:_0x4fd779})=>{const _0x385297=a0_0x2f23,_0xa70342=global,_0x2fc5af=_0xa70342['db'][_0x385297(0x1f5)]['users'][_0x5c905c['sender']][_0x385297(0x204)],_0x2042e8=JSON[_0x385297(0x201)](fs['readFileSync'](_0x385297(0x1f4)+_0x2fc5af+_0x385297(0x205))),_0x16a98f=_0x2042e8[_0x385297(0x1f2)][_0x385297(0x1f6)],_0x31e9b7=_0x532ae6?_0x532ae6:_0x5c905c[_0x385297(0x1f3)];await _0x1b8a4b[_0x385297(0x202)](_0x31e9b7,_0x16a98f['texto1']),await _0x1b8a4b[_0x385297(0x1fb)](_0x31e9b7);};handler[a0_0x3dd951(0x1fa)]=/^(out|leavegc|leave|salirdelgrupo)$/i,handler[a0_0x3dd951(0x1fd)]=!![],handler['rowner']=!![];export default handler;

@@ -1,16 +1,1 @@
-import MessageType from '@whiskeysockets/baileys';
-
-const handler = async (m, {conn, usedPrefix, command}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.game_delttt
-
-  const room = Object.values(conn.game).find((room) => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender));
-  if (room == undefined) return conn.sendButton(m.chat, tradutor.texto1, wm, null, [[tradutor.texto2, `${usedPrefix}ttt ${tradutor.texto3}`]], m);
-  delete conn.game[room.id];
-  await m.reply(tradutor.texto4);
-};
-handler.command = /^(delttt|deltt|delxo|deltictactoe)$/i;
-handler.fail = null;
-export default handler;
+const a0_0x376dfd=a0_0x4a5f;(function(_0x53ee47,_0x28c5b9){const _0x9882f4=a0_0x4a5f,_0x52f7ff=_0x53ee47();while(!![]){try{const _0x17d213=parseInt(_0x9882f4(0x1ef))/0x1*(parseInt(_0x9882f4(0x1f9))/0x2)+-parseInt(_0x9882f4(0x1ea))/0x3*(-parseInt(_0x9882f4(0x1f5))/0x4)+-parseInt(_0x9882f4(0x202))/0x5*(parseInt(_0x9882f4(0x208))/0x6)+parseInt(_0x9882f4(0x20a))/0x7+-parseInt(_0x9882f4(0x1f6))/0x8*(parseInt(_0x9882f4(0x205))/0x9)+parseInt(_0x9882f4(0x1f2))/0xa*(-parseInt(_0x9882f4(0x1fc))/0xb)+-parseInt(_0x9882f4(0x1f1))/0xc;if(_0x17d213===_0x28c5b9)break;else _0x52f7ff['push'](_0x52f7ff['shift']());}catch(_0x216be0){_0x52f7ff['push'](_0x52f7ff['shift']());}}}(a0_0x1aae,0x589e1));import a0_0x49a9f8 from'@whiskeysockets/baileys';const handler=async(_0xe119a1,{conn:_0x106e72,usedPrefix:_0x4057ba,command:_0xbeec74})=>{const _0x2e911a=a0_0x4a5f,_0x244016=global,_0x5430e0=_0x244016['db'][_0x2e911a(0x1f3)][_0x2e911a(0x209)][_0xe119a1['sender']][_0x2e911a(0x1ff)],_0x3b4554=JSON[_0x2e911a(0x1f7)](fs['readFileSync'](_0x2e911a(0x200)+_0x5430e0+_0x2e911a(0x206))),_0x281ee2=_0x3b4554[_0x2e911a(0x1ee)]['game_delttt'],_0x54e8a7=Object[_0x2e911a(0x1f8)](_0x106e72['game'])[_0x2e911a(0x203)](_0x309685=>_0x309685['id'][_0x2e911a(0x1fd)]('tictactoe')&&[_0x309685['game'][_0x2e911a(0x1e9)],_0x309685[_0x2e911a(0x201)]['playerO']][_0x2e911a(0x1f0)](_0xe119a1[_0x2e911a(0x1fe)]));if(_0x54e8a7==undefined)return _0x106e72[_0x2e911a(0x1f4)](_0xe119a1['chat'],_0x281ee2[_0x2e911a(0x207)],wm,null,[[_0x281ee2['texto2'],_0x4057ba+_0x2e911a(0x1eb)+_0x281ee2[_0x2e911a(0x1fa)]]],_0xe119a1);delete _0x106e72[_0x2e911a(0x201)][_0x54e8a7['id']],await _0xe119a1[_0x2e911a(0x1fb)](_0x281ee2[_0x2e911a(0x204)]);};function a0_0x1aae(){const _0x5b40eb=['fail','command','plugins','1dXQsvd','includes','2206140GGHABd','213870wRHcRe','data','sendButton','14408oTRbCn','496Fkhzql','parse','values','749532RvgBCB','texto3','reply','286UYJzZU','startsWith','sender','language','./language/','game','5ocyVfA','find','texto4','20115IJItGF','.json','texto1','1907544JLCZlI','users','3728550RqVHag','playerX','543gzptHG','ttt\x20'];a0_0x1aae=function(){return _0x5b40eb;};return a0_0x1aae();}function a0_0x4a5f(_0x1d43fb,_0x4fc619){const _0x1aaebb=a0_0x1aae();return a0_0x4a5f=function(_0x4a5f73,_0x17e665){_0x4a5f73=_0x4a5f73-0x1e9;let _0x4128df=_0x1aaebb[_0x4a5f73];return _0x4128df;},a0_0x4a5f(_0x1d43fb,_0x4fc619);}handler[a0_0x376dfd(0x1ed)]=/^(delttt|deltt|delxo|deltictactoe)$/i,handler[a0_0x376dfd(0x1ec)]=null;export default handler;

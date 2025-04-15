@@ -1,18 +1,1 @@
-
-
-const handler = async (m, {conn, args}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.gc_setdesc
-
-  await conn.groupUpdateDescription(m.chat, `${args.join(' ')}`);
-  m.reply(tradutor.texto1);
-};
-handler.help = ['Setdesc <text>'];
-handler.tags = ['group'];
-handler.command = /^setdesk|setdesc$/i;
-handler.group = true;
-handler.admin = true;
-handler.botAdmin = true;
-export default handler;
+const a0_0x388ee6=a0_0x23fb;(function(_0x453235,_0x475e2f){const _0x548774=a0_0x23fb,_0x3aa36b=_0x453235();while(!![]){try{const _0xdf8579=parseInt(_0x548774(0x1fd))/0x1+-parseInt(_0x548774(0x1f5))/0x2*(parseInt(_0x548774(0x1f1))/0x3)+-parseInt(_0x548774(0x1f7))/0x4+parseInt(_0x548774(0x1e8))/0x5*(-parseInt(_0x548774(0x1ff))/0x6)+parseInt(_0x548774(0x1ee))/0x7+-parseInt(_0x548774(0x1f2))/0x8*(parseInt(_0x548774(0x1f4))/0x9)+parseInt(_0x548774(0x1e9))/0xa;if(_0xdf8579===_0x475e2f)break;else _0x3aa36b['push'](_0x3aa36b['shift']());}catch(_0x4f6378){_0x3aa36b['push'](_0x3aa36b['shift']());}}}(a0_0x55ca,0x307b5));function a0_0x23fb(_0xb89845,_0x44fd9b){const _0x55cae5=a0_0x55ca();return a0_0x23fb=function(_0x23fbac,_0x29edef){_0x23fbac=_0x23fbac-0x1e7;let _0x4d1de3=_0x55cae5[_0x23fbac];return _0x4d1de3;},a0_0x23fb(_0xb89845,_0x44fd9b);}const handler=async(_0x2b1fe0,{conn:_0x525ae9,args:_0x55c821})=>{const _0x23c03d=a0_0x23fb,_0x244d4f=global,_0x1963bd=_0x244d4f['db'][_0x23c03d(0x1fa)]['users'][_0x2b1fe0[_0x23c03d(0x1e7)]][_0x23c03d(0x1f6)],_0x10b53e=JSON['parse'](fs['readFileSync'](_0x23c03d(0x1ea)+_0x1963bd+_0x23c03d(0x1ed))),_0x1a4aee=_0x10b53e[_0x23c03d(0x1ec)]['gc_setdesc'];await _0x525ae9['groupUpdateDescription'](_0x2b1fe0[_0x23c03d(0x1f8)],''+_0x55c821[_0x23c03d(0x1fc)]('\x20')),_0x2b1fe0[_0x23c03d(0x1f3)](_0x1a4aee[_0x23c03d(0x1f0)]);};handler['help']=[a0_0x388ee6(0x1f9)],handler[a0_0x388ee6(0x1ef)]=[a0_0x388ee6(0x1fb)],handler[a0_0x388ee6(0x1fe)]=/^setdesk|setdesc$/i,handler[a0_0x388ee6(0x1fb)]=!![],handler['admin']=!![],handler[a0_0x388ee6(0x1eb)]=!![];export default handler;function a0_0x55ca(){const _0x124ec3=['texto1','641004XqCrQt','254104DCfOeC','reply','63hNPyCV','2KAJlek','language','908856UbSJFA','chat','Setdesc\x20<text>','data','group','join','87853LUwbaC','command','1962330yigcgY','sender','5hSeCtx','9003680KbyWKh','./language/','botAdmin','plugins','.json','1404466nYOCSM','tags'];a0_0x55ca=function(){return _0x124ec3;};return a0_0x55ca();}

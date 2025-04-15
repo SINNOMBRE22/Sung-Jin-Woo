@@ -1,15 +1,1 @@
-
-const handler = async (m) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.owner_banchat
-
-  global.db.data.chats[m.chat].isBanned = true;
-  m.reply(tradutor.texto1);
-};
-handler.help = ['banchat'];
-handler.tags = ['owner'];
-handler.command = /^banchat$/i;
-handler.rowner = true;
-export default handler;
+function a0_0x2067(_0x57e588,_0x41afa5){const _0x1bec76=a0_0x1bec();return a0_0x2067=function(_0x206701,_0x3a72b8){_0x206701=_0x206701-0x1d2;let _0x338c2d=_0x1bec76[_0x206701];return _0x338c2d;},a0_0x2067(_0x57e588,_0x41afa5);}function a0_0x1bec(){const _0x5e87f6=['language','376inRqfW','2384285qIUnxx','owner','rowner','users','data','texto1','isBanned','readFileSync','banchat','chats','parse','32641dKlTbe','3096848NMmSjN','70fPTCnn','plugins','4862112MUvYzL','1220316GUEare','27sTQheP','103238lzmDgl','command','2961999TudakK','sender','.json'];a0_0x1bec=function(){return _0x5e87f6;};return a0_0x1bec();}const a0_0x1808b8=a0_0x2067;(function(_0xdf7527,_0x5cf64f){const _0x5e826e=a0_0x2067,_0x4f3018=_0xdf7527();while(!![]){try{const _0x3d9d17=parseInt(_0x5e826e(0x1e5))/0x1+parseInt(_0x5e826e(0x1e7))/0x2*(parseInt(_0x5e826e(0x1e6))/0x3)+parseInt(_0x5e826e(0x1e1))/0x4+-parseInt(_0x5e826e(0x1d5))/0x5+parseInt(_0x5e826e(0x1e4))/0x6+parseInt(_0x5e826e(0x1e0))/0x7*(parseInt(_0x5e826e(0x1d4))/0x8)+parseInt(_0x5e826e(0x1e9))/0x9*(-parseInt(_0x5e826e(0x1e2))/0xa);if(_0x3d9d17===_0x5cf64f)break;else _0x4f3018['push'](_0x4f3018['shift']());}catch(_0x56e948){_0x4f3018['push'](_0x4f3018['shift']());}}}(a0_0x1bec,0xacd8a));const handler=async _0x29e969=>{const _0x32c635=a0_0x2067,_0x5a2467=global,_0x36baab=_0x5a2467['db'][_0x32c635(0x1d9)][_0x32c635(0x1d8)][_0x29e969[_0x32c635(0x1ea)]][_0x32c635(0x1d3)],_0x67c0bc=JSON[_0x32c635(0x1df)](fs[_0x32c635(0x1dc)]('./language/'+_0x36baab+_0x32c635(0x1d2))),_0x3076eb=_0x67c0bc[_0x32c635(0x1e3)]['owner_banchat'];global['db'][_0x32c635(0x1d9)][_0x32c635(0x1de)][_0x29e969['chat']][_0x32c635(0x1db)]=!![],_0x29e969['reply'](_0x3076eb[_0x32c635(0x1da)]);};handler['help']=[a0_0x1808b8(0x1dd)],handler['tags']=[a0_0x1808b8(0x1d6)],handler[a0_0x1808b8(0x1e8)]=/^banchat$/i,handler[a0_0x1808b8(0x1d7)]=!![];export default handler;

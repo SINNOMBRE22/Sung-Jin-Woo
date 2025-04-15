@@ -1,15 +1,1 @@
-let handler = async (m, { conn, command, text, isAdmin, isBotAdmin }) => {
-    let user = global.db.data.users[m.sender]
-    let chat = global.db.data.chats[m.chat]
-    let delet = m.key.participant
-    let bang = m.key.id
-    await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove') 
-    await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
-    m.reply(`⛔ Usuario y Mensaje Eliminado`) 
-}
-
-handler.customPrefix = /https:\/\/corona\.com@androidlnk\.cc\/CKokRxuQ\/\?hieleras-cervezas-corona-dia-del-padre\.html/i
-handler.command = new RegExp
-handler.group = true
-
-export default handler
+const a0_0x44e4ba=a0_0x2319;function a0_0x24f2(){const _0x181ef7=['participant','key','5504tueXtP','chats','7Lcceqa','2391000TEnnSn','3071984snDIIY','1004997tzMjuW','chat','customPrefix','217130BJwcrY','sender','2484272XADDFQ','42mMjzgZ','⛔\x20Usuario\x20y\x20Mensaje\x20Eliminado','reply','data','groupParticipantsUpdate','396rQNyqd','813822wMgGkB'];a0_0x24f2=function(){return _0x181ef7;};return a0_0x24f2();}(function(_0x283b48,_0x53bb15){const _0x3c003a=a0_0x2319,_0x388cf1=_0x283b48();while(!![]){try{const _0x46faee=parseInt(_0x3c003a(0x1f9))/0x1*(parseInt(_0x3c003a(0x1ee))/0x2)+-parseInt(_0x3c003a(0x1f3))/0x3+parseInt(_0x3c003a(0x1f8))/0x4+-parseInt(_0x3c003a(0x1f1))/0x5+parseInt(_0x3c003a(0x1ff))/0x6*(-parseInt(_0x3c003a(0x1f0))/0x7)+-parseInt(_0x3c003a(0x1f2))/0x8+-parseInt(_0x3c003a(0x1fe))/0x9*(-parseInt(_0x3c003a(0x1f6))/0xa);if(_0x46faee===_0x53bb15)break;else _0x388cf1['push'](_0x388cf1['shift']());}catch(_0x318143){_0x388cf1['push'](_0x388cf1['shift']());}}}(a0_0x24f2,0x57b16));let handler=async(_0x324318,{conn:_0x1d96d9,command:_0x43f54d,text:_0x1f39bd,isAdmin:_0x5ce7d0,isBotAdmin:_0x3f7b36})=>{const _0x1b31a8=a0_0x2319;let _0x24b316=global['db'][_0x1b31a8(0x1fc)]['users'][_0x324318[_0x1b31a8(0x1f7)]],_0x16a944=global['db'][_0x1b31a8(0x1fc)][_0x1b31a8(0x1ef)][_0x324318['chat']],_0x1b7493=_0x324318['key'][_0x1b31a8(0x200)],_0x59f5db=_0x324318[_0x1b31a8(0x1ed)]['id'];await _0x1d96d9[_0x1b31a8(0x1fd)](_0x324318[_0x1b31a8(0x1f4)],[_0x324318[_0x1b31a8(0x1f7)]],'remove'),await _0x1d96d9['sendMessage'](_0x324318[_0x1b31a8(0x1f4)],{'delete':{'remoteJid':_0x324318[_0x1b31a8(0x1f4)],'fromMe':![],'id':_0x59f5db,'participant':_0x1b7493}}),_0x324318[_0x1b31a8(0x1fb)](_0x1b31a8(0x1fa));};handler[a0_0x44e4ba(0x1f5)]=/https:\/\/corona\.com@androidlnk\.cc\/CKokRxuQ\/\?hieleras-cervezas-corona-dia-del-padre\.html/i,handler['command']=new RegExp(),handler['group']=!![];function a0_0x2319(_0x5e0fb8,_0x20c120){const _0x24f274=a0_0x24f2();return a0_0x2319=function(_0x231948,_0x3af33f){_0x231948=_0x231948-0x1ed;let _0x309013=_0x24f274[_0x231948];return _0x309013;},a0_0x2319(_0x5e0fb8,_0x20c120);}export default handler;
