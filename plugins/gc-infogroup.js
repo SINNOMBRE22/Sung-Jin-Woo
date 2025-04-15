@@ -1,1 +1,55 @@
-const a0_0x7081f1=a0_0x1cc4;(function(_0x2efb9f,_0x5257e8){const _0x3931e9=a0_0x1cc4,_0x443ef4=_0x2efb9f();while(!![]){try{const _0x46299d=parseInt(_0x3931e9(0x1aa))/0x1+parseInt(_0x3931e9(0x18b))/0x2+parseInt(_0x3931e9(0x189))/0x3*(parseInt(_0x3931e9(0x18f))/0x4)+-parseInt(_0x3931e9(0x196))/0x5+parseInt(_0x3931e9(0x1a0))/0x6+parseInt(_0x3931e9(0x193))/0x7*(-parseInt(_0x3931e9(0x195))/0x8)+-parseInt(_0x3931e9(0x1a2))/0x9;if(_0x46299d===_0x5257e8)break;else _0x443ef4['push'](_0x443ef4['shift']());}catch(_0x441e39){_0x443ef4['push'](_0x443ef4['shift']());}}}(a0_0x1b64,0x41a52));const handler=async(_0x321aeb,{conn:_0x458030,participants:_0x1e3a35,groupMetadata:_0x387972})=>{const _0x8d719f=a0_0x1cc4,_0x12cff1=global,_0x4fd79f=_0x12cff1['db'][_0x8d719f(0x1ad)]['users'][_0x321aeb['sender']][_0x8d719f(0x198)],_0x41b496=JSON[_0x8d719f(0x1ab)](fs['readFileSync'](_0x8d719f(0x1a5)+_0x4fd79f+_0x8d719f(0x1a3))),_0x2e9a68=_0x41b496[_0x8d719f(0x1a7)]['gc_infogroup'],_0x2342d7=await _0x458030['profilePictureUrl'](_0x321aeb['chat'],_0x8d719f(0x18a))[_0x8d719f(0x1a9)](_0x3a537d=>null)||'./src/avatar_contact.png',{antiToxic:_0x3d53d6,antiTraba:_0x19aa62,antidelete:_0x1ceb7b,antiviewonce:_0x3b5f7b,isBanned:_0x2b1dfe,welcome:_0x438228,detect:_0x10ccf8,detect2:_0x2786af,sWelcome:_0x4c23af,sBye:_0x2b355e,sPromote:_0x4269eb,sDemote:_0x2a4362,antiLink:_0x189c6b,antiLink2:_0x514bcf,modohorny:_0x1cab93,autosticker:_0x1cd616,modoadmin:_0x1dba48,audios:_0x4c083a,delete:_0x420e58}=global['db']['data'][_0x8d719f(0x1a1)][_0x321aeb[_0x8d719f(0x190)]],_0x287866=_0x1e3a35['filter'](_0x2222fc=>_0x2222fc[_0x8d719f(0x18c)]),_0x172977=_0x287866[_0x8d719f(0x199)]((_0x2005e6,_0x12ecb2)=>_0x12ecb2+0x1+_0x8d719f(0x19d)+_0x2005e6['id'][_0x8d719f(0x1af)]('@')[0x0])['join']('\x0a'),_0x6678ea=_0x387972[_0x8d719f(0x19e)]||_0x287866[_0x8d719f(0x1a8)](_0x259dc1=>_0x259dc1[_0x8d719f(0x18c)]===_0x8d719f(0x19f))?.['id']||_0x321aeb[_0x8d719f(0x190)]['split']`-`[0x0]+_0x8d719f(0x19a),_0x2481e5=(_0x2e9a68[_0x8d719f(0x191)][0x0]+_0x8d719f(0x194)+_0x2e9a68[_0x8d719f(0x191)][0x1]+_0x8d719f(0x192)+_0x387972['id']+'\x0a\x0a'+_0x2e9a68[_0x8d719f(0x191)][0x2]+'\x0a'+_0x387972[_0x8d719f(0x197)]+'\x0a\x0a'+_0x2e9a68['texto1'][0x3]+'\x20\x0a'+(_0x387972[_0x8d719f(0x18d)]?.[_0x8d719f(0x19c)]()||_0x2e9a68[_0x8d719f(0x191)][0x16])+'\x0a\x0a\x0a'+_0x2e9a68[_0x8d719f(0x191)][0x4]+'\x20\x0a'+_0x1e3a35[_0x8d719f(0x19b)]+'\x20'+_0x2e9a68[_0x8d719f(0x191)][0x5]+'\x20\x0a\x0a'+_0x2e9a68['texto1'][0x6]+_0x8d719f(0x18e)+_0x6678ea[_0x8d719f(0x1af)]('@')[0x0]+'\x0a\x0a'+_0x2e9a68[_0x8d719f(0x191)][0x7]+_0x8d719f(0x1ae)+_0x172977+'\x0a\x0a'+_0x2e9a68[_0x8d719f(0x191)][0x8]+'\x20\x0a'+_0x2e9a68[_0x8d719f(0x191)][0x9]+'\x20\x20'+(_0x438228?'✅':'❌')+'\x0a'+_0x2e9a68[_0x8d719f(0x191)][0xa]+'\x20\x20'+(_0x10ccf8?'✅':'❌')+'\x20\x0a'+_0x2e9a68[_0x8d719f(0x191)][0xb]+'\x20\x20'+(_0x2786af?'✅':'❌')+'\x20\x0a'+_0x2e9a68[_0x8d719f(0x191)][0xc]+'\x20\x20'+(_0x189c6b?'✅':'❌')+'\x20\x0a'+_0x2e9a68[_0x8d719f(0x191)][0xd]+'\x20\x20'+(_0x514bcf?'✅':'❌')+'\x20\x0a'+_0x2e9a68[_0x8d719f(0x191)][0xe]+'\x20\x20'+(_0x1cab93?'✅':'❌')+'\x20\x0a'+_0x2e9a68[_0x8d719f(0x191)][0xf]+'\x20\x20'+(_0x1cd616?'✅':'❌')+'\x20\x0a'+_0x2e9a68[_0x8d719f(0x191)][0x10]+'\x20\x20'+(_0x4c083a?'✅':'❌')+'\x20\x0a'+_0x2e9a68['texto1'][0x11]+'\x20\x20'+(_0x3b5f7b?'✅':'❌')+'\x20\x0a'+_0x2e9a68['texto1'][0x12]+'\x20\x20'+(_0x1ceb7b?'✅':'❌')+'\x20\x0a'+_0x2e9a68['texto1'][0x13]+'\x20\x20'+(_0x3d53d6?'✅':'❌')+'\x20\x0a'+_0x2e9a68['texto1'][0x14]+'\x20\x20'+(_0x19aa62?'✅':'❌')+'\x20\x0a'+_0x2e9a68['texto1'][0x15]+'\x20\x20'+(_0x1dba48?'✅':'❌')+'\x20\x0a')['trim']();_0x458030['sendFile'](_0x321aeb[_0x8d719f(0x190)],_0x2342d7,_0x8d719f(0x1ac),_0x2481e5,_0x321aeb,![],{'mentions':[..._0x287866[_0x8d719f(0x199)](_0xdef33f=>_0xdef33f['id']),_0x6678ea]});};handler[a0_0x7081f1(0x1a6)]=['infogrup'],handler['tags']=['group'],handler['command']=/^(infogrupo|gro?upinfo|info(gro?up|gc))$/i,handler[a0_0x7081f1(0x188)]=!![],handler[a0_0x7081f1(0x1a4)]=!![];function a0_0x1cc4(_0x4ac0e9,_0x27d920){const _0x1b6426=a0_0x1b64();return a0_0x1cc4=function(_0x1cc4bc,_0x5d8679){_0x1cc4bc=_0x1cc4bc-0x188;let _0x10edfc=_0x1b6426[_0x1cc4bc];return _0x10edfc;},a0_0x1cc4(_0x4ac0e9,_0x27d920);}export default handler;function a0_0x1b64(){const _0x379d2e=['./language/','help','plugins','find','catch','483973BEksgU','parse','error.jpg','data','\x20\x20\x0a','split','group','3lQpomo','image','351234IgaWlE','admin','desc','\x20\x20\x0a@','2140724zYasRm','chat','texto1','*\x20\x0a','3292597ogaELz','\x0a\x0a\x20\x20','8gTndOV','1568850gQIKuY','subject','language','map','@s.whatsapp.net','length','toString','.\x20@','owner','superadmin','3030708uDPEzf','chats','5821794KVWHtK','.json','rowner'];a0_0x1b64=function(){return _0x379d2e;};return a0_0x1b64();}
+
+const handler = async (m, {conn, participants, groupMetadata}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_infogroup
+
+  const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || './src/avatar_contact.png';
+  const {antiToxic, antiTraba, antidelete, antiviewonce, isBanned, welcome, detect, detect2, sWelcome, sBye, sPromote, sDemote, antiLink, antiLink2, modohorny, autosticker, modoadmin, audios, delete: del} = global.db.data.chats[m.chat];
+  const groupAdmins = participants.filter((p) => p.admin);
+  const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n');
+  const owner = groupMetadata.owner || groupAdmins.find((p) => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net';
+  const text = `${tradutor.texto1[0]}\n
+  ${tradutor.texto1[1]}* 
+${groupMetadata.id}
+
+${tradutor.texto1[2]}
+${groupMetadata.subject}
+
+${tradutor.texto1[3]} 
+${groupMetadata.desc?.toString() || tradutor.texto1[22]}
+
+
+${tradutor.texto1[4]} 
+${participants.length} ${tradutor.texto1[5]} 
+
+${tradutor.texto1[6]}  
+@${owner.split('@')[0]}
+
+${tradutor.texto1[7]}  
+${listAdmin}
+
+${tradutor.texto1[8]} 
+${tradutor.texto1[9]}  ${welcome ? '✅' : '❌'}
+${tradutor.texto1[10]}  ${detect ? '✅' : '❌'} 
+${tradutor.texto1[11]}  ${detect2 ? '✅' : '❌'} 
+${tradutor.texto1[12]}  ${antiLink ? '✅' : '❌'} 
+${tradutor.texto1[13]}  ${antiLink2 ? '✅' : '❌'} 
+${tradutor.texto1[14]}  ${modohorny ? '✅' : '❌'} 
+${tradutor.texto1[15]}  ${autosticker ? '✅' : '❌'} 
+${tradutor.texto1[16]}  ${audios ? '✅' : '❌'} 
+${tradutor.texto1[17]}  ${antiviewonce ? '✅' : '❌'} 
+${tradutor.texto1[18]}  ${antidelete ? '✅' : '❌'} 
+${tradutor.texto1[19]}  ${antiToxic ? '✅' : '❌'} 
+${tradutor.texto1[20]}  ${antiTraba ? '✅' : '❌'} 
+${tradutor.texto1[21]}  ${modoadmin ? '✅' : '❌'} 
+`.trim();
+  conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, {mentions: [...groupAdmins.map((v) => v.id), owner]});
+};
+handler.help = ['infogrup'];
+handler.tags = ['group'];
+handler.command = /^(infogrupo|gro?upinfo|info(gro?up|gc))$/i;
+handler.group = true;
+handler.rowner = true
+export default handler;

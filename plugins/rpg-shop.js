@@ -1,1 +1,29 @@
-const a0_0x3f0491=a0_0x163f;(function(_0x6f4eb7,_0x235de9){const _0x5e22bb=a0_0x163f,_0x668e75=_0x6f4eb7();while(!![]){try{const _0x1639c0=-parseInt(_0x5e22bb(0x19b))/0x1*(-parseInt(_0x5e22bb(0x1b2))/0x2)+-parseInt(_0x5e22bb(0x1a0))/0x3+parseInt(_0x5e22bb(0x19c))/0x4+-parseInt(_0x5e22bb(0x19f))/0x5*(parseInt(_0x5e22bb(0x1bc))/0x6)+-parseInt(_0x5e22bb(0x1a6))/0x7*(parseInt(_0x5e22bb(0x1b9))/0x8)+-parseInt(_0x5e22bb(0x1ae))/0x9+-parseInt(_0x5e22bb(0x19e))/0xa*(-parseInt(_0x5e22bb(0x1b7))/0xb);if(_0x1639c0===_0x235de9)break;else _0x668e75['push'](_0x668e75['shift']());}catch(_0x6baf4d){_0x668e75['push'](_0x668e75['shift']());}}}(a0_0x4323,0x8cff8));function a0_0x4323(){const _0x5c1abf=['readFileSync','users','disabled','tags','35oXYPxV','buyall','max','plugins','help','\x20:\x20+\x20','buy','texto1','6824871EruqVE','floor','.json','limit','1269058cvguZv','exp','\x20XP\x0a','Buyall','parse','11gbgvUd','reply','1683184dSsoXt','chat','./language/','6YuuQvm','sender','data','replace','1kKxZyH','1887264zWnuCq','group','16756970dUtAWi','1195710IhjPcc','465189pGksAl','Buy'];a0_0x4323=function(){return _0x5c1abf;};return a0_0x4323();}function a0_0x163f(_0x47bb1e,_0x270d57){const _0x4323a4=a0_0x4323();return a0_0x163f=function(_0x163fb4,_0x1b865a){_0x163fb4=_0x163fb4-0x19a;let _0xb4395e=_0x4323a4[_0x163fb4];return _0xb4395e;},a0_0x163f(_0x47bb1e,_0x270d57);}const xpperlimit=0x15e,handler=async(_0x2e0631,{conn:_0x120b78,command:_0x44f45e,args:_0x585e98})=>{const _0xf8ac2c=a0_0x163f,_0x56819a=global,_0x4906a6=_0x56819a['db']['data'][_0xf8ac2c(0x1a3)][_0x2e0631[_0xf8ac2c(0x1bd)]]['language'],_0x45812e=JSON[_0xf8ac2c(0x1b6)](fs[_0xf8ac2c(0x1a2)](_0xf8ac2c(0x1bb)+_0x4906a6+_0xf8ac2c(0x1b0))),_0x32c07a=_0x45812e[_0xf8ac2c(0x1a9)]['rpg_shop'];let _0x543911=_0x44f45e[_0xf8ac2c(0x19a)](/^buy/i,'');_0x543911=_0x543911?/all/i['test'](_0x543911)?Math[_0xf8ac2c(0x1af)](global['db']['data']['users'][_0x2e0631[_0xf8ac2c(0x1bd)]][_0xf8ac2c(0x1b3)]/xpperlimit):parseInt(_0x543911):_0x585e98[0x0]?parseInt(_0x585e98[0x0]):0x1,_0x543911=Math[_0xf8ac2c(0x1a8)](0x1,_0x543911);if(global['db'][_0xf8ac2c(0x1be)]['users'][_0x2e0631['sender']][_0xf8ac2c(0x1b3)]>=xpperlimit*_0x543911)global['db'][_0xf8ac2c(0x1be)]['users'][_0x2e0631[_0xf8ac2c(0x1bd)]][_0xf8ac2c(0x1b3)]-=xpperlimit*_0x543911,global['db'][_0xf8ac2c(0x1be)][_0xf8ac2c(0x1a3)][_0x2e0631[_0xf8ac2c(0x1bd)]][_0xf8ac2c(0x1b1)]+=_0x543911,_0x120b78[_0xf8ac2c(0x1b8)](_0x2e0631[_0xf8ac2c(0x1ba)],'\x0a'+_0x32c07a[_0xf8ac2c(0x1ad)][0x0]+'\x0a'+_0x32c07a[_0xf8ac2c(0x1ad)][0x1]+_0xf8ac2c(0x1ab)+_0x543911+'💎\x20\x0a'+_0x32c07a[_0xf8ac2c(0x1ad)][0x2]+'\x20-'+xpperlimit*_0x543911+_0xf8ac2c(0x1b4)+_0x32c07a[_0xf8ac2c(0x1ad)][0x3],_0x2e0631);else _0x120b78[_0xf8ac2c(0x1b8)](_0x2e0631[_0xf8ac2c(0x1ba)],_0x32c07a['texto2']+'\x20*'+_0x543911+'*\x20'+_0x32c07a['texto3'],_0x2e0631);};handler[a0_0x3f0491(0x1aa)]=[a0_0x3f0491(0x1a1),a0_0x3f0491(0x1b5)],handler[a0_0x3f0491(0x1a5)]=['xp'],handler['command']=[a0_0x3f0491(0x1ac),a0_0x3f0491(0x1a7)],handler[a0_0x3f0491(0x19d)]=!![],handler[a0_0x3f0491(0x1a4)]=![];export default handler;
+
+
+const xpperlimit = 350;
+const handler = async (m, {conn, command, args}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_shop
+
+  let count = command.replace(/^buy/i, '');
+  count = count ? /all/i.test(count) ? Math.floor(global.db.data.users[m.sender].exp / xpperlimit) : parseInt(count) : args[0] ? parseInt(args[0]) : 1;
+  count = Math.max(1, count);
+  if (global.db.data.users[m.sender].exp >= xpperlimit * count) {
+    global.db.data.users[m.sender].exp -= xpperlimit * count;
+    global.db.data.users[m.sender].limit += count;
+    conn.reply(m.chat, `
+${tradutor.texto1[0]}
+${tradutor.texto1[1]} : + ${count}💎 
+${tradutor.texto1[2]} -${xpperlimit * count} XP
+${tradutor.texto1[3]}`, m);
+  } else conn.reply(m.chat, `${tradutor.texto2} *${count}* ${tradutor.texto3}`, m);
+};
+handler.help = ['Buy', 'Buyall'];
+handler.tags = ['xp'];
+handler.command = ['buy', 'buyall'];
+handler.group = true
+handler.disabled = false;
+
+export default handler;

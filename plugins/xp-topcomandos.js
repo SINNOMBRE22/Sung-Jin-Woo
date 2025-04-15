@@ -1,1 +1,50 @@
-function a0_0x3f69(){const _0x3e11ce=['some','fail','168nPCbOk','\x0a*<\x20TOP\x20USUARIOS\x20CON\x20MÁS\x20COMANDOS\x20USADOS💻\x20/>*\x0a\x0a▢\x20*TOP\x20','help','2115822wuuGDk','slice','166338SqPqge','map','2737994Wgberh','length','4FzJIrH','join','179955uRfLDp','min','3HNiqeY','289767xRjpGO','topcomandos','users','tags','*\x20de\x20*','exp','\x20USUARIOS\x20CON\x20MÁS\x20COMANDOS\x20USADOS*\x20•\x0aTú\x20:\x20*','data','split','703830deGxxo','sender','indexOf','command',')\x20wa.me/','comandos','10913400zbfAaa','jid','getName','sort','*\x0a\x0a'];a0_0x3f69=function(){return _0x3e11ce;};return a0_0x3f69();}function a0_0x25db(_0x23432c,_0x36e269){const _0x3f693b=a0_0x3f69();return a0_0x25db=function(_0x25dbe1,_0x37bb2e){_0x25dbe1=_0x25dbe1-0x1bb;let _0x2f3e05=_0x3f693b[_0x25dbe1];return _0x2f3e05;},a0_0x25db(_0x23432c,_0x36e269);}const a0_0x55a834=a0_0x25db;(function(_0xa53b6f,_0x2378d4){const _0x3f3c92=a0_0x25db,_0x4f893f=_0xa53b6f();while(!![]){try{const _0x4ec775=parseInt(_0x3f3c92(0x1ce))/0x1*(parseInt(_0x3f3c92(0x1c6))/0x2)+parseInt(_0x3f3c92(0x1cf))/0x3*(parseInt(_0x3f3c92(0x1ca))/0x4)+-parseInt(_0x3f3c92(0x1d8))/0x5+parseInt(_0x3f3c92(0x1c4))/0x6+parseInt(_0x3f3c92(0x1c8))/0x7+-parseInt(_0x3f3c92(0x1c1))/0x8*(-parseInt(_0x3f3c92(0x1cc))/0x9)+-parseInt(_0x3f3c92(0x1de))/0xa;if(_0x4ec775===_0x2378d4)break;else _0x4f893f['push'](_0x4f893f['shift']());}catch(_0x58f847){_0x4f893f['push'](_0x4f893f['shift']());}}}(a0_0x3f69,0x43ca0));let handler=async(_0x166394,{conn:_0x419171,args:_0x43cb10,participants:_0xf55e96})=>{const _0x521e99=a0_0x25db;global['db'][_0x521e99(0x1d6)][_0x521e99(0x1d1)][_0x166394[_0x521e99(0x1d9)]]['comandos']+=0x1;let _0x511e61=Object['entries'](global['db'][_0x521e99(0x1d6)][_0x521e99(0x1d1)])[_0x521e99(0x1c7)](([_0x3b4498,_0x5f4a59])=>{return{..._0x5f4a59,'jid':_0x3b4498};}),_0x385530=_0x511e61[_0x521e99(0x1c7)](toNumber('comandos'))[_0x521e99(0x1bd)](sort(_0x521e99(0x1dd))),_0x511583=_0x385530['map'](enumGetKey),_0x13bd7d=_0x43cb10[0x0]&&_0x43cb10[0x0][_0x521e99(0x1c9)]>0x0?Math[_0x521e99(0x1cd)](0xa,Math['max'](parseInt(_0x43cb10[0x0]),0xa)):Math['min'](0xa,_0x385530[_0x521e99(0x1c9)]),_0x3bac3f=(_0x521e99(0x1c2)+_0x13bd7d+_0x521e99(0x1d5)+(_0x511583[_0x521e99(0x1da)](_0x166394[_0x521e99(0x1d9)])+0x1)+_0x521e99(0x1d3)+_0x511583[_0x521e99(0x1c9)]+_0x521e99(0x1be)+_0x385530[_0x521e99(0x1c5)](0x0,_0x13bd7d)[_0x521e99(0x1c7)](({jid:_0x346124,comandos:_0x46d7d2},_0x4396f0)=>_0x4396f0+0x1+'.\x20'+(_0xf55e96[_0x521e99(0x1bf)](_0x338b08=>_0x346124===_0x338b08[_0x521e99(0x1bb)])?'('+_0x419171[_0x521e99(0x1bc)](_0x346124)+_0x521e99(0x1dc):'@')+_0x346124[_0x521e99(0x1d7)]`@`[0x0]+'\x20*'+_0x46d7d2+'\x20Comandos*')[_0x521e99(0x1cb)]('\x0a')+'\x0a')['trim']();_0x166394['reply'](_0x3bac3f,null,{'mentions':_0x419171['parseMention'](_0x3bac3f)});};handler[a0_0x55a834(0x1c3)]=[a0_0x55a834(0x1d0)],handler[a0_0x55a834(0x1d2)]=['xp'],handler[a0_0x55a834(0x1db)]=[a0_0x55a834(0x1d0)],handler[a0_0x55a834(0x1c0)]=null,handler[a0_0x55a834(0x1d4)]=0x0;export default handler;function sort(_0x118c06,_0x1c7135=!![]){if(_0x118c06)return(..._0x36f800)=>_0x36f800[_0x1c7135&0x1][_0x118c06]-_0x36f800[!_0x1c7135&0x1][_0x118c06];else return(..._0x35718a)=>_0x35718a[_0x1c7135&0x1]-_0x35718a[!_0x1c7135&0x1];}function toNumber(_0xc19df6,_0x472d79=0x0){return _0xc19df6?(_0x33fa69,_0x137c9a,_0x41424b)=>{return{..._0x41424b[_0x137c9a],[_0xc19df6]:_0x33fa69[_0xc19df6]===undefined?_0x472d79:_0x33fa69[_0xc19df6]};}:_0x4499e2=>_0x4499e2===undefined?_0x472d79:_0x4499e2;}function enumGetKey(_0x518910){return _0x518910['jid'];}
+let handler = async (m, { conn, args, participants }) => {
+  global.db.data.users[m.sender].comandos += 1;
+  let users = Object.entries(global.db.data.users).map(([key, value]) => {
+    return { ...value, jid: key };
+  });
+
+  let sortedComandos = users.map(toNumber('comandos')).sort(sort('comandos'));
+  let usersComandos = sortedComandos.map(enumGetKey);
+
+  let len = args[0] && args[0].length > 0 ? Math.min(10, Math.max(parseInt(args[0]), 10)) : Math.min(10, sortedComandos.length);
+
+  let text = `
+*< TOP USUARIOS CON MÁS COMANDOS USADOS💻 />*
+
+▢ *TOP ${len} USUARIOS CON MÁS COMANDOS USADOS* •
+Tú : *${usersComandos.indexOf(m.sender) + 1}* de *${usersComandos.length}*
+
+${sortedComandos.slice(0, len).map(({ jid, comandos }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${comandos} Comandos*`).join('\n')}
+`.trim();
+
+  m.reply(text, null, { mentions: conn.parseMention(text) });
+};
+
+handler.help = ['topcomandos'];
+handler.tags = ['xp'];
+handler.command = ['topcomandos'];
+
+handler.fail = null;
+handler.exp = 0;
+
+export default handler;
+
+function sort(property, ascending = true) {
+  if (property) return (...args) => args[ascending & 1][property] - args[!ascending & 1][property];
+  else return (...args) => args[ascending & 1] - args[!ascending & 1];
+}
+
+function toNumber(property, _default = 0) {
+  if (property) {
+    return (a, i, b) => {
+      return { ...b[i], [property]: a[property] === undefined ? _default : a[property] };
+    };
+  } else {
+    return a => a === undefined ? _default : a;
+  }
+}
+
+function enumGetKey(a) {
+  return a.jid;
+}

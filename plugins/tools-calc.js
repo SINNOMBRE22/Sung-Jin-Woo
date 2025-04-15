@@ -1,1 +1,44 @@
-const a0_0x1d409e=a0_0x2e53;(function(_0xa4dafd,_0x2da539){const _0x3f4e27=a0_0x2e53,_0x46c28c=_0xa4dafd();while(!![]){try{const _0x3eb0e1=-parseInt(_0x3f4e27(0xd3))/0x1*(parseInt(_0x3f4e27(0xe0))/0x2)+parseInt(_0x3f4e27(0xda))/0x3+-parseInt(_0x3f4e27(0xd1))/0x4*(parseInt(_0x3f4e27(0xe3))/0x5)+parseInt(_0x3f4e27(0xe9))/0x6*(parseInt(_0x3f4e27(0xdf))/0x7)+parseInt(_0x3f4e27(0xec))/0x8+-parseInt(_0x3f4e27(0xd9))/0x9*(-parseInt(_0x3f4e27(0xdb))/0xa)+parseInt(_0x3f4e27(0xeb))/0xb;if(_0x3eb0e1===_0x2da539)break;else _0x46c28c['push'](_0x46c28c['shift']());}catch(_0x4eab9b){_0x46c28c['push'](_0x46c28c['shift']());}}}(a0_0x5354,0xc7407));function a0_0x2e53(_0x5bb048,_0xdeed28){const _0x5354ee=a0_0x5354();return a0_0x2e53=function(_0x2e5368,_0x5a23d9){_0x2e5368=_0x2e5368-0xd1;let _0x103e52=_0x5354ee[_0x2e5368];return _0x103e52;},a0_0x2e53(_0x5bb048,_0xdeed28);}const handler=async(_0x46699d,{conn:_0x1bf2fd,text:_0x524333})=>{const _0x4fa797=a0_0x2e53,_0x4d6416=global,_0x32c0bd=_0x4d6416['db'][_0x4fa797(0xe1)][_0x4fa797(0xf2)][_0x46699d[_0x4fa797(0xe8)]][_0x4fa797(0xd7)],_0x59c798=JSON[_0x4fa797(0xdc)](fs[_0x4fa797(0xed)](_0x4fa797(0xf1)+_0x32c0bd+_0x4fa797(0xf0))),_0x37c6ce=_0x59c798[_0x4fa797(0xf3)][_0x4fa797(0xe6)],_0x432885=_0x46699d[_0x4fa797(0xd5)];_0x1bf2fd[_0x4fa797(0xe4)]=_0x1bf2fd[_0x4fa797(0xe4)]?_0x1bf2fd[_0x4fa797(0xe4)]:{};_0x432885 in _0x1bf2fd[_0x4fa797(0xe4)]&&(clearTimeout(_0x1bf2fd[_0x4fa797(0xe4)][_0x432885][0x3]),delete _0x1bf2fd['math'][_0x432885],_0x46699d[_0x4fa797(0xd6)](_0x37c6ce[_0x4fa797(0xdd)]));const _0x23bc85=_0x524333[_0x4fa797(0xd2)](/[^0-9\-\/+*×÷πEe()piPI/]/g,'')['replace'](/×/g,'*')[_0x4fa797(0xd2)](/÷/g,'/')[_0x4fa797(0xd2)](/π|pi/gi,_0x4fa797(0xd8))[_0x4fa797(0xd2)](/e/gi,'Math.E')['replace'](/\/+/g,'/')['replace'](/\++/g,'+')[_0x4fa797(0xd2)](/-+/g,'-'),_0x396da4=_0x23bc85[_0x4fa797(0xd2)](/Math\.PI/g,'π')[_0x4fa797(0xd2)](/Math\.E/g,'e')[_0x4fa797(0xd2)](/\//g,'÷')[_0x4fa797(0xd2)](/\*×/g,'×');try{console['log'](_0x23bc85);const _0x3d57eb=new Function(_0x4fa797(0xee)+_0x23bc85)();if(!_0x3d57eb)throw _0x3d57eb;_0x46699d[_0x4fa797(0xd6)]('*'+_0x396da4+_0x4fa797(0xde)+_0x3d57eb+'_');}catch(_0x5752a1){if(_0x5752a1==undefined)throw _0x37c6ce[_0x4fa797(0xe7)];throw _0x37c6ce[_0x4fa797(0xef)];}};function a0_0x5354(){const _0x23d82a=['language','Math.PI','1053mToSbN','1755102ZPWXGS','46730iNqJBw','parse','texto2','*\x20=\x20_','7uICZfC','1608366wPDQCf','data','command','30ZbrWyw','math','tags','herramientas_calc','texto1','sender','449748PpvpGs','tools','6230939fjoSWU','4360256FWiYqF','readFileSync','return\x20','texto3','.json','./language/','users','plugins','465264kKlcOU','replace','1eojtrR','calc\x20<expression>','chat','reply'];a0_0x5354=function(){return _0x23d82a;};return a0_0x5354();}handler['help']=[a0_0x1d409e(0xd4)],handler[a0_0x1d409e(0xe5)]=[a0_0x1d409e(0xea)],handler[a0_0x1d409e(0xe2)]=/^(calc(ulat(e|or))?|kalk(ulator)?)$/i,handler['exp']=0x5;export default handler;
+
+
+const handler = async (m, {conn, text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.herramientas_calc
+
+  const id = m.chat;
+  conn.math = conn.math ? conn.math : {};
+  if (id in conn.math) {
+    clearTimeout(conn.math[id][3]);
+    delete conn.math[id];
+    m.reply(tradutor.texto2);
+  }
+  const val = text
+      .replace(/[^0-9\-\/+*×÷πEe()piPI/]/g, '')
+      .replace(/×/g, '*')
+      .replace(/÷/g, '/')
+      .replace(/π|pi/gi, 'Math.PI')
+      .replace(/e/gi, 'Math.E')
+      .replace(/\/+/g, '/')
+      .replace(/\++/g, '+')
+      .replace(/-+/g, '-');
+  const format = val
+      .replace(/Math\.PI/g, 'π')
+      .replace(/Math\.E/g, 'e')
+      .replace(/\//g, '÷')
+      .replace(/\*×/g, '×');
+  try {
+    console.log(val);
+    const result = (new Function('return ' + val))();
+    if (!result) throw result;
+    m.reply(`*${format}* = _${result}_`);
+  } catch (e) {
+    if (e == undefined) throw tradutor.texto1;
+    throw tradutor.texto3;
+  }
+};
+handler.help = ['calc <expression>'];
+handler.tags = ['tools'];
+handler.command = /^(calc(ulat(e|or))?|kalk(ulator)?)$/i;
+handler.exp = 5;
+export default handler;

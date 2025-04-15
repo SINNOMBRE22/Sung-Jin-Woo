@@ -1,1 +1,23 @@
-const a0_0x2f7354=a0_0x5be3;(function(_0x4b6caa,_0x4edfd4){const _0x5b5e9e=a0_0x5be3,_0x1cca8e=_0x4b6caa();while(!![]){try{const _0x3b6320=parseInt(_0x5b5e9e(0x19e))/0x1*(parseInt(_0x5b5e9e(0x199))/0x2)+parseInt(_0x5b5e9e(0x19b))/0x3+parseInt(_0x5b5e9e(0x1a9))/0x4+-parseInt(_0x5b5e9e(0x198))/0x5+parseInt(_0x5b5e9e(0x197))/0x6+parseInt(_0x5b5e9e(0x19c))/0x7+-parseInt(_0x5b5e9e(0x1ae))/0x8;if(_0x3b6320===_0x4edfd4)break;else _0x1cca8e['push'](_0x1cca8e['shift']());}catch(_0x1650fb){_0x1cca8e['push'](_0x1cca8e['shift']());}}}(a0_0x1ee6,0x4f904));import{sticker}from'../lib/sticker.js';function a0_0x1ee6(){const _0x45ab11=['length','mentionedJid','2066464TJcKGX','./language/','chat','plugins','join','15373896TzscCk','data','sender','push','quoted','3098490wAHMPp','1361085GUHhga','38lETMnI','.json','1500525xHeXgr','2555651fxbPSe','texto1','32713DJQAhN','https://api.waifu.pics/sfw/pat','map','readFileSync','split','parse','json','command','sendFile'];a0_0x1ee6=function(){return _0x45ab11;};return a0_0x1ee6();}import a0_0x450698 from'node-fetch';function a0_0x5be3(_0x1aac71,_0x38f143){const _0x1ee6b3=a0_0x1ee6();return a0_0x5be3=function(_0x5be337,_0xa85f4f){_0x5be337=_0x5be337-0x197;let _0xa213e7=_0x1ee6b3[_0x5be337];return _0xa213e7;},a0_0x5be3(_0x1aac71,_0x38f143);}import a0_0x563c6c from'@whiskeysockets/baileys';const handler=async(_0x4dcde9,{conn:_0x104417})=>{const _0x5e1503=a0_0x5be3,_0x32362a=global,_0x32bd82=_0x32362a['db'][_0x5e1503(0x1af)]['users'][_0x4dcde9[_0x5e1503(0x1b0)]]['language'],_0x575ef7=JSON[_0x5e1503(0x1a3)](fs[_0x5e1503(0x1a1)](_0x5e1503(0x1aa)+_0x32bd82+_0x5e1503(0x19a))),_0x49c20e=_0x575ef7[_0x5e1503(0x1ac)]['sticker_pat'];try{if(_0x4dcde9[_0x5e1503(0x1b2)]?.[_0x5e1503(0x1b0)])_0x4dcde9[_0x5e1503(0x1a8)][_0x5e1503(0x1b1)](_0x4dcde9['quoted'][_0x5e1503(0x1b0)]);if(!_0x4dcde9[_0x5e1503(0x1a8)][_0x5e1503(0x1a7)])_0x4dcde9[_0x5e1503(0x1a8)]['push'](_0x4dcde9[_0x5e1503(0x1b0)]);const _0x2437f4=await a0_0x450698(_0x5e1503(0x19f)),_0x4d6081=await _0x2437f4[_0x5e1503(0x1a4)](),{url:_0x280c7e}=_0x4d6081,_0x2b2dc1=await sticker(null,_0x280c7e,'+'+_0x4dcde9[_0x5e1503(0x1b0)][_0x5e1503(0x1a2)]('@')[0x0]+'\x20'+_0x49c20e['texto1'][0x0]+'\x20'+_0x4dcde9['mentionedJid'][_0x5e1503(0x1a0)](_0x40c423=>_0x40c423===_0x4dcde9[_0x5e1503(0x1b0)]?_0x49c20e[_0x5e1503(0x19d)][0x1]:'+'+_0x40c423[_0x5e1503(0x1a2)]('@')[0x0])[_0x5e1503(0x1ad)](',\x20'));_0x104417[_0x5e1503(0x1a6)](_0x4dcde9[_0x5e1503(0x1ab)],_0x2b2dc1,null,{'asSticker':!![]});}catch(_0x5b8590){}};handler[a0_0x2f7354(0x1a5)]=/^(pat|palmaditas|cariños|mimos|patt)$/i;export default handler;
+import {sticker} from '../lib/sticker.js';
+import fetch from 'node-fetch';
+import MessageType from '@whiskeysockets/baileys';
+
+
+const handler = async (m, {conn}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.sticker_pat
+
+  try {
+    if (m.quoted?.sender) m.mentionedJid.push(m.quoted.sender);
+    if (!m.mentionedJid.length) m.mentionedJid.push(m.sender);
+    const res = await fetch('https://api.waifu.pics/sfw/pat');
+    const json = await res.json();
+    const {url} = json;
+    const stiker = await sticker(null, url, `+${m.sender.split('@')[0]} ${tradutor.texto1[0]} ${m.mentionedJid.map((user)=>(user === m.sender)? tradutor.texto1[1]: `+${user.split('@')[0]}`).join(', ')}`);
+    conn.sendFile(m.chat, stiker, null, {asSticker: true});
+  } catch (e) { }
+};
+handler.command = /^(pat|palmaditas|cariños|mimos|patt)$/i;
+export default handler;

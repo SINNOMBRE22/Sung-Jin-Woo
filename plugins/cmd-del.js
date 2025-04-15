@@ -1,1 +1,20 @@
-const a0_0x5cc9cf=a0_0x431c;function a0_0x431c(_0x248232,_0x4d018b){const _0x5444b3=a0_0x5444();return a0_0x431c=function(_0x431cec,_0x18c9c5){_0x431cec=_0x431cec-0x1ae;let _0xe4691f=_0x5444b3[_0x431cec];return _0xe4691f;},a0_0x431c(_0x248232,_0x4d018b);}(function(_0x5cfd3e,_0x2443e5){const _0x5e6759=a0_0x431c,_0x19acd6=_0x5cfd3e();while(!![]){try{const _0x1e8d52=-parseInt(_0x5e6759(0x1c4))/0x1*(parseInt(_0x5e6759(0x1b8))/0x2)+parseInt(_0x5e6759(0x1af))/0x3*(-parseInt(_0x5e6759(0x1c9))/0x4)+-parseInt(_0x5e6759(0x1b6))/0x5*(-parseInt(_0x5e6759(0x1b9))/0x6)+parseInt(_0x5e6759(0x1c3))/0x7*(-parseInt(_0x5e6759(0x1ca))/0x8)+-parseInt(_0x5e6759(0x1b5))/0x9+-parseInt(_0x5e6759(0x1c8))/0xa*(-parseInt(_0x5e6759(0x1ba))/0xb)+-parseInt(_0x5e6759(0x1bf))/0xc*(-parseInt(_0x5e6759(0x1c0))/0xd);if(_0x1e8d52===_0x2443e5)break;else _0x19acd6['push'](_0x19acd6['shift']());}catch(_0x3bf8d5){_0x19acd6['push'](_0x19acd6['shift']());}}}(a0_0x5444,0x3eb75));const handler=async(_0x7cb16a,{conn:_0x38eb41,usedPrefix:_0x5b05c7,text:_0x10fdc7,command:_0x461061})=>{const _0x519efd=a0_0x431c,_0xdf751=global,_0x530c68=_0xdf751['db'][_0x519efd(0x1c2)][_0x519efd(0x1ae)][_0x7cb16a[_0x519efd(0x1bb)]][_0x519efd(0x1bc)],_0x4066e7=JSON[_0x519efd(0x1cb)](fs['readFileSync'](_0x519efd(0x1bd)+_0x530c68+'.json')),_0x564973=_0x4066e7[_0x519efd(0x1c7)][_0x519efd(0x1c1)];let _0x4e5c01=_0x10fdc7;if(_0x7cb16a[_0x519efd(0x1b2)]&&_0x7cb16a['quoted'][_0x519efd(0x1b0)])_0x4e5c01=_0x7cb16a[_0x519efd(0x1b2)][_0x519efd(0x1b0)][_0x519efd(0x1b1)](_0x519efd(0x1c5));if(!_0x4e5c01)throw'*'+_0x564973[_0x519efd(0x1b7)]+'\x20'+_0x5b05c7+_0x519efd(0x1cc);const _0x25234a=global['db'][_0x519efd(0x1c2)][_0x519efd(0x1c6)];if(_0x25234a[_0x4e5c01]&&_0x25234a[_0x4e5c01][_0x519efd(0x1be)])throw'*'+_0x564973['texto2']+'*';delete _0x25234a[_0x4e5c01],_0x7cb16a['reply']('*'+_0x564973[_0x519efd(0x1b4)]+'*');};handler['command']=[a0_0x5cc9cf(0x1b3)],handler['rowner']=!![];function a0_0x5444(){const _0x217d79=['186996gXeaLG','260711CYYPwz','sender','language','./language/','locked','12dYRGvr','19542029GjEKyG','cmd_del','data','21aVwvxR','108961GhPHlS','hex','sticker','plugins','10aZQdOb','53632iFyeXY','1201336jhcbpC','parse','listcmd*','users','24ZoqgEj','fileSha256','toString','quoted','delcmd','texto3','2768454hBMgvL','5lcknVr','texto1','8YRHGDE'];a0_0x5444=function(){return _0x217d79;};return a0_0x5444();}export default handler;
+
+
+const handler = async (m, {conn, usedPrefix, text, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.cmd_del
+
+
+  let hash = text;
+  if (m.quoted && m.quoted.fileSha256) hash = m.quoted.fileSha256.toString('hex');
+  if (!hash) throw `*${tradutor.texto1} ${usedPrefix}listcmd*`;
+  const sticker = global.db.data.sticker;
+  if (sticker[hash] && sticker[hash].locked) throw `*${tradutor.texto2}*`;
+  delete sticker[hash];
+  m.reply(`*${tradutor.texto3}*`);
+};
+handler.command = ['delcmd'];
+handler.rowner = true;
+export default handler;

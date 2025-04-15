@@ -1,1 +1,64 @@
-const a0_0x2d2c51=a0_0x45c1;(function(_0x10eff8,_0x80bb47){const _0x1968e2=a0_0x45c1,_0x3279b7=_0x10eff8();while(!![]){try{const _0x3a616a=parseInt(_0x1968e2(0x14a))/0x1*(-parseInt(_0x1968e2(0x164))/0x2)+-parseInt(_0x1968e2(0x17c))/0x3*(-parseInt(_0x1968e2(0x150))/0x4)+-parseInt(_0x1968e2(0x16a))/0x5+parseInt(_0x1968e2(0x16e))/0x6+parseInt(_0x1968e2(0x176))/0x7*(-parseInt(_0x1968e2(0x16b))/0x8)+-parseInt(_0x1968e2(0x153))/0x9+parseInt(_0x1968e2(0x175))/0xa;if(_0x3a616a===_0x80bb47)break;else _0x3279b7['push'](_0x3279b7['shift']());}catch(_0x5b6a79){_0x3279b7['push'](_0x3279b7['shift']());}}}(a0_0x5cf2,0x30851));function a0_0x5cf2(){const _0x38d8b5=['.json','slice','trim','https://cope-cdnmed.agilecontent.com/resources/jpg/8/9/1590140413198.jpg','9️⃣','name','split','plugins','texto3','texto6','37834uhCNdg','command','6️⃣','\x0a\x20\x20\x20\x20\x20\x20\x20\x20','WAITING','values','1602775bbOwfg','120UGjzVd','texto2','join','287358FdpVaY','8️⃣','map','help','sender','game','7️⃣','8182580zqFJfs','62888nLZZVq','2️⃣','find','sendMessage','reply','5️⃣','3849GDxEIy','4️⃣','1️⃣','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20','language','readFileSync','texto5','17JIfdNJ','parse','\x0a*◉\x20','chat','delttt*\x0a\x0a','parseMention','736nAsukT','tictactoe','game_ttt','1139238JGgXLS','texto1','playerX','playerO','state','tictactoe-','\x0a🎮\x20𝐓𝐑𝐄𝐒\x20𝐄𝐍\x20𝐑𝐀𝐘𝐀\x20🎮\x0a\x0a❎\x20=\x20@'];a0_0x5cf2=function(){return _0x38d8b5;};return a0_0x5cf2();}import a0_0x2cfd3b from'../lib/tictactoe.js';const handler=async(_0x4e01a1,{conn:_0x30fd38,usedPrefix:_0x37b172,command:_0x2a63d1,text:_0x10f09c})=>{const _0x3d2a56=a0_0x45c1,_0xfb2a9b=global,_0x17e9e4=_0xfb2a9b['db']['data']['users'][_0x4e01a1[_0x3d2a56(0x172)]][_0x3d2a56(0x147)],_0x302b07=JSON[_0x3d2a56(0x14b)](fs[_0x3d2a56(0x148)]('./language/'+_0x17e9e4+_0x3d2a56(0x15a))),_0x228160=_0x302b07[_0x3d2a56(0x161)][_0x3d2a56(0x152)];_0x30fd38['game']=_0x30fd38[_0x3d2a56(0x173)]?_0x30fd38[_0x3d2a56(0x173)]:{};if(Object[_0x3d2a56(0x169)](_0x30fd38['game'])[_0x3d2a56(0x178)](_0x47b241=>_0x47b241['id']['startsWith'](_0x3d2a56(0x151))&&[_0x47b241[_0x3d2a56(0x173)][_0x3d2a56(0x155)],_0x47b241[_0x3d2a56(0x173)][_0x3d2a56(0x156)]]['includes'](_0x4e01a1[_0x3d2a56(0x172)])))throw _0x228160[_0x3d2a56(0x163)];if(!_0x10f09c)throw _0x228160[_0x3d2a56(0x154)][0x0]+_0x3d2a56(0x14c)+(_0x37b172+_0x2a63d1)+'\x20'+_0x228160[_0x3d2a56(0x154)][0x1];let _0x174666=Object['values'](_0x30fd38[_0x3d2a56(0x173)])[_0x3d2a56(0x178)](_0x445dc3=>_0x445dc3[_0x3d2a56(0x157)]===_0x3d2a56(0x168)&&(_0x10f09c?_0x445dc3[_0x3d2a56(0x15f)]===_0x10f09c:!![]));if(_0x174666){await _0x4e01a1['reply'](_0x228160[_0x3d2a56(0x16c)]),_0x174666['o']=_0x4e01a1['chat'],_0x174666[_0x3d2a56(0x173)]['playerO']=_0x4e01a1[_0x3d2a56(0x172)],_0x174666[_0x3d2a56(0x157)]=_0x228160[_0x3d2a56(0x162)];const _0x467cf3=_0x174666[_0x3d2a56(0x173)]['render']()[_0x3d2a56(0x170)](_0x347458=>{const _0x5f1629=_0x3d2a56;return{'X':'❎','O':'⭕',0x1:_0x5f1629(0x145),0x2:_0x5f1629(0x177),0x3:'3️⃣',0x4:_0x5f1629(0x17d),0x5:_0x5f1629(0x17b),0x6:_0x5f1629(0x166),0x7:_0x5f1629(0x174),0x8:_0x5f1629(0x16f),0x9:_0x5f1629(0x15e)}[_0x347458];}),_0x1c5d23=(_0x3d2a56(0x159)+_0x174666[_0x3d2a56(0x173)][_0x3d2a56(0x155)][_0x3d2a56(0x160)]('@')[0x0]+'\x0a⭕\x20=\x20@'+_0x174666[_0x3d2a56(0x173)]['playerO'][_0x3d2a56(0x160)]('@')[0x0]+_0x3d2a56(0x146)+_0x467cf3[_0x3d2a56(0x15b)](0x0,0x3)[_0x3d2a56(0x16d)]('')+_0x3d2a56(0x167)+_0x467cf3[_0x3d2a56(0x15b)](0x3,0x6)[_0x3d2a56(0x16d)]('')+_0x3d2a56(0x167)+_0x467cf3[_0x3d2a56(0x15b)](0x6)[_0x3d2a56(0x16d)]('')+'\x0a\x0a'+_0x228160['texto4']+'\x20@'+_0x174666[_0x3d2a56(0x173)]['currentTurn'][_0x3d2a56(0x160)]('@')[0x0]+'\x0a')[_0x3d2a56(0x15c)]();if(_0x174666['x']!==_0x174666['o'])await _0x30fd38['sendMessage'](_0x174666['x'],{'text':_0x1c5d23,'mentions':this[_0x3d2a56(0x14f)](_0x1c5d23)},{'quoted':_0x4e01a1});await _0x30fd38[_0x3d2a56(0x179)](_0x174666['o'],{'text':_0x1c5d23,'mentions':_0x30fd38['parseMention'](_0x1c5d23)},{'quoted':_0x4e01a1});}else{_0x174666={'id':_0x3d2a56(0x158)+ +new Date(),'x':_0x4e01a1['chat'],'o':'','game':new a0_0x2cfd3b(_0x4e01a1['sender'],'o'),'state':_0x3d2a56(0x168)};if(_0x10f09c)_0x174666['name']=_0x10f09c;const _0x15009c=_0x3d2a56(0x15d);_0x30fd38[_0x3d2a56(0x17a)](_0x4e01a1[_0x3d2a56(0x14d)],_0x228160[_0x3d2a56(0x149)][0x0]+'\x20'+_0x37b172+_0x3d2a56(0x14e)+_0x228160['texto5'][0x1]+'\x20('+(_0x37b172+_0x2a63d1)+'\x20'+_0x10f09c+')',_0x4e01a1),_0x30fd38[_0x3d2a56(0x173)][_0x174666['id']]=_0x174666;}};function a0_0x45c1(_0x4b6a67,_0x40a88){const _0x5cf2ad=a0_0x5cf2();return a0_0x45c1=function(_0x45c1e8,_0x3dee73){_0x45c1e8=_0x45c1e8-0x145;let _0x30003c=_0x5cf2ad[_0x45c1e8];return _0x30003c;},a0_0x45c1(_0x4b6a67,_0x40a88);}handler[a0_0x2d2c51(0x171)]=[a0_0x2d2c51(0x151)],handler['tags']=[a0_0x2d2c51(0x173)],handler[a0_0x2d2c51(0x165)]=/^(tictactoe|ttc|ttt|xo)$/i;export default handler;
+import TicTacToe from '../lib/tictactoe.js';
+
+const handler = async (m, {conn, usedPrefix, command, text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.game_ttt
+
+  conn.game = conn.game ? conn.game : {};
+  if (Object.values(conn.game).find((room) => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw tradutor.texto6;
+  if (!text) throw `${tradutor.texto1[0]}\n*◉ ${usedPrefix + command} ${tradutor.texto1[1]}`;
+  let room = Object.values(conn.game).find((room) => room.state === 'WAITING' && (text ? room.name === text : true));
+  if (room) {
+    await m.reply(tradutor.texto2);
+    room.o = m.chat;
+    room.game.playerO = m.sender;
+    room.state = tradutor.texto3;
+    const arr = room.game.render().map((v) => {
+      return {
+        X: '❎',
+        O: '⭕',
+        1: '1️⃣',
+        2: '2️⃣',
+        3: '3️⃣',
+        4: '4️⃣',
+        5: '5️⃣',
+        6: '6️⃣',
+        7: '7️⃣',
+        8: '8️⃣',
+        9: '9️⃣',
+      }[v];
+    });
+    const str = `
+🎮 𝐓𝐑𝐄𝐒 𝐄𝐍 𝐑𝐀𝐘𝐀 🎮
+
+❎ = @${room.game.playerX.split('@')[0]}
+⭕ = @${room.game.playerO.split('@')[0]}
+
+        ${arr.slice(0, 3).join('')}
+        ${arr.slice(3, 6).join('')}
+        ${arr.slice(6).join('')}
+
+${tradutor.texto4} @${room.game.currentTurn.split('@')[0]}
+`.trim();
+    if (room.x !== room.o) await conn.sendMessage(room.x, {text: str, mentions: this.parseMention(str)}, {quoted: m});
+    await conn.sendMessage(room.o, {text: str, mentions: conn.parseMention(str)}, {quoted: m});
+  } else {
+    room = {
+      id: 'tictactoe-' + (+new Date),
+      x: m.chat,
+      o: '',
+      game: new TicTacToe(m.sender, 'o'),
+      state: 'WAITING'};
+    if (text) room.name = text;
+    const imgplay = `https://cope-cdnmed.agilecontent.com/resources/jpg/8/9/1590140413198.jpg`;
+    conn.reply(m.chat, `${tradutor.texto5[0]} ${usedPrefix}delttt*\n\n${tradutor.texto5[1]} (${usedPrefix + command} ${text})`, m);
+    // conn.sendButton(m.chat, `*🕹 𝐓𝐑𝐄𝐒 𝐄𝐍 𝐑𝐀𝐘𝐀 🎮*\n\n*◉ 𝙴𝚂𝙿𝙴𝚁𝙰𝙽𝙳𝙾 𝙰𝙻 𝚂𝙴𝙶𝚄𝙽𝙳𝙾 𝙹𝚄𝙶𝙰𝙳𝙾𝚁*\n*◉ 𝙿𝙰𝚁𝙰 𝙱𝙾𝚁𝚁𝙰𝚁 𝙾 𝚂𝙰𝙻𝙸𝚁𝚂𝙴 𝙳𝙴 𝙻𝙰 𝙿𝙰𝚁𝚃𝙸𝙳𝙰 𝚄𝚂𝙴𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix}delttt*`, wm, imgplay, [['𝚄𝙽𝙸𝚁𝚂𝙴 𝙰 𝙻𝙰 𝙿𝙰𝚁𝚃𝙸𝙳𝙰', `${usedPrefix + command} ${text}`]], m, { mentions: conn.parseMention(text) })
+    conn.game[room.id] = room;
+  }
+};
+handler.help = ['tictactoe'];
+handler.tags = ['game'];
+handler.command = /^(tictactoe|ttc|ttt|xo)$/i;
+export default handler;

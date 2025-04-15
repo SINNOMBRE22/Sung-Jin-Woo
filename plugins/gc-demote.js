@@ -1,1 +1,41 @@
-const a0_0x3666bd=a0_0x3857;(function(_0xefc72a,_0x2adfbd){const _0x340daf=a0_0x3857,_0x31ce31=_0xefc72a();while(!![]){try{const _0x23aff2=-parseInt(_0x340daf(0x1ac))/0x1*(-parseInt(_0x340daf(0x199))/0x2)+parseInt(_0x340daf(0x1a4))/0x3*(parseInt(_0x340daf(0x198))/0x4)+parseInt(_0x340daf(0x1ab))/0x5*(-parseInt(_0x340daf(0x1a9))/0x6)+parseInt(_0x340daf(0x183))/0x7*(parseInt(_0x340daf(0x195))/0x8)+parseInt(_0x340daf(0x188))/0x9*(-parseInt(_0x340daf(0x186))/0xa)+-parseInt(_0x340daf(0x1a5))/0xb+-parseInt(_0x340daf(0x192))/0xc*(parseInt(_0x340daf(0x193))/0xd);if(_0x23aff2===_0x2adfbd)break;else _0x31ce31['push'](_0x31ce31['shift']());}catch(_0x579634){_0x31ce31['push'](_0x31ce31['shift']());}}}(a0_0x146f,0x36780));const handler=async(_0x2c0c61,{conn:_0x41bc16,usedPrefix:_0x566a6a,text:_0x29bc97})=>{const _0x3081a8=a0_0x3857,_0xd4da22=global,_0x3fac15=_0xd4da22['db'][_0x3081a8(0x1a1)]['users'][_0x2c0c61[_0x3081a8(0x18b)]][_0x3081a8(0x185)],_0x55287d=JSON[_0x3081a8(0x184)](fs['readFileSync'](_0x3081a8(0x1a6)+_0x3fac15+_0x3081a8(0x18d))),_0x3b92d4=_0x55287d[_0x3081a8(0x181)][_0x3081a8(0x19d)];if(isNaN(_0x29bc97)&&!_0x29bc97[_0x3081a8(0x18c)](/@/g)){}else{if(isNaN(_0x29bc97))var _0x2bad13=_0x29bc97[_0x3081a8(0x196)]`@`[0x1];else{if(!isNaN(_0x29bc97))var _0x2bad13=_0x29bc97;}}if(!_0x29bc97&&!_0x2c0c61[_0x3081a8(0x197)])return _0x41bc16[_0x3081a8(0x19f)](_0x2c0c61[_0x3081a8(0x19e)],_0x3b92d4[_0x3081a8(0x1a8)][0x0]+'\x20'+_0x566a6a+_0x3081a8(0x187)+_0x566a6a+_0x3081a8(0x191)+_0x3b92d4['texto1'][0x1],_0x2c0c61);if(_0x2bad13[_0x3081a8(0x19b)]>0xd||_0x2bad13[_0x3081a8(0x19b)]<0xb&&_0x2bad13[_0x3081a8(0x19b)]>0x0)return _0x41bc16[_0x3081a8(0x19f)](_0x2c0c61['chat'],_0x3b92d4[_0x3081a8(0x1a7)],_0x2c0c61);try{if(_0x29bc97)var _0x483662=_0x2bad13+_0x3081a8(0x194);else{if(_0x2c0c61['quoted']['sender'])var _0x483662=_0x2c0c61[_0x3081a8(0x197)][_0x3081a8(0x18b)];else{if(_0x2c0c61['mentionedJid'])var _0x483662=_0x2bad13+_0x3081a8(0x194);}}}catch(_0x4147f4){}finally{_0x41bc16[_0x3081a8(0x182)](_0x2c0c61[_0x3081a8(0x19e)],[_0x483662],_0x3081a8(0x190)),_0x41bc16[_0x3081a8(0x19f)](_0x2c0c61['chat'],_0x3b92d4[_0x3081a8(0x18f)],_0x2c0c61);}};function a0_0x146f(){const _0x5191b8=['18FVyJOX','fail','338925ZAcCjK','108299DtPyCW','*593xxx*','plugins','groupParticipantsUpdate','874342vrqftv','parse','language','760HSNtPp','quitaradmin\x20@tag*\x0a*┠≽\x20','5877nwmVjN','group','botAdmin','sender','match','.json','admin','texto3','demote','quitaradmin\x20','24DlNRIP','258206UCnwUU','@s.whatsapp.net','8ddyzZI','split','quoted','7012SDtdWK','8dGbegr','*responder\x20chat*','length','demote\x20','gc_demote','chat','reply','tags','data','*@usuario*','command','342wDdPfA','2663463piEXeg','./language/','texto2','texto1'];a0_0x146f=function(){return _0x5191b8;};return a0_0x146f();}handler['help']=[a0_0x3666bd(0x1ad),a0_0x3666bd(0x1a2),a0_0x3666bd(0x19a)]['map'](_0x2f9557=>a0_0x3666bd(0x19c)+_0x2f9557),handler[a0_0x3666bd(0x1a0)]=[a0_0x3666bd(0x189)],handler[a0_0x3666bd(0x1a3)]=/^(demote|quitarpoder|quitaradmin)$/i,handler[a0_0x3666bd(0x189)]=!![],handler[a0_0x3666bd(0x18e)]=!![],handler[a0_0x3666bd(0x18a)]=!![],handler[a0_0x3666bd(0x1aa)]=null;function a0_0x3857(_0x1b06e5,_0x52a814){const _0x146f30=a0_0x146f();return a0_0x3857=function(_0x3857b2,_0x269fb2){_0x3857b2=_0x3857b2-0x181;let _0x499014=_0x146f30[_0x3857b2];return _0x499014;},a0_0x3857(_0x1b06e5,_0x52a814);}export default handler;
+
+
+const handler = async (m, {conn, usedPrefix, text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_demote
+
+  if (isNaN(text) && !text.match(/@/g)) {
+
+  } else if (isNaN(text)) {
+    var number = text.split`@`[1];
+  } else if (!isNaN(text)) {
+    var number = text;
+  }
+
+  if (!text && !m.quoted) return conn.reply(m.chat, `${tradutor.texto1[0]} ${usedPrefix}quitaradmin @tag*\n*┠≽ ${usedPrefix}quitaradmin ${tradutor.texto1[1]}`, m);
+  if (number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, tradutor.texto2, m);
+
+  try {
+    if (text) {
+      var user = number + '@s.whatsapp.net';
+    } else if (m.quoted.sender) {
+      var user = m.quoted.sender;
+    } else if (m.mentionedJid) {
+      var user = number + '@s.whatsapp.net';
+    }
+  } catch (e) {
+  } finally {
+    conn.groupParticipantsUpdate(m.chat, [user], 'demote');
+    conn.reply(m.chat, tradutor.texto3, m);
+  }
+};
+handler.help = ['*593xxx*', '*@usuario*', '*responder chat*'].map((v) => 'demote ' + v);
+handler.tags = ['group'];
+handler.command = /^(demote|quitarpoder|quitaradmin)$/i;
+handler.group = true;
+handler.admin = true;
+handler.botAdmin = true;
+handler.fail = null;
+export default handler;

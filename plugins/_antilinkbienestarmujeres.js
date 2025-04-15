@@ -1,1 +1,19 @@
-function a0_0x35b7(_0x3eb54e,_0x28e32e){const _0x221c2d=a0_0x221c();return a0_0x35b7=function(_0x35b766,_0x45f18d){_0x35b766=_0x35b766-0xe8;let _0x2e10a8=_0x221c2d[_0x35b766];return _0x2e10a8;},a0_0x35b7(_0x3eb54e,_0x28e32e);}function a0_0x221c(){const _0x3ee18e=['18KPQtLo','1336495VBJqGV','reply','7042063xUeAMC','66hntNqM','chat','8587233NUZqJv','21hVBHJw','⛔\x20Usuario\x20y\x20mensaje\x20eliminados\x20por\x20SPAM.','remove','322729lwpDjP','group','8kWyHPX','1628792gvQbzh','participant','852788TVmReu','4118390oWtKyu','key'];a0_0x221c=function(){return _0x3ee18e;};return a0_0x221c();}const a0_0x387504=a0_0x35b7;(function(_0x374855,_0x598396){const _0x466500=a0_0x35b7,_0x489681=_0x374855();while(!![]){try{const _0x300f77=parseInt(_0x466500(0xec))/0x1*(parseInt(_0x466500(0xee))/0x2)+parseInt(_0x466500(0xe9))/0x3*(parseInt(_0x466500(0xf1))/0x4)+-parseInt(_0x466500(0xf5))/0x5*(-parseInt(_0x466500(0xf4))/0x6)+-parseInt(_0x466500(0xf7))/0x7+-parseInt(_0x466500(0xef))/0x8+parseInt(_0x466500(0xe8))/0x9+-parseInt(_0x466500(0xf2))/0xa*(parseInt(_0x466500(0xf8))/0xb);if(_0x300f77===_0x598396)break;else _0x489681['push'](_0x489681['shift']());}catch(_0x39466f){_0x489681['push'](_0x489681['shift']());}}}(a0_0x221c,0xd1a3f));let handler=async(_0xd3ad2e,{conn:_0xb3b06e,isAdmin:_0x5cb7e6,isBotAdmin:_0x4c74dc})=>{const _0x120be2=a0_0x35b7;let _0x334af0=_0xd3ad2e[_0x120be2(0xf3)][_0x120be2(0xf0)],_0x7af69f=_0xd3ad2e[_0x120be2(0xf3)]['id'];if(!_0x4c74dc)return _0xd3ad2e[_0x120be2(0xf6)]('Necesito\x20ser\x20administrador\x20para\x20poder\x20eliminar\x20mensajes.');await _0xb3b06e['groupParticipantsUpdate'](_0xd3ad2e[_0x120be2(0xf9)],[_0xd3ad2e['sender']],_0x120be2(0xeb)),await _0xb3b06e['sendMessage'](_0xd3ad2e[_0x120be2(0xf9)],{'delete':{'remoteJid':_0xd3ad2e['chat'],'fromMe':![],'id':_0x7af69f,'participant':_0x334af0}}),_0xd3ad2e[_0x120be2(0xf6)](_0x120be2(0xea));};handler['customPrefix']=/mujeresdebienestar\.com\/registro/i,handler['command']=new RegExp(),handler[a0_0x387504(0xed)]=!![];export default handler;
+let handler = async (m, { conn, isAdmin, isBotAdmin }) => {
+	
+	let delet = m.key.participant
+    let bang = m.key.id
+
+    if (!isBotAdmin) {
+        return m.reply('Necesito ser administrador para poder eliminar mensajes.')
+    }
+	await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove') 
+	await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
+	m.reply(`⛔ Usuario y mensaje eliminados por SPAM.`) 
+	
+}
+
+handler.customPrefix = /mujeresdebienestar\.com\/registro/i
+handler.command = new RegExp
+handler.group = true
+
+export default handler

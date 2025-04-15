@@ -1,1 +1,50 @@
-const a0_0x3c5e9c=a0_0x5959;(function(_0x4a41c5,_0x423245){const _0x308774=a0_0x5959,_0x42f305=_0x4a41c5();while(!![]){try{const _0x559304=parseInt(_0x308774(0xbd))/0x1+parseInt(_0x308774(0xb3))/0x2*(-parseInt(_0x308774(0xb5))/0x3)+-parseInt(_0x308774(0xc7))/0x4*(parseInt(_0x308774(0xc5))/0x5)+parseInt(_0x308774(0xc6))/0x6+-parseInt(_0x308774(0xc1))/0x7*(parseInt(_0x308774(0xc3))/0x8)+-parseInt(_0x308774(0xbf))/0x9+parseInt(_0x308774(0xb8))/0xa;if(_0x559304===_0x423245)break;else _0x42f305['push'](_0x42f305['shift']());}catch(_0x2acfb4){_0x42f305['push'](_0x42f305['shift']());}}}(a0_0x5df7,0xd20e2));import a0_0x1d90df from'fs';function a0_0x5959(_0x134305,_0x92ea85){const _0x5df7bc=a0_0x5df7();return a0_0x5959=function(_0x59596a,_0x234676){_0x59596a=_0x59596a-0xaf;let _0x29ee94=_0x5df7bc[_0x59596a];return _0x29ee94;},a0_0x5959(_0x134305,_0x92ea85);}import a0_0x5d8425 from'path';let handler=async(_0x326439,{text:_0xebbba7})=>{const _0x16f844=a0_0x5959;if(!_0xebbba7)throw'\x0a━━━━━━✦❘༻༺❘✦━━━━━━\x0a❌\x20**Error:**\x20*proporciona\x20un*\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*nombre\x20para\x20el\x20audio.*\x0a━━━━━━✦❘༻༺❘✦━━━━━━';if(!_0x326439['quoted']||!_0x326439[_0x16f844(0xc4)]['fileSha256'])throw _0x16f844(0xc2);if(!_0x326439[_0x16f844(0xc4)][_0x16f844(0xb2)]||!_0x326439['quoted'][_0x16f844(0xb2)][_0x16f844(0xbb)](_0x16f844(0xb0)))throw _0x16f844(0xbe);let _0x38789f=await _0x326439[_0x16f844(0xc4)]['download']();const _0x4d734a='media';let _0x3c1ccd=_0xebbba7[_0x16f844(0xbc)]('.mp3')?_0xebbba7:_0xebbba7+_0x16f844(0xaf);const _0x341d27=a0_0x5d8425[_0x16f844(0xb1)](_0x4d734a,_0x3c1ccd);!a0_0x1d90df[_0x16f844(0xc8)](_0x4d734a)&&a0_0x1d90df[_0x16f844(0xc0)](_0x4d734a,{'recursive':!![]}),a0_0x1d90df[_0x16f844(0xb7)](_0x341d27,_0x38789f),_0x326439[_0x16f844(0xba)](_0x16f844(0xc9)+_0x341d27+'*\x0a━━━━━━✦❘༻༺❘✦━━━━━━');};function a0_0x5df7(){const _0x213fbe=['7964RaITAg','existsSync','\x0a━━━━━━✦❘༻༺❘✦━━━━━━\x0a✅\x20**Éxito:**\x20*Audio\x20guardado\x20como:*\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*','.mp3','audio/','join','mimetype','2GkwkZy','tags','3744855qbNLPy','saveaudio\x20<nombre>','writeFileSync','16273850fCpvqu','owner','reply','startsWith','endsWith','771316XeHQcl','\x0a━━━━━━✦❘༻༺❘✦━━━━━━\x0a⚠️\x20**Advertencia:**\x20*responde\x20a\x20un\x20archivo*\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*de\x20audio\x20para\x20guardarlo.*\x0a━━━━━━✦❘༻༺❘✦━━━━━━','1549242ZejIeM','mkdirSync','7xivVoA','\x0a━━━━━━✦❘༻༺❘✦━━━━━━\x0a❌\x20**Error:**\x20*debes\x20responder\x20a\x20un*\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*archivo\x20de\x20audio\x20para\x20guardarlo.*\x0a━━━━━━✦❘༻༺❘✦━━━━━━','371080CVigKE','quoted','1405FKngiY','2927784VKvoRW'];a0_0x5df7=function(){return _0x213fbe;};return a0_0x5df7();}handler['help']=[a0_0x3c5e9c(0xb6)],handler[a0_0x3c5e9c(0xb4)]=[a0_0x3c5e9c(0xb9)],handler['command']=/^(saveaudio|sa)$/i,handler[a0_0x3c5e9c(0xb9)]=!![];export default handler;
+import fs from 'fs';
+import path from 'path';
+
+let handler = async (m, { text }) => {
+  // Verifica que se haya proporcionado un nombre para el archivo
+  if (!text) throw `
+━━━━━━✦❘༻༺❘✦━━━━━━
+❌ **Error:** *proporciona un*
+          *nombre para el audio.*
+━━━━━━✦❘༻༺❘✦━━━━━━`;
+
+  // Verifica que el mensaje citado sea un archivo de audio
+  if (!m.quoted || !m.quoted.fileSha256) throw `
+━━━━━━✦❘༻༺❘✦━━━━━━
+❌ **Error:** *debes responder a un*
+          *archivo de audio para guardarlo.*
+━━━━━━✦❘༻༺❘✦━━━━━━`;
+  if (!m.quoted.mimetype || !m.quoted.mimetype.startsWith('audio/')) throw `
+━━━━━━✦❘༻༺❘✦━━━━━━
+⚠️ **Advertencia:** *responde a un archivo*
+          *de audio para guardarlo.*
+━━━━━━✦❘༻༺❘✦━━━━━━`;
+
+  let media = await m.quoted.download();  // Descarga el archivo de audio
+  const dirPath = 'media';  // Carpeta donde se guardarán los audios
+  
+  // Asegura que si el nombre no tiene extensión, se agregue .mp3
+  let fileName = text.endsWith('.mp3') ? text : `${text}.mp3`;
+  
+  const filePath = path.join(dirPath, fileName);  // Define el nombre del archivo
+
+  // Crea la carpeta si no existe
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath, { recursive: true });
+  }
+
+  fs.writeFileSync(filePath, media);  // Guarda el archivo de audio
+  m.reply(`
+━━━━━━✦❘༻༺❘✦━━━━━━
+✅ **Éxito:** *Audio guardado como:*
+          *${filePath}*
+━━━━━━✦❘༻༺❘✦━━━━━━`);  // Responde con el mensaje de confirmación
+};
+
+handler.help = ['saveaudio <nombre>'];
+handler.tags = ['owner'];
+handler.command = /^(saveaudio|sa)$/i;
+handler.owner = true;
+
+export default handler;

@@ -1,1 +1,32 @@
-const a0_0x175d82=a0_0x92ac;(function(_0xa32274,_0x5b6aa3){const _0x1fce92=a0_0x92ac,_0x251d11=_0xa32274();while(!![]){try{const _0x32e0b4=parseInt(_0x1fce92(0x1d0))/0x1*(-parseInt(_0x1fce92(0x1cd))/0x2)+-parseInt(_0x1fce92(0x1da))/0x3*(-parseInt(_0x1fce92(0x1c8))/0x4)+-parseInt(_0x1fce92(0x1cf))/0x5+parseInt(_0x1fce92(0x1dc))/0x6*(-parseInt(_0x1fce92(0x1cb))/0x7)+-parseInt(_0x1fce92(0x1d3))/0x8*(-parseInt(_0x1fce92(0x1d5))/0x9)+parseInt(_0x1fce92(0x1db))/0xa+parseInt(_0x1fce92(0x1d8))/0xb;if(_0x32e0b4===_0x5b6aa3)break;else _0x251d11['push'](_0x251d11['shift']());}catch(_0x375772){_0x251d11['push'](_0x251d11['shift']());}}}(a0_0xd79d,0x4c349));function a0_0xd79d(){const _0x2baa6d=['creator','654MhXnsj','5284510sQhpVM','1314axRhKD','sendFile','creador2.png','3556qvsopW','\x0a≡\x20—◉\x20𝙴𝙻\x20𝙽𝚄𝙼𝙴𝚁𝙾\x20𝙳𝙴\x20𝙼𝙸\x20ADMINISTRADOR\x20𝙴𝚂:\x0a🔰\x20wa.me/5215629885039\x0a\x0a𝑪𝒂𝒏𝒂𝒍\x20𝒀𝒐𝒖𝒕𝒖𝒃𝒆:\x0a⏯️\x20https://youtube.com/@sinnombre-port443?si=sVlu_AAPNt3pxQbb\x0a\x20\x20','help','5621slEXWi','./src/creador2.png','2MVdyVw','SinNombre\x20🔥','2894975qxROUE','301358FbOZcL','command','info','2320OlFiTn','tags','6012IReBbS','chat','owner','4976114fwVSfE'];a0_0xd79d=function(){return _0x2baa6d;};return a0_0xd79d();}function a0_0x92ac(_0x2b3d08,_0x278f44){const _0xd79dcb=a0_0xd79d();return a0_0x92ac=function(_0x92aceb,_0x5546ee){_0x92aceb=_0x92aceb-0x1c6;let _0x20921a=_0xd79dcb[_0x92aceb];return _0x20921a;},a0_0x92ac(_0x2b3d08,_0x278f44);}let handler=async(_0x28209d,{conn:_0x2e5c73,usedPrefix:_0x42b66c})=>{const _0x4f6381=a0_0x92ac;let _0x2731d2=_0x4f6381(0x1c9)['trim']();await _0x2e5c73[_0x4f6381(0x1c6)](_0x28209d[_0x4f6381(0x1d6)],_0x4f6381(0x1cc),_0x4f6381(0x1c7),_0x2731d2,_0x28209d),await _0x2e5c73['sendMessage'](_0x28209d[_0x4f6381(0x1d6)],{'audio':{'url':'./media/creador.mp3'},'mimetype':'audio/mpeg','ptt':!![],'contextInfo':{'externalAdReply':{'title':'Creador','body':_0x4f6381(0x1ce),'thumbnailUrl':'https://tinyurl.com/SinNombre23'}}},{'quoted':_0x28209d});};handler[a0_0x175d82(0x1ca)]=[a0_0x175d82(0x1d7),a0_0x175d82(0x1d9)],handler[a0_0x175d82(0x1d4)]=[a0_0x175d82(0x1d2)],handler[a0_0x175d82(0x1d1)]=/^(owner|creator|creador|propietario)$/i,handler[a0_0x175d82(0x1d7)]=![];export default handler;
+let handler = async (m, { conn, usedPrefix }) => {
+  let caption = `
+≡ —◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 ADMINISTRADOR 𝙴𝚂:
+🔰 wa.me/5215629885039
+
+𝑪𝒂𝒏𝒂𝒍 𝒀𝒐𝒖𝒕𝒖𝒃𝒆:
+⏯️ https://youtube.com/@sinnombre-port443?si=sVlu_AAPNt3pxQbb
+  `.trim()
+
+  // Enviar la imagen con su respectivo caption
+  await conn.sendFile(m.chat, './src/creador2.png', 'creador2.png', caption, m)
+
+  // Enviar el audio como nota de voz con sendMessage
+  await conn.sendMessage(m.chat, {
+    audio: { url: './media/creador.mp3' }, // Asegúrate de que la ruta sea correcta
+    mimetype: 'audio/mpeg',                // O 'audio/ogg; codecs=opus' si lo prefieres
+    ptt: true,                             // Indica que es nota de voz
+    contextInfo: {
+      externalAdReply: {
+        title: 'Creador',
+        body: 'SinNombre 🔥',
+        thumbnailUrl: 'https://tinyurl.com/SinNombre23'
+      }
+    }
+  }, { quoted: m })
+}
+
+handler.help = ['owner', 'creator']
+handler.tags = ['info']
+handler.command = /^(owner|creator|creador|propietario)$/i
+handler.owner = false
+export default handler

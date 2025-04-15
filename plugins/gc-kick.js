@@ -1,1 +1,49 @@
-const a0_0x626cdf=a0_0x133b;(function(_0x4f0fac,_0x4fba44){const _0x2bc547=a0_0x133b,_0x4e4814=_0x4f0fac();while(!![]){try{const _0x43cbdb=-parseInt(_0x2bc547(0x1dc))/0x1*(parseInt(_0x2bc547(0x1d0))/0x2)+-parseInt(_0x2bc547(0x1e0))/0x3+-parseInt(_0x2bc547(0x1ca))/0x4+parseInt(_0x2bc547(0x1d1))/0x5*(parseInt(_0x2bc547(0x1c7))/0x6)+parseInt(_0x2bc547(0x1cb))/0x7+-parseInt(_0x2bc547(0x1e7))/0x8+parseInt(_0x2bc547(0x1e1))/0x9;if(_0x43cbdb===_0x4fba44)break;else _0x4e4814['push'](_0x4e4814['shift']());}catch(_0x4bdb8e){_0x4e4814['push'](_0x4e4814['shift']());}}}(a0_0x26a8,0xbc55f));const handler=async(_0x218d79,{conn:_0x3aa52e,participants:_0x55531e,command:_0x1e4697,usedPrefix:_0x356ba4})=>{const _0xf170a4=a0_0x133b,_0x12204b=global,_0x42130e=_0x12204b['db'][_0xf170a4(0x1c3)][_0xf170a4(0x1d6)][_0x218d79[_0xf170a4(0x1ec)]]['language'],_0x2c863e=JSON['parse'](fs[_0xf170a4(0x1c8)](_0xf170a4(0x1dd)+_0x42130e+_0xf170a4(0x1d4))),_0x38a1d7=_0x2c863e[_0xf170a4(0x1eb)][_0xf170a4(0x1e4)];if(!global['db'][_0xf170a4(0x1c3)][_0xf170a4(0x1e9)][_0x3aa52e[_0xf170a4(0x1d2)]['jid']]['restrict'])throw _0x38a1d7['texto1'][0x0]+_0xf170a4(0x1c9)+_0x38a1d7[_0xf170a4(0x1bd)][0x1];const _0x28bce0=_0x38a1d7[_0xf170a4(0x1c1)]+'\x20_'+(_0x356ba4+_0x1e4697)+'\x20@'+global[_0xf170a4(0x1d5)]+'_';if(!_0x218d79[_0xf170a4(0x1df)][0x0]&&!_0x218d79['quoted'])return _0x218d79[_0xf170a4(0x1c4)](_0x28bce0,_0x218d79[_0xf170a4(0x1bc)],{'mentions':_0x3aa52e['parseMention'](_0x28bce0)});if(_0x218d79['message'][_0xf170a4(0x1e3)]===undefined||_0x218d79[_0xf170a4(0x1db)][_0xf170a4(0x1e3)]===null)return _0x218d79[_0xf170a4(0x1c4)](_0x38a1d7[_0xf170a4(0x1cc)]);if(_0x218d79['message'][_0xf170a4(0x1e3)]['contextInfo']['participant']!==null&&_0x218d79[_0xf170a4(0x1db)][_0xf170a4(0x1e3)]['contextInfo'][_0xf170a4(0x1e5)]!=undefined&&_0x218d79[_0xf170a4(0x1db)]['extendedTextMessage']['contextInfo'][_0xf170a4(0x1e5)]!==''){const _0x11d0f4=_0x218d79[_0xf170a4(0x1db)]['extendedTextMessage'][_0xf170a4(0x1d3)][_0xf170a4(0x1df)][0x0]?_0x218d79['message'][_0xf170a4(0x1e3)][_0xf170a4(0x1d3)]['mentionedJid'][0x0]:_0x218d79[_0xf170a4(0x1db)][_0xf170a4(0x1e3)][_0xf170a4(0x1d3)]['participant'];if(_0x3aa52e['user'][_0xf170a4(0x1da)][_0xf170a4(0x1ea)](_0x11d0f4))return _0x218d79[_0xf170a4(0x1c4)](_0x38a1d7[_0xf170a4(0x1c2)]);const _0x2e9a5a=await _0x3aa52e[_0xf170a4(0x1d7)](_0x218d79['chat'],[_0x11d0f4],_0xf170a4(0x1c6)),_0x5693f8=_0x38a1d7['texto5'][0x0]+'\x20@'+_0x11d0f4[_0xf170a4(0x1d8)]('@')[0x0]+'\x20'+_0x38a1d7[_0xf170a4(0x1c5)][0x1],_0x328f2b=_0x38a1d7['texto6'][0x0]+'\x20@'+_0x11d0f4['split']('@')[0x0]+'\x20'+_0x38a1d7[_0xf170a4(0x1e2)][0x1],_0x279f98=_0x38a1d7[_0xf170a4(0x1cd)][0x0]+'\x20@'+_0x11d0f4['split']('@')[0x0]+'\x20'+_0x38a1d7['texto7'][0x1];if(_0x2e9a5a[0x0]['status']===_0xf170a4(0x1e6))_0x218d79[_0xf170a4(0x1c4)](_0x5693f8,_0x218d79['chat'],{'mentions':_0x3aa52e[_0xf170a4(0x1c0)](_0x5693f8)});else{if(_0x2e9a5a[0x0][_0xf170a4(0x1e8)]===_0xf170a4(0x1d9))_0x218d79['reply'](_0x328f2b,_0x218d79['chat'],{'mentions':_0x3aa52e['parseMention'](_0x328f2b)});else{if(_0x2e9a5a[0x0][_0xf170a4(0x1e8)]==='404')_0x218d79[_0xf170a4(0x1c4)](_0x279f98,_0x218d79[_0xf170a4(0x1bc)],{'mentions':_0x3aa52e[_0xf170a4(0x1c0)](_0x279f98)});else _0x3aa52e['sendMessage'](_0x218d79[_0xf170a4(0x1bc)],{'text':''+_0x38a1d7['texto8'],'mentions':[_0x218d79[_0xf170a4(0x1ec)]],'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![]}},{'quoted':_0x218d79});}}}else{if(_0x218d79['message'][_0xf170a4(0x1e3)][_0xf170a4(0x1d3)]['mentionedJid']!=null&&_0x218d79[_0xf170a4(0x1db)][_0xf170a4(0x1e3)]['contextInfo'][_0xf170a4(0x1df)]!=undefined)return;}};function a0_0x133b(_0x3a978c,_0x3ed641){const _0x26a821=a0_0x26a8();return a0_0x133b=function(_0x133b50,_0x44091c){_0x133b50=_0x133b50-0x1bc;let _0x234ee2=_0x26a821[_0x133b50];return _0x234ee2;},a0_0x133b(_0x3a978c,_0x3ed641);}function a0_0x26a8(){const _0x48f4bd=['jid','message','17zZKnTk','./language/','group','mentionedJid','3676368payWUo','30258405fYJRQE','texto6','extendedTextMessage','grupos_eliminar','participant','200','10368912KXEzPq','status','settings','includes','plugins','sender','chat','texto1','command','botAdmin','parseMention','texto2','texto4','data','reply','texto5','remove','122082fKBhrA','readFileSync','\x20(*_restrict_*),\x20','1514492ebAPlC','2642227vQgGXF','texto3','texto7','kick','tags','39106SsFxoN','65GbcYKx','user','contextInfo','.json','suittag','users','groupParticipantsUpdate','split','406'];a0_0x26a8=function(){return _0x48f4bd;};return a0_0x26a8();}handler['help']=[a0_0x626cdf(0x1ce)],handler[a0_0x626cdf(0x1cf)]=[a0_0x626cdf(0x1de)],handler[a0_0x626cdf(0x1be)]=/^(kick|expulsar|eliminar|echar|sacar)$/i,handler['admin']=handler[a0_0x626cdf(0x1de)]=handler[a0_0x626cdf(0x1bf)]=!![];export default handler;
+
+const handler = async (m, {conn, participants, command, usedPrefix}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.grupos_eliminar
+
+  if (!global.db.data.settings[conn.user.jid].restrict) throw `${tradutor.texto1[0]} (*_restrict_*), ${tradutor.texto1[1]}`;
+  const kicktext = `${tradutor.texto2} _${usedPrefix + command} @${global.suittag}_`;
+  if (!m.mentionedJid[0] && !m.quoted) return m.reply(kicktext, m.chat, {mentions: conn.parseMention(kicktext)});
+  if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return m.reply(tradutor.texto3);
+  if (m.message.extendedTextMessage.contextInfo.participant !== null && m.message.extendedTextMessage.contextInfo.participant != undefined && m.message.extendedTextMessage.contextInfo.participant !== '') {
+    const mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid[0] ? m.message.extendedTextMessage.contextInfo.mentionedJid[0] : m.message.extendedTextMessage.contextInfo.participant;
+    if (conn.user.jid.includes(mentioned)) return m.reply(tradutor.texto4);
+    const responseb = await conn.groupParticipantsUpdate(m.chat, [mentioned], 'remove');
+    const exitoso1 = `${tradutor.texto5[0]} @${mentioned.split('@')[0]} ${tradutor.texto5[1]}`;
+    const error1 = `${tradutor.texto6[0]} @${mentioned.split('@')[0]} ${tradutor.texto6[1]}`;
+    const error2 = `${tradutor.texto7[0]} @${mentioned.split('@')[0]} ${tradutor.texto7[1]}`;
+    if (responseb[0].status === '200') m.reply(exitoso1, m.chat, {mentions: conn.parseMention(exitoso1)});
+    else if (responseb[0].status === '406') m.reply(error1, m.chat, {mentions: conn.parseMention(error1)});
+    else if (responseb[0].status === '404') m.reply(error2, m.chat, {mentions: conn.parseMention(error2)});
+    else conn.sendMessage(m.chat, {text: `${tradutor.texto8}`, mentions: [m.sender], contextInfo: {forwardingScore: 999, isForwarded: true}}, {quoted: m});
+  } else if (m.message.extendedTextMessage.contextInfo.mentionedJid != null && m.message.extendedTextMessage.contextInfo.mentionedJid != undefined) {
+    return;
+  }
+};
+handler.help = ['kick'];
+handler.tags = ['group'];
+handler.command = /^(kick|expulsar|eliminar|echar|sacar)$/i;
+handler.admin = handler.group = handler.botAdmin = true;
+export default handler;
+/* var mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid
+if(mentioned.includes(conn.user.jid)) return m.reply("*[❗] 𝙽𝙾 𝙿𝚄𝙴𝙳𝙾 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁𝙼𝙴 𝙰 𝙼𝙸 𝙼𝙸𝚂𝙼𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚂𝙰𝙲𝙰𝙼𝙴 𝙼𝙰𝙽𝚄𝙰𝙻𝙼𝙴𝙽𝚃𝙴 𝚂𝙸 𝙰𝚂𝙸 𝙻𝙾 𝙳𝙴𝚂𝙴𝙰𝚂*")
+if(mentioned.length > 1) {
+if(mentioned.length > groupMembers.length || mentioned.length === groupMembers.length || mentioned.length > groupMembers.length - 3) return m.reply(`¿De verdad vas a banear a todos?`)
+sexocomrato = 0
+for (let banned of mentioned) {
+await sleep(100)
+let responseb2 = await conn.groupParticipantsUpdate(m.chat, [banned], 'remove')
+if (responseb2[0].status === "200") sexocomrato = sexocomrato + 1
+}
+conn.sendMessage(m.chat, {text: `${sexocomrato} participante elimanado del grupo.`, mentions: [m.sender], contextInfo:{forwardingScore:999, isForwarded:true}}, {quoted: m})
+} else {
+let responseb3 = await conn.groupParticipantsUpdate(m.chat, [mentioned[0]], 'remove')
+if (responseb3[0].status === "200") conn.sendMessage(m.chat, {text: `@${mentioned[0].split("@")[0]} fue eliminado exitosamente del grupo.️`, mentions: [mentioned[0], m.sender], contextInfo:{forwardingScore:999, isForwarded:true}}, {quoted: m})
+else if (responseb3[0].status === "406") conn.sendMessage(m.chat, {text: `@${mentioned[0].split("@")[0]} creó este grupo y no puede ser eliminado.`, mentions: [mentioned[0], m.sender], contextInfo:{forwardingScore:999, isForwarded:true}}, {quoted: m})
+else if (responseb3[0].status === "404") conn.sendMessage(m.chat, {text: `@${mentioned[0].split("@")[0]} ya ha sido eliminado o abandonado el grupo`, mentions: [mentioned[0], m.sender], contextInfo:{forwardingScore:999, isForwarded:true}}, {quoted: m})
+else conn.sendMessage(m.chat, {text: `A ocurrido un error.`, mentions: [m.sender], contextInfo:{forwardingScore:999, isForwarded:true}}, {quoted: m})
+}*/

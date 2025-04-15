@@ -1,1 +1,62 @@
-function a0_0xe0c2(_0x59ea1e,_0x2bd9ab){const _0x5ced56=a0_0x5ced();return a0_0xe0c2=function(_0xe0c2e3,_0x434bdb){_0xe0c2e3=_0xe0c2e3-0x12f;let _0x46bc06=_0x5ced56[_0xe0c2e3];return _0x46bc06;},a0_0xe0c2(_0x59ea1e,_0x2bd9ab);}const a0_0x53c32c=a0_0xe0c2;(function(_0x3f055f,_0x53a903){const _0x587fa3=a0_0xe0c2,_0x43f74f=_0x3f055f();while(!![]){try{const _0x5362ab=-parseInt(_0x587fa3(0x14f))/0x1*(-parseInt(_0x587fa3(0x15d))/0x2)+parseInt(_0x587fa3(0x144))/0x3*(-parseInt(_0x587fa3(0x154))/0x4)+-parseInt(_0x587fa3(0x13d))/0x5+parseInt(_0x587fa3(0x150))/0x6*(-parseInt(_0x587fa3(0x14e))/0x7)+parseInt(_0x587fa3(0x143))/0x8+-parseInt(_0x587fa3(0x148))/0x9+-parseInt(_0x587fa3(0x138))/0xa*(-parseInt(_0x587fa3(0x152))/0xb);if(_0x5362ab===_0x53a903)break;else _0x43f74f['push'](_0x43f74f['shift']());}catch(_0x2f5bbd){_0x43f74f['push'](_0x43f74f['shift']());}}}(a0_0x5ced,0xdeedf));const handler=async(_0x530738,{conn:_0xfa3b35,isPrems:_0x4e07c8})=>{const _0x4ce5b5=a0_0xe0c2;global['db'][_0x4ce5b5(0x153)][_0x4ce5b5(0x131)][_0x530738['sender']][_0x4ce5b5(0x142)]+=0x1;const _0x5f17b1=global['db'][_0x4ce5b5(0x153)][_0x4ce5b5(0x131)][_0x530738[_0x4ce5b5(0x163)]],_0x474acf=_0x5f17b1[_0x4ce5b5(0x15b)],_0xd45b14=''+pickRandom([_0x4ce5b5(0x166),_0x4ce5b5(0x15c),_0x4ce5b5(0x139),_0x4ce5b5(0x137),_0x4ce5b5(0x136),_0x4ce5b5(0x149),_0x4ce5b5(0x147),_0x4ce5b5(0x13c),_0x4ce5b5(0x13a),_0x4ce5b5(0x151),_0x4ce5b5(0x156),'⛏️\x20La\x20Mineria\x20te\x20ha\x20beneficiado\x20con',_0x4ce5b5(0x13b),'👾\x20Gracias\x20a\x20que\x20has\x20minado\x20tus\x20ingresos\x20suman',_0x4ce5b5(0x157),_0x4ce5b5(0x132)]),_0x5c4258=_0x4ce5b5(0x155),_0x28ce6a=(''+pickRandom([0x0,0x2,0x3,0x1,0x5]))*0x1,_0x1a45a5=(''+pickRandom([0x2,0x4,0x6,0x7,0x5,0x9]))*0x1,_0x7f1d28=(''+pickRandom([0x6,0x9,0x0,0xc,0x2]))*0x1,_0xa415c3=(''+pickRandom([0xd,0x9,0x11,0x14,0x19]))*0x1,_0x49ee38=(''+pickRandom([0x1,0x3,0x2,0x1,0x4,0x2,0x3]))*0x1,_0x4c67d7=(''+pickRandom([0x1,0x3,0x4,0x9,0x2,0x5,0x8]))*0x1,_0x3d0b1f={'aqua':_0x474acf?_0x1a45a5:_0x28ce6a,'rock':_0x474acf?_0xa415c3:_0x7f1d28,'pancingan':_0x474acf?_0x4c67d7:_0x49ee38},_0x58887d=(''+pickRandom([0x64,0xc8,0xfa,0x12c,0x172,0x190,0x1c2,0x1e0,0x1f4,0x1fe,0x280,0x2a8,0x2c0,0x2f8,0x320,0x348,0x370,0x384,0x3e8,0x423,0x438,0x44c,0x4a6,0x4ce,0x564,0x577,0x50a,0x514,0x53c,0x546,0x636,0x578,0x5aa,0x6a4,0x708,0x76c,0x7d0,0x0,0x0,0xa,0x1,0x63,0x3e7,0x6fd,0x596]))*0x1,_0x12e839=(''+pickRandom([0x1f4,0x258,0x2bc,0x320,0x384,0x3e8,0x41a,0x47e,0x4b0,0x4e2,0x514,0x546,0x578,0x5aa,0x5dc,0x60e,0x640,0x672,0x6a4,0x6d6,0x708,0x73a,0x79e,0x7d0,0x834,0x898,0x8fc,0x960,0x9c4,0xa28,0xa8c,0xaf0,0xb54,0xbb8,0xc1c,0xc80,0xd48,0xdac,0xe10,0xe74,0xed8,0xf0a,0xf3c,0xf6e,0xfa0]))*0x1,_0x4f3453=_0x5f17b1[_0x4ce5b5(0x14b)]+0x927c0;if(new Date()-_0x5f17b1[_0x4ce5b5(0x14b)]<0x927c0)return await _0xfa3b35[_0x4ce5b5(0x164)](_0x530738[_0x4ce5b5(0x165)],'*⏱️\x20𝙑𝙪𝙚𝙡𝙫𝙖\x20𝙚𝙣\x20'+msToTime(_0x4f3453-new Date())+_0x4ce5b5(0x167)+global[_0x4ce5b5(0x133)][_0x4ce5b5(0x161)]('money')+_0x4ce5b5(0x15f),_0x530738);_0x5f17b1[_0x4ce5b5(0x134)]+=_0x474acf?_0x12e839:_0x58887d;let _0x5a82b9='';for(const _0x55e872 of Object['keys'](_0x3d0b1f)){if(!(_0x55e872 in _0x5f17b1))continue;_0x5f17b1[_0x55e872]+=_0x3d0b1f[_0x55e872],_0x5a82b9+='+'+_0x3d0b1f[_0x55e872]+'\x20'+global['rpgshop'][_0x4ce5b5(0x161)](_0x55e872)+'\x0a';}const _0x1280b8='*'+(_0x474acf?'🎟️\x20Recompensa\x20Premium':_0x4ce5b5(0x130))+_0x4ce5b5(0x140)+_0xd45b14+_0x4ce5b5(0x140)+_0x58887d+'\x20'+global[_0x4ce5b5(0x160)][_0x4ce5b5(0x161)](_0x4ce5b5(0x134))+'*\x0a\x0a🍁\x20𝗕\x20𝗢\x20𝗡\x20𝗢\x0a'+_0x5a82b9+'\x0a\x0a🎟️\x20𝗣\x20𝗥\x20𝗘\x20𝗠\x20𝗜\x20𝗨\x20𝗠\x20⇢\x20'+(_0x474acf?'✅':'❌')+'\x0a'+wm;await _0xfa3b35[_0x4ce5b5(0x145)](_0x530738[_0x4ce5b5(0x165)],_0x5c4258,_0x4ce5b5(0x135),_0x1280b8,_0x530738),_0x5f17b1[_0x4ce5b5(0x14b)]=new Date()*0x1;};handler[a0_0x53c32c(0x13e)]=[a0_0x53c32c(0x146)],handler[a0_0x53c32c(0x14c)]=[a0_0x53c32c(0x141)],handler[a0_0x53c32c(0x14a)]=[a0_0x53c32c(0x146),a0_0x53c32c(0x14d)],handler['fail']=null,handler[a0_0x53c32c(0x159)]=!![],handler[a0_0x53c32c(0x12f)]=0x0;export default handler;function msToTime(_0x43545a){const _0x2007ab=a0_0x53c32c,_0x2aee24=parseInt(_0x43545a%0x3e8/0x64);let _0x330825=Math[_0x2007ab(0x158)](_0x43545a/0x3e8%0x3c),_0x47a215=Math[_0x2007ab(0x158)](_0x43545a/(0x3e8*0x3c)%0x3c),_0x7a3a69=Math[_0x2007ab(0x158)](_0x43545a/(0x3e8*0x3c*0x3c)%0x18);return _0x7a3a69=_0x7a3a69<0xa?'0'+_0x7a3a69:_0x7a3a69,_0x47a215=_0x47a215<0xa?'0'+_0x47a215:_0x47a215,_0x330825=_0x330825<0xa?'0'+_0x330825:_0x330825,_0x47a215+_0x2007ab(0x13f)+_0x330825+_0x2007ab(0x15e);}function pickRandom(_0x40e2a4){const _0x9017ca=a0_0x53c32c;return _0x40e2a4[Math[_0x9017ca(0x158)](Math[_0x9017ca(0x162)]()*_0x40e2a4[_0x9017ca(0x15a)])];}function a0_0x5ced(){const _0x38589f=['⛏️*','rpgshop','emoticon','random','sender','reply','chat','Que\x20pro\x20😎\x20has\x20minado','\x20𝙥𝙖𝙧𝙖\x20𝙘𝙤𝙣𝙩𝙞𝙣𝙪𝙖𝙧\x20𝙢𝙞𝙣𝙖𝙣𝙙𝙤\x20','exp','🆓\x20Recompensa\x20Gratis','users','⛏️⛏️⛏️\x20Obtienes','rpgshopp','money','mystic.jpg','😲\x20Lograste\x20Minar\x20la\x20cantidad\x20de','Has\x20Minado!!','2270uNHpzk','WOW!!\x20eres\x20un(a)\x20gran\x20Minero(a)\x20⛏️\x20Obtienes','La\x20minaria\x20esta\x20de\x20tu\x20lado,\x20por\x20ello\x20obtienes','🛣️\x20Has\x20encontrado\x20un\x20Lugar\x20y\x20por\x20minar\x20dicho\x20lugar\x20Obtienes','🤩\x20SII!!!\x20AHORA\x20TIENES','7715285TGZLFT','help','\x20m\x20y\x20','*\x0a*','econ','comandos','5520832BDGzbT','1417329vctmLe','sendFile','minar2','⛏️⛏️⛏️⛏️⛏️\x20Minando','2097477svZFst','Tus\x20Ingresos\x20subiran\x20gracias\x20a\x20que\x20minaste','command','lastcoins','tags','monedas2','10350291vfQgny','4lJeIJm','6lWoiOg','😻\x20La\x20suerte\x20de\x20Minar','167827yiDBgZ','data','12oHyYjh','https://png.pngtree.com/thumb_back/fw800/background/20220428/pngtree-cartoon-mining-game-design-composition-with-different-mining-equipment-inside-the-image_1108471.jpg','♻️\x20Tu\x20Mision\x20se\x20ha\x20cumplido,\x20lograste\x20minar','Felicidades!!\x20Ahora\x20tienes','floor','group','length','premium','🌟✨\x20Genial!!\x20Obtienes','715864vAwWgS','\x20s\x20'];a0_0x5ced=function(){return _0x38589f;};return a0_0x5ced();}
+const handler = async (m, {conn, isPrems}) => { // lastmiming
+global.db.data.users[m.sender].comandos += 1;
+  const user = global.db.data.users[m.sender];
+  const premium = user.premium;
+  const minar = `${pickRandom(['Que pro 😎 has minado',
+    '🌟✨ Genial!! Obtienes',
+    'WOW!! eres un(a) gran Minero(a) ⛏️ Obtienes',
+    'Has Minado!!',
+    '😲 Lograste Minar la cantidad de',
+    'Tus Ingresos subiran gracias a que minaste',
+    '⛏️⛏️⛏️⛏️⛏️ Minando',
+    '🤩 SII!!! AHORA TIENES',
+    'La minaria esta de tu lado, por ello obtienes',
+    '😻 La suerte de Minar',
+    '♻️ Tu Mision se ha cumplido, lograste minar',
+    '⛏️ La Mineria te ha beneficiado con',
+    '🛣️ Has encontrado un Lugar y por minar dicho lugar Obtienes',
+    '👾 Gracias a que has minado tus ingresos suman',
+    'Felicidades!! Ahora tienes', '⛏️⛏️⛏️ Obtienes'])}`;
+  const pp = 'https://png.pngtree.com/thumb_back/fw800/background/20220428/pngtree-cartoon-mining-game-design-composition-with-different-mining-equipment-inside-the-image_1108471.jpg';
+  const aqua = `${pickRandom([0, 2, 3, 1, 5])}` * 1;
+  const aquapremium = `${pickRandom([2, 4, 6, 7, 5, 9])}` * 1;
+  const rock = `${pickRandom([6, 9, 0, 12, 2])}` * 1;
+  const rockpremium = `${pickRandom([13, 9, 17, 20, 25])}` * 1;
+  const pancingan = `${pickRandom([1, 3, 2, 1, 4, 2, 3])}` * 1;
+  const pancinganpremium = `${pickRandom([1, 3, 4, 9, 2, 5, 8])}` * 1;
+  const recompensas = {aqua: premium ? aquapremium : aqua, rock: premium ? rockpremium : rock, pancingan: premium ? pancinganpremium : pancingan};
+  const money = `${pickRandom([100, 200, 250, 300, 370, 400, 450, 480, 500, 510, 640, 680, 704, 760, 800, 840, 880, 900, 1000, 1059, 1080, 1100, 1190, 1230, 1380, 1399, 1290, 1300, 1340, 1350, 1590, 1400, 1450, 1700, 1800, 1900, 2000, 0, 0, 10, 1, 99, 999, 1789, 1430])}` * 1;
+  const moneypremium = `${pickRandom([500, 600, 700, 800, 900, 1000, 1050, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1850, 1950, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900, 3000, 3100, 3200, 3400, 3500, 3600, 3700, 3800, 3850, 3900, 3950, 4000])}` * 1;
+  const time = user.lastcoins + 600000; // 10 min
+  if (new Date - user.lastcoins < 600000) return await conn.reply(m.chat, `*⏱️ 𝙑𝙪𝙚𝙡𝙫𝙖 𝙚𝙣 ${msToTime(time - new Date())} 𝙥𝙖𝙧𝙖 𝙘𝙤𝙣𝙩𝙞𝙣𝙪𝙖𝙧 𝙢𝙞𝙣𝙖𝙣𝙙𝙤 ${global.rpgshopp.emoticon('money')}⛏️*`, m);
+  user.money += premium ? moneypremium : money;
+  let texto = '';
+  for (const reward of Object.keys(recompensas)) {
+    if (!(reward in user)) continue;
+    user[reward] += recompensas[reward];
+    texto += `+${recompensas[reward]} ${global.rpgshop.emoticon(reward)}\n`;
+  }
+  const text = `*${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}*\n*${minar}*\n*${money} ${global.rpgshop.emoticon('money')}*\n\n🍁 𝗕 𝗢 𝗡 𝗢\n${texto}\n\n🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`;
+  await conn.sendFile(m.chat, pp, 'mystic.jpg', text, m);
+  user.lastcoins = new Date * 1;
+};
+handler.help = ['minar2'];
+handler.tags = ['econ']
+handler.command = ['minar2', 'monedas2'];
+handler.fail = null;
+handler.group = true
+handler.exp = 0;
+export default handler;
+function msToTime(duration) {
+  const milliseconds = parseInt((duration % 1000) / 100);
+  let seconds = Math.floor((duration / 1000) % 60);
+  let minutes = Math.floor((duration / (1000 * 60)) % 60);
+  let hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+  hours = (hours < 10) ? '0' + hours : hours;
+  minutes = (minutes < 10) ? '0' + minutes : minutes;
+  seconds = (seconds < 10) ? '0' + seconds : seconds;
+  return minutes + ' m y ' + seconds + ' s ';
+}
+function pickRandom(list) {
+  return list[Math.floor(Math.random() * list.length)];
+}

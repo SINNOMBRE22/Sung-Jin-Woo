@@ -1,1 +1,78 @@
-const a0_0x45150c=a0_0x3147;(function(_0x5bfcbb,_0x4d46ad){const _0x20d569=a0_0x3147,_0x240f02=_0x5bfcbb();while(!![]){try{const _0x2109ff=parseInt(_0x20d569(0x7c))/0x1+parseInt(_0x20d569(0x86))/0x2*(parseInt(_0x20d569(0x82))/0x3)+parseInt(_0x20d569(0x8a))/0x4*(-parseInt(_0x20d569(0x81))/0x5)+parseInt(_0x20d569(0x77))/0x6*(parseInt(_0x20d569(0x90))/0x7)+-parseInt(_0x20d569(0x94))/0x8+-parseInt(_0x20d569(0x79))/0x9+parseInt(_0x20d569(0x97))/0xa;if(_0x2109ff===_0x4d46ad)break;else _0x240f02['push'](_0x240f02['shift']());}catch(_0x3b35f0){_0x240f02['push'](_0x240f02['shift']());}}}(a0_0x34fb,0xa09fb));function a0_0x3147(_0x4c0b94,_0x3dcd70){const _0x34fba2=a0_0x34fb();return a0_0x3147=function(_0x314754,_0x5da496){_0x314754=_0x314754-0x75;let _0x5c2249=_0x34fba2[_0x314754];return _0x5c2249;},a0_0x3147(_0x4c0b94,_0x3dcd70);}import a0_0x113969 from'fs';function a0_0x34fb(){const _0x16ed6b=['12XoJCrx','test','11065221MGbSpl','./src/comunicados.png','admin','1053325SWaobV','text','readFileSync','⚠️\x20*Error:*\x20Debes\x20ingresar\x20un\x20mensaje.','participants','3635375edhxHh','699SsdZKs','groupMetadata','image/','bcgc2\x20<mensaje>','1654fSkbdN','chat','❌\x20Error\x20enviando\x20a\x20','mimetype','4NaTIJQ','⚠️\x20*No\x20hay\x20grupos\x20disponibles\x20para\x20enviar\x20el\x20mensaje.*','reply','tags','owner','isGroup','2248967nwAHme','length','\x0a🤖\x20*Sung\x20Jin-Woo*','map','8669184TLXqcR','some','\x0a\x20\x20\x20\x20\x20📢\x20*COMUNICADO\x20OFICIAL*\x0a','18095290ZfvuGf','══════✦❘༻༺❘✦══════','\x20grupo(s).*','values','group','existsSync','quoted'];a0_0x34fb=function(){return _0x16ed6b;};return a0_0x34fb();}const handler=async(_0x4b6da1,{conn:_0x100889,text:_0x2ba059,usedPrefix:_0x4856f8,command:_0x5a5c3c})=>{const _0x152b46=a0_0x3147;let _0x3c6611=![];if(_0x4b6da1[_0x152b46(0x8f)]){const _0x1ff589=await _0x100889[_0x152b46(0x83)](_0x4b6da1[_0x152b46(0x87)]);_0x3c6611=_0x1ff589['participants'][_0x152b46(0x95)](_0x4c8117=>_0x4c8117['id']===_0x4b6da1['sender']&&(_0x4c8117[_0x152b46(0x7b)]===_0x152b46(0x7b)||_0x4c8117[_0x152b46(0x7b)]==='superadmin'));}if(/^bcgc2$/i[_0x152b46(0x78)](_0x5a5c3c)){}const _0x2cc898=_0x4b6da1[_0x152b46(0x76)]?.[_0x152b46(0x7d)]||_0x2ba059;if(!_0x2cc898)throw _0x152b46(0x7f);let _0x1c6270;const _0x3dc49e=_0x152b46(0x7a);if(a0_0x113969[_0x152b46(0x75)](_0x3dc49e))_0x1c6270=a0_0x113969[_0x152b46(0x7e)](_0x3dc49e);else{if(_0x4b6da1[_0x152b46(0x76)]&&_0x4b6da1[_0x152b46(0x76)][_0x152b46(0x89)]&&_0x4b6da1[_0x152b46(0x76)]['mimetype']['startsWith'](_0x152b46(0x84)))_0x1c6270=await _0x100889['downloadMediaMessage'](_0x4b6da1[_0x152b46(0x76)]);else throw'⚠️\x20*Error:*\x20No\x20se\x20encontró\x20la\x20imagen\x20del\x20comunicado.\x20Responde\x20a\x20la\x20imagen\x20que\x20deseas\x20guardar.';}const _0x2bd305=_0x152b46(0x98),_0x31a71b=_0x2bd305+_0x152b46(0x96)+_0x2bd305,_0x428b57=_0x152b46(0x92);if(/^bcgc2$/i[_0x152b46(0x78)](_0x5a5c3c)){const _0xda2e11=_0x31a71b+'\x0a\x0a'+_0x2cc898+'\x0a'+_0x2bd305+'\x0a'+_0x428b57,_0x37ab84=await _0x100889['groupFetchAllParticipating'](),_0x426271=Object[_0x152b46(0x9a)](_0x37ab84)[_0x152b46(0x93)](_0x237cd7=>_0x237cd7['id']);if(_0x426271[_0x152b46(0x91)]===0x0)return _0x4b6da1[_0x152b46(0x8c)](_0x152b46(0x8b));const _0x525bc0=_0x1cc375=>new Promise(_0x3a5c24=>setTimeout(_0x3a5c24,_0x1cc375));let _0x4fe68e=0x0;for(const _0x1d126e of _0x426271){try{const _0x1ce492=await _0x100889['groupMetadata'](_0x1d126e),_0x494b17=_0x1ce492[_0x152b46(0x80)][_0x152b46(0x93)](_0x277555=>_0x277555['id']);await _0x100889['sendMessage'](_0x1d126e,{'image':_0x1c6270,'caption':_0xda2e11,'mentions':_0x494b17}),_0x4fe68e++,await _0x525bc0(0x1f4);}catch(_0x547d97){console['error'](_0x152b46(0x88)+_0x1d126e+':',_0x547d97);}}_0x4b6da1[_0x152b46(0x8c)]('✅\x20*Mensaje\x20enviado\x20a\x20'+_0x4fe68e+_0x152b46(0x99));}};handler['help']=[a0_0x45150c(0x85)],handler[a0_0x45150c(0x8d)]=['owner',a0_0x45150c(0x9b)],handler['command']=/^(bcgc2)$/i,handler[a0_0x45150c(0x8e)]=!![],handler[a0_0x45150c(0x7b)]=![];export default handler;
+import fs from 'fs';
+
+const handler = async (m, { conn, text, usedPrefix, command }) => {
+  // Verificación de permisos (si se ejecuta en grupo, se determina si el emisor es admin, aunque en este comando se usa en privado)
+  let isAdmin = false;
+  if (m.isGroup) {
+    const groupMetadata = await conn.groupMetadata(m.chat);
+    isAdmin = groupMetadata.participants.some(p =>
+      p.id === m.sender && (p.admin === 'admin' || p.admin === 'superadmin')
+    );
+  }
+
+  // El comando bcgc2 es exclusivo del dueño (la verificación adicional se realiza en la configuración del handler)
+  if (/^bcgc2$/i.test(command)) {
+    // No se requiere validación adicional aquí, ya que handler.owner = true
+  }
+
+  // Obtener el mensaje a enviar (desde mensaje citado o argumento)
+  const pesan = m.quoted?.text || text;
+  if (!pesan) throw "⚠️ *Error:* Debes ingresar un mensaje.";
+
+  // Cargar la imagen del comunicado: desde disco o desde mensaje citado
+  let imageBuffer;
+  const imagePath = './src/comunicados.png';
+  if (fs.existsSync(imagePath)) {
+    imageBuffer = fs.readFileSync(imagePath);
+  } else if (m.quoted && m.quoted.mimetype && m.quoted.mimetype.startsWith("image/")) {
+    imageBuffer = await conn.downloadMediaMessage(m.quoted);
+  } else {
+    throw "⚠️ *Error:* No se encontró la imagen del comunicado. Responde a la imagen que deseas guardar.";
+  }
+
+  // Definir la decoración del comunicado
+  const divider = "══════✦❘༻༺❘✦══════";
+  const header = `${divider}\n     📢 *COMUNICADO OFICIAL*\n${divider}`;
+  const footer = `\n🤖 *Sung Jin-Woo*`;
+
+  if (/^bcgc2$/i.test(command)) {
+    // Comando "bcgc2": se envía el comunicado a todos los grupos
+    const broadcastMessage = `${header}\n\n${pesan}\n${divider}\n${footer}`;
+    const groupsData = await conn.groupFetchAllParticipating();
+    const groups = Object.values(groupsData).map(group => group.id);
+
+    if (groups.length === 0) {
+      return m.reply("⚠️ *No hay grupos disponibles para enviar el mensaje.*");
+    }
+
+    // Función de retardo para evitar saturar la API (500 ms entre cada envío)
+    const delay = ms => new Promise(res => setTimeout(res, ms));
+    let count = 0;
+    for (const groupId of groups) {
+      try {
+        // Se obtienen los participantes para enviarlos en "mentions"
+        const groupMetadata = await conn.groupMetadata(groupId);
+        const participants = groupMetadata.participants.map(user => user.id);
+        await conn.sendMessage(groupId, {
+          image: imageBuffer,
+          caption: broadcastMessage,
+          mentions: participants
+        });
+        count++;
+        await delay(500);
+      } catch (e) {
+        console.error(`❌ Error enviando a ${groupId}:`, e);
+      }
+    }
+    m.reply(`✅ *Mensaje enviado a ${count} grupo(s).*`);
+  }
+};
+
+// Configuración del handler
+handler.help = ['bcgc2 <mensaje>'];
+handler.tags = ['owner', 'group'];
+handler.command = /^(bcgc2)$/i;
+handler.owner = true; // Solo el dueño puede usar este comando
+handler.admin = false;
+
+export default handler;

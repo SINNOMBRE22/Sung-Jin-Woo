@@ -1,1 +1,25 @@
-const a0_0x1abd0b=a0_0x3a1a;(function(_0x3d5e45,_0x5b18d4){const _0x1c653e=a0_0x3a1a,_0x7cd069=_0x3d5e45();while(!![]){try{const _0x3582a0=-parseInt(_0x1c653e(0x17c))/0x1*(-parseInt(_0x1c653e(0x180))/0x2)+-parseInt(_0x1c653e(0x183))/0x3+-parseInt(_0x1c653e(0x198))/0x4+-parseInt(_0x1c653e(0x196))/0x5*(-parseInt(_0x1c653e(0x189))/0x6)+-parseInt(_0x1c653e(0x18e))/0x7+-parseInt(_0x1c653e(0x195))/0x8+-parseInt(_0x1c653e(0x197))/0x9*(-parseInt(_0x1c653e(0x17d))/0xa);if(_0x3582a0===_0x5b18d4)break;else _0x7cd069['push'](_0x7cd069['shift']());}catch(_0xb8f406){_0x7cd069['push'](_0x7cd069['shift']());}}}(a0_0x4941,0x3f7c7));import{toPTT}from'../lib/converter.js';const handler=async(_0x432b4a,{conn:_0x192766,usedPrefix:_0x1d4035,command:_0x9f5427})=>{const _0x5b991d=a0_0x3a1a,_0x2e1e21=global,_0x463d4c=_0x2e1e21['db']['data'][_0x5b991d(0x181)][_0x432b4a[_0x5b991d(0x193)]][_0x5b991d(0x190)],_0x354b32=JSON[_0x5b991d(0x18f)](fs[_0x5b991d(0x191)](_0x5b991d(0x17e)+_0x463d4c+'.json')),_0x52e0b5=_0x354b32[_0x5b991d(0x194)][_0x5b991d(0x18a)],_0x4c744c=_0x432b4a[_0x5b991d(0x182)]?_0x432b4a[_0x5b991d(0x182)]:_0x432b4a,_0x200b7e=(_0x432b4a[_0x5b991d(0x182)]?_0x432b4a[_0x5b991d(0x182)]:_0x432b4a['msg'])['mimetype']||'';if(!/video|audio/['test'](_0x200b7e))throw'*'+_0x52e0b5['texto1']+'*';const _0x568c7a=await _0x4c744c['download']?.();if(!_0x568c7a&&!/video/[_0x5b991d(0x192)](_0x200b7e))throw'*'+_0x52e0b5[_0x5b991d(0x184)]+'*';if(!_0x568c7a&&!/audio/[_0x5b991d(0x192)](_0x200b7e))throw'*'+_0x52e0b5[_0x5b991d(0x186)]+'*';const _0x144727=await toPTT(_0x568c7a,_0x5b991d(0x185));if(!_0x144727[_0x5b991d(0x18b)]&&!/audio/[_0x5b991d(0x192)](_0x200b7e))throw'*'+_0x52e0b5[_0x5b991d(0x19a)]+'*';if(!_0x144727[_0x5b991d(0x18b)]&&!/video/[_0x5b991d(0x192)](_0x200b7e))throw'*'+_0x52e0b5[_0x5b991d(0x18d)]+'*';const _0x1c085b=_0x192766[_0x5b991d(0x18c)](_0x432b4a[_0x5b991d(0x17f)],_0x144727[_0x5b991d(0x18b)],'error.mp3','',_0x432b4a,!![],{'mimetype':_0x5b991d(0x199)});if(!_0x1c085b)return _0x192766['sendMessage'](_0x432b4a[_0x5b991d(0x17f)],{'audio':{'url':_0x568c7a},'fileName':_0x5b991d(0x187),'mimetype':_0x5b991d(0x199),'ptt':!![]},{'quoted':_0x432b4a});};handler['help']=['toptt\x20(reply)'],handler['tags']=['convertidores'],handler[a0_0x1abd0b(0x188)]=/^to(vn|(ptt)?)$/i;function a0_0x4941(){const _0x2bbcef=['chat','26JnZaSm','users','quoted','1323597eOTezx','texto2','mp4','texto3','error.mp3','command','330evedlH','convertidor_toptt','data','sendFile','texto5','324016cnBNCu','parse','language','readFileSync','test','sender','plugins','350808asIjEd','16795viFwhf','1277955GZcgSJ','1363984IOngaw','audio/mpeg','texto4','18281dWMNjE','50HHvfFg','./language/'];a0_0x4941=function(){return _0x2bbcef;};return a0_0x4941();}function a0_0x3a1a(_0x1a445e,_0x673ba2){const _0x4941f9=a0_0x4941();return a0_0x3a1a=function(_0x3a1ab8,_0x4bff3c){_0x3a1ab8=_0x3a1ab8-0x17c;let _0x161c9a=_0x4941f9[_0x3a1ab8];return _0x161c9a;},a0_0x3a1a(_0x1a445e,_0x673ba2);}export default handler;
+import {toPTT} from '../lib/converter.js';
+
+
+const handler = async (m, {conn, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.convertidor_toptt
+
+  const q = m.quoted ? m.quoted : m;
+  const mime = (m.quoted ? m.quoted : m.msg).mimetype || '';
+  if (!/video|audio/.test(mime)) throw `*${tradutor.texto1}*`;
+  const media = await q.download?.();
+  if (!media && !/video/.test(mime)) throw `*${tradutor.texto2}*`;
+  if (!media && !/audio/.test(mime)) throw `*${tradutor.texto3}*`;
+  const audio = await toPTT(media, 'mp4');
+  if (!audio.data && !/audio/.test(mime)) throw `*${tradutor.texto4}*`;
+  if (!audio.data && !/video/.test(mime)) throw `*${tradutor.texto5}*`;
+  const aa = conn.sendFile(m.chat, audio.data, 'error.mp3', '', m, true, {mimetype: 'audio/mpeg'});
+  if (!aa) return conn.sendMessage(m.chat, {audio: {url: media}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+};
+handler.help = ['toptt (reply)'];
+handler.tags = ['convertidores'];
+handler.command = /^to(vn|(ptt)?)$/i;
+export default handler;

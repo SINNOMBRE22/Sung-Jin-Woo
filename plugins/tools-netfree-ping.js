@@ -1,1 +1,147 @@
-const a0_0x53b23a=a0_0x2069;(function(_0xb4b52d,_0x1446ba){const _0x433428=a0_0x2069,_0x42497b=_0xb4b52d();while(!![]){try{const _0x503195=-parseInt(_0x433428(0xf2))/0x1*(parseInt(_0x433428(0xfc))/0x2)+-parseInt(_0x433428(0xea))/0x3*(-parseInt(_0x433428(0xcf))/0x4)+parseInt(_0x433428(0xe0))/0x5*(parseInt(_0x433428(0x106))/0x6)+-parseInt(_0x433428(0xdb))/0x7+parseInt(_0x433428(0xf5))/0x8*(-parseInt(_0x433428(0xdc))/0x9)+parseInt(_0x433428(0xfd))/0xa*(parseInt(_0x433428(0x108))/0xb)+parseInt(_0x433428(0xef))/0xc;if(_0x503195===_0x1446ba)break;else _0x42497b['push'](_0x42497b['shift']());}catch(_0x3e9c5f){_0x42497b['push'](_0x42497b['shift']());}}}(a0_0x4417,0x478a6));import a0_0x4a1309 from'ping';import a0_0xd88f03 from'axios';import a0_0x206c6d from'tls';import a0_0x3c68ac from'https';import{HttpsProxyAgent}from'https-proxy-agent';function a0_0x2069(_0x3985ab,_0x1ce8d7){const _0x4417ad=a0_0x4417();return a0_0x2069=function(_0x206996,_0x24c1de){_0x206996=_0x206996-0xcd;let _0x20143e=_0x4417ad[_0x206996];return _0x20143e;},a0_0x2069(_0x3985ab,_0x1ce8d7);}import{lookup}from'dns';async function testHost(_0x1c4e42){const _0x459af9=a0_0x2069;try{return await a0_0x4a1309[_0x459af9(0x103)][_0x459af9(0x112)](_0x1c4e42);}catch(_0x459547){return console[_0x459af9(0x10b)](_0x459af9(0xd3),_0x459547),null;}}async function getHostIPs(_0x4b6fed){return new Promise(_0x20e18e=>{lookup(_0x4b6fed,{'all':!![]},async(_0x579a79,_0x2e8640)=>{const _0x56ae0b=a0_0x2069;if(_0x579a79){console[_0x56ae0b(0x10b)](_0x56ae0b(0xcd),_0x579a79),_0x20e18e([_0x56ae0b(0xe4)]);return;}let _0x407eb7=await Promise[_0x56ae0b(0xfa)](_0x2e8640[_0x56ae0b(0xee)](async _0x258848=>{const _0x1c4d6b=_0x56ae0b;try{let {data:_0x58ebe1}=await a0_0xd88f03[_0x1c4d6b(0xd1)](_0x1c4d6b(0xda)+_0x258848[_0x1c4d6b(0xf1)]+_0x1c4d6b(0xeb));return _0x1c4d6b(0xe1)+_0x258848[_0x1c4d6b(0xf1)]+'\x20('+_0x58ebe1[_0x1c4d6b(0xff)]+')';}catch{return _0x1c4d6b(0xe1)+_0x258848['address']+_0x1c4d6b(0xf4);}}));_0x20e18e(_0x407eb7);});});}async function getHTTPStatus(_0x57a5c8,_0x176014=null){return new Promise(_0x46f5b3=>{const _0x3d6ac3=a0_0x2069,_0x1094c4=_0x176014?new HttpsProxyAgent(_0x3d6ac3(0xde)+_0x176014[_0x3d6ac3(0x111)]+':'+_0x176014[_0x3d6ac3(0xf8)]):new a0_0x3c68ac[(_0x3d6ac3(0xdf))]({'rejectUnauthorized':![]}),_0x26dd49={'method':_0x3d6ac3(0xd2),'timeout':0x1388,'host':_0x57a5c8,'port':0x1bb,'path':'/','headers':{'Connection':_0x3d6ac3(0xf3),'Upgrade':_0x3d6ac3(0x10d)},'agent':_0x1094c4},_0x544dfd=a0_0x3c68ac['request'](_0x26dd49,_0x43a439=>{const _0x1dd8fd=_0x3d6ac3;let _0x49e34c=_0x1dd8fd(0xf0)+_0x43a439[_0x1dd8fd(0x104)]+'\x20'+_0x43a439['statusCode']+'\x20'+_0x43a439[_0x1dd8fd(0xe9)]+'\x0a';for(let _0x3b67cb in _0x43a439[_0x1dd8fd(0x116)]){_0x49e34c+=_0x3b67cb+':\x20'+_0x43a439[_0x1dd8fd(0x116)][_0x3b67cb]+'\x0a';}_0x46f5b3(_0x49e34c);});_0x544dfd['on'](_0x3d6ac3(0x10b),_0x5a0265=>_0x46f5b3(_0x3d6ac3(0xd7)+_0x5a0265[_0x3d6ac3(0x102)])),_0x544dfd['end']();});}async function getTLSInfo(_0x4854bb){return new Promise(_0x5195e1=>{const _0x4ed2c6=a0_0x2069;if(!_0x4854bb){_0x5195e1('No\x20disponible');return;}const _0x26e27e=a0_0x206c6d[_0x4ed2c6(0x115)]({'host':_0x4854bb[_0x4ed2c6(0x111)],'port':parseInt(_0x4854bb[_0x4ed2c6(0xf8)]),'rejectUnauthorized':![]},()=>{const _0xc802b=_0x4ed2c6,_0x404a6b=_0x26e27e[_0xc802b(0x101)](),_0x3c6b17=_0x26e27e['getProtocol'](),_0x5415c1=_0x26e27e[_0xc802b(0xe3)]();let _0x3a34bd=_0xc802b(0xe2)+_0x404a6b[_0xc802b(0xd6)]+'\x0aProtocol:\x20'+_0x3c6b17+_0xc802b(0xd0)+(_0x5415c1[_0xc802b(0xec)]&&_0x5415c1['subject']['CN']?_0x5415c1[_0xc802b(0xec)]['CN']:'Desconocido');_0x5195e1(_0x3a34bd),_0x26e27e[_0xc802b(0xf6)]();});_0x26e27e['on']('error',_0x1bc966=>_0x5195e1('No\x20disponible\x20('+_0x1bc966[_0x4ed2c6(0x102)]+')'));});}function a0_0x4417(){const _0x11bad3=['host','probe','🎯\x20*TARGET:*\x20https://','\x20usando\x20proxy\x20','connect','headers','Error\x20al\x20obtener\x20las\x20IPs:','tags','1075892dwtIuq','\x0aPeerPrincipalCN=','get','GET','Error\x20al\x20testear\x20el\x20host:','trim','time','name','Error:\x20','📶\x20*Estado\x20Ping:*\x20','...','https://ipinfo.io/','2936913uJXXpt','217098IUEyjK','length','http://','Agent','240KDNJWH','IP:\x20','CipherSuite:\x20','getPeerCertificate','No\x20disponible','🔴\x20Inactivo','help','split','🟢\x20*HTTP\x20Status\x20&\x20Headers:*\x0a','statusMessage','3PUxeKs','/json','subject','🟢\x20Activo','map','6509940qHVsld','HTTP/','address','19821GXHWll','Upgrade','\x20(ASN\x20desconocido)','176wECFQz','end','netfree','port','⚡\x20*Latencia:*\x20','all','command','26JOQmlt','399540WlPkVh','📉\x20*Pérdida\x20de\x20paquetes:*\x20','org','⏳\x20*Probando\x20host:*\x20','getCipher','message','promise','httpVersion','🚀\x20*PROXY:*\x20','71202CDXkMD','testhost','33MNQYAO','reply','⚠️\x20*Uso\x20Incorrecto*\x20⚠️\x0a\x0a📌\x20*Ejemplo:*\x20`.testhost\x20example.com`\x20o\x20`.testh\x20example.com\x20|\x20sinnombre.ovh:443`','error','━━━━\x20✦\x20❘༻༺❘\x20✦\x20━━━━\x0a','websocket','join','No\x20utilizado','━━━━\x20✦\x20❘༻༺❘\x20✦\x20━━━━'];a0_0x4417=function(){return _0x11bad3;};return a0_0x4417();}let handler=async(_0x1403d7,{args:_0x551c51})=>{const _0xc0f932=a0_0x2069;if(!_0x551c51[0x0])return _0x1403d7[_0xc0f932(0x109)](_0xc0f932(0x10a));const _0x56487b=_0x551c51['join']('\x20'),_0x5e09bd=_0x56487b[_0xc0f932(0xe7)]('|')[_0xc0f932(0xee)](_0x53f232=>_0x53f232['trim']()),_0x3da86b=_0x5e09bd[0x0];let _0x426b1b=null;if(_0x5e09bd[_0xc0f932(0xdd)]>0x1&&_0x5e09bd[0x1]!==''){const _0x5e5d66=_0x5e09bd[0x1][_0xc0f932(0xe7)](':')[_0xc0f932(0xee)](_0x3b2957=>_0x3b2957[_0xc0f932(0xd4)]());if(_0x5e5d66[_0xc0f932(0xdd)]>=0x2)_0x426b1b={'host':_0x5e5d66[0x0],'port':_0x5e5d66[0x1]};else return _0x1403d7[_0xc0f932(0x109)]('⚠️\x20*Formato\x20de\x20proxy\x20incorrecto.*\x0aUse:\x20`proxy:puerto`');}await _0x1403d7[_0xc0f932(0x109)](_0xc0f932(0x100)+_0x3da86b+(_0x426b1b?_0xc0f932(0x114)+_0x426b1b[_0xc0f932(0x111)]+':'+_0x426b1b[_0xc0f932(0xf8)]:'')+_0xc0f932(0xd9));const _0x46bbb3=await testHost(_0x3da86b),_0xc933be=await getHostIPs(_0x3da86b),_0x32bd37=await getHTTPStatus(_0x3da86b,_0x426b1b),_0x1bdcf9=await getTLSInfo(_0x426b1b);let _0x1678cf=_0xc0f932(0x10c);_0x1678cf+=_0xc0f932(0x113)+_0x3da86b+'\x0a',_0x1678cf+=_0xc0f932(0x105)+(_0x426b1b?_0x426b1b[_0xc0f932(0x111)]+':'+_0x426b1b[_0xc0f932(0xf8)]:_0xc0f932(0x10f))+'\x0a',_0x1678cf+=_0xc933be[_0xc0f932(0x10e)]('\x0a')+'\x0a',_0x1678cf+='🔒\x20'+_0x1bdcf9+'\x0a',_0x1678cf+=_0xc0f932(0xd8)+(_0x46bbb3&&_0x46bbb3['alive']?_0xc0f932(0xed):_0xc0f932(0xe5))+'\x0a',_0x1678cf+=_0xc0f932(0xf9)+(_0x46bbb3?_0x46bbb3[_0xc0f932(0xd5)]+'\x20ms':'No\x20disponible')+'\x0a',_0x1678cf+=_0xc0f932(0xfe)+(_0x46bbb3?_0x46bbb3['packetLoss']+'%':_0xc0f932(0xe4))+'\x0a',_0x1678cf+=_0xc0f932(0xe8)+_0x32bd37+'\x0a',_0x1678cf+=_0xc0f932(0x110),_0x1403d7[_0xc0f932(0x109)](_0x1678cf);};handler[a0_0x53b23a(0xe6)]=[a0_0x53b23a(0x107)],handler[a0_0x53b23a(0xce)]=[a0_0x53b23a(0xf7)],handler[a0_0x53b23a(0xfb)]=/^(testhost)$/i;export default handler;
+import ping from 'ping';
+import axios from 'axios';
+import tls from 'tls';
+import https from 'https';
+import { HttpsProxyAgent } from 'https-proxy-agent';
+import { lookup } from 'dns';
+
+// Función para testear el host con ping
+async function testHost(host) {
+    try {
+        return await ping.promise.probe(host);
+    } catch (error) {
+        console.error("Error al testear el host:", error);
+        return null;
+    }
+}
+
+// Función para obtener todas las IPs y su ASN
+async function getHostIPs(host) {
+    return new Promise((resolve) => {
+        lookup(host, { all: true }, async (err, addresses) => {
+            if (err) {
+                console.error("Error al obtener las IPs:", err);
+                resolve(["No disponible"]);
+                return;
+            }
+            let ipInfo = await Promise.all(
+                addresses.map(async (addr) => {
+                    try {
+                        let { data } = await axios.get(`https://ipinfo.io/${addr.address}/json`);
+                        return `IP: ${addr.address} (${data.org})`;
+                    } catch {
+                        return `IP: ${addr.address} (ASN desconocido)`;
+                    }
+                })
+            );
+            resolve(ipInfo);
+        });
+    });
+}
+
+// Función para obtener el código HTTP y headers, incluyendo `101 Switching Protocols`
+async function getHTTPStatus(host, proxy = null) {
+    return new Promise((resolve) => {
+        const agent = proxy
+            ? new HttpsProxyAgent(`http://${proxy.host}:${proxy.port}`)
+            : new https.Agent({ rejectUnauthorized: false });
+
+        const options = {
+            method: "GET",
+            timeout: 5000,
+            host: host,
+            port: 443,
+            path: "/",
+            headers: {
+                "Connection": "Upgrade",
+                "Upgrade": "websocket"
+            },
+            agent: agent
+        };
+
+        const req = https.request(options, (res) => {
+            let data = `HTTP/${res.httpVersion} ${res.statusCode} ${res.statusMessage}\n`;
+            for (let header in res.headers) {
+                data += `${header}: ${res.headers[header]}\n`;
+            }
+            resolve(data);
+        });
+
+        req.on("error", (error) => resolve(`Error: ${error.message}`));
+        req.end();
+    });
+}
+
+// Función para obtener información TLS del proxy
+async function getTLSInfo(proxy) {
+    return new Promise((resolve) => {
+        if (!proxy) {
+            resolve("No disponible");
+            return;
+        }
+        const socket = tls.connect(
+            {
+                host: proxy.host,
+                port: parseInt(proxy.port),
+                rejectUnauthorized: false,
+            },
+            () => {
+                const cipher = socket.getCipher();
+                const protocol = socket.getProtocol();
+                const cert = socket.getPeerCertificate();
+                let result = `CipherSuite: ${cipher.name}\nProtocol: ${protocol}\nPeerPrincipalCN=${cert.subject && cert.subject.CN ? cert.subject.CN : "Desconocido"}`;
+                resolve(result);
+                socket.end();
+            }
+        );
+        socket.on("error", (error) => resolve(`No disponible (${error.message})`));
+    });
+}
+
+let handler = async (m, { args }) => {
+    if (!args[0]) {
+        return m.reply('⚠️ *Uso Incorrecto* ⚠️\n\n📌 *Ejemplo:* `.testhost example.com` o `.testh example.com | sinnombre.ovh:443`');
+    }
+
+    // Separar host y proxy si se proporciona
+    const input = args.join(" ");
+    const parts = input.split("|").map(part => part.trim());
+    const host = parts[0];
+    let proxy = null;
+    if (parts.length > 1 && parts[1] !== "") {
+        const proxyParts = parts[1].split(":").map(x => x.trim());
+        if (proxyParts.length >= 2) {
+            proxy = { host: proxyParts[0], port: proxyParts[1] };
+        } else {
+            return m.reply("⚠️ *Formato de proxy incorrecto.*\nUse: `proxy:puerto`");
+        }
+    }
+
+    await m.reply(`⏳ *Probando host:* ${host}${proxy ? ' usando proxy ' + proxy.host + ':' + proxy.port : ''}...`);
+
+    // Obtener la información detallada
+    const pingResult = await testHost(host);
+    const ipInfo = await getHostIPs(host);
+    const httpStatus = await getHTTPStatus(host, proxy);
+    const tlsInfo = await getTLSInfo(proxy);
+
+    // Formatear la respuesta con el estilo solicitado
+    let reply = `━━━━ ✦ ❘༻༺❘ ✦ ━━━━\n`;
+    reply += `🎯 *TARGET:* https://${host}\n`;
+    reply += `🚀 *PROXY:* ${proxy ? proxy.host + ":" + proxy.port : "No utilizado"}\n`;
+    reply += `${ipInfo.join("\n")}\n`;
+    reply += `🔒 ${tlsInfo}\n`;
+    reply += `📶 *Estado Ping:* ${pingResult && pingResult.alive ? "🟢 Activo" : "🔴 Inactivo"}\n`;
+    reply += `⚡ *Latencia:* ${pingResult ? pingResult.time + " ms" : "No disponible"}\n`;
+    reply += `📉 *Pérdida de paquetes:* ${pingResult ? pingResult.packetLoss + "%" : "No disponible"}\n`;
+    reply += `🟢 *HTTP Status & Headers:*\n${httpStatus}\n`;
+    reply += `━━━━ ✦ ❘༻༺❘ ✦ ━━━━`;
+
+    m.reply(reply);
+};
+
+handler.help = ['testhost'];
+handler.tags = ['netfree'];
+handler.command = /^(testhost)$/i;
+
+export default handler;

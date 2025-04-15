@@ -1,1 +1,43 @@
-function a0_0x3db9(){const _0x3e8d5e=['split','isBaileys','texto2_1','5328348pcYjQW','texto3','\x0a=>\x20','15605190mZIJBI','6126PLyIZi','reply','10WvKttJ','texto1_1','./language/','sender','texto3_3','texto4','antiTraba','2244516uCrLKh','groupParticipantsUpdate','99zLOvCz','text','chat','.json','restrict','isGroup','4326165dPoiDU','settings','fromMe','users','getName','user','repeat','parse','sendMessage','400MyJqrc','12taEBKD','data','language','439590pTznHs','length','texto3_1','90881AnCzkD','The\x20Mystic\x20-\x20Bot','jid','969KfVDqQ','51995386439-1616969743@g.us','key','chats'];a0_0x3db9=function(){return _0x3e8d5e;};return a0_0x3db9();}(function(_0x3a4775,_0x5a2f60){const _0x34e024=a0_0x5091,_0x47723b=_0x3a4775();while(!![]){try{const _0x57cc18=parseInt(_0x34e024(0x201))/0x1+-parseInt(_0x34e024(0x212))/0x2*(-parseInt(_0x34e024(0x207))/0x3)+-parseInt(_0x34e024(0x1ec))/0x4+-parseInt(_0x34e024(0x1f4))/0x5*(-parseInt(_0x34e024(0x1fe))/0x6)+parseInt(_0x34e024(0x204))/0x7*(parseInt(_0x34e024(0x1fd))/0x8)+-parseInt(_0x34e024(0x211))/0x9*(-parseInt(_0x34e024(0x1e5))/0xa)+parseInt(_0x34e024(0x1ee))/0xb*(-parseInt(_0x34e024(0x20e))/0xc);if(_0x57cc18===_0x5a2f60)break;else _0x47723b['push'](_0x47723b['shift']());}catch(_0x4f7892){_0x47723b['push'](_0x47723b['shift']());}}}(a0_0x3db9,0xf07f3));import*as a0_0x22d71c from'fs';function a0_0x5091(_0x3bb1a3,_0x1f3fc7){const _0x3db95d=a0_0x3db9();return a0_0x5091=function(_0x509140,_0x8caab2){_0x509140=_0x509140-0x1e4;let _0x32d046=_0x3db95d[_0x509140];return _0x32d046;},a0_0x5091(_0x3bb1a3,_0x1f3fc7);}export async function before(_0x4424fc,{conn:_0x4bef07,isAdmin:_0x144e2f,isBotAdmin:_0x2b53da,usedPrefix:_0x3cce57}){const _0x1adb65=a0_0x5091,_0x173d1d=global,_0x2d0cd7=_0x173d1d['db'][_0x1adb65(0x1ff)][_0x1adb65(0x1f7)][_0x4424fc[_0x1adb65(0x1e8)]][_0x1adb65(0x200)],_0x4e0c24=JSON[_0x1adb65(0x1fb)](a0_0x22d71c['readFileSync'](_0x1adb65(0x1e7)+_0x2d0cd7+_0x1adb65(0x1f1))),_0xa2a89f=_0x4e0c24['plugins']['_antitrabas'];if(_0x4424fc[_0x1adb65(0x20c)]&&_0x4424fc[_0x1adb65(0x1f6)])return!0x0;if(!_0x4424fc[_0x1adb65(0x1f3)])return!0x1;const _0x504d25=global['db'][_0x1adb65(0x1ff)][_0x1adb65(0x20a)][_0x4424fc[_0x1adb65(0x1f0)]],_0x58a048=global['db'][_0x1adb65(0x1ff)][_0x1adb65(0x1f5)][this[_0x1adb65(0x1f9)][_0x1adb65(0x206)]]||{},_0x2c431d=_0x4424fc[_0x1adb65(0x209)]['participant'],_0x26dc56=_0x4424fc[_0x1adb65(0x209)]['id'],_0x23f4f8=await _0x4bef07[_0x1adb65(0x1f8)](_0x4424fc[_0x1adb65(0x1e8)]),_0xc5e540={'key':{'participant':'0@s.whatsapp.net','remoteJid':'0@s.whatsapp.net'},'message':{'groupInviteMessage':{'groupJid':_0x1adb65(0x208),'inviteCode':'m','groupName':'P','caption':_0x1adb65(0x205),'jpegThumbnail':null}}};if(_0x504d25[_0x1adb65(0x1eb)]&&_0x4424fc[_0x1adb65(0x1ef)][_0x1adb65(0x202)]>0x1388){if(_0x144e2f)return _0x4bef07['sendMessage'](_0x4424fc['chat'],{'text':_0xa2a89f['texto1']+'\x20@'+_0x4424fc[_0x1adb65(0x1e8)]['split']('@')[0x0]+'\x20'+_0xa2a89f[_0x1adb65(0x1e6)],'mentions':[_0x4424fc['sender']]},{'quoted':_0xc5e540});_0x4bef07[_0x1adb65(0x1fc)](_0x4424fc[_0x1adb65(0x1f0)],''+_0xa2a89f['texto2'],''+(_0x2b53da?'':''+_0xa2a89f[_0x1adb65(0x20d)]),_0x4424fc);if(_0x2b53da&&_0x58a048[_0x1adb65(0x1f2)])_0x4bef07[_0x1adb65(0x1fc)](_0x4424fc[_0x1adb65(0x1f0)],{'delete':{'remoteJid':_0x4424fc[_0x1adb65(0x1f0)],'fromMe':![],'id':_0x26dc56,'participant':_0x2c431d}}),setTimeout(()=>{const _0x27976a=_0x1adb65;_0x4bef07[_0x27976a(0x1fc)](_0x4424fc[_0x27976a(0x1f0)],{'text':_0xa2a89f[_0x27976a(0x20f)]+'\x20\x0a'+'\x0a'[_0x27976a(0x1fa)](0x190)+_0x27976a(0x210)+_0xa2a89f[_0x27976a(0x203)]+'\x20wa.me/'+_0x4424fc['sender'][_0x27976a(0x20b)]('@')[0x0]+_0x27976a(0x210)+_0xa2a89f['texto3_2']+'\x20'+_0x23f4f8+'\x0a'+_0xa2a89f[_0x27976a(0x1e9)],'mentions':[_0x4424fc[_0x27976a(0x1e8)]]},{'quoted':_0xc5e540});},0x0),setTimeout(()=>{const _0x1baf76=_0x1adb65;_0x4bef07[_0x1baf76(0x1ed)](_0x4424fc['chat'],[_0x4424fc[_0x1baf76(0x1e8)]],'remove');},0x3e8);else{if(!_0x58a048['restrict'])return _0x4424fc[_0x1adb65(0x1e4)](_0xa2a89f[_0x1adb65(0x1ea)]);}}return!0x0;}
+/**
+TheMystic-Bot-MD@BrunoSobrino - _antitrabas.js
+By @NeKosmic || https://github.com/NeKosmic/
+**/
+
+ // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+
+import * as fs from 'fs';
+
+export async function before(m, { conn, isAdmin, isBotAdmin, usedPrefix }) {
+  const datas = global
+    const idioma = datas.db.data.users[m.sender].language
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const tradutor = _translate.plugins._antitrabas
+
+  if (m.isBaileys && m.fromMe) {
+    return !0;
+  }
+  if (!m.isGroup) return !1;
+  const chat = global.db.data.chats[m.chat];
+  const bot = global.db.data.settings[this.user.jid] || {};
+  const delet = m.key.participant;
+  const bang = m.key.id;
+  const name = await conn.getName(m.sender);
+  const fakemek = { 'key': { 'participant': '0@s.whatsapp.net', 'remoteJid': '0@s.whatsapp.net' }, 'message': { 'groupInviteMessage': { 'groupJid': '51995386439-1616969743@g.us', 'inviteCode': 'm', 'groupName': 'P', 'caption': 'The Mystic - Bot', 'jpegThumbnail': null } } };
+  if (chat.antiTraba && m.text.length > 5000) { // Cantidad máxima de caracteres aceptados en un mensaje.
+    if (isAdmin) return conn.sendMessage(m.chat, { text: `${tradutor.texto1} @${m.sender.split('@')[0]} ${tradutor.texto1_1}`, mentions: [m.sender] }, { quoted: fakemek });
+    conn.sendMessage(m.chat, `${tradutor.texto2}`, `${isBotAdmin ? '' : `${tradutor.texto2_1}`}`, m);
+    // await conn.sendButton(m.chat, `*[ ! ] Se detecto un mensaje que contiene muchos caracteres [ ! ]*\n`, `${isBotAdmin ? '' : 'No soy administrador, no puedo hacer nada :/'}`, author, ['[ DESACTIVAR ANTI TRABAS ]', usedPrefix+'apagar antitraba'], fakemek )
+    if (isBotAdmin && bot.restrict) {
+      conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet } });
+      setTimeout(() => {
+        conn.sendMessage(m.chat, { text: `${tradutor.texto3} \n${'\n'.repeat(400)}\n=> ${tradutor.texto3_1} wa.me/${m.sender.split('@')[0]}\n=> ${tradutor.texto3_2} ${name}\n${tradutor.texto3_3}`, mentions: [m.sender] }, { quoted: fakemek });
+      }, 0);
+      setTimeout(() => {
+        conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
+      }, 1000);
+    } else if (!bot.restrict) return m.reply(tradutor.texto4);
+  }
+  return !0;
+}

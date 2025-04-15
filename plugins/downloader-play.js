@@ -1,1 +1,100 @@
-const a0_0x191367=a0_0x1185;(function(_0x185555,_0x32f0ea){const _0x591c09=a0_0x1185,_0xf32032=_0x185555();while(!![]){try{const _0x536636=-parseInt(_0x591c09(0x150))/0x1+-parseInt(_0x591c09(0x16f))/0x2+parseInt(_0x591c09(0x16d))/0x3+parseInt(_0x591c09(0x145))/0x4*(-parseInt(_0x591c09(0x154))/0x5)+parseInt(_0x591c09(0x168))/0x6+-parseInt(_0x591c09(0x15d))/0x7+parseInt(_0x591c09(0x14d))/0x8;if(_0x536636===_0x32f0ea)break;else _0xf32032['push'](_0xf32032['shift']());}catch(_0x15ce69){_0xf32032['push'](_0xf32032['shift']());}}}(a0_0x49e1,0x21903));import a0_0x502c7f from'axios';let handler=async(_0x5c6c5e,{conn:_0x27715a,text:_0x4d4d0c,usedPrefix:_0x355dca,command:_0x2fcd0f})=>{const _0x1567ed=a0_0x1185,_0x553785='descarga';if(_0x2fcd0f===_0x1567ed(0x165)){if(!_0x4d4d0c)throw _0x1567ed(0x153);try{const _0x1fad35=await a0_0x502c7f['get'](_0x1567ed(0x14e)+encodeURIComponent(_0x4d4d0c)),_0x4fb064=_0x1fad35[_0x1567ed(0x146)][_0x1567ed(0x146)]&&_0x1fad35[_0x1567ed(0x146)][_0x1567ed(0x146)][0x0];if(!_0x4fb064||!_0x4fb064[_0x1567ed(0x156)])throw _0x1567ed(0x15e);const _0x2aa775=(_0x1567ed(0x167)+_0x4fb064[_0x1567ed(0x156)]+_0x1567ed(0x144)+_0x4fb064[_0x1567ed(0x141)]+_0x1567ed(0x163)+_0x4fb064[_0x1567ed(0x16a)]+'\x0a**Vistas**:\x20'+_0x4fb064[_0x1567ed(0x169)]+_0x1567ed(0x162)+_0x4fb064[_0x1567ed(0x16e)][_0x1567ed(0x16b)]+_0x1567ed(0x14f)+_0x4fb064[_0x1567ed(0x147)]+'\x0a\x0a>\x20**Tipo**:\x20'+_0x4fb064[_0x1567ed(0x14c)]+_0x1567ed(0x15c)+_0x553785)['trim']();_0x27715a[_0x1567ed(0x15a)](_0x5c6c5e['chat'],{'image':{'url':_0x4fb064[_0x1567ed(0x16c)]},'caption':_0x2aa775},{'quoted':_0x5c6c5e});const _0x3b0c3f=await a0_0x502c7f[_0x1567ed(0x164)](_0x1567ed(0x15b)+_0x4fb064[_0x1567ed(0x147)]),_0x6e4c7b=await _0x3b0c3f[_0x1567ed(0x146)][_0x1567ed(0x146)]['download'];await _0x27715a[_0x1567ed(0x15a)](_0x5c6c5e[_0x1567ed(0x155)],{'audio':{'url':_0x6e4c7b},'mimetype':_0x1567ed(0x14a)},{'quoted':_0x5c6c5e});}catch(_0x53916d){_0x27715a[_0x1567ed(0x151)](_0x5c6c5e[_0x1567ed(0x155)],'OCURRIÓ\x20UN\x20FALLO\x20AL\x20PROCESAR\x20TU\x20SOLICITUD:\x20'+_0x53916d,_0x5c6c5e);}}if(_0x2fcd0f===_0x1567ed(0x159)){if(!_0x4d4d0c)throw _0x1567ed(0x161);try{const _0x318f17=await a0_0x502c7f[_0x1567ed(0x164)]('https://api-rin-tohsaka.vercel.app/search/ytsearch?text='+encodeURIComponent(_0x4d4d0c)),_0x40e952=_0x318f17[_0x1567ed(0x146)][_0x1567ed(0x146)]&&_0x318f17[_0x1567ed(0x146)][_0x1567ed(0x146)][0x0];if(!_0x40e952||!_0x40e952[_0x1567ed(0x156)])throw'No\x20se\x20encontraron\x20resultados\x20válidos\x20para\x20esa\x20búsqueda.';const _0x1160dc=(_0x1567ed(0x167)+_0x40e952[_0x1567ed(0x156)]+_0x1567ed(0x144)+_0x40e952[_0x1567ed(0x141)]+_0x1567ed(0x163)+_0x40e952[_0x1567ed(0x16a)]+'\x0a**Vistas**:\x20'+_0x40e952['views']+_0x1567ed(0x162)+_0x40e952['author']['name']+_0x1567ed(0x14f)+_0x40e952[_0x1567ed(0x147)]+_0x1567ed(0x142)+_0x40e952[_0x1567ed(0x14c)]+_0x1567ed(0x15c)+_0x553785)[_0x1567ed(0x149)]();_0x27715a[_0x1567ed(0x15a)](_0x5c6c5e[_0x1567ed(0x155)],{'image':{'url':_0x40e952[_0x1567ed(0x16c)]},'caption':_0x1160dc},{'quoted':_0x5c6c5e});const _0xa59e59=await a0_0x502c7f[_0x1567ed(0x164)](_0x1567ed(0x152)+_0x40e952[_0x1567ed(0x147)]),_0x27d97a=await _0xa59e59['data'][_0x1567ed(0x146)][_0x1567ed(0x14b)];await _0x27715a[_0x1567ed(0x15a)](_0x5c6c5e['chat'],{'video':{'url':_0x27d97a},'mimetype':_0x1567ed(0x15f)},{'quoted':_0x5c6c5e});}catch(_0x4ee868){_0x27715a[_0x1567ed(0x151)](_0x5c6c5e[_0x1567ed(0x155)],_0x1567ed(0x160)+_0x4ee868,_0x5c6c5e);}}if(_0x2fcd0f===_0x1567ed(0x140)){if(!_0x4d4d0c)throw'Por\x20favor,\x20ingresa\x20el\x20nombre\x20del\x20video\x20o\x20enlace\x20de\x20YouTube\x20para\x20descargar\x20el\x20audio.';try{const _0x16b69c=await a0_0x502c7f['get'](_0x1567ed(0x14e)+encodeURIComponent(_0x4d4d0c)),_0x110785=_0x16b69c[_0x1567ed(0x146)][_0x1567ed(0x146)]&&_0x16b69c[_0x1567ed(0x146)]['data'][0x0];if(!_0x110785||!_0x110785[_0x1567ed(0x156)])throw _0x1567ed(0x15e);const _0x1fa7a3=(_0x1567ed(0x167)+_0x110785[_0x1567ed(0x156)]+_0x1567ed(0x144)+_0x110785[_0x1567ed(0x141)]+_0x1567ed(0x163)+_0x110785[_0x1567ed(0x16a)]+_0x1567ed(0x166)+_0x110785[_0x1567ed(0x169)]+_0x1567ed(0x162)+_0x110785[_0x1567ed(0x16e)][_0x1567ed(0x16b)]+_0x1567ed(0x14f)+_0x110785['url']+_0x1567ed(0x142)+_0x110785[_0x1567ed(0x14c)]+_0x1567ed(0x15c)+_0x553785)[_0x1567ed(0x149)]();_0x27715a[_0x1567ed(0x15a)](_0x5c6c5e[_0x1567ed(0x155)],{'image':{'url':_0x110785[_0x1567ed(0x16c)]},'caption':_0x1fa7a3},{'quoted':_0x5c6c5e});const _0x29f359=await a0_0x502c7f[_0x1567ed(0x164)](_0x1567ed(0x15b)+_0x110785[_0x1567ed(0x147)]),_0x83a3f8=await _0x29f359[_0x1567ed(0x146)][_0x1567ed(0x146)][_0x1567ed(0x14b)];await _0x27715a[_0x1567ed(0x15a)](_0x5c6c5e[_0x1567ed(0x155)],{'document':{'url':_0x83a3f8},'mimetype':_0x1567ed(0x14a),'fileName':_0x110785['title']+_0x1567ed(0x158)},{'quoted':_0x5c6c5e});}catch(_0x1f793d){_0x27715a[_0x1567ed(0x151)](_0x5c6c5e[_0x1567ed(0x155)],'OCURRIÓ\x20UN\x20FALLO\x20AL\x20PROCESAR\x20TU\x20SOLICITUD:\x20'+_0x1f793d,_0x5c6c5e);}}if(_0x2fcd0f===_0x1567ed(0x157)){if(!_0x4d4d0c)throw _0x1567ed(0x161);try{const _0x4a0ba7=await a0_0x502c7f[_0x1567ed(0x164)]('https://api-rin-tohsaka.vercel.app/search/ytsearch?text='+encodeURIComponent(_0x4d4d0c)),_0x1b3c30=_0x4a0ba7['data'][_0x1567ed(0x146)]&&_0x4a0ba7['data']['data'][0x0];if(!_0x1b3c30||!_0x1b3c30[_0x1567ed(0x156)])throw'No\x20se\x20encontraron\x20resultados\x20válidos\x20para\x20esa\x20búsqueda.';const _0x113d12=(_0x1567ed(0x167)+_0x1b3c30['title']+_0x1567ed(0x144)+_0x1b3c30[_0x1567ed(0x141)]+_0x1567ed(0x163)+_0x1b3c30[_0x1567ed(0x16a)]+_0x1567ed(0x166)+_0x1b3c30[_0x1567ed(0x169)]+_0x1567ed(0x162)+_0x1b3c30[_0x1567ed(0x16e)][_0x1567ed(0x16b)]+_0x1567ed(0x14f)+_0x1b3c30['url']+_0x1567ed(0x142)+_0x1b3c30[_0x1567ed(0x14c)]+_0x1567ed(0x15c)+_0x553785)['trim']();_0x27715a['sendMessage'](_0x5c6c5e[_0x1567ed(0x155)],{'image':{'url':_0x1b3c30[_0x1567ed(0x16c)]},'caption':_0x113d12},{'quoted':_0x5c6c5e});const _0xf6f9f6=await a0_0x502c7f[_0x1567ed(0x164)](_0x1567ed(0x152)+_0x1b3c30[_0x1567ed(0x147)]),_0x2e9a29=await _0xf6f9f6[_0x1567ed(0x146)]['data'][_0x1567ed(0x14b)];await _0x27715a[_0x1567ed(0x15a)](_0x5c6c5e[_0x1567ed(0x155)],{'document':{'url':_0x2e9a29},'mimetype':_0x1567ed(0x15f),'fileName':_0x1b3c30[_0x1567ed(0x156)]+'.mp4'},{'quoted':_0x5c6c5e});}catch(_0x43a7df){_0x27715a[_0x1567ed(0x151)](_0x5c6c5e[_0x1567ed(0x155)],_0x1567ed(0x160)+_0x43a7df,_0x5c6c5e);}}};function a0_0x1185(_0x15c711,_0x5d1399){const _0x49e171=a0_0x49e1();return a0_0x1185=function(_0x1185b0,_0x858cf8){_0x1185b0=_0x1185b0-0x140;let _0x4b49cd=_0x49e171[_0x1185b0];return _0x4b49cd;},a0_0x1185(_0x15c711,_0x5d1399);}handler['help']=[a0_0x191367(0x165),a0_0x191367(0x159),a0_0x191367(0x140),a0_0x191367(0x157)],handler['tags']=[a0_0x191367(0x143)],handler[a0_0x191367(0x148)]=/^(descargar_audio|descargar_video|descargar_audio_doc|descargar_video_doc)$/i;export default handler;function a0_0x49e1(){const _0x14d2bf=['1101570pExrtJ','views','duration','name','thumbnail','609837aoiwJv','author','222862akNWIX','descargar_audio_doc','uploaded','\x0a\x0a>\x20**Tipo**:\x20','descargas','\x0a**Subido**:\x20','9136cNpsRS','data','url','command','trim','audio/mpeg','download','type','3251904vxYfBq','https://api-rin-tohsaka.vercel.app/search/ytsearch?text=','\x0a**URL**:\x20','259050TPCYZY','reply','https://api-rin-tohsaka.vercel.app/download/ytmp4?url=','Por\x20favor,\x20ingresa\x20el\x20nombre\x20del\x20video\x20o\x20enlace\x20de\x20YouTube\x20para\x20descargar\x20el\x20audio.','50IBOsCi','chat','title','descargar_video_doc','.mp3','descargar_video','sendMessage','https://api-rin-tohsaka.vercel.app/download/ytmp3?url=',',\x20**Formato**:\x20','1837962gsWDCV','No\x20se\x20encontraron\x20resultados\x20válidos\x20para\x20esa\x20búsqueda.','video/mp4','OCURRIÓ\x20UN\x20FALLO\x20AL\x20PROCESAR\x20TU\x20SOLICITUD:\x20','Por\x20favor,\x20ingresa\x20el\x20nombre\x20del\x20video\x20o\x20enlace\x20de\x20YouTube\x20para\x20descargar\x20el\x20video.','\x0a**Autor**:\x20','\x0a**Duración**:\x20','get','descargar_audio','\x0a**Vistas**:\x20','**Título**:\x20'];a0_0x49e1=function(){return _0x14d2bf;};return a0_0x49e1();}
+import axios from 'axios';
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  const additionalText = 'descarga';
+
+  if (command === 'descargar_audio') {
+    if (!text) throw `Por favor, ingresa el nombre del video o enlace de YouTube para descargar el audio.`;
+    try {
+      const apisearch = await axios.get(`https://api-rin-tohsaka.vercel.app/search/ytsearch?text=${encodeURIComponent(text)}`);
+      
+      // Verifica si hay resultados y si el primer resultado tiene los datos esperados
+      const responsev1 = apisearch.data.data && apisearch.data.data[0];
+      if (!responsev1 || !responsev1.title) {
+        throw 'No se encontraron resultados válidos para esa búsqueda.';
+      }
+
+      const body = `**Título**: ${responsev1.title}\n**Subido**: ${responsev1.uploaded}\n**Duración**: ${responsev1.duration}\n**Vistas**: ${responsev1.views}\n**Autor**: ${responsev1.author.name}\n**URL**: ${responsev1.url}\n\n> **Tipo**: ${responsev1.type}, **Formato**: ${additionalText}`.trim();
+      conn.sendMessage(m.chat, { image: { url: responsev1.thumbnail }, caption: body }, { quoted: m });
+
+      const apidownload = await axios.get(`https://api-rin-tohsaka.vercel.app/download/ytmp3?url=${responsev1.url}`);
+      const responsev2 = await apidownload.data.data.download;
+
+      await conn.sendMessage(m.chat, { audio: { url: responsev2 }, mimetype: 'audio/mpeg' }, { quoted: m });
+    } catch (e) {
+      conn.reply(m.chat, `OCURRIÓ UN FALLO AL PROCESAR TU SOLICITUD: ${e}`, m);
+    }
+  }
+
+  if (command === 'descargar_video') {
+    if (!text) throw `Por favor, ingresa el nombre del video o enlace de YouTube para descargar el video.`;
+    try {
+      const apisearch = await axios.get(`https://api-rin-tohsaka.vercel.app/search/ytsearch?text=${encodeURIComponent(text)}`);
+      
+      const responsev1 = apisearch.data.data && apisearch.data.data[0];
+      if (!responsev1 || !responsev1.title) {
+        throw 'No se encontraron resultados válidos para esa búsqueda.';
+      }
+
+      const body = `**Título**: ${responsev1.title}\n**Subido**: ${responsev1.uploaded}\n**Duración**: ${responsev1.duration}\n**Vistas**: ${responsev1.views}\n**Autor**: ${responsev1.author.name}\n**URL**: ${responsev1.url}\n\n> **Tipo**: ${responsev1.type}, **Formato**: ${additionalText}`.trim();
+      conn.sendMessage(m.chat, { image: { url: responsev1.thumbnail }, caption: body }, { quoted: m });
+
+      const apidownload = await axios.get(`https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${responsev1.url}`);
+      const responsev2 = await apidownload.data.data.download;
+
+      await conn.sendMessage(m.chat, { video: { url: responsev2 }, mimetype: 'video/mp4' }, { quoted: m });
+    } catch (e) {
+      conn.reply(m.chat, `OCURRIÓ UN FALLO AL PROCESAR TU SOLICITUD: ${e}`, m);
+    }
+  }
+
+  if (command === 'descargar_audio_doc') {
+    if (!text) throw `Por favor, ingresa el nombre del video o enlace de YouTube para descargar el audio.`;
+    try {
+      const apisearch = await axios.get(`https://api-rin-tohsaka.vercel.app/search/ytsearch?text=${encodeURIComponent(text)}`);
+      
+      const responsev1 = apisearch.data.data && apisearch.data.data[0];
+      if (!responsev1 || !responsev1.title) {
+        throw 'No se encontraron resultados válidos para esa búsqueda.';
+      }
+
+      const body = `**Título**: ${responsev1.title}\n**Subido**: ${responsev1.uploaded}\n**Duración**: ${responsev1.duration}\n**Vistas**: ${responsev1.views}\n**Autor**: ${responsev1.author.name}\n**URL**: ${responsev1.url}\n\n> **Tipo**: ${responsev1.type}, **Formato**: ${additionalText}`.trim();
+      conn.sendMessage(m.chat, { image: { url: responsev1.thumbnail }, caption: body }, { quoted: m });
+
+      const apidownload = await axios.get(`https://api-rin-tohsaka.vercel.app/download/ytmp3?url=${responsev1.url}`);
+      const responsev2 = await apidownload.data.data.download;
+
+      await conn.sendMessage(m.chat, { document: { url: responsev2 }, mimetype: 'audio/mpeg', fileName: `${responsev1.title}.mp3` }, { quoted: m });
+    } catch (e) {
+      conn.reply(m.chat, `OCURRIÓ UN FALLO AL PROCESAR TU SOLICITUD: ${e}`, m);
+    }
+  }
+
+  if (command === 'descargar_video_doc') {
+    if (!text) throw `Por favor, ingresa el nombre del video o enlace de YouTube para descargar el video.`;
+    try {
+      const apisearch = await axios.get(`https://api-rin-tohsaka.vercel.app/search/ytsearch?text=${encodeURIComponent(text)}`);
+      
+      const responsev1 = apisearch.data.data && apisearch.data.data[0];
+      if (!responsev1 || !responsev1.title) {
+        throw 'No se encontraron resultados válidos para esa búsqueda.';
+      }
+
+      const body = `**Título**: ${responsev1.title}\n**Subido**: ${responsev1.uploaded}\n**Duración**: ${responsev1.duration}\n**Vistas**: ${responsev1.views}\n**Autor**: ${responsev1.author.name}\n**URL**: ${responsev1.url}\n\n> **Tipo**: ${responsev1.type}, **Formato**: ${additionalText}`.trim();
+      conn.sendMessage(m.chat, { image: { url: responsev1.thumbnail }, caption: body }, { quoted: m });
+
+      const apidownload = await axios.get(`https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${responsev1.url}`);
+      const responsev2 = await apidownload.data.data.download;
+
+      await conn.sendMessage(m.chat, { document: { url: responsev2 }, mimetype: 'video/mp4', fileName: `${responsev1.title}.mp4` }, { quoted: m });
+    } catch (e) {
+      conn.reply(m.chat, `OCURRIÓ UN FALLO AL PROCESAR TU SOLICITUD: ${e}`, m);
+    }
+  }
+};
+
+handler.help = ['descargar_audio', 'descargar_video', 'descargar_audio_doc', 'descargar_video_doc'];
+handler.tags = ['descargas'];
+handler.command = /^(descargar_audio|descargar_video|descargar_audio_doc|descargar_video_doc)$/i;
+
+export default handler;

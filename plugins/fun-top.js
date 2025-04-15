@@ -1,1 +1,52 @@
-const a0_0x278055=a0_0x2ac4;function a0_0x2ac4(_0x1dfe87,_0x48586){const _0x1b2bc2=a0_0x1b2b();return a0_0x2ac4=function(_0x2ac44c,_0x10a4d2){_0x2ac44c=_0x2ac44c-0x1cc;let _0x3bb0d4=_0x1b2bc2[_0x2ac44c];return _0x3bb0d4;},a0_0x2ac4(_0x1dfe87,_0x48586);}(function(_0xe01faf,_0x341d99){const _0xbaf928=a0_0x2ac4,_0x5d7dfe=_0xe01faf();while(!![]){try{const _0x27cc17=parseInt(_0xbaf928(0x1e9))/0x1*(parseInt(_0xbaf928(0x1d8))/0x2)+parseInt(_0xbaf928(0x1f2))/0x3*(parseInt(_0xbaf928(0x1d5))/0x4)+parseInt(_0xbaf928(0x1d9))/0x5+parseInt(_0xbaf928(0x1d0))/0x6+parseInt(_0xbaf928(0x1db))/0x7+-parseInt(_0xbaf928(0x1e5))/0x8+parseInt(_0xbaf928(0x1dc))/0x9*(-parseInt(_0xbaf928(0x1f5))/0xa);if(_0x27cc17===_0x341d99)break;else _0x5d7dfe['push'](_0x5d7dfe['shift']());}catch(_0x503395){_0x5d7dfe['push'](_0x5d7dfe['shift']());}}}(a0_0x1b2b,0xa2297));function a0_0x1b2b(){const _0x520fa4=['command','data','funny','*\x0a*9.\x20','./language/','41960btMaHc','*\x0a*7.\x20','parse','*\x0a*2.\x20','6FHKufY','*\x0a*5.\x20','sender','texto1','*\x0a*4.\x20','plugins','map','language','chat','3023079SxtgSx','getRandom','.json','3207410ZmSqlW','split','length','*\x0a*6.\x20','*\x0a*8.\x20','7311546TeREDA','random','reply','*\x0a\x20\x20\x20\x20\x0a*1.\x20','sendFile','4dZanjo','https://hansxd.nasihosting.com/sound/sound','group','344510WYYTvw','4406700rmOrQy','limit','395199KXKAmj','99oWhwhS','floor','fun','help'];a0_0x1b2b=function(){return _0x520fa4;};return a0_0x1b2b();}import a0_0x20cf9f from'util';import a0_0x3b167f from'path';const user=_0x2a35c5=>'@'+_0x2a35c5[a0_0x278055(0x1cc)]('@')[0x0];function handler(_0x4c2cda,{groupMetadata:_0x51d0e7,command:_0x5cde5d,conn:_0x5e5c8f,text:_0x1bfa4d,usedPrefix:_0x50039c}){const _0x535775=a0_0x278055,_0x5e541a=global,_0x15bdb2=_0x5e541a['db'][_0x535775(0x1e1)]['users'][_0x4c2cda[_0x535775(0x1eb)]][_0x535775(0x1f0)],_0x389c1c=JSON[_0x535775(0x1e7)](fs['readFileSync'](_0x535775(0x1e4)+_0x15bdb2+_0x535775(0x1f4))),_0x28336d=_0x389c1c[_0x535775(0x1ee)]['fun_top'];if(!_0x1bfa4d)throw''+_0x28336d[_0x535775(0x1ec)];const _0x3bbc02=_0x51d0e7['participants'][_0x535775(0x1ef)](_0xb8c0fb=>_0xb8c0fb['id']),_0x1119e8=_0x3bbc02[_0x535775(0x1f3)](),_0xa0b166=_0x3bbc02[_0x535775(0x1f3)](),_0x2200bb=_0x3bbc02[_0x535775(0x1f3)](),_0x4dff66=_0x3bbc02[_0x535775(0x1f3)](),_0x380d5f=_0x3bbc02[_0x535775(0x1f3)](),_0x18698c=_0x3bbc02['getRandom'](),_0x1f3d15=_0x3bbc02[_0x535775(0x1f3)](),_0x331473=_0x3bbc02['getRandom'](),_0x412a93=_0x3bbc02[_0x535775(0x1f3)](),_0x21518c=_0x3bbc02[_0x535775(0x1f3)](),_0x7c782d=Math[_0x535775(0x1dd)](Math[_0x535775(0x1d1)]()*0x46),_0x579990=''+pickRandom(['🤓','😅','😂','😳','😎','🥵','😱','🤑','🙄','💩','🍑','🤨','🥴','🔥','👇🏻','😔','👀','🌚']),_0x29aeb=Math[_0x535775(0x1dd)](Math['random']()*_0x579990[_0x535775(0x1cd)]),_0x80301d=_0x535775(0x1d6)+_0x7c782d+'.mp3',_0x3b28af='*'+_0x579990+'\x20Top\x2010\x20'+_0x1bfa4d+'\x20'+_0x579990+_0x535775(0x1d3)+user(_0x1119e8)+_0x535775(0x1e8)+user(_0xa0b166)+'*\x0a*3.\x20'+user(_0x2200bb)+_0x535775(0x1ed)+user(_0x4dff66)+_0x535775(0x1ea)+user(_0x380d5f)+_0x535775(0x1ce)+user(_0x18698c)+_0x535775(0x1e6)+user(_0x1f3d15)+_0x535775(0x1cf)+user(_0x331473)+_0x535775(0x1e3)+user(_0x412a93)+'*\x0a*10.\x20'+user(_0x21518c)+'*';_0x4c2cda[_0x535775(0x1d2)](_0x3b28af,null,{'mentions':[_0x1119e8,_0xa0b166,_0x2200bb,_0x4dff66,_0x380d5f,_0x18698c,_0x1f3d15,_0x331473,_0x412a93,_0x21518c]}),_0x5e5c8f[_0x535775(0x1d4)](_0x4c2cda[_0x535775(0x1f1)],_0x80301d,'error.mp3',null,_0x4c2cda,!![],{'type':'audioMessage','ptt':!![]});}handler[a0_0x278055(0x1df)]=handler[a0_0x278055(0x1e0)]=[a0_0x278055(0x1e2)],handler['tags']=[a0_0x278055(0x1de)],handler[a0_0x278055(0x1d7)]=!![],handler[a0_0x278055(0x1da)]=0x2;export default handler;function pickRandom(_0xc1b28d){const _0x35202a=a0_0x278055;return _0xc1b28d[Math[_0x35202a(0x1dd)](Math[_0x35202a(0x1d1)]()*_0xc1b28d[_0x35202a(0x1cd)])];}
+import util from 'util';
+import path from 'path';
+
+
+const user = (a) => '@' + a.split('@')[0];
+function handler(m, {groupMetadata, command, conn, text, usedPrefix}) {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.fun_top
+
+  if (!text) throw `${tradutor.texto1}`;
+  const ps = groupMetadata.participants.map((v) => v.id);
+  const a = ps.getRandom();
+  const b = ps.getRandom();
+  const c = ps.getRandom();
+  const d = ps.getRandom();
+  const e = ps.getRandom();
+  const f = ps.getRandom();
+  const g = ps.getRandom();
+  const h = ps.getRandom();
+  const i = ps.getRandom();
+  const j = ps.getRandom();
+  const k = Math.floor(Math.random() * 70);
+  const x = `${pickRandom(['🤓', '😅', '😂', '😳', '😎', '🥵', '😱', '🤑', '🙄', '💩', '🍑', '🤨', '🥴', '🔥', '👇🏻', '😔', '👀', '🌚'])}`;
+  const l = Math.floor(Math.random() * x.length);
+  const vn = `https://hansxd.nasihosting.com/sound/sound${k}.mp3`;
+  const top = `*${x} Top 10 ${text} ${x}*
+    
+*1. ${user(a)}*
+*2. ${user(b)}*
+*3. ${user(c)}*
+*4. ${user(d)}*
+*5. ${user(e)}*
+*6. ${user(f)}*
+*7. ${user(g)}*
+*8. ${user(h)}*
+*9. ${user(i)}*
+*10. ${user(j)}*`;
+  m.reply(top, null, {mentions: [a, b, c, d, e, f, g, h, i, j]});
+  conn.sendFile(m.chat, vn, 'error.mp3', null, m, true, {
+    type: 'audioMessage',
+    ptt: true});
+}
+handler.help = handler.command = ['funny'];
+handler.tags = ['fun'];
+handler.group = true;
+handler.limit = 2;
+export default handler;
+function pickRandom(list) {
+  return list[Math.floor(Math.random() * list.length)];
+}

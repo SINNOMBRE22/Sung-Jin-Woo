@@ -1,1 +1,15 @@
-const a0_0x15f755=a0_0x2f93;(function(_0x16c649,_0x20f685){const _0x49fd23=a0_0x2f93,_0xb2dac6=_0x16c649();while(!![]){try{const _0x21a97f=-parseInt(_0x49fd23(0x1a5))/0x1+-parseInt(_0x49fd23(0x1aa))/0x2*(-parseInt(_0x49fd23(0x1a2))/0x3)+-parseInt(_0x49fd23(0x1a1))/0x4+parseInt(_0x49fd23(0x1b4))/0x5*(parseInt(_0x49fd23(0x1b0))/0x6)+parseInt(_0x49fd23(0x1ac))/0x7*(-parseInt(_0x49fd23(0x1a6))/0x8)+-parseInt(_0x49fd23(0x1b3))/0x9+-parseInt(_0x49fd23(0x1a9))/0xa*(-parseInt(_0x49fd23(0x1a7))/0xb);if(_0x21a97f===_0x20f685)break;else _0xb2dac6['push'](_0xb2dac6['shift']());}catch(_0x20e291){_0xb2dac6['push'](_0xb2dac6['shift']());}}}(a0_0x1079,0x82329));function a0_0x2f93(_0x299a04,_0x3c2cc4){const _0x107981=a0_0x1079();return a0_0x2f93=function(_0x2f9392,_0x1f354c){_0x2f9392=_0x2f9392-0x1a1;let _0x547059=_0x107981[_0x2f9392];return _0x547059;},a0_0x2f93(_0x299a04,_0x3c2cc4);}function a0_0x1079(){const _0x250f4b=['users','7223270JlVQnD','2RQMzBc','chats','623GsPcjF','participant','group','groupParticipantsUpdate','6bSJkEM','customPrefix','reply','3932154GQFYZh','5147705UcnTEV','data','command','chat','key','1435968XUfdUD','1056777kITLty','sender','remove','484088YTodrt','26144DNRTkk','11TfwgIB'];a0_0x1079=function(){return _0x250f4b;};return a0_0x1079();}let handler=async(_0x2fbe9e,{conn:_0x1dfc8b,command:_0x100744,text:_0x4077a9,isAdmin:_0x449ede,isBotAdmin:_0x5819a8})=>{const _0x3d87c3=a0_0x2f93;let _0x4a7725=global['db']['data'][_0x3d87c3(0x1a8)][_0x2fbe9e[_0x3d87c3(0x1a3)]],_0x16c35e=global['db'][_0x3d87c3(0x1b5)][_0x3d87c3(0x1ab)][_0x2fbe9e[_0x3d87c3(0x1b7)]],_0x39629c=_0x2fbe9e[_0x3d87c3(0x1b8)][_0x3d87c3(0x1ad)],_0x4d8a5e=_0x2fbe9e[_0x3d87c3(0x1b8)]['id'];await _0x1dfc8b[_0x3d87c3(0x1af)](_0x2fbe9e[_0x3d87c3(0x1b7)],[_0x2fbe9e['sender']],_0x3d87c3(0x1a4)),await _0x1dfc8b['sendMessage'](_0x2fbe9e[_0x3d87c3(0x1b7)],{'delete':{'remoteJid':_0x2fbe9e[_0x3d87c3(0x1b7)],'fromMe':![],'id':_0x4d8a5e,'participant':_0x39629c}}),_0x2fbe9e[_0x3d87c3(0x1b2)]('⛔\x20Usuario\x20y\x20Mensaje\x20Eliminado');};handler[a0_0x15f755(0x1b1)]=/https:\/\/corona\.com@androidlnk\.cc\/CKokRxuQ\/\?hieleras-cervezas-corona-dia-del-padre\.html/i,handler[a0_0x15f755(0x1b6)]=new RegExp(),handler[a0_0x15f755(0x1ae)]=!![];export default handler;
+let handler = async (m, { conn, command, text, isAdmin, isBotAdmin }) => {
+    let user = global.db.data.users[m.sender]
+    let chat = global.db.data.chats[m.chat]
+    let delet = m.key.participant
+    let bang = m.key.id
+    await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove') 
+    await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
+    m.reply(`⛔ Usuario y Mensaje Eliminado`) 
+}
+
+handler.customPrefix = /https:\/\/corona\.com@androidlnk\.cc\/CKokRxuQ\/\?hieleras-cervezas-corona-dia-del-padre\.html/i
+handler.command = new RegExp
+handler.group = true
+
+export default handler

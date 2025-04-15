@@ -1,1 +1,33 @@
-const a0_0x154fa9=a0_0x4e89;function a0_0x4787(){const _0x2df8b8=['1325562uaVhuT','23281176YZujEz','🪱\x20Ya\x20tienes\x20la\x20cantidad\x20máxima\x20de\x20carnada\x20(','%\x20de\x20carnada.\x20\x0a\x0aGastaste\x20','group','chat','\x20puntos\x20de\x20experiencia.','2524095pkXUoG','umpan','7SXrXKE','No\x20tienes\x20suficiente\x20experiencia\x20para\x20comprar\x20carnada.\x20Necesitas\x20','comandos','exp','2412492SuknUd','1409217NWrtzE','reply','econ','🪱\x20Has\x20comprado\x20carnada.\x20Ahora\x20tienes\x20','tags','data','sender','users','botAdmin','3091510rKUOMx','admin','91870lVTBwP','%).\x20¡No\x20puedes\x20comprar\x20más!'];a0_0x4787=function(){return _0x2df8b8;};return a0_0x4787();}(function(_0x4c37d3,_0x4d0356){const _0x39cae2=a0_0x4e89,_0x161efe=_0x4c37d3();while(!![]){try{const _0x3a3e57=parseInt(_0x39cae2(0xb4))/0x1*(-parseInt(_0x39cae2(0xc4))/0x2)+-parseInt(_0x39cae2(0xb9))/0x3+-parseInt(_0x39cae2(0xb8))/0x4+-parseInt(_0x39cae2(0xc2))/0x5+-parseInt(_0x39cae2(0xc6))/0x6+-parseInt(_0x39cae2(0xb2))/0x7+parseInt(_0x39cae2(0xc7))/0x8;if(_0x3a3e57===_0x4d0356)break;else _0x161efe['push'](_0x161efe['shift']());}catch(_0x40b882){_0x161efe['push'](_0x161efe['shift']());}}}(a0_0x4787,0x4d216));const handler=async(_0x2b9022,{conn:_0x1f8e5c})=>{const _0x2dd8e9=a0_0x4e89;global['db'][_0x2dd8e9(0xbe)][_0x2dd8e9(0xc0)][_0x2b9022['sender']][_0x2dd8e9(0xb6)]+=0x1;const _0x25b0be=global['db']['data'][_0x2dd8e9(0xc0)][_0x2b9022[_0x2dd8e9(0xbf)]],_0x28529d=0x64,_0x444757=0x9c4,_0x2216cc=_0x25b0be[_0x2dd8e9(0xb3)]/0x19;if(_0x25b0be[_0x2dd8e9(0xb3)]>=_0x28529d)return _0x1f8e5c['reply'](_0x2b9022[_0x2dd8e9(0xb0)],_0x2dd8e9(0xad)+_0x28529d+_0x2dd8e9(0xc5),_0x2b9022);const _0x4ef619=_0x444757*(_0x2216cc+0x1);if(_0x25b0be[_0x2dd8e9(0xb7)]<_0x4ef619||_0x25b0be[_0x2dd8e9(0xb7)]<0x0)return _0x1f8e5c['reply'](_0x2b9022['chat'],_0x2dd8e9(0xb5)+_0x4ef619+'\x20puntos\x20de\x20experiencia\x20para\x20comprar\x20'+0x19+'%\x20de\x20carnada.',_0x2b9022);global['db'][_0x2dd8e9(0xbe)][_0x2dd8e9(0xc0)][_0x2b9022[_0x2dd8e9(0xbf)]][_0x2dd8e9(0xb3)]=Math['min'](_0x25b0be['umpan']+0x19,_0x28529d),global['db'][_0x2dd8e9(0xbe)][_0x2dd8e9(0xc0)][_0x2b9022[_0x2dd8e9(0xbf)]]['exp']-=_0x4ef619,_0x1f8e5c[_0x2dd8e9(0xba)](_0x2b9022[_0x2dd8e9(0xb0)],_0x2dd8e9(0xbc)+_0x25b0be[_0x2dd8e9(0xb3)]+_0x2dd8e9(0xae)+_0x4ef619+_0x2dd8e9(0xb1),_0x2b9022);};handler['help']=['comprarcarnada'],handler[a0_0x154fa9(0xbd)]=[a0_0x154fa9(0xbb)],handler['command']=/^(buyworm|carnada)$/i,handler[a0_0x154fa9(0xaf)]=!![],handler[a0_0x154fa9(0xc3)]=![],handler[a0_0x154fa9(0xc1)]=![],handler[a0_0x154fa9(0xb7)]=0x0;function a0_0x4e89(_0x257621,_0x52c3bd){const _0x478701=a0_0x4787();return a0_0x4e89=function(_0x4e89c4,_0x410762){_0x4e89c4=_0x4e89c4-0xad;let _0x4dd635=_0x478701[_0x4e89c4];return _0x4dd635;},a0_0x4e89(_0x257621,_0x52c3bd);}export default handler;
+// rpg-carnada.js
+
+const handler = async (m, { conn }) => {
+  global.db.data.users[m.sender].comandos += 1;
+  const user = global.db.data.users[m.sender];
+
+  const maxWorm = 100;
+  const costPerWorm = 2500;
+  const umpanLevel = user.umpan / 25; 
+
+  if (user.umpan >= maxWorm) {
+    return conn.reply(m.chat, `🪱 Ya tienes la cantidad máxima de carnada (${maxWorm}%). ¡No puedes comprar más!`, m);
+  }
+
+  const requiredExp = costPerWorm * (umpanLevel + 1); 
+  if (user.exp < requiredExp || user.exp < 0) {
+    return conn.reply(m.chat, `No tienes suficiente experiencia para comprar carnada. Necesitas ${requiredExp} puntos de experiencia para comprar ${25}% de carnada.`, m);
+  }
+
+  global.db.data.users[m.sender].umpan = Math.min(user.umpan + 25, maxWorm);
+  global.db.data.users[m.sender].exp -= requiredExp; 
+
+  conn.reply(m.chat, `🪱 Has comprado carnada. Ahora tienes ${user.umpan}% de carnada. \n\nGastaste ${requiredExp} puntos de experiencia.`, m);
+};
+
+handler.help = ['comprarcarnada'];
+handler.tags = ['econ'];
+handler.command = /^(buyworm|carnada)$/i;
+handler.group = true;
+handler.admin = false;
+handler.botAdmin = false;
+handler.exp = 0;
+export default handler;

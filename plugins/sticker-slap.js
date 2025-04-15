@@ -1,1 +1,39 @@
-function a0_0x722e(_0x1dc060,_0x3818b1){const _0x5885eb=a0_0x5885();return a0_0x722e=function(_0x722ea4,_0x2eca00){_0x722ea4=_0x722ea4-0x143;let _0xc16f89=_0x5885eb[_0x722ea4];return _0xc16f89;},a0_0x722e(_0x1dc060,_0x3818b1);}const a0_0xd64c47=a0_0x722e;(function(_0x3a8dee,_0x4eaace){const _0x5c0d43=a0_0x722e,_0x2947a0=_0x3a8dee();while(!![]){try{const _0x22d9ed=parseInt(_0x5c0d43(0x156))/0x1+-parseInt(_0x5c0d43(0x15f))/0x2*(-parseInt(_0x5c0d43(0x14b))/0x3)+parseInt(_0x5c0d43(0x158))/0x4*(parseInt(_0x5c0d43(0x144))/0x5)+-parseInt(_0x5c0d43(0x15d))/0x6*(-parseInt(_0x5c0d43(0x153))/0x7)+parseInt(_0x5c0d43(0x163))/0x8+-parseInt(_0x5c0d43(0x166))/0x9+-parseInt(_0x5c0d43(0x168))/0xa;if(_0x22d9ed===_0x4eaace)break;else _0x2947a0['push'](_0x2947a0['shift']());}catch(_0x48b955){_0x2947a0['push'](_0x2947a0['shift']());}}}(a0_0x5885,0x83bac));import{sticker}from'../lib/sticker.js';import a0_0x1b7187 from'node-fetch';const handler=async(_0x295de2,{conn:_0x5db095,args:_0x2ce008,usedPrefix:_0x38c6fe,command:_0x4f0018})=>{const _0x23e011=a0_0x722e,_0x161946=global,_0x5f3d0c=_0x161946['db'][_0x23e011(0x146)]['users'][_0x295de2['sender']][_0x23e011(0x14d)],_0x559b0f=JSON['parse'](fs[_0x23e011(0x14f)](_0x23e011(0x151)+_0x5f3d0c+_0x23e011(0x15a))),_0x28ca31=_0x559b0f[_0x23e011(0x167)][_0x23e011(0x149)];let _0x1ecf18;_0x295de2[_0x23e011(0x155)]?_0x1ecf18=_0x295de2[_0x23e011(0x150)][0x0]?_0x295de2['mentionedJid'][0x0]:_0x295de2[_0x23e011(0x164)]?_0x295de2[_0x23e011(0x164)][_0x23e011(0x157)]:![]:_0x1ecf18=_0x295de2[_0x23e011(0x14e)];const _0x4e3c17=_0x28ca31[_0x23e011(0x14c)]+_0x23e011(0x161)+(_0x38c6fe+_0x4f0018)+'\x20@'+global[_0x23e011(0x15b)];if(_0x1ecf18===_0x295de2['chat']&&_0x295de2[_0x23e011(0x155)]||!_0x1ecf18&&_0x295de2[_0x23e011(0x155)])return _0x295de2[_0x23e011(0x145)](_0x4e3c17,_0x295de2[_0x23e011(0x14e)],{'mentions':_0x5db095[_0x23e011(0x14a)](_0x4e3c17)});try{let _0x45e212;_0x1ecf18===_0x295de2[_0x23e011(0x14e)]?_0x45e212=_0x23e011(0x147):_0x45e212=_0x5db095['getName'](_0x1ecf18);let _0x113340=_0x5db095[_0x23e011(0x154)](_0x295de2['sender']),_0x5afdfd=await a0_0x1b7187(_0x23e011(0x143)),_0x43c864=await _0x5afdfd[_0x23e011(0x165)](),{url:_0x37a00b}=_0x43c864,_0x348e73=await sticker(null,_0x37a00b,_0x113340+_0x23e011(0x159)+_0x45e212,null);_0x5db095[_0x23e011(0x160)](_0x295de2['chat'],_0x348e73,null,{'asSticker':!![]},_0x295de2,!![],{'contextInfo':{'forwardingScore':0xc8,'isForwarded':!![]}},{'quoted':_0x295de2});}catch{throw _0x28ca31[_0x23e011(0x162)];};};function a0_0x5885(){const _0x3a947e=['quoted','json','1338147XEbqdc','plugins','31018930DLXRAS','https://api.waifu.pics/sfw/slap','8355XhtZAT','reply','data','Sung\x20Jin-Woo','command','sticker_slap','parseMention','2038614NBGOcm','texto1','language','chat','readFileSync','mentionedJid','./language/','sticker','7191604sweowa','getName','isGroup','946953KUnahg','sender','2240QfDCaj','\x20le\x20dio\x20una\x20bofetada\x20a\x20','.json','suittag','help','6GNWAba','tags','2bDlUxa','sendFile','\x0a◉\x20','texto2','1604136RMKgEv'];a0_0x5885=function(){return _0x3a947e;};return a0_0x5885();}handler[a0_0xd64c47(0x15c)]=['slap'],handler[a0_0xd64c47(0x15e)]=[a0_0xd64c47(0x152)],handler[a0_0xd64c47(0x148)]=/^(slap|bofetada)$/i;export default handler;
+import {sticker} from "../lib/sticker.js";
+import fetch from "node-fetch";
+
+
+const handler = async (m, { conn, args, usedPrefix, command }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.sticker_slap
+
+    let who;
+    if (m.isGroup) {
+      who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
+    } else { 
+      who = m.chat;
+    }
+      const textquien = `${tradutor.texto1}\n◉ ${usedPrefix + command} @${global.suittag}`;
+    if (who === m.chat && m.isGroup || !who && m.isGroup) return m.reply(textquien, m.chat, {mentions: conn.parseMention(textquien)});
+  try {
+    let name;
+    if (who === m.chat) {
+      name = "Sung Jin-Woo";
+    } else {
+      name = conn.getName(who);
+    }
+    let name2 = conn.getName(m.sender);
+    let apislap = await fetch(`https://api.waifu.pics/sfw/slap`);
+    let jkis = await apislap.json();
+    let { url } = jkis;
+    let stiker = await sticker(null, url, `${name2} le dio una bofetada a ${name}`, null);
+    conn.sendFile(m.chat, stiker, null, {asSticker: true}, m, true, {contextInfo: {forwardingScore: 200, isForwarded: true}}, {quoted: m});
+  } catch {
+    throw tradutor.texto2;
+  };
+};
+handler.help = ["slap"];
+handler.tags = ["sticker"];
+handler.command = /^(slap|bofetada)$/i;
+export default handler;

@@ -1,1 +1,38 @@
-function a0_0x360a(_0x46d705,_0x52b51e){const _0x2e628d=a0_0x2e62();return a0_0x360a=function(_0x360aad,_0x2b3400){_0x360aad=_0x360aad-0xab;let _0x1bc2cb=_0x2e628d[_0x360aad];return _0x1bc2cb;},a0_0x360a(_0x46d705,_0x52b51e);}const a0_0xe091ce=a0_0x360a;(function(_0x33f5e0,_0x3483c9){const _0x122460=a0_0x360a,_0x38e833=_0x33f5e0();while(!![]){try{const _0x37b5b9=-parseInt(_0x122460(0xc2))/0x1+parseInt(_0x122460(0xb7))/0x2+parseInt(_0x122460(0xae))/0x3+-parseInt(_0x122460(0xc0))/0x4+-parseInt(_0x122460(0xc3))/0x5*(-parseInt(_0x122460(0xad))/0x6)+-parseInt(_0x122460(0xbb))/0x7+parseInt(_0x122460(0xac))/0x8;if(_0x37b5b9===_0x3483c9)break;else _0x38e833['push'](_0x38e833['shift']());}catch(_0x384346){_0x38e833['push'](_0x38e833['shift']());}}}(a0_0x2e62,0x7d15f));function a0_0x2e62(){const _0x474c4f=['97275zyUiRC','command','readFileSync','owner','6633544VeyEXu','144vxKwYM','2061609rXkdCB','plugins','owner_viewimage','image/','sender','utf-8','pop','default','./language/','742304jsBGyT','help','error','parse','2324357OHhMGL','.json','language','data','tags','3026088INrEHv','split','753544VGordz'];a0_0x2e62=function(){return _0x474c4f;};return a0_0x2e62();}import a0_0x47203c from'fs';import a0_0x42d0d8 from'node-fetch';let handler=async(_0x2d839f,{text:_0x7e538d})=>{const _0x4fcb41=a0_0x360a;try{const _0x1614f5=global,_0x5788d2=_0x1614f5['db']?.[_0x4fcb41(0xbe)]?.['users'][_0x2d839f[_0x4fcb41(0xb2)]]?.[_0x4fcb41(0xbd)]||_0x4fcb41(0xb5),_0x435a30=JSON[_0x4fcb41(0xba)](a0_0x47203c['readFileSync'](_0x4fcb41(0xb6)+_0x5788d2+_0x4fcb41(0xbc),_0x4fcb41(0xb3))),_0x30b2c5=_0x435a30[_0x4fcb41(0xaf)][_0x4fcb41(0xb0)];if(!_0x7e538d)throw _0x30b2c5['texto1'];let _0x213562=_0x7e538d[_0x4fcb41(0xc1)]('.')[_0x4fcb41(0xb4)](),_0x1c4580='./'+_0x7e538d;if(!a0_0x47203c['existsSync'](_0x1c4580))throw _0x30b2c5['texto2'];let _0x19ddec=a0_0x47203c[_0x4fcb41(0xc5)](_0x1c4580),_0x54b98e=_0x4fcb41(0xb1)+_0x213562,_0x49d0f5=_0x19ddec;_0x2d839f['reply'](_0x19ddec,null,{'thumbnail':_0x49d0f5});}catch(_0x3fbf43){console[_0x4fcb41(0xb9)](_0x3fbf43),_0x2d839f['reply']('Ocurrió\x20un\x20error\x20al\x20procesar\x20la\x20imagen.');}};handler[a0_0xe091ce(0xb8)]=['viewimage\x20<nombre>'],handler[a0_0xe091ce(0xbf)]=[a0_0xe091ce(0xab)],handler[a0_0xe091ce(0xc4)]=/^(viewimage|vi)$/i,handler[a0_0xe091ce(0xab)]=!![];export default handler;
+import fs from 'fs';
+import fetch from 'node-fetch'; // Opcional: si usas fetch en otras partes, pero no es necesario para este thumbnail
+
+let handler = async (m, { text }) => {
+  try {
+    const datas = global;
+    const idioma = datas.db?.data?.users[m.sender]?.language || 'default';
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`, 'utf-8'));
+    const tradutor = _translate.plugins.owner_viewimage;
+
+    if (!text) throw tradutor.texto1;
+
+    let ext = text.split('.').pop();
+    let path = `./${text}`;
+
+    if (!fs.existsSync(path)) throw tradutor.texto2;
+
+    // Lee el archivo de imagen como buffer
+    let media = fs.readFileSync(path);
+    let mimeType = `image/${ext}`;
+
+    // En lugar de usar fetch para crear un thumbnail a partir de un data URI,
+    // utilizamos directamente el buffer de la imagen.
+    let thumbnailBuffer = media;
+
+    m.reply(media, null, { thumbnail: thumbnailBuffer });
+  } catch (error) {
+    console.error(error);
+    m.reply("Ocurrió un error al procesar la imagen.");
+  }
+};
+
+handler.help = ['viewimage <nombre>'];
+handler.tags = ['owner'];
+handler.command = /^(viewimage|vi)$/i;
+handler.owner = true;
+
+export default handler;

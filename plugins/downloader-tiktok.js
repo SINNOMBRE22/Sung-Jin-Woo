@@ -1,1 +1,112 @@
-const a0_0x47fe6f=a0_0xb1f8;(function(_0x1f4642,_0x5c7e3c){const _0x3217d6=a0_0xb1f8,_0x465555=_0x1f4642();while(!![]){try{const _0x1f691b=parseInt(_0x3217d6(0xa2))/0x1*(parseInt(_0x3217d6(0x88))/0x2)+-parseInt(_0x3217d6(0x85))/0x3+-parseInt(_0x3217d6(0x91))/0x4+parseInt(_0x3217d6(0x92))/0x5+parseInt(_0x3217d6(0x99))/0x6*(-parseInt(_0x3217d6(0x76))/0x7)+-parseInt(_0x3217d6(0x7a))/0x8+-parseInt(_0x3217d6(0x93))/0x9*(-parseInt(_0x3217d6(0xa9))/0xa);if(_0x1f691b===_0x5c7e3c)break;else _0x465555['push'](_0x465555['shift']());}catch(_0x3b39a8){_0x465555['push'](_0x465555['shift']());}}}(a0_0x2e4f,0x4b810));import a0_0x21cc73 from'axios';function a0_0x2e4f(){const _0x388669=['post','json','22870pgyIIp','div.download-links\x20>\x20div:nth-child(1)\x20>\x20a','https://tikdown.org/id','key','attr','org','▰▰▰▰▰▱▱▱▱\x20𝟖𝟱%','133HaytaL','sendMessage','error','#download-form\x20>\x20input[type=hidden]:nth-child(2)','4518624CUCzek','▰▰▱▱▱▱▱▱▱\x20𝟑𝟎%','❌\x20*Error:*\x20No\x20se\x20pudo\x20procesar\x20la\x20descarga.\x20Verifica\x20el\x20enlace\x20de\x20TikTok.','downloader','sendFile','sender','▰▰▰▰▰▰▰▰▰\x20𝟏𝟎𝟎%','value','chat','command','data','425370uLmYXL','tiktok','tags','10GPLWuU','Error\x20en\x20API\x20pública:','https://tikdown.org/getAjax?','━━━✦❘༻༺❘✦━━━\x0a⚠️\x20*El\x20Sistema\x20requiere\x20un\x20enlace\x20de\x20TikTok\x20para\x20continuar.*\x0a━━━✦❘༻༺❘✦━━━','https://deliriussapi-oficial.vercel.app/download/tiktok?url=','react','Error\x20en\x20frieren-scraper:','▰▰▰▱▱▱▱▱▱\x20𝟓𝟎%','▰▰▰▰▱▱▱▱▱\x20𝟳𝟎%','1972760gfKODC','162940QhZAQd','6669fHQgOm','video','media','no_watermark','parseMention','Error\x20en\x20bochilteam\x20scraper:','147972pCSIkh','play','Error\x20en\x20TikDown.org:','load','━━━✦❘༻༺❘✦━━━\x0a✅\x20*Video\x20extraído\x20con\x20éxito.*\x0a▰▰▰▰▰▰▰▰▰\x20𝟏𝟎𝟎%\x0a━━━✦❘༻༺❘✦━━━','━━━✦❘༻༺❘✦━━━\x0a🎬\x20*¡Video\x20de\x20TikTok\x20descargado\x20exitosamente!*\x0a━━━✦❘༻༺❘✦━━━','html','━━━✦❘༻༺❘✦━━━\x0a⌛\x20*Extrayendo\x20Video...*\x20','tiktok.mp4','50079nSiOAz','meta','reply','get','━━━✦❘༻༺❘✦━━━\x0a⌛\x20*Extrayendo\x20Video...*\x20🕐\x0a▱▱▱▱▱▱▱▱▱\x20𝟎%\x0a━━━✦❘༻༺❘✦━━━'];a0_0x2e4f=function(){return _0x388669;};return a0_0x2e4f();}import a0_0x5448d9 from'cheerio';import a0_0x412789 from'node-fetch';import{tiktok}from'@xct007/frieren-scraper';import{tiktokdl}from'@bochilteam/scraper';const handler=async(_0x471e7b,{conn:_0x15792f,args:_0x5d7d43})=>{const _0x5a135c=a0_0xb1f8;if(!_0x5d7d43[0x0])return _0x15792f['reply'](_0x471e7b[_0x5a135c(0x82)],_0x5a135c(0x8b),_0x471e7b);const _0x300667=_0x5d7d43[0x0];_0x471e7b[_0x5a135c(0x8d)]('⚔️');let _0x31c2f6=await _0x15792f[_0x5a135c(0x77)](_0x471e7b[_0x5a135c(0x82)],{'text':_0x5a135c(0xa6),'mentions':_0x15792f[_0x5a135c(0x97)](_0x471e7b['sender']),'quoted':_0x471e7b});const _0x3731f4=['▰▱▱▱▱▱▱▱▱\x20𝟏𝟓%',_0x5a135c(0x7b),_0x5a135c(0x8f),_0x5a135c(0x90),_0x5a135c(0x75),_0x5a135c(0x80)],_0x1ccd55=['🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘'],_0x323ba6=0x4b0;for(let _0xee750=0x0;_0xee750<_0x3731f4['length'];_0xee750++){await new Promise(_0x43328a=>setTimeout(_0x43328a,_0x323ba6));let _0x1a9c29=_0x1ccd55[_0xee750%_0x1ccd55['length']];_0xee750===_0x3731f4['length']-0x1?await _0x15792f[_0x5a135c(0x77)](_0x471e7b['chat'],{'text':_0x5a135c(0x9d),'edit':_0x31c2f6[_0x5a135c(0xac)],'mentions':_0x15792f['parseMention'](_0x471e7b[_0x5a135c(0x7f)])}):await _0x15792f[_0x5a135c(0x77)](_0x471e7b[_0x5a135c(0x82)],{'text':_0x5a135c(0xa0)+_0x1a9c29+'\x0a'+_0x3731f4[_0xee750]+'\x0a━━━✦❘༻༺❘✦━━━','edit':_0x31c2f6[_0x5a135c(0xac)],'mentions':_0x15792f[_0x5a135c(0x97)](_0x471e7b[_0x5a135c(0x7f)])});}try{const _0x2cd7ea=await tiktok['v1'](_0x300667);if(_0x2cd7ea&&_0x2cd7ea[_0x5a135c(0x9a)])return await _0x15792f[_0x5a135c(0x77)](_0x471e7b[_0x5a135c(0x82)],{'delete':_0x31c2f6[_0x5a135c(0xac)]}),_0x15792f[_0x5a135c(0x7e)](_0x471e7b[_0x5a135c(0x82)],_0x2cd7ea['play'],_0x5a135c(0xa1),_0x5a135c(0x9e),_0x471e7b);}catch(_0x2b5660){console['error'](_0x5a135c(0x8e),_0x2b5660);}try{const _0x2f8fb=await tiktokdl(_0x300667);if(_0x2f8fb&&_0x2f8fb[_0x5a135c(0x94)]&&_0x2f8fb[_0x5a135c(0x94)][_0x5a135c(0x96)])return await _0x15792f[_0x5a135c(0x77)](_0x471e7b[_0x5a135c(0x82)],{'delete':_0x31c2f6[_0x5a135c(0xac)]}),_0x15792f[_0x5a135c(0x7e)](_0x471e7b[_0x5a135c(0x82)],_0x2f8fb[_0x5a135c(0x94)][_0x5a135c(0x96)],'tiktok.mp4',_0x5a135c(0x9e),_0x471e7b);}catch(_0x27ce0e){console[_0x5a135c(0x78)](_0x5a135c(0x98),_0x27ce0e);}try{const _0x2eef3d=await a0_0x21cc73[_0x5a135c(0xa5)](_0x5a135c(0xab)),_0x46239b=a0_0x5448d9[_0x5a135c(0x9c)](_0x2eef3d[_0x5a135c(0x84)]),_0x2578e2=_0x46239b(_0x5a135c(0x79))[_0x5a135c(0xad)](_0x5a135c(0x81)),_0x55d240={'url':_0x300667,'_token':_0x2578e2},{data:_0x1c299f}=await a0_0x21cc73[_0x5a135c(0xa7)](_0x5a135c(0x8a),new URLSearchParams(_0x55d240),{'headers':{'content-type':'application/x-www-form-urlencoded;\x20charset=UTF-8'}}),_0x56ba50=a0_0x5448d9[_0x5a135c(0x9c)](_0x1c299f[_0x5a135c(0x9f)])(_0x5a135c(0xaa))[_0x5a135c(0xad)]('href');if(_0x56ba50)return await _0x15792f['sendMessage'](_0x471e7b[_0x5a135c(0x82)],{'delete':_0x31c2f6[_0x5a135c(0xac)]}),_0x15792f['sendFile'](_0x471e7b['chat'],_0x56ba50,'tiktok.mp4',_0x5a135c(0x9e),_0x471e7b);}catch(_0x4d118b){console[_0x5a135c(0x78)](_0x5a135c(0x9b),_0x4d118b);}try{const _0xf4b9ad=await a0_0x412789(_0x5a135c(0x8c)+encodeURIComponent(_0x300667)),_0x399f0d=await _0xf4b9ad[_0x5a135c(0xa8)](),_0x20c6e9=_0x399f0d[_0x5a135c(0x84)][_0x5a135c(0xa3)][_0x5a135c(0x95)][0x0][_0x5a135c(0xae)];if(_0x20c6e9)return await _0x15792f[_0x5a135c(0x77)](_0x471e7b[_0x5a135c(0x82)],{'delete':_0x31c2f6['key']}),_0x15792f[_0x5a135c(0x7e)](_0x471e7b[_0x5a135c(0x82)],_0x20c6e9,_0x5a135c(0xa1),_0x5a135c(0x9e),_0x471e7b);}catch(_0x3179d4){console['error'](_0x5a135c(0x89),_0x3179d4);}await _0x15792f[_0x5a135c(0xa4)](_0x471e7b[_0x5a135c(0x82)],_0x5a135c(0x7c),_0x471e7b);};function a0_0xb1f8(_0x5556c8,_0x559db3){const _0x2e4fc7=a0_0x2e4f();return a0_0xb1f8=function(_0xb1f8ce,_0x4d5fe0){_0xb1f8ce=_0xb1f8ce-0x75;let _0x2b587e=_0x2e4fc7[_0xb1f8ce];return _0x2b587e;},a0_0xb1f8(_0x5556c8,_0x559db3);}handler['help']=[a0_0x47fe6f(0x86)],handler[a0_0x47fe6f(0x87)]=[a0_0x47fe6f(0x7d)],handler[a0_0x47fe6f(0x83)]=/^(tiktok)?$/i;export default handler;
+import axios from 'axios';
+import cheerio from 'cheerio';
+import fetch from 'node-fetch';
+import { tiktok } from '@xct007/frieren-scraper';
+import { tiktokdl } from '@bochilteam/scraper';
+
+const handler = async (m, { conn, args }) => {
+  if (!args[0]) {
+    return conn.reply(m.chat, '━━━✦❘༻༺❘✦━━━\n⚠️ *El Sistema requiere un enlace de TikTok para continuar.*\n━━━✦❘༻༺❘✦━━━', m);
+  }
+
+  const url = args[0];
+
+  // Reaccionamos al mensaje original con ⚔️
+  m.react('⚔️');
+
+  // Mensaje inicial con reloj de arena y tema Solo Leveling
+  let msg = await conn.sendMessage(m.chat, { 
+    text: '━━━✦❘༻༺❘✦━━━\n⌛ *Extrayendo Video...* 🕐\n▱▱▱▱▱▱▱▱▱ 𝟎%\n━━━✦❘༻༺❘✦━━━', 
+    mentions: conn.parseMention(m.sender),
+    quoted: m 
+  });
+
+  const progress = [
+    "▰▱▱▱▱▱▱▱▱ 𝟏𝟓%",
+    "▰▰▱▱▱▱▱▱▱ 𝟑𝟎%",
+    "▰▰▰▱▱▱▱▱▱ 𝟓𝟎%",
+    "▰▰▰▰▱▱▱▱▱ 𝟳𝟎%",
+    "▰▰▰▰▰▱▱▱▱ 𝟖𝟱%",
+    "▰▰▰▰▰▰▰▰▰ 𝟏𝟎𝟎%"
+  ];
+
+  const clockAnimation = ['🕐', '🕑', '🕒', '🕓', '🕔', '🕕', '🕖', '🕗', '🕘'];
+  const interval = 1200;
+
+  for (let i = 0; i < progress.length; i++) {
+    await new Promise(resolve => setTimeout(resolve, interval));
+
+    let clockSymbol = clockAnimation[i % clockAnimation.length];
+
+    if (i === progress.length - 1) {
+      await conn.sendMessage(m.chat, {
+        text: `━━━✦❘༻༺❘✦━━━\n✅ *Video extraído con éxito.*\n▰▰▰▰▰▰▰▰▰ 𝟏𝟎𝟎%\n━━━✦❘༻༺❘✦━━━`,
+        edit: msg.key,
+        mentions: conn.parseMention(m.sender)
+      });
+    } else {
+      await conn.sendMessage(m.chat, {
+        text: `━━━✦❘༻༺❘✦━━━\n⌛ *Extrayendo Video...* ${clockSymbol}\n${progress[i]}\n━━━✦❘༻༺❘✦━━━`,
+        edit: msg.key,
+        mentions: conn.parseMention(m.sender)
+      });
+    }
+  }
+
+  try {
+    const dataF = await tiktok.v1(url);
+    if (dataF && dataF.play) {
+      await conn.sendMessage(m.chat, { delete: msg.key }); // Elimina la animación
+      return conn.sendFile(m.chat, dataF.play, 'tiktok.mp4', '━━━✦❘༻༺❘✦━━━\n🎬 *¡Video de TikTok descargado exitosamente!*\n━━━✦❘༻༺❘✦━━━', m);
+    }
+  } catch (e1) {
+    console.error('Error en frieren-scraper:', e1);
+  }
+
+  try {
+    const tiktokData = await tiktokdl(url);
+    if (tiktokData && tiktokData.video && tiktokData.video.no_watermark) {
+      await conn.sendMessage(m.chat, { delete: msg.key });
+      return conn.sendFile(m.chat, tiktokData.video.no_watermark, 'tiktok.mp4', '━━━✦❘༻༺❘✦━━━\n🎬 *¡Video de TikTok descargado exitosamente!*\n━━━✦❘༻༺❘✦━━━', m);
+    }
+  } catch (e2) {
+    console.error('Error en bochilteam scraper:', e2);
+  }
+
+  try {
+    const response = await axios.get("https://tikdown.org/id");
+    const $ = cheerio.load(response.data);
+    const token = $("#download-form > input[type=hidden]:nth-child(2)").attr("value");
+    const param = { url, _token: token };
+    const { data } = await axios.post("https://tikdown.org/getAjax?", new URLSearchParams(param), {
+      headers: { "content-type": "application/x-www-form-urlencoded; charset=UTF-8" },
+    });
+    const videoUrl = cheerio.load(data.html)("div.download-links > div:nth-child(1) > a").attr("href");
+    if (videoUrl) {
+      await conn.sendMessage(m.chat, { delete: msg.key });
+      return conn.sendFile(m.chat, videoUrl, 'tiktok.mp4', '━━━✦❘༻༺❘✦━━━\n🎬 *¡Video de TikTok descargado exitosamente!*\n━━━✦❘༻༺❘✦━━━', m);
+    }
+  } catch (e3) {
+    console.error('Error en TikDown.org:', e3);
+  }
+
+  try {
+    const response = await fetch(`https://deliriussapi-oficial.vercel.app/download/tiktok?url=${encodeURIComponent(url)}`);
+    const dataR = await response.json();
+    const videoUrl = dataR.data.meta.media[0].org;
+    if (videoUrl) {
+      await conn.sendMessage(m.chat, { delete: msg.key });
+      return conn.sendFile(m.chat, videoUrl, 'tiktok.mp4', '━━━✦❘༻༺❘✦━━━\n🎬 *¡Video de TikTok descargado exitosamente!*\n━━━✦❘༻༺❘✦━━━', m);
+    }
+  } catch (e4) {
+    console.error('Error en API pública:', e4);
+  }
+
+  await conn.reply(m.chat, '❌ *Error:* No se pudo procesar la descarga. Verifica el enlace de TikTok.', m);
+};
+
+handler.help = ['tiktok'];
+handler.tags = ['downloader'];
+handler.command = /^(tiktok)?$/i;
+
+export default handler;

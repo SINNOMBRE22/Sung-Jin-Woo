@@ -1,1 +1,87 @@
-const a0_0x28fb94=a0_0x61b4;(function(_0x33ec34,_0x3c481f){const _0x505e61=a0_0x61b4,_0x525cc5=_0x33ec34();while(!![]){try{const _0x20c569=-parseInt(_0x505e61(0x16c))/0x1+-parseInt(_0x505e61(0x168))/0x2+parseInt(_0x505e61(0x162))/0x3+-parseInt(_0x505e61(0x155))/0x4*(-parseInt(_0x505e61(0x147))/0x5)+parseInt(_0x505e61(0x15b))/0x6+-parseInt(_0x505e61(0x144))/0x7*(parseInt(_0x505e61(0x16a))/0x8)+-parseInt(_0x505e61(0x141))/0x9;if(_0x20c569===_0x3c481f)break;else _0x525cc5['push'](_0x525cc5['shift']());}catch(_0x1eafb5){_0x525cc5['push'](_0x525cc5['shift']());}}}(a0_0x57ee,0x33ca1));import{getTracks}from'@green-code/music-track-data';function a0_0x57ee(){const _0x4b83de=['*\x0a\x0a','text','https://letra-lime.vercel.app/lyrics?url=','album','chat','users','Sareth','lyrics','sendMessage','1132GIaTQO','title','texto2','command','\x20-\x20','200','1615338mlijDh','image','fullTitle','instrumental','\x20beret\x20ojala*','/lyrics','tags','389067GEjPQs','audio/mp4','error','readFileSync','url','texto1','228650cLBgDl','Error:\x20','640cZcIBH','data','30842QOsvBV','json','🟨\x20Couldn\x27t\x20find\x20any\x20lyrics\x20for\x20\x22','thumbnail','message','quoted','plugins','buscador_lyrics','name','parse','getRandom','\x20<Apa>','preview','https://some-random-api.com','sender','letra','language','309726WMWCOK','\x20\x20*','log','19103zziNon','Lyrics\x20not\x20found.','get','3730INKvpP','.mp3','genius','lirik','artist'];a0_0x57ee=function(){return _0x4b83de;};return a0_0x57ee();}import{googleImage}from'@bochilteam/scraper';import a0_0x1a908d from'got';import a0_0x5d01e5 from'cheerio';function a0_0x61b4(_0x2c9f7f,_0x18df30){const _0x57ee02=a0_0x57ee();return a0_0x61b4=function(_0x61b417,_0x5a6525){_0x61b417=_0x61b417-0x137;let _0x4e1738=_0x57ee02[_0x61b417];return _0x4e1738;},a0_0x61b4(_0x2c9f7f,_0x18df30);}import a0_0x38134c from'fs';const handler=async(_0x4185c7,{conn:_0x325727,text:_0x461ec0,usedPrefix:_0x1700ea,command:_0x33aa14})=>{const _0x576af7=a0_0x61b4,_0x506074=global,_0x3ed80c=_0x506074['db'][_0x576af7(0x16b)][_0x576af7(0x151)][_0x4185c7[_0x576af7(0x13e)]][_0x576af7(0x140)],_0x40acf0=JSON[_0x576af7(0x139)](a0_0x38134c[_0x576af7(0x165)]('./language/'+_0x3ed80c+'.json')),_0x15e6a7=_0x40acf0[_0x576af7(0x172)][_0x576af7(0x137)],_0x1ce2ef=_0x461ec0?_0x461ec0:_0x4185c7[_0x576af7(0x171)]&&_0x4185c7[_0x576af7(0x171)][_0x576af7(0x14d)]?_0x4185c7[_0x576af7(0x171)][_0x576af7(0x14d)]:'';if(!_0x1ce2ef)throw'*'+_0x15e6a7[_0x576af7(0x167)]+'\x20'+(_0x1700ea+_0x33aa14)+_0x576af7(0x15f);try{const _0x178093=await getTracks(_0x1ce2ef);let _0x144776;_0x178093?_0x144776=await searchLyrics(_0x178093[0x0]?.[_0x576af7(0x14b)]+'\x20'+_0x178093[0x0]?.[_0x576af7(0x156)]):_0x144776=await searchLyrics(''+_0x1ce2ef);console[_0x576af7(0x143)](_0x144776);const _0xeafa99=_0x178093[0x0][_0x576af7(0x156)]?_0x178093[0x0][_0x576af7(0x156)]:_0x144776[_0x576af7(0x156)],_0x37949a=_0x178093[0x0]['artist']?_0x178093[0x0][_0x576af7(0x14b)]:_0x144776['artist'],_0x48ded0=await fetch(global['API'](_0x576af7(0x13d),_0x576af7(0x160),{'title':_0x37949a+_0xeafa99})),_0x35d7a0=await _0x48ded0[_0x576af7(0x16d)]();let _0x14da9a;try{_0x14da9a=_0x178093[_0x576af7(0x14f)]['artwork'];}catch{try{_0x14da9a=_0x35d7a0[_0x576af7(0x16f)][_0x576af7(0x149)];}catch{try{const _0x57fb82=await googleImage(_0x37949a+'\x20'+_0xeafa99);_0x14da9a=await _0x57fb82[_0x576af7(0x13a)]();}catch{_0x14da9a=_0x144776[_0x576af7(0x15c)];}}}const _0x199673=_0x15e6a7['texto2'][0x0]+'\x20*'+(_0xeafa99||'')+'*\x0a'+_0x15e6a7[_0x576af7(0x157)][0x1]+_0x576af7(0x142)+(_0x37949a||'')+_0x576af7(0x14c)+_0x15e6a7['texto2'][0x2]+'\x20\x0a'+(_0x144776[_0x576af7(0x153)]||_0x576af7(0x145));await _0x325727[_0x576af7(0x154)](_0x4185c7[_0x576af7(0x150)],{'image':{'url':_0x14da9a},'caption':_0x199673},{'quoted':_0x4185c7}),await _0x325727[_0x576af7(0x154)](_0x4185c7[_0x576af7(0x150)],{'audio':{'url':_0x178093[0x0]?.[_0x576af7(0x13c)]},'fileName':(_0x37949a||'-')+_0x576af7(0x159)+(_0xeafa99||'-')+_0x576af7(0x148),'mimetype':_0x576af7(0x163)},{'quoted':_0x4185c7});}catch(_0xa4868d){console['log'](_0x576af7(0x169)+_0xa4868d[_0x576af7(0x170)]);throw'*'+_0x15e6a7[_0x576af7(0x157)][0x3]+'*';}};handler['help']=[a0_0x28fb94(0x14a),a0_0x28fb94(0x13f)]['map'](_0x4988a0=>_0x4988a0+a0_0x28fb94(0x13b)),handler[a0_0x28fb94(0x161)]=['search'],handler[a0_0x28fb94(0x158)]=/^(lirik|lyrics|lyric|letra)$/i;export default handler;async function searchLyrics(_0x121ab3){const _0x183e8e=a0_0x28fb94;try{if(!_0x121ab3)return'🟥\x20Provide\x20the\x20name\x20of\x20the\x20song\x20to\x20search\x20the\x20lyrics';const _0x4b82be=await axios[_0x183e8e(0x146)]('https://letra-lime.vercel.app/genius?query='+_0x121ab3),_0x3176f4=_0x4b82be[_0x183e8e(0x16b)];if(!_0x3176f4['length'])return _0x183e8e(0x16e)+_0x121ab3+'\x22';const _0x367f1b=_0x3176f4[0x0]['url'],_0x2e0b7c=await axios[_0x183e8e(0x146)](_0x183e8e(0x14e)+_0x367f1b),_0x507ba3={'status':_0x183e8e(0x15a),'creador':_0x183e8e(0x152),'title':_0x3176f4[0x0][_0x183e8e(0x156)]||'','fullTitle':_0x3176f4[0x0][_0x183e8e(0x15d)]||'','artist':_0x3176f4[0x0][_0x183e8e(0x14b)][_0x183e8e(0x138)]||'','artistUrl':_0x3176f4[0x0][_0x183e8e(0x14b)][_0x183e8e(0x166)]||'','id':_0x3176f4[0x0]['id']||'','enpoint':_0x3176f4[0x0]['endpoint']||'','instrumental':_0x3176f4[0x0][_0x183e8e(0x15e)],'image':_0x3176f4[0x0][_0x183e8e(0x15c)]||'','url':_0x3176f4[0x0][_0x183e8e(0x166)]||'','lyrics':_0x2e0b7c[_0x183e8e(0x16b)][_0x183e8e(0x153)]||''};return _0x507ba3;}catch(_0x4555a7){return console[_0x183e8e(0x164)](_0x4555a7['message']),{'creador':_0x183e8e(0x152),'status':_0x183e8e(0x164),'message':new Error(_0x4555a7)[_0x183e8e(0x170)]};}}
+import { getTracks } from '@green-code/music-track-data';
+import { googleImage } from '@bochilteam/scraper';
+import got from 'got';
+import cheerio from 'cheerio';
+import fs from 'fs';
+
+const handler = async (m, { conn, text, usedPrefix, command }) => {
+    const datas = global;
+    const idioma = datas.db.data.users[m.sender].language;
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`));
+    const tradutor = _translate.plugins.buscador_lyrics;
+    const teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : '';
+    if (!teks) throw `*${tradutor.texto1} ${usedPrefix + command} beret ojala*`;
+    try {
+        const result = await getTracks(teks);
+        let lyrics;
+        if (result) {
+            lyrics = await searchLyrics(`${result[0]?.artist} ${result[0]?.title}`);
+        } else {
+            lyrics = await searchLyrics(`${teks}`);
+        }
+        console.log(lyrics)
+        const tituloL = result[0].title ? result[0].title : lyrics.title
+        const artistaL = result[0].artist ? result[0].artist : lyrics.artist
+        const res = await fetch(global.API('https://some-random-api.com', '/lyrics', { title: artistaL + tituloL }));
+        const json = await res.json();
+        let img;
+        try {
+            img = result.album.artwork;
+        } catch {
+            try {
+                img = json.thumbnail.genius;
+            } catch {
+                try {
+                  const bochil = await googleImage(`${artistaL} ${tituloL}`);
+                  img = await bochil.getRandom();
+                } catch {    
+                 img = lyrics.image;   
+                }
+            }
+        }
+        const textoLetra = `${tradutor.texto2[0]} *${tituloL || ''}*\n${tradutor.texto2[1]}  *${artistaL || ''}*\n\n${tradutor.texto2[2]} \n${lyrics.lyrics || 'Lyrics not found.'}`;
+        await conn.sendMessage(m.chat, { image: { url: img }, caption: textoLetra }, { quoted: m });
+        await conn.sendMessage(m.chat, { audio: { url: result[0]?.preview }, fileName: `${artistaL || '-'} - ${tituloL || '-'}.mp3`, mimetype: 'audio/mp4' }, { quoted: m });
+    } catch (e) {
+        console.log(`Error: ${e.message}`)
+        throw `*${tradutor.texto2[3]}*`;
+    }
+};
+handler.help = ['lirik', 'letra'].map((v) => v + ' <Apa>');
+handler.tags = ['search'];
+handler.command = /^(lirik|lyrics|lyric|letra)$/i;
+export default handler;
+
+/* Creditos: https://github.com/darlyn1234 */
+async function searchLyrics(term) {
+  try {
+    if (!term) return "🟥 Provide the name of the song to search the lyrics";
+    const geniusResponse = await axios.get(`https://letra-lime.vercel.app/genius?query=${term}`);
+    const geniusData = geniusResponse.data;
+    if (!geniusData.length) return `🟨 Couldn't find any lyrics for "${term}"`;
+    const lyricsUrl = geniusData[0].url;
+    const lyricsResponse = await axios.get(`https://letra-lime.vercel.app/lyrics?url=${lyricsUrl}`);
+    const result = {
+      status: '200',
+      creador: 'Sareth',
+      title: geniusData[0].title || "",
+      fullTitle: geniusData[0].fullTitle || "",
+      artist: geniusData[0].artist.name || "",
+      artistUrl: geniusData[0].artist.url || "",
+      id: geniusData[0].id || "",
+      enpoint: geniusData[0].endpoint || "",
+      instrumental: geniusData[0].instrumental,
+      image: geniusData[0].image || "",
+      url: geniusData[0].url || "",
+      lyrics: lyricsResponse.data.lyrics || "",
+    };
+    return result;
+  } catch (error) {
+    console.error(error.message);
+    return {
+      creador: "Sareth",
+      status: "error",
+      message: new Error(error).message,
+    };
+  }
+}

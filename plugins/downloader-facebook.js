@@ -1,1 +1,96 @@
-const a0_0x11b6d5=a0_0x398e;(function(_0x4ad9a6,_0x1765ef){const _0x4ae930=a0_0x398e,_0xe6924a=_0x4ad9a6();while(!![]){try{const _0x2a9dff=parseInt(_0x4ae930(0x153))/0x1+parseInt(_0x4ae930(0x132))/0x2+-parseInt(_0x4ae930(0x134))/0x3+-parseInt(_0x4ae930(0x136))/0x4+-parseInt(_0x4ae930(0x12e))/0x5+parseInt(_0x4ae930(0x126))/0x6+parseInt(_0x4ae930(0x141))/0x7;if(_0x2a9dff===_0x1765ef)break;else _0xe6924a['push'](_0xe6924a['shift']());}catch(_0xb613d){_0xe6924a['push'](_0xe6924a['shift']());}}}(a0_0x5314,0xce557));import{igdl}from'ruhend-scraper';async function showProgress(_0x3675fc,_0x5d9871,_0x54782b,_0x2b9dd9=0x9){const _0x6e48a6=a0_0x398e,_0x324a79=['🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙'],_0xbc7d21=[_0x6e48a6(0x143),_0x6e48a6(0x13c),_0x6e48a6(0x13f),_0x6e48a6(0x147),_0x6e48a6(0x14c),'▰▰▰▰▰▰▱▱▱\x20𝟔𝟬%','▰▰▰▰▰▰▰▱▱\x20𝟕𝟬%',_0x6e48a6(0x12d),_0x6e48a6(0x14a),_0x6e48a6(0x135)];for(let _0x2deb68=0x0;_0x2deb68<=_0x2b9dd9;_0x2deb68++){await new Promise(_0x397377=>setTimeout(_0x397377,0x5dc));const _0x145b09='\x0a'+_0x324a79[_0x2deb68%_0x324a79['length']]+'\x20'+_0xbc7d21[_0x2deb68];await _0x3675fc['sendMessage'](_0x5d9871[_0x6e48a6(0x142)],{'text':_0x6e48a6(0x133)+_0x145b09+_0x6e48a6(0x13b),'edit':_0x54782b[_0x6e48a6(0x149)],'mentions':_0x3675fc[_0x6e48a6(0x123)](_0x5d9871['sender'])});}}const handler=async(_0x3e8754,{text:_0x22f0f5,conn:_0x256ec2,args:_0x4069cf,usedPrefix:_0x5acafe,command:_0x1925df})=>{const _0x4a8513=a0_0x398e;try{if(!_0x4069cf[0x0]){await _0x256ec2[_0x4a8513(0x130)](_0x3e8754['chat'],{'text':_0x4a8513(0x13e),'mentions':_0x256ec2['parseMention'](_0x3e8754[_0x4a8513(0x13d)])},{'quoted':_0x3e8754});return;}if(!/https?:\/\/(www\.)?(facebook|fb)\.com\/.*/i[_0x4a8513(0x139)](_0x4069cf[0x0])){await _0x256ec2[_0x4a8513(0x130)](_0x3e8754[_0x4a8513(0x142)],{'text':'╔══════✦❘༻༺❘✦══════╗\x0a🔗\x20*𝙀𝙣𝙡𝙖𝙘𝙚\x20𝙞𝙣𝙫𝙖́𝙡𝙞𝙙𝙤:*\x20¡𝙎𝙤𝙡𝙤\x20𝙨𝙚\x20𝙖𝙘𝙚𝙥𝙩𝙖𝙣\x20𝙚𝙣𝙡𝙖𝙘𝙚𝙨\x20𝙙𝙚\x20𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠!\x0a╚══════✦❘༻༺❘✦══════╝','mentions':_0x256ec2['parseMention'](_0x3e8754['sender'])},{'quoted':_0x3e8754});return;}await _0x3e8754['react']('⏳');const _0x57d744=Date[_0x4a8513(0x14e)](),_0x177d09=await _0x256ec2[_0x4a8513(0x130)](_0x3e8754[_0x4a8513(0x142)],{'text':_0x4a8513(0x146),'mentions':_0x256ec2[_0x4a8513(0x123)](_0x3e8754[_0x4a8513(0x13d)])},{'quoted':_0x3e8754}),_0x176cf4=await igdl(_0x4069cf[0x0]);if(!_0x176cf4?.[_0x4a8513(0x12c)]?.[_0x4a8513(0x150)])throw new Error(_0x4a8513(0x124));const _0x583fc1=['720p\x20(HD)',_0x4a8513(0x14b),'360p\x20(SD)','HD','SD'],_0x550760=_0x583fc1[_0x4a8513(0x140)](_0x22c871=>_0x176cf4[_0x4a8513(0x12c)][_0x4a8513(0x144)](_0x1437ca=>_0x1437ca[_0x4a8513(0x129)][_0x4a8513(0x128)](_0x22c871)))['find'](Boolean);if(!_0x550760?.[_0x4a8513(0x127)])throw new Error(_0x4a8513(0x152));await showProgress(_0x256ec2,_0x3e8754,_0x177d09),await _0x256ec2[_0x4a8513(0x130)](_0x3e8754[_0x4a8513(0x142)],{'delete':_0x177d09['key']}),await _0x256ec2[_0x4a8513(0x130)](_0x3e8754[_0x4a8513(0x142)],{'video':{'url':_0x550760[_0x4a8513(0x127)]},'caption':'╔══════✦❘༻༺❘✦══════╗\x0a☠️\x20*¡𝗘𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻\x20𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗮𝗱𝗮!*\x0a✅\x20*𝘝𝘪́𝘥𝘦𝘰\x20𝘦𝘹𝘵𝘳𝘢𝘪́𝘥𝘰\x20𝘤𝘰𝘯\x20𝘦́𝘹𝘪𝘵𝘰*\x0a⏱️\x20*𝘛𝘪𝘦𝘮𝘱𝘰:*\x20'+((Date[_0x4a8513(0x14e)]()-_0x57d744)/0x3e8)[_0x4a8513(0x148)](0x1)+_0x4a8513(0x138)+_0x550760[_0x4a8513(0x129)]+_0x4a8513(0x137)+_0x550760[_0x4a8513(0x12f)]+_0x4a8513(0x13b),'fileName':_0x4a8513(0x12a),'mentions':_0x256ec2[_0x4a8513(0x123)](_0x3e8754[_0x4a8513(0x13d)])}),await _0x3e8754['react']('✅');}catch(_0x581938){console[_0x4a8513(0x125)](_0x4a8513(0x14d),_0x581938),await _0x256ec2['sendMessage'](_0x3e8754[_0x4a8513(0x142)],{'text':_0x4a8513(0x131)+(_0x581938['message']||'Ocurrió\x20un\x20error\x20inesperado')+_0x4a8513(0x13b),'mentions':_0x256ec2[_0x4a8513(0x123)](_0x3e8754[_0x4a8513(0x13d)])},{'quoted':_0x3e8754}),await _0x3e8754['react']('❌');}};function a0_0x5314(){const _0x5148e4=['▰▱▱▱▱▱▱▱▱\x20𝟏𝟎%','find','help','╔══════✦❘༻༺❘✦══════╗\x0a🖤\x20*𝗜𝗻𝗶𝗰𝗶𝗮𝗻𝗱𝗼\x20𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\x0a▱▱▱▱▱▱▱▱▱\x20𝟎%\x0a╚══════✦❘༻༺❘✦══════╝','▰▰▰▰▱▱▱▱▱\x20𝟒𝟬%','toFixed','key','▰▰▰▰▰▰▰▰▰\x20𝟗𝟬%','480p\x20(SD)','▰▰▰▰▰▱▱▱▱\x20𝟓𝟬%','Error:','now','downloader','length','tags','No\x20se\x20encontró\x20versión\x20descargable','1559229uaTRCY','parseMention','No\x20se\x20encontró\x20contenido','error','7182090Vijrls','url','includes','resolution','facebook_video.mp4','group','data','▰▰▰▰▰▰▰▰▱\x20𝟖𝟬%','871065zJYorf','size','sendMessage','╔══════✦❘༻༺❘✦══════╗\x0a❌\x20*Error:*\x20','356552BjmuYK','╔══════✦❘༻༺❘✦══════╗\x0a📥\x20*𝗣𝗿𝗼𝗴𝗿𝗲𝘀𝗼\x20𝗱𝗲\x20𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\x0a','3621891FTatia','▰▰▰▰▰▰▰▰▰\x20𝟏𝟬𝟬%','3638728NODmTD','\x20|\x20🔽\x20*𝘛𝘢𝘮𝘢𝘯̃𝘰:*\x20','𝘴\x0a📹\x20*𝘙𝘦𝘴𝘰𝘭𝘶𝘤𝘪𝘰́𝘯:*\x20','test','command','\x0a╚══════✦❘༻༺❘✦══════╝','▰▰▱▱▱▱▱▱▱\x20𝟐𝟬%','sender','╔══════✦❘༻༺❘✦══════╗\x0a🚫\x20*𝙀𝙧𝙧𝙤𝙧:*\x20¡𝙊𝙡𝙫𝙞𝙙𝙖𝙨𝙩𝙚\x20𝙚𝙡\x20𝙚𝙣𝙡𝙖𝙘𝙚!\x0a╚══════✦❘༻༺❘✦══════╝','▰▰▰▱▱▱▱▱▱\x20𝟑𝟬%','map','1412705LEFBYS','chat'];a0_0x5314=function(){return _0x5148e4;};return a0_0x5314();}function a0_0x398e(_0x5bdde9,_0x3adcd2){const _0x531400=a0_0x5314();return a0_0x398e=function(_0x398e0b,_0x2f77a1){_0x398e0b=_0x398e0b-0x123;let _0x42735f=_0x531400[_0x398e0b];return _0x42735f;},a0_0x398e(_0x5bdde9,_0x3adcd2);}handler[a0_0x11b6d5(0x145)]=['fb'],handler[a0_0x11b6d5(0x151)]=[a0_0x11b6d5(0x14f)],handler[a0_0x11b6d5(0x13a)]=/^(fb|facebook)$/i,handler[a0_0x11b6d5(0x12b)]=!![];export default handler;
+import { igdl } from 'ruhend-scraper';
+
+// Creado por SinNombre - 5629885039
+
+async function showProgress(conn, m, msg, totalSteps = 9) {
+    const clockAnimation = ['🕐', '🕑', '🕒', '🕓', '🕔', '🕕', '🕖', '🕗', '🕘', '🕙'];
+    const progress = [
+        "▰▱▱▱▱▱▱▱▱ 𝟏𝟎%",
+        "▰▰▱▱▱▱▱▱▱ 𝟐𝟬%",
+        "▰▰▰▱▱▱▱▱▱ 𝟑𝟬%",
+        "▰▰▰▰▱▱▱▱▱ 𝟒𝟬%",
+        "▰▰▰▰▰▱▱▱▱ 𝟓𝟬%",
+        "▰▰▰▰▰▰▱▱▱ 𝟔𝟬%",
+        "▰▰▰▰▰▰▰▱▱ 𝟕𝟬%",
+        "▰▰▰▰▰▰▰▰▱ 𝟖𝟬%",
+        "▰▰▰▰▰▰▰▰▰ 𝟗𝟬%",
+        "▰▰▰▰▰▰▰▰▰ 𝟏𝟬𝟬%"
+    ];
+
+    for (let i = 0; i <= totalSteps; i++) {  
+        await new Promise(resolve => setTimeout(resolve, 1500));  
+        const frame = `\n${clockAnimation[i % clockAnimation.length]} ${progress[i]}`;  
+
+        await conn.sendMessage(m.chat, {  
+            text: `╔══════✦❘༻༺❘✦══════╗\n📥 *𝗣𝗿𝗼𝗴𝗿𝗲𝘀𝗼 𝗱𝗲 𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\n${frame}\n╚══════✦❘༻༺❘✦══════╝`,  
+            edit: msg.key,  
+            mentions: conn.parseMention(m.sender)  
+        });  
+    }
+}
+
+const handler = async (m, { text, conn, args, usedPrefix, command }) => {
+    try {
+        if (!args[0]) {
+            await conn.sendMessage(m.chat, {
+                text: `╔══════✦❘༻༺❘✦══════╗\n🚫 *𝙀𝙧𝙧𝙤𝙧:* ¡𝙊𝙡𝙫𝙞𝙙𝙖𝙨𝙩𝙚 𝙚𝙡 𝙚𝙣𝙡𝙖𝙘𝙚!\n╚══════✦❘༻༺❘✦══════╝`,
+                mentions: conn.parseMention(m.sender)
+            }, { quoted: m });
+            return;
+        }
+
+        if (!/https?:\/\/(www\.)?(facebook|fb)\.com\/.*/i.test(args[0])) {  
+            await conn.sendMessage(m.chat, {  
+                text: `╔══════✦❘༻༺❘✦══════╗\n🔗 *𝙀𝙣𝙡𝙖𝙘𝙚 𝙞𝙣𝙫𝙖́𝙡𝙞𝙙𝙤:* ¡𝙎𝙤𝙡𝙤 𝙨𝙚 𝙖𝙘𝙚𝙥𝙩𝙖𝙣 𝙚𝙣𝙡𝙖𝙘𝙚𝙨 𝙙𝙚 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠!\n╚══════✦❘༻༺❘✦══════╝`,  
+                mentions: conn.parseMention(m.sender)  
+            }, { quoted: m });  
+            return;  
+        }  
+
+        await m.react('⏳');  
+        const startTime = Date.now();  
+
+        const msg = await conn.sendMessage(m.chat, {  
+            text: `╔══════✦❘༻༺❘✦══════╗\n🖤 *𝗜𝗻𝗶𝗰𝗶𝗮𝗻𝗱𝗼 𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\n▱▱▱▱▱▱▱▱▱ 𝟎%\n╚══════✦❘༻༺❘✦══════╝`,
+            mentions: conn.parseMention(m.sender)  
+        }, { quoted: m });  
+
+        const res = await igdl(args[0]);  
+        if (!res?.data?.length) throw new Error('No se encontró contenido');  
+
+        const resolutions = ['720p (HD)', '480p (SD)', '360p (SD)', 'HD', 'SD'];  
+        const data = resolutions.map(r => res.data.find(i => i.resolution.includes(r))).find(Boolean);  
+
+        if (!data?.url) throw new Error('No se encontró versión descargable');  
+
+        await showProgress(conn, m, msg);  
+
+        // 🔥 **Se elimina el mensaje de progreso antes de enviar el video**
+        await conn.sendMessage(m.chat, { delete: msg.key });
+
+        // 📩 **Se envía el video con el cuadro final**
+        await conn.sendMessage(m.chat, {  
+            video: { url: data.url },  
+            caption: `╔══════✦❘༻༺❘✦══════╗\n☠️ *¡𝗘𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗮𝗱𝗮!*\n✅ *𝘝𝘪́𝘥𝘦𝘰 𝘦𝘹𝘵𝘳𝘢𝘪́𝘥𝘰 𝘤𝘰𝘯 𝘦́𝘹𝘪𝘵𝘰*\n⏱️ *𝘛𝘪𝘦𝘮𝘱𝘰:* ${((Date.now() - startTime)/1000).toFixed(1)}𝘴\n📹 *𝘙𝘦𝘴𝘰𝘭𝘶𝘤𝘪𝘰́𝘯:* ${data.resolution} | 🔽 *𝘛𝘢𝘮𝘢𝘯̃𝘰:* ${data.size}\n╚══════✦❘༻༺❘✦══════╝`,  
+            fileName: 'facebook_video.mp4',  
+            mentions: conn.parseMention(m.sender)  
+        });  
+
+        await m.react('✅');  
+
+    } catch (error) {  
+        console.error('Error:', error);  
+        await conn.sendMessage(m.chat, {  
+            text: `╔══════✦❘༻༺❘✦══════╗\n❌ *Error:* ${error.message || 'Ocurrió un error inesperado'}\n╚══════✦❘༻༺❘✦══════╝`,  
+            mentions: conn.parseMention(m.sender)  
+        }, { quoted: m });  
+        await m.react('❌');  
+    }
+};
+
+handler.help = ['fb'];
+handler.tags = ['downloader'];
+handler.command = /^(fb|facebook)$/i;
+handler.group = true;
+
+export default handler;

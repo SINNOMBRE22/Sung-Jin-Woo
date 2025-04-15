@@ -1,1 +1,19 @@
-const a0_0x4b9d2c=a0_0x1df0;(function(_0x2785e8,_0x137ec6){const _0x2e3048=a0_0x1df0,_0x4bd83d=_0x2785e8();while(!![]){try{const _0x3fbb24=parseInt(_0x2e3048(0x81))/0x1+-parseInt(_0x2e3048(0x77))/0x2*(parseInt(_0x2e3048(0x6c))/0x3)+-parseInt(_0x2e3048(0x74))/0x4+-parseInt(_0x2e3048(0x6f))/0x5+-parseInt(_0x2e3048(0x79))/0x6+parseInt(_0x2e3048(0x72))/0x7+parseInt(_0x2e3048(0x7c))/0x8;if(_0x3fbb24===_0x137ec6)break;else _0x4bd83d['push'](_0x4bd83d['shift']());}catch(_0xa04377){_0x4bd83d['push'](_0x4bd83d['shift']());}}}(a0_0x338b,0x377b4));function a0_0x338b(){const _0x597bc8=['2272195FLUHEp','afkReason','reply','2516556MkMyRm','tags','92972JtvWKF','plugins','getName','3962nnhExu','readFileSync','1762782RSnWYr','users','texto1','4517256gTdXZm','afk_afk','sender','help','main','175597uVnKhV','data','153joUZLW','./language/','parse'];a0_0x338b=function(){return _0x597bc8;};return a0_0x338b();}const handler=async(_0x148b55,{text:_0x272e83})=>{const _0x3f6346=a0_0x1df0,_0x1ac7cb=global,_0x3502de=_0x1ac7cb['db'][_0x3f6346(0x6b)][_0x3f6346(0x7a)][_0x148b55['sender']]['language'],_0x59ae0d=JSON[_0x3f6346(0x6e)](fs[_0x3f6346(0x78)](_0x3f6346(0x6d)+_0x3502de+'.json')),_0x23e550=_0x59ae0d[_0x3f6346(0x75)][_0x3f6346(0x7d)],_0x5c816e=global['db'][_0x3f6346(0x6b)]['users'][_0x148b55[_0x3f6346(0x7e)]];_0x5c816e['afk']=+new Date(),_0x5c816e[_0x3f6346(0x70)]=_0x272e83,_0x148b55[_0x3f6346(0x71)](_0x23e550[_0x3f6346(0x7b)][0x0]+'\x20'+conn[_0x3f6346(0x76)](_0x148b55[_0x3f6346(0x7e)])+'\x20'+_0x23e550['texto1'][0x1]+'\x20'+(_0x272e83?':\x20'+_0x272e83:'')+'*\x0a');};handler[a0_0x4b9d2c(0x7f)]=['afk\x20[mensaje]'],handler[a0_0x4b9d2c(0x73)]=[a0_0x4b9d2c(0x80)],handler['command']=/^afk$/i;function a0_0x1df0(_0x27dbc7,_0x3aaab9){const _0x338b8b=a0_0x338b();return a0_0x1df0=function(_0x1df0f5,_0x51bf94){_0x1df0f5=_0x1df0f5-0x6b;let _0x3d6905=_0x338b8b[_0x1df0f5];return _0x3d6905;},a0_0x1df0(_0x27dbc7,_0x3aaab9);}export default handler;
+
+
+
+const handler = async (m, {text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.afk_afk
+
+  const user = global.db.data.users[m.sender];
+  user.afk = + new Date;
+  user.afkReason = text;
+  m.reply(`${tradutor.texto1[0]} ${conn.getName(m.sender)} ${tradutor.texto1[1]} ${text ? ': ' + text : ''}*
+`);
+};
+handler.help = ['afk [mensaje]'];
+handler.tags = ['main'];
+handler.command = /^afk$/i;
+export default handler;

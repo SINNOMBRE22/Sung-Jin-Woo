@@ -1,1 +1,22 @@
-const a0_0x207951=a0_0x28b7;(function(_0x52b4ef,_0x310c37){const _0x3897ff=a0_0x28b7,_0xdcb43e=_0x52b4ef();while(!![]){try{const _0x2bf8cf=parseInt(_0x3897ff(0xec))/0x1+parseInt(_0x3897ff(0x103))/0x2*(parseInt(_0x3897ff(0xe9))/0x3)+-parseInt(_0x3897ff(0x101))/0x4*(parseInt(_0x3897ff(0xfe))/0x5)+parseInt(_0x3897ff(0xfc))/0x6+parseInt(_0x3897ff(0x104))/0x7+-parseInt(_0x3897ff(0xf6))/0x8*(-parseInt(_0x3897ff(0x102))/0x9)+-parseInt(_0x3897ff(0xf5))/0xa;if(_0x2bf8cf===_0x310c37)break;else _0xdcb43e['push'](_0xdcb43e['shift']());}catch(_0xfef20f){_0xdcb43e['push'](_0xdcb43e['shift']());}}}(a0_0x2d16,0x203c5));function a0_0x28b7(_0xe3ef37,_0x558a95){const _0x2d16a2=a0_0x2d16();return a0_0x28b7=function(_0x28b741,_0x5a9300){_0x28b741=_0x28b741-0xe9;let _0x4d5851=_0x2d16a2[_0x28b741];return _0x4d5851;},a0_0x28b7(_0xe3ef37,_0x558a95);}const handler=async(_0x147287,{conn:_0xd8f695,usedPrefix:_0x5e9a5a,command:_0x30c850})=>{const _0x53d704=a0_0x28b7,_0x595952=global,_0x7217ed=_0x595952['db']['data'][_0x53d704(0xed)][_0x147287[_0x53d704(0xf3)]]['language'],_0x12501a=JSON[_0x53d704(0x105)](fs[_0x53d704(0xf0)](_0x53d704(0xf1)+_0x7217ed+'.json')),_0x23747f=_0x12501a[_0x53d704(0xfa)][_0x53d704(0xfb)];if(!_0x147287[_0x53d704(0xff)])throw'*'+_0x23747f['texto1']+'*';const _0x5e0426=_0x147287[_0x53d704(0xff)]||_0x147287,_0x12db83=(_0x5e0426['msg']||_0x5e0426)[_0x53d704(0x100)]||'';if(!/(mp4)/[_0x53d704(0xee)](_0x12db83))throw'*'+_0x23747f[_0x53d704(0xef)][0x0]+'\x20'+_0x12db83+'\x20'+_0x23747f[_0x53d704(0xef)][0x1]+'*';_0x147287[_0x53d704(0xfd)](global[_0x53d704(0xf8)]);const _0x31eb17=await _0x5e0426['download']();_0xd8f695[_0x53d704(0xf2)](_0x147287[_0x53d704(0xea)],{'video':_0x31eb17,'gifPlayback':!![],'caption':'*'+_0x23747f[_0x53d704(0xf4)]+'*'},{'quoted':_0x147287});};function a0_0x2d16(){const _0x932fa1=['mimetype','580084rkuOAm','12897fxGmsm','16504UnSWCR','265979HwafNo','parse','96GWiYQi','chat','convertidores','125679kCssfJ','users','test','texto2','readFileSync','./language/','sendMessage','sender','texto3','6184170yHJzwG','1264NfktTZ','tags','wait','togifaud','plugins','convertidor_togifaud','1447926rkBUEW','reply','5AbgSOR','quoted'];a0_0x2d16=function(){return _0x932fa1;};return a0_0x2d16();}handler['help']=[a0_0x207951(0xf9)],handler[a0_0x207951(0xf7)]=[a0_0x207951(0xeb)],handler['command']=[a0_0x207951(0xf9)];export default handler;
+/* 𝐂𝐑𝐄𝐀𝐃𝐎 𝐏𝐎𝐑 https://github.com/BrunoSobrino */
+
+
+const handler = async (m, {conn, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.convertidor_togifaud
+
+
+  if (!m.quoted) throw `*${tradutor.texto1}*`;
+  const q = m.quoted || m;
+  const mime = (q.msg || q).mimetype || '';
+  if (!/(mp4)/.test(mime)) throw `*${tradutor.texto2[0]} ${mime} ${tradutor.texto2[1]}*`;
+  m.reply(global.wait);
+  const media = await q.download();
+  conn.sendMessage(m.chat, {video: media, gifPlayback: true, caption: `*${tradutor.texto3}*`}, {quoted: m});
+};
+handler.help = ['togifaud'];
+handler.tags = ['convertidores'];
+handler.command = ['togifaud'];
+export default handler;

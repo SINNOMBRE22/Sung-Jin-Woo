@@ -1,1 +1,62 @@
-const a0_0x14bd6d=a0_0x313f;(function(_0x44bb0c,_0x571376){const _0x10727b=a0_0x313f,_0x288833=_0x44bb0c();while(!![]){try{const _0x47540d=-parseInt(_0x10727b(0xeb))/0x1+parseInt(_0x10727b(0xe6))/0x2+-parseInt(_0x10727b(0x103))/0x3+parseInt(_0x10727b(0xf3))/0x4*(-parseInt(_0x10727b(0xfd))/0x5)+parseInt(_0x10727b(0xfe))/0x6*(-parseInt(_0x10727b(0xf2))/0x7)+parseInt(_0x10727b(0x105))/0x8+parseInt(_0x10727b(0xff))/0x9;if(_0x47540d===_0x571376)break;else _0x288833['push'](_0x288833['shift']());}catch(_0x591c21){_0x288833['push'](_0x288833['shift']());}}}(a0_0x5d09,0x5dd21));let ro=0xa,handler=async(_0x47d849,{conn:_0x2e6d67,usedPrefix:_0x19f648,command:_0x4eaf6e})=>{const _0x2ddaff=a0_0x313f;global['db']['data'][_0x2ddaff(0x106)][_0x47d849[_0x2ddaff(0xe4)]][_0x2ddaff(0xf9)]+=0x1;let _0x4e85e8=global['db'][_0x2ddaff(0xea)]['users'][_0x47d849[_0x2ddaff(0xe4)]][_0x2ddaff(0xed)]+0x44aa200;if(new Date()-global['db'][_0x2ddaff(0xea)][_0x2ddaff(0x106)][_0x47d849[_0x2ddaff(0xe4)]][_0x2ddaff(0xed)]<0x44aa200)throw'*⏱️¡Hey!\x20Espera\x20'+msToTime(_0x4e85e8-new Date())+_0x2ddaff(0x108);let _0x2c826b;_0x47d849[_0x2ddaff(0x101)]?_0x2c826b=_0x47d849[_0x2ddaff(0xf8)][0x0]?_0x47d849['mentionedJid'][0x0]:_0x47d849[_0x2ddaff(0xf5)]?_0x47d849[_0x2ddaff(0xf5)][_0x2ddaff(0xe4)]:![]:_0x2c826b=_0x47d849[_0x2ddaff(0xfc)];if(!_0x2c826b)throw _0x2ddaff(0x102);if(!(_0x2c826b in global['db'][_0x2ddaff(0xea)][_0x2ddaff(0x106)]))throw _0x2ddaff(0xf6);let _0x3b583d=global['db']['data'][_0x2ddaff(0x106)][_0x2c826b],_0x4af95c=Math['floor'](Math[_0x2ddaff(0x107)]()*ro);if(_0x3b583d[_0x2ddaff(0xee)]<_0x4af95c)return _0x47d849[_0x2ddaff(0xe8)]('🐭\x20@'+_0x2c826b[_0x2ddaff(0xfa)]`@`[0x0]+_0x2ddaff(0xe7)+ro+_0x2ddaff(0xe3),null,{'mentions':[_0x2c826b]});global['db'][_0x2ddaff(0xea)][_0x2ddaff(0x106)][_0x47d849[_0x2ddaff(0xe4)]][_0x2ddaff(0xee)]+=_0x4af95c,global['db'][_0x2ddaff(0xea)][_0x2ddaff(0x106)][_0x2c826b]['limit']-=_0x4af95c,global['db']['data']['users'][_0x47d849[_0x2ddaff(0xe4)]][_0x2ddaff(0xed)]=new Date()*0x1,!global['db'][_0x2ddaff(0xea)][_0x2ddaff(0x106)][_0x47d849[_0x2ddaff(0xe4)]]['robodia']?global['db'][_0x2ddaff(0xea)][_0x2ddaff(0x106)][_0x47d849['sender']][_0x2ddaff(0xfb)]=0x1:global['db']['data'][_0x2ddaff(0x106)][_0x47d849[_0x2ddaff(0xe4)]][_0x2ddaff(0xfb)]++,_0x47d849['reply'](_0x2ddaff(0xec)+_0x4af95c+_0x2ddaff(0xf0)+_0x2c826b['split']`@`[0x0]+'*',null,{'mentions':[_0x2c826b]});};handler['help']=[a0_0x14bd6d(0x100)],handler[a0_0x14bd6d(0xe9)]=[a0_0x14bd6d(0xe5)],handler[a0_0x14bd6d(0xf1)]=[a0_0x14bd6d(0x100),a0_0x14bd6d(0xef)],handler[a0_0x14bd6d(0xf4)]=!![],handler['register']=!![];export default handler;function msToTime(_0x2b8517){const _0x1e80d7=a0_0x14bd6d;var _0x4a9a83=parseInt(_0x2b8517%0x3e8/0x64),_0x2dd6aa=Math[_0x1e80d7(0x104)](_0x2b8517/0x3e8%0x3c),_0x9dacbf=Math[_0x1e80d7(0x104)](_0x2b8517/(0x3e8*0x3c)%0x3c),_0x31057a=Math[_0x1e80d7(0x104)](_0x2b8517/(0x3e8*0x3c*0x3c)%0x18);return _0x31057a=_0x31057a<0xa?'0'+_0x31057a:_0x31057a,_0x9dacbf=_0x9dacbf<0xa?'0'+_0x9dacbf:_0x9dacbf,_0x2dd6aa=_0x2dd6aa<0xa?'0'+_0x2dd6aa:_0x2dd6aa,_0x31057a+'\x20Hora(s)\x20'+_0x9dacbf+_0x1e80d7(0xf7);}function a0_0x313f(_0x3e4f0a,_0x22c0ac){const _0x5d09df=a0_0x5d09();return a0_0x313f=function(_0x313fd5,_0x289ef9){_0x313fd5=_0x313fd5-0xe3;let _0x17eb92=_0x5d09df[_0x313fd5];return _0x17eb92;},a0_0x313f(_0x3e4f0a,_0x22c0ac);}function a0_0x5d09(){const _0x152974=['atracar','isGroup','*[❗]\x20Etiqueta\x20a\x20alguien\x20para\x20robar.*','605520GZMGiH','floor','1543560LEIFzT','users','random','\x20para\x20volver\x20a\x20robar*','\x20xp*\x0aNo\x20robes\x20a\x20un\x20pobre\x20v\x22:','sender','econ','442262VTIOUS','\x20tiene\x20menos\x20de\x20*','reply','tags','data','752117gRSXQd','*‣\x20🐭\x20Robaste\x20','lastdiamantes','limit','asaltar','\x20Diamantes\x20a\x20@','command','56lWTOhd','44serugg','group','quoted','*[❗]\x20El\x20usuario\x20no\x20se\x20encuentra\x20en\x20mi\x20base\x20de\x20datos.*','\x20Minuto(s)','mentionedJid','comandos','split','robodia','chat','284935MMrvIc','44448YQSyPm','14492619qZWyPP'];a0_0x5d09=function(){return _0x152974;};return a0_0x5d09();}
+let ro = 10;
+let handler = async (m, { conn, usedPrefix, command }) => {
+global.db.data.users[m.sender].comandos += 1;
+    let time = global.db.data.users[m.sender].lastdiamantes + 72000000;
+    if (new Date() - global.db.data.users[m.sender].lastdiamantes < 72000000) {
+        throw `*⏱️¡Hey! Espera ${msToTime(time - new Date())} para volver a robar*`;
+    }
+
+    let who;
+    if (m.isGroup) {
+        who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
+    } else {
+        who = m.chat;
+    }
+
+    if (!who) {
+        throw `*[❗] Etiqueta a alguien para robar.*`;
+    }
+
+    if (!(who in global.db.data.users)) {
+        throw `*[❗] El usuario no se encuentra en mi base de datos.*`;
+    }
+
+    let users = global.db.data.users[who];
+    let rob = Math.floor(Math.random() * ro);
+
+    if (users.limit < rob) {
+        return m.reply(`🐭 @${who.split`@`[0]} tiene menos de *${ro} xp*\nNo robes a un pobre v":`, null, { mentions: [who] });
+    }
+
+    global.db.data.users[m.sender].limit += rob;
+    global.db.data.users[who].limit -= rob;
+    global.db.data.users[m.sender].lastdiamantes = new Date() * 1;
+
+    if (!global.db.data.users[m.sender].robodia) {
+        global.db.data.users[m.sender].robodia = 1;
+    } else {
+        global.db.data.users[m.sender].robodia++;
+    }
+
+    m.reply(`*‣ 🐭 Robaste ${rob} Diamantes a @${who.split`@`[0]}*`, null, { mentions: [who] });
+	  	 
+};
+
+handler.help = ['atracar'];
+handler.tags = ['econ'];
+handler.command = ['atracar', 'asaltar'];
+handler.group = true
+handler.register = true
+export default handler;
+
+function msToTime(duration) {
+    var milliseconds = parseInt((duration % 1000) / 100),
+        seconds = Math.floor((duration / 1000) % 60),
+        minutes = Math.floor((duration / (1000 * 60)) % 60),
+        hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+    return hours + " Hora(s) " + minutes + " Minuto(s)";
+}
+

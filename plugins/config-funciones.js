@@ -1,1 +1,492 @@
-function a0_0x2117(){const _0x517f8a=['swonly','\x20antispam\x0a','.json','antilink2','\x20audios\x0a','\x20detect2\x0a','command','grouponly','./language/','648AqqUKK','toLowerCase','opts','modoadmin','\x20\x0a\x0a--------------------------------\x0a\x0a','\x20🔗\x20|\x20ANTILINK\x202\x0a','11946edhlya','112qvTxmY','texto6','isGroup','\x20|\x20ANTITOXIC\x0a','detect2','autoread','anticall','users','\x20modohorny\x0a','texto5','texto11','\x0a\x0a--------------------------------\x0a\x0a','\x20detect\x0a','main','\x20antitraba\x0a','plugins','gconly','juegos','\x20|\x20GCONLY\x0a','texto15','*\x20_','texto28','statusonly','rowner','12ckINWr','antispam','\x20antidelete\x0a','\x20pconly\x0a','antiarabes2','group','trim','\x20antiviewonce\x0a','\x20|\x20AUDIOS_BOT\x0a','\x20modoia\x0a','\x20|\x20SIMSIMI\x0a','129401LpQwxG','texto22','\x20|\x20MODEJADIBOT\x0a','delete','help','texto8','pconly','antiArab2','\x20RESTRICT\x0a','chat','\x20autosticker\x20\x0a','enable|disable','antiviewonce','restrict','texto2','texto10','\x20antiarabes2\x0a','\x20|\x20AUTOSTICKER\x0a','config_funciones','texto20','antiArab','texto9','texto26','antiTraba','\x20public\x0a','\x20antilink2\x0a','_desactivada_','antilink','readFileSync','\x20|\x20PCONLY\x0a','309085CSWChR','sender','tags','\x20|\x20ANTITRABAS\x0a','\x20|\x20AUTOREAD\x0a','\x20|\x20ANTIVIEWONCE\x20\x0a','chats','texto4','\x20|\x20ANTIARABES\x0a','1908414XgIUhK','\x20audios_bot\x0a','modohorny','owner','\x20anticall\x0a','\x20|\x20MODOIA\x0a','user','privateonly','antiporno','texto1','audios_bot','texto23','detect','texto12','*_\x0a\x0a*','nyimak','dfail','6438QjrsMu','self','\x20|\x20ANTIDELETE\x0a','\x20|\x20MODOHORNY\x0a','modejadibot','welcome','parse','data','texto27','texto14','settings','\x20|\x20DETECT\x202\x0a','antiarabes','game','texto3','texto7','22rTzNzd','modoia','\x20|\x20MODOADMIN\x0a','\x20simsimi\x0a','antiprivado','texto25','admin','\x20antiprivado\x0a','texto19','_\x20*fue*\x20','antitraba','texto24','jid','autoread2','\x20antilink\x0a','14736072cipFch','ruleta','\x20restrict\x0a','\x20gconly\x0a','\x20\x20|\x20WELCOME\x22\x0a','_bot._','2140120EbDhJv','1895nLOKUk','\x20|\x20ANTISPAM\x0a','antiLink2','texto17','\x20antiarabes\x0a','antiPrivate','\x20|\x20ANTILINK\x0a','texto16','antiLink','\x20|\x20DETECT\x0a','antidelete','sendMessage','texto13','autosticker','texto18','fun'];a0_0x2117=function(){return _0x517f8a;};return a0_0x2117();}const a0_0x16a89b=a0_0x477a;(function(_0x3e8522,_0x3c54cb){const _0x1059c2=a0_0x477a,_0x53d381=_0x3e8522();while(!![]){try{const _0x2e0c01=-parseInt(_0x1059c2(0x198))/0x1*(-parseInt(_0x1059c2(0x18d))/0x2)+parseInt(_0x1059c2(0x174))/0x3*(parseInt(_0x1059c2(0x16e))/0x4)+parseInt(_0x1059c2(0x1f6))/0x5*(parseInt(_0x1059c2(0x1d0))/0x6)+parseInt(_0x1059c2(0x1b6))/0x7*(-parseInt(_0x1059c2(0x175))/0x8)+parseInt(_0x1059c2(0x1bf))/0x9+parseInt(_0x1059c2(0x1f5))/0xa*(parseInt(_0x1059c2(0x1e0))/0xb)+-parseInt(_0x1059c2(0x1ef))/0xc;if(_0x2e0c01===_0x3c54cb)break;else _0x53d381['push'](_0x53d381['shift']());}catch(_0x2f475d){_0x53d381['push'](_0x53d381['shift']());}}}(a0_0x2117,0x97de3));function a0_0x477a(_0x15080f,_0xa57fa4){const _0x2117e0=a0_0x2117();return a0_0x477a=function(_0x477ab2,_0x1d490e){_0x477ab2=_0x477ab2-0x15f;let _0x5a0b5e=_0x2117e0[_0x477ab2];return _0x5a0b5e;},a0_0x477a(_0x15080f,_0xa57fa4);}const handler=async(_0x115ffd,{conn:_0xb813d5,usedPrefix:_0x121241,command:_0x10d204,args:_0x322933,isOwner:_0x15f962,isAdmin:_0x3879f1,isROwner:_0x49f507})=>{const _0x172b17=a0_0x477a,_0x2030d6=global,_0x5e114a=_0x2030d6['db'][_0x172b17(0x1d7)][_0x172b17(0x17c)][_0x115ffd[_0x172b17(0x1b7)]]['language'],_0x15ee73=JSON[_0x172b17(0x1d6)](fs[_0x172b17(0x1b4)](_0x172b17(0x16d)+_0x5e114a+_0x172b17(0x167))),_0x1556ec=_0x15ee73[_0x172b17(0x184)][_0x172b17(0x1aa)],_0x207a5c=('_*'+_0x1556ec[_0x172b17(0x1c8)][0x0]+'*_\x0a\x20\x0a\x0a'+_0x1556ec[_0x172b17(0x1c8)][0x1]+_0x172b17(0x1f3)+_0x1556ec[_0x172b17(0x1c8)][0x2]+'\x20'+(_0x121241+_0x10d204)+'\x20welcome\x0a'+_0x1556ec[_0x172b17(0x1c8)][0x3]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x1a6)][0x0]+'\x20|\x20PUBLIC\x0a'+_0x1556ec[_0x172b17(0x1a6)][0x1]+'*\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1b0)+_0x1556ec[_0x172b17(0x1a6)][0x2]+'\x0a'+_0x1556ec[_0x172b17(0x1a6)][0x3]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x1de)][0x0]+_0x172b17(0x1d3)+_0x1556ec['texto3'][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x17d)+_0x1556ec[_0x172b17(0x1de)][0x2]+_0x172b17(0x180)+_0x1556ec['texto4'][0x0]+_0x172b17(0x1fc)+_0x1556ec[_0x172b17(0x1bd)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1ee)+_0x1556ec['texto4'][0x2]+'\x0a'+_0x1556ec[_0x172b17(0x1bd)][0x3]+'\x0a\x0a--------------------------------\x0a\x0a'+_0x1556ec[_0x172b17(0x17e)][0x0]+_0x172b17(0x173)+_0x1556ec[_0x172b17(0x17e)][0x1]+'\x20\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1b1)+_0x1556ec[_0x172b17(0x17e)][0x2]+'\x0a'+_0x1556ec[_0x172b17(0x17e)][0x3]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x176)][0x0]+_0x172b17(0x1ff)+_0x1556ec[_0x172b17(0x176)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x181)+_0x1556ec[_0x172b17(0x176)][0x2]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x1df)][0x0]+_0x172b17(0x1db)+_0x1556ec[_0x172b17(0x1df)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x16a)+_0x1556ec['texto7'][0x2]+'\x0a\x0a--------------------------------\x0a\x0a'+_0x1556ec[_0x172b17(0x19d)][0x0]+_0x172b17(0x1a0)+_0x1556ec[_0x172b17(0x19d)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1f1)+_0x1556ec[_0x172b17(0x19d)][0x2]+'\x0a'+_0x1556ec['texto8'][0x3]+'\x0a--------------------------------\x0a\x0a'+_0x1556ec['texto9'][0x0]+_0x172b17(0x1ba)+_0x1556ec[_0x172b17(0x1ad)][0x1]+'\x20'+(_0x121241+_0x10d204)+'\x20autoread\x0a'+_0x1556ec[_0x172b17(0x1ad)][0x2]+'\x0a'+_0x1556ec[_0x172b17(0x1ad)][0x3]+_0x172b17(0x180)+_0x1556ec['texto10'][0x0]+'\x20|\x20AUDIOS\x0a'+_0x1556ec['texto10'][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x169)+_0x1556ec[_0x172b17(0x1a7)][0x2]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x17f)][0x0]+_0x172b17(0x1a9)+_0x1556ec['texto11'][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1a2)+_0x1556ec[_0x172b17(0x17f)][0x2]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x1cc)][0x0]+_0x172b17(0x1b5)+_0x1556ec['texto12'][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x190)+_0x1556ec['texto12'][0x2]+'\x0a'+_0x1556ec[_0x172b17(0x1cc)][0x3]+_0x172b17(0x180)+_0x1556ec['texto13'][0x0]+_0x172b17(0x187)+_0x1556ec[_0x172b17(0x161)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1f2)+_0x1556ec[_0x172b17(0x161)][0x2]+'\x20\x0a'+_0x1556ec[_0x172b17(0x161)][0x3]+_0x172b17(0x180)+_0x1556ec['texto14'][0x0]+_0x172b17(0x1bb)+_0x1556ec[_0x172b17(0x1d9)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x194)+_0x1556ec[_0x172b17(0x1d9)][0x2]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x188)][0x0]+'\x20|\x20ANTILLAMADAS\x0a'+_0x1556ec[_0x172b17(0x188)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1c3)+_0x1556ec[_0x172b17(0x188)][0x2]+'\x20\x0a'+_0x1556ec[_0x172b17(0x188)][0x3]+_0x172b17(0x180)+_0x1556ec['texto16'][0x0]+_0x172b17(0x178)+_0x1556ec[_0x172b17(0x1fd)][0x1]+'\x20'+(_0x121241+_0x10d204)+'\x20antitoxic\x0a'+_0x1556ec[_0x172b17(0x1fd)][0x2]+'\x0a'+_0x1556ec['texto16'][0x3]+_0x172b17(0x180)+_0x1556ec['texto17'][0x0]+_0x172b17(0x1b9)+_0x1556ec[_0x172b17(0x1f9)][0x1]+'\x20\x20'+(_0x121241+_0x10d204)+_0x172b17(0x183)+_0x1556ec[_0x172b17(0x1f9)][0x2]+'\x20\x0a'+_0x1556ec[_0x172b17(0x1f9)][0x3]+_0x172b17(0x172)+_0x1556ec[_0x172b17(0x163)][0x0]+_0x172b17(0x1be)+_0x1556ec[_0x172b17(0x163)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1fa)+_0x1556ec['texto18'][0x2]+'\x0a'+_0x1556ec[_0x172b17(0x163)][0x3]+_0x172b17(0x180)+_0x1556ec['texto19'][0x0]+'\x20|\x20ANTIARABES\x202\x0a'+_0x1556ec[_0x172b17(0x1e8)][0x1]+'\x20\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1a8)+_0x1556ec['texto19'][0x2]+'\x20\x0a'+_0x1556ec[_0x172b17(0x1e8)][0x3]+'\x20\x0a\x0a--------------------------------\x0a\x0a'+_0x1556ec[_0x172b17(0x1ab)][0x0]+_0x172b17(0x1e2)+_0x1556ec[_0x172b17(0x1ab)][0x1]+'\x20'+(_0x121241+_0x10d204)+'\x20modoadmin\x0a'+_0x1556ec[_0x172b17(0x1ab)][0x2]+_0x172b17(0x180)+_0x1556ec['texto21'][0x0]+_0x172b17(0x197)+_0x1556ec['texto21'][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1e3)+_0x1556ec['texto21'][0x2]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x199)][0x0]+_0x172b17(0x1d2)+_0x1556ec[_0x172b17(0x199)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x18f)+_0x1556ec[_0x172b17(0x199)][0x2]+'\x0a\x0a--------------------------------\x0a\x0a'+_0x1556ec[_0x172b17(0x1ca)][0x0]+_0x172b17(0x195)+_0x1556ec[_0x172b17(0x1ca)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1c0)+_0x1556ec[_0x172b17(0x1ca)][0x2]+'\x0a'+_0x1556ec[_0x172b17(0x1ca)][0x3]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x1eb)][0x0]+_0x172b17(0x1c4)+_0x1556ec[_0x172b17(0x1eb)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x196)+_0x1556ec[_0x172b17(0x1eb)][0x2]+'\x0a'+_0x1556ec[_0x172b17(0x1eb)][0x3]+'\x0a\x0a--------------------------------\x0a\x0a'+_0x1556ec[_0x172b17(0x1e5)][0x0]+_0x172b17(0x1f7)+_0x1556ec[_0x172b17(0x1e5)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x166)+_0x1556ec[_0x172b17(0x1e5)][0x2]+'\x0a'+_0x1556ec[_0x172b17(0x1e5)][0x3]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x1ae)][0x0]+_0x172b17(0x19a)+_0x1556ec[_0x172b17(0x1ae)][0x1]+'\x20'+(_0x121241+_0x10d204)+'\x20modejadibot\x0a'+_0x1556ec[_0x172b17(0x1ae)][0x2]+'\x20('+_0x121241+'serbot\x20/\x20'+_0x121241+'jadibot).\x20\x0a'+_0x1556ec[_0x172b17(0x1ae)][0x3]+_0x172b17(0x180)+_0x1556ec[_0x172b17(0x1d8)][0x0]+'\x20|\x20ANTIPRIVADO\x0a'+_0x1556ec[_0x172b17(0x1d8)][0x1]+'\x20'+(_0x121241+_0x10d204)+_0x172b17(0x1e7)+_0x1556ec[_0x172b17(0x1d8)][0x2]+'\x0a'+_0x1556ec[_0x172b17(0x1d8)][0x3])[_0x172b17(0x193)](),_0x39057f=/true|enable|(turn)?on|1/i['test'](_0x10d204),_0x4ac840=global['db']['data'][_0x172b17(0x1bc)][_0x115ffd['chat']],_0x52b686=global['db'][_0x172b17(0x1d7)][_0x172b17(0x17c)][_0x115ffd[_0x172b17(0x1b7)]],_0x3417ef=global['db']['data'][_0x172b17(0x1da)][_0xb813d5[_0x172b17(0x1c5)][_0x172b17(0x1ec)]]||{},_0x583030=(_0x322933[0x0]||'')[_0x172b17(0x16f)]();let _0x561b1b=![];const _0x291f7f=![];switch(_0x583030){case'welcome':if(!_0x115ffd['isGroup']){if(!_0x15f962){global[_0x172b17(0x1cf)]('group',_0x115ffd,_0xb813d5);throw![];}}else{if(!(_0x3879f1||_0x15f962||_0x49f507)){global['dfail'](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x1d5)]=_0x39057f;break;case _0x172b17(0x1cb):if(!_0x115ffd[_0x172b17(0x177)]){if(!_0x15f962){global[_0x172b17(0x1cf)](_0x172b17(0x192),_0x115ffd,_0xb813d5);throw![];}}else{if(!_0x3879f1){global[_0x172b17(0x1cf)]('admin',_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x1cb)]=_0x39057f;break;case _0x172b17(0x179):if(!_0x115ffd[_0x172b17(0x177)]){if(!_0x15f962){global[_0x172b17(0x1cf)](_0x172b17(0x192),_0x115ffd,_0xb813d5);throw![];}}else{if(!_0x3879f1){global[_0x172b17(0x1cf)]('admin',_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x179)]=_0x39057f;break;case'simsimi':if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840['simi']=_0x39057f;break;case'antiporno':if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x15f962)){global['dfail'](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x1c7)]=_0x39057f;break;case _0x172b17(0x19b):if(_0x115ffd['isGroup']){if(!(_0x3879f1||_0x15f962)){global[_0x172b17(0x1cf)](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x19b)]=_0x39057f;break;case _0x172b17(0x15f):if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x15f962)){global['dfail'](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x15f)]=_0x39057f;break;case'public':_0x561b1b=!![];if(!_0x49f507){global[_0x172b17(0x1cf)]('rowner',_0x115ffd,_0xb813d5);throw![];}global['opts'][_0x172b17(0x1d1)]=!_0x39057f;break;case _0x172b17(0x1b3):if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x15f962)){global['dfail'](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x1fe)]=_0x39057f;break;case _0x172b17(0x168):if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x15f962)){global[_0x172b17(0x1cf)]('admin',_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x1f8)]=_0x39057f;break;case _0x172b17(0x1a4):if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x15f962)){global[_0x172b17(0x1cf)](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x1a4)]=_0x39057f;break;case _0x172b17(0x1c1):if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)]('admin',_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x1c1)]=_0x39057f;break;case _0x172b17(0x171):if(_0x115ffd['isGroup']){if(!(_0x3879f1||_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x171)]=_0x39057f;break;case _0x172b17(0x162):if(_0x115ffd['isGroup']){if(!(_0x3879f1||_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x162)]=_0x39057f;break;case'audios':if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x49f507||_0x15f962)){global['dfail'](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840['audios']=_0x39057f;break;case _0x172b17(0x1a5):_0x561b1b=!![];if(!(_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)](_0x172b17(0x1c2),_0x115ffd,_0xb813d5);throw![];}_0x3417ef['restrict']=_0x39057f;break;case'audios_bot':_0x561b1b=!![];if(!(_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)](_0x172b17(0x1c2),_0x115ffd,_0xb813d5);throw![];}_0x3417ef[_0x172b17(0x1c9)]=_0x39057f;break;case _0x172b17(0x1e1):_0x561b1b=!![];if(!(_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)]('owner',_0x115ffd,_0xb813d5);throw![];}_0x3417ef['modoia']=_0x39057f;break;case _0x172b17(0x1ce):_0x561b1b=!![];if(!_0x49f507){global[_0x172b17(0x1cf)](_0x172b17(0x18c),_0x115ffd,_0xb813d5);throw![];}global[_0x172b17(0x170)][_0x172b17(0x1ce)]=_0x39057f;break;case _0x172b17(0x17a):_0x561b1b=!![];if(!(_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)]('rowner',_0x115ffd,_0xb813d5);throw![];}_0x3417ef[_0x172b17(0x1ed)]=_0x39057f;break;case _0x172b17(0x19e):case _0x172b17(0x1c6):_0x561b1b=!![];if(!_0x49f507){global[_0x172b17(0x1cf)](_0x172b17(0x18c),_0x115ffd,_0xb813d5);throw![];}global['opts']['pconly']=_0x39057f;break;case _0x172b17(0x185):case _0x172b17(0x16c):_0x561b1b=!![];if(!_0x49f507){global['dfail'](_0x172b17(0x18c),_0x115ffd,_0xb813d5);throw![];}global['opts'][_0x172b17(0x185)]=_0x39057f;break;case _0x172b17(0x165):case _0x172b17(0x18b):_0x561b1b=!![];if(!_0x49f507){global['dfail']('rowner',_0x115ffd,_0xb813d5);throw![];}global[_0x172b17(0x170)][_0x172b17(0x165)]=_0x39057f;break;case _0x172b17(0x17b):_0x561b1b=!![];if(!(_0x49f507||_0x15f962)){global['dfail'](_0x172b17(0x1c2),_0x115ffd,_0xb813d5);throw![];}_0x3417ef['antiCall']=_0x39057f;break;case _0x172b17(0x1e4):_0x561b1b=!![];if(!(_0x49f507||_0x15f962)){global['dfail'](_0x172b17(0x1c2),_0x115ffd,_0xb813d5);throw![];}_0x3417ef[_0x172b17(0x1fb)]=_0x39057f;break;case _0x172b17(0x1d4):_0x561b1b=!![];if(!_0x49f507){global[_0x172b17(0x1cf)](_0x172b17(0x18c),_0x115ffd,_0xb813d5);throw![];}_0x3417ef['modejadibot']=_0x39057f;break;case _0x172b17(0x18e):_0x561b1b=!![];if(!(_0x49f507||_0x15f962)){global['dfail']('owner',_0x115ffd,_0xb813d5);throw![];}_0x3417ef[_0x172b17(0x18e)]=_0x39057f;break;case'antitoxic':if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840['antiToxic']=_0x39057f;break;case _0x172b17(0x1dd):case _0x172b17(0x186):case _0x172b17(0x164):case _0x172b17(0x1f0):if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x15f962)){global['dfail']('admin',_0x115ffd,_0xb813d5);throw![];}}_0x4ac840['game']=_0x39057f;break;case _0x172b17(0x1ea):if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x1af)]=_0x39057f;break;case _0x172b17(0x1dc):if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x49f507||_0x15f962)){global['dfail'](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x1ac)]=_0x39057f;break;case _0x172b17(0x191):if(_0x115ffd[_0x172b17(0x177)]){if(!(_0x3879f1||_0x49f507||_0x15f962)){global[_0x172b17(0x1cf)](_0x172b17(0x1e6),_0x115ffd,_0xb813d5);throw![];}}_0x4ac840[_0x172b17(0x19f)]=_0x39057f;break;default:if(!/[01]/['test'](_0x10d204))return await _0xb813d5[_0x172b17(0x160)](_0x115ffd[_0x172b17(0x1a1)],{'text':_0x207a5c},{'quoted':_0x115ffd});throw![];}_0xb813d5['sendMessage'](_0x115ffd[_0x172b17(0x1a1)],{'text':'_*'+_0x1556ec[_0x172b17(0x18a)][0x0]+_0x172b17(0x1cd)+_0x1556ec['texto28'][0x1]+_0x172b17(0x189)+_0x583030+_0x172b17(0x1e9)+(_0x39057f?'_activada_':_0x172b17(0x1b2))+'\x20*'+_0x1556ec['texto28'][0x2]+'*\x20'+(_0x561b1b?_0x172b17(0x1f4):_0x291f7f?'':'_chat._')},{'quoted':_0x115ffd});};handler[a0_0x16a89b(0x19c)]=[a0_0x16a89b(0x1a3)],handler[a0_0x16a89b(0x1b8)]=[a0_0x16a89b(0x182)],handler[a0_0x16a89b(0x16b)]=/^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;export default handler;
+
+
+const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.config_funciones
+
+
+const optionsFull = `_*${tradutor.texto1[0]}*_\n 
+
+${tradutor.texto1[1]}  | WELCOME"
+${tradutor.texto1[2]} ${usedPrefix + command} welcome
+${tradutor.texto1[3]}
+
+--------------------------------
+
+${tradutor.texto2[0]} | PUBLIC
+${tradutor.texto2[1]}* ${usedPrefix + command} public
+${tradutor.texto2[2]}
+${tradutor.texto2[3]}
+
+--------------------------------
+
+${tradutor.texto3[0]} | MODOHORNY
+${tradutor.texto3[1]} ${usedPrefix + command} modohorny
+${tradutor.texto3[2]}
+
+--------------------------------
+
+${tradutor.texto4[0]} | ANTILINK
+${tradutor.texto4[1]} ${usedPrefix + command} antilink
+${tradutor.texto4[2]}
+${tradutor.texto4[3]}
+
+--------------------------------
+
+${tradutor.texto5[0]} 🔗 | ANTILINK 2
+${tradutor.texto5[1]}  ${usedPrefix + command} antilink2
+${tradutor.texto5[2]}
+${tradutor.texto5[3]}
+
+--------------------------------
+
+${tradutor.texto6[0]} | DETECT
+${tradutor.texto6[1]} ${usedPrefix + command} detect
+${tradutor.texto6[2]}
+
+--------------------------------
+
+${tradutor.texto7[0]} | DETECT 2
+${tradutor.texto7[1]} ${usedPrefix + command} detect2
+${tradutor.texto7[2]}
+
+--------------------------------
+
+${tradutor.texto8[0]} RESTRICT
+${tradutor.texto8[1]} ${usedPrefix + command} restrict
+${tradutor.texto8[2]}
+${tradutor.texto8[3]}
+--------------------------------
+
+${tradutor.texto9[0]} | AUTOREAD
+${tradutor.texto9[1]} ${usedPrefix + command} autoread
+${tradutor.texto9[2]}
+${tradutor.texto9[3]}
+
+--------------------------------
+
+${tradutor.texto10[0]} | AUDIOS
+${tradutor.texto10[1]} ${usedPrefix + command} audios
+${tradutor.texto10[2]}
+
+--------------------------------
+
+${tradutor.texto11[0]} | AUTOSTICKER
+${tradutor.texto11[1]} ${usedPrefix + command} autosticker 
+${tradutor.texto11[2]}
+
+--------------------------------
+
+${tradutor.texto12[0]} | PCONLY
+${tradutor.texto12[1]} ${usedPrefix + command} pconly
+${tradutor.texto12[2]}
+${tradutor.texto12[3]}
+
+--------------------------------
+
+${tradutor.texto13[0]} | GCONLY
+${tradutor.texto13[1]} ${usedPrefix + command} gconly
+${tradutor.texto13[2]} 
+${tradutor.texto13[3]}
+
+--------------------------------
+
+${tradutor.texto14[0]} | ANTIVIEWONCE 
+${tradutor.texto14[1]} ${usedPrefix + command} antiviewonce
+${tradutor.texto14[2]}
+
+--------------------------------
+
+${tradutor.texto15[0]} | ANTILLAMADAS
+${tradutor.texto15[1]} ${usedPrefix + command} anticall
+${tradutor.texto15[2]} 
+${tradutor.texto15[3]}
+
+--------------------------------
+
+${tradutor.texto16[0]} | ANTITOXIC
+${tradutor.texto16[1]} ${usedPrefix + command} antitoxic
+${tradutor.texto16[2]}
+${tradutor.texto16[3]}
+
+--------------------------------
+
+${tradutor.texto17[0]} | ANTITRABAS
+${tradutor.texto17[1]}  ${usedPrefix + command} antitraba
+${tradutor.texto17[2]} 
+${tradutor.texto17[3]} 
+
+--------------------------------
+
+${tradutor.texto18[0]} | ANTIARABES
+${tradutor.texto18[1]} ${usedPrefix + command} antiarabes
+${tradutor.texto18[2]}
+${tradutor.texto18[3]}
+
+--------------------------------
+
+${tradutor.texto19[0]} | ANTIARABES 2
+${tradutor.texto19[1]}  ${usedPrefix + command} antiarabes2
+${tradutor.texto19[2]} 
+${tradutor.texto19[3]} 
+
+--------------------------------
+
+${tradutor.texto20[0]} | MODOADMIN
+${tradutor.texto20[1]} ${usedPrefix + command} modoadmin
+${tradutor.texto20[2]}
+
+--------------------------------
+
+${tradutor.texto21[0]} | SIMSIMI
+${tradutor.texto21[1]} ${usedPrefix + command} simsimi
+${tradutor.texto21[2]}
+
+--------------------------------
+
+${tradutor.texto22[0]} | ANTIDELETE
+${tradutor.texto22[1]} ${usedPrefix + command} antidelete
+${tradutor.texto22[2]}
+
+--------------------------------
+
+${tradutor.texto23[0]} | AUDIOS_BOT
+${tradutor.texto23[1]} ${usedPrefix + command} audios_bot
+${tradutor.texto23[2]}
+${tradutor.texto23[3]}
+
+--------------------------------
+
+${tradutor.texto24[0]} | MODOIA
+${tradutor.texto24[1]} ${usedPrefix + command} modoia
+${tradutor.texto24[2]}
+${tradutor.texto24[3]}
+
+--------------------------------
+
+${tradutor.texto25[0]} | ANTISPAM
+${tradutor.texto25[1]} ${usedPrefix + command} antispam
+${tradutor.texto25[2]}
+${tradutor.texto25[3]}
+
+--------------------------------
+
+${tradutor.texto26[0]} | MODEJADIBOT
+${tradutor.texto26[1]} ${usedPrefix + command} modejadibot
+${tradutor.texto26[2]} (${usedPrefix}serbot / ${usedPrefix}jadibot). 
+${tradutor.texto26[3]}
+
+--------------------------------
+
+${tradutor.texto27[0]} | ANTIPRIVADO
+${tradutor.texto27[1]} ${usedPrefix + command} antiprivado
+${tradutor.texto27[2]}
+${tradutor.texto27[3]}`.trim();
+
+  const isEnable = /true|enable|(turn)?on|1/i.test(command);
+  const chat = global.db.data.chats[m.chat];
+  const user = global.db.data.users[m.sender];
+  const bot = global.db.data.settings[conn.user.jid] || {};
+  const type = (args[0] || '').toLowerCase();
+  let isAll = false; const isUser = false;
+  switch (type) {
+    case 'welcome':
+      if (!m.isGroup) {
+        if (!isOwner) {
+          global.dfail('group', m, conn);
+          throw false;
+        }
+      } else if (!(isAdmin || isOwner || isROwner)) {
+        global.dfail('admin', m, conn);
+        throw false;
+      }
+      chat.welcome = isEnable;
+      break;
+    case 'detect':
+      if (!m.isGroup) {
+        if (!isOwner) {
+          global.dfail('group', m, conn);
+          throw false;
+        }
+      } else if (!isAdmin) {
+        global.dfail('admin', m, conn);
+        throw false;
+      }
+      chat.detect = isEnable;
+      break;
+    case 'detect2':
+      if (!m.isGroup) {
+        if (!isOwner) {
+          global.dfail('group', m, conn);
+          throw false;
+        }
+      } else if (!isAdmin) {
+        global.dfail('admin', m, conn);
+        throw false;
+      }
+      chat.detect2 = isEnable;
+      break;
+    case 'simsimi':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.simi = isEnable;
+      break;
+    case 'antiporno':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.antiporno = isEnable;
+      break;
+    case 'delete':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.delete = isEnable;
+      break;
+    case 'antidelete':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.antidelete = isEnable;
+      break;
+    case 'public':
+      isAll = true;
+      if (!isROwner) {
+        global.dfail('rowner', m, conn);
+        throw false;
+      }
+      global.opts['self'] = !isEnable;
+      break;
+    case 'antilink':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.antiLink = isEnable;
+      break;
+    case 'antilink2':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.antiLink2 = isEnable;
+      break;
+    case 'antiviewonce':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.antiviewonce = isEnable;
+      break;
+    case 'modohorny':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.modohorny = isEnable;
+      break;
+    case 'modoadmin':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.modoadmin = isEnable;
+      break;
+    case 'autosticker':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.autosticker = isEnable;
+      break;
+    case 'audios':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.audios = isEnable;
+      break;
+    case 'restrict':
+      isAll = true;
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
+        throw false;
+      }
+      bot.restrict = isEnable;
+      break;
+    case 'audios_bot':
+      isAll = true;
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
+        throw false;
+      }
+      bot.audios_bot = isEnable;      
+      break;
+    case 'modoia':
+      isAll = true;
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
+        throw false;
+      }
+      bot.modoia = isEnable;      
+      break;      
+    case 'nyimak':
+      isAll = true;
+      if (!isROwner) {
+        global.dfail('rowner', m, conn);
+        throw false;
+      }
+      global.opts['nyimak'] = isEnable;
+      break;
+    case 'autoread':
+      isAll = true;
+      if (!(isROwner || isOwner)) {
+        global.dfail('rowner', m, conn);
+        throw false;
+      }
+      bot.autoread2 = isEnable;
+      //global.opts['autoread'] = isEnable;
+      break;
+    case 'pconly':
+    case 'privateonly':
+      isAll = true;
+      if (!isROwner) {
+        global.dfail('rowner', m, conn);
+        throw false;
+      }
+      global.opts['pconly'] = isEnable;
+      break;
+    case 'gconly':
+    case 'grouponly':
+      isAll = true;
+      if (!isROwner) {
+        global.dfail('rowner', m, conn);
+        throw false;
+      }
+      global.opts['gconly'] = isEnable;
+      break;
+    case 'swonly':
+    case 'statusonly':
+      isAll = true;
+      if (!isROwner) {
+        global.dfail('rowner', m, conn);
+        throw false;
+      }
+      global.opts['swonly'] = isEnable;
+      break;
+    case 'anticall':
+      isAll = true;
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
+        throw false;
+      }
+      bot.antiCall = isEnable;
+      break;
+    case 'antiprivado':
+      isAll = true;
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
+        throw false;
+      }
+      bot.antiPrivate = isEnable;
+      break;
+    case 'modejadibot':
+      isAll = true;
+      if (!isROwner) {
+        global.dfail('rowner', m, conn);
+        throw false;
+      }
+      bot.modejadibot = isEnable;
+      break;
+    case 'antispam':
+      isAll = true;
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
+        throw false;
+      }
+      bot.antispam = isEnable;
+      break;
+    case 'antitoxic':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.antiToxic = isEnable;
+      break;
+      case 'game': case 'juegos': case 'fun': case 'ruleta':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.game = isEnable          
+break;
+    case 'antitraba':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.antiTraba = isEnable;
+      break;
+    case 'antiarabes':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn); 
+          throw false;
+        }
+      }
+      chat.antiArab = isEnable;
+      break;
+    case 'antiarabes2':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
+      }
+      chat.antiArab2 = isEnable;
+      break;
+    default:
+      if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
+      throw false;
+  }
+  conn.sendMessage(m.chat, {text: `_*${tradutor.texto28[0]}*_\n\n*${tradutor.texto28[1]}* _${type}_ *fue* ${isEnable ? '_activada_' : '_desactivada_'} *${tradutor.texto28[2]}* ${isAll ? '_bot._' : isUser ? '' : '_chat._'}`}, {quoted: m});
+  //conn.sendMessage(m.chat, {text: `▢ *Opción:* ${type}\n\n▢ *Estado:* ${isEnable ? 'Activado' : 'Desactivado'}\n\n▢ *Para* ${isAll ? 'este bot' : isUser ? '' : 'este chat'}`}, {quoted: m});
+};
+handler.help = ['enable|disable'];
+handler.tags = ['main'];
+handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;
+export default handler;

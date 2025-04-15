@@ -1,1 +1,43 @@
-function a0_0x27d8(){const _0x23db3c=['plugins','rating','popularity','4695162CBcnAp','toUpperCase','animeinfo','761852BKShOT','parse','background','20Szmgfc','search','status','help','command','630324quSBBw','718472XKtePT','synopsis','data','sendFile','users','url','reply','favorites','images','739240IXEMEi','8RIpDvw','9ijZpGk','from','duration','.json','trailer','90122ysEcMQ','language','readFileSync','texto1','text','episodes','2625830kGjXFd','replace','searchAnime','jpg','sender','aired','texto2','texto3','165vKURdI','chat','source','title','buscador_animeinfo','image_url'];a0_0x27d8=function(){return _0x23db3c;};return a0_0x27d8();}const a0_0x213133=a0_0x3064;(function(_0x55398d,_0x4eb025){const _0x1c7047=a0_0x3064,_0x1a5ad2=_0x55398d();while(!![]){try{const _0x36d117=parseInt(_0x1c7047(0x160))/0x1*(parseInt(_0x1c7047(0x176))/0x2)+parseInt(_0x1c7047(0x165))/0x3*(parseInt(_0x1c7047(0x170))/0x4)+-parseInt(_0x1c7047(0x149))/0x5+parseInt(_0x1c7047(0x15a))/0x6+-parseInt(_0x1c7047(0x15d))/0x7+-parseInt(_0x1c7047(0x166))/0x8*(-parseInt(_0x1c7047(0x171))/0x9)+-parseInt(_0x1c7047(0x16f))/0xa*(parseInt(_0x1c7047(0x151))/0xb);if(_0x36d117===_0x4eb025)break;else _0x1a5ad2['push'](_0x1a5ad2['shift']());}catch(_0x45808c){_0x1a5ad2['push'](_0x1a5ad2['shift']());}}}(a0_0x27d8,0x6e15e));function a0_0x3064(_0x37411e,_0x30b7fb){const _0x27d890=a0_0x27d8();return a0_0x3064=function(_0x306421,_0x153ce8){_0x306421=_0x306421-0x145;let _0x9dd181=_0x27d890[_0x306421];return _0x9dd181;},a0_0x3064(_0x37411e,_0x30b7fb);}import a0_0x2f784e from'@vitalets/google-translate-api';import{Anime}from'@shineiichijo/marika';const client=new Anime(),handler=async(_0x23e3e9,{conn:_0x2f9094,text:_0x5b8542,usedPrefix:_0x2ad1c3})=>{const _0x5ce4c0=a0_0x3064,_0x510f0e=global,_0x888c70=_0x510f0e['db'][_0x5ce4c0(0x168)][_0x5ce4c0(0x16a)][_0x23e3e9[_0x5ce4c0(0x14d)]][_0x5ce4c0(0x177)],_0x400d12=JSON[_0x5ce4c0(0x15e)](fs[_0x5ce4c0(0x145)]('./language/'+_0x888c70+_0x5ce4c0(0x174))),_0xc898d1=_0x400d12[_0x5ce4c0(0x157)][_0x5ce4c0(0x155)];if(!_0x5b8542)return _0x23e3e9[_0x5ce4c0(0x16c)]('*'+_0xc898d1[_0x5ce4c0(0x146)]+'*');try{const _0x15eb2e=await client[_0x5ce4c0(0x14b)](_0x5b8542),_0x58d75f=_0x15eb2e[_0x5ce4c0(0x168)][0x0],_0x21595c=await a0_0x2f784e(''+_0x58d75f[_0x5ce4c0(0x15f)],{'to':'es','autoCorrect':!![]}),_0x3af171=await a0_0x2f784e(''+_0x58d75f[_0x5ce4c0(0x167)],{'to':'es','autoCorrect':!![]}),_0x5524d5='\x0a'+_0xc898d1['texto2'][0x0]+'\x20'+_0x58d75f[_0x5ce4c0(0x154)]+'\x0a'+_0xc898d1['texto2'][0x1]+'*\x20'+_0x58d75f['type']+'\x0a'+_0xc898d1[_0x5ce4c0(0x14f)][0x2]+'\x20'+_0x58d75f[_0x5ce4c0(0x162)][_0x5ce4c0(0x15b)]()[_0x5ce4c0(0x14a)](/\_/g,'\x20')+'\x0a'+_0xc898d1[_0x5ce4c0(0x14f)][0x3]+'\x20'+_0x58d75f[_0x5ce4c0(0x148)]+'\x0a'+_0xc898d1['texto2'][0x4]+'\x20'+_0x58d75f[_0x5ce4c0(0x173)]+'*\x0a'+_0xc898d1['texto2'][0x5]+'\x20'+_0x58d75f[_0x5ce4c0(0x153)][_0x5ce4c0(0x15b)]()+'\x0a'+_0xc898d1[_0x5ce4c0(0x14f)][0x6]+'\x20'+_0x58d75f[_0x5ce4c0(0x14e)][_0x5ce4c0(0x172)]+'\x0a'+_0xc898d1[_0x5ce4c0(0x14f)][0x7]+'\x20'+_0x58d75f[_0x5ce4c0(0x14e)]['to']+'\x0a'+_0xc898d1[_0x5ce4c0(0x14f)][0x8]+'\x20'+_0x58d75f[_0x5ce4c0(0x159)]+'\x0a'+_0xc898d1[_0x5ce4c0(0x14f)][0x9]+'\x20'+_0x58d75f[_0x5ce4c0(0x16d)]+'\x0a'+_0xc898d1[_0x5ce4c0(0x14f)][0xa]+'\x20'+_0x58d75f[_0x5ce4c0(0x158)]+'\x0a'+_0xc898d1[_0x5ce4c0(0x14f)][0xb]+'\x20'+_0x58d75f['rank']+'\x0a'+_0xc898d1[_0x5ce4c0(0x14f)][0xc]+'\x20'+_0x58d75f[_0x5ce4c0(0x175)][_0x5ce4c0(0x16b)]+'\x0a'+_0xc898d1['texto2'][0xd]+'\x20'+_0x58d75f[_0x5ce4c0(0x16b)]+'\x0a'+_0xc898d1['texto2'][0xe]+'\x20'+_0x21595c[_0x5ce4c0(0x147)]+'\x0a'+_0xc898d1[_0x5ce4c0(0x14f)][0xf]+'\x20'+_0x3af171[_0x5ce4c0(0x147)];_0x2f9094[_0x5ce4c0(0x169)](_0x23e3e9[_0x5ce4c0(0x152)],_0x58d75f[_0x5ce4c0(0x16e)][_0x5ce4c0(0x14c)][_0x5ce4c0(0x156)],'error.jpg',_0x5524d5,_0x23e3e9);}catch{throw''+_0xc898d1[_0x5ce4c0(0x150)];}};handler[a0_0x213133(0x163)]=[a0_0x213133(0x15c)],handler['tags']=[a0_0x213133(0x161)],handler[a0_0x213133(0x164)]=/^(anime|animeinfo)$/i;export default handler;
+import translate from '@vitalets/google-translate-api';
+import {Anime} from '@shineiichijo/marika';
+
+
+const client = new Anime();
+const handler = async (m, {conn, text, usedPrefix}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.buscador_animeinfo
+
+  if (!text) return m.reply(`*${tradutor.texto1}*`);
+  try {
+    const anime = await client.searchAnime(text);
+    const result = anime.data[0];
+    const resultes = await translate(`${result.background}`, {to: 'es', autoCorrect: true});
+    const resultes2 = await translate(`${result.synopsis}`, {to: 'es', autoCorrect: true});
+    const AnimeInfo = `
+${tradutor.texto2[0]} ${result.title}
+${tradutor.texto2[1]}* ${result.type}
+${tradutor.texto2[2]} ${result.status.toUpperCase().replace(/\_/g, ' ')}
+${tradutor.texto2[3]} ${result.episodes}
+${tradutor.texto2[4]} ${result.duration}*
+${tradutor.texto2[5]} ${result.source.toUpperCase()}
+${tradutor.texto2[6]} ${result.aired.from}
+${tradutor.texto2[7]} ${result.aired.to}
+${tradutor.texto2[8]} ${result.popularity}
+${tradutor.texto2[9]} ${result.favorites}
+${tradutor.texto2[10]} ${result.rating}
+${tradutor.texto2[11]} ${result.rank}
+${tradutor.texto2[12]} ${result.trailer.url}
+${tradutor.texto2[13]} ${result.url}
+${tradutor.texto2[14]} ${resultes.text}
+${tradutor.texto2[15]} ${resultes2.text}`;
+    conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, m);
+  } catch {
+    throw `${tradutor.texto3}`;
+  }
+};
+handler.help = ['animeinfo'];
+handler.tags = ['search'];
+handler.command = /^(anime|animeinfo)$/i;
+export default handler;

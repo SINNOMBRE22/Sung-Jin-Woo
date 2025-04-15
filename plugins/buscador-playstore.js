@@ -1,1 +1,36 @@
-const a0_0x20387a=a0_0x4b80;(function(_0x14caa6,_0x1e2c94){const _0x3089bf=a0_0x4b80,_0x45eb65=_0x14caa6();while(!![]){try{const _0x24d087=-parseInt(_0x3089bf(0x170))/0x1+parseInt(_0x3089bf(0x174))/0x2+parseInt(_0x3089bf(0x169))/0x3*(parseInt(_0x3089bf(0x16d))/0x4)+-parseInt(_0x3089bf(0x166))/0x5+parseInt(_0x3089bf(0x15f))/0x6*(parseInt(_0x3089bf(0x14e))/0x7)+-parseInt(_0x3089bf(0x16c))/0x8+parseInt(_0x3089bf(0x154))/0x9;if(_0x24d087===_0x1e2c94)break;else _0x45eb65['push'](_0x45eb65['shift']());}catch(_0x5b23cb){_0x45eb65['push'](_0x45eb65['shift']());}}}(a0_0x2983,0xdf7e3));import a0_0x50a424 from'google-play-scraper';let handler=async(_0x2f236f,{conn:_0x4d2c08,text:_0x27b95e})=>{const _0x3a0a1e=a0_0x4b80,_0x103472=global,_0x315c84=_0x103472['db'][_0x3a0a1e(0x167)][_0x3a0a1e(0x14f)][_0x2f236f[_0x3a0a1e(0x153)]][_0x3a0a1e(0x159)],_0x1cca26=JSON['parse'](fs[_0x3a0a1e(0x158)](_0x3a0a1e(0x155)+_0x315c84+_0x3a0a1e(0x157))),_0x1e7f0e=_0x1cca26[_0x3a0a1e(0x15e)][_0x3a0a1e(0x173)];if(!_0x27b95e)throw'*'+_0x1e7f0e[_0x3a0a1e(0x162)]+'*';let _0x5faa35=await a0_0x50a424[_0x3a0a1e(0x15b)]({'term':_0x27b95e});if(!_0x5faa35[_0x3a0a1e(0x163)])throw'*'+_0x1e7f0e['texto2']+'*';let _0x1d5d90={'contextInfo':{'externalAdReply':{'title':_0x5faa35[0x0][_0x3a0a1e(0x15a)],'body':_0x5faa35[0x0][_0x3a0a1e(0x172)],'thumbnail':(await _0x4d2c08[_0x3a0a1e(0x165)](_0x5faa35[0x0][_0x3a0a1e(0x15d)]))[_0x3a0a1e(0x167)],'sourceUrl':_0x5faa35[0x0][_0x3a0a1e(0x15c)]}}};await console[_0x3a0a1e(0x150)](_0x5faa35),_0x5faa35=_0x5faa35[_0x3a0a1e(0x16f)](_0x4e3823=>_0x1e7f0e[_0x3a0a1e(0x168)][0x0]+'\x20'+_0x4e3823['title']+_0x3a0a1e(0x164)+_0x1e7f0e['texto3'][0x1]+'\x20'+_0x4e3823[_0x3a0a1e(0x171)]+'\x0a\x20\x20\x20\x20\x20\x20'+_0x1e7f0e[_0x3a0a1e(0x168)][0x2]+'\x20'+_0x4e3823[_0x3a0a1e(0x152)]+_0x3a0a1e(0x164)+_0x1e7f0e[_0x3a0a1e(0x168)][0x3]+'\x20'+_0x4e3823[_0x3a0a1e(0x16a)]+_0x3a0a1e(0x164)+_0x1e7f0e['texto3'][0x4]+_0x4e3823[_0x3a0a1e(0x15c)])[_0x3a0a1e(0x156)]`\n\n`,_0x2f236f[_0x3a0a1e(0x16b)](_0x5faa35,null,_0x1d5d90);};function a0_0x4b80(_0x29e8e0,_0x33b477){const _0x2983d2=a0_0x2983();return a0_0x4b80=function(_0x4b80f2,_0x52262d){_0x4b80f2=_0x4b80f2-0x14e;let _0x3ccf31=_0x2983d2[_0x4b80f2];return _0x3ccf31;},a0_0x4b80(_0x29e8e0,_0x33b477);}function a0_0x2983(){const _0x1d40e4=['\x0a\x20\x20\x20\x20\x20\x20','getFile','5838840OKkAFc','data','texto3','3bOIvbl','scoreText','reply','8403696epKUaS','6918156MbbfZQ','playstore\x20<aplicacion>','map','1313688AbwynZ','developer','summary','buscador_playstore','3471648GEhtaV','119VZomuO','users','log','tags','priceText','sender','5554917EqhSPa','./language/','join','.json','readFileSync','language','title','search','url','icon','plugins','128742AAUHbF','help','command','texto1','length'];a0_0x2983=function(){return _0x1d40e4;};return a0_0x2983();}handler[a0_0x20387a(0x160)]=[a0_0x20387a(0x16e)],handler[a0_0x20387a(0x151)]=[a0_0x20387a(0x15b)],handler[a0_0x20387a(0x161)]=/^(playstore)$/i;export default handler;
+import gplay from "google-play-scraper";
+
+let handler = async (m, { conn, text }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.buscador_playstore
+  
+  if (!text) throw `*${tradutor.texto1}*`;
+  let res = await gplay.search({ term: text });
+  if (!res.length) throw `*${tradutor.texto2}*`;
+  let opt = {
+    contextInfo: {
+      externalAdReply: {
+        title: res[0].title,
+        body: res[0].summary,
+        thumbnail: (await conn.getFile(res[0].icon)).data,
+        sourceUrl: res[0].url,
+      },
+    },
+  };
+  await console.log(res);
+  res = res.map(
+    (v) =>
+      `${tradutor.texto3[0]} ${v.title}
+      ${tradutor.texto3[1]} ${v.developer}
+      ${tradutor.texto3[2]} ${v.priceText}
+      ${tradutor.texto3[3]} ${v.scoreText}
+      ${tradutor.texto3[4]}${v.url}`
+  ).join`\n\n`;
+  m.reply(res, null, opt);
+};
+handler.help = ['playstore <aplicacion>'];
+handler.tags = ['search'];
+handler.command = /^(playstore)$/i;
+export default handler;

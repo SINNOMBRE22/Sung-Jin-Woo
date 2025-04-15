@@ -1,1 +1,87 @@
-const a0_0x419541=a0_0xe7c4;function a0_0x495d(){const _0x2b68c5=['help','36thWGPx','455094BFDons','6952iqAdju','10003aeXSaQ','\x20\x0a*','parse','\x20\x0a\x0a','random','texto7','readFileSync','floor','sender','game_slot','tags','83338AkPzjg','command','🕊️','slot','texto2','game','318004nsLsiK','texto3','5515335cwQCSb','.json','./language/','exp','2272413hnHWrS','\x20m\x20','\x20:\x20','10ftGTgs','2978820zgxvPK','texto4','texto8','\x20𝚇𝙿*','data','lastslot','reply','trim','texto1','users','texto6','texto5','\x0a────────\x0a🎰\x20|\x20','slot\x20<apuesta>','2cPazyJ','length'];a0_0x495d=function(){return _0x2b68c5;};return a0_0x495d();}(function(_0x1c9b66,_0x356e6e){const _0x26ba24=a0_0xe7c4,_0x5ad3c6=_0x1c9b66();while(!![]){try{const _0x211285=parseInt(_0x26ba24(0x126))/0x1*(-parseInt(_0x26ba24(0x144))/0x2)+parseInt(_0x26ba24(0x147))/0x3*(-parseInt(_0x26ba24(0x12c))/0x4)+parseInt(_0x26ba24(0x12e))/0x5+-parseInt(_0x26ba24(0x136))/0x6+parseInt(_0x26ba24(0x11b))/0x7*(parseInt(_0x26ba24(0x11a))/0x8)+-parseInt(_0x26ba24(0x148))/0x9*(-parseInt(_0x26ba24(0x135))/0xa)+-parseInt(_0x26ba24(0x132))/0xb;if(_0x211285===_0x356e6e)break;else _0x5ad3c6['push'](_0x5ad3c6['shift']());}catch(_0x13d0ee){_0x5ad3c6['push'](_0x5ad3c6['shift']());}}}(a0_0x495d,0x9feb7));const handler=async(_0x3591c6,{args:_0x467bc3,usedPrefix:_0x3f13f1,command:_0x2e1830})=>{const _0x4b88ec=a0_0xe7c4,_0x1b1b4d=global,_0x2a559c=_0x1b1b4d['db'][_0x4b88ec(0x13a)][_0x4b88ec(0x13f)][_0x3591c6['sender']]['language'],_0x44b7fa=JSON[_0x4b88ec(0x11d)](fs[_0x4b88ec(0x121)](_0x4b88ec(0x130)+_0x2a559c+_0x4b88ec(0x12f))),_0x44f029=_0x44b7fa['plugins'][_0x4b88ec(0x124)],_0x2b3b50=('\x0a'+_0x44f029[_0x4b88ec(0x13e)]+_0x4b88ec(0x11e)+_0x44f029[_0x4b88ec(0x12a)]+_0x4b88ec(0x11c)+(_0x3f13f1+_0x2e1830)+'\x20100*')[_0x4b88ec(0x13d)]();if(!_0x467bc3[0x0])throw _0x2b3b50;if(isNaN(_0x467bc3[0x0]))throw _0x2b3b50;const _0x3083cc=parseInt(_0x467bc3[0x0]),_0x2753aa=global['db']['data'][_0x4b88ec(0x13f)][_0x3591c6[_0x4b88ec(0x123)]],_0x83f152=_0x2753aa[_0x4b88ec(0x13b)]+0x2710;if(new Date()-_0x2753aa['lastslot']<0x2710)throw _0x44f029[_0x4b88ec(0x12d)][0x0]+'\x20'+msToTime(_0x83f152-new Date())+'\x20'+_0x44f029['texto3'][0x1];if(_0x3083cc<0x64)throw _0x44f029[_0x4b88ec(0x137)];if(_0x2753aa[_0x4b88ec(0x131)]<_0x3083cc)throw _0x44f029[_0x4b88ec(0x141)];const _0x3a8358=['🐋','🐉',_0x4b88ec(0x128)];let _0x467471=Math[_0x4b88ec(0x122)](Math[_0x4b88ec(0x11f)]()*_0x3a8358[_0x4b88ec(0x145)]),_0x196585=Math[_0x4b88ec(0x122)](Math[_0x4b88ec(0x11f)]()*_0x3a8358['length']),_0xbf59d3=Math[_0x4b88ec(0x122)](Math['random']()*_0x3a8358[_0x4b88ec(0x145)]);const _0x38a82d=[],_0x4276e2=[],_0x2dba88=[];for(let _0x54b2ae=0x0;_0x54b2ae<0x3;_0x54b2ae++){_0x38a82d[_0x54b2ae]=_0x3a8358[_0x467471],_0x467471++;if(_0x467471==_0x3a8358[_0x4b88ec(0x145)])_0x467471=0x0;}for(let _0x38b11a=0x0;_0x38b11a<0x3;_0x38b11a++){_0x4276e2[_0x38b11a]=_0x3a8358[_0x196585],_0x196585++;if(_0x196585==_0x3a8358['length'])_0x196585=0x0;}for(let _0xf18feb=0x0;_0xf18feb<0x3;_0xf18feb++){_0x2dba88[_0xf18feb]=_0x3a8358[_0xbf59d3],_0xbf59d3++;if(_0xbf59d3==_0x3a8358['length'])_0xbf59d3=0x0;}let _0x43a73a;if(_0x467471==_0x196585&&_0x196585==_0xbf59d3)_0x43a73a=_0x44f029[_0x4b88ec(0x140)]+'\x20+'+(_0x3083cc+_0x3083cc)+_0x4b88ec(0x139),_0x2753aa['exp']+=_0x3083cc;else _0x467471==_0x196585||_0x467471==_0xbf59d3||_0x196585==_0xbf59d3?(_0x43a73a=''+_0x44f029[_0x4b88ec(0x120)],_0x2753aa[_0x4b88ec(0x131)]+=0xa):(_0x43a73a=_0x44f029[_0x4b88ec(0x138)]+'\x20-'+_0x3083cc+'\x20𝚇𝙿*',_0x2753aa[_0x4b88ec(0x131)]-=_0x3083cc);return _0x2753aa['lastslot']=new Date()*0x1,await _0x3591c6[_0x4b88ec(0x13c)]('\x0a🎰\x20|\x20*SLOTS*\x20\x0a────────\x0a'+_0x38a82d[0x0]+'\x20:\x20'+_0x4276e2[0x0]+'\x20:\x20'+_0x2dba88[0x0]+'\x0a'+_0x38a82d[0x1]+'\x20:\x20'+_0x4276e2[0x1]+_0x4b88ec(0x134)+_0x2dba88[0x1]+'\x0a'+_0x38a82d[0x2]+'\x20:\x20'+_0x4276e2[0x2]+_0x4b88ec(0x134)+_0x2dba88[0x2]+_0x4b88ec(0x142)+_0x43a73a);};handler[a0_0x419541(0x146)]=[a0_0x419541(0x143)],handler[a0_0x419541(0x125)]=[a0_0x419541(0x12b)],handler[a0_0x419541(0x127)]=[a0_0x419541(0x129)];function a0_0xe7c4(_0x1c93c2,_0x265a40){const _0x495d46=a0_0x495d();return a0_0xe7c4=function(_0xe7c45e,_0x8c6ba6){_0xe7c45e=_0xe7c45e-0x11a;let _0x16646a=_0x495d46[_0xe7c45e];return _0x16646a;},a0_0xe7c4(_0x1c93c2,_0x265a40);}export default handler;function msToTime(_0x2c5f74){const _0x537788=a0_0x419541,_0x53b4d0=parseInt(_0x2c5f74%0x3e8/0x64);let _0x32ec5e=Math[_0x537788(0x122)](_0x2c5f74/0x3e8%0x3c),_0x17739b=Math['floor'](_0x2c5f74/(0x3e8*0x3c)%0x3c),_0x4f2227=Math['floor'](_0x2c5f74/(0x3e8*0x3c*0x3c)%0x18);return _0x4f2227=_0x4f2227<0xa?'0'+_0x4f2227:_0x4f2227,_0x17739b=_0x17739b<0xa?'0'+_0x17739b:_0x17739b,_0x32ec5e=_0x32ec5e<0xa?'0'+_0x32ec5e:_0x32ec5e,_0x17739b+_0x537788(0x133)+_0x32ec5e+'\x20s\x20';}
+/* CREDITOS A https://github.com/FG98F */
+
+
+
+const handler = async (m, {args, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.game_slot
+
+  const fa = `
+${tradutor.texto1} 
+
+${tradutor.texto2} 
+*${usedPrefix + command} 100*`.trim();
+  if (!args[0]) throw fa;
+  if (isNaN(args[0])) throw fa;
+  const apuesta = parseInt(args[0]);
+  const users = global.db.data.users[m.sender];
+  const time = users.lastslot + 10000;
+  if (new Date - users.lastslot < 10000) throw `${tradutor.texto3[0]} ${msToTime(time - new Date())} ${tradutor.texto3[1]}`;
+  if (apuesta < 100) throw tradutor.texto4;
+  if (users.exp < apuesta) {
+    throw tradutor.texto5;
+  }
+  const emojis = ['🐋', '🐉', '🕊️'];
+  let a = Math.floor(Math.random() * emojis.length);
+  let b = Math.floor(Math.random() * emojis.length);
+  let c = Math.floor(Math.random() * emojis.length);
+  const x = [];
+  const y = [];
+  const z = [];
+  for (let i = 0; i < 3; i++) {
+    x[i] = emojis[a];
+    a++;
+    if (a == emojis.length) a = 0;
+  }
+  for (let i = 0; i < 3; i++) {
+    y[i] = emojis[b];
+    b++;
+    if (b == emojis.length) b = 0;
+  }
+  for (let i = 0; i < 3; i++) {
+    z[i] = emojis[c];
+    c++;
+    if (c == emojis.length) c = 0;
+  }
+  let end;
+  if (a == b && b == c) {
+    end = `${tradutor.texto6} +${apuesta + apuesta} 𝚇𝙿*`;
+    users.exp += apuesta;
+  } else if (a == b || a == c || b == c) {
+    end = `${tradutor.texto7}`;
+    users.exp += 10;
+  } else {
+    end = `${tradutor.texto8} -${apuesta} 𝚇𝙿*`;
+    users.exp -= apuesta;
+  }
+  users.lastslot = new Date * 1;
+  return await m.reply(
+      `
+🎰 | *SLOTS* 
+────────
+${x[0]} : ${y[0]} : ${z[0]}
+${x[1]} : ${y[1]} : ${z[1]}
+${x[2]} : ${y[2]} : ${z[2]}
+────────
+🎰 | ${end}`);
+};
+handler.help = ['slot <apuesta>'];
+handler.tags = ['game'];
+handler.command = ['slot'];
+export default handler;
+
+function msToTime(duration) {
+  const milliseconds = parseInt((duration % 1000) / 100);
+  let seconds = Math.floor((duration / 1000) % 60);
+  let minutes = Math.floor((duration / (1000 * 60)) % 60);
+  let hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+
+  hours = (hours < 10) ? '0' + hours : hours;
+  minutes = (minutes < 10) ? '0' + minutes : minutes;
+  seconds = (seconds < 10) ? '0' + seconds : seconds;
+
+  return minutes + ' m ' + seconds + ' s ';
+}
+

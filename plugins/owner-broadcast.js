@@ -1,1 +1,86 @@
-const a0_0x1777f5=a0_0x491f;function a0_0x491f(_0x4aa32d,_0x1cd525){const _0x4c5c76=a0_0x4c5c();return a0_0x491f=function(_0x491f92,_0x376ea7){_0x491f92=_0x491f92-0x9d;let _0x2d34ad=_0x4c5c76[_0x491f92];return _0x2d34ad;},a0_0x491f(_0x4aa32d,_0x1cd525);}(function(_0x2b4b76,_0x42b8f8){const _0x7e6449=a0_0x491f,_0x20d669=_0x2b4b76();while(!![]){try{const _0x321e94=-parseInt(_0x7e6449(0xcb))/0x1*(-parseInt(_0x7e6449(0xac))/0x2)+parseInt(_0x7e6449(0xb3))/0x3*(-parseInt(_0x7e6449(0x9f))/0x4)+parseInt(_0x7e6449(0xae))/0x5+-parseInt(_0x7e6449(0xcd))/0x6+-parseInt(_0x7e6449(0xbf))/0x7+parseInt(_0x7e6449(0xc0))/0x8+parseInt(_0x7e6449(0xa7))/0x9;if(_0x321e94===_0x42b8f8)break;else _0x20d669['push'](_0x20d669['shift']());}catch(_0x1ed9b2){_0x20d669['push'](_0x20d669['shift']());}}}(a0_0x4c5c,0x6e95e));import{randomBytes}from'crypto';const handler=async(_0x36f66e,{conn:_0x208353,command:_0x10742c,participants:_0x597242,usedPrefix:_0x3ee033,text:_0x3d832c})=>{const _0x24f9d1=a0_0x491f,_0x2d4cfe=global,_0x429dc3=_0x2d4cfe['db'][_0x24f9d1(0xd1)]['users'][_0x36f66e[_0x24f9d1(0xa5)]]['language'],_0x2f64ff=JSON[_0x24f9d1(0xc5)](fs['readFileSync'](_0x24f9d1(0xaf)+_0x429dc3+'.json')),_0x43d4ff=_0x2f64ff[_0x24f9d1(0xb9)][_0x24f9d1(0xca)];if(!_0x3d832c)return _0x43d4ff['texto1'];const _0x5eac6e={'key':{'participants':_0x24f9d1(0xc7),'remoteJid':_0x24f9d1(0xad),'fromMe':![],'id':_0x24f9d1(0xb7)},'message':{'contactMessage':{'vcard':_0x24f9d1(0xb8)+_0x208353['user'][_0x24f9d1(0xc9)]['split']('@')[0x0]+':'+_0x208353[_0x24f9d1(0xd3)][_0x24f9d1(0xc9)]['split']('@')[0x0]+'\x0aitem1.X-ABLabel:Ponsel\x0aEND:VCARD'}},'participant':_0x24f9d1(0xc7)},_0x5ace24=_0x3d832c?_0x36f66e:_0x36f66e[_0x24f9d1(0xbc)]?await _0x36f66e[_0x24f9d1(0xce)]():![]||_0x36f66e,_0x12d3a6=_0x3d832c?_0x3d832c:_0x5ace24[_0x24f9d1(0xd2)],_0x4ced88=Object[_0x24f9d1(0xaa)](await _0x208353[_0x24f9d1(0xbe)]()),_0x5c47b1=Object[_0x24f9d1(0xaa)](global['db'][_0x24f9d1(0xd1)][_0x24f9d1(0xcc)])[_0x24f9d1(0xa0)](_0xc89a6f=>_0xc89a6f[_0x24f9d1(0xbb)](_0x24f9d1(0xa1)));await _0x208353[_0x24f9d1(0xc2)](_0x36f66e[_0x24f9d1(0xc3)],_0x43d4ff[_0x24f9d1(0xa8)],_0x36f66e);const _0x1a64e3=new Date()[_0x24f9d1(0xb1)](),_0x1e2662=_0x597242['map'](_0x5c2ccf=>_0x208353['decodeJid'](_0x5c2ccf['id']));let _0x308cb6=0x0;for(let _0x3bafcd=0x0;_0x3bafcd<_0x4ced88[_0x24f9d1(0xc8)];_0x3bafcd++){const _0x18951f=_0x4ced88[_0x3bafcd],_0x350fb6=_0x3bafcd*0xfa0;setTimeout(async()=>{await _0x208353['reply'](_0x18951f,_0x43d4ff['texto3'][0x0]+_0x12d3a6,{'mentions':_0x1e2662},{'quoted':_0x5eac6e});},_0x350fb6);}for(const _0x36e2a6 of _0x5c47b1){await new Promise(_0x50ebfe=>setTimeout(_0x50ebfe,0x7d0)),await _0x208353[_0x24f9d1(0xc2)](_0x36e2a6,_0x43d4ff[_0x24f9d1(0xa2)][0x1]+_0x12d3a6,_0x5eac6e,null),_0x308cb6++;if(_0x308cb6>=0x7a120)break;}const _0x220486=new Date()[_0x24f9d1(0xb1)](),_0x5084c6=_0x5c47b1['length'],_0x1d4fae=_0x4ced88[_0x24f9d1(0xc8)],_0x5c9db9=_0x5084c6+_0x1d4fae;let _0x32a8cd=Math[_0x24f9d1(0xba)]((_0x220486-_0x1a64e3)/0x3e8);if(_0x32a8cd>=0x3c){const _0x227c6a=Math[_0x24f9d1(0xba)](_0x32a8cd/0x3c),_0x358965=_0x32a8cd%0x3c;_0x32a8cd=_0x227c6a+'\x20minutos\x20y\x20'+_0x358965+_0x24f9d1(0xc6);}else _0x32a8cd=_0x32a8cd+_0x24f9d1(0xc6);await _0x36f66e['reply'](_0x43d4ff[_0x24f9d1(0xc1)][0x0]+_0x24f9d1(0xb2)+_0x43d4ff[_0x24f9d1(0xc1)][0x1]+'\x20'+_0x5084c6+_0x24f9d1(0x9d)+_0x43d4ff[_0x24f9d1(0xc1)][0x2]+_0x24f9d1(0xcf)+_0x1d4fae+_0x24f9d1(0x9d)+_0x43d4ff['texto4'][0x3]+_0x24f9d1(0xcf)+_0x5c9db9+_0x24f9d1(0xab)+_0x43d4ff[_0x24f9d1(0xc1)][0x4]+'\x20'+_0x32a8cd+'*\x0a'+(_0x308cb6>=0x7a120?_0x43d4ff[_0x24f9d1(0xc1)][0x5]:''));};function a0_0x4c5c(){const _0x3a6ec9=['\x20segundos','0@s.whatsapp.net','length','jid','owner_broadcast','80alZjtg','users','3298488EDxtWh','getQuotedObj','\x20\x20\x20','repeat','data','text','user','```\x0a```','slice','63748CoNEQT','filter','@s.whatsapp.net','texto3','\x20<teks>','toString','sender','hex','11389554HQXICh','texto2','owner','keys','```\x0a\x0a','2944nXisHC','status@broadcast','174390EWxarC','./language/','help','getTime','\x0a```','81kWYyzA','map','ceil','tags','Halo','BEGIN:VCARD\x0aVERSION:3.0\x0aN:Sy;Bot;;;\x0aFN:y\x0aitem1.TEL;waid=','plugins','floor','endsWith','quoted','broadcast','groupFetchAllParticipating','6145209KmEchw','7141984JmDQZQ','texto4','reply','chat','command','parse'];a0_0x4c5c=function(){return _0x3a6ec9;};return a0_0x4c5c();}handler[a0_0x1777f5(0xb0)]=[a0_0x1777f5(0xbd),'bc'][a0_0x1777f5(0xb4)](_0x258f2c=>_0x258f2c+a0_0x1777f5(0xa3)),handler[a0_0x1777f5(0xb6)]=[a0_0x1777f5(0xa9)],handler[a0_0x1777f5(0xc4)]=/^(comunicar|comunicado|broadcastall|bc)$/i,handler[a0_0x1777f5(0xa9)]=!![];export default handler;const delay=_0xac42e7=>new Promise(_0x17c48e=>setTimeout(_0x17c48e,_0xac42e7)),more=String['fromCharCode'](0x200e),readMore=more[a0_0x1777f5(0xd0)](0xfa1),randomID=_0x358d25=>randomBytes(Math[a0_0x1777f5(0xb5)](_0x358d25*0.5))[a0_0x1777f5(0xa4)](a0_0x1777f5(0xa6))[a0_0x1777f5(0x9e)](0x0,_0x358d25);
+// codigo adaptado por: https://github.com/GataNina-Li & https://github.com/elrebelde21
+
+import {randomBytes} from 'crypto';
+
+
+const handler = async (m, {conn, command, participants, usedPrefix, text}) => {
+  const datas = global
+    const idioma = datas.db.data.users[m.sender].language
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const tradutor = _translate.plugins.owner_broadcast
+
+  if (!text) return tradutor.texto1;
+  const fkontak = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${conn.user.jid.split('@')[0]}:${conn.user.jid.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
+  const cc4 = text ? m : m.quoted ? await m.getQuotedObj() : false || m;
+  const teks4 = text ? text : cc4.text;
+  const groups2 = Object.keys(await conn.groupFetchAllParticipating());
+  const chats2 = Object.keys(global.db.data.users).filter((user) => user.endsWith('@s.whatsapp.net'));
+  await conn.reply(m.chat, tradutor.texto2, m);
+  const start2 = new Date().getTime();
+  const usersTag2 = participants.map((u) => conn.decodeJid(u.id));
+  let totalPri2 = 0;
+  for (let i = 0; i < groups2.length; i++) {
+    const group = groups2[i];
+    const delay = i * 4000; // 4 seg
+    setTimeout(async () => {
+      await conn.reply(group, tradutor.texto3[0] + teks4, {mentions: usersTag2}, {quoted: fkontak});
+    }, delay);
+  }
+  for (const user of chats2) {
+    await new Promise((resolve) => setTimeout(resolve, 2000)); // 2 segundos
+    await conn.reply(user, tradutor.texto3[1] + teks4, fkontak, null);
+    totalPri2++;
+    if (totalPri2 >= 500000) {
+      break;
+    }
+  }
+  const end2 = new Date().getTime();
+  const totalPrivate2 = chats2.length;
+  const totalGroups2 = groups2.length;
+  const total2 = totalPrivate2 + totalGroups2;
+  let time2 = Math.floor((end2 - start2) / 1000);
+  if (time2 >= 60) {
+    const minutes = Math.floor(time2 / 60);
+    const seconds = time2 % 60;
+    time2 = `${minutes} minutos y ${seconds} segundos`;
+  } else {
+    time2 = `${time2} segundos`;
+  }
+  await m.reply(`${tradutor.texto4[0]}
+\`\`\`${tradutor.texto4[1]} ${totalPrivate2}\`\`\`
+\`\`\`${tradutor.texto4[2]}   ${totalGroups2}\`\`\`
+\`\`\`${tradutor.texto4[3]}   ${total2}\`\`\`\n\n${tradutor.texto4[4]} ${time2}*\n${totalPri2 >= 500000 ? tradutor.texto4[5] : ''}`);
+};
+handler.help = ['broadcast', 'bc'].map((v) => v + ' <teks>');
+handler.tags = ['owner'];
+handler.command = /^(comunicar|comunicado|broadcastall|bc)$/i;
+
+handler.owner = true;
+
+export default handler;
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const more = String.fromCharCode(8206);
+const readMore = more.repeat(4001);
+
+const randomID = (length) => randomBytes(Math.ceil(length * .5)).toString('hex').slice(0, length);
+
+/* import fs from 'fs'
+let handler = async (m, { conn, text } ) => {
+let chatsall = Object.entries(conn.chats).filter(([_, chat]) => chat.isChats).map(v => v[0])
+let cc = text ? m : m.quoted ? await m.getQuotedObj() : false || m
+let teks = text ? text : cc.text
+for (let id of chatsall) { conn.sendButton(id, `*╔══❰ 𝐂𝐎𝐌𝐔𝐍𝐈𝐂𝐀𝐃𝐎 ❱══╗*\n*║*\n*╠❧* ${text}\n*║*\n*╚══════════════╝*`, '𝙀𝙎𝙏𝙀 𝙀𝙎 𝙐𝙉 𝘾𝙊𝙈𝙐𝙉𝙄𝘾𝘼𝘿𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇\n' + wm, fs.readFileSync('./src/avatar_contact.png'), [['🤖 𝙾𝚆𝙽𝙴𝚁 🤖', '.owner'],['💎 𝙳𝙾𝙽𝙰𝚁 💎', '.donasi']], false, {
+contextInfo: { externalAdReply: {
+title: 'ᴄᴏᴍᴜɴɪᴄᴀᴅᴏ ᴏғɪᴄɪᴀʟ ᴀ ᴛᴏᴅᴏs ʟᴏs ᴄʜᴀᴛs',
+body: 'ʙʏ ᴛʜᴇ ᴍʏsᴛɪᴄ ﹣ ʙᴏᴛ',
+sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`,
+thumbnail: fs.readFileSync('./Menu2.jpg') }}})}
+}
+m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙴𝙽𝚅𝙸𝙰𝙳𝙾 𝙰 𝚃𝙾𝙳𝙾𝚂 𝙻𝙾𝚂 𝙲𝙷𝙰𝚃𝚂*\n\n*𝐍𝐎𝐓𝐀: 𝙴𝚂 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝚀𝚄𝙴 𝚃𝙴𝙽𝙶𝙰 𝙵𝙰𝙻𝙻𝙾𝚂 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚈 𝙽𝙾 𝚂𝙴 𝙴𝙽𝚅𝙸𝙴 𝙰 𝚃𝙾𝙳𝙾𝚂 𝙻𝙾𝚂 𝙲𝙷𝙰𝚃𝚂, 𝙳𝙸𝚂𝙲𝚄𝙻𝙿𝙴 𝙿𝙾𝚁 𝙴𝙻 𝙼𝙾𝙼𝙴𝙽𝚃𝙾*`)
+}
+handler.help = ['broadcast', 'bc'].map(v => v + ' <teks>')
+handler.tags = ['owner']
+handler.command = /^(broadcast|bc)$/i
+handler.rowner = true
+export default handler*/

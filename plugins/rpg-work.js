@@ -1,1 +1,44 @@
-function a0_0x787e(_0x243ca7,_0x573ebc){const _0x31f0af=a0_0x31f0();return a0_0x787e=function(_0x787e65,_0x316c02){_0x787e65=_0x787e65-0x163;let _0x46e32e=_0x31f0af[_0x787e65];return _0x46e32e;},a0_0x787e(_0x243ca7,_0x573ebc);}const a0_0x475721=a0_0x787e;(function(_0x4a5217,_0x1f3fe0){const _0x140733=a0_0x787e,_0x99fc15=_0x4a5217();while(!![]){try{const _0xa51a44=parseInt(_0x140733(0x171))/0x1*(parseInt(_0x140733(0x17a))/0x2)+parseInt(_0x140733(0x168))/0x3*(parseInt(_0x140733(0x184))/0x4)+-parseInt(_0x140733(0x163))/0x5*(-parseInt(_0x140733(0x16f))/0x6)+parseInt(_0x140733(0x176))/0x7+parseInt(_0x140733(0x177))/0x8+-parseInt(_0x140733(0x164))/0x9+-parseInt(_0x140733(0x180))/0xa*(parseInt(_0x140733(0x182))/0xb);if(_0xa51a44===_0x1f3fe0)break;else _0x99fc15['push'](_0x99fc15['shift']());}catch(_0x1eabf5){_0x99fc15['push'](_0x99fc15['shift']());}}}(a0_0x31f0,0xf3dd2));function a0_0x31f0(){const _0x43f63e=['exp','106548FayKCN','floor','⚔️\x20*¡Espera\x20un\x20momento\x20pequeño\x20aventurero!*\x20⚔️\x0a\x0a*—◉\x20Regresa\x20a\x20la\x20travesía\x20en\x20','data','work','7683095yzGLUz','8680592cuudvR','*\x0a\x0a*¡Ganaste\x20','plugins','6TlKeto','sendMessage','texto1','random','econ','.json','20nUjaSH','sender','16216002OYvezy','rpg_work','144700WOFrFO','13535KGeMxg','2512611HuQioA','\x20segundos\x20','🏞️\x20*Te\x20embarcas\x20en\x20una\x20emocionante\x20aventura:*\x0a\x0a🛠️\x20*','\x20exp\x20por\x20tu\x20valentía!*','57GIIeTS','users','command','tags','language','readFileSync','lastwork','2298xjPxNI'];a0_0x31f0=function(){return _0x43f63e;};return a0_0x31f0();}const handler=async(_0x340141,{conn:_0x39d101,isPrems:_0x223efb})=>{const _0x504d4b=a0_0x787e,_0x1a0a9d=global,_0x31a330=_0x1a0a9d['db'][_0x504d4b(0x174)][_0x504d4b(0x169)][_0x340141[_0x504d4b(0x181)]][_0x504d4b(0x16c)],_0x1726a1=JSON['parse'](fs[_0x504d4b(0x16d)]('./language/'+_0x31a330+_0x504d4b(0x17f))),_0x411ac0=_0x1726a1[_0x504d4b(0x179)][_0x504d4b(0x183)];global[_0x504d4b(0x175)]=_0x411ac0[_0x504d4b(0x17c)];let _0x1c4b14;if(_0x1c4b14)return;_0x1c4b14=!![];const _0x1b5023=Math[_0x504d4b(0x172)](Math['random']()*0x7530),_0x1b8e1=global['db']['data'][_0x504d4b(0x169)][_0x340141['sender']][_0x504d4b(0x16e)]+0x927c0;if(new Date()-global['db']['data'][_0x504d4b(0x169)][_0x340141[_0x504d4b(0x181)]][_0x504d4b(0x16e)]<0x927c0)throw _0x504d4b(0x173)+msToTime(_0x1b8e1-new Date())+'\x20⏳*';_0x39d101[_0x504d4b(0x17b)](_0x340141['chat'],{'text':_0x504d4b(0x166)+pickRandom(global[_0x504d4b(0x175)])+_0x504d4b(0x178)+_0x1b5023+_0x504d4b(0x167)},{'quoted':_0x340141}),global['db'][_0x504d4b(0x174)]['users'][_0x340141[_0x504d4b(0x181)]][_0x504d4b(0x170)]+=_0x1b5023,global['db'][_0x504d4b(0x174)][_0x504d4b(0x169)][_0x340141[_0x504d4b(0x181)]][_0x504d4b(0x16e)]=new Date()*0x1,_0x1c4b14=![];};handler['help']=['work'],handler[a0_0x475721(0x16b)]=[a0_0x475721(0x17e)],handler[a0_0x475721(0x16a)]=/^(work|trabajar|chambear)$/i,handler['fail']=null;export default handler;function msToTime(_0xad2754){const _0x4e28b8=a0_0x475721,_0x4dbfe1=parseInt(_0xad2754%0x3e8/0x64);let _0x1bf5de=Math['floor'](_0xad2754/0x3e8%0x3c),_0x48b327=Math['floor'](_0xad2754/(0x3e8*0x3c)%0x3c),_0x439300=Math[_0x4e28b8(0x172)](_0xad2754/(0x3e8*0x3c*0x3c)%0x18);return _0x439300=_0x439300<0xa?'0'+_0x439300:_0x439300,_0x48b327=_0x48b327<0xa?'0'+_0x48b327:_0x48b327,_0x1bf5de=_0x1bf5de<0xa?'0'+_0x1bf5de:_0x1bf5de,_0x48b327+'\x20minutos\x20'+_0x1bf5de+_0x4e28b8(0x165);}function pickRandom(_0x417a24){const _0x1ab563=a0_0x475721;return _0x417a24[Math[_0x1ab563(0x172)](_0x417a24['length']*Math[_0x1ab563(0x17d)]())];}
+
+
+const handler = async (m, { conn, isPrems }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_work
+
+  global.work = tradutor.texto1;
+
+
+  let enviando;
+  if (enviando) return
+  enviando = true
+  const hasil = Math.floor(Math.random() * 30000);
+  const time = global.db.data.users[m.sender].lastwork + 600000;
+  if (new Date - global.db.data.users[m.sender].lastwork < 600000) throw `⚔️ *¡Espera un momento pequeño aventurero!* ⚔️\n\n*—◉ Regresa a la travesía en ${msToTime(time - new Date())} ⏳*`;
+  conn.sendMessage(m.chat, { text: `🏞️ *Te embarcas en una emocionante aventura:*\n\n🛠️ *${pickRandom(global.work)}*\n\n*¡Ganaste ${hasil} exp por tu valentía!*` }, { quoted: m });
+  global.db.data.users[m.sender].exp += hasil;
+  global.db.data.users[m.sender].lastwork = new Date() * 1;
+  enviando = false
+};
+handler.help = ['work'];
+handler.tags = ['econ'];
+handler.command = /^(work|trabajar|chambear)$/i
+handler.fail = null;
+export default handler;
+
+function msToTime(duration) {
+  const milliseconds = parseInt((duration % 1000) / 100);
+  let seconds = Math.floor((duration / 1000) % 60);
+  let minutes = Math.floor((duration / (1000 * 60)) % 60);
+  let hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+  hours = (hours < 10) ? '0' + hours : hours;
+  minutes = (minutes < 10) ? '0' + minutes : minutes;
+  seconds = (seconds < 10) ? '0' + seconds : seconds;
+  return minutes + ' minutos ' + seconds + ' segundos ';
+}
+
+function pickRandom(list) {
+  return list[Math.floor(list.length * Math.random())];
+}
+
+

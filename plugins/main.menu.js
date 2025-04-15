@@ -1,1 +1,122 @@
-const a0_0x1f581a=a0_0x4620;(function(_0x43757b,_0x3e9896){const _0x5f17e0=a0_0x4620,_0x4139dd=_0x43757b();while(!![]){try{const _0x551158=-parseInt(_0x5f17e0(0x128))/0x1+-parseInt(_0x5f17e0(0x134))/0x2*(parseInt(_0x5f17e0(0x123))/0x3)+-parseInt(_0x5f17e0(0x13d))/0x4+parseInt(_0x5f17e0(0x12b))/0x5*(parseInt(_0x5f17e0(0x13f))/0x6)+parseInt(_0x5f17e0(0x124))/0x7*(-parseInt(_0x5f17e0(0x154))/0x8)+parseInt(_0x5f17e0(0x14d))/0x9*(-parseInt(_0x5f17e0(0x155))/0xa)+parseInt(_0x5f17e0(0x126))/0xb*(parseInt(_0x5f17e0(0x138))/0xc);if(_0x551158===_0x3e9896)break;else _0x4139dd['push'](_0x4139dd['shift']());}catch(_0xc34ce5){_0x4139dd['push'](_0x4139dd['shift']());}}}(a0_0x1939,0x21f2a));import{promises}from'fs';import{join}from'path';import{xpRange}from'../lib/levelling.js';let tags={'main':a0_0x1f581a(0x12f),'info':'📜\x20INFO','game':'🎮\x20JUEGOS','downloader':a0_0x1f581a(0x11a),'econ':a0_0x1f581a(0x131),'sticker':a0_0x1f581a(0x157),'audio':'🎧\x20AUDIO','search':a0_0x1f581a(0x130),'convertidores':a0_0x1f581a(0x137),'group':a0_0x1f581a(0x12e),'tools':a0_0x1f581a(0x147),'fun':a0_0x1f581a(0x14b),'database':a0_0x1f581a(0x121),'xp':'⚔️\x20NIVEL','owner':a0_0x1f581a(0x127),'netfree':a0_0x1f581a(0x149)};function a0_0x4620(_0x4ac6b4,_0x237a7d){const _0x19397d=a0_0x1939();return a0_0x4620=function(_0x46203c,_0xaa50a3){_0x46203c=_0x46203c-0x11a;let _0x24dc1a=_0x19397d[_0x46203c];return _0x24dc1a;},a0_0x4620(_0x4ac6b4,_0x237a7d);}const more=String[a0_0x1f581a(0x15b)](0x200e),readMore=more['repeat'](0x1388),defaultMenu={'before':(a0_0x1f581a(0x12d)+readMore+'\x0a')[a0_0x1f581a(0x15a)](),'header':a0_0x1f581a(0x13b),'body':'│\x20➢\x20.%command','footer':a0_0x1f581a(0x15d),'after':a0_0x1f581a(0x158)[a0_0x1f581a(0x144)]()};let handler=async(_0x152e78,{conn:_0x29a6bc,__dirname:_0x12f826})=>{const _0x310e0c=a0_0x1f581a;try{let _0x2ceaa2=await _0x29a6bc[_0x310e0c(0x12c)](_0x152e78[_0x310e0c(0x11b)]),_0x3daaa4=Object['keys'](global['db'][_0x310e0c(0x160)][_0x310e0c(0x125)])[_0x310e0c(0x11c)],_0x51aa1e=formatUptime(process['uptime']()),{level:_0x44b03f}=global['db'][_0x310e0c(0x160)][_0x310e0c(0x125)][_0x152e78['sender']],_0x189c1a=Object[_0x310e0c(0x12a)](global[_0x310e0c(0x153)])[_0x310e0c(0x14c)](_0x3a7cce=>!_0x3a7cce[_0x310e0c(0x13e)])[_0x310e0c(0x142)](_0x3fb313=>({'help':Array[_0x310e0c(0x136)](_0x3fb313['help'])?_0x3fb313['help']:[_0x3fb313[_0x310e0c(0x14e)]],'tags':Array['isArray'](_0x3fb313[_0x310e0c(0x159)])?_0x3fb313[_0x310e0c(0x159)]:[_0x3fb313['tags']]})),_0x2fce98=_0x152e78[_0x310e0c(0x150)][_0x310e0c(0x144)]()['replace'](/^\s+|\s+$/g,'')[_0x310e0c(0x11f)](/\s+/),_0x3d1f65=_0x2fce98[0x1]?_0x2fce98[0x1][_0x310e0c(0x13a)]():null;if(!_0x3d1f65){let _0x577a85=Object[_0x310e0c(0x15e)](tags)[_0x310e0c(0x142)](_0x20e8bc=>_0x310e0c(0x11e)+tags[_0x20e8bc][_0x310e0c(0x122)]()+_0x310e0c(0x15c)+_0x20e8bc+_0x310e0c(0x139))[_0x310e0c(0x132)]('\x0a'),_0x202b21=[defaultMenu['before'][_0x310e0c(0x15f)](_0x310e0c(0x145),_0x2ceaa2)[_0x310e0c(0x15f)]('%level',_0x44b03f)[_0x310e0c(0x15f)]('%totalreg',_0x3daaa4)[_0x310e0c(0x15f)](_0x310e0c(0x156),_0x51aa1e),_0x577a85,defaultMenu[_0x310e0c(0x120)]][_0x310e0c(0x132)]('\x0a');return _0x29a6bc[_0x310e0c(0x143)](_0x152e78['chat'],{'video':{'url':_0x310e0c(0x146)},'gifPlayback':!![],'caption':_0x202b21[_0x310e0c(0x144)]()},{'quoted':_0x152e78});}if(tags[_0x3d1f65]){let _0x1dc05b=_0x189c1a['filter'](_0x5b81c7=>_0x5b81c7[_0x310e0c(0x159)]['includes'](_0x3d1f65))[_0x310e0c(0x142)](_0x1734ba=>_0x1734ba['help'][_0x310e0c(0x142)](_0x4bedbb=>_0x310e0c(0x129)+_0x4bedbb)['join']('\x0a'))[_0x310e0c(0x132)]('\x0a'),_0x25eda8=[defaultMenu[_0x310e0c(0x135)][_0x310e0c(0x15f)](_0x310e0c(0x14f),tags[_0x3d1f65][_0x310e0c(0x122)]()),_0x1dc05b,defaultMenu[_0x310e0c(0x13c)]][_0x310e0c(0x132)]('\x0a');return _0x29a6bc[_0x310e0c(0x133)](_0x152e78['chat'],_0x310e0c(0x11d),_0x310e0c(0x148),_0x25eda8[_0x310e0c(0x144)](),_0x152e78);}}catch(_0x163e9e){_0x29a6bc['reply'](_0x152e78[_0x310e0c(0x141)],_0x310e0c(0x140),_0x152e78);throw _0x163e9e;}};function formatUptime(_0x41f4a5){const _0x314d1a=a0_0x1f581a;let _0x1c15d3=Math['floor'](_0x41f4a5/0xe10),_0x5bd74f=Math[_0x314d1a(0x152)](_0x41f4a5%0xe10/0x3c),_0x3925c6=Math[_0x314d1a(0x152)](_0x41f4a5%0x3c);return _0x1c15d3+'h\x20'+_0x5bd74f+'m\x20'+_0x3925c6+'s';}function a0_0x1939(){const _0x5409d3=['🗄\x20DATABASE','toUpperCase','4593kPijeJ','310492bVsCCR','users','9093733YZIqaP','👑\x20OWNER','84791wqGjpn','│\x20➢\x20.','values','35Hbmtpw','getName','\x0a╔══════✦❘༻༺❘✦══════╗\x0aㅤ\x20*🜲SYSTEM\x20OF\x20SHADOWS🜲*\x0a\x0a*🜲\x20Usuario:*\x20▹\x20*%name*\x20◃\x0a*⛩\x20Nivel:*\x20▹\x20%level\x20◃\x0a*🎭\x20Rango:*\x20▹\x20%totalreg\x20◃\x0a*⏳\x20Tiempo\x20activo:*\x20▹\x20%muptime\x20◃\x0a\x0a╚══════✦❘༻༺❘✦══════╝\x0a「\x20*CONTACTO\x20DEL\x20MONARCA*\x20」\x0a»\x20@SinNombre:\x20https://wa.me/5215629885039\x0a\x0a◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈\x0a\x20\x20\x20\x20\x20\x20\x20\x20*🜲\x20CATEGORÍAS\x20DISPONIBLES\x20🜲*\x0a','👥\x20GRUPO','🜲\x20ACERCA\x20DE','🔍\x20BUSQUEDA','💰\x20ECONOMIA','join','sendFile','176HYFHBi','header','isArray','🔄\x20CONVERTIDORES','12RyKCrW','\x0a└───⮞───────✦','toLowerCase','┌───『\x20➢\x20%category\x20\x20』','footer','1054312lVYFZq','disabled','94296bHNDOI','❎\x20Lo\x20sentimos,\x20el\x20menú\x20tiene\x20un\x20error','chat','map','sendMessage','trim','%name','./src/MenuJin-wo.gif','🛠\x20TOOLS','comandos.png','🌐\x20TOOLS\x20NETFREE','arise','🎉\x20FUN','filter','81675IiyIxH','help','%category','text','rowner','floor','plugins','24TuzEdM','200BPFouO','%muptime','🖼\x20STICKER','\x0a◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈\x0a*«\x20El\x20débil\x20no\x20tiene\x20derecho\x20a\x20elegir\x20cómo\x20morirá\x20»*\x0a','tags','trimStart','fromCharCode','\x20\x20』\x0a│\x20➢\x20.menu\x20','└──────────✦\x0a','keys','replace','data','command','📥\x20DESCARGAS','sender','length','./src/comandos.png','┌───『\x20\x20','split','after'];a0_0x1939=function(){return _0x5409d3;};return a0_0x1939();}handler[a0_0x1f581a(0x14e)]=[a0_0x1f581a(0x14a)],handler[a0_0x1f581a(0x161)]=/^menu|menú|arise|despertar/i,handler['register']=![],handler[a0_0x1f581a(0x151)]=![];export default handler;
+import { promises } from 'fs'
+import { join } from 'path'
+import { xpRange } from '../lib/levelling.js'
+
+let tags = {
+  'main': '🜲 ACERCA DE',
+  'info': '📜 INFO',
+  'game': '🎮 JUEGOS',
+  'downloader': '📥 DESCARGAS',
+  'econ': '💰 ECONOMIA',
+  'sticker': '🖼 STICKER',
+  'audio': '🎧 AUDIO',
+  'search': '🔍 BUSQUEDA',
+  'convertidores': '🔄 CONVERTIDORES',
+  'group': '👥 GRUPO',
+  'tools': '🛠 TOOLS',
+  'fun': '🎉 FUN',
+  'database': '🗄 DATABASE',
+  'xp': '⚔️ NIVEL',
+  'owner': '👑 OWNER',
+  'netfree': '🌐 TOOLS NETFREE',
+}
+
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(5000)
+
+const defaultMenu = {
+  before: `
+╔══════✦❘༻༺❘✦══════╗
+ㅤ *🜲SYSTEM OF SHADOWS🜲*
+
+*🜲 Usuario:* ▹ *%name* ◃
+*⛩ Nivel:* ▹ %level ◃
+*🎭 Rango:* ▹ %totalreg ◃
+*⏳ Tiempo activo:* ▹ %muptime ◃
+
+╚══════✦❘༻༺❘✦══════╝
+「 *CONTACTO DEL MONARCA* 」
+» @SinNombre: https://wa.me/5215629885039
+
+◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
+        *🜲 CATEGORÍAS DISPONIBLES 🜲*
+${readMore}
+`.trimStart(),
+  header: '┌───『 ➢ %category  』',
+  body: '│ ➢ .%command',
+  footer: '└──────────✦\n',
+  after: `
+◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
+*« El débil no tiene derecho a elegir cómo morirá »*
+`.trim(),
+}
+
+let handler = async (m, { conn, __dirname }) => {
+  try {
+    let name = await conn.getName(m.sender)
+    let totalreg = Object.keys(global.db.data.users).length
+    let muptime = formatUptime(process.uptime())
+    let { level } = global.db.data.users[m.sender]
+
+    let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => ({
+      help: Array.isArray(plugin.help) ? plugin.help : [plugin.help],
+      tags: Array.isArray(plugin.tags) ? plugin.tags : [plugin.tags],
+    }))
+
+    // Limpia espacios extra antes de procesar el comando
+    let args = m.text.trim().replace(/^\s+|\s+$/g, '').split(/\s+/)
+    let category = args[1] ? args[1].toLowerCase() : null
+
+    if (!category) {
+      let categoriesList = Object.keys(tags).map(tag => `┌───『  ${tags[tag].toUpperCase()}  』\n│ ➢ .menu ${tag}\n└───⮞───────✦`).join('\n')
+
+      let text = [
+        defaultMenu.before.replace('%name', name)
+                          .replace('%level', level)
+                          .replace('%totalreg', totalreg)
+                          .replace('%muptime', muptime),
+        categoriesList,
+        defaultMenu.after
+      ].join('\n')
+
+      // 🔹 CORRECCIÓN: Se envía el GIF correctamente en WhatsApp
+      return conn.sendMessage(m.chat, { 
+        video: { url: './src/MenuJin-wo.gif' }, 
+        gifPlayback: true, 
+        caption: text.trim() 
+      }, { quoted: m })
+    }
+
+    if (tags[category]) {
+      let commandsList = help.filter(plugin => plugin.tags.includes(category)).map(plugin => plugin.help.map(cmd => `│ ➢ .${cmd}`).join('\n')).join('\n')
+
+      let text = [
+        defaultMenu.header.replace('%category', tags[category].toUpperCase()),
+        commandsList,
+        defaultMenu.footer
+      ].join('\n')
+
+      return conn.sendFile(m.chat, './src/comandos.png', 'comandos.png', text.trim(), m)
+    }
+
+  } catch (e) {
+    conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error', m)
+    throw e
+  }
+}
+
+// Función para formatear el uptime del bot
+function formatUptime(seconds) {
+  let hours = Math.floor(seconds / 3600)
+  let minutes = Math.floor((seconds % 3600) / 60)
+  let secs = Math.floor(seconds % 60)
+  return `${hours}h ${minutes}m ${secs}s`
+}
+
+// Comandos aceptados (permite espacios antes del comando)
+handler.help = ['arise']
+handler.command = /^menu|menú|arise|despertar/i
+handler.register = false
+handler.rowner = false
+
+export default handler

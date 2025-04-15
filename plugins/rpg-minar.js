@@ -1,1 +1,33 @@
-const a0_0x26e231=a0_0xd1e8;(function(_0x3a9f68,_0x3f7936){const _0x3b11dc=a0_0xd1e8,_0x576fec=_0x3a9f68();while(!![]){try{const _0x39c89b=-parseInt(_0x3b11dc(0x1ca))/0x1+-parseInt(_0x3b11dc(0x1cb))/0x2+-parseInt(_0x3b11dc(0x1c4))/0x3+-parseInt(_0x3b11dc(0x1d3))/0x4*(-parseInt(_0x3b11dc(0x1c1))/0x5)+-parseInt(_0x3b11dc(0x1cc))/0x6*(parseInt(_0x3b11dc(0x1d9))/0x7)+-parseInt(_0x3b11dc(0x1db))/0x8+parseInt(_0x3b11dc(0x1dd))/0x9*(parseInt(_0x3b11dc(0x1c8))/0xa);if(_0x39c89b===_0x3f7936)break;else _0x576fec['push'](_0x576fec['shift']());}catch(_0x347e2d){_0x576fec['push'](_0x576fec['shift']());}}}(a0_0x2111,0xcf389));let handler=async(_0x52f0b2,{conn:_0x5bfb,isPrems:_0x4f2518})=>{const _0x3ecfd6=a0_0xd1e8;global['db'][_0x3ecfd6(0x1d4)]['users'][_0x52f0b2[_0x3ecfd6(0x1d6)]][_0x3ecfd6(0x1da)]+=0x1;let _0x42cf35=global['db']['data'][_0x3ecfd6(0x1dc)][_0x52f0b2[_0x3ecfd6(0x1d6)]],_0x2ae1c6=Math[_0x3ecfd6(0x1d1)](Math['random']()*0x3)+0x1,_0xaeaad5=Math[_0x3ecfd6(0x1d1)](Math['random']()*0x7530)+_0x2ae1c6,_0x4e6783=global['db'][_0x3ecfd6(0x1d4)][_0x3ecfd6(0x1dc)][_0x52f0b2['sender']][_0x3ecfd6(0x1cd)]+0x927c0;if(new Date()-global['db'][_0x3ecfd6(0x1d4)][_0x3ecfd6(0x1dc)][_0x52f0b2[_0x3ecfd6(0x1d6)]][_0x3ecfd6(0x1cd)]<0x927c0)throw _0x3ecfd6(0x1c2)+msToTime(_0x4e6783-new Date())+_0x3ecfd6(0x1d5);_0x52f0b2[_0x3ecfd6(0x1bf)](_0x3ecfd6(0x1d7)+_0xaeaad5+'\x20𝚇𝙿\x20y\x20'+_0x2ae1c6+'\x20💎*'),global['db'][_0x3ecfd6(0x1d4)][_0x3ecfd6(0x1dc)][_0x52f0b2[_0x3ecfd6(0x1d6)]][_0x3ecfd6(0x1cd)]=new Date()*0x1;};handler[a0_0x26e231(0x1d8)]=[a0_0x26e231(0x1c9)],handler[a0_0x26e231(0x1ce)]=[a0_0x26e231(0x1d2)],handler[a0_0x26e231(0x1c3)]=[a0_0x26e231(0x1c9),a0_0x26e231(0x1d0),a0_0x26e231(0x1c7)],handler[a0_0x26e231(0x1c5)]=!![],handler[a0_0x26e231(0x1c0)]=0x0;function a0_0xd1e8(_0x2cfc4c,_0x4da21d){const _0x2111c8=a0_0x2111();return a0_0xd1e8=function(_0xd1e8c0,_0x31f630){_0xd1e8c0=_0xd1e8c0-0x1bf;let _0x702a5c=_0x2111c8[_0xd1e8c0];return _0x702a5c;},a0_0xd1e8(_0x2cfc4c,_0x4da21d);}function a0_0x2111(){const _0x2a1b51=['minar','141872SijkBk','3187100ySoulB','114knVfcE','lastmiming','tags','\x20s\x20','miming','floor','econ','4bNYUEM','data','\x20𝚙𝚊𝚛𝚊\x20𝚟𝚘𝚕𝚟𝚎𝚛\x20𝚊\x20𝚖𝚒𝚗𝚊𝚛*','sender','*[\x20🎉\x20]\x20𝙶𝚎𝚗𝚒𝚊𝚕,\x20𝚖𝚒𝚗𝚊𝚜𝚝𝚎\x20','help','220255yFNble','comandos','9571936YbRGre','users','921924GTflBH','reply','exp','7180395GNNrYy','*[\x20⏲️\x20]\x20𝙴𝚜𝚙𝚎𝚛𝚊\x20','command','3772287ToOZCe','group','\x20m\x20y\x20','mine','410mObioU'];a0_0x2111=function(){return _0x2a1b51;};return a0_0x2111();}export default handler;function msToTime(_0x105e6e){const _0x4937c0=a0_0x26e231;var _0x58bee7=parseInt(_0x105e6e%0x3e8/0x64),_0x323d59=Math['floor'](_0x105e6e/0x3e8%0x3c),_0x4cbabc=Math[_0x4937c0(0x1d1)](_0x105e6e/(0x3e8*0x3c)%0x3c),_0x1eb4a3=Math[_0x4937c0(0x1d1)](_0x105e6e/(0x3e8*0x3c*0x3c)%0x18);return _0x1eb4a3=_0x1eb4a3<0xa?'0'+_0x1eb4a3:_0x1eb4a3,_0x4cbabc=_0x4cbabc<0xa?'0'+_0x4cbabc:_0x4cbabc,_0x323d59=_0x323d59<0xa?'0'+_0x323d59:_0x323d59,_0x4cbabc+_0x4937c0(0x1c6)+_0x323d59+_0x4937c0(0x1cf);}
+let handler = async (m, { conn, isPrems }) => {
+	global.db.data.users[m.sender].comandos += 1;
+    let limit = global.db.data.users[m.sender];
+    let diamondReward = Math.floor(Math.random() * 3) + 1; // Generar un número aleatorio entre 1 y 3
+    let hasil = Math.floor(Math.random() * 30000) + diamondReward; // Sumar el número aleatorio a hasil
+    let time = global.db.data.users[m.sender].lastmiming + 600000;
+
+    if (new Date() - global.db.data.users[m.sender].lastmiming < 600000) throw `*[ ⏲️ ] 𝙴𝚜𝚙𝚎𝚛𝚊 ${msToTime(time - new Date())} 𝚙𝚊𝚛𝚊 𝚟𝚘𝚕𝚟𝚎𝚛 𝚊 𝚖𝚒𝚗𝚊𝚛*`;
+
+    m.reply(`*[ 🎉 ] 𝙶𝚎𝚗𝚒𝚊𝚕, 𝚖𝚒𝚗𝚊𝚜𝚝𝚎 ${hasil} 𝚇𝙿 y ${diamondReward} 💎*`);
+    global.db.data.users[m.sender].lastmiming = new Date() * 1;
+}
+
+handler.help = ['minar'];
+handler.tags = ['econ']
+handler.command = ['minar', 'miming', 'mine'];
+handler.group = true;
+handler.exp = 0;
+
+export default handler;
+
+function msToTime(duration) {
+    var milliseconds = parseInt((duration % 1000) / 100),
+        seconds = Math.floor((duration / 1000) % 60),
+        minutes = Math.floor((duration / (1000 * 60)) % 60),
+        hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+    return minutes + " m y " + seconds + " s ";
+}

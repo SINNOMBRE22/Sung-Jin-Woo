@@ -1,1 +1,56 @@
-function a0_0x2638(_0x583e3c,_0xdeb477){const _0x5d9021=a0_0x5d90();return a0_0x2638=function(_0x26387f,_0x360692){_0x26387f=_0x26387f-0x1d7;let _0x44d028=_0x5d9021[_0x26387f];return _0x44d028;},a0_0x2638(_0x583e3c,_0xdeb477);}const a0_0x108c43=a0_0x2638;(function(_0x4cd0f4,_0x1456ef){const _0x1996e=a0_0x2638,_0x33723a=_0x4cd0f4();while(!![]){try{const _0x3c9bde=parseInt(_0x1996e(0x1f5))/0x1*(parseInt(_0x1996e(0x1f2))/0x2)+-parseInt(_0x1996e(0x1e8))/0x3*(parseInt(_0x1996e(0x1f6))/0x4)+parseInt(_0x1996e(0x1dc))/0x5*(parseInt(_0x1996e(0x1d9))/0x6)+parseInt(_0x1996e(0x1d8))/0x7+parseInt(_0x1996e(0x1e0))/0x8+parseInt(_0x1996e(0x1f4))/0x9+parseInt(_0x1996e(0x1eb))/0xa*(-parseInt(_0x1996e(0x1e9))/0xb);if(_0x3c9bde===_0x1456ef)break;else _0x33723a['push'](_0x33723a['shift']());}catch(_0x50d598){_0x33723a['push'](_0x33723a['shift']());}}}(a0_0x5d90,0xd28dd));function a0_0x5d90(){const _0x13a237=['chat','3bcrvii','51447stqxfB','downloader','5010ubzlRf','command','users','load','texto4','data','push','2iyFsUX','.json','1547253cEbZHU','1690337HmGWca','4222852EKDrIH','https://dlpanda.com/es?url=','language','11243288HhXdHR','252rLpcOv','length','texto2','39535imgTzx','downloader_tiktok_img','parse','readFileSync','3686296VQHejj','help','tags','tiktokimg','sender','div.col-md-12\x20>\x20img','get'];a0_0x5d90=function(){return _0x13a237;};return a0_0x5d90();}import a0_0x1ca2c3 from'axios';import a0_0x444244 from'cheerio';let handler=async(_0x43e22f,{conn:_0x1ade29,text:_0x1ce620,args:_0x38c6fa,command:_0x1f6df6,usedPrefix:_0x5b52c9})=>{const _0x1e9d58=a0_0x2638,_0x6aed9=global,_0x1bcaf4=_0x6aed9['db'][_0x1e9d58(0x1f0)][_0x1e9d58(0x1ed)][_0x43e22f[_0x1e9d58(0x1e4)]][_0x1e9d58(0x1d7)],_0x28a6e4=JSON[_0x1e9d58(0x1de)](fs[_0x1e9d58(0x1df)]('./language/'+_0x1bcaf4+_0x1e9d58(0x1f3))),_0x2e06c3=_0x28a6e4['plugins'][_0x1e9d58(0x1dd)];if(!_0x1ce620)throw _0x2e06c3['texto1'];let _0x510d67;if(_0x510d67)return;_0x510d67=!![];try{let _0x28fc94=await ttimg(_0x1ce620),_0x4aac34=_0x28fc94?.[_0x1e9d58(0x1f0)];for(let _0x2cf11e of _0x4aac34){await _0x1ade29['sendMessage'](_0x43e22f[_0x1e9d58(0x1e7)],{'image':{'url':_0x2cf11e}},{'quoted':_0x43e22f});};_0x510d67=![];}catch{_0x510d67=![];throw _0x2e06c3[_0x1e9d58(0x1db)];}};handler[a0_0x108c43(0x1e1)]=[a0_0x108c43(0x1e3)],handler[a0_0x108c43(0x1e2)]=[a0_0x108c43(0x1ea)],handler[a0_0x108c43(0x1ec)]=/^(ttimg|tiktokimg)$/i;export default handler;async function ttimg(_0x135692){const _0x57c762=a0_0x108c43;try{let _0x459348=_0x57c762(0x1f7)+_0x135692+'&token=G7eRpMaa',_0x9f019c=await a0_0x1ca2c3[_0x57c762(0x1e6)](_0x459348);const _0x2d4f74=_0x9f019c[_0x57c762(0x1f0)],_0x3f2e7d=a0_0x444244[_0x57c762(0x1ee)](_0x2d4f74);let _0x37370c=[];_0x3f2e7d(_0x57c762(0x1e5))['each']((_0x43cb12,_0x42c8e6)=>{const _0x321bcd=_0x57c762;_0x37370c[_0x321bcd(0x1f1)](_0x3f2e7d(_0x42c8e6)['attr']('src'));});if(_0x37370c[_0x57c762(0x1da)]===0x0)return{'data':tradutor['texto3']};return{'data':_0x37370c};}catch(_0x39f878){return console['lo'](_0x39f878),{'data':tradutor[_0x57c762(0x1ef)]};};};
+// Code by Xnuvers007 ft. Jikarinka
+// https://github.com/Xnuvers007/
+// 
+// Mejorado por @BrunoSobrino
+////////////////////////////////////
+
+import axios from 'axios';
+import cheerio from 'cheerio';
+
+
+let handler = async (m, { conn, text: tiktok, args, command, usedPrefix }) => {
+    const datas = global
+    const idioma = datas.db.data.users[m.sender].language
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const tradutor = _translate.plugins.downloader_tiktok_img
+
+    if (!tiktok) throw tradutor.texto1;
+    let imagesSent
+    if (imagesSent) return;
+    imagesSent = true
+    try {
+        let tioShadow = await ttimg(tiktok);
+        let result = tioShadow?.data;
+        for (let d of result) {
+            await conn.sendMessage(m.chat, { image: { url: d } }, { quoted: m });
+        };
+        imagesSent = false
+    } catch {
+        imagesSent = false
+        throw tradutor.texto2
+    }
+};
+handler.help = ['tiktokimg'];
+handler.tags = ['downloader'];
+handler.command = /^(ttimg|tiktokimg)$/i;
+export default handler;
+
+async function ttimg(link) {
+    try {
+        let url = `https://dlpanda.com/es?url=${link}&token=G7eRpMaa`;
+        let response = await axios.get(url);
+        const html = response.data;
+        const $ = cheerio.load(html);
+        let imgSrc = [];
+        $('div.col-md-12 > img').each((index, element) => {
+            imgSrc.push($(element).attr('src'));
+        });
+        if (imgSrc.length === 0) {
+            return { data: tradutor.texto3 };
+        }
+        return { data: imgSrc };
+    } catch (error) {
+        console.lo(error);
+        return { data: tradutor.texto4 };
+    };
+};

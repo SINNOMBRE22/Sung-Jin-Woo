@@ -1,1 +1,16 @@
-const a0_0xb937ab=a0_0x5529;function a0_0x5529(_0x4e313c,_0x2c0f96){const _0x4338b1=a0_0x4338();return a0_0x5529=function(_0x5529aa,_0x48b3d8){_0x5529aa=_0x5529aa-0x1af;let _0x254616=_0x4338b1[_0x5529aa];return _0x254616;},a0_0x5529(_0x4e313c,_0x2c0f96);}function a0_0x4338(){const _0x19522c=['texto2','10rQnnzy','ttt\x20','3Pipywl','tictactoe','sender','435501IqFSTH','1985018PSgcSo','.json','chat','command','readFileSync','values','722440XNFpuI','parse','reply','sendButton','startsWith','texto1','users','12cCMcfY','2806492vEvZHA','3441590zHaesi','./language/','game','playerO','texto4','includes','9237330yLflnV','432946YCGwuH'];a0_0x4338=function(){return _0x19522c;};return a0_0x4338();}(function(_0x4ae85f,_0x3dc11f){const _0x3102ed=a0_0x5529,_0x14b874=_0x4ae85f();while(!![]){try{const _0xa05ffd=-parseInt(_0x3102ed(0x1b8))/0x1+-parseInt(_0x3102ed(0x1b1))/0x2+-parseInt(_0x3102ed(0x1b5))/0x3*(-parseInt(_0x3102ed(0x1c7))/0x4)+parseInt(_0x3102ed(0x1c8))/0x5+parseInt(_0x3102ed(0x1c6))/0x6*(parseInt(_0x3102ed(0x1b9))/0x7)+parseInt(_0x3102ed(0x1bf))/0x8+parseInt(_0x3102ed(0x1b0))/0x9*(-parseInt(_0x3102ed(0x1b3))/0xa);if(_0xa05ffd===_0x3dc11f)break;else _0x14b874['push'](_0x14b874['shift']());}catch(_0x119123){_0x14b874['push'](_0x14b874['shift']());}}}(a0_0x4338,0x5a19a));import a0_0x2a3af0 from'@whiskeysockets/baileys';const handler=async(_0x462124,{conn:_0x3f061f,usedPrefix:_0x4d7acd,command:_0x30887d})=>{const _0x4d286a=a0_0x5529,_0xd83d8f=global,_0x1ca13d=_0xd83d8f['db']['data'][_0x4d286a(0x1c5)][_0x462124[_0x4d286a(0x1b7)]]['language'],_0x2c4f29=JSON[_0x4d286a(0x1c0)](fs[_0x4d286a(0x1bd)](_0x4d286a(0x1c9)+_0x1ca13d+_0x4d286a(0x1ba))),_0x3a5f78=_0x2c4f29['plugins']['game_delttt'],_0x2c40b1=Object[_0x4d286a(0x1be)](_0x3f061f['game'])['find'](_0x39bed0=>_0x39bed0['id'][_0x4d286a(0x1c3)](_0x4d286a(0x1b6))&&[_0x39bed0['game']['playerX'],_0x39bed0[_0x4d286a(0x1ca)][_0x4d286a(0x1cb)]][_0x4d286a(0x1af)](_0x462124[_0x4d286a(0x1b7)]));if(_0x2c40b1==undefined)return _0x3f061f[_0x4d286a(0x1c2)](_0x462124[_0x4d286a(0x1bb)],_0x3a5f78[_0x4d286a(0x1c4)],wm,null,[[_0x3a5f78[_0x4d286a(0x1b2)],_0x4d7acd+_0x4d286a(0x1b4)+_0x3a5f78['texto3']]],_0x462124);delete _0x3f061f[_0x4d286a(0x1ca)][_0x2c40b1['id']],await _0x462124[_0x4d286a(0x1c1)](_0x3a5f78[_0x4d286a(0x1cc)]);};handler[a0_0xb937ab(0x1bc)]=/^(delttt|deltt|delxo|deltictactoe)$/i,handler['fail']=null;export default handler;
+import MessageType from '@whiskeysockets/baileys';
+
+const handler = async (m, {conn, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.game_delttt
+
+  const room = Object.values(conn.game).find((room) => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender));
+  if (room == undefined) return conn.sendButton(m.chat, tradutor.texto1, wm, null, [[tradutor.texto2, `${usedPrefix}ttt ${tradutor.texto3}`]], m);
+  delete conn.game[room.id];
+  await m.reply(tradutor.texto4);
+};
+handler.command = /^(delttt|deltt|delxo|deltictactoe)$/i;
+handler.fail = null;
+export default handler;

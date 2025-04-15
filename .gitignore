@@ -1,15 +1,17 @@
-#| Folders |#
-
+# === Carpetas que deben ser ignoradas ===
 .github
 node_modules
 Jinwoosesion
 tmp
 jadibts
-pluginpilot
-plugins/supersecretlistener.js
 datasecret
+plugins/backups
 
-#| Files |#
+# Ignora plugin sensibles
+plugins/supersecretlistener.js
 
-package-lock.json
+# Ignora solo si pluginpilot es personal y no necesario para funcionar
+pluginpilot
+
+# === Archivos que deben ser ignorados ===
 database.json

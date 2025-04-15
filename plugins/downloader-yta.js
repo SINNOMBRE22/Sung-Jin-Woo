@@ -1,1 +1,90 @@
-const a0_0x49771e=a0_0x2c51;(function(_0x50c1c6,_0x446a5a){const _0x22c1e7=a0_0x2c51,_0x4346b8=_0x50c1c6();while(!![]){try{const _0x3e7b39=-parseInt(_0x22c1e7(0x11c))/0x1+-parseInt(_0x22c1e7(0x107))/0x2+parseInt(_0x22c1e7(0xee))/0x3*(-parseInt(_0x22c1e7(0x108))/0x4)+-parseInt(_0x22c1e7(0x109))/0x5+parseInt(_0x22c1e7(0x11a))/0x6+-parseInt(_0x22c1e7(0xf3))/0x7+parseInt(_0x22c1e7(0xed))/0x8;if(_0x3e7b39===_0x446a5a)break;else _0x4346b8['push'](_0x4346b8['shift']());}catch(_0x35ab81){_0x4346b8['push'](_0x4346b8['shift']());}}}(a0_0x303c,0x80516));import a0_0x2c7689 from'axios';import a0_0x5ef46b from'fs';import a0_0x2d32e4 from'path';import{fileURLToPath}from'url';function a0_0x2c51(_0x189e56,_0x3dfd62){const _0x303cfd=a0_0x303c();return a0_0x2c51=function(_0x2c51b7,_0x231bd0){_0x2c51b7=_0x2c51b7-0xea;let _0x3fc7a3=_0x303cfd[_0x2c51b7];return _0x3fc7a3;},a0_0x2c51(_0x189e56,_0x3dfd62);}const handler=async(_0x172c33,{conn:_0x1d8d18,command:_0x466779,args:_0x282ba1})=>{const _0x13814c=a0_0x2c51;if(!_0x282ba1[0x0])return _0x1d8d18['sendMessage'](_0x172c33[_0x13814c(0xfb)],{'text':_0x13814c(0xf7)},{'quoted':_0x172c33});const _0x1a2baf=_0x282ba1[0x0],_0x4e1433=_0x466779==='ytaudio',_0xebcfc5=_0x4e1433?_0x13814c(0x10a):_0x13814c(0x115),_0x572668=_0x4e1433?'🎵\x20*Extrayendo\x20Audio...*':_0x13814c(0x112),_0x3dc1f0=[_0x13814c(0xfc),'▰▱▱▱▱▱▱▱▱\x20𝟏𝟓%','▰▰▱▱▱▱▱▱▱\x20𝟑𝟎%',_0x13814c(0x11d),_0x13814c(0x10f),'▰▰▰▰▰▱▱▱▱\x20𝟖𝟱%',_0x13814c(0xec)];try{await _0x172c33[_0x13814c(0xf2)]('⚔️');let _0x3f9d01=await _0x1d8d18[_0x13814c(0x100)](_0x172c33['chat'],{'text':_0x13814c(0x113)+_0x572668+'\x0a'+_0x3dc1f0[0x0]+_0x13814c(0xef)});for(let _0x5db3c0=0x1;_0x5db3c0<_0x3dc1f0[_0x13814c(0xfe)];_0x5db3c0++){await new Promise(_0x20a936=>setTimeout(_0x20a936,0x2bc)),await _0x1d8d18[_0x13814c(0x100)](_0x172c33['chat'],{'edit':_0x3f9d01[_0x13814c(0xff)],'text':'━━━✦❘༻༺❘✦━━━\x0a'+_0x572668+'\x0a'+_0x3dc1f0[_0x5db3c0]+'\x0a━━━✦❘༻༺❘✦━━━'});}const _0x4144bf=await a0_0x2c7689['get'](_0x13814c(0x106)+encodeURIComponent(_0x1a2baf));if(!_0x4144bf[_0x13814c(0x10d)][_0x13814c(0x101)])throw new Error(_0x13814c(0x105));const _0x4658fc=_0x4e1433?_0x4144bf[_0x13814c(0x10d)]['BK9'][_0x13814c(0x110)]:_0x4144bf[_0x13814c(0x10d)]['BK9'][_0x13814c(0xea)],_0x593571=_0x4e1433?_0x13814c(0x114):_0x13814c(0xfa),_0x1d0a96=_0x4144bf[_0x13814c(0x10d)][_0x13814c(0x11b)]['title']+'.'+_0x593571,_0x55c54a=fileURLToPath(import.meta[_0x13814c(0xf5)]),_0x4754b5=a0_0x2d32e4[_0x13814c(0x102)](_0x55c54a),_0x27a98b=a0_0x2d32e4[_0x13814c(0x10b)](_0x4754b5,_0x1d0a96),_0x6fc6ca=await a0_0x2c7689({'url':_0x4658fc,'method':_0x13814c(0xfd),'responseType':_0x13814c(0x10c)}),_0x5711ae=a0_0x5ef46b[_0x13814c(0xf0)](_0x27a98b);_0x6fc6ca[_0x13814c(0x10d)][_0x13814c(0x120)](_0x5711ae),_0x5711ae['on'](_0x13814c(0x10e),async()=>{const _0x40599e=_0x13814c;await _0x1d8d18['sendMessage'](_0x172c33[_0x40599e(0xfb)],{'delete':_0x3f9d01[_0x40599e(0xff)]});const _0x3ef7df=_0x40599e(0x11f)+_0x4144bf[_0x40599e(0x10d)][_0x40599e(0x11b)][_0x40599e(0xf1)]+_0x40599e(0x119)+_0x4144bf[_0x40599e(0x10d)]['BK9'][_0x40599e(0x11e)]+_0x40599e(0x116)+_0x1a2baf+_0x40599e(0xef),_0x2f75ed=_0x4e1433?{'audio':{'url':_0x27a98b},'mimetype':_0x40599e(0x117),'fileName':_0x1d0a96,'caption':_0x3ef7df}:{'video':{'url':_0x27a98b},'mimetype':_0x40599e(0xf4),'fileName':_0x1d0a96,'caption':_0x3ef7df};await _0x1d8d18[_0x40599e(0x100)](_0x172c33[_0x40599e(0xfb)],_0x2f75ed,{'quoted':_0x172c33}),a0_0x5ef46b['unlinkSync'](_0x27a98b);}),_0x5711ae['on'](_0x13814c(0xf6),async _0xf4f5bc=>{const _0x17eff3=_0x13814c;console[_0x17eff3(0xf6)](_0x17eff3(0x111),_0xf4f5bc),await _0x1d8d18[_0x17eff3(0x100)](_0x172c33[_0x17eff3(0xfb)],{'text':_0x17eff3(0x103)},{'quoted':_0x172c33});});}catch(_0x1d77e7){console[_0x13814c(0xf6)](_0x1d77e7),await _0x1d8d18['sendMessage'](_0x172c33[_0x13814c(0xfb)],{'text':_0x13814c(0x104)},{'quoted':_0x172c33});}};function a0_0x303c(){const _0x9e0b60=['createWriteStream','title','react','1062040rnqobv','video/mp4','url','error','━━━✦❘༻༺❘✦━━━\x0a⚠️\x20*El\x20Sistema\x20requiere\x20un\x20enlace\x20de\x20YouTube\x20para\x20continuar.*\x0a━━━✦❘༻༺❘✦━━━','command','help','mp4','chat','▱▱▱▱▱▱▱▱▱\x20𝟎%','GET','length','key','sendMessage','status','dirname','❌\x20*Error:*\x20No\x20se\x20pudo\x20procesar\x20el\x20archivo.','❌\x20*Error:*\x20No\x20se\x20pudo\x20procesar\x20tu\x20solicitud.','No\x20se\x20pudo\x20procesar\x20el\x20enlace.','https://bk9.fun/download/alldownload?url=','908136vLbQyw','4YMxyOw','2882095NQBher','audio','resolve','stream','data','finish','▰▰▰▰▱▱▱▱▱\x20𝟳𝟎%','low','Error\x20al\x20guardar\x20el\x20archivo:','🎬\x20*Extrayendo\x20Video...*','━━━✦❘༻༺❘✦━━━\x0a','mp3','video','\x0a🔗\x20*Enlace:*\x20','audio/mpeg','tags','\x0a⏳\x20*Duración:*\x20','5668596cbOfzq','BK9','647408gKrUvu','▰▰▰▱▱▱▱▱▱\x20𝟓𝟎%','time','━━━✦❘༻༺❘✦━━━\x0a📜\x20*Título:*\x20','pipe','high','ytaudio','▰▰▰▰▰▰▰▰▰\x20𝟏𝟎𝟎%','17036056AfPxtk','2157204DMyggK','\x0a━━━✦❘༻༺❘✦━━━'];a0_0x303c=function(){return _0x9e0b60;};return a0_0x303c();}handler[a0_0x49771e(0xf9)]=[a0_0x49771e(0xeb),'ytvideo'],handler[a0_0x49771e(0x118)]=['downloader'],handler[a0_0x49771e(0xf8)]=/^(ytaudio|ytvideo)$/i,handler['group']=!![];export default handler;
+import axios from 'axios';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const handler = async (m, { conn, command, args }) => {
+  if (!args[0]) return conn.sendMessage(m.chat, { text: '━━━✦❘༻༺❘✦━━━\n⚠️ *El Sistema requiere un enlace de YouTube para continuar.*\n━━━✦❘༻༺❘✦━━━' }, { quoted: m });
+
+  const youtubeURL = args[0];
+  const isAudio = command === 'ytaudio';
+  const mediaType = isAudio ? 'audio' : 'video';
+  const extractingText = isAudio ? '🎵 *Extrayendo Audio...*' : '🎬 *Extrayendo Video...*';
+
+  const animation = [
+    "▱▱▱▱▱▱▱▱▱ 𝟎%",
+    "▰▱▱▱▱▱▱▱▱ 𝟏𝟓%",
+    "▰▰▱▱▱▱▱▱▱ 𝟑𝟎%",
+    "▰▰▰▱▱▱▱▱▱ 𝟓𝟎%",
+    "▰▰▰▰▱▱▱▱▱ 𝟳𝟎%",
+    "▰▰▰▰▰▱▱▱▱ 𝟖𝟱%",
+    "▰▰▰▰▰▰▰▰▰ 𝟏𝟎𝟎%"
+  ];
+
+  try {
+    await m.react('⚔️');
+
+    // Mensaje inicial de animación con decoración
+    let progressMsg = await conn.sendMessage(m.chat, { text: `━━━✦❘༻༺❘✦━━━\n${extractingText}\n${animation[0]}\n━━━✦❘༻༺❘✦━━━` });
+
+    // Simulación de la barra de carga
+    for (let i = 1; i < animation.length; i++) {
+      await new Promise((res) => setTimeout(res, 700));
+      await conn.sendMessage(m.chat, { edit: progressMsg.key, text: `━━━✦❘༻༺❘✦━━━\n${extractingText}\n${animation[i]}\n━━━✦❘༻༺❘✦━━━` });
+    }
+
+    // Obtener enlace de descarga
+    const response = await axios.get(`https://bk9.fun/download/alldownload?url=${encodeURIComponent(youtubeURL)}`);
+    if (!response.data.status) throw new Error('No se pudo procesar el enlace.');
+
+    const mediaUrl = isAudio ? response.data.BK9.low : response.data.BK9.high;
+    const extension = isAudio ? 'mp3' : 'mp4';
+    const fileName = `${response.data.BK9.title}.${extension}`;
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+    const filePath = path.resolve(__dirname, fileName);
+
+    // Descargar archivo
+    const mediaResponse = await axios({
+      url: mediaUrl,
+      method: 'GET',
+      responseType: 'stream'
+    });
+
+    const writer = fs.createWriteStream(filePath);
+    mediaResponse.data.pipe(writer);
+
+    writer.on('finish', async () => {
+      // Eliminar la animación antes de enviar el archivo
+      await conn.sendMessage(m.chat, { delete: progressMsg.key });
+
+      // Información + archivo con decoración
+      const infoText = `━━━✦❘༻༺❘✦━━━\n📜 *Título:* ${response.data.BK9.title}\n⏳ *Duración:* ${response.data.BK9.time}\n🔗 *Enlace:* ${youtubeURL}\n━━━✦❘༻༺❘✦━━━`;
+      const sendOptions = isAudio
+        ? { audio: { url: filePath }, mimetype: 'audio/mpeg', fileName, caption: infoText }
+        : { video: { url: filePath }, mimetype: 'video/mp4', fileName, caption: infoText };
+
+      await conn.sendMessage(m.chat, sendOptions, { quoted: m });
+
+      // Eliminar archivo temporal
+      fs.unlinkSync(filePath);
+    });
+
+    writer.on('error', async (err) => {
+      console.error('Error al guardar el archivo:', err);
+      await conn.sendMessage(m.chat, { text: '❌ *Error:* No se pudo procesar el archivo.' }, { quoted: m });
+    });
+
+  } catch (error) {
+    console.error(error);
+    await conn.sendMessage(m.chat, { text: '❌ *Error:* No se pudo procesar tu solicitud.' }, { quoted: m });
+  }
+};
+
+// Configuración de comandos
+handler.help = ['ytaudio', 'ytvideo'];
+handler.tags = ['downloader'];
+handler.command = /^(ytaudio|ytvideo)$/i;
+handler.group = true;
+
+export default handler;
