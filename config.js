@@ -7,17 +7,16 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = ""
+global.botnumber = "5217971085986"  // Número del bot (el número con el que instalaste el bot en WhatsApp, SIN +)
 global.confirmCode = ""
 
-global.owner = [
-  ['5215629885039', 'Owner', true],
-  ['5215629885039', 'COwner', true],
-  ['5218126114170']
+global.owner = [   // Lista de dueños del bot[A
+  ['5215629885039', 'Owner', true],  // Dueño principal (tu número personal)
+  ['5218126114170', 'COwner', true]  // Co-dueño (puede ser un amigo o ayudante)
 ];
 
-global.suittag = ['5217971532324'];
-global.prems = ['5215629885039'];
+global.suittag = ['5217971532324']; // Usuarios que pueden usar comandos tipo "suit", "dard", etc.
+global.prems = ['5215629885039']; // Usuarios con funciones premium
 
 global.packname = `  ★━━━━━━━━
 	├ ʙᴏᴛ     : 

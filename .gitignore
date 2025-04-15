@@ -5,6 +5,7 @@ Jinwoosesion
 tmp
 jadibts
 datasecret
+backups/
 plugins/backups
 
 # Ignora plugin sensibles
