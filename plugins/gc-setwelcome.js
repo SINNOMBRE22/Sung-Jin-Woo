@@ -1,18 +1,1 @@
-
-
-const handler = async (m, {conn, text, isROwner, isOwner}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.gc_setwelcome
-
-  if (text) {
-    global.db.data.chats[m.chat].sWelcome = text;
-    m.reply(tradutor.texto1);
-  } else throw `${tradutor.texto2[0]}\n*- @user (mención)*\n*- @group (nombre de grupo)*\n*- @desc (description de grupo)*`;
-};
-handler.help = ['setwelcome <text>'];
-handler.tags = ['group'];
-handler.command = ['setwelcome'];
-handler.admin = true;
-export default handler;
+function a0_0x46e6(_0x9ccce,_0x5f03a0){const _0x5c2ab7=a0_0x5c2a();return a0_0x46e6=function(_0x46e65a,_0x4e046c){_0x46e65a=_0x46e65a-0x8f;let _0x50c9db=_0x5c2ab7[_0x46e65a];return _0x50c9db;},a0_0x46e6(_0x9ccce,_0x5f03a0);}const a0_0x23dbeb=a0_0x46e6;(function(_0x4cfe74,_0x5a66a7){const _0x42cd28=a0_0x46e6,_0x1249ab=_0x4cfe74();while(!![]){try{const _0x43e673=-parseInt(_0x42cd28(0x9a))/0x1*(-parseInt(_0x42cd28(0xaa))/0x2)+-parseInt(_0x42cd28(0xa8))/0x3*(parseInt(_0x42cd28(0x9b))/0x4)+-parseInt(_0x42cd28(0xa0))/0x5*(parseInt(_0x42cd28(0x98))/0x6)+-parseInt(_0x42cd28(0xa5))/0x7*(-parseInt(_0x42cd28(0x99))/0x8)+-parseInt(_0x42cd28(0xa7))/0x9*(parseInt(_0x42cd28(0xa9))/0xa)+parseInt(_0x42cd28(0xa4))/0xb*(-parseInt(_0x42cd28(0x9e))/0xc)+parseInt(_0x42cd28(0x9c))/0xd;if(_0x43e673===_0x5a66a7)break;else _0x1249ab['push'](_0x1249ab['shift']());}catch(_0x242192){_0x1249ab['push'](_0x1249ab['shift']());}}}(a0_0x5c2a,0x21b25));const handler=async(_0xc7a474,{conn:_0x3278cb,text:_0x5efc88,isROwner:_0xa03e2b,isOwner:_0x1978a2})=>{const _0x2b1b53=a0_0x46e6,_0x1304a0=global,_0x3bac7f=_0x1304a0['db'][_0x2b1b53(0xac)][_0x2b1b53(0x91)][_0xc7a474[_0x2b1b53(0xa1)]][_0x2b1b53(0x95)],_0x527280=JSON['parse'](fs[_0x2b1b53(0x9f)]('./language/'+_0x3bac7f+_0x2b1b53(0x97))),_0x103fd4=_0x527280[_0x2b1b53(0x8f)][_0x2b1b53(0xab)];if(_0x5efc88)global['db'][_0x2b1b53(0xac)]['chats'][_0xc7a474['chat']][_0x2b1b53(0x93)]=_0x5efc88,_0xc7a474[_0x2b1b53(0x90)](_0x103fd4['texto1']);else throw _0x103fd4[_0x2b1b53(0xa6)][0x0]+_0x2b1b53(0xa2);};handler['help']=[a0_0x23dbeb(0xa3)],handler[a0_0x23dbeb(0x96)]=['group'],handler[a0_0x23dbeb(0x94)]=[a0_0x23dbeb(0x92)],handler[a0_0x23dbeb(0x9d)]=!![];export default handler;function a0_0x5c2a(){const _0x4a1312=['3374hWydkE','texto2','9jNXvyF','549vhUmVo','2402740XCfINF','347582OklUEr','gc_setwelcome','data','plugins','reply','users','setwelcome','sWelcome','command','language','tags','.json','660hNdDHb','4432whlgzX','1GuTgzs','5872LKQVaI','9012874WxJetG','admin','216giCyMG','readFileSync','10820nXwdim','sender','\x0a*-\x20@user\x20(mención)*\x0a*-\x20@group\x20(nombre\x20de\x20grupo)*\x0a*-\x20@desc\x20(description\x20de\x20grupo)*','setwelcome\x20<text>','152251ZFfrps'];a0_0x5c2a=function(){return _0x4a1312;};return a0_0x5c2a();}

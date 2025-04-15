@@ -1,17 +1,1 @@
-/* Creditos a https://github.com/ALBERTO9883 */
-
-
-const handler = async (m, {conn}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.gc_revoke
-
-  const revoke = await conn.groupRevokeInvite(m.chat);
-  await conn.reply(m.chat, `${tradutor.texto1} ${'https://chat.whatsapp.com/' + revoke}`, m);
-};
-handler.command = ['resetlink', 'revoke'];
-handler.botAdmin = true;
-handler.admin = true;
-handler.group = true;
-export default handler;
+const a0_0x375c23=a0_0x3e38;function a0_0x2c3e(){const _0x5e3888=['61448idkDoL','1ulOeGv','parse','540996EfxdKr','command','132FHpodH','reply','17397BeLzxz','229411hRVQeG','180988SuxTdl','botAdmin','data','47750PKxLUh','readFileSync','sender','821960bdqIDZ','./language/','users','groupRevokeInvite','https://chat.whatsapp.com/','texto1','9kLBbef'];a0_0x2c3e=function(){return _0x5e3888;};return a0_0x2c3e();}(function(_0x548ab6,_0x161431){const _0xc827c=a0_0x3e38,_0x398342=_0x548ab6();while(!![]){try{const _0x3802d5=-parseInt(_0xc827c(0x116))/0x1*(-parseInt(_0xc827c(0x11e))/0x2)+parseInt(_0xc827c(0x11c))/0x3*(-parseInt(_0xc827c(0x11a))/0x4)+parseInt(_0xc827c(0x124))/0x5+parseInt(_0xc827c(0x118))/0x6+-parseInt(_0xc827c(0x11d))/0x7+-parseInt(_0xc827c(0x115))/0x8*(-parseInt(_0xc827c(0x114))/0x9)+-parseInt(_0xc827c(0x121))/0xa;if(_0x3802d5===_0x161431)break;else _0x398342['push'](_0x398342['shift']());}catch(_0x397d96){_0x398342['push'](_0x398342['shift']());}}}(a0_0x2c3e,0x1e3aa));function a0_0x3e38(_0x38b9fe,_0x455ac9){const _0x2c3e5d=a0_0x2c3e();return a0_0x3e38=function(_0x3e3847,_0x81435b){_0x3e3847=_0x3e3847-0x114;let _0x26bfb4=_0x2c3e5d[_0x3e3847];return _0x26bfb4;},a0_0x3e38(_0x38b9fe,_0x455ac9);}const handler=async(_0x57adf9,{conn:_0x3e7336})=>{const _0xbd450b=a0_0x3e38,_0x5911f6=global,_0x3f0a01=_0x5911f6['db'][_0xbd450b(0x120)][_0xbd450b(0x126)][_0x57adf9[_0xbd450b(0x123)]]['language'],_0x2af037=JSON[_0xbd450b(0x117)](fs[_0xbd450b(0x122)](_0xbd450b(0x125)+_0x3f0a01+'.json')),_0x35a74d=_0x2af037['plugins']['gc_revoke'],_0x45bd0b=await _0x3e7336[_0xbd450b(0x127)](_0x57adf9['chat']);await _0x3e7336[_0xbd450b(0x11b)](_0x57adf9['chat'],_0x35a74d[_0xbd450b(0x129)]+'\x20'+(_0xbd450b(0x128)+_0x45bd0b),_0x57adf9);};handler[a0_0x375c23(0x119)]=['resetlink','revoke'],handler[a0_0x375c23(0x11f)]=!![],handler['admin']=!![],handler['group']=!![];export default handler;

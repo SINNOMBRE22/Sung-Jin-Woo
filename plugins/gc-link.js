@@ -1,10 +1,1 @@
-let handler = async (m, { conn, args }) => {
-let group = m.chat
-let link = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group)
-conn.reply(m.chat, link, m, {detectLink: true})
-//conn.sendMessage(m.chat, { text: link }, { quoted: m, detectLink: true })
-}
-handler.command = /^link(gro?up)?$/i
-handler.group = true
-handler.botAdmin = true
-export default handler
+const a0_0x3f21db=a0_0x5efb;(function(_0x1ef129,_0x5e03c5){const _0x5cff7c=a0_0x5efb,_0x4cf023=_0x1ef129();while(!![]){try{const _0x181ef7=-parseInt(_0x5cff7c(0x1f5))/0x1+parseInt(_0x5cff7c(0x1f2))/0x2+parseInt(_0x5cff7c(0x1f4))/0x3*(-parseInt(_0x5cff7c(0x1fd))/0x4)+-parseInt(_0x5cff7c(0x1fe))/0x5*(-parseInt(_0x5cff7c(0x1f8))/0x6)+-parseInt(_0x5cff7c(0x1fb))/0x7*(-parseInt(_0x5cff7c(0x1f9))/0x8)+-parseInt(_0x5cff7c(0x1fa))/0x9+parseInt(_0x5cff7c(0x1fc))/0xa;if(_0x181ef7===_0x5e03c5)break;else _0x4cf023['push'](_0x4cf023['shift']());}catch(_0x1d819e){_0x4cf023['push'](_0x4cf023['shift']());}}}(a0_0x164c,0x52cf4));function a0_0x164c(){const _0x47ba91=['7lTqhAU','5480440bmoGOg','20cNSxiv','34415KugPud','command','botAdmin','160330QOkIlP','chat','288309eVXZUx','448407lyCboT','groupInviteCode','https://chat.whatsapp.com/','564Yltqiu','5091616SJHsBo','5791977tgfnLR'];a0_0x164c=function(){return _0x47ba91;};return a0_0x164c();}let handler=async(_0xc49db,{conn:_0x929b55,args:_0x4b5730})=>{const _0xedf3aa=a0_0x5efb;let _0x3a61a2=_0xc49db[_0xedf3aa(0x1f3)],_0x325570=_0xedf3aa(0x1f7)+await _0x929b55[_0xedf3aa(0x1f6)](_0x3a61a2);_0x929b55['reply'](_0xc49db['chat'],_0x325570,_0xc49db,{'detectLink':!![]});};handler[a0_0x3f21db(0x1ff)]=/^link(gro?up)?$/i,handler['group']=!![],handler[a0_0x3f21db(0x1f1)]=!![];function a0_0x5efb(_0x47f325,_0x44d024){const _0x164cfe=a0_0x164c();return a0_0x5efb=function(_0x5efb28,_0x18e725){_0x5efb28=_0x5efb28-0x1f1;let _0x91232e=_0x164cfe[_0x5efb28];return _0x91232e;},a0_0x5efb(_0x47f325,_0x44d024);}export default handler;

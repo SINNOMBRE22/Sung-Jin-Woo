@@ -1,18 +1,1 @@
-
-
-const handler = async (m, {conn, args}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.gc_setdesc
-
-  await conn.groupUpdateDescription(m.chat, `${args.join(' ')}`);
-  m.reply(tradutor.texto1);
-};
-handler.help = ['Setdesc <text>'];
-handler.tags = ['group'];
-handler.command = /^setdesk|setdesc$/i;
-handler.group = true;
-handler.admin = true;
-handler.botAdmin = true;
-export default handler;
+function a0_0x5261(_0x27c4fa,_0x16610d){const _0x14c2d2=a0_0x14c2();return a0_0x5261=function(_0x5261ce,_0x195484){_0x5261ce=_0x5261ce-0x104;let _0x30a132=_0x14c2d2[_0x5261ce];return _0x30a132;},a0_0x5261(_0x27c4fa,_0x16610d);}function a0_0x14c2(){const _0x17a45e=['botAdmin','sender','14017lYdZQj','389472fagwhz','22ZUvNKq','15120ENGxtW','24230JtMbAl','parse','./language/','reply','group','32760NCcyhZ','gc_setdesc','180gfoKIV','chat','plugins','admin','command','readFileSync','.json','join','texto1','data','80erOpaq','help','2455188KhbbCU','1207276hEHPIN','168KeHCBd','8dPIhBI','groupUpdateDescription','users'];a0_0x14c2=function(){return _0x17a45e;};return a0_0x14c2();}const a0_0x372efd=a0_0x5261;(function(_0x3d277b,_0x15731d){const _0x896bcc=a0_0x5261,_0x436eb0=_0x3d277b();while(!![]){try{const _0x131c97=parseInt(_0x896bcc(0x10c))/0x1+parseInt(_0x896bcc(0x10d))/0x2+parseInt(_0x896bcc(0x10f))/0x3*(-parseInt(_0x896bcc(0x121))/0x4)+-parseInt(_0x896bcc(0x115))/0x5*(-parseInt(_0x896bcc(0x106))/0x6)+parseInt(_0x896bcc(0x105))/0x7*(parseInt(_0x896bcc(0x107))/0x8)+-parseInt(_0x896bcc(0x117))/0x9*(-parseInt(_0x896bcc(0x110))/0xa)+parseInt(_0x896bcc(0x10e))/0xb*(-parseInt(_0x896bcc(0x104))/0xc);if(_0x131c97===_0x15731d)break;else _0x436eb0['push'](_0x436eb0['shift']());}catch(_0x392cc0){_0x436eb0['push'](_0x436eb0['shift']());}}}(a0_0x14c2,0x192e3));const handler=async(_0x1dba8a,{conn:_0x8cd7c7,args:_0x3934e6})=>{const _0x38fd16=a0_0x5261,_0x2a13e3=global,_0x383cae=_0x2a13e3['db'][_0x38fd16(0x120)][_0x38fd16(0x109)][_0x1dba8a[_0x38fd16(0x10b)]]['language'],_0x394bf3=JSON[_0x38fd16(0x111)](fs[_0x38fd16(0x11c)](_0x38fd16(0x112)+_0x383cae+_0x38fd16(0x11d))),_0x140b09=_0x394bf3[_0x38fd16(0x119)][_0x38fd16(0x116)];await _0x8cd7c7[_0x38fd16(0x108)](_0x1dba8a[_0x38fd16(0x118)],''+_0x3934e6[_0x38fd16(0x11e)]('\x20')),_0x1dba8a[_0x38fd16(0x113)](_0x140b09[_0x38fd16(0x11f)]);};handler[a0_0x372efd(0x122)]=['Setdesc\x20<text>'],handler['tags']=[a0_0x372efd(0x114)],handler[a0_0x372efd(0x11b)]=/^setdesk|setdesc$/i,handler[a0_0x372efd(0x114)]=!![],handler[a0_0x372efd(0x11a)]=!![],handler[a0_0x372efd(0x10a)]=!![];export default handler;
