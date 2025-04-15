@@ -14,7 +14,7 @@ const handler = async (m, { conn }) => {
   global.db.data.users[m.sender].level = Infinity;
  global.db.data.users[m.sender].exp = Infinity;
 };
-handler.help = ['cheat'];
+handler.help = ['chetar'];
 handler.tags = ['owner'];
 handler.command = /^(ilimitado|infiniy|chetar)$/i;
 handler.rowner = true;

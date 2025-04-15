@@ -7,12 +7,18 @@ let exec = promisify(cp.exec).bind(cp);
 let handler = async (m, command) => {
     global.db.data.users[m.sender].comandos += 1;
 
-    let time = global.db.data.users[m.sender].lastusuario + 30;
-    if (new Date() - global.db.data.users[m.sender].lastusuario < 30) {
-        throw `*⏱️¡Hey! Espera ${msToTime(time - new Date())} para volver a crear un usuario*`;
+    // 1. CORRECCIÓN DE ACCESO AL OWNER (ASUMIENDO QUE ES UN ARRAY)
+    const ownerNumber = global.owner[0][0].replace(/[^0-9]/g, '') + '@s.whatsapp.net'; 
+    const isOwner = m.sender === ownerNumber;
+    
+    // 2. APLICAR RESTRICCIÓN SOLO A NO OWNERS
+    if (!isOwner) {
+        let time = global.db.data.users[m.sender].lastusuario + 259200000;
+        if (new Date() - global.db.data.users[m.sender].lastusuario < 259200000) {
+            throw `*⏱️¡Hey! Espera ${msToTime(time - new Date())} para volver a crear un usuario*`;
+        }
+        global.db.data.users[m.sender].lastusuario = new Date() * 1; // Actualizar solo para no owners
     }
-
-    global.db.data.users[m.sender].comandos += 1;
 
     let who = m.mentionedJid && m.mentionedJid[0]
         ? m.mentionedJid[0]
@@ -22,10 +28,7 @@ let handler = async (m, command) => {
 
     let name = conn.getName(who);
 
-    // Mensaje inicial sin imagen
     await m.reply("💻 𝙎𝙚 𝙘𝙧𝙚𝙖𝙧𝙖 𝙪𝙣 𝙪𝙨𝙪𝙖𝙧𝙞𝙤 𝙍𝙖𝙣𝙙𝙤𝙢, 𝙚𝙨𝙥𝙚𝙧𝙖...");
-
-    global.db.data.users[m.sender].lastusuario = new Date() * 1;
 
     let o;
     try {
@@ -36,8 +39,8 @@ let handler = async (m, command) => {
     } finally {
         let { stdout, stderr } = o;
 
-        // Enviar imagen en el grupo con mensaje final
         let textoFinal = `✅ 𝑪𝑼𝑬𝑵𝑻𝑨 𝑮𝑬𝑵𝑬𝑹𝑨𝑫𝑨
+
 𝑫𝒂𝒕𝒐𝒔 𝒆𝒏𝒗𝒊𝒂𝒅𝒐 𝒆𝒏 𝒑𝒓𝒊𝒗𝒂𝒅𝒐
 
 𝑵𝒐 𝒐𝒍𝒗𝒊𝒅𝒆𝒔 𝒒𝒖𝒆 𝒑𝒖𝒆𝒅𝒆𝒔 𝒉𝒂𝒄𝒆𝒓 𝒕𝒖 𝒅𝒐𝒏𝒂𝒄𝒊𝒐𝒏, 𝒄𝒐𝒏 𝒍𝒂 𝒄𝒖𝒂𝒍 𝒎𝒂𝒏𝒕𝒆𝒏𝒆𝒎𝒐𝒔 𝒆𝒍 𝒃𝒐𝒕 𝒚 𝒔𝒆𝒓𝒗𝒊𝒅𝒐𝒓𝒆𝒔 𝒂𝒄𝒕𝒊𝒗𝒐𝒔. 𝑷𝒂𝒓𝒂 𝒎𝒂́𝒔 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒄𝒊𝒐́𝒏 /𝒅𝒐𝒏𝒂𝒓`;
@@ -51,7 +54,6 @@ let handler = async (m, command) => {
             m
         );
 
-        // Enviar imagen privada con datos generados
         let teks = `${stdout}`;
         let imageBufferPrivate = fs.readFileSync('src/usuarios-demo.png');
         await conn.sendFile(
@@ -84,3 +86,8 @@ function msToTime(duration) {
 
     return days + " día(s) " + hours + " hora(s) " + minutes + " minuto(s)";
 }
+
+
+
+
+

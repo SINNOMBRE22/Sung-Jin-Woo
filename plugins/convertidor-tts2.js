@@ -1,36 +1,37 @@
 /*//////////////////////////////////////////////
 
-        [ ❗ ] CREDITOS - NO MODIFICAR [ ❗ ]
+        [ ❗ ] CREADOR - NO BORRAR [ ❗ ]
 
-           Codigo hecho por @BrunoSobrino
-       Github: https://github.com/BrunoSobrino
-       
-       Nota: Solo hay disponibles efectos en
-       ingles, por lo que el texto en otros
-       idiomas puede sonar raro.
-       
+            Código hecho por @SinNombre
+        Github: https://github.com/SinNombre
+
+        Nota: Los efectos están solo en inglés,
+        así que los textos en otros idiomas
+        pueden sonar extraños.
+
 //////////////////////////////////////////////*/
 
 import axios from 'axios';
 import fetch from 'node-fetch';
+import fs from 'fs';
 
 const handler = async (m, { conn, usedPrefix, command, text, args }) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.convertidor_tts2
-
+  const datas = global;
+  const idioma = datas.db.data.users[m.sender].language;
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`));
+  const tradutor = _translate.plugins.convertidor_tts2;
 
   const [efecto, ...textoArray] = text.split(" ");
-  const texto = textoArray.join("");
+  const texto = textoArray.join(" ");
 
   if (!efecto) {
-    let voiceList = await getVoiceList();
+    let voiceList = await getVoiceList(tradutor);
     let responseText = `*${tradutor.texto1}*\n`;
 
     for (let i = 0, count = 0; count < 100 && i < voiceList.resultado.length; i++) {
       const entry = voiceList.resultado[i];
-      if (entry.ID.length <= 20) {
+      // Verifica que exista entry.ID antes de acceder a su longitud
+      if (entry.ID && entry.ID.length <= 20) {
         responseText += `*◉ ${usedPrefix + command} ${entry.ID} ${tradutor.texto2}*\n`;
         count++;
       }
@@ -40,7 +41,7 @@ const handler = async (m, { conn, usedPrefix, command, text, args }) => {
   }
 
   let efectoValido = false;
-  let voiceList = await getVoiceList();
+  let voiceList = await getVoiceList(tradutor);
   for (const entry of voiceList.resultado) {
     if (entry.ID === efecto) {
       efectoValido = true;
@@ -48,13 +49,28 @@ const handler = async (m, { conn, usedPrefix, command, text, args }) => {
     }
   }
 
-  if (!efectoValido) return conn.sendMessage(m.chat, { text: `*${tradutor.texto3[0]} ${usedPrefix + command} ${tradutor.texto3[1]}*` }, { quoted: m });
+  if (!efectoValido)
+    return conn.sendMessage(
+      m.chat,
+      { text: `*${tradutor.texto3[0]} ${usedPrefix + command} ${tradutor.texto3[1]}*` },
+      { quoted: m }
+    );
 
-  if (!texto) return conn.sendMessage(m.chat, {text: `*${tradutor.texto4[0]}*\n*◉ ${usedPrefix + command} ${efecto} ${tradutor.texto4[1]}*`}, {quoted: m});
+  if (!texto)
+    return conn.sendMessage(
+      m.chat,
+      { text: `*${tradutor.texto4[0]}*\n*◉ ${usedPrefix + command} ${efecto} ${tradutor.texto4[1]}*` },
+      { quoted: m }
+    );
 
-  let masivo = await makeTTSRequest(texto, efecto);
-  conn.sendMessage(m.chat, {audio: {url: masivo.resultado}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  let masivo = await makeTTSRequest(texto, efecto, tradutor);
+  conn.sendMessage(
+    m.chat,
+    { audio: { url: masivo.resultado }, fileName: 'voz.mp3', mimetype: 'audio/mpeg', ptt: true },
+    { quoted: m }
+  );
 };
+
 handler.help = ['gtts2'];
 handler.tags = ['convertidores'];
 handler.command = /^(g?tts2)$/i;
@@ -63,7 +79,7 @@ export default handler;
 const secretKey = 'fe2ee40099494579af0ecf871b5af266';
 const userId = 'SrgwcKcLzSY63IdsAxd1PzscFjL2';
 
-async function getVoiceList() {
+async function getVoiceList(tradutor) {
   const url = 'https://play.ht/api/v2/voices';
   const options = {
     method: 'GET',
@@ -87,16 +103,16 @@ async function getVoiceList() {
       name: entry.name,
       lenguaje: entry.language  
     }));
-    return { resultado: simplifiedList ? simplifiedList : `${tradutor.texto5}` };
+    // Devuelve la lista simplificada, o un array vacío si no hay datos
+    return { resultado: simplifiedList.length ? simplifiedList : [] };
   } catch (error) {
     console.error('Error:', error);
-    return { resultado: `${tradutor.texto6}` };
-    throw error;
+    return { resultado: [] };
   }
 }
 
-async function makeTTSRequest(texto, efecto) {
-  const requestData = {text: texto, voice: efecto};
+async function makeTTSRequest(texto, efecto, tradutor) {
+  const requestData = { text: texto, voice: efecto };
   const headers = {
     'Authorization': `Bearer ${secretKey}`,
     'X-User-Id': userId,
