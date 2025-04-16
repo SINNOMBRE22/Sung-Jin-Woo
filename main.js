@@ -1,1 +1,559 @@
-const a0_0x4fc0b5=a0_0x93e6;(function(_0x435ca8,_0x137696){const _0xe87990=a0_0x93e6,_0x7c6e32=_0x435ca8();while(!![]){try{const _0x3eaef2=parseInt(_0xe87990(0x140))/0x1+parseInt(_0xe87990(0x134))/0x2+parseInt(_0xe87990(0x127))/0x3*(parseInt(_0xe87990(0x104))/0x4)+parseInt(_0xe87990(0x132))/0x5+parseInt(_0xe87990(0xf3))/0x6*(-parseInt(_0xe87990(0xf5))/0x7)+-parseInt(_0xe87990(0x13b))/0x8*(parseInt(_0xe87990(0x14e))/0x9)+-parseInt(_0xe87990(0x172))/0xa*(parseInt(_0xe87990(0x17c))/0xb);if(_0x3eaef2===_0x137696)break;else _0x7c6e32['push'](_0x7c6e32['shift']());}catch(_0x1053a0){_0x7c6e32['push'](_0x7c6e32['shift']());}}}(a0_0x5f3f,0x26e8e),process[a0_0x4fc0b5(0x14b)][a0_0x4fc0b5(0x171)]='1');import'./config.js';import'./api.js';import{createRequire}from'module';import a0_0x2da742,{join}from'path';import{fileURLToPath,pathToFileURL}from'url';import{platform}from'process';import*as a0_0x2fab6b from'ws';function a0_0x93e6(_0x1f2391,_0x3c2193){const _0x5f3f47=a0_0x5f3f();return a0_0x93e6=function(_0x93e6bc,_0x1a6320){_0x93e6bc=_0x93e6bc-0xc3;let _0x5aa8f1=_0x5f3f47[_0x93e6bc];return _0x5aa8f1;},a0_0x93e6(_0x1f2391,_0x3c2193);}import{readdirSync,statSync,unlinkSync,existsSync,readFileSync,rmSync,watch}from'fs';import a0_0x276f33 from'yargs';function a0_0x5f3f(){const _0x104625=['silent','localeCompare','./server.js','includes','write','21303bUcVLd','credsUpdate','chatgpt','badSession','sIcon','@whiskeysockets/baileys','d\x20️','onCall','PORT','database.json','*[\x20ℹ️\x20]\x20@user\x20Fue\x20degradado\x20de\x20administrador.*','33170pQQjxg','error','180336gTTWvd','uncaughtException','[\x20❗\x20]\x20Por\x20favor,\x20seleccione\x20solo\x201\x20o\x202.\x0a','yellow','warn','default','sSubject','64jVSGJw','connectionLost','@g.us','bgGreen','fromEntries','215264GRqMKt','statusCode','autocleartmp','yellowBright','pre-key-','slice','__dirname','-loglevel','loadMessage','jadibts','loggedOut','env','conn','videoListXXX','121716eoQZEf','red','[\x20ℹ️\x20]\x20Escanea\x20el\x20código\x20QR.','SERVER_PORT','spawn','isFile','./handler.js?update=','removeAllListeners','green','filter','connectionUpdate','question','stopped','remoteJid','/creds.json','read','--version','find','[\x20⚠\x20]\x20Conexión\x20cerrada,\x20reconectando...','Ubuntu','module','chain','loadDatabase','off','forEach','close','user','*[\x20ℹ️\x20]\x20El\x20enlace\x20de\x20invitación\x20al\x20grupo\x20ha\x20sido\x20restablecido.*','data','./plugins/index','reset','No\x20se\x20puede\x20usar\x20un\x20código\x20de\x20emparejamiento\x20con\x20la\x20API\x20móvil','handler','stdout','open','NODE_TLS_REJECT_UNAUTHORIZED','230nEyNVi','[\x20Sung\x20JinWoo\x20]\x20Uptime:\x20','log','freeze','support','DATABASE','entries','logger','sRevoke','authFile','31834xzkUVg','floor','padStart','./jadibts/','tmpdir','[\x20ℹ️\x20]\x20Conectado\x20correctamente.','fatal','requestPairingCode','participantsUpdate','groupsUpdate','*/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\x5c-.@','Chrome','bind','test','[\x20⚠\x20]\x20Conexión\x20replazada,\x20Por\x20favor\x20espere\x20un\x20momento\x20me\x20voy\x20a\x20reiniciar...\x0aSi\x20aparecen\x20error\x20vuelve\x20a\x20iniciar\x20con\x20:\x20npm\x20start','map','reloadHandler','uptime','loadChatgptDB','restartRequired','Archivo\x20','__filename','push','welcome','info','callUpdate','connectionClosed','endsWith','connection.update','👋\x20¡Hasta\x20luego!\x0a@user','mtimeMs','keys','👋\x20¡Bienvenido/a!\x0a@user','[\x20⚠\x20]\x20Conexión\x20perdida\x20con\x20el\x20servidor,\x20reconectando...','error\x20require\x20plugin\x20\x27','[\x20⚠\x20]\x20Conexion\x20cerrada,\x20por\x20favor\x20elimina\x20la\x20carpeta\x20','authState','message.delete','replace','Safari','-type','startsWith','*[\x20ℹ️\x20]\x20El\x20nombre\x20del\x20grupo\x20ha\x20sido\x20modificado.*','\x20updated\x20plugin\x20-\x20\x27','isDirectory','creds.update','now','APIs','redBright','timestamp','bold','isInit','\x20no\x20borrado','black','chats','Comience\x20con\x20el\x20código\x20de\x20país\x20de\x20su\x20número\x20de\x20WhatsApp.\x0aEjemplo:\x20+5212961003000\x0a','convert','parse','reload','match','onDelete','spromote','[\x20⚠\x20]\x20Razón\x20de\x20desconexión\x20desconocida.\x20','./Jinwoosesion','ffmpeg','mobile','magick','url','isChats','\x5c$&','argv','[\x20ℹ️\x20]\x20Seleccione\x20una\x20opción:\x0a1.\x20Con\x20código\x20QR\x0a2.\x20Con\x20código\x20de\x20texto\x20de\x208\x20dígitos\x0a--->\x20','READ','output','plugins','connect','288810rMpABV','exit','35CmyOHR','Por\x20favor,\x20escriba\x20su\x20número\x20de\x20WhatsApp.\x0aEjemplo:\x20+5212961000000.\x0a','-filter_complex','call','./Jinwoosesion/','deleteUpdate','[\x20⚠\x20]\x20Sesión\x20incorrecta,\x20por\x20favor\x20elimina\x20la\x20carpeta\x20','Sung\x20Jin-Woo','creds.json','bye','length','[\x20ℹ️\x20]\x20Algo\x20salio\x20mal\x20durante\x20la\x20eliminación,\x20archivos\x20no\x20eliminados','videoList','send','existsSync','148lectSf','APIKeys','[\x20⚠\x20]\x20Conexión\x20reemplazada,\x20se\x20ha\x20abierto\x20otra\x20nueva\x20sesión.\x20Por\x20favor,\x20cierra\x20la\x20sesión\x20actual\x20primero.','some','[\x20ℹ️\x20]\x20introduce\x20el\x20código\x20de\x20emparejamiento\x20en\x20WhatsApp.','socket','race','creds','catch','-delete','prefix','deleted\x20plugin\x20-\x20\x27','20.0.04','payload','2.0.0','all','join','[\x20⚠\x20]\x20Reinicio\x20necesario,\x20reinicie\x20el\x20servidor\x20si\x20presenta\x20algún\x20problema.','./handler.js','messages.upsert','opts','Por\x20favor,\x20escriba\x20su\x20número\x20de\x20WhatsApp.\x0aEjemplo:\x20+5212961000000\x0a','win32','\x20y\x20escanea\x20nuevamente.','server','dirname','groups.update','*[\x20ℹ️\x20]\x20@user\x20Fue\x20promovido\x20a\x20administrador.*','Jinwoosesion','./tmp'];a0_0x5f3f=function(){return _0x104625;};return a0_0x5f3f();}import{spawn}from'child_process';import a0_0x306cf6 from'lodash';import a0_0xe420c3 from'chalk';import a0_0x1dd153 from'syntax-error';import{tmpdir}from'os';import{format}from'util';import a0_0x495fe4 from'pino';import a0_0xf23429 from'pino';import a0_0x2535fa from'pino';import{Boom}from'@hapi/boom';import{makeWASocket,protoType,serialize}from'./lib/simple.js';import{Low,JSONFile}from'lowdb';import{mongoDB,mongoDBV2}from'./lib/mongoDB.js';import a0_0x175a6a from'./lib/store.js';const {proto}=(await import(a0_0x4fc0b5(0x12c)))[a0_0x4fc0b5(0x139)],{DisconnectReason,useMultiFileAuthState,MessageRetryMap,fetchLatestBaileysVersion,makeCacheableSignalKeyStore,jidNormalizedUser,PHONENUMBER_MCC}=await import('@whiskeysockets/baileys');import a0_0xe03c8c from'readline';import a0_0x1ea5ab from'node-cache';const {CONNECTING}=a0_0x2fab6b,{chain}=a0_0x306cf6,PORT=process[a0_0x4fc0b5(0x14b)][a0_0x4fc0b5(0x12f)]||process['env'][a0_0x4fc0b5(0x151)]||0xbb8;protoType(),serialize(),global[a0_0x4fc0b5(0x191)]=function filename(_0x250a29=import.meta[a0_0x4fc0b5(0xea)],_0x2e9bc2=platform!==a0_0x4fc0b5(0x11a)){return _0x2e9bc2?/file:\/\/\//['test'](_0x250a29)?fileURLToPath(_0x250a29):_0x250a29:pathToFileURL(_0x250a29)['toString']();},global[a0_0x4fc0b5(0x146)]=function dirname(_0x598511){const _0x2d60fb=a0_0x4fc0b5;return a0_0x2da742[_0x2d60fb(0x11d)](global[_0x2d60fb(0x191)](_0x598511,!![]));},global['__require']=function require(_0x31fb54=import.meta[a0_0x4fc0b5(0xea)]){return createRequire(_0x31fb54);},global['API']=(_0xbeef8,_0x37ffce='/',_0x99cbf9={},_0x19943a)=>(_0xbeef8 in global[a0_0x4fc0b5(0xd6)]?global['APIs'][_0xbeef8]:_0xbeef8)+_0x37ffce+(_0x99cbf9||_0x19943a?'?'+new URLSearchParams(Object[a0_0x4fc0b5(0x178)]({..._0x99cbf9,..._0x19943a?{[_0x19943a]:global[a0_0x4fc0b5(0x105)][_0xbeef8 in global[a0_0x4fc0b5(0xd6)]?global[a0_0x4fc0b5(0xd6)][_0xbeef8]:_0xbeef8]}:{}})):''),global[a0_0x4fc0b5(0xd8)]={'start':new Date()},global[a0_0x4fc0b5(0x101)]=[],global[a0_0x4fc0b5(0x14d)]=[];const __dirname=global['__dirname'](import.meta[a0_0x4fc0b5(0xea)]);global[a0_0x4fc0b5(0x118)]=new Object(a0_0x276f33(process[a0_0x4fc0b5(0xed)][a0_0x4fc0b5(0x145)](0x2))['exitProcess'](![])[a0_0x4fc0b5(0xe0)]()),global[a0_0x4fc0b5(0x10e)]=new RegExp('^['+(opts[a0_0x4fc0b5(0x10e)]||a0_0x4fc0b5(0x186))[a0_0x4fc0b5(0xcd)](/[|\\{}()[\]^$+*?.\-\^]/g,a0_0x4fc0b5(0xec))+']'),global['db']=new Low(/https?:\/\//[a0_0x4fc0b5(0x189)](opts['db']||'')?new cloudDBAdapter(opts['db']):new JSONFile((opts['_'][0x0]?opts['_'][0x0]+'_':'')+a0_0x4fc0b5(0x130))),global[a0_0x4fc0b5(0x177)]=global['db'],global['loadDatabase']=async function loadDatabase(){const _0x55c6ef=a0_0x4fc0b5;if(global['db'][_0x55c6ef(0xef)])return new Promise(_0x36b95c=>setInterval(async function(){const _0x4ce4ef=_0x55c6ef;!global['db'][_0x4ce4ef(0xef)]&&(clearInterval(this),_0x36b95c(global['db'][_0x4ce4ef(0x16a)]==null?global[_0x4ce4ef(0x164)]():global['db'][_0x4ce4ef(0x16a)]));},0x1*0x3e8));if(global['db'][_0x55c6ef(0x16a)]!==null)return;global['db'][_0x55c6ef(0xef)]=!![],await global['db'][_0x55c6ef(0x15d)]()[_0x55c6ef(0x10c)](console[_0x55c6ef(0x133)]),global['db']['READ']=null,global['db']['data']={'users':{},'chats':{},'stats':{},'msgs':{},'sticker':{},'settings':{},...global['db']['data']||{}},global['db']['chain']=chain(global['db'][_0x55c6ef(0x16a)]);},loadDatabase(),global['chatgpt']=new Low(new JSONFile(a0_0x2da742[a0_0x4fc0b5(0x114)](__dirname,'/db/chatgpt.json'))),global[a0_0x4fc0b5(0x18e)]=async function loadChatgptDB(){const _0x1addab=a0_0x4fc0b5;if(global[_0x1addab(0x129)]['READ'])return new Promise(_0x2fcb4a=>setInterval(async function(){const _0x513d1a=_0x1addab;!global[_0x513d1a(0x129)][_0x513d1a(0xef)]&&(clearInterval(this),_0x2fcb4a(global[_0x513d1a(0x129)][_0x513d1a(0x16a)]===null?global['loadChatgptDB']():global[_0x513d1a(0x129)]['data']));},0x1*0x3e8));if(global[_0x1addab(0x129)][_0x1addab(0x16a)]!==null)return;global[_0x1addab(0x129)][_0x1addab(0xef)]=!![],await global['chatgpt']['read']()[_0x1addab(0x10c)](console[_0x1addab(0x133)]),global[_0x1addab(0x129)][_0x1addab(0xef)]=null,global[_0x1addab(0x129)][_0x1addab(0x16a)]={'users':{},...global[_0x1addab(0x129)][_0x1addab(0x16a)]||{}},global[_0x1addab(0x129)][_0x1addab(0x163)]=a0_0x306cf6['chain'](global[_0x1addab(0x129)][_0x1addab(0x16a)]);},loadChatgptDB(),global['authFile']=a0_0x4fc0b5(0x120);const {state,saveState,saveCreds}=await useMultiFileAuthState(global['authFile']),msgRetryCounterMap=_0x4afb90=>{},msgRetryCounterCache=new a0_0x1ea5ab(),{version}=await fetchLatestBaileysVersion();let phoneNumber=global['botnumber'];const methodCodeQR=process[a0_0x4fc0b5(0xed)][a0_0x4fc0b5(0x125)]('qr'),methodCode=!!phoneNumber||process[a0_0x4fc0b5(0xed)][a0_0x4fc0b5(0x125)]('code'),MethodMobile=process[a0_0x4fc0b5(0xed)]['includes'](a0_0x4fc0b5(0xe8)),rl=a0_0xe03c8c['createInterface']({'input':process['stdin'],'output':process[a0_0x4fc0b5(0x16f)]}),question=_0x142337=>new Promise(_0x108560=>rl[a0_0x4fc0b5(0x159)](_0x142337,_0x108560));let opcion;methodCodeQR&&(opcion='1');if(!methodCodeQR&&!methodCode&&!fs[a0_0x4fc0b5(0x103)]('./'+authFile+a0_0x4fc0b5(0x15c)))do{let lineM='⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20》';opcion=await question(a0_0x4fc0b5(0xee)),!/^[1-2]$/[a0_0x4fc0b5(0x189)](opcion)&&console[a0_0x4fc0b5(0x174)](a0_0x4fc0b5(0x136));}while(opcion!=='1'&&opcion!=='2'||fs['existsSync']('./'+authFile+'/creds.json'));console[a0_0x4fc0b5(0x194)]=()=>{};const connectionOptions={'logger':a0_0xf23429({'level':a0_0x4fc0b5(0x122)}),'printQRInTerminal':opcion=='1'?!![]:methodCodeQR?!![]:![],'mobile':MethodMobile,'browser':opcion=='1'?[a0_0x4fc0b5(0xfc),a0_0x4fc0b5(0xce),a0_0x4fc0b5(0x112)]:methodCodeQR?[a0_0x4fc0b5(0xfc),a0_0x4fc0b5(0xce),a0_0x4fc0b5(0x112)]:[a0_0x4fc0b5(0x161),a0_0x4fc0b5(0x187),a0_0x4fc0b5(0x110)],'auth':{'creds':state['creds'],'keys':makeCacheableSignalKeyStore(state[a0_0x4fc0b5(0xc6)],a0_0x2535fa({'level':a0_0x4fc0b5(0x182)})['child']({'level':a0_0x4fc0b5(0x182)}))},'markOnlineOnConnect':!![],'generateHighQualityLinkPreview':!![],'getMessage':async _0x464d32=>{const _0x4bddc4=a0_0x4fc0b5;let _0x38f962=jidNormalizedUser(_0x464d32[_0x4bddc4(0x15b)]),_0x159aec=await a0_0x175a6a[_0x4bddc4(0x148)](_0x38f962,_0x464d32['id']);return _0x159aec?.['message']||'';},'msgRetryCounterCache':msgRetryCounterCache,'msgRetryCounterMap':msgRetryCounterMap,'defaultQueryTimeoutMs':undefined,'version':version};global[a0_0x4fc0b5(0x14c)]=makeWASocket(connectionOptions);if(!fs['existsSync']('./'+authFile+a0_0x4fc0b5(0x15c))){if(opcion==='2'||methodCode){opcion='2';if(!conn[a0_0x4fc0b5(0xcb)][a0_0x4fc0b5(0x10b)]['registered']){if(MethodMobile)throw new Error(a0_0x4fc0b5(0x16d));let numeroTelefono;if(!!phoneNumber)numeroTelefono=phoneNumber['replace'](/[^0-9]/g,''),!Object[a0_0x4fc0b5(0xc6)](PHONENUMBER_MCC)['some'](_0x52e662=>numeroTelefono['startsWith'](_0x52e662))&&(console[a0_0x4fc0b5(0x174)](a0_0xe420c3['bgBlack'](a0_0xe420c3[a0_0x4fc0b5(0xd9)][a0_0x4fc0b5(0xd7)](a0_0x4fc0b5(0xde)))),process[a0_0x4fc0b5(0xf4)](0x0));else{while(!![]){numeroTelefono=await question(a0_0xe420c3['bgBlack'](a0_0xe420c3[a0_0x4fc0b5(0xd9)][a0_0x4fc0b5(0x143)](a0_0x4fc0b5(0x119)))),numeroTelefono=numeroTelefono[a0_0x4fc0b5(0xcd)](/[^0-9]/g,'');if(numeroTelefono['match'](/^\d+$/)&&Object[a0_0x4fc0b5(0xc6)](PHONENUMBER_MCC)[a0_0x4fc0b5(0x107)](_0x21d135=>numeroTelefono[a0_0x4fc0b5(0xd0)](_0x21d135)))break;else console['log'](a0_0xe420c3['bgBlack'](a0_0xe420c3[a0_0x4fc0b5(0xd9)][a0_0x4fc0b5(0xd7)](a0_0x4fc0b5(0xf6))));}rl['close']();}setTimeout(async()=>{const _0x1e97fd=a0_0x4fc0b5;let _0x250b3a=await conn[_0x1e97fd(0x183)](numeroTelefono);_0x250b3a=_0x250b3a?.[_0x1e97fd(0xe2)](/.{1,4}/g)?.['join']('-')||_0x250b3a,console[_0x1e97fd(0x174)](a0_0xe420c3[_0x1e97fd(0x137)](_0x1e97fd(0x108))),console[_0x1e97fd(0x174)](a0_0xe420c3[_0x1e97fd(0xdc)](a0_0xe420c3[_0x1e97fd(0x13e)]('Su\x20código\x20de\x20emparejamiento:\x20')),a0_0xe420c3[_0x1e97fd(0xdc)](a0_0xe420c3['white'](_0x250b3a)));},0xbb8);}}}conn['isInit']=![],conn['well']=![],conn[a0_0x4fc0b5(0x179)][a0_0x4fc0b5(0x194)]('[\x20ℹ️\x20]\x20Cargando...\x0a');!opts[a0_0x4fc0b5(0x189)]&&(global['db']&&setInterval(async()=>{const _0x453800=a0_0x4fc0b5;if(global['db'][_0x453800(0x16a)])await global['db'][_0x453800(0x126)]();if(opts[_0x453800(0x142)]&&(global['support']||{})['find'])tmp=[os[_0x453800(0x180)](),'tmp',_0x453800(0x149)],tmp[_0x453800(0x166)](_0x16fed4=>cp[_0x453800(0x152)](_0x453800(0x15f),[_0x16fed4,'-amin','3',_0x453800(0xcf),'f',_0x453800(0x10d)]));},0x1e*0x3e8));if(opts[a0_0x4fc0b5(0x11c)])(await import(a0_0x4fc0b5(0x124)))['default'](global[a0_0x4fc0b5(0x14c)],PORT);function clearTmp(){const _0x50b0da=a0_0x4fc0b5,_0x123b46=[join(__dirname,_0x50b0da(0x121))],_0x137f89=[];return _0x123b46[_0x50b0da(0x166)](_0x29fd75=>readdirSync(_0x29fd75)[_0x50b0da(0x166)](_0x158a38=>_0x137f89[_0x50b0da(0x192)](join(_0x29fd75,_0x158a38)))),_0x137f89['map'](_0x1b88be=>{const _0x1683c4=_0x50b0da,_0x133df2=statSync(_0x1b88be);if(_0x133df2[_0x1683c4(0x153)]()&&Date['now']()-_0x133df2[_0x1683c4(0xc5)]>=0x3e8*0x3c*0x3)return unlinkSync(_0x1b88be);return![];});}function purgeSession(){const _0x5576c4=a0_0x4fc0b5;let _0x28b5cb=[],_0x1dd889=readdirSync(_0x5576c4(0xe6)),_0x5500cf=_0x1dd889[_0x5576c4(0x157)](_0x2b6ed4=>{const _0x10a391=_0x5576c4;return _0x2b6ed4[_0x10a391(0xd0)](_0x10a391(0x144));});_0x28b5cb=[..._0x28b5cb,..._0x5500cf],_0x5500cf[_0x5576c4(0x166)](_0x54a27d=>{const _0xa39d90=_0x5576c4;unlinkSync(_0xa39d90(0xf9)+_0x54a27d);});}function purgeSessionSB(){const _0x555d33=a0_0x4fc0b5;try{let _0x5cf9d0=readdirSync('./jadibts/'),_0x1202d4=[];_0x5cf9d0[_0x555d33(0x166)](_0xb54efb=>{const _0x5a2a0a=_0x555d33;if(statSync(_0x5a2a0a(0x17f)+_0xb54efb)[_0x5a2a0a(0xd3)]()){let _0x2b6b2a=readdirSync(_0x5a2a0a(0x17f)+_0xb54efb)[_0x5a2a0a(0x157)](_0x1e2767=>{const _0x2538fc=_0x5a2a0a;return _0x1e2767[_0x2538fc(0xd0)]('pre-key-');});_0x1202d4=[..._0x1202d4,..._0x2b6b2a],_0x2b6b2a[_0x5a2a0a(0x166)](_0xd185ce=>{const _0x1331fb=_0x5a2a0a;unlinkSync(_0x1331fb(0x17f)+_0xb54efb+'/'+_0xd185ce);});}});if(_0x1202d4[_0x555d33(0xff)]===0x0)return;}catch(_0x293281){console[_0x555d33(0x174)](a0_0xe420c3[_0x555d33(0xd9)][_0x555d33(0x14f)](_0x555d33(0x100)));}}function purgeOldFiles(){const _0x1d2559=a0_0x4fc0b5,_0xaef247=[_0x1d2559(0xf9),_0x1d2559(0x17f)],_0x5cc0b4=Date[_0x1d2559(0xd5)]()-0x3c*0x3c*0x3e8;_0xaef247['forEach'](_0x49b74f=>{readdirSync(_0x49b74f,(_0x155bc9,_0x548319)=>{if(_0x155bc9)throw _0x155bc9;_0x548319['forEach'](_0x5f5aac=>{const _0x2cc8da=a0_0x93e6,_0x34662f=a0_0x2da742[_0x2cc8da(0x114)](_0x49b74f,_0x5f5aac);stat(_0x34662f,(_0x426a23,_0x3ca3ec)=>{const _0x5b9ddc=_0x2cc8da;if(_0x426a23)throw _0x426a23;_0x3ca3ec['isFile']()&&_0x3ca3ec[_0x5b9ddc(0xc5)]<_0x5cc0b4&&_0x5f5aac!==_0x5b9ddc(0xfd)?unlinkSync(_0x34662f,_0x32f5f3=>{const _0x20e1a3=_0x5b9ddc;if(_0x32f5f3)throw _0x32f5f3;console[_0x20e1a3(0x174)](a0_0xe420c3['bold'][_0x20e1a3(0x156)](_0x20e1a3(0x190)+_0x5f5aac+'\x20borrado\x20con\x20éxito'));}):console[_0x5b9ddc(0x174)](a0_0xe420c3[_0x5b9ddc(0xd9)][_0x5b9ddc(0x14f)](_0x5b9ddc(0x190)+_0x5f5aac+_0x5b9ddc(0xdb)+_0x426a23));});});});});}async function connectionUpdate(_0x457ef8){const _0x37ca04=a0_0x4fc0b5,{connection:_0x142a40,lastDisconnect:_0x2ec27d,isNewLogin:_0x3a944d}=_0x457ef8;global[_0x37ca04(0x15a)]=_0x142a40;if(_0x3a944d)conn[_0x37ca04(0xda)]=!![];const _0x4fd651=_0x2ec27d?.[_0x37ca04(0x133)]?.[_0x37ca04(0xf0)]?.['statusCode']||_0x2ec27d?.[_0x37ca04(0x133)]?.['output']?.[_0x37ca04(0x111)]?.[_0x37ca04(0x141)];_0x4fd651&&_0x4fd651!==DisconnectReason[_0x37ca04(0x14a)]&&conn?.['ws'][_0x37ca04(0x109)]==null&&(await global[_0x37ca04(0x18c)](!![])['catch'](console['error']),global[_0x37ca04(0xd8)][_0x37ca04(0xf2)]=new Date());if(global['db'][_0x37ca04(0x16a)]==null)loadDatabase();(_0x457ef8['qr']!=0x0&&_0x457ef8['qr']!=undefined||methodCodeQR)&&((opcion=='1'||methodCodeQR)&&console[_0x37ca04(0x174)](a0_0xe420c3[_0x37ca04(0x137)](_0x37ca04(0x150))));_0x142a40==_0x37ca04(0x170)&&console['log'](a0_0xe420c3[_0x37ca04(0x137)](_0x37ca04(0x181)));let _0x2549a1=new Boom(_0x2ec27d?.[_0x37ca04(0x133)])?.[_0x37ca04(0xf0)]?.[_0x37ca04(0x141)];_0x2549a1==0x195&&(await fs['unlinkSync']('./Jinwoosesion/'+'creds.json'),console[_0x37ca04(0x174)](a0_0xe420c3[_0x37ca04(0xd9)][_0x37ca04(0xd7)](_0x37ca04(0x18a))),process[_0x37ca04(0x102)](_0x37ca04(0x16c)));if(_0x142a40===_0x37ca04(0x167)){if(_0x2549a1===DisconnectReason[_0x37ca04(0x12a)])conn[_0x37ca04(0x179)]['error'](_0x37ca04(0xfb)+global['authFile']+_0x37ca04(0x11b));else{if(_0x2549a1===DisconnectReason[_0x37ca04(0x196)])conn['logger'][_0x37ca04(0x138)](_0x37ca04(0x160)),await global['reloadHandler'](!![])[_0x37ca04(0x10c)](console[_0x37ca04(0x133)]);else{if(_0x2549a1===DisconnectReason[_0x37ca04(0x13c)])conn['logger'][_0x37ca04(0x138)](_0x37ca04(0xc8)),await global[_0x37ca04(0x18c)](!![])[_0x37ca04(0x10c)](console['error']);else{if(_0x2549a1===DisconnectReason['connectionReplaced'])conn[_0x37ca04(0x179)][_0x37ca04(0x133)](_0x37ca04(0x106));else{if(_0x2549a1===DisconnectReason[_0x37ca04(0x14a)])conn[_0x37ca04(0x179)][_0x37ca04(0x133)](_0x37ca04(0xca)+global[_0x37ca04(0x17b)]+_0x37ca04(0x11b));else{if(_0x2549a1===DisconnectReason[_0x37ca04(0x18f)])conn['logger'][_0x37ca04(0x194)](_0x37ca04(0x115)),await global['reloadHandler'](!![])[_0x37ca04(0x10c)](console[_0x37ca04(0x133)]);else _0x2549a1===DisconnectReason['timedOut']?(conn[_0x37ca04(0x179)]['warn']('[\x20⚠\x20]\x20Tiempo\x20de\x20conexión\x20agotado,\x20reconectando...'),await global['reloadHandler'](!![])[_0x37ca04(0x10c)](console[_0x37ca04(0x133)])):(conn['logger'][_0x37ca04(0x138)](_0x37ca04(0xe5)+(_0x2549a1||'')+':\x20'+(_0x142a40||'')),await global[_0x37ca04(0x18c)](!![])[_0x37ca04(0x10c)](console[_0x37ca04(0x133)]));}}}}}}}process['on'](a0_0x4fc0b5(0x135),console[a0_0x4fc0b5(0x133)]);let isInit=!![],handler=await import(a0_0x4fc0b5(0x116));global[a0_0x4fc0b5(0x18c)]=async function(_0x235b9e){const _0x1879fd=a0_0x4fc0b5;try{const _0x3e65c5=await import(_0x1879fd(0x154)+Date[_0x1879fd(0xd5)]())['catch'](console[_0x1879fd(0x133)]);if(Object[_0x1879fd(0xc6)](_0x3e65c5||{})['length'])handler=_0x3e65c5;}catch(_0x1ffea7){console[_0x1879fd(0x133)](_0x1ffea7);}if(_0x235b9e){const _0x87d55f=global[_0x1879fd(0x14c)][_0x1879fd(0xdd)];try{global['conn']['ws'][_0x1879fd(0x167)]();}catch{}conn['ev'][_0x1879fd(0x155)](),global[_0x1879fd(0x14c)]=makeWASocket(connectionOptions,{'chats':_0x87d55f}),isInit=!![];}!isInit&&(conn['ev'][_0x1879fd(0x165)](_0x1879fd(0x117),conn[_0x1879fd(0x16e)]),conn['ev'][_0x1879fd(0x165)]('group-participants.update',conn[_0x1879fd(0x184)]),conn['ev']['off'](_0x1879fd(0x11e),conn['groupsUpdate']),conn['ev'][_0x1879fd(0x165)](_0x1879fd(0xcc),conn[_0x1879fd(0xe3)]),conn['ev'][_0x1879fd(0x165)](_0x1879fd(0xf8),conn[_0x1879fd(0x12e)]),conn['ev'][_0x1879fd(0x165)]('connection.update',conn[_0x1879fd(0x158)]),conn['ev'][_0x1879fd(0x165)]('creds.update',conn[_0x1879fd(0x128)]));conn[_0x1879fd(0x193)]=_0x1879fd(0xc7),conn[_0x1879fd(0xfe)]=_0x1879fd(0xc4),conn[_0x1879fd(0xe4)]=_0x1879fd(0x11f),conn['sdemote']=_0x1879fd(0x131),conn['sDesc']='*[\x20ℹ️\x20]\x20La\x20descripción\x20del\x20grupo\x20ha\x20sido\x20modificada.*',conn[_0x1879fd(0x13a)]=_0x1879fd(0xd1),conn[_0x1879fd(0x12b)]='*[\x20ℹ️\x20]\x20Se\x20ha\x20cambiado\x20la\x20foto\x20de\x20perfil\x20del\x20grupo.*',conn[_0x1879fd(0x17a)]=_0x1879fd(0x169),conn[_0x1879fd(0x16e)]=handler[_0x1879fd(0x16e)][_0x1879fd(0x188)](global['conn']),conn[_0x1879fd(0x184)]=handler[_0x1879fd(0x184)][_0x1879fd(0x188)](global[_0x1879fd(0x14c)]),conn[_0x1879fd(0x185)]=handler[_0x1879fd(0x185)]['bind'](global[_0x1879fd(0x14c)]),conn[_0x1879fd(0xe3)]=handler[_0x1879fd(0xfa)]['bind'](global[_0x1879fd(0x14c)]),conn[_0x1879fd(0x12e)]=handler[_0x1879fd(0x195)][_0x1879fd(0x188)](global[_0x1879fd(0x14c)]),conn[_0x1879fd(0x158)]=connectionUpdate[_0x1879fd(0x188)](global['conn']),conn[_0x1879fd(0x128)]=saveCreds[_0x1879fd(0x188)](global[_0x1879fd(0x14c)],!![]);const _0x40ec43=new Date(),_0x1f98ee=new Date(conn['ev']);if(_0x40ec43>=_0x1f98ee){const _0x2f66c2=Object[_0x1879fd(0x178)](conn[_0x1879fd(0xdd)])[_0x1879fd(0x157)](([_0x5bedd0,_0x4d76e9])=>!_0x5bedd0[_0x1879fd(0x197)](_0x1879fd(0x13d))&&_0x4d76e9[_0x1879fd(0xeb)])[_0x1879fd(0x18b)](_0x20dc53=>_0x20dc53[0x0]);}else{const _0x4e8423=Object['entries'](conn[_0x1879fd(0xdd)])[_0x1879fd(0x157)](([_0x5abe21,_0x2d2b10])=>!_0x5abe21[_0x1879fd(0x197)](_0x1879fd(0x13d))&&_0x2d2b10['isChats'])['map'](_0x137271=>_0x137271[0x0]);}return conn['ev']['on'](_0x1879fd(0x117),conn[_0x1879fd(0x16e)]),conn['ev']['on']('group-participants.update',conn[_0x1879fd(0x184)]),conn['ev']['on'](_0x1879fd(0x11e),conn[_0x1879fd(0x185)]),conn['ev']['on'](_0x1879fd(0xcc),conn['onDelete']),conn['ev']['on'](_0x1879fd(0xf8),conn[_0x1879fd(0x12e)]),conn['ev']['on'](_0x1879fd(0xc3),conn['connectionUpdate']),conn['ev']['on'](_0x1879fd(0xd4),conn[_0x1879fd(0x128)]),isInit=![],!![];};const pluginFolder=global[a0_0x4fc0b5(0x146)](join(__dirname,a0_0x4fc0b5(0x16b))),pluginFilter=_0x4d1a8c=>/\.js$/[a0_0x4fc0b5(0x189)](_0x4d1a8c);global[a0_0x4fc0b5(0xf1)]={};async function filesInit(){const _0x3758d4=a0_0x4fc0b5;for(const _0x20d0b0 of readdirSync(pluginFolder)[_0x3758d4(0x157)](pluginFilter)){try{const _0x5161f3=global[_0x3758d4(0x191)](join(pluginFolder,_0x20d0b0)),_0x19cc8e=await import(_0x5161f3);global['plugins'][_0x20d0b0]=_0x19cc8e[_0x3758d4(0x139)]||_0x19cc8e;}catch(_0x471761){conn[_0x3758d4(0x179)][_0x3758d4(0x133)](_0x471761),delete global[_0x3758d4(0xf1)][_0x20d0b0];}}}filesInit()['then'](_0x322cc1=>Object[a0_0x4fc0b5(0xc6)](global[a0_0x4fc0b5(0xf1)]))['catch'](console[a0_0x4fc0b5(0x133)]),global[a0_0x4fc0b5(0xe1)]=async(_0x4ee545,_0x3ab2fa)=>{const _0x5d5a2e=a0_0x4fc0b5;if(pluginFilter(_0x3ab2fa)){const _0x5433da=global[_0x5d5a2e(0x191)](join(pluginFolder,_0x3ab2fa),!![]);if(_0x3ab2fa in global[_0x5d5a2e(0xf1)]){if(existsSync(_0x5433da))conn['logger'][_0x5d5a2e(0x194)](_0x5d5a2e(0xd2)+_0x3ab2fa+'\x27');else return conn[_0x5d5a2e(0x179)]['warn'](_0x5d5a2e(0x10f)+_0x3ab2fa+'\x27'),delete global['plugins'][_0x3ab2fa];}else conn[_0x5d5a2e(0x179)][_0x5d5a2e(0x194)]('new\x20plugin\x20-\x20\x27'+_0x3ab2fa+'\x27');const _0x41a6e6=a0_0x1dd153(readFileSync(_0x5433da),_0x3ab2fa,{'sourceType':_0x5d5a2e(0x162),'allowAwaitOutsideFunction':!![]});if(_0x41a6e6)conn[_0x5d5a2e(0x179)][_0x5d5a2e(0x133)]('syntax\x20error\x20while\x20loading\x20\x27'+_0x3ab2fa+'\x27\x0a'+format(_0x41a6e6));else try{const _0x45b578=await import(global[_0x5d5a2e(0x191)](_0x5433da)+'?update='+Date[_0x5d5a2e(0xd5)]());global[_0x5d5a2e(0xf1)][_0x3ab2fa]=_0x45b578[_0x5d5a2e(0x139)]||_0x45b578;}catch(_0x55a63e){conn[_0x5d5a2e(0x179)][_0x5d5a2e(0x133)](_0x5d5a2e(0xc9)+_0x3ab2fa+'\x0a'+format(_0x55a63e)+'\x27');}finally{global[_0x5d5a2e(0xf1)]=Object[_0x5d5a2e(0x13f)](Object[_0x5d5a2e(0x178)](global[_0x5d5a2e(0xf1)])['sort'](([_0x293aa8],[_0x580fa9])=>_0x293aa8[_0x5d5a2e(0x123)](_0x580fa9)));}}},Object[a0_0x4fc0b5(0x175)](global['reload']),watch(pluginFolder,global[a0_0x4fc0b5(0xe1)]),await global['reloadHandler']();async function _quickTest(){const _0x3e4c90=a0_0x4fc0b5,_0x4d09dc=await Promise[_0x3e4c90(0x113)]([spawn(_0x3e4c90(0xe7)),spawn('ffprobe'),spawn('ffmpeg',['-hide_banner',_0x3e4c90(0x147),_0x3e4c90(0x133),_0x3e4c90(0xf7),'color','-frames:v','1','-f','webp','-']),spawn(_0x3e4c90(0xdf)),spawn(_0x3e4c90(0xe9)),spawn('gm'),spawn(_0x3e4c90(0x15f),[_0x3e4c90(0x15e)])][_0x3e4c90(0x18b)](_0x39d200=>{const _0x362f6d=_0x3e4c90;return Promise[_0x362f6d(0x10a)]([new Promise(_0x48444f=>{const _0x3e8cfa=_0x362f6d;_0x39d200['on'](_0x3e8cfa(0x167),_0x64e51a=>{_0x48444f(_0x64e51a!==0x7f);});}),new Promise(_0x15aaac=>{_0x39d200['on']('error',_0x7de062=>_0x15aaac(![]));})]);})),[_0x35de88,_0x7ac6fe,_0x27f74f,_0x5e2d66,_0x421bd9,_0x4b3d91,_0x28f482]=_0x4d09dc,_0x5e545d=global[_0x3e4c90(0x176)]={'ffmpeg':_0x35de88,'ffprobe':_0x7ac6fe,'ffmpegWebp':_0x27f74f,'convert':_0x5e2d66,'magick':_0x421bd9,'gm':_0x4b3d91,'find':_0x28f482};Object[_0x3e4c90(0x175)](global[_0x3e4c90(0x176)]);}setInterval(async()=>{const _0x4ef960=a0_0x4fc0b5;if(stopped===_0x4ef960(0x167)||!conn||!conn['user'])return;const _0x50540a=await clearTmp();},0x2bf20),setInterval(async()=>{const _0x5c9908=a0_0x4fc0b5;if(stopped===_0x5c9908(0x167)||!conn||!conn[_0x5c9908(0x168)])return;await purgeSession();},0x3e8*0x3c*0x3c),setInterval(async()=>{const _0x4b48e4=a0_0x4fc0b5;if(stopped===_0x4b48e4(0x167)||!conn||!conn[_0x4b48e4(0x168)])return;await purgeSessionSB();},0x3e8*0x3c*0x3c),setInterval(async()=>{if(stopped==='close'||!conn||!conn['user'])return;await purgeOldFiles();},0x3e8*0x3c*0x3c),setInterval(async()=>{const _0x1803cc=a0_0x4fc0b5;if(stopped===_0x1803cc(0x167)||!conn||!conn[_0x1803cc(0x168)])return;const _0x4477f4=process[_0x1803cc(0x18d)]()*0x3e8,_0xfca9f8=clockString(_0x4477f4),_0x494049=_0x1803cc(0x173)+_0xfca9f8;await conn['updateProfileStatus'](_0x494049)[_0x1803cc(0x10c)](_0x22d123=>_0x22d123);},0xea60);function clockString(_0x1fdc83){const _0x2b00ea=a0_0x4fc0b5,_0x215f99=isNaN(_0x1fdc83)?'--':Math[_0x2b00ea(0x17d)](_0x1fdc83/0x5265c00),_0x55cf1d=isNaN(_0x1fdc83)?'--':Math[_0x2b00ea(0x17d)](_0x1fdc83/0x36ee80)%0x18,_0x2f65ef=isNaN(_0x1fdc83)?'--':Math[_0x2b00ea(0x17d)](_0x1fdc83/0xea60)%0x3c,_0x4a7b22=isNaN(_0x1fdc83)?'--':Math['floor'](_0x1fdc83/0x3e8)%0x3c;return[_0x215f99,_0x2b00ea(0x12d),_0x55cf1d,'h\x20',_0x2f65ef,'m\x20',_0x4a7b22,'s\x20'][_0x2b00ea(0x18b)](_0xa46c0f=>_0xa46c0f['toString']()[_0x2b00ea(0x17e)](0x2,0x0))['join']('');}_quickTest()[a0_0x4fc0b5(0x10c)](console['error']);
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1';
+import './config.js';
+import './api.js';
+import {createRequire} from 'module';
+import path, {join} from 'path';
+import {fileURLToPath, pathToFileURL} from 'url';
+import {platform} from 'process';
+import * as ws from 'ws';
+import {readdirSync, statSync, unlinkSync, existsSync, readFileSync, rmSync, watch} from 'fs';
+import yargs from 'yargs';
+import {spawn} from 'child_process';
+import lodash from 'lodash';
+import chalk from 'chalk';
+import syntaxerror from 'syntax-error';
+import {tmpdir} from 'os';
+import {format} from 'util';
+import P from 'pino';
+import pino from 'pino';
+import Pino from 'pino';
+import {Boom} from '@hapi/boom';
+import {makeWASocket, protoType, serialize} from './lib/simple.js';
+import {Low, JSONFile} from 'lowdb';
+import {mongoDB, mongoDBV2} from './lib/mongoDB.js';
+import store from './lib/store.js';
+const {proto} = (await import('@whiskeysockets/baileys')).default;
+const {DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser, PHONENUMBER_MCC} = await import('@whiskeysockets/baileys');
+import readline from 'readline';
+import NodeCache from 'node-cache';
+const {CONNECTING} = ws;
+const {chain} = lodash;
+const PORT = process.env.PORT || process.env.SERVER_PORT || 3000;
+
+protoType();
+serialize();
+
+global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') {
+  return rmPrefix ? /file:\/\/\//.test(pathURL) ? fileURLToPath(pathURL) : pathURL : pathToFileURL(pathURL).toString();
+}; global.__dirname = function dirname(pathURL) {
+  return path.dirname(global.__filename(pathURL, true));
+}; global.__require = function require(dir = import.meta.url) {
+  return createRequire(dir);
+};
+
+global.API = (name, path = '/', query = {}, apikeyqueryname) => (name in global.APIs ? global.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + new URLSearchParams(Object.entries({...query, ...(apikeyqueryname ? {[apikeyqueryname]: global.APIKeys[name in global.APIs ? global.APIs[name] : name]} : {})})) : '');
+
+global.timestamp = {start: new Date};
+global.videoList = [];
+global.videoListXXX = [];
+
+const __dirname = global.__dirname(import.meta.url);
+
+global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
+global.prefix = new RegExp('^[' + (opts['prefix'] || '*/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-.@').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']');
+
+global.db = new Low(/https?:\/\//.test(opts['db'] || '') ? new cloudDBAdapter(opts['db']) : new JSONFile(`${opts._[0] ? opts._[0] + '_' : ''}database.json`));
+
+global.DATABASE = global.db; 
+global.loadDatabase = async function loadDatabase() {
+  if (global.db.READ) {
+    return new Promise((resolve) => setInterval(async function() {
+      if (!global.db.READ) {
+        clearInterval(this);
+        resolve(global.db.data == null ? global.loadDatabase() : global.db.data);
+      }
+    }, 1 * 1000));
+  }
+  if (global.db.data !== null) return;
+  global.db.READ = true;
+  await global.db.read().catch(console.error);
+  global.db.READ = null;
+  global.db.data = {
+    users: {},
+    chats: {},
+    stats: {},
+    msgs: {},
+    sticker: {},
+    settings: {},
+    ...(global.db.data || {}),
+  };
+  global.db.chain = chain(global.db.data);
+};
+loadDatabase();
+
+/* Creditos a Otosaka (https://wa.me/51993966345) */
+
+global.chatgpt = new Low(new JSONFile(path.join(__dirname, '/db/chatgpt.json')));
+global.loadChatgptDB = async function loadChatgptDB() {
+  if (global.chatgpt.READ) {
+    return new Promise((resolve) =>
+      setInterval(async function() {
+        if (!global.chatgpt.READ) {
+          clearInterval(this);
+          resolve( global.chatgpt.data === null ? global.loadChatgptDB() : global.chatgpt.data );
+        }
+      }, 1 * 1000));
+  }
+  if (global.chatgpt.data !== null) return;
+  global.chatgpt.READ = true;
+  await global.chatgpt.read().catch(console.error);
+  global.chatgpt.READ = null;
+  global.chatgpt.data = {
+    users: {},
+    ...(global.chatgpt.data || {}),
+  };
+  global.chatgpt.chain = lodash.chain(global.chatgpt.data);
+};
+loadChatgptDB();
+
+/* ------------------------------------------------*/
+
+global.authFile = `Jinwoosesion`;
+const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
+const msgRetryCounterMap = (MessageRetryMap) => { };
+const msgRetryCounterCache = new NodeCache()
+const {version} = await fetchLatestBaileysVersion();
+let phoneNumber = global.botnumber
+
+const methodCodeQR = process.argv.includes("qr")
+const methodCode = !!phoneNumber || process.argv.includes("code")
+const MethodMobile = process.argv.includes("mobile")
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout })
+const question = (texto) => new Promise((resolver) => rl.question(texto, resolver))
+
+//Código adaptado para la compatibilidad de ser bot con el código de 8 digitos. Hecho por: https://github.com/GataNina-Li
+let opcion
+if (methodCodeQR) {
+opcion = '1'
+}
+if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
+do {
+let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
+opcion = await question('[ ℹ️ ] Seleccione una opción:\n1. Con código QR\n2. Con código de texto de 8 dígitos\n---> ')
+//if (fs.existsSync(`./${authFile}/creds.json`)) {
+//console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
+//process.exit()
+if (!/^[1-2]$/.test(opcion)) {
+console.log('[ ❗ ] Por favor, seleccione solo 1 o 2.\n')
+}} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
+}
+
+console.info = () => {} //dejará de aparecer la molesta "pre-key"
+const connectionOptions = {
+logger: pino({ level: 'silent' }),
+printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
+mobile: MethodMobile, 
+browser: opcion == '1' ? ['Sung Jin-Woo', 'Safari', '2.0.0'] : methodCodeQR ? ['Sung Jin-Woo', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
+auth: {
+creds: state.creds,
+keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
+},
+markOnlineOnConnect: true, 
+generateHighQualityLinkPreview: true, 
+getMessage: async (clave) => {
+let jid = jidNormalizedUser(clave.remoteJid)
+let msg = await store.loadMessage(jid, clave.id)
+return msg?.message || ""
+},
+msgRetryCounterCache,
+msgRetryCounterMap,
+defaultQueryTimeoutMs: undefined,   
+version
+}
+
+global.conn = makeWASocket(connectionOptions);
+
+if (!fs.existsSync(`./${authFile}/creds.json`)) {
+if (opcion === '2' || methodCode) {
+//if (fs.existsSync(`./${authFile}/creds.json`)) {
+//console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
+//process.exit()
+//}
+opcion = '2'
+if (!conn.authState.creds.registered) {  
+if (MethodMobile) throw new Error('No se puede usar un código de emparejamiento con la API móvil')
+
+let numeroTelefono
+if (!!phoneNumber) {
+numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
+if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
+console.log(chalk.bgBlack(chalk.bold.redBright("Comience con el código de país de su número de WhatsApp.\nEjemplo: +5212961003000\n")))
+process.exit(0)
+}} else {
+while (true) {
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('Por favor, escriba su número de WhatsApp.\nEjemplo: +5212961000000\n')))
+numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
+
+if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
+break 
+} else {
+console.log(chalk.bgBlack(chalk.bold.redBright("Por favor, escriba su número de WhatsApp.\nEjemplo: +5212961000000.\n")))
+}}
+rl.close()  
+} 
+
+        setTimeout(async () => {
+            let codigo = await conn.requestPairingCode(numeroTelefono)
+            codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
+            console.log(chalk.yellow('[ ℹ️ ] introduce el código de emparejamiento en WhatsApp.'));
+            console.log(chalk.black(chalk.bgGreen(`Su código de emparejamiento: `)), chalk.black(chalk.white(codigo)))
+        }, 3000)
+}}
+}
+
+conn.isInit = false;
+conn.well = false;
+conn.logger.info(`[ ℹ️ ] Cargando...\n`);
+
+if (!opts['test']) {
+  if (global.db) {
+    setInterval(async () => {
+      if (global.db.data) await global.db.write();
+      if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', 'jadibts'], tmp.forEach((filename) => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])));
+    }, 30 * 1000);
+  }
+}
+
+if (opts['server']) (await import('./server.js')).default(global.conn, PORT);
+
+
+/* Y ese fue el momazo mas bueno del mundo
+        Aunque no dudara tan solo un segundo
+        Mas no me arrepiento de haberme reido
+        Por que la grasa es un sentimiento
+        Y ese fue el momazo mas bueno del mundo
+        Aunque no dudara tan solo un segundo
+        que me arrepiento de ser un grasoso
+        Por que la grasa es un sentimiento
+        - El waza 👻👻👻👻 (Aiden)            
+        
+   Yo tambien se hacer momazos Aiden...
+        ahi te va el ajuste de los borrados
+        inteligentes de las sesiones y de los sub-bot
+        By (Rey Endymion 👺👍🏼) 
+        
+   Ninguno es mejor que tilin god
+        - atte: sk1d             */
+
+function clearTmp() {
+  const tmp = [join(__dirname, './tmp')];
+  const filename = [];
+  tmp.forEach((dirname) => readdirSync(dirname).forEach((file) => filename.push(join(dirname, file))));
+  return filename.map((file) => {
+    const stats = statSync(file);
+    if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 3)) return unlinkSync(file); // 3 minutes
+    return false;
+  });
+}
+
+function purgeSession() {
+let prekey = []
+let directorio = readdirSync("./Jinwoosesion")
+let filesFolderPreKeys = directorio.filter(file => {
+return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
+})
+prekey = [...prekey, ...filesFolderPreKeys]
+filesFolderPreKeys.forEach(files => {
+unlinkSync(`./Jinwoosesion/${files}`)
+})
+} 
+
+function purgeSessionSB() {
+try {
+let listaDirectorios = readdirSync('./jadibts/');
+let SBprekey = []
+listaDirectorios.forEach(directorio => {
+if (statSync(`./jadibts/${directorio}`).isDirectory()) {
+let DSBPreKeys = readdirSync(`./jadibts/${directorio}`).filter(fileInDir => {
+return fileInDir.startsWith('pre-key-') /*|| fileInDir.startsWith('app-') || fileInDir.startsWith('session-')*/
+})
+SBprekey = [...SBprekey, ...DSBPreKeys]
+DSBPreKeys.forEach(fileInDir => {
+unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
+})
+}
+})
+if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> No hay archivos por eliminar.`))
+} catch (err) {
+console.log(chalk.bold.red(`[ ℹ️ ] Algo salio mal durante la eliminación, archivos no eliminados`))
+}}
+
+function purgeOldFiles() {
+const directories = ['./Jinwoosesion/', './jadibts/']
+const oneHourAgo = Date.now() - (60 * 60 * 1000)
+directories.forEach(dir => {
+readdirSync(dir, (err, files) => {
+if (err) throw err
+files.forEach(file => {
+const filePath = path.join(dir, file)
+stat(filePath, (err, stats) => {
+if (err) throw err;
+if (stats.isFile() && stats.mtimeMs < oneHourAgo && file !== 'creds.json') { 
+unlinkSync(filePath, err => {  
+if (err) throw err
+console.log(chalk.bold.green(`Archivo ${file} borrado con éxito`))
+})
+} else {  
+console.log(chalk.bold.red(`Archivo ${file} no borrado` + err))
+} }) }) }) })
+}
+
+async function connectionUpdate(update) {
+  const {connection, lastDisconnect, isNewLogin} = update;
+  global.stopped = connection;
+  if (isNewLogin) conn.isInit = true;
+  const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode;
+  if (code && code !== DisconnectReason.loggedOut && conn?.ws.socket == null) {
+    await global.reloadHandler(true).catch(console.error);
+    //console.log(await global.reloadHandler(true).catch(console.error));
+    global.timestamp.connect = new Date;
+  }
+  if (global.db.data == null) loadDatabase();
+if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
+if (opcion == '1' || methodCodeQR) {
+    console.log(chalk.yellow('[ ℹ️ ] Escanea el código QR.'));
+ }}
+  if (connection == 'open') {
+    console.log(chalk.yellow('[ ℹ️ ] Conectado correctamente.'));
+  }
+let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
+if (reason == 405) {
+await fs.unlinkSync("./Jinwoosesion/" + "creds.json")
+console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
+process.send('reset')}
+if (connection === 'close') {
+    if (reason === DisconnectReason.badSession) {
+        conn.logger.error(`[ ⚠ ] Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
+        //process.exit();
+    } else if (reason === DisconnectReason.connectionClosed) {
+        conn.logger.warn(`[ ⚠ ] Conexión cerrada, reconectando...`);
+        await global.reloadHandler(true).catch(console.error);
+    } else if (reason === DisconnectReason.connectionLost) {
+        conn.logger.warn(`[ ⚠ ] Conexión perdida con el servidor, reconectando...`);
+        await global.reloadHandler(true).catch(console.error);
+    } else if (reason === DisconnectReason.connectionReplaced) {
+        conn.logger.error(`[ ⚠ ] Conexión reemplazada, se ha abierto otra nueva sesión. Por favor, cierra la sesión actual primero.`);
+        //process.exit();
+    } else if (reason === DisconnectReason.loggedOut) {
+        conn.logger.error(`[ ⚠ ] Conexion cerrada, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
+        //process.exit();
+    } else if (reason === DisconnectReason.restartRequired) {
+        conn.logger.info(`[ ⚠ ] Reinicio necesario, reinicie el servidor si presenta algún problema.`);
+        await global.reloadHandler(true).catch(console.error);
+    } else if (reason === DisconnectReason.timedOut) {
+        conn.logger.warn(`[ ⚠ ] Tiempo de conexión agotado, reconectando...`);
+        await global.reloadHandler(true).catch(console.error);
+    } else {
+        conn.logger.warn(`[ ⚠ ] Razón de desconexión desconocida. ${reason || ''}: ${connection || ''}`);
+        await global.reloadHandler(true).catch(console.error);
+    }
+}
+  /*if (connection == 'close') {
+    console.log(chalk.yellow(`🚩ㅤConexion cerrada, por favor borre la carpeta ${global.authFile} y reescanee el codigo QR`));
+  }*/
+}
+
+process.on('uncaughtException', console.error);
+
+let isInit = true;
+let handler = await import('./handler.js');
+global.reloadHandler = async function(restatConn) {
+  try {
+    const Handler = await import(`./handler.js?update=${Date.now()}`).catch(console.error);
+    if (Object.keys(Handler || {}).length) handler = Handler;
+  } catch (e) {
+    console.error(e);
+  }
+  if (restatConn) {
+    const oldChats = global.conn.chats;
+    try {
+      global.conn.ws.close();
+    } catch { }
+    conn.ev.removeAllListeners();
+    global.conn = makeWASocket(connectionOptions, {chats: oldChats});
+    isInit = true;
+  }
+  if (!isInit) {
+    conn.ev.off('messages.upsert', conn.handler);
+    conn.ev.off('group-participants.update', conn.participantsUpdate);
+    conn.ev.off('groups.update', conn.groupsUpdate);
+    conn.ev.off('message.delete', conn.onDelete);
+    conn.ev.off('call', conn.onCall);
+    conn.ev.off('connection.update', conn.connectionUpdate);
+    conn.ev.off('creds.update', conn.credsUpdate);
+  }
+
+  // Para cambiar estos mensajes, solo los archivos en la carpeta de language, 
+  // busque la clave "handler" dentro del json y cámbiela si es necesario
+  conn.welcome = '👋 ¡Bienvenido/a!\n@user';
+  conn.bye = '👋 ¡Hasta luego!\n@user';
+  conn.spromote = '*[ ℹ️ ] @user Fue promovido a administrador.*';
+  conn.sdemote = '*[ ℹ️ ] @user Fue degradado de administrador.*';
+  conn.sDesc = '*[ ℹ️ ] La descripción del grupo ha sido modificada.*';
+  conn.sSubject = '*[ ℹ️ ] El nombre del grupo ha sido modificado.*';
+  conn.sIcon = '*[ ℹ️ ] Se ha cambiado la foto de perfil del grupo.*';
+  conn.sRevoke = '*[ ℹ️ ] El enlace de invitación al grupo ha sido restablecido.*';
+
+  conn.handler = handler.handler.bind(global.conn);
+  conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
+  conn.groupsUpdate = handler.groupsUpdate.bind(global.conn);
+  conn.onDelete = handler.deleteUpdate.bind(global.conn);
+  conn.onCall = handler.callUpdate.bind(global.conn);
+  conn.connectionUpdate = connectionUpdate.bind(global.conn);
+  conn.credsUpdate = saveCreds.bind(global.conn, true);
+
+  const currentDateTime = new Date();
+  const messageDateTime = new Date(conn.ev);
+  if (currentDateTime >= messageDateTime) {
+    const chats = Object.entries(conn.chats).filter(([jid, chat]) => !jid.endsWith('@g.us') && chat.isChats).map((v) => v[0]);
+  } else {
+    const chats = Object.entries(conn.chats).filter(([jid, chat]) => !jid.endsWith('@g.us') && chat.isChats).map((v) => v[0]);
+  }
+
+  conn.ev.on('messages.upsert', conn.handler);
+  conn.ev.on('group-participants.update', conn.participantsUpdate);
+  conn.ev.on('groups.update', conn.groupsUpdate);
+  conn.ev.on('message.delete', conn.onDelete);
+  conn.ev.on('call', conn.onCall);
+  conn.ev.on('connection.update', conn.connectionUpdate);
+  conn.ev.on('creds.update', conn.credsUpdate);
+  isInit = false;
+  return true;
+};
+
+/*
+
+const pluginFolder = join(__dirname, './plugins');
+const pluginFilter = filename => /\.js$/.test(filename);
+global.plugins = {};
+
+async function filesInit(folder) {
+  for (let filename of readdirSync(folder).filter(pluginFilter)) {
+    try {
+      let file = join(folder, filename);
+      const module = await import(file);
+      global.plugins[file] = module.default || module;
+    } catch (e) {
+      console.error(e);
+      delete global.plugins[filename];
+    }
+  }
+
+  for (let subfolder of readdirSync(folder)) {
+    const subfolderPath = join(folder, subfolder);
+    if (statSync(subfolderPath).isDirectory()) {
+      await filesInit(subfolderPath);
+    }
+  }
+}
+
+await filesInit(pluginFolder).then(_ => Object.keys(global.plugins)).catch(console.error);
+
+*/
+
+const pluginFolder = global.__dirname(join(__dirname, './plugins/index'));
+const pluginFilter = (filename) => /\.js$/.test(filename);
+global.plugins = {};
+async function filesInit() {
+  for (const filename of readdirSync(pluginFolder).filter(pluginFilter)) {
+    try {
+      const file = global.__filename(join(pluginFolder, filename));
+      const module = await import(file);
+      global.plugins[filename] = module.default || module;
+    } catch (e) {
+      conn.logger.error(e);
+      delete global.plugins[filename];
+    }
+  }
+}
+filesInit().then((_) => Object.keys(global.plugins)).catch(console.error);
+
+global.reload = async (_ev, filename) => {
+  if (pluginFilter(filename)) {
+    const dir = global.__filename(join(pluginFolder, filename), true);
+    if (filename in global.plugins) {
+      if (existsSync(dir)) conn.logger.info(` updated plugin - '${filename}'`);
+      else {
+        conn.logger.warn(`deleted plugin - '${filename}'`);
+        return delete global.plugins[filename];
+      }
+    } else conn.logger.info(`new plugin - '${filename}'`);
+    const err = syntaxerror(readFileSync(dir), filename, {
+      sourceType: 'module',
+      allowAwaitOutsideFunction: true,
+    });
+    if (err) conn.logger.error(`syntax error while loading '${filename}'\n${format(err)}`);
+    else {
+      try {
+        const module = (await import(`${global.__filename(dir)}?update=${Date.now()}`));
+        global.plugins[filename] = module.default || module;
+      } catch (e) {
+        conn.logger.error(`error require plugin '${filename}\n${format(e)}'`);
+      } finally {
+        global.plugins = Object.fromEntries(Object.entries(global.plugins).sort(([a], [b]) => a.localeCompare(b)));
+      }
+    }
+  }
+};
+Object.freeze(global.reload);
+watch(pluginFolder, global.reload);
+await global.reloadHandler();
+async function _quickTest() {
+  const test = await Promise.all([
+    spawn('ffmpeg'),
+    spawn('ffprobe'),
+    spawn('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-filter_complex', 'color', '-frames:v', '1', '-f', 'webp', '-']),
+    spawn('convert'),
+    spawn('magick'),
+    spawn('gm'),
+    spawn('find', ['--version']),
+  ].map((p) => {
+    return Promise.race([
+      new Promise((resolve) => {
+        p.on('close', (code) => {
+          resolve(code !== 127);
+        });
+      }),
+      new Promise((resolve) => {
+        p.on('error', (_) => resolve(false));
+      })]);
+  }));
+  const [ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, find] = test;
+  const s = global.support = {ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, find};
+  Object.freeze(global.support);
+}
+setInterval(async () => {
+  if (stopped === 'close' || !conn || !conn.user) return;
+  const a = await clearTmp();
+  //console.log(chalk.cyanBright(`\n▣───────────[ 𝙰𝚄𝚃𝙾𝙲𝙻𝙴𝙰𝚁TMP ]──────────────···\n│\n▣─❧ 𝙰𝚁𝙲𝙷𝙸𝚅𝙾𝚂 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾𝚂 ✅\n│\n▣───────────────────────────────────────···\n`));
+}, 180000);
+setInterval(async () => {
+  if (stopped === 'close' || !conn || !conn.user) return;
+  await purgeSession();
+  //console.log(chalk.cyanBright(`\n▣────────[ AUTOPURGESESSIONS ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`));
+}, 1000 * 60 * 60);
+setInterval(async () => {
+  if (stopped === 'close' || !conn || !conn.user) return;
+  await purgeSessionSB();
+  //console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_SESSIONS_SUB-BOTS ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`));
+}, 1000 * 60 * 60);
+setInterval(async () => {
+  if (stopped === 'close' || !conn || !conn.user) return;
+  await purgeOldFiles();
+  //console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_OLDFILES ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`));
+}, 1000 * 60 * 60);
+setInterval(async () => {
+  if (stopped === 'close' || !conn || !conn.user) return;
+  const _uptime = process.uptime() * 1000;
+  const uptime = clockString(_uptime);
+  const bio = `[ Sung JinWoo ] Uptime: ${uptime}`;
+  await conn.updateProfileStatus(bio).catch((_) => _);
+}, 60000);
+function clockString(ms) {
+  const d = isNaN(ms) ? '--' : Math.floor(ms / 86400000);
+  const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24;
+  const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
+  const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
+  return [d, 'd ️', h, 'h ', m, 'm ', s, 's '].map((v) => v.toString().padStart(2, 0)).join('');
+}
+_quickTest().catch(console.error);

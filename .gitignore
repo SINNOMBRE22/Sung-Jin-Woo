@@ -7,7 +7,6 @@ jadibts
 datasecret
 backups/
 plugins/backups
-main.js
 
 # Ignora plugin sensibles
 plugins/supersecretlistener.js

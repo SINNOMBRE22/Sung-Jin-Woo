@@ -1,1 +1,80 @@
-function a0_0x3d1a(_0x288cbc,_0x402107){const _0x2e679f=a0_0x2e67();return a0_0x3d1a=function(_0x3d1a7c,_0x4dcb9e){_0x3d1a7c=_0x3d1a7c-0xce;let _0x272791=_0x2e679f[_0x3d1a7c];return _0x272791;},a0_0x3d1a(_0x288cbc,_0x402107);}const a0_0x16d81c=a0_0x3d1a;(function(_0x2f7aad,_0x5861a9){const _0x2afe12=a0_0x3d1a,_0x5291a2=_0x2f7aad();while(!![]){try{const _0x41d7d4=-parseInt(_0x2afe12(0xe1))/0x1+-parseInt(_0x2afe12(0xf3))/0x2*(parseInt(_0x2afe12(0xda))/0x3)+parseInt(_0x2afe12(0xf5))/0x4*(-parseInt(_0x2afe12(0xf6))/0x5)+-parseInt(_0x2afe12(0xf1))/0x6*(-parseInt(_0x2afe12(0xe7))/0x7)+-parseInt(_0x2afe12(0xea))/0x8*(-parseInt(_0x2afe12(0xe6))/0x9)+parseInt(_0x2afe12(0xd1))/0xa+parseInt(_0x2afe12(0xec))/0xb;if(_0x41d7d4===_0x5861a9)break;else _0x5291a2['push'](_0x5291a2['shift']());}catch(_0xda9d8){_0x5291a2['push'](_0x5291a2['shift']());}}}(a0_0x2e67,0xd692b),console[a0_0x16d81c(0xee)](a0_0x16d81c(0xf0)));import{join,dirname}from'path';import{createRequire}from'module';import{fileURLToPath}from'url';import{setupMaster,fork}from'cluster';import{watchFile,unwatchFile}from'fs';import a0_0x247b8e from'cfonts';import{createInterface}from'readline';import a0_0x133c32 from'yargs';function a0_0x2e67(){const _0x500b6d=['exitProcess','console','process','./package.json','3JrKbYZ','test','apply','parse','red','center','uptime','1357402WtYbxL','url','emit','reset','[RECIBIDO]','81GsCJbN','101885sahkAZ','message','exit','1277336UKhZzf','trim','12301366QhZKFZ','kill','log','env','[\x20ℹ️\x20]\x20Iniciando...','498kYbTbH','stdout','2373220akQWwr','line','1364QSjiSI','13555WOGWpV','slice','Mariana\x0abot','[\x20ℹ️\x20]\x20Ocurrio\x20un\x20error\x20inesperado:','send','5839800yLbnws','magenta','argv','listenerCount','chrome'];a0_0x2e67=function(){return _0x500b6d;};return a0_0x2e67();}const __dirname=dirname(fileURLToPath(import.meta[a0_0x16d81c(0xe2)])),require=createRequire(__dirname),{name,author}=require(join(__dirname,a0_0x16d81c(0xd9))),{say}=a0_0x247b8e,rl=createInterface(process['stdin'],process[a0_0x16d81c(0xf2)]);say(a0_0x16d81c(0xce),{'font':a0_0x16d81c(0xd5),'align':a0_0x16d81c(0xdf),'gradient':[a0_0x16d81c(0xde),a0_0x16d81c(0xd2)]}),say('Sun\x20Jin-Woo',{'font':a0_0x16d81c(0xd7),'align':a0_0x16d81c(0xdf),'gradient':[a0_0x16d81c(0xde),a0_0x16d81c(0xd2)]});let isRunning=![];function start(_0x2bfd88){const _0xb1a2cc=a0_0x16d81c;if(isRunning)return;isRunning=!![];const _0x250feb=[join(__dirname,_0x2bfd88),...process[_0xb1a2cc(0xd3)][_0xb1a2cc(0xf7)](0x2)];setupMaster({'exec':_0x250feb[0x0],'args':_0x250feb[_0xb1a2cc(0xf7)](0x1)});const _0x52fcd4=fork();_0x52fcd4['on']('message',_0x31127c=>{const _0x274b5d=_0xb1a2cc;console[_0x274b5d(0xee)](_0x274b5d(0xe5),_0x31127c);switch(_0x31127c){case _0x274b5d(0xe4):_0x52fcd4[_0x274b5d(0xd8)][_0x274b5d(0xed)](),isRunning=![],start[_0x274b5d(0xdc)](this,arguments);break;case _0x274b5d(0xe0):_0x52fcd4[_0x274b5d(0xd0)](process['uptime']());break;}}),_0x52fcd4['on'](_0xb1a2cc(0xe9),(_0x4c7fd3,_0x1000d1)=>{const _0x2618b5=_0xb1a2cc;isRunning=![],console['error'](_0x2618b5(0xcf),_0x1000d1),_0x52fcd4[_0x2618b5(0xd8)]['kill'](),isRunning=![],start[_0x2618b5(0xdc)](this,arguments),process[_0x2618b5(0xef)]['pm_id']?process[_0x2618b5(0xe9)](0x1):process[_0x2618b5(0xe9)]();});const _0x3dbfc8=new Object(a0_0x133c32(process[_0xb1a2cc(0xd3)]['slice'](0x2))[_0xb1a2cc(0xd6)](![])[_0xb1a2cc(0xdd)]());!_0x3dbfc8[_0xb1a2cc(0xdb)]&&(!rl[_0xb1a2cc(0xd4)]()&&rl['on'](_0xb1a2cc(0xf4),_0x39c031=>{const _0x52923e=_0xb1a2cc;_0x52fcd4[_0x52923e(0xe3)](_0x52923e(0xe8),_0x39c031[_0x52923e(0xeb)]());}));}start('main.js');
+console.log('[ ℹ️ ] Iniciando...');
+import {join, dirname} from 'path';
+import {createRequire} from 'module';
+import {fileURLToPath} from 'url';
+import {setupMaster, fork} from 'cluster';
+import {watchFile, unwatchFile} from 'fs';
+import cfonts from 'cfonts';
+import {createInterface} from 'readline';
+import yargs from 'yargs';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const require = createRequire(__dirname);
+const {name, author} = require(join(__dirname, './package.json'));
+const {say} = cfonts;
+const rl = createInterface(process.stdin, process.stdout);
+
+say('Mariana\nbot', {
+  font: 'chrome',
+  align: 'center',
+  gradient: ['red', 'magenta']});
+say(`Sun Jin-Woo`, {
+  font: 'console',
+  align: 'center',
+  gradient: ['red', 'magenta']});
+
+let isRunning = false;
+/**
+* Start a js file
+* @param {String} file `path/to/file`
+*/
+function start(file) {
+  if (isRunning) return;
+  isRunning = true;
+  const args = [join(__dirname, file), ...process.argv.slice(2)];
+
+  /** say('[ ℹ️ ] Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
+    font: 'console',
+    align: 'center',
+    gradient: ['red', 'magenta']}); **/
+
+  setupMaster({
+    exec: args[0],
+    args: args.slice(1)});
+  const p = fork();
+  p.on('message', (data) => {
+    console.log('[RECIBIDO]', data);
+    switch (data) {
+      case 'reset':
+        p.process.kill();
+        isRunning = false;
+        start.apply(this, arguments);
+        break;
+      case 'uptime':
+        p.send(process.uptime());
+        break;
+    }
+  });
+  p.on('exit', (_, code) => {
+    isRunning = false;
+    console.error('[ ℹ️ ] Ocurrio un error inesperado:', code);
+
+    p.process.kill();
+    isRunning = false;
+    start.apply(this, arguments);
+
+    if (process.env.pm_id) {
+      process.exit(1);
+    } else {
+      process.exit();
+    }
+  });
+  const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
+  if (!opts['test']) {
+    if (!rl.listenerCount()) {
+      rl.on('line', (line) => {
+        p.emit('message', line.trim());
+      });
+    }
+  }
+}
+start('main.js');
