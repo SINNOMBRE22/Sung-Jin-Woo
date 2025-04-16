@@ -1,1 +1,15 @@
-const a0_0x6ad7b=a0_0x3c72;(function(_0x4fbd69,_0x4c9439){const _0x477db1=a0_0x3c72,_0x5aa19e=_0x4fbd69();while(!![]){try{const _0x3cb261=parseInt(_0x477db1(0x11b))/0x1+-parseInt(_0x477db1(0x12f))/0x2+-parseInt(_0x477db1(0x122))/0x3+parseInt(_0x477db1(0x130))/0x4+parseInt(_0x477db1(0x121))/0x5+-parseInt(_0x477db1(0x11d))/0x6+-parseInt(_0x477db1(0x11f))/0x7;if(_0x3cb261===_0x4c9439)break;else _0x5aa19e['push'](_0x5aa19e['shift']());}catch(_0x441fba){_0x5aa19e['push'](_0x5aa19e['shift']());}}}(a0_0x26e8,0x650a9));function a0_0x3c72(_0x2ab7f2,_0x166f29){const _0x26e883=a0_0x26e8();return a0_0x3c72=function(_0x3c725a,_0x48a5d7){_0x3c725a=_0x3c725a-0x11a;let _0x2061b3=_0x26e883[_0x3c725a];return _0x2061b3;},a0_0x3c72(_0x2ab7f2,_0x166f29);}const handler=async _0x3f8845=>{const _0x1be543=a0_0x3c72,_0x197e78=global,_0xdc8ee2=_0x197e78['db'][_0x1be543(0x12a)]['users'][_0x3f8845[_0x1be543(0x12d)]][_0x1be543(0x11e)],_0x32ecab=JSON[_0x1be543(0x128)](fs[_0x1be543(0x127)](_0x1be543(0x124)+_0xdc8ee2+'.json')),_0x39aa06=_0x32ecab[_0x1be543(0x120)][_0x1be543(0x12e)];global['db']['data']['chats'][_0x3f8845[_0x1be543(0x12c)]]['isBanned']=!![],_0x3f8845[_0x1be543(0x123)](_0x39aa06[_0x1be543(0x125)]);};handler[a0_0x6ad7b(0x126)]=[a0_0x6ad7b(0x12b)],handler[a0_0x6ad7b(0x11c)]=[a0_0x6ad7b(0x129)],handler[a0_0x6ad7b(0x11a)]=/^banchat$/i,handler['rowner']=!![];function a0_0x26e8(){const _0x4ccc4f=['chat','sender','owner_banchat','613244SMBsLk','2583772QVAMgc','command','632574JVnVXC','tags','285162jJwwLW','language','4503037KWenxh','plugins','1107420DGPDCD','266088EDroKE','reply','./language/','texto1','help','readFileSync','parse','owner','data','banchat'];a0_0x26e8=function(){return _0x4ccc4f;};return a0_0x26e8();}export default handler;
+
+const handler = async (m) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_banchat
+
+  global.db.data.chats[m.chat].isBanned = true;
+  m.reply(tradutor.texto1);
+};
+handler.help = ['banchat'];
+handler.tags = ['owner'];
+handler.command = /^banchat$/i;
+handler.rowner = true;
+export default handler;

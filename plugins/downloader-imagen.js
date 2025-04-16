@@ -1,1 +1,20 @@
-const a0_0x360690=a0_0x33b7;(function(_0x529408,_0x8f0667){const _0x2193ca=a0_0x33b7,_0x10cb97=_0x529408();while(!![]){try{const _0x2217c4=-parseInt(_0x2193ca(0xe6))/0x1*(-parseInt(_0x2193ca(0xdf))/0x2)+-parseInt(_0x2193ca(0xcc))/0x3*(parseInt(_0x2193ca(0xda))/0x4)+parseInt(_0x2193ca(0xcf))/0x5*(parseInt(_0x2193ca(0xd0))/0x6)+-parseInt(_0x2193ca(0xe4))/0x7+-parseInt(_0x2193ca(0xe7))/0x8+-parseInt(_0x2193ca(0xd3))/0x9*(-parseInt(_0x2193ca(0xd7))/0xa)+parseInt(_0x2193ca(0xe2))/0xb;if(_0x2217c4===_0x8f0667)break;else _0x10cb97['push'](_0x10cb97['shift']());}catch(_0x57dad1){_0x10cb97['push'](_0x10cb97['shift']());}}}(a0_0x5138,0x9e9ff));function a0_0x33b7(_0x44a61c,_0x55648d){const _0x5138f0=a0_0x5138();return a0_0x33b7=function(_0x33b7bb,_0x5c24ba){_0x33b7bb=_0x33b7bb-0xcc;let _0x4e7fef=_0x5138f0[_0x33b7bb];return _0x4e7fef;},a0_0x33b7(_0x44a61c,_0x55648d);}import{googleImage}from'@bochilteam/scraper';const handler=async(_0x178caf,{conn:_0x5665ec,text:_0x3c3ab1,usedPrefix:_0x3fc8fc,command:_0x50aa74})=>{const _0x59ee99=a0_0x33b7,_0x12a2c0=global,_0x597068=_0x12a2c0['db']['data'][_0x59ee99(0xe0)][_0x178caf[_0x59ee99(0xd5)]][_0x59ee99(0xe5)],_0x544878=JSON[_0x59ee99(0xe8)](fs[_0x59ee99(0xe3)]('./language/'+_0x597068+_0x59ee99(0xce))),_0x1e525=_0x544878[_0x59ee99(0xd2)][_0x59ee99(0xd8)];if(!_0x3c3ab1)throw _0x1e525[_0x59ee99(0xd6)]+'\x20'+(_0x3fc8fc+_0x50aa74)+_0x59ee99(0xde);const _0x4fcc2a=await googleImage(_0x3c3ab1),_0x59c89b=await _0x4fcc2a[_0x59ee99(0xd1)](),_0x59f384=_0x59c89b;_0x5665ec['sendFile'](_0x178caf['chat'],_0x59f384,'error.jpg',_0x1e525[_0x59ee99(0xdc)][0x0]+'\x20'+_0x3c3ab1+'\x0a'+_0x1e525[_0x59ee99(0xdc)][0x1]+'\x20'+_0x59f384+'\x0a'+_0x1e525['texto2'][0x2],_0x178caf);};handler[a0_0x360690(0xe1)]=[a0_0x360690(0xd4),a0_0x360690(0xdd)],handler[a0_0x360690(0xdb)]=[a0_0x360690(0xcd)],handler[a0_0x360690(0xd9)]=/^(gimage|image|imagen)$/i;function a0_0x5138(){const _0x3c7770=['.json','5FffAhH','7049676JihvQn','getRandom','plugins','5463LKtuCm','gimage\x20<query>','sender','texto1','6080wCBkNA','downloader_imagen','command','4645096uDHbiR','tags','texto2','imagen\x20<query>','\x20Minecraft*','4rPyXjK','users','help','10016523mPdBOR','readFileSync','6761804ikZDPT','language','281453rTOHaV','1924224jpZFIM','parse','3pDusWn','downloader'];a0_0x5138=function(){return _0x3c7770;};return a0_0x5138();}export default handler;
+import {googleImage} from '@bochilteam/scraper';
+
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.downloader_imagen
+
+
+  if (!text) throw `${tradutor.texto1} ${usedPrefix + command} Minecraft*`;
+  //if (m.text.includes('gore') || m.text.includes('cp')|| m.text.includes('porno')|| m.text.includes('Gore')|| m.text.includes('rule')|| m.text.includes('CP')|| m.text.includes('Rule34')) return m.reply('[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾 𝙿𝚄𝙴𝙳𝙾 𝙴𝙽𝚅𝙸𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙽𝚃𝙴𝙽𝙸𝙴𝙽𝙳𝙾 𝙴𝚂𝚃𝙰 𝙿𝚁𝙾𝙷𝙸𝙱𝙸𝙳𝙾 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾\n𝚂𝙸 𝙴𝚂 𝙰𝙳𝙼𝙸𝙽 𝚈 𝙳𝙴𝚂𝙴𝙰 𝙰𝙲𝚃𝙸𝚅𝙰𝚁𝙻𝙾𝚂 𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #enable modohorny');
+  const res = await googleImage(text);
+  const image = await res.getRandom();
+  const link = image;
+  conn.sendFile(m.chat, link, 'error.jpg', `${tradutor.texto2[0]} ${text}\n${tradutor.texto2[1]} ${link}\n${tradutor.texto2[2]}`, m);
+};
+handler.help = ['gimage <query>', 'imagen <query>'];
+handler.tags = ['downloader'];
+handler.command = /^(gimage|image|imagen)$/i;
+export default handler;

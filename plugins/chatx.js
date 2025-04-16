@@ -1,1 +1,14 @@
-const a0_0x2b7c0f=a0_0x1892;(function(_0x293929,_0x5d5059){const _0x3891c0=a0_0x1892,_0x2ff787=_0x293929();while(!![]){try{const _0x192bdc=-parseInt(_0x3891c0(0xdd))/0x1+-parseInt(_0x3891c0(0xd3))/0x2+parseInt(_0x3891c0(0xd8))/0x3*(parseInt(_0x3891c0(0xdc))/0x4)+-parseInt(_0x3891c0(0xe0))/0x5*(-parseInt(_0x3891c0(0xd6))/0x6)+parseInt(_0x3891c0(0xdb))/0x7*(parseInt(_0x3891c0(0xde))/0x8)+-parseInt(_0x3891c0(0xd5))/0x9*(parseInt(_0x3891c0(0xd2))/0xa)+parseInt(_0x3891c0(0xdf))/0xb;if(_0x192bdc===_0x5d5059)break;else _0x2ff787['push'](_0x2ff787['shift']());}catch(_0x320a17){_0x2ff787['push'](_0x2ff787['shift']());}}}(a0_0x4398,0x944f4));function a0_0x4398(){const _0x47dc1d=['1520nXlXBO','973126kuyobh','command','34137OOLbFC','193014RRtzWX','trim','2001vlxWQY','\x0a\x0a≡\x20\x20*Sung\x20Jin-Woo┃\x20Innozent\x20Zero*\x20\x20\x20\x0a\x0a─────────────\x0aPara\x20ver\x20mis\x20comandos\x20teclea\x20\x0a.arise\x0a.despertare\x0a.menu\x0a','help','7PkdAMO','2636iiCTgo','818697VNEInZ','6900976NWaEzo','2796156ZMSPsB','145OwGpZM','reply'];a0_0x4398=function(){return _0x47dc1d;};return a0_0x4398();}let handler=async _0x1e70ea=>_0x1e70ea[a0_0x2b7c0f(0xd1)](a0_0x2b7c0f(0xd9)[a0_0x2b7c0f(0xd7)]());function a0_0x1892(_0x3943bb,_0x4f30b6){const _0x439807=a0_0x4398();return a0_0x1892=function(_0x1892b3,_0x34c813){_0x1892b3=_0x1892b3-0xd1;let _0x1fef57=_0x439807[_0x1892b3];return _0x1fef57;},a0_0x1892(_0x3943bb,_0x4f30b6);}handler[a0_0x2b7c0f(0xda)]=['bot'],handler[a0_0x2b7c0f(0xd4)]=['bot'];export default handler;
+let handler = async m => m.reply(`
+
+≡  *Sung Jin-Woo┃ Innozent Zero*   
+
+─────────────
+Para ver mis comandos teclea 
+.arise
+.despertare
+.menu
+`.trim())
+handler.help = ['bot']
+handler.command = ['bot'] 
+
+export default handler

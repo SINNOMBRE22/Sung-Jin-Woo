@@ -1,1 +1,33 @@
-const a0_0x5e28b4=a0_0x12e8;(function(_0x19759d,_0x56db08){const _0x452e5c=a0_0x12e8,_0x44f98d=_0x19759d();while(!![]){try{const _0x1ceb6d=-parseInt(_0x452e5c(0x1f5))/0x1*(parseInt(_0x452e5c(0x20b))/0x2)+-parseInt(_0x452e5c(0x203))/0x3+parseInt(_0x452e5c(0x213))/0x4*(parseInt(_0x452e5c(0x1f7))/0x5)+-parseInt(_0x452e5c(0x20c))/0x6+parseInt(_0x452e5c(0x20a))/0x7*(parseInt(_0x452e5c(0x210))/0x8)+parseInt(_0x452e5c(0x214))/0x9*(parseInt(_0x452e5c(0x1fe))/0xa)+parseInt(_0x452e5c(0x1fd))/0xb;if(_0x1ceb6d===_0x56db08)break;else _0x44f98d['push'](_0x44f98d['shift']());}catch(_0x26ccb3){_0x44f98d['push'](_0x44f98d['shift']());}}}(a0_0x4999,0xeced6));import a0_0x33f25c from'@whiskeysockets/baileys';const pajak=0x0,handler=async(_0x4a81b1,{conn:_0x415ca7,text:_0x5859cf})=>{const _0x392f5d=a0_0x12e8,_0x237e8e=global,_0x424ff6=_0x237e8e['db'][_0x392f5d(0x205)][_0x392f5d(0x1f3)][_0x4a81b1['sender']][_0x392f5d(0x206)],_0x416215=JSON['parse'](fs[_0x392f5d(0x204)](_0x392f5d(0x20e)+_0x424ff6+_0x392f5d(0x209))),_0x4c3767=_0x416215['plugins']['onwer_anadirXP'];let _0x37bbb3;if(_0x4a81b1[_0x392f5d(0x1f8)])_0x37bbb3=_0x4a81b1[_0x392f5d(0x1fb)][0x0];else _0x37bbb3=_0x4a81b1[_0x392f5d(0x207)];if(!_0x37bbb3)throw _0x4c3767['texto1'];const _0x230b25=_0x5859cf['replace']('@'+_0x37bbb3[_0x392f5d(0x1f6)]`@`[0x0],'')[_0x392f5d(0x1fa)]();if(!_0x230b25)throw _0x4c3767[_0x392f5d(0x1f9)];if(isNaN(_0x230b25))throw _0x4c3767[_0x392f5d(0x20d)];const _0x17e9f6=parseInt(_0x230b25);let _0x170e46=_0x17e9f6;const _0xaad8c9=Math[_0x392f5d(0x202)](_0x17e9f6*pajak);_0x170e46+=_0xaad8c9;if(_0x170e46<0x1)throw _0x4c3767['texto4'];const _0x497a48=global['db'][_0x392f5d(0x205)][_0x392f5d(0x1f3)];_0x497a48[_0x37bbb3][_0x392f5d(0x200)]+=_0x17e9f6,_0x4a81b1[_0x392f5d(0x20f)]('≡\x20'+_0x4c3767['texto5'][0x0]+_0x392f5d(0x1f2)+_0x4c3767['texto5'][0x1]+'\x20'+_0x17e9f6+_0x392f5d(0x215));};function a0_0x4999(){const _0x10e20e=['648455PBsrCD','isGroup','texto2','trim','mentionedJid','añadirxp','3761879SvFQIC','40FpWbdx','tags','exp','help','ceil','1039446FvCGKA','readFileSync','data','language','chat','command','.json','11058719yybRIn','2378578DnCKgj','738264ZfjAHq','texto3','./language/','reply','8FJccfS','owner','rowner','4WZxEJD','1299987TxhhZy','\x0a└──────────────','\x0a┌──────────────\x0a▢\x20\x20','users','addexp','1GyzZSr','split'];a0_0x4999=function(){return _0x10e20e;};return a0_0x4999();}function a0_0x12e8(_0x36a00a,_0x47d082){const _0x499940=a0_0x4999();return a0_0x12e8=function(_0x12e848,_0x3bd98f){_0x12e848=_0x12e848-0x1f2;let _0x1f735e=_0x499940[_0x12e848];return _0x1f735e;},a0_0x12e8(_0x36a00a,_0x47d082);}handler[a0_0x5e28b4(0x201)]=['addexp'],handler[a0_0x5e28b4(0x1ff)]=[a0_0x5e28b4(0x211)],handler[a0_0x5e28b4(0x208)]=[a0_0x5e28b4(0x1fc),a0_0x5e28b4(0x1f4)],handler[a0_0x5e28b4(0x212)]=!![];export default handler;
+import MessageType from '@whiskeysockets/baileys';
+
+const pajak = 0;
+const handler = async (m, {conn, text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.onwer_anadirXP
+
+  let who;
+  if (m.isGroup) who = m.mentionedJid[0];
+  else who = m.chat;
+  if (!who) throw tradutor.texto1;
+  const txt = text.replace('@' + who.split`@`[0], '').trim();
+  if (!txt) throw tradutor.texto2;
+  if (isNaN(txt)) throw tradutor.texto3;
+  const xp = parseInt(txt);
+  let exp = xp;
+  const pjk = Math.ceil(xp * pajak);
+  exp += pjk;
+  if (exp < 1) throw tradutor.texto4;
+  const users = global.db.data.users;
+  users[who].exp += xp;
+  m.reply(`≡ ${tradutor.texto5[0]}
+┌──────────────
+▢  ${tradutor.texto5[1]} ${xp}
+└──────────────`);
+};
+handler.help = ['addexp'];
+handler.tags = ['owner'];
+handler.command = ['añadirxp', 'addexp'];
+handler.rowner = true;
+export default handler;

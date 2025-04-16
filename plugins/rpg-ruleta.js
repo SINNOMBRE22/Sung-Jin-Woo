@@ -1,1 +1,60 @@
-function a0_0xf5f8(_0x127c32,_0x2ad295){const _0x56f09a=a0_0x56f0();return a0_0xf5f8=function(_0xf5f8d7,_0x501424){_0xf5f8d7=_0xf5f8d7-0x79;let _0x126425=_0x56f09a[_0xf5f8d7];return _0x126425;},a0_0xf5f8(_0x127c32,_0x2ad295);}const a0_0x5e5e2e=a0_0xf5f8;(function(_0x526234,_0x5673d2){const _0x21c1bb=a0_0xf5f8,_0x36215b=_0x526234();while(!![]){try{const _0x168c2f=parseInt(_0x21c1bb(0x97))/0x1+parseInt(_0x21c1bb(0x7b))/0x2+-parseInt(_0x21c1bb(0x81))/0x3*(parseInt(_0x21c1bb(0x8b))/0x4)+parseInt(_0x21c1bb(0x9a))/0x5+parseInt(_0x21c1bb(0x86))/0x6*(-parseInt(_0x21c1bb(0x7d))/0x7)+parseInt(_0x21c1bb(0x87))/0x8+-parseInt(_0x21c1bb(0xa0))/0x9;if(_0x168c2f===_0x5673d2)break;else _0x36215b['push'](_0x36215b['shift']());}catch(_0x3e7601){_0x36215b['push'](_0x36215b['shift']());}}}(a0_0x56f0,0x1b005));let handler=async(_0x4c3526,{conn:_0x187956})=>{const _0x390279=a0_0xf5f8;global['db']['data'][_0x390279(0x7c)][_0x4c3526['sender']][_0x390279(0x7f)]+=0x1;let _0x4d6bc9=new Date()[_0x390279(0x7a)](),_0x2a15eb=global['db'][_0x390279(0x8a)][_0x390279(0x7c)][_0x4c3526[_0x390279(0x95)]]['lastRouletteTime']||0x0,_0x572c79=0x2*0x3c*0x7d0;if(_0x4d6bc9-_0x2a15eb<_0x572c79){let _0x2deef9=_0x572c79-(_0x4d6bc9-_0x2a15eb),_0x34b73b=msToTime(_0x2deef9);throw _0x390279(0x9d)+_0x34b73b+_0x390279(0x8e);}let _0x159cde=Math[_0x390279(0x83)]();if(_0x159cde<0.3)global['db']['data'][_0x390279(0x7c)][_0x4c3526[_0x390279(0x95)]][_0x390279(0x91)]+=0x3e8,_0x4c3526['reply'](_0x390279(0x8f));else{let _0x354c0c=[_0x390279(0x80),_0x390279(0x8d),_0x390279(0x90),_0x390279(0x85),_0x390279(0x93),_0x390279(0x7e),_0x390279(0x84)],_0x3a1f64=Math['floor'](Math[_0x390279(0x83)]()*_0x354c0c[_0x390279(0x9c)]),_0x5254e1=_0x354c0c[_0x3a1f64];global['db']['data'][_0x390279(0x7c)][_0x4c3526[_0x390279(0x95)]][_0x390279(0x91)]-=0x2710,_0x4c3526[_0x390279(0x82)](_0x390279(0x99)+_0x5254e1+_0x390279(0x92));}global['db'][_0x390279(0x8a)][_0x390279(0x7c)][_0x4c3526[_0x390279(0x95)]][_0x390279(0x94)]=_0x4d6bc9;};handler['help']=[a0_0x5e5e2e(0x88)],handler[a0_0x5e5e2e(0x89)]=[a0_0x5e5e2e(0x8c)],handler[a0_0x5e5e2e(0x9e)]=[a0_0x5e5e2e(0x88),a0_0x5e5e2e(0x98)],handler[a0_0x5e5e2e(0x9b)]=!![],handler['fail']=null,handler[a0_0x5e5e2e(0x91)]=0x0;function msToTime(_0x2f20ad){const _0x25fab5=a0_0x5e5e2e;var _0x19c764=parseInt(_0x2f20ad%0x3e8/0x64),_0x31f93e=Math[_0x25fab5(0x79)](_0x2f20ad/0x3e8%0x3c),_0x26c5f7=Math[_0x25fab5(0x79)](_0x2f20ad/(0x3e8*0x3c)%0x3c),_0x5622a2=Math[_0x25fab5(0x79)](_0x2f20ad/(0x3e8*0x3c*0x3c)%0x18);return _0x5622a2=_0x5622a2<0xa?'0'+_0x5622a2:_0x5622a2,_0x26c5f7=_0x26c5f7<0xa?'0'+_0x26c5f7:_0x26c5f7,_0x31f93e=_0x31f93e<0xa?'0'+_0x31f93e:_0x31f93e,_0x26c5f7+_0x25fab5(0x9f)+_0x31f93e+_0x25fab5(0x96);}export default handler;function a0_0x56f0(){const _0x1df2bd=['66ETBSkm','92360GCljFx','ruleta','tags','data','4FmfBSo','game','te\x20has\x20pegado\x20un\x20tiro\x20en\x20la\x20nalga\x20🍑🔫','\x20antes\x20de\x20jugar\x20de\x20nuevo.*','*[\x20🍀\x20]\x20Te\x20has\x20salvado.\x20Ganas\x201000\x20puntos\x20de\x20experiencia.*','te\x20has\x20pegado\x20un\x20tiro\x20en\x20la\x20mano\x20👋🔫','exp','.\x20Pierdes\x201000\x20puntos\x20de\x20experiencia.*','te\x20has\x20pegado\x20un\x20tiro\x20en\x20la\x20lonja\x20🐷🔫','lastRouletteTime','sender','\x20s\x20','173284EqQCww','dispara','*[\x20💥\x20]\x20','52910kmumvi','group','length','*[\x20⏲️\x20]\x20Debes\x20esperar\x20','command','\x20m\x20y\x20','1238823eOENZe','floor','getTime','292066RSKjto','users','26642fYeQXP','te\x20has\x20pegado\x20un\x20tiro\x20en\x20la\x20oreja\x20👂🔫','comandos','te\x20has\x20disparado\x20en\x20la\x20pierna\x20🦵🔫','154002HOXRUG','reply','random','se\x20te\x20ha\x20salido\x20un\x20tiro\x20y\x20le\x20has\x20pegado\x20a\x20tu\x20ex\x20🧌🔫','te\x20has\x20pegado\x20un\x20tiro\x20en\x20el\x20asterisco\x20😣🔫'];a0_0x56f0=function(){return _0x1df2bd;};return a0_0x56f0();}
+let handler = async (m, { conn }) => {
+global.db.data.users[m.sender].comandos += 1;
+    let currentTime = new Date().getTime();
+    let lastPlayTime = global.db.data.users[m.sender].lastRouletteTime || 0;
+    let cooldownDuration = 2 * 60 * 2000; 
+    
+    if (currentTime - lastPlayTime < cooldownDuration) {
+        let remainingTime = cooldownDuration - (currentTime - lastPlayTime);
+        let remainingTimeString = msToTime(remainingTime);
+        throw `*[ ⏲️ ] Debes esperar ${remainingTimeString} antes de jugar de nuevo.*`;
+    }
+    
+    let chance = Math.random(); 
+    
+    if (chance < 0.3) { 
+        global.db.data.users[m.sender].exp += 1000; 
+        m.reply('*[ 🍀 ] Te has salvado. Ganas 1000 puntos de experiencia.*');
+    } else {
+        let losingMessages = [
+            'te has disparado en la pierna 🦵🔫',
+            'te has pegado un tiro en la nalga 🍑🔫',
+            'te has pegado un tiro en la mano 👋🔫',
+            'te has pegado un tiro en el asterisco 😣🔫',
+            'te has pegado un tiro en la lonja 🐷🔫',
+            'te has pegado un tiro en la oreja 👂🔫',
+            'se te ha salido un tiro y le has pegado a tu ex 🧌🔫'
+        ];
+        
+        let randomIndex = Math.floor(Math.random() * losingMessages.length);
+        let losingMessage = losingMessages[randomIndex];
+        
+        global.db.data.users[m.sender].exp -= 10000; 
+        m.reply(`*[ 💥 ] ${losingMessage}. Pierdes 1000 puntos de experiencia.*`);
+    }
+    
+    global.db.data.users[m.sender].lastRouletteTime = currentTime;
+
+
+}
+handler.help = ['ruleta'];
+handler.tags = ['game']
+handler.command = ['ruleta', 'dispara'];
+handler.group = true
+handler.fail = null;
+handler.exp = 0;
+
+function msToTime(duration) {
+    var milliseconds = parseInt((duration % 1000) / 100),
+        seconds = Math.floor((duration / 1000) % 60),
+        minutes = Math.floor((duration / (1000 * 60)) % 60),
+        hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+    return minutes + " m y " + seconds + " s ";
+}
+
+export default handler;

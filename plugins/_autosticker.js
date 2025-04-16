@@ -1,1 +1,48 @@
-const a0_0x243f26=a0_0xb665;(function(_0x3b83a7,_0x381ea8){const _0x3a5efd=a0_0xb665,_0x36c708=_0x3b83a7();while(!![]){try{const _0x22a385=parseInt(_0x3a5efd(0x1f5))/0x1*(-parseInt(_0x3a5efd(0x1fa))/0x2)+-parseInt(_0x3a5efd(0x1ed))/0x3*(-parseInt(_0x3a5efd(0x1f8))/0x4)+parseInt(_0x3a5efd(0x1e8))/0x5+parseInt(_0x3a5efd(0x1fd))/0x6*(-parseInt(_0x3a5efd(0x1e6))/0x7)+parseInt(_0x3a5efd(0x1e4))/0x8+-parseInt(_0x3a5efd(0x1fb))/0x9+-parseInt(_0x3a5efd(0x1dc))/0xa*(-parseInt(_0x3a5efd(0x1e1))/0xb);if(_0x22a385===_0x381ea8)break;else _0x36c708['push'](_0x36c708['shift']());}catch(_0x5985e7){_0x36c708['push'](_0x36c708['shift']());}}}(a0_0x1abf,0x3b41f));import{sticker}from'../lib/sticker.js';function a0_0xb665(_0x570d02,_0x482ce9){const _0x1abf75=a0_0x1abf();return a0_0xb665=function(_0xb66598,_0x5ac6fe){_0xb66598=_0xb66598-0x1d9;let _0x2c11bd=_0x1abf75[_0xb66598];return _0x2c11bd;},a0_0xb665(_0x570d02,_0x482ce9);}const handler=_0x28966b=>_0x28966b;function a0_0x1abf(){const _0x1d1498=['3DAlZch','autosticker','mimetype','match','isGroup','conn','readFileSync','split','2532rcBpIt','sendFile','msg','488812vuNXvN','reply','318MKpZkE','3426786SsAPhV','data','1749102LVhyrP','_autosticker','sender','download','10CcYaJo','chat','test','./language/','parse','4760569JMCzHV','language','text','3549152BsWxji','texto1','7gNXLNm','seconds','1594760JzcoVw','mediaType','all','chats','.json'];a0_0x1abf=function(){return _0x1d1498;};return a0_0x1abf();}handler[a0_0x243f26(0x1ea)]=async function(_0x24a4d2){const _0x4f5b0c=a0_0x243f26,_0x5f1551=global,_0x4178b7=_0x5f1551['db'][_0x4f5b0c(0x1fc)]['users'][_0x24a4d2[_0x4f5b0c(0x1da)]][_0x4f5b0c(0x1e2)],_0x588d86=JSON[_0x4f5b0c(0x1e0)](fs[_0x4f5b0c(0x1f3)](_0x4f5b0c(0x1df)+_0x4178b7+_0x4f5b0c(0x1ec))),_0x31cd4c=_0x588d86['plugins'][_0x4f5b0c(0x1d9)],_0x35f1fa=db[_0x4f5b0c(0x1fc)][_0x4f5b0c(0x1eb)][_0x24a4d2[_0x4f5b0c(0x1dd)]],_0x43ea11=db[_0x4f5b0c(0x1fc)]['users'][_0x24a4d2[_0x4f5b0c(0x1da)]];if(_0x35f1fa[_0x4f5b0c(0x1ee)]&&_0x24a4d2[_0x4f5b0c(0x1f1)]){const _0x1c8efe=_0x24a4d2;let _0x4896ab=![];const _0x38b9be=(_0x1c8efe[_0x4f5b0c(0x1f7)]||_0x1c8efe)[_0x4f5b0c(0x1ef)]||_0x1c8efe[_0x4f5b0c(0x1e9)]||'';if(/webp/g['test'](_0x38b9be))return;if(/image/g['test'](_0x38b9be)){const _0x10578f=await _0x1c8efe[_0x4f5b0c(0x1db)]?.();if(!_0x10578f)return;_0x4896ab=await sticker(_0x10578f,![],packname,author);}else{if(/video/g[_0x4f5b0c(0x1de)](_0x38b9be)){if(/video/g[_0x4f5b0c(0x1de)](_0x38b9be)){if((_0x1c8efe[_0x4f5b0c(0x1f7)]||_0x1c8efe)[_0x4f5b0c(0x1e7)]>0x8)return await _0x24a4d2[_0x4f5b0c(0x1f9)](_0x31cd4c[_0x4f5b0c(0x1e5)]);}const _0x30e088=await _0x1c8efe['download']();if(!_0x30e088)return;_0x4896ab=await sticker(_0x30e088,![],packname,author);}else{if(_0x24a4d2['text'][_0x4f5b0c(0x1f4)](/\n| /i)[0x0]){if(isUrl(_0x24a4d2[_0x4f5b0c(0x1e3)]))_0x4896ab=await sticker(![],_0x24a4d2['text'][_0x4f5b0c(0x1f4)](/\n| /i)[0x0],packname,author);else return;}}}_0x4896ab&&await mconn[_0x4f5b0c(0x1f2)][_0x4f5b0c(0x1f6)](_0x24a4d2[_0x4f5b0c(0x1dd)],_0x4896ab,null,{'asSticker':!![]});}return!0x0;};export default handler;const isUrl=_0x46b91f=>{const _0x3e15cb=a0_0x243f26;return _0x46b91f[_0x3e15cb(0x1f0)](new RegExp(/^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png|mp4)/,'gi'));};
+import {sticker} from '../lib/sticker.js';
+
+
+ // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+
+const handler = (m) => m;
+
+handler.all = async function(m) {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins._autosticker
+
+  const chat = db.data.chats[m.chat];
+  const user = db.data.users[m.sender];
+
+  if (chat.autosticker && m.isGroup) {
+    const q = m;
+    let stiker = false;
+    const mime = (q.msg || q).mimetype || q.mediaType || '';
+    if (/webp/g.test(mime)) return;
+    if (/image/g.test(mime)) {
+      const img = await q.download?.();
+      if (!img) return;
+      stiker = await sticker(img, false, packname, author);
+    } else if (/video/g.test(mime)) {
+      if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await m.reply(tradutor.texto1);
+      // await this.sendButton(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝚅𝙸𝙳𝙴𝙾 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝙳𝚄𝚁𝙰𝚁 𝙼𝙰𝚂 𝙳𝙴 7 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂*', wm, [['𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝙰𝚄𝚃𝙾𝚂𝚃𝙸𝙲𝙺𝙴𝚁', '/disable autosticker']], m)
+      const img = await q.download();
+      if (!img) return;
+      stiker = await sticker(img, false, packname, author);
+    } else if (m.text.split(/\n| /i)[0]) {
+      if (isUrl(m.text)) stiker = await sticker(false, m.text.split(/\n| /i)[0], packname, author);
+      else return;
+    }
+    if (stiker) {
+      await mconn.conn.sendFile(m.chat, stiker, null, {asSticker: true});
+    }
+  }
+  return !0;
+};
+export default handler;
+
+const isUrl = (text) => {
+  return text.match(new RegExp(/^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png|mp4)/, 'gi'));
+};

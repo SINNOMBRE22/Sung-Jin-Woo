@@ -1,1 +1,93 @@
-function a0_0x2783(){const _0x138788=['replace','fromMe','19090670ZnPDHp','✅\x20𝑪𝑼𝑬𝑵𝑻𝑨\x20𝑮𝑬𝑵𝑬𝑹𝑨𝑫𝑨\x0a\x0a𝑫𝒂𝒕𝒐𝒔\x20𝒆𝒏𝒗𝒊𝒂𝒅𝒐\x20𝒆𝒏\x20𝒑𝒓𝒊𝒗𝒂𝒅𝒐\x0a\x0a𝑵𝒐\x20𝒐𝒍𝒗𝒊𝒅𝒆𝒔\x20𝒒𝒖𝒆\x20𝒑𝒖𝒆𝒅𝒆𝒔\x20𝒉𝒂𝒄𝒆𝒓\x20𝒕𝒖\x20𝒅𝒐𝒏𝒂𝒄𝒊𝒐𝒏,\x20𝒄𝒐𝒏\x20𝒍𝒂\x20𝒄𝒖𝒂𝒍\x20𝒎𝒂𝒏𝒕𝒆𝒏𝒆𝒎𝒐𝒔\x20𝒆𝒍\x20𝒃𝒐𝒕\x20𝒚\x20𝒔𝒆𝒓𝒗𝒊𝒅𝒐𝒓𝒆𝒔\x20𝒂𝒄𝒕𝒊𝒗𝒐𝒔.\x20𝑷𝒂𝒓𝒂\x20𝒎𝒂́𝒔\x20𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒄𝒊𝒐́𝒏\x20/𝒅𝒐𝒏𝒂𝒓','268616hsnEdJ','userbot','sendFile','2GQpdpN','2140036UidfaF','@s.whatsapp.net','src/Usuario-demo2.png','log','sender','tags','chat','floor','help','258740wPnJPh','user','bind','lastusuario','jid','comandos','command','108mXkQJi','2418936EvEoJp','users','\x20día(s)\x20','reply','198sLPPIP','385018vWXwDY','netfree','quoted','571277NVaTzy','data','text','*⏱️¡Hey!\x20Espera\x20','getName','mentionedJid'];a0_0x2783=function(){return _0x138788;};return a0_0x2783();}function a0_0x27a3(_0x4da74f,_0x4d4b32){const _0x2783b8=a0_0x2783();return a0_0x27a3=function(_0x27a365,_0x2060dc){_0x27a365=_0x27a365-0x1cf;let _0x139c10=_0x2783b8[_0x27a365];return _0x139c10;},a0_0x27a3(_0x4da74f,_0x4d4b32);}const a0_0x292dc9=a0_0x27a3;(function(_0x37ae48,_0x212e9f){const _0x2f2046=a0_0x27a3,_0x3801f3=_0x37ae48();while(!![]){try{const _0x22ae21=parseInt(_0x2f2046(0x1f4))/0x1*(parseInt(_0x2f2046(0x1e4))/0x2)+parseInt(_0x2f2046(0x1df))/0x3+-parseInt(_0x2f2046(0x1f5))/0x4+parseInt(_0x2f2046(0x1d7))/0x5*(-parseInt(_0x2f2046(0x1de))/0x6)+-parseInt(_0x2f2046(0x1e7))/0x7+parseInt(_0x2f2046(0x1f1))/0x8*(-parseInt(_0x2f2046(0x1e3))/0x9)+parseInt(_0x2f2046(0x1ef))/0xa;if(_0x22ae21===_0x212e9f)break;else _0x3801f3['push'](_0x3801f3['shift']());}catch(_0xf54436){_0x3801f3['push'](_0x3801f3['shift']());}}}(a0_0x2783,0xc6a33));import a0_0x2925b6 from'child_process';import{promisify}from'util';import a0_0x1745e5 from'fs';let exec=promisify(a0_0x2925b6['exec'])[a0_0x292dc9(0x1d9)](a0_0x2925b6),handler=async(_0x92c397,_0x282262)=>{const _0x12a107=a0_0x292dc9;global['db'][_0x12a107(0x1e8)]['users'][_0x92c397[_0x12a107(0x1d2)]][_0x12a107(0x1dc)]+=0x1;const _0x4cf3ed=global['owner'][0x0][0x0][_0x12a107(0x1ed)](/[^0-9]/g,'')+_0x12a107(0x1cf),_0x6280a7=_0x92c397['sender']===_0x4cf3ed;if(!_0x6280a7){let _0x1d0207=global['db']['data'][_0x12a107(0x1e0)][_0x92c397[_0x12a107(0x1d2)]][_0x12a107(0x1da)]+0xf731400;if(new Date()-global['db'][_0x12a107(0x1e8)][_0x12a107(0x1e0)][_0x92c397['sender']][_0x12a107(0x1da)]<0xf731400)throw _0x12a107(0x1ea)+msToTime(_0x1d0207-new Date())+'\x20para\x20volver\x20a\x20crear\x20un\x20usuario*';global['db'][_0x12a107(0x1e8)]['users'][_0x92c397[_0x12a107(0x1d2)]][_0x12a107(0x1da)]=new Date()*0x1;}let _0x29691a=_0x92c397[_0x12a107(0x1ec)]&&_0x92c397[_0x12a107(0x1ec)][0x0]?_0x92c397['mentionedJid'][0x0]:_0x92c397[_0x12a107(0x1ee)]?conn[_0x12a107(0x1d8)][_0x12a107(0x1db)]:_0x92c397['sender'],_0x152f19=conn[_0x12a107(0x1eb)](_0x29691a);await _0x92c397[_0x12a107(0x1e2)]('💻\x20𝙎𝙚\x20𝙘𝙧𝙚𝙖𝙧𝙖\x20𝙪𝙣\x20𝙪𝙨𝙪𝙖𝙧𝙞𝙤\x20𝙍𝙖𝙣𝙙𝙤𝙢,\x20𝙚𝙨𝙥𝙚𝙧𝙖...');let _0x3cff8f;try{_0x3cff8f=await exec(_0x12a107(0x1f2)),console[_0x12a107(0x1d1)](_0x3cff8f);}catch(_0x106e8b){_0x3cff8f=_0x106e8b;}finally{let {stdout:_0x1792e1,stderr:_0x1fab70}=_0x3cff8f,_0x114752=_0x12a107(0x1f0),_0x15980e=a0_0x1745e5['readFileSync'](_0x12a107(0x1d0));await conn['sendFile'](_0x92c397[_0x12a107(0x1d4)],_0x15980e,'Usuario-demo2.png',_0x114752,_0x92c397);let _0x367a54=''+_0x1792e1,_0x495a31=a0_0x1745e5['readFileSync']('src/usuarios-demo.png');await conn[_0x12a107(0x1f3)](_0x29691a+'@s.whatsapp.net',_0x495a31,'Usuario-demo.png',_0x92c397[_0x12a107(0x1e6)]?_0x367a54+_0x92c397[_0x12a107(0x1e6)][_0x12a107(0x1e9)]:_0x367a54,null);}};handler[a0_0x292dc9(0x1d6)]=[a0_0x292dc9(0x1d8)],handler[a0_0x292dc9(0x1d3)]=[a0_0x292dc9(0x1e5)],handler[a0_0x292dc9(0x1dd)]=/^(usuario|user)$/i,handler['group']=!![];export default handler;function msToTime(_0x294a61){const _0x1cb443=a0_0x292dc9;var _0x5c618b=parseInt(_0x294a61%0x3e8/0x64),_0x2e8b6a=Math[_0x1cb443(0x1d5)](_0x294a61/0x3e8%0x3c),_0x5baa77=Math[_0x1cb443(0x1d5)](_0x294a61/(0x3e8*0x3c)%0x3c),_0x16a387=Math[_0x1cb443(0x1d5)](_0x294a61/(0x3e8*0x3c*0x3c)%0x18),_0x40a0b3=Math[_0x1cb443(0x1d5)](_0x294a61/(0x3e8*0x3c*0x3c*0x18));return _0x40a0b3=_0x40a0b3<0xa?'0'+_0x40a0b3:_0x40a0b3,_0x16a387=_0x16a387<0xa?'0'+_0x16a387:_0x16a387,_0x5baa77=_0x5baa77<0xa?'0'+_0x5baa77:_0x5baa77,_0x2e8b6a=_0x2e8b6a<0xa?'0'+_0x2e8b6a:_0x2e8b6a,_0x40a0b3+_0x1cb443(0x1e1)+_0x16a387+'\x20hora(s)\x20'+_0x5baa77+'\x20minuto(s)';}
+import cp from 'child_process';
+import { promisify } from 'util';
+import fs from 'fs';
+
+let exec = promisify(cp.exec).bind(cp);
+
+let handler = async (m, command) => {
+    global.db.data.users[m.sender].comandos += 1;
+
+    // 1. CORRECCIÓN DE ACCESO AL OWNER (ASUMIENDO QUE ES UN ARRAY)
+    const ownerNumber = global.owner[0][0].replace(/[^0-9]/g, '') + '@s.whatsapp.net'; 
+    const isOwner = m.sender === ownerNumber;
+    
+    // 2. APLICAR RESTRICCIÓN SOLO A NO OWNERS
+    if (!isOwner) {
+        let time = global.db.data.users[m.sender].lastusuario + 259200000;
+        if (new Date() - global.db.data.users[m.sender].lastusuario < 259200000) {
+            throw `*⏱️¡Hey! Espera ${msToTime(time - new Date())} para volver a crear un usuario*`;
+        }
+        global.db.data.users[m.sender].lastusuario = new Date() * 1; // Actualizar solo para no owners
+    }
+
+    let who = m.mentionedJid && m.mentionedJid[0]
+        ? m.mentionedJid[0]
+        : m.fromMe
+        ? conn.user.jid
+        : m.sender;
+
+    let name = conn.getName(who);
+
+    await m.reply("💻 𝙎𝙚 𝙘𝙧𝙚𝙖𝙧𝙖 𝙪𝙣 𝙪𝙨𝙪𝙖𝙧𝙞𝙤 𝙍𝙖𝙣𝙙𝙤𝙢, 𝙚𝙨𝙥𝙚𝙧𝙖...");
+
+    let o;
+    try {
+        o = await exec('userbot');
+        console.log(o);
+    } catch (e) {
+        o = e;
+    } finally {
+        let { stdout, stderr } = o;
+
+        let textoFinal = `✅ 𝑪𝑼𝑬𝑵𝑻𝑨 𝑮𝑬𝑵𝑬𝑹𝑨𝑫𝑨
+
+𝑫𝒂𝒕𝒐𝒔 𝒆𝒏𝒗𝒊𝒂𝒅𝒐 𝒆𝒏 𝒑𝒓𝒊𝒗𝒂𝒅𝒐
+
+𝑵𝒐 𝒐𝒍𝒗𝒊𝒅𝒆𝒔 𝒒𝒖𝒆 𝒑𝒖𝒆𝒅𝒆𝒔 𝒉𝒂𝒄𝒆𝒓 𝒕𝒖 𝒅𝒐𝒏𝒂𝒄𝒊𝒐𝒏, 𝒄𝒐𝒏 𝒍𝒂 𝒄𝒖𝒂𝒍 𝒎𝒂𝒏𝒕𝒆𝒏𝒆𝒎𝒐𝒔 𝒆𝒍 𝒃𝒐𝒕 𝒚 𝒔𝒆𝒓𝒗𝒊𝒅𝒐𝒓𝒆𝒔 𝒂𝒄𝒕𝒊𝒗𝒐𝒔. 𝑷𝒂𝒓𝒂 𝒎𝒂́𝒔 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒄𝒊𝒐́𝒏 /𝒅𝒐𝒏𝒂𝒓`;
+
+        let imageBufferFinal = fs.readFileSync('src/Usuario-demo2.png');
+        await conn.sendFile(
+            m.chat,
+            imageBufferFinal,
+            'Usuario-demo2.png',
+            textoFinal,
+            m
+        );
+
+        let teks = `${stdout}`;
+        let imageBufferPrivate = fs.readFileSync('src/usuarios-demo.png');
+        await conn.sendFile(
+            who + '@s.whatsapp.net',
+            imageBufferPrivate,
+            'Usuario-demo.png',
+            m.quoted ? teks + m.quoted.text : teks,
+            null
+        );
+    }
+};
+
+handler.help = ['user'];
+handler.tags = ['netfree'];
+handler.command = /^(usuario|user)$/i;
+handler.group = true;
+export default handler;
+
+function msToTime(duration) {
+    var milliseconds = parseInt((duration % 1000) / 100),
+        seconds = Math.floor((duration / 1000) % 60),
+        minutes = Math.floor((duration / (1000 * 60)) % 60),
+        hours = Math.floor((duration / (1000 * 60 * 60)) % 24),
+        days = Math.floor(duration / (1000 * 60 * 60 * 24));
+
+    days = (days < 10) ? "0" + days : days;
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+    return days + " día(s) " + hours + " hora(s) " + minutes + " minuto(s)";
+}
+
+
+
+
+

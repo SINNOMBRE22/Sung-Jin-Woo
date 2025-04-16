@@ -1,1 +1,51 @@
-const a0_0xd8be4f=a0_0x1880;(function(_0x58847f,_0x3b7ab8){const _0x2b8a40=a0_0x1880,_0x196a67=_0x58847f();while(!![]){try{const _0x3afa81=-parseInt(_0x2b8a40(0x1e3))/0x1*(parseInt(_0x2b8a40(0x1d6))/0x2)+parseInt(_0x2b8a40(0x1ee))/0x3+parseInt(_0x2b8a40(0x1dc))/0x4+-parseInt(_0x2b8a40(0x1e5))/0x5+-parseInt(_0x2b8a40(0x1d7))/0x6*(-parseInt(_0x2b8a40(0x1e2))/0x7)+parseInt(_0x2b8a40(0x1da))/0x8+parseInt(_0x2b8a40(0x1e6))/0x9*(-parseInt(_0x2b8a40(0x1d5))/0xa);if(_0x3afa81===_0x3b7ab8)break;else _0x196a67['push'](_0x196a67['shift']());}catch(_0x40d29a){_0x196a67['push'](_0x196a67['shift']());}}}(a0_0x45b3,0x8fc5f));import a0_0x436843 from'fs';function a0_0x45b3(){const _0x5a4ec5=['sender','gajah','2015355TjPRcV','econ','data','kerbau','users','panda','command','10mYYHvP','74vUyqHZ','10842PdbwTy','kambing','monyet','9141984xuzNNf','readFileSync','1244920moXHYk','\x0aTotal\x20de\x20animales:\x20','help','comandos','chat','granja.jpg','2821NTmpxm','15419lPUOcv','babi','116885aevQsM','15040881cINEqo','tags','babihutan','Tienes\x20los\x20siguientes\x20animales:\x0a\x0a','animales','sendFile'];a0_0x45b3=function(){return _0x5a4ec5;};return a0_0x45b3();}import a0_0x446f54 from'path';const handler=async(_0x37ed3f,{conn:_0x569a21})=>{const _0x4528f2=a0_0x1880;global['db'][_0x4528f2(0x1d0)][_0x4528f2(0x1d2)][_0x37ed3f[_0x4528f2(0x1ec)]][_0x4528f2(0x1df)]+=0x1;const _0x457165=global['db'][_0x4528f2(0x1d0)][_0x4528f2(0x1d2)][_0x37ed3f['sender']],_0x194210={'🐂\x20Toro':_0x457165['banteng'],'🐅\x20Tigre':_0x457165['harimau'],'🐘\x20Elefante':_0x457165[_0x4528f2(0x1ed)],'🐐\x20Cabra':_0x457165[_0x4528f2(0x1d8)],'🐖\x20Panda':_0x457165[_0x4528f2(0x1d3)],'🐊\x20Cocodrilo':_0x457165['buaya'],'🐃\x20Bufalo':_0x457165[_0x4528f2(0x1d1)],'🐮\x20Vaca':_0x457165['sapi'],'🐒\x20Mono':_0x457165[_0x4528f2(0x1d9)],'🐗\x20Jabali':_0x457165[_0x4528f2(0x1e8)],'🐖\x20Cerdo':_0x457165[_0x4528f2(0x1e4)],'🐓\x20Pollo':_0x457165['ayam']};let _0x369bc7=0x0,_0x129e76=_0x4528f2(0x1e9);for(const _0x45407b in _0x194210){const _0x3f9837=_0x194210[_0x45407b];_0x3f9837>0x0&&(_0x129e76+=_0x45407b+':\x20'+_0x3f9837+'\x0a',_0x369bc7+=_0x3f9837);}_0x129e76+=_0x4528f2(0x1dd)+_0x369bc7;const _0x35cec9='./granja.jpg',_0x893d9f=a0_0x436843[_0x4528f2(0x1db)](a0_0x446f54['resolve'](_0x35cec9));_0x569a21[_0x4528f2(0x1eb)](_0x37ed3f[_0x4528f2(0x1e0)],_0x893d9f,_0x4528f2(0x1e1),_0x129e76,_0x37ed3f);};handler[a0_0xd8be4f(0x1de)]=[a0_0xd8be4f(0x1ea)],handler[a0_0xd8be4f(0x1e7)]=[a0_0xd8be4f(0x1cf)],handler[a0_0xd8be4f(0x1d4)]=/^(animales|granja|misanimales)$/i,handler['group']=!![];function a0_0x1880(_0x8a2cd8,_0x2aac3f){const _0x45b3f7=a0_0x45b3();return a0_0x1880=function(_0x188085,_0x401e6d){_0x188085=_0x188085-0x1cf;let _0x59f4c7=_0x45b3f7[_0x188085];return _0x59f4c7;},a0_0x1880(_0x8a2cd8,_0x2aac3f);}export default handler;
+import fs from 'fs'
+import path from 'path'
+
+const handler = async (m, { conn }) => {
+  global.db.data.users[m.sender].comandos += 1;
+
+  const user = global.db.data.users[m.sender];
+
+  const animalCount = {
+    '🐂 Toro': user.banteng,
+    '🐅 Tigre': user.harimau,
+    '🐘 Elefante': user.gajah,
+    '🐐 Cabra': user.kambing,
+    '🐖 Panda': user.panda,
+    '🐊 Cocodrilo': user.buaya,
+    '🐃 Bufalo': user.kerbau,
+    '🐮 Vaca': user.sapi,
+    '🐒 Mono': user.monyet,
+    '🐗 Jabali': user.babihutan,
+    '🐖 Cerdo': user.babi,
+    '🐓 Pollo': user.ayam,
+  };
+
+  let totalanimales = 0;
+
+  let message = "Tienes los siguientes animales:\n\n";
+
+  for (const animal in animalCount) {
+    const count = animalCount[animal];
+    if (count > 0) {
+      message += `${animal}: ${count}\n`;
+      totalanimales += count;
+    }
+  }
+
+  message += `\nTotal de animales: ${totalanimales}`;
+
+  const granjaImagePath = './granja.jpg'; // Ruta de la imagen de la granja
+
+  // Cargar la imagen en un Buffer
+  const granjaImageBuffer = fs.readFileSync(path.resolve(granjaImagePath));
+
+  conn.sendFile(m.chat, granjaImageBuffer, 'granja.jpg', message, m);
+};
+
+handler.help = ['animales'];
+handler.tags = ['econ'];
+handler.command = /^(animales|granja|misanimales)$/i;
+handler.group = true;
+
+export default handler;

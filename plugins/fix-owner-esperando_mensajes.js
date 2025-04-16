@@ -1,1 +1,44 @@
-function a0_0x2312(_0x404733,_0x572fcc){const _0x1fc1c5=a0_0x1fc1();return a0_0x2312=function(_0x2312b6,_0xb6efbe){_0x2312b6=_0x2312b6-0x1d7;let _0x1088da=_0x1fc1c5[_0x2312b6];return _0x1088da;},a0_0x2312(_0x404733,_0x572fcc);}function a0_0x1fc1(){const _0x4d7800=['1916740dknylZ','data','184879nRSXqC','2468547ZMdNtz','8dxTeyx','tags','texto3','texto5','20kVpEwY','35442AJyDHH','readdir','./language/','sender','error','63zxTJvG','texto1','Error\x20al\x20leer\x20la\x20carpeta\x20o\x20los\x20archivos\x20de\x20sesión:','unlink','conn','plugins','texto4','jid','22lmWoyW','command','580712sSZsPI','chat','sendMessage','parse','72472YqSjov','rowner','119238rBDoBN','.json','user'];a0_0x1fc1=function(){return _0x4d7800;};return a0_0x1fc1();}const a0_0x324fb5=a0_0x2312;(function(_0x40c6e8,_0x5b83b0){const _0x14d86d=a0_0x2312,_0x121e74=_0x40c6e8();while(!![]){try{const _0x442bd2=parseInt(_0x14d86d(0x1ed))/0x1+parseInt(_0x14d86d(0x1e2))/0x2+parseInt(_0x14d86d(0x1d8))/0x3*(parseInt(_0x14d86d(0x1e6))/0x4)+parseInt(_0x14d86d(0x1f3))/0x5*(parseInt(_0x14d86d(0x1f4))/0x6)+-parseInt(_0x14d86d(0x1e8))/0x7+parseInt(_0x14d86d(0x1ef))/0x8*(-parseInt(_0x14d86d(0x1ee))/0x9)+-parseInt(_0x14d86d(0x1eb))/0xa*(parseInt(_0x14d86d(0x1e0))/0xb);if(_0x442bd2===_0x5b83b0)break;else _0x121e74['push'](_0x121e74['shift']());}catch(_0x76c666){_0x121e74['push'](_0x121e74['shift']());}}}(a0_0x1fc1,0x31f84));import{readdirSync,unlinkSync,existsSync,promises as a0_0x23911e,rmSync,readFileSync}from'fs';import a0_0x57a480 from'path';const handler=async(_0x1598c2,{conn:_0x1d73d6,usedPrefix:_0x14cf02})=>{const _0x1c5296=a0_0x2312,_0xd965b3=global,_0x5c14fb=_0xd965b3['db'][_0x1c5296(0x1ec)]['users'][_0x1598c2[_0x1c5296(0x1f7)]]['language'],_0x3fd9d0=JSON[_0x1c5296(0x1e5)](readFileSync(_0x1c5296(0x1f6)+_0x5c14fb+_0x1c5296(0x1e9))),_0x3394cf=_0x3fd9d0[_0x1c5296(0x1dd)]['fix_owner_esperando_mensajes'];if(global[_0x1c5296(0x1dc)][_0x1c5296(0x1ea)][_0x1c5296(0x1df)]!==_0x1d73d6[_0x1c5296(0x1ea)][_0x1c5296(0x1df)])return _0x1d73d6['sendMessage'](_0x1598c2['chat'],{'text':_0x3394cf[_0x1c5296(0x1d9)]},{'quoted':_0x1598c2});await _0x1d73d6[_0x1c5296(0x1e4)](_0x1598c2[_0x1c5296(0x1e3)],{'text':_0x3394cf['texto2']},{'quoted':_0x1598c2});const _0x34b1b7='./Jinwoosesion/';try{if(!existsSync(_0x34b1b7))return await _0x1d73d6[_0x1c5296(0x1e4)](_0x1598c2[_0x1c5296(0x1e3)],{'text':_0x3394cf[_0x1c5296(0x1f1)]},{'quoted':_0x1598c2});const _0x20288f=await a0_0x23911e[_0x1c5296(0x1f5)](_0x34b1b7);let _0x548ac7=0x0;for(const _0x5c88ad of _0x20288f){_0x5c88ad!=='creds.json'&&(await a0_0x23911e[_0x1c5296(0x1db)](a0_0x57a480['join'](_0x34b1b7,_0x5c88ad)),_0x548ac7++);}_0x548ac7===0x0?await _0x1d73d6['sendMessage'](_0x1598c2[_0x1c5296(0x1e3)],{'text':_0x3394cf[_0x1c5296(0x1de)]},{'quoted':_0x1598c2}):await _0x1d73d6[_0x1c5296(0x1e4)](_0x1598c2[_0x1c5296(0x1e3)],{'text':_0x3394cf['texto5'][0x0]+'\x20'+_0x548ac7+'\x20'+_0x3394cf[_0x1c5296(0x1f2)][0x1]},{'quoted':_0x1598c2});}catch(_0x105e8){console[_0x1c5296(0x1d7)](_0x1c5296(0x1da),_0x105e8),await _0x1d73d6[_0x1c5296(0x1e4)](_0x1598c2[_0x1c5296(0x1e3)],{'text':_0x3394cf['texto6']},{'quoted':_0x1598c2});}await _0x1d73d6[_0x1c5296(0x1e4)](_0x1598c2[_0x1c5296(0x1e3)],{'text':_0x3394cf['texto7']+'\x0a'+_0x14cf02+'s\x0a'+_0x14cf02+'s\x0a'+_0x14cf02+'s'},{'quoted':_0x1598c2});};handler['help']=['dsowner'],handler[a0_0x324fb5(0x1f0)]=['owner'],handler[a0_0x324fb5(0x1e1)]=/^(del_reg_in_session_owner|dsowner|clearallsession)$/i,handler[a0_0x324fb5(0x1e7)]=!![];export default handler;
+/* Codigo hecho por @Fabri115 y mejorado por BrunoSobrino */
+
+import { readdirSync, unlinkSync, existsSync, promises as fs, rmSync, readFileSync } from 'fs';
+import path from 'path';
+
+const handler = async (m, { conn, usedPrefix }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.fix_owner_esperando_mensajes
+
+  if (global.conn.user.jid !== conn.user.jid) {
+    return conn.sendMessage(m.chat, {text: tradutor.texto1}, {quoted: m});
+  }
+  await conn.sendMessage(m.chat, {text: tradutor.texto2}, {quoted: m});
+  const sessionPath = './Jinwoosesion/';
+  try {
+    if (!existsSync(sessionPath)) {
+      return await conn.sendMessage(m.chat, {text: tradutor.texto3}, {quoted: m});
+    }
+    const files = await fs.readdir(sessionPath);
+    let filesDeleted = 0;
+    for (const file of files) {
+      if (file !== 'creds.json') {
+        await fs.unlink(path.join(sessionPath, file));
+        filesDeleted++;
+      }
+    }
+    if (filesDeleted === 0) {
+      await conn.sendMessage(m.chat, {text: tradutor.texto4}, {quoted: m});
+    } else {
+      await conn.sendMessage(m.chat, {text: `${tradutor.texto5[0]} ${filesDeleted} ${tradutor.texto5[1]}`}, {quoted: m});
+    }
+  } catch (err) {
+    console.error('Error al leer la carpeta o los archivos de sesión:', err);
+    await conn.sendMessage(m.chat, {text: tradutor.texto6}, {quoted: m});
+  }
+  await conn.sendMessage(m.chat, {text: `${tradutor.texto7}\n${usedPrefix}s\n${usedPrefix}s\n${usedPrefix}s`}, {quoted: m});
+};
+handler.help = ['dsowner'];
+handler.tags = ['owner'];
+handler.command = /^(del_reg_in_session_owner|dsowner|clearallsession)$/i;
+handler.rowner = true
+export default handler;

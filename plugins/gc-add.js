@@ -1,1 +1,45 @@
-function a0_0x4d4e(_0x381730,_0x555e8a){const _0xc209ac=a0_0xc209();return a0_0x4d4e=function(_0x4d4e6e,_0x3e6f48){_0x4d4e6e=_0x4d4e6e-0x16d;let _0x31de24=_0xc209ac[_0x4d4e6e];return _0x31de24;},a0_0x4d4e(_0x381730,_0x555e8a);}const a0_0x14a532=a0_0x4d4e;(function(_0x26a896,_0x97c86c){const _0x1f4df8=a0_0x4d4e,_0x544ebc=_0x26a896();while(!![]){try{const _0x1ca3e2=parseInt(_0x1f4df8(0x181))/0x1*(-parseInt(_0x1f4df8(0x18a))/0x2)+-parseInt(_0x1f4df8(0x17c))/0x3+parseInt(_0x1f4df8(0x19f))/0x4+parseInt(_0x1f4df8(0x194))/0x5+-parseInt(_0x1f4df8(0x1a5))/0x6+-parseInt(_0x1f4df8(0x1a4))/0x7+parseInt(_0x1f4df8(0x17a))/0x8;if(_0x1ca3e2===_0x97c86c)break;else _0x544ebc['push'](_0x544ebc['shift']());}catch(_0x4ca782){_0x544ebc['push'](_0x544ebc['shift']());}}}(a0_0xc209,0x306ee));const {generateWAMessageFromContent,prepareWAMessageMedia,proto}=(await import('@whiskeysockets/baileys'))[a0_0x14a532(0x18e)];import a0_0x5e3b1d from'node-fetch';const {getBinaryNodeChild,getBinaryNodeChildren}=(await import(a0_0x14a532(0x192)))['default'],handler=async(_0x9692dc,{conn:_0x325d58,text:_0x5066fd,participants:_0x3144a0,args:_0x228cb1})=>{const _0xe17767=a0_0x14a532,_0x520d75=global,_0xaa9eea=_0x520d75['db'][_0xe17767(0x182)][_0xe17767(0x1a2)][_0x9692dc[_0xe17767(0x180)]][_0xe17767(0x17b)],_0x3a1ffe=JSON[_0xe17767(0x178)](fs[_0xe17767(0x18d)](_0xe17767(0x1a8)+_0xaa9eea+_0xe17767(0x1a6))),_0x5ad161=_0x3a1ffe[_0xe17767(0x190)][_0xe17767(0x18b)];if(!global['db'][_0xe17767(0x182)][_0xe17767(0x179)][_0x325d58[_0xe17767(0x196)]['jid']][_0xe17767(0x197)])throw _0x5ad161[_0xe17767(0x1aa)];if(!_0x228cb1[0x0])throw _0x5ad161[_0xe17767(0x1a3)];try{const _0x4e21b9=_0x3144a0[_0xe17767(0x17e)](_0x2a92b0=>_0x2a92b0['id']),_0x178287=(await Promise[_0xe17767(0x185)](_0x5066fd['split'](',')['map'](_0x93630d=>_0x93630d['replace'](/[^0-9]/g,''))[_0xe17767(0x17d)](_0x41c1e3=>_0x41c1e3[_0xe17767(0x16f)]>0x4&&_0x41c1e3[_0xe17767(0x16f)]<0x14&&!_0x4e21b9[_0xe17767(0x19d)](_0x41c1e3+'@s.whatsapp.net'))[_0xe17767(0x17e)](async _0x70e4f6=>[_0x70e4f6,await _0x325d58[_0xe17767(0x19a)](_0x70e4f6+_0xe17767(0x198))])))[_0xe17767(0x17d)](_0x326609=>_0x326609[0x1][0x0]?.[_0xe17767(0x195)])['map'](_0x19beb5=>_0x19beb5[0x0]+_0xe17767(0x16e)),_0xb6b8cc=await _0x325d58[_0xe17767(0x19b)]({'tag':'iq','attrs':{'type':_0xe17767(0x1a7),'xmlns':_0xe17767(0x19c),'to':_0x9692dc['chat']},'content':_0x178287[_0xe17767(0x17e)](_0x1b87b9=>({'tag':_0xe17767(0x1ad),'attrs':{},'content':[{'tag':_0xe17767(0x1a9),'attrs':{'jid':_0x1b87b9}}]}))}),_0x371176=await _0x325d58[_0xe17767(0x186)](_0x9692dc[_0xe17767(0x188)])[_0xe17767(0x175)](_0x27ed9c=>null),_0x54d65d=_0x371176?await(await a0_0x5e3b1d(_0x371176))[_0xe17767(0x173)]():Buffer[_0xe17767(0x18c)](0x0),_0x15bf1b=getBinaryNodeChild(_0xb6b8cc,_0xe17767(0x1ad)),_0x4b2b1c=getBinaryNodeChildren(_0x15bf1b,_0xe17767(0x1a9));for(const _0x551fbb of _0x4b2b1c[_0xe17767(0x17d)](_0x2a4b05=>_0x2a4b05[_0xe17767(0x191)][_0xe17767(0x16d)]==0x193)){const _0x66b160=_0x551fbb[_0xe17767(0x191)][_0xe17767(0x1a1)],_0x2ba31d=getBinaryNodeChild(_0x551fbb,_0xe17767(0x189)),_0x4cd09b=_0x2ba31d[_0xe17767(0x191)][_0xe17767(0x187)],_0x3da75a=_0x2ba31d[_0xe17767(0x191)][_0xe17767(0x172)],_0xed8107=_0x5ad161[_0xe17767(0x17f)][0x0]+'\x20@'+_0x66b160[_0xe17767(0x174)]('@')[0x0]+',\x20'+_0x5ad161[_0xe17767(0x17f)][0x1];_0x9692dc[_0xe17767(0x199)](_0xed8107,null,{'mentions':_0x325d58[_0xe17767(0x176)](_0xed8107)});const _0x596644=_0x5ad161[_0xe17767(0x1ac)],_0x32be87=await prepareWAMessageMedia({'image':_0x54d65d},{'upload':_0x325d58['waUploadToServer']}),_0x99dd21=generateWAMessageFromContent(_0x9692dc[_0xe17767(0x188)],proto[_0xe17767(0x177)][_0xe17767(0x1a0)]({'groupInviteMessage':{'groupJid':_0x9692dc[_0xe17767(0x188)],'inviteCode':_0x4cd09b,'inviteExpiration':_0x3da75a,'groupName':await _0x325d58[_0xe17767(0x184)](_0x9692dc[_0xe17767(0x188)]),'caption':_0x596644,'jpegThumbnail':_0x54d65d}}),{'userJid':_0x66b160});await _0x325d58['relayMessage'](_0x66b160,_0x99dd21[_0xe17767(0x1ab)],{'messageId':_0x99dd21[_0xe17767(0x170)]['id']});}}catch{throw _0x5ad161[_0xe17767(0x19e)];}};handler[a0_0x14a532(0x18f)]=['add','+']['map'](_0x35c18f=>_0x35c18f+a0_0x14a532(0x171)),handler[a0_0x14a532(0x183)]=['group'],handler['command']=/^(add|agregar|añadir|\+)$/i,handler['admin']=handler[a0_0x14a532(0x193)]=handler['botAdmin']=!![];function a0_0xc209(){const _0x518361=['key','\x20número','expiration','buffer','split','catch','parseMention','Message','parse','settings','7435824mBGhcw','language','755823oLauGw','filter','map','texto3','sender','299983jhfwcW','data','tags','getName','all','profilePictureUrl','code','chat','add_request','2YpglXY','gc_add','alloc','readFileSync','default','help','plugins','attrs','@whiskeysockets/baileys','group','1933195oTiBqJ','exists','user','restrict','@s.whatsapp.net','reply','onWhatsApp','query','w:g2','includes','texto5','195192pcMAaR','fromObject','jid','users','texto2','1671586WvWjSv','2254866dHqPMu','.json','set','./language/','participant','texto1','message','texto4','add','error','@c.us','length'];a0_0xc209=function(){return _0x518361;};return a0_0xc209();}export default handler;
+
+const {generateWAMessageFromContent, prepareWAMessageMedia, proto} = (await import('@whiskeysockets/baileys')).default;
+import fetch from 'node-fetch';
+const {getBinaryNodeChild, getBinaryNodeChildren} = (await import('@whiskeysockets/baileys')).default;
+const handler = async (m, {conn, text, participants, args}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_add
+
+  if (!global.db.data.settings[conn.user.jid].restrict) throw tradutor.texto1;
+  if (!args[0]) throw tradutor.texto2;
+  try {
+    const _participants = participants.map((user) => user.id);
+    const users = (await Promise.all(
+        text.split(',')
+            .map((v) => v.replace(/[^0-9]/g, ''))
+            .filter((v) => v.length > 4 && v.length < 20 && !_participants.includes(v + '@s.whatsapp.net'))
+            .map(async (v) => [v, await conn.onWhatsApp(v + '@s.whatsapp.net')]))).filter((v) => v[1][0]?.exists).map((v) => v[0] + '@c.us');
+    const response = await conn.query({tag: 'iq', attrs: {type: 'set', xmlns: 'w:g2', to: m.chat}, content: users.map((jid) => ({tag: 'add', attrs: {}, content: [{tag: 'participant', attrs: {jid}}]}))});
+    const pp = await conn.profilePictureUrl(m.chat).catch((_) => null);
+    const jpegThumbnail = pp ? await (await fetch(pp)).buffer() : Buffer.alloc(0);
+    const add = getBinaryNodeChild(response, 'add');
+    const participant = getBinaryNodeChildren(add, 'participant');
+    for (const user of participant.filter((item) => item.attrs.error == 403)) {
+      const jid = user.attrs.jid;
+      const content = getBinaryNodeChild(user, 'add_request');
+      const invite_code = content.attrs.code;
+      const invite_code_exp = content.attrs.expiration;
+      const teks = `${tradutor.texto3[0]} @${jid.split('@')[0]}, ${tradutor.texto3[1]}`;
+      m.reply(teks, null, {mentions: conn.parseMention(teks)});
+      const captionn = tradutor.texto4;
+      const messaa = await prepareWAMessageMedia({image: jpegThumbnail}, {upload: conn.waUploadToServer});
+      const groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject({groupInviteMessage: {groupJid: m.chat, inviteCode: invite_code, inviteExpiration: invite_code_exp, groupName: await conn.getName(m.chat), caption: captionn, jpegThumbnail: jpegThumbnail}}), {userJid: jid});
+      await conn.relayMessage(jid, groupInvite.message, {messageId: groupInvite.key.id});
+    }
+  } catch {
+    throw tradutor.texto5;
+  }
+};
+handler.help = ['add', '+'].map((v) => v + ' número');
+handler.tags = ['group'];
+handler.command = /^(add|agregar|añadir|\+)$/i;
+handler.admin = handler.group = handler.botAdmin = true;
+export default handler;

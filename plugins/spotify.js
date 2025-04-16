@@ -1,1 +1,136 @@
-const a0_0x1490b3=a0_0x3c47;(function(_0x3d4685,_0x4d22ee){const _0x2af4f3=a0_0x3c47,_0x421254=_0x3d4685();while(!![]){try{const _0x562ef6=-parseInt(_0x2af4f3(0x1e4))/0x1*(-parseInt(_0x2af4f3(0x1e5))/0x2)+-parseInt(_0x2af4f3(0x1d9))/0x3*(parseInt(_0x2af4f3(0x1d5))/0x4)+-parseInt(_0x2af4f3(0x1b3))/0x5+-parseInt(_0x2af4f3(0x1c5))/0x6+parseInt(_0x2af4f3(0x1ce))/0x7*(-parseInt(_0x2af4f3(0x1db))/0x8)+-parseInt(_0x2af4f3(0x1df))/0x9*(parseInt(_0x2af4f3(0x1be))/0xa)+parseInt(_0x2af4f3(0x1d8))/0xb*(parseInt(_0x2af4f3(0x1bf))/0xc);if(_0x562ef6===_0x4d22ee)break;else _0x421254['push'](_0x421254['shift']());}catch(_0x4428ba){_0x421254['push'](_0x421254['shift']());}}}(a0_0x1718,0x672e0));import a0_0x5ca542 from'axios';import a0_0x5e81c2 from'node-fetch';import a0_0x2bb9f8 from'yt-search';function a0_0x1718(){const _0x3e3588=['react','\x0aAlbum:\x20','external_urls','\x0aLink:\x20','\x0aTitle:\x20','1351AAYzGv','album','sendMessage','post','duration_ms','Basic\x20','https://api.spotify.com/v1/search?q=','80SkNxGZ','Bearer\x20','title','142516RqjxXY','363fdqInP','\x0a\x20\x20','1144YNKxOR','data','https://accounts.spotify.com/api/token','images','27QUIPkG','get','https://api.siputzx.my.id/api/d/spotify?url=','Usage:\x20','grant_type=client_credentials','21003GoSlgX','74JqrSRu','error','download','Could\x20not\x20obtain\x20access\x20token','Error\x20in\x20spotifyxv:\x20','Spotify\x20Downloader','items','toString','acc6302297e040aeb6e4ac1fbdfd62c3:0e8439a1280a43aba9a5bc0a16f3f009','application/x-www-form-urlencoded','\x0aDuration:\x20','chat','length','2774040TWrreW','music','map','command','join','audio/mpeg','tracks','⚠️\x20No\x20results\x20found\x20for\x20that\x20query.','name','result','/search/spotify?q=','818860bswjWe','684fodUcp','\x20<search\x20query>','.mp3','url','https://archive-ui.tanakadomp.biz.id/download/spotify?url=','json','1574964IfptEl','floor','access_token','spotify'];a0_0x1718=function(){return _0x3e3588;};return a0_0x1718();}function a0_0x3c47(_0x21bba6,_0xacb92b){const _0x1718b7=a0_0x1718();return a0_0x3c47=function(_0x3c4735,_0x728337){_0x3c4735=_0x3c4735-0x1ad;let _0x24dd2f=_0x1718b7[_0x3c4735];return _0x24dd2f;},a0_0x3c47(_0x21bba6,_0xacb92b);}let handler=async(_0x46f6bb,{conn:_0xfb8b79,text:_0x3ab0dc,usedPrefix:_0x4a2b21,command:_0x262db3})=>{const _0xefa145=a0_0x3c47;if(!_0x3ab0dc)throw _0xefa145(0x1e2)+(_0x4a2b21+_0x262db3)+_0xefa145(0x1c0);const _0x34806c=await a0_0x5e81c2(apis+_0xefa145(0x1bd)+encodeURIComponent(_0x3ab0dc)),_0x1008f8=await _0x34806c['json']();if(!_0x1008f8['data']||_0x1008f8[_0xefa145(0x1dc)][_0xefa145(0x1b2)]===0x0)throw _0xefa145(0x1ba);const _0x59d583=_0x1008f8[_0xefa145(0x1dc)][0x0];let _0x2de011=_0xefa145(0x1cd)+_0x59d583[_0xefa145(0x1d7)]+'\x0aArtist:\x20'+_0x59d583['artist']+_0xefa145(0x1ca)+_0x59d583[_0xefa145(0x1cf)]+_0xefa145(0x1b0)+_0x59d583['duration']+_0xefa145(0x1cc)+_0x59d583[_0xefa145(0x1c2)]+_0xefa145(0x1da);await _0xfb8b79['sendMessage'](_0x46f6bb[_0xefa145(0x1b1)],{'text':_0x2de011,'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'externalAdReply':{'showAdAttribution':!![],'containsAutoReply':!![],'renderLargerThumbnail':!![],'title':_0x59d583['title'],'body':_0xefa145(0x1ea),'mediaType':0x1,'thumbnailUrl':_0x59d583['image'],'mediaUrl':_0x59d583[_0xefa145(0x1c2)],'sourceUrl':_0x59d583[_0xefa145(0x1c2)]}}},{'quoted':_0x46f6bb}),_0x46f6bb[_0xefa145(0x1c9)]('⌛️');try{const _0x31f120=await a0_0x5e81c2(_0xefa145(0x1e1)+_0x59d583['url']),_0x21f0b2=await _0x31f120['json']();await _0xfb8b79[_0xefa145(0x1d0)](_0x46f6bb[_0xefa145(0x1b1)],{'audio':{'url':_0x21f0b2[_0xefa145(0x1dc)][_0xefa145(0x1e7)]},'fileName':_0x59d583[_0xefa145(0x1d7)]+'.mp3','mimetype':_0xefa145(0x1b8)},{'quoted':_0x46f6bb}),_0x46f6bb[_0xefa145(0x1c9)]('✅️');}catch{try{const _0x301c5f=await a0_0x5e81c2(apis+'/download/spotifydl?url='+_0x59d583[_0xefa145(0x1c2)]),_0x294d87=await _0x301c5f[_0xefa145(0x1c4)]();await _0xfb8b79[_0xefa145(0x1d0)](_0x46f6bb[_0xefa145(0x1b1)],{'audio':{'url':_0x294d87[_0xefa145(0x1dc)]['url']},'fileName':_0x59d583[_0xefa145(0x1d7)]+_0xefa145(0x1c1),'mimetype':_0xefa145(0x1b8)},{'quoted':_0x46f6bb}),_0x46f6bb['react']('✅️');}catch{try{let _0x3267b6=await spotifyxv(_0x3ab0dc);if(!_0x3267b6[_0xefa145(0x1b2)])throw'❌\x20No\x20results\x20found,\x20please\x20try\x20again.';const _0x2540a8=await a0_0x5e81c2(_0xefa145(0x1c3)+_0x59d583[_0xefa145(0x1c2)]),_0x1ed637=await _0x2540a8[_0xefa145(0x1c4)]();await _0xfb8b79[_0xefa145(0x1d0)](_0x46f6bb['chat'],{'audio':{'url':_0x1ed637[_0xefa145(0x1bc)][_0xefa145(0x1dc)][_0xefa145(0x1e7)]},'fileName':_0x1ed637[_0xefa145(0x1bc)][_0xefa145(0x1dc)][_0xefa145(0x1d7)]+'.mp3','mimetype':'audio/mpeg'},{'quoted':_0x46f6bb}),_0x46f6bb['react']('✅️');}catch(_0x52e610){_0x46f6bb[_0xefa145(0x1c9)]('❌'),console[_0xefa145(0x1e6)](_0x52e610);}}}};handler[a0_0x1490b3(0x1b6)]=[a0_0x1490b3(0x1b4)];export default handler;async function spotifyxv(_0x2abd64){const _0x46452f=a0_0x1490b3;let _0x522260=await tokens();try{let _0x2b84fb=await a0_0x5ca542({'method':_0x46452f(0x1e0),'url':_0x46452f(0x1d4)+encodeURIComponent(_0x2abd64)+'&type=track','headers':{'Authorization':_0x46452f(0x1d6)+_0x522260}});const _0x5cbcfc=_0x2b84fb[_0x46452f(0x1dc)][_0x46452f(0x1b9)][_0x46452f(0x1eb)],_0x2b607a=_0x5cbcfc['map'](_0x374b34=>({'name':_0x374b34[_0x46452f(0x1bb)],'artist':_0x374b34['artists'][_0x46452f(0x1b5)](_0x5964e6=>_0x5964e6[_0x46452f(0x1bb)])[_0x46452f(0x1b7)](',\x20'),'album':_0x374b34[_0x46452f(0x1cf)]['name'],'duration':timestamp(_0x374b34[_0x46452f(0x1d2)]),'url':_0x374b34[_0x46452f(0x1cb)][_0x46452f(0x1c8)],'image':_0x374b34[_0x46452f(0x1cf)][_0x46452f(0x1de)][_0x46452f(0x1b2)]?_0x374b34['album'][_0x46452f(0x1de)][0x0][_0x46452f(0x1c2)]:''}));return _0x2b607a;}catch(_0x5388d5){return console[_0x46452f(0x1e6)](_0x46452f(0x1e9)+_0x5388d5),[];}}async function tokens(){const _0xa4f9e2=a0_0x1490b3;try{const _0xc2d301=await a0_0x5ca542({'method':_0xa4f9e2(0x1d1),'url':_0xa4f9e2(0x1dd),'headers':{'Content-Type':_0xa4f9e2(0x1af),'Authorization':_0xa4f9e2(0x1d3)+Buffer['from'](_0xa4f9e2(0x1ae))[_0xa4f9e2(0x1ad)]('base64')},'data':_0xa4f9e2(0x1e3)});return _0xc2d301[_0xa4f9e2(0x1dc)][_0xa4f9e2(0x1c7)];}catch(_0x175407){console[_0xa4f9e2(0x1e6)]('Error\x20in\x20tokens:\x20'+_0x175407);throw new Error(_0xa4f9e2(0x1e8));}}function timestamp(_0x3a7001){const _0x2e632f=a0_0x1490b3,_0x12393d=Math[_0x2e632f(0x1c6)](_0x3a7001/0xea60),_0x10971b=Math[_0x2e632f(0x1c6)](_0x3a7001%0xea60/0x3e8);return _0x12393d+':'+(_0x10971b<0xa?'0':'')+_0x10971b;}
+import axios from 'axios'
+import fetch from 'node-fetch'
+import search from 'yt-search'
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `Usage: ${usedPrefix + command} <search query>`;
+
+  // Realiza búsqueda en Spotify
+  const spotifyResponse = await fetch(`${apis}/search/spotify?q=${encodeURIComponent(text)}`);
+  const songData = await spotifyResponse.json();
+  if (!songData.data || songData.data.length === 0) throw '⚠️ No results found for that query.';
+  
+  const track = songData.data[0];
+  let spotifyMessage = `
+Title: ${track.title}
+Artist: ${track.artist}
+Album: ${track.album}
+Duration: ${track.duration}
+Link: ${track.url}
+  `;
+  
+  await conn.sendMessage(m.chat, {
+    text: spotifyMessage,
+    contextInfo: {
+      forwardingScore: 1,
+      isForwarded: true,
+      externalAdReply: {
+        showAdAttribution: true,
+        containsAutoReply: true,
+        renderLargerThumbnail: true,
+        title: track.title,
+        body: 'Spotify Downloader',
+        mediaType: 1,
+        thumbnailUrl: track.image,
+        mediaUrl: track.url,
+        sourceUrl: track.url
+      }
+    }
+  }, { quoted: m });
+  
+  m.react('⌛️');
+
+  // Primer intento de descarga vía api.siputzx.my.id
+  try {
+    const res = await fetch(`https://api.siputzx.my.id/api/d/spotify?url=${track.url}`);
+    const data = await res.json();
+    await conn.sendMessage(m.chat, {
+      audio: { url: data.data.download },
+      fileName: `${track.title}.mp3`,
+      mimetype: 'audio/mpeg'
+    }, { quoted: m });
+    m.react('✅️');
+  } catch {
+    // Segundo intento vía api/spotifydl
+    try {
+      const res = await fetch(`${apis}/download/spotifydl?url=${track.url}`);
+      const data = await res.json();
+      await conn.sendMessage(m.chat, {
+        audio: { url: data.data.url },
+        fileName: `${track.title}.mp3`,
+        mimetype: 'audio/mpeg'
+      }, { quoted: m });
+      m.react('✅️');
+    } catch {
+      // Tercer intento usando spotifyxv
+      try {
+        let songInfo = await spotifyxv(text);
+        if (!songInfo.length) throw '❌ No results found, please try again.';
+        const res = await fetch(`https://archive-ui.tanakadomp.biz.id/download/spotify?url=${track.url}`);
+        const data = await res.json();
+        await conn.sendMessage(m.chat, {
+          audio: { url: data.result.data.download },
+          fileName: `${data.result.data.title}.mp3`,
+          mimetype: 'audio/mpeg'
+        }, { quoted: m });
+        m.react('✅️');
+      } catch (e) {
+        m.react('❌');
+        console.error(e);
+      }
+    }
+  }
+}
+
+handler.command = ['music'];
+export default handler;
+
+async function spotifyxv(query) {
+  let token = await tokens();
+  try {
+    let response = await axios({
+      method: 'get',
+      url: 'https://api.spotify.com/v1/search?q=' + encodeURIComponent(query) + '&type=track',
+      headers: {
+        Authorization: 'Bearer ' + token,
+      },
+    });
+    const tracks = response.data.tracks.items;
+    const results = tracks.map((track) => ({
+      name: track.name,
+      artist: track.artists.map((artist) => artist.name).join(', '),
+      album: track.album.name,
+      duration: timestamp(track.duration_ms),
+      url: track.external_urls.spotify,
+      image: track.album.images.length ? track.album.images[0].url : '',
+    }));
+    return results;
+  } catch (error) {
+    console.error(`Error in spotifyxv: ${error}`);
+    return [];
+  }
+}
+
+async function tokens() {
+  try {
+    const response = await axios({
+      method: 'post',
+      url: 'https://accounts.spotify.com/api/token',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        Authorization: 'Basic ' + Buffer.from('acc6302297e040aeb6e4ac1fbdfd62c3:0e8439a1280a43aba9a5bc0a16f3f009').toString('base64'),
+      },
+      data: 'grant_type=client_credentials',
+    });
+    return response.data.access_token;
+  } catch (error) {
+    console.error(`Error in tokens: ${error}`);
+    throw new Error('Could not obtain access token');
+  }
+}
+
+function timestamp(time) {
+  const minutes = Math.floor(time / 60000);
+  const seconds = Math.floor((time % 60000) / 1000);
+  return minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+}

@@ -1,1 +1,24 @@
-function a0_0x388b(){const _0x29912f=['includes','users','updateBlockStatus','PIEDRA','parse','jid','settings','fromMe','readFileSync','isGroup','132zqUVAz','8Pdxsmh','1027726sHODTU','700469xJZyWX','_antiprivado','.json','52009tJvCJX','318tbfCWF','65605UTnrFg','837fxCrRP','user','data','4028CYodoE','2367XyBTio','8752EOhatZ','12805730kWaJWm','chats','sender','text','plugins','antiPrivate','message','chat','TIJERA'];a0_0x388b=function(){return _0x29912f;};return a0_0x388b();}function a0_0x3ed5(_0x2cf16a,_0x4c39de){const _0x388bd5=a0_0x388b();return a0_0x3ed5=function(_0x3ed5b2,_0xa6b297){_0x3ed5b2=_0x3ed5b2-0xde;let _0x3e5a7b=_0x388bd5[_0x3ed5b2];return _0x3e5a7b;},a0_0x3ed5(_0x2cf16a,_0x4c39de);}(function(_0x46b999,_0x21eb0e){const _0x1b4a38=a0_0x3ed5,_0x308196=_0x46b999();while(!![]){try{const _0x347a4b=-parseInt(_0x1b4a38(0xf9))/0x1*(parseInt(_0x1b4a38(0xf4))/0x2)+parseInt(_0x1b4a38(0xfc))/0x3*(-parseInt(_0x1b4a38(0xff))/0x4)+parseInt(_0x1b4a38(0xfb))/0x5*(-parseInt(_0x1b4a38(0xfa))/0x6)+parseInt(_0x1b4a38(0xf5))/0x7+parseInt(_0x1b4a38(0xdf))/0x8*(-parseInt(_0x1b4a38(0xde))/0x9)+parseInt(_0x1b4a38(0xe0))/0xa+parseInt(_0x1b4a38(0xf6))/0xb*(parseInt(_0x1b4a38(0xf3))/0xc);if(_0x347a4b===_0x21eb0e)break;else _0x308196['push'](_0x308196['shift']());}catch(_0x84035){_0x308196['push'](_0x308196['shift']());}}}(a0_0x388b,0xa0178));export async function before(_0x1a2311,{conn:_0x31ed47,isAdmin:_0x4e45ad,isBotAdmin:_0x1d3700,isOwner:_0x47a71d,isROwner:_0x12ee05}){const _0x1c7bb3=a0_0x3ed5,_0x577fcd=global,_0x780933=_0x577fcd['db'][_0x1c7bb3(0xfe)][_0x1c7bb3(0xea)][_0x1a2311[_0x1c7bb3(0xe2)]]['language'],_0x3f85a3=JSON[_0x1c7bb3(0xed)](fs[_0x1c7bb3(0xf1)]('./language/'+_0x780933+_0x1c7bb3(0xf8))),_0x58ae77=_0x3f85a3[_0x1c7bb3(0xe4)][_0x1c7bb3(0xf7)];if(_0x1a2311['isBaileys']&&_0x1a2311[_0x1c7bb3(0xf0)])return!0x0;if(_0x1a2311[_0x1c7bb3(0xf2)])return!0x1;if(!_0x1a2311[_0x1c7bb3(0xe6)])return!0x0;if(_0x1a2311[_0x1c7bb3(0xe3)]['includes'](_0x1c7bb3(0xec))||_0x1a2311[_0x1c7bb3(0xe3)][_0x1c7bb3(0xe9)]('PAPEL')||_0x1a2311[_0x1c7bb3(0xe3)][_0x1c7bb3(0xe9)](_0x1c7bb3(0xe8))||_0x1a2311[_0x1c7bb3(0xe3)]['includes']('serbot')||_0x1a2311[_0x1c7bb3(0xe3)]['includes']('jadibot'))return!0x0;const _0x480edb=global['db'][_0x1c7bb3(0xfe)][_0x1c7bb3(0xe1)][_0x1a2311[_0x1c7bb3(0xe7)]],_0x23ee27=global['db'][_0x1c7bb3(0xfe)][_0x1c7bb3(0xef)][this[_0x1c7bb3(0xfd)][_0x1c7bb3(0xee)]]||{};return _0x23ee27[_0x1c7bb3(0xe5)]&&!_0x47a71d&&!_0x12ee05&&(await _0x1a2311['reply'](_0x58ae77['texto1'],![],{'mentions':[_0x1a2311[_0x1c7bb3(0xe2)]]}),await this[_0x1c7bb3(0xeb)](_0x1a2311[_0x1c7bb3(0xe7)],'block')),!0x1;}
+// TheMystic-Bot-MD@BrunoSobrino - _antiprivado.js
+
+   // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+
+export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) {
+    const datas = global
+    const idioma = datas.db.data.users[m.sender].language
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const tradutor = _translate.plugins._antiprivado
+
+  if (m.isBaileys && m.fromMe) return !0;
+  if (m.isGroup) return !1;
+  if (!m.message) return !0;
+  if (m.text.includes('PIEDRA') || m.text.includes('PAPEL') || m.text.includes('TIJERA') || m.text.includes('serbot') || m.text.includes('jadibot')) return !0;
+  const chat = global.db.data.chats[m.chat];
+  const bot = global.db.data.settings[this.user.jid] || {};
+  if (bot.antiPrivate && !isOwner && !isROwner) {
+    await m.reply(tradutor.texto1, false, {mentions: [m.sender]});
+    await this.updateBlockStatus(m.chat, 'block');
+  }
+  return !1;
+}

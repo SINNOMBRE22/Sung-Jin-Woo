@@ -1,1 +1,128 @@
-const a0_0x2fe9ea=a0_0x5026;(function(_0xdc4521,_0x43af88){const _0x4226e6=a0_0x5026,_0x2cab16=_0xdc4521();while(!![]){try{const _0x16eb1c=-parseInt(_0x4226e6(0x12b))/0x1*(parseInt(_0x4226e6(0x14e))/0x2)+parseInt(_0x4226e6(0x147))/0x3*(parseInt(_0x4226e6(0x135))/0x4)+parseInt(_0x4226e6(0x14f))/0x5*(-parseInt(_0x4226e6(0x15e))/0x6)+-parseInt(_0x4226e6(0x139))/0x7+parseInt(_0x4226e6(0x13c))/0x8+-parseInt(_0x4226e6(0x137))/0x9*(-parseInt(_0x4226e6(0x155))/0xa)+parseInt(_0x4226e6(0x12e))/0xb;if(_0x16eb1c===_0x43af88)break;else _0x2cab16['push'](_0x2cab16['shift']());}catch(_0x2ed89e){_0x2cab16['push'](_0x2cab16['shift']());}}}(a0_0x44ac,0xc8408));import{unlinkSync,existsSync,writeFileSync,readFileSync,mkdirSync}from'fs';import{join,dirname}from'path';import{fileURLToPath}from'url';import{exec}from'child_process';const __filename=fileURLToPath(import.meta['url']),__dirname=dirname(__filename),tmpDir=join(__dirname,a0_0x2fe9ea(0x125));!existsSync(tmpDir)&&mkdirSync(tmpDir,{'recursive':!![]});function a0_0x44ac(){const _0x575910=['-filter:a\x20atempo=1.06,asetrate=44100*1.25','reply','30bFKLAT','*Error:\x20No\x20se\x20generó\x20el\x20archivo\x20de\x20audio.*','toLowerCase','bass','mp3','robot','Error\x20al\x20procesar\x20el\x20audio','audio','error','12258LKAEoH','../tmp/','deep','slow','includes','reverse','react','5lpOKiX','fast','startsWith','2827682PuluEB','*🚩\x20Responde\x20a\x20un\x20audio\x20o\x20nota\x20de\x20voz.*\x0a\x0aEjemplo:\x20*','ogg','blown','tags','download','fat','4ukfMyl','earrape','3073113Lvqiff','\x20-c:a\x20libopus\x20-b:a\x2064k\x20-vbr\x20on\x20-y\x20\x22','2484587tjFkMR','Error\x20en\x20FFmpeg:','-af\x20volume=12','8879528krhZEM','squirrel','_output.ogg','⚠️\x20Filtro\x20no\x20reconocido','-filter:a\x20atempo=1.63,asetrate=44100','-filter:a\x20atempo=0.5,asetrate=65100','-af\x20atempo=4/4,asetrate=44500*2/3','chipmunk','audio/','chat','\x20<audio>','377493CnUYbV','now','quoted','ffmpeg\x20-i\x20\x22','tupai','mimetype','nightcore','129030XewaRr','2495McMIlP','catch','map','msg'];a0_0x44ac=function(){return _0x575910;};return a0_0x44ac();}function a0_0x5026(_0x51abf3,_0x524130){const _0x44ac54=a0_0x44ac();return a0_0x5026=function(_0x502664,_0x116d93){_0x502664=_0x502664-0x125;let _0x6593d0=_0x44ac54[_0x502664];return _0x6593d0;},a0_0x5026(_0x51abf3,_0x524130);}let handler=async(_0x4f5737,{conn:_0x4af7b1,usedPrefix:_0x18afc1,command:_0x1cc2f1})=>{const _0x5e5da9=a0_0x2fe9ea;try{await _0x4f5737[_0x5e5da9(0x12a)]('⏳');const _0x365817=_0x4f5737[_0x5e5da9(0x149)]||_0x4f5737,_0x57f05c=(_0x365817[_0x5e5da9(0x152)]||_0x365817)[_0x5e5da9(0x14c)]||'';if(!_0x57f05c[_0x5e5da9(0x12d)](_0x5e5da9(0x144)))return await _0x4f5737[_0x5e5da9(0x12a)]('❌'),_0x4af7b1[_0x5e5da9(0x154)](_0x4f5737[_0x5e5da9(0x145)],_0x5e5da9(0x12f)+(_0x18afc1+_0x1cc2f1)+'*',_0x4f5737);let _0x825bc0='';switch(_0x1cc2f1[_0x5e5da9(0x157)]()){case'bass':_0x825bc0='-af\x20equalizer=f=94:width_type=o:width=2:g=30';break;case _0x5e5da9(0x131):_0x825bc0='-af\x20acrusher=.1:1:64:0:log';break;case _0x5e5da9(0x126):_0x825bc0=_0x5e5da9(0x142);break;case _0x5e5da9(0x136):_0x825bc0=_0x5e5da9(0x13b);break;case _0x5e5da9(0x12c):_0x825bc0=_0x5e5da9(0x140);break;case _0x5e5da9(0x134):_0x825bc0='-filter:a\x20atempo=1.6,asetrate=22100';break;case _0x5e5da9(0x14d):_0x825bc0=_0x5e5da9(0x153);break;case _0x5e5da9(0x129):_0x825bc0='-filter_complex\x20areverse';break;case _0x5e5da9(0x15a):_0x825bc0='-filter_complex\x20\x22afftfilt=real=\x27hypot(re,im)*sin(0)\x27:imag=\x27hypot(re,im)*cos(0)\x27:win_size=512:overlap=0.75\x22';break;case'slow':_0x825bc0='-filter:a\x20atempo=0.7,asetrate=44100';break;case'tupai':case _0x5e5da9(0x13d):case _0x5e5da9(0x143):_0x825bc0=_0x5e5da9(0x141);break;default:await _0x4f5737[_0x5e5da9(0x12a)]('❌');return _0x4af7b1['reply'](_0x4f5737[_0x5e5da9(0x145)],_0x5e5da9(0x13f),_0x4f5737);}const _0x1b624f=Date[_0x5e5da9(0x148)](),_0x699d5=_0x57f05c[_0x5e5da9(0x128)](_0x5e5da9(0x130))?_0x5e5da9(0x130):_0x5e5da9(0x159),_0x1ecc51=join(tmpDir,_0x1b624f+'_input.'+_0x699d5),_0x5cb44e=join(tmpDir,_0x1b624f+_0x5e5da9(0x13e)),_0x2be0f3=await _0x365817[_0x5e5da9(0x133)]();writeFileSync(_0x1ecc51,_0x2be0f3);const _0x2f7110=_0x5e5da9(0x14a)+_0x1ecc51+'\x22\x20'+_0x825bc0+_0x5e5da9(0x138)+_0x5cb44e+'\x22';await new Promise((_0xd3a90f,_0x3a18fc)=>{exec(_0x2f7110,(_0x6b5a76,_0x3276d7,_0x25c978)=>{const _0x32a075=a0_0x5026;if(existsSync(_0x1ecc51))unlinkSync(_0x1ecc51);if(_0x6b5a76)return console[_0x32a075(0x15d)](_0x32a075(0x13a),_0x25c978),_0x4f5737[_0x32a075(0x12a)]('❌')[_0x32a075(0x150)](()=>{}),_0x3a18fc(new Error(_0x32a075(0x15b)));_0xd3a90f();});});if(!existsSync(_0x5cb44e))return await _0x4f5737[_0x5e5da9(0x12a)]('❌'),_0x4af7b1['reply'](_0x4f5737[_0x5e5da9(0x145)],_0x5e5da9(0x156),_0x4f5737);const _0x2e9873=readFileSync(_0x5cb44e);unlinkSync(_0x5cb44e),await _0x4af7b1['sendMessage'](_0x4f5737['chat'],{'audio':_0x2e9873,'mimetype':'audio/ogg;\x20codecs=opus','ptt':!![]},{'quoted':_0x4f5737}),await _0x4f5737['react']('✅');}catch(_0x4c9a30){console['error'](_0x4c9a30),await _0x4f5737[_0x5e5da9(0x12a)]('❌'),_0x4af7b1[_0x5e5da9(0x154)](_0x4f5737[_0x5e5da9(0x145)],'*Error\x20crítico:*\x0a'+_0x4c9a30['message'],_0x4f5737);}};handler['help']=[a0_0x2fe9ea(0x158),a0_0x2fe9ea(0x131),a0_0x2fe9ea(0x126),a0_0x2fe9ea(0x136),a0_0x2fe9ea(0x12c),a0_0x2fe9ea(0x134),'nightcore',a0_0x2fe9ea(0x129),a0_0x2fe9ea(0x15a),a0_0x2fe9ea(0x127),a0_0x2fe9ea(0x14b)][a0_0x2fe9ea(0x151)](_0x4fce07=>_0x4fce07+a0_0x2fe9ea(0x146)),handler[a0_0x2fe9ea(0x132)]=[a0_0x2fe9ea(0x15c)],handler['command']=/^(bass|blown|deep|earrape|fas?t|nightcore|reverse|robot|slow|tupai|squirrel|chipmunk)$/i;export default handler;
+import { unlinkSync, existsSync, writeFileSync, readFileSync, mkdirSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+import { exec } from 'child_process';
+
+// Corrige __dirname para ES Modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Asegura el directorio temporal
+const tmpDir = join(__dirname, '../tmp/');
+if (!existsSync(tmpDir)) {
+  mkdirSync(tmpDir, { recursive: true });
+}
+
+let handler = async (m, { conn, usedPrefix, command }) => {
+  try {
+    await m.react('⏳');
+
+    // Obtén el mensaje citado o el actual
+    const q = m.quoted || m;
+    const mime = (q.msg || q).mimetype || '';
+    if (!mime.startsWith('audio/')) {
+      await m.react('❌');
+      return conn.reply(
+        m.chat,
+        `*🚩 Responde a un audio o nota de voz.*\n\nEjemplo: *${usedPrefix + command}*`,
+        m
+      );
+    }
+
+    // Define el filtro de audio según el comando
+    let filter = '';
+    switch (command.toLowerCase()) {
+      case 'bass':
+        filter = '-af equalizer=f=94:width_type=o:width=2:g=30';
+        break;
+      case 'blown':
+        filter = '-af acrusher=.1:1:64:0:log';
+        break;
+      case 'deep':
+        filter = '-af atempo=4/4,asetrate=44500*2/3';
+        break;
+      case 'earrape':
+        filter = '-af volume=12';
+        break;
+      case 'fast':
+        filter = '-filter:a atempo=1.63,asetrate=44100';
+        break;
+      case 'fat':
+        filter = '-filter:a atempo=1.6,asetrate=22100';
+        break;
+      case 'nightcore':
+        filter = '-filter:a atempo=1.06,asetrate=44100*1.25';
+        break;
+      case 'reverse':
+        filter = '-filter_complex areverse';
+        break;
+      case 'robot':
+        filter = '-filter_complex "afftfilt=real=\'hypot(re,im)*sin(0)\':imag=\'hypot(re,im)*cos(0)\':win_size=512:overlap=0.75"';
+        break;
+      case 'slow':
+        filter = '-filter:a atempo=0.7,asetrate=44100';
+        break;
+      case 'tupai':
+      case 'squirrel':
+      case 'chipmunk':
+        filter = '-filter:a atempo=0.5,asetrate=65100';
+        break;
+      default:
+        await m.react('❌');
+        return conn.reply(m.chat, '⚠️ Filtro no reconocido', m);
+    }
+
+    // Nombres de archivo usando un timestamp
+    const timestamp = Date.now();
+    const inputExt = mime.includes('ogg') ? 'ogg' : 'mp3';
+    const inputPath = join(tmpDir, `${timestamp}_input.${inputExt}`);
+    // Forzamos la salida a ogg (voice note)
+    const outputPath = join(tmpDir, `${timestamp}_output.ogg`);
+
+    // Descarga y guarda el audio recibido
+    const buffer = await q.download();
+    writeFileSync(inputPath, buffer);
+
+    // Ejecuta FFmpeg para aplicar el filtro y convertir a ogg con libopus
+    const ffmpegCmd = `ffmpeg -i "${inputPath}" ${filter} -c:a libopus -b:a 64k -vbr on -y "${outputPath}"`;
+    await new Promise((resolve, reject) => {
+      exec(ffmpegCmd, (err, stdout, stderr) => {
+        // Elimina el archivo de entrada
+        if (existsSync(inputPath)) unlinkSync(inputPath);
+        if (err) {
+          console.error('Error en FFmpeg:', stderr);
+          m.react('❌').catch(() => {});
+          return reject(new Error('Error al procesar el audio'));
+        }
+        resolve();
+      });
+    });
+
+    // Verifica que se haya generado el archivo de salida
+    if (!existsSync(outputPath)) {
+      await m.react('❌');
+      return conn.reply(m.chat, '*Error: No se generó el archivo de audio.*', m);
+    }
+
+    // Lee el archivo procesado y elimínalo
+    const outputBuffer = readFileSync(outputPath);
+    unlinkSync(outputPath);
+
+    // Envía el audio usando el método sendMessage actualizado
+    await conn.sendMessage(
+      m.chat,
+      { audio: outputBuffer, mimetype: 'audio/ogg; codecs=opus', ptt: true },
+      { quoted: m }
+    );
+    await m.react('✅');
+  } catch (error) {
+    console.error(error);
+    await m.react('❌');
+    conn.reply(m.chat, `*Error crítico:*\n${error.message}`, m);
+  }
+};
+
+handler.help = ['bass', 'blown', 'deep', 'earrape', 'fast', 'fat', 'nightcore', 'reverse', 'robot', 'slow', 'tupai'].map(v => v + ' <audio>');
+handler.tags = ['audio'];
+handler.command = /^(bass|blown|deep|earrape|fas?t|nightcore|reverse|robot|slow|tupai|squirrel|chipmunk)$/i;
+export default handler;

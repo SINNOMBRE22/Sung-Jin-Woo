@@ -1,1 +1,20 @@
-function a0_0x4a52(_0x9c90b,_0x2d2a7d){const _0x233a19=a0_0x233a();return a0_0x4a52=function(_0x4a5200,_0x1a31e5){_0x4a5200=_0x4a5200-0x6f;let _0x43232e=_0x233a19[_0x4a5200];return _0x43232e;},a0_0x4a52(_0x9c90b,_0x2d2a7d);}const a0_0x4dc1b2=a0_0x4a52;(function(_0x1785ef,_0x40e874){const _0x4589e4=a0_0x4a52,_0x4b2674=_0x1785ef();while(!![]){try{const _0x23e1f2=-parseInt(_0x4589e4(0x79))/0x1+parseInt(_0x4589e4(0x85))/0x2*(parseInt(_0x4589e4(0x88))/0x3)+-parseInt(_0x4589e4(0x77))/0x4*(parseInt(_0x4589e4(0x7c))/0x5)+-parseInt(_0x4589e4(0x87))/0x6+-parseInt(_0x4589e4(0x78))/0x7+-parseInt(_0x4589e4(0x89))/0x8*(-parseInt(_0x4589e4(0x82))/0x9)+-parseInt(_0x4589e4(0x70))/0xa*(-parseInt(_0x4589e4(0x8c))/0xb);if(_0x23e1f2===_0x40e874)break;else _0x4b2674['push'](_0x4b2674['shift']());}catch(_0x3e3208){_0x4b2674['push'](_0x4b2674['shift']());}}}(a0_0x233a,0x5bbb9));import a0_0x2e2ab9 from'../lib/uploadImage.js';import{sticker}from'../lib/sticker.js';const handler=async(_0x3dd8c2,{conn:_0x2a20eb,text:_0x4e9755})=>{const _0x184e16=a0_0x4a52;global['db'][_0x184e16(0x76)][_0x184e16(0x84)][_0x3dd8c2[_0x184e16(0x7a)]][_0x184e16(0x83)]+=0x1;try{const _0x567125=_0x3dd8c2[_0x184e16(0x6f)]?_0x3dd8c2[_0x184e16(0x6f)]:_0x3dd8c2,_0x337da4=(_0x567125[_0x184e16(0x74)]||_0x567125)[_0x184e16(0x7d)]||'',_0x1dfa8c=await _0x567125['download'](),_0x399498=await a0_0x2e2ab9(_0x1dfa8c),_0x191a64=global[_0x184e16(0x7f)](_0x184e16(0x8b)+lolkeysapi+_0x184e16(0x7e)+_0x399498),_0x4271f8=await sticker(![],_0x191a64,global[_0x184e16(0x71)],global[_0x184e16(0x86)]);_0x2a20eb[_0x184e16(0x8a)](_0x3dd8c2[_0x184e16(0x75)],_0x4271f8,_0x184e16(0x72),'',_0x3dd8c2,{'asSticker':!![]});}catch(_0x318505){_0x3dd8c2[_0x184e16(0x80)](_0x184e16(0x7b));}};function a0_0x233a(){const _0x42b238=['4FvKguW','4954768NqDYhd','108942wQUgzm','sender','*[❗𝐈𝐍𝐅𝐎❗]\x20𝙻𝙾\x20𝚂𝙸𝙴𝙽𝚃𝙾,\x20𝙾𝙲𝚄𝚁𝚁𝙸𝙾\x20𝚄𝙽\x20𝙴𝚁𝚁𝙾𝚁,\x20𝚅𝚄𝙴𝙻𝚅𝙰\x20𝙰\x20𝙸𝙽𝚃𝙴𝚁𝙽𝚃𝙰𝚁𝙻𝙾,\x20𝙽𝙾\x20𝙾𝙻𝚅𝙸𝙳𝙴\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁\x20𝙰\x20𝚄𝙽𝙰\x20𝙸𝙼𝙰𝙶𝙴𝙽\x20𝙻𝙰\x20𝙲𝚄𝙰𝙻\x20𝚂𝙴\x20𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝚁𝙰\x20𝙴𝙽\x20𝚂𝚃𝙸𝙲𝙺𝙴𝚁\x20𝚂𝙸𝙽\x20𝙵𝙾𝙽𝙳𝙾*','3248495VFurAN','mimetype','&img=','API','reply','command','5546133DEwzIX','comandos','users','2094rpeoTa','author','4381002fPFQnW','1353HhEPmW','8iMhymY','sendFile','https://api.lolhuman.xyz/api/removebg?apikey=','3264657ddpVYJ','quoted','50MxxBVI','packname','sticker.webp','group','msg','chat','data'];a0_0x233a=function(){return _0x42b238;};return a0_0x233a();}handler[a0_0x4dc1b2(0x81)]=/^sremovebg|removerfondo|nobg|removebg$/i,handler[a0_0x4dc1b2(0x73)]=!![],handler['diamond']=!![];export default handler;
+import uploadImage from '../lib/uploadImage.js';
+import {sticker} from '../lib/sticker.js';
+const handler = async (m, {conn, text}) => {
+	global.db.data.users[m.sender].comandos += 1;
+  try {
+    const q = m.quoted ? m.quoted : m;
+    const mime = (q.msg || q).mimetype || '';
+    const img = await q.download();
+    const url = await uploadImage(img);
+    const sremovebg = global.API(`https://api.lolhuman.xyz/api/removebg?apikey=${lolkeysapi}&img=${url}`);
+    const stickerr = await sticker(false, sremovebg, global.packname, global.author);
+    conn.sendFile(m.chat, stickerr, 'sticker.webp', '', m, {asSticker: true});
+  } catch (e) {
+    m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝚂𝙸𝙴𝙽𝚃𝙾, 𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝚁𝙽𝚃𝙰𝚁𝙻𝙾, 𝙽𝙾 𝙾𝙻𝚅𝙸𝙳𝙴 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝙻𝙰 𝙲𝚄𝙰𝙻 𝚂𝙴 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝚁𝙰 𝙴𝙽 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝚂𝙸𝙽 𝙵𝙾𝙽𝙳𝙾*');
+  }
+};
+handler.command = /^sremovebg|removerfondo|nobg|removebg$/i;
+handler.group = true
+handler.diamond = true
+export default handler;

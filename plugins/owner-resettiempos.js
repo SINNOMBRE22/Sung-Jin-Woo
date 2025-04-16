@@ -1,1 +1,50 @@
-const a0_0x444b10=a0_0x40f0;(function(_0x38d820,_0x2a8ccb){const _0x3dadcc=a0_0x40f0,_0xc6908f=_0x38d820();while(!![]){try{const _0x19ea3b=parseInt(_0x3dadcc(0xf3))/0x1+-parseInt(_0x3dadcc(0xe4))/0x2*(parseInt(_0x3dadcc(0xfa))/0x3)+parseInt(_0x3dadcc(0xf6))/0x4*(parseInt(_0x3dadcc(0xf4))/0x5)+parseInt(_0x3dadcc(0xeb))/0x6+parseInt(_0x3dadcc(0xe1))/0x7+-parseInt(_0x3dadcc(0xed))/0x8+-parseInt(_0x3dadcc(0xee))/0x9;if(_0x19ea3b===_0x2a8ccb)break;else _0xc6908f['push'](_0xc6908f['shift']());}catch(_0x895ebb){_0xc6908f['push'](_0xc6908f['shift']());}}}(a0_0x3004,0xa980c));const handler=async(_0x19df82,{conn:_0x492fa4})=>{const _0x502e1a=a0_0x40f0,_0x91609d=['wait','herolastclaim',_0x502e1a(0xfd),_0x502e1a(0xf1),'lastcofre','lasthourly','lasthunt',_0x502e1a(0xe6),_0x502e1a(0xec),_0x502e1a(0xe7),_0x502e1a(0xf8),_0x502e1a(0xde),_0x502e1a(0xfb),_0x502e1a(0xe2),'lastdiamantes',_0x502e1a(0xe9),_0x502e1a(0xe0),'lastusuariov2',_0x502e1a(0xff)];let _0x4c0efe;_0x19df82[_0x502e1a(0xea)]?_0x4c0efe=_0x19df82[_0x502e1a(0xfc)][0x0]?_0x19df82[_0x502e1a(0xfc)][0x0]:_0x19df82[_0x502e1a(0xe8)]?_0x19df82[_0x502e1a(0xe8)][_0x502e1a(0xe3)]:![]:_0x4c0efe=_0x19df82[_0x502e1a(0xdd)];if(!_0x4c0efe)throw _0x502e1a(0xe5);if(!(_0x4c0efe in global['db'][_0x502e1a(0xdf)][_0x502e1a(0xf2)]))throw'*[❗]\x20El\x20usuario\x20no\x20se\x20encuentra\x20en\x20mi\x20base\x20de\x20datos.*';for(const _0xb91195 of _0x91609d){global['db']['data'][_0x502e1a(0xf2)][_0x4c0efe][_0xb91195]=0x0;}_0x19df82[_0x502e1a(0xfe)]('*‣\x20Se\x20han\x20reseteado\x20los\x20tiempos\x20de\x20@'+_0x4c0efe[_0x502e1a(0xf5)]`@`[0x0]+'*',null,{'mentions':[_0x4c0efe]});};handler[a0_0x444b10(0xf7)]=[a0_0x444b10(0xf0)],handler[a0_0x444b10(0xdc)]=[a0_0x444b10(0xf9)],handler['command']=/^(resettiempos|timereset)$/i,handler[a0_0x444b10(0xef)]=!![],handler['rowner']=!![];function a0_0x3004(){const _0x573afa=['*[❗]\x20Etiqueta\x20a\x20alguien\x20para\x20resetear\x20los\x20tiempos.*','lastadventure','lastberburu','quoted','lastRouletteTime','isGroup','4822668NcoonJ','lastmining','361648vVCVSh','19593972gWQAGB','group','resettiempos','lastcoins','users','1186230zhmNeh','5lXKgPV','split','4671836CaMbgE','help','lastpotionclaim','economy','1298529jIKAnk','lastmiming','mentionedJid','lastclaim','reply','lastwork','tags','chat','lastFishing','data','lastusuario','7400120ImlYPB','lastrob','sender','6obdJvr'];a0_0x3004=function(){return _0x573afa;};return a0_0x3004();}function a0_0x40f0(_0x3d8c3c,_0x267222){const _0x3004c8=a0_0x3004();return a0_0x40f0=function(_0x40f083,_0x5354f9){_0x40f083=_0x40f083-0xdc;let _0x4073b6=_0x3004c8[_0x40f083];return _0x4073b6;},a0_0x40f0(_0x3d8c3c,_0x267222);}export default handler;
+const handler = async (m, { conn }) => {
+    const variablesToReset = [
+        'wait',
+		'herolastclaim',
+        'lastclaim',
+        'lastcoins',
+        'lastcofre',
+        'lasthourly',
+        'lasthunt',
+        'lastadventure',
+        'lastmining',
+        'lastberburu',
+        'lastpotionclaim',
+        'lastFishing',
+        'lastmiming',
+        'lastrob',
+        'lastdiamantes',
+        'lastRouletteTime',
+		'lastusuario',
+		'lastusuariov2',
+        'lastwork'
+    ];
+
+    let who;
+    if (m.isGroup) {
+        who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
+    } else {
+        who = m.chat;
+    }
+
+    if (!who) {
+        throw `*[❗] Etiqueta a alguien para resetear los tiempos.*`;
+    }
+
+    if (!(who in global.db.data.users)) {
+        throw `*[❗] El usuario no se encuentra en mi base de datos.*`;
+    }
+
+    for (const variable of variablesToReset) {
+        global.db.data.users[who][variable] = 0;
+    }
+
+    m.reply(`*‣ Se han reseteado los tiempos de @${who.split`@`[0]}*`, null, { mentions: [who] });
+}
+handler.help = ['resettiempos'];
+handler.tags = ['economy'];
+handler.command = /^(resettiempos|timereset)$/i;
+handler.group = true;
+handler.rowner = true;
+export default handler;

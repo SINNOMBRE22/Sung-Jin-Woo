@@ -1,1 +1,68 @@
-const a0_0x2f5262=a0_0x2e6f;(function(_0x4e818c,_0x48b068){const _0x379e45=a0_0x2e6f,_0x201cc7=_0x4e818c();while(!![]){try{const _0x7f6bac=parseInt(_0x379e45(0x1a5))/0x1*(-parseInt(_0x379e45(0x1a9))/0x2)+-parseInt(_0x379e45(0x1a7))/0x3+-parseInt(_0x379e45(0x199))/0x4+-parseInt(_0x379e45(0x1a0))/0x5*(parseInt(_0x379e45(0x193))/0x6)+-parseInt(_0x379e45(0x1ab))/0x7*(-parseInt(_0x379e45(0x1b5))/0x8)+-parseInt(_0x379e45(0x1ad))/0x9+parseInt(_0x379e45(0x1af))/0xa;if(_0x7f6bac===_0x48b068)break;else _0x201cc7['push'](_0x201cc7['shift']());}catch(_0x2d9097){_0x201cc7['push'](_0x201cc7['shift']());}}}(a0_0x5426,0xc3d0b));import a0_0x3b344b from'fs';function a0_0x2e6f(_0xfb0839,_0x349440){const _0x54269e=a0_0x5426();return a0_0x2e6f=function(_0x2e6f08,_0xdb9d0e){_0x2e6f08=_0x2e6f08-0x18d;let _0x873c7c=_0x54269e[_0x2e6f08];return _0x873c7c;},a0_0x2e6f(_0xfb0839,_0x349440);}const handler=async(_0x2c0b7b,{conn:_0x4624dc,text:_0x5efcfc,usedPrefix:_0x353cfc,command:_0x40bfd0})=>{const _0x1b7520=a0_0x2e6f;if(!_0x2c0b7b[_0x1b7520(0x1ae)])throw'*Error:*\x20Este\x20comando\x20solo\x20se\x20puede\x20usar\x20en\x20grupos.';const _0x22858a=await _0x4624dc['groupMetadata'](_0x2c0b7b[_0x1b7520(0x196)]),_0x1a991d=_0x22858a[_0x1b7520(0x18f)][_0x1b7520(0x197)](_0x25e0a3=>_0x25e0a3['id']===_0x2c0b7b[_0x1b7520(0x1b1)]&&(_0x25e0a3[_0x1b7520(0x1b6)]===_0x1b7520(0x1b6)||_0x25e0a3['admin']===_0x1b7520(0x19d)));if(!_0x1a991d)throw _0x1b7520(0x19b);const _0x3cca86=_0x2c0b7b['quoted']?.[_0x1b7520(0x1ac)]||_0x5efcfc?.[_0x1b7520(0x1b3)]();if(!_0x3cca86)throw _0x1b7520(0x19a);let _0x12c533;const _0x5d6941=_0x1b7520(0x19c);if(a0_0x3b344b[_0x1b7520(0x191)](_0x5d6941))_0x12c533=a0_0x3b344b[_0x1b7520(0x1b7)](_0x5d6941);else{if(_0x2c0b7b[_0x1b7520(0x19f)]&&_0x2c0b7b[_0x1b7520(0x19f)]['mimetype']&&_0x2c0b7b[_0x1b7520(0x19f)][_0x1b7520(0x194)]['startsWith'](_0x1b7520(0x1a4)))_0x12c533=await _0x4624dc[_0x1b7520(0x1a6)](_0x2c0b7b[_0x1b7520(0x19f)]);else throw _0x1b7520(0x190);}const _0x425ce5=_0x1b7520(0x18d),_0x58f5a0=_0x425ce5+_0x1b7520(0x1a3)+_0x425ce5,_0x5ba8ba=_0x1b7520(0x1b0),_0xef70a0=await _0x4624dc[_0x1b7520(0x198)](_0x2c0b7b['sender']),_0x229b75=_0x425ce5+_0x1b7520(0x1b4)+_0xef70a0+'_\x0a'+_0x425ce5,_0x2f7a56=_0x58f5a0+'\x0a\x0a'+_0x3cca86+'\x0a\x0a'+_0x229b75+_0x5ba8ba,_0x5b3a71=_0x22858a[_0x1b7520(0x18f)][_0x1b7520(0x19e)](_0x3a744b=>_0x3a744b['id']);await _0x4624dc[_0x1b7520(0x18e)](_0x2c0b7b[_0x1b7520(0x196)],{'image':_0x12c533,'caption':_0x2f7a56,'mentions':_0x5b3a71},{'quoted':_0x2c0b7b});try{await _0x4624dc[_0x1b7520(0x18e)](_0x2c0b7b[_0x1b7520(0x196)],{'delete':_0x2c0b7b[_0x1b7520(0x1aa)]});}catch(_0x36c358){console[_0x1b7520(0x1a8)](_0x1b7520(0x1b2),_0x36c358);}};handler[a0_0x2f5262(0x195)]=['invocar'],handler['tags']=[a0_0x2f5262(0x1a2)],handler[a0_0x2f5262(0x1a1)]=/^(invocar)$/i,handler[a0_0x2f5262(0x192)]=![],handler[a0_0x2f5262(0x1b6)]=!![];export default handler;function a0_0x5426(){const _0x29cfa6=['group','\x0a\x20\x20\x20\x20\x20📢\x20*COMUNICADO*\x0a','image/','1076QNxenL','downloadMediaMessage','4703766pqEKYN','error','274RpbEdi','key','128009MzQtfy','text','6062490vsmqWl','isGroup','48722640EQoqfC','\x0a🤖\x20*Sung\x20Jin-Woo*','sender','Error\x20al\x20borrar\x20el\x20mensaje\x20original:','trim','\x0a_Invoqué\x20por:\x20','8WwjmmI','admin','readFileSync','══════✦❘༻༺❘✦══════','sendMessage','participants','*Error:*\x20No\x20se\x20encontró\x20la\x20imagen\x20del\x20comunicado.\x20Responde\x20a\x20la\x20imagen\x20que\x20deseas\x20guardar.','existsSync','owner','318pWFDbi','mimetype','help','chat','some','getName','5614808DPudYL','*Error:*\x20Debes\x20ingresar\x20un\x20mensaje.','*Error:*\x20Solo\x20los\x20administradores\x20pueden\x20usar\x20este\x20comando\x20en\x20grupos.','./src/comunicados.png','superadmin','map','quoted','27910DIlciA','command'];a0_0x5426=function(){return _0x29cfa6;};return a0_0x5426();}
+import fs from 'fs';
+
+const handler = async (m, { conn, text, usedPrefix, command }) => {
+  // Verificar que se ejecute solo en grupos
+  if (!m.isGroup) {
+    throw "*Error:* Este comando solo se puede usar en grupos.";
+  }
+
+  // Verificación de permisos: solo administradores pueden usarlo
+  const groupMetadata = await conn.groupMetadata(m.chat);
+  const isAdmin = groupMetadata.participants.some(p =>
+    p.id === m.sender && (p.admin === 'admin' || p.admin === 'superadmin')
+  );
+  if (!isAdmin) {
+    throw "*Error:* Solo los administradores pueden usar este comando en grupos.";
+  }
+
+  // Obtener el mensaje a enviar (desde mensaje citado o argumento)
+  const pesan = m.quoted?.text || text?.trim(); // .trim() elimina espacios antes de la validación
+  if (!pesan) throw "*Error:* Debes ingresar un mensaje.";
+
+  // Cargar la imagen del comunicado: desde disco o mensaje citado
+  let imageBuffer;
+  const imagePath = './src/comunicados.png';
+  if (fs.existsSync(imagePath)) {
+    imageBuffer = fs.readFileSync(imagePath);
+  } else if (m.quoted && m.quoted.mimetype && m.quoted.mimetype.startsWith("image/")) {
+    imageBuffer = await conn.downloadMediaMessage(m.quoted);
+  } else {
+    throw "*Error:* No se encontró la imagen del comunicado. Responde a la imagen que deseas guardar.";
+  }
+
+  // Definir la decoración del comunicado
+  const divider = "══════✦❘༻༺❘✦══════";
+  const header = `${divider}\n     📢 *COMUNICADO*\n${divider}`;
+  const footer = `\n🤖 *Sung Jin-Woo*`;
+
+  // Comando "invocar": se envía el comunicado en el chat actual y se invoca a todos los participantes
+  const senderName = await conn.getName(m.sender);
+  const invokerInfo = `${divider}\n_Invoqué por: ${senderName}_\n${divider}`;
+  const broadcastMessage = `${header}\n\n${pesan}\n\n${invokerInfo}${footer}`;
+
+  // Obtener los IDs de todos los participantes para mencionarlos
+  const allParticipants = groupMetadata.participants.map(p => p.id);
+
+  // Envía el comunicado mencionando a todos los participantes
+  await conn.sendMessage(m.chat, {
+    image: imageBuffer,
+    caption: broadcastMessage,
+    mentions: allParticipants
+  }, { quoted: m });
+
+  // Borra el mensaje original que invoca el comando
+  try {
+    await conn.sendMessage(m.chat, { delete: m.key });
+  } catch (e) {
+    console.error("Error al borrar el mensaje original:", e);
+  }
+};
+
+// Configuración del handler
+handler.help = ['invocar'];
+handler.tags = ['group'];
+handler.command = /^(invocar)$/i;
+handler.owner = false;  // Deshabilita la verificación de owner
+handler.admin = true;   // Solo los administradores pueden usar este comando
+
+export default handler;

@@ -1,1 +1,18 @@
-function a0_0x133b(_0xa14efc,_0xf33102){const _0x3c849c=a0_0x3c84();return a0_0x133b=function(_0x133b85,_0x4d8c72){_0x133b85=_0x133b85-0x1bc;let _0x41fdec=_0x3c849c[_0x133b85];return _0x41fdec;},a0_0x133b(_0xa14efc,_0xf33102);}const a0_0x350d54=a0_0x133b;(function(_0x43d6c7,_0x30d4d8){const _0x330cf4=a0_0x133b,_0x5afc07=_0x43d6c7();while(!![]){try{const _0x406f2f=-parseInt(_0x330cf4(0x1c7))/0x1*(-parseInt(_0x330cf4(0x1ce))/0x2)+parseInt(_0x330cf4(0x1c8))/0x3*(parseInt(_0x330cf4(0x1d2))/0x4)+parseInt(_0x330cf4(0x1c1))/0x5+-parseInt(_0x330cf4(0x1d1))/0x6+parseInt(_0x330cf4(0x1cc))/0x7*(-parseInt(_0x330cf4(0x1d5))/0x8)+parseInt(_0x330cf4(0x1c9))/0x9*(-parseInt(_0x330cf4(0x1cd))/0xa)+-parseInt(_0x330cf4(0x1c5))/0xb*(-parseInt(_0x330cf4(0x1d0))/0xc);if(_0x406f2f===_0x30d4d8)break;else _0x5afc07['push'](_0x5afc07['shift']());}catch(_0x20d6a4){_0x5afc07['push'](_0x5afc07['shift']());}}}(a0_0x3c84,0x71a5d));const handler=async(_0x1a5c46,{conn:_0x1cf2d4,text:_0x18ffe2,isROwner:_0x52131a,isOwner:_0x20bc61})=>{const _0x52784a=a0_0x133b,_0x4d1fd4=global,_0x565fef=_0x4d1fd4['db'][_0x52784a(0x1cb)][_0x52784a(0x1da)][_0x1a5c46[_0x52784a(0x1d7)]][_0x52784a(0x1c6)],_0x2fe2eb=JSON['parse'](fs['readFileSync']('./language/'+_0x565fef+_0x52784a(0x1c0))),_0x44836e=_0x2fe2eb[_0x52784a(0x1c2)][_0x52784a(0x1bf)];if(_0x18ffe2)global['db'][_0x52784a(0x1cb)]['chats'][_0x1a5c46[_0x52784a(0x1be)]][_0x52784a(0x1bd)]=_0x18ffe2,_0x1a5c46[_0x52784a(0x1d4)](_0x44836e[_0x52784a(0x1c4)]);else throw _0x44836e[_0x52784a(0x1bc)][0x0]+_0x52784a(0x1c3);};function a0_0x3c84(){const _0x4c3457=['command','792FPqvjf','3460014eGBgYZ','4SaBsDn','tags','reply','5171512nBPQeK','setwelcome\x20<text>','sender','admin','group','users','texto2','sWelcome','chat','gc_setwelcome','.json','836450SIsLbL','plugins','\x0a*-\x20@user\x20(mención)*\x0a*-\x20@group\x20(nombre\x20de\x20grupo)*\x0a*-\x20@desc\x20(description\x20de\x20grupo)*','texto1','164670DmGpUF','language','568592BQLNDq','1041639cQjDGJ','27cexRzK','help','data','7XYuhgI','1275020kTWVQh','2wAagoM'];a0_0x3c84=function(){return _0x4c3457;};return a0_0x3c84();}handler[a0_0x350d54(0x1ca)]=[a0_0x350d54(0x1d6)],handler[a0_0x350d54(0x1d3)]=[a0_0x350d54(0x1d9)],handler[a0_0x350d54(0x1cf)]=['setwelcome'],handler[a0_0x350d54(0x1d8)]=!![];export default handler;
+
+
+const handler = async (m, {conn, text, isROwner, isOwner}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_setwelcome
+
+  if (text) {
+    global.db.data.chats[m.chat].sWelcome = text;
+    m.reply(tradutor.texto1);
+  } else throw `${tradutor.texto2[0]}\n*- @user (mención)*\n*- @group (nombre de grupo)*\n*- @desc (description de grupo)*`;
+};
+handler.help = ['setwelcome <text>'];
+handler.tags = ['group'];
+handler.command = ['setwelcome'];
+handler.admin = true;
+export default handler;

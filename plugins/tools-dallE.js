@@ -1,1 +1,39 @@
-const a0_0x2baa4f=a0_0x589b;(function(_0x11cb56,_0xad085a){const _0x4fe291=a0_0x589b,_0x3ab37c=_0x11cb56();while(!![]){try{const _0x106a61=parseInt(_0x4fe291(0x7c))/0x1*(parseInt(_0x4fe291(0x89))/0x2)+parseInt(_0x4fe291(0x73))/0x3+-parseInt(_0x4fe291(0x85))/0x4*(-parseInt(_0x4fe291(0x80))/0x5)+parseInt(_0x4fe291(0x7f))/0x6*(parseInt(_0x4fe291(0x6d))/0x7)+-parseInt(_0x4fe291(0x68))/0x8*(-parseInt(_0x4fe291(0x8a))/0x9)+-parseInt(_0x4fe291(0x70))/0xa+-parseInt(_0x4fe291(0x75))/0xb;if(_0x106a61===_0xad085a)break;else _0x3ab37c['push'](_0x3ab37c['shift']());}catch(_0x520056){_0x3ab37c['push'](_0x3ab37c['shift']());}}}(a0_0x25b6,0x31c82));function a0_0x25b6(){const _0x466a08=['532WPKvGP','cimg','texto1','parse','29038JwRSSD','1645227tYzhzN','a-img','openai3','16YiGkQg','&text=','ia2','./language/','plugins','7irGklA','log','sendMessage','281060YvkhLO','url','json','1181028jUofLF','texto3','11042757ZAnrQx','data','language','texto2','https://api.lolhuman.xyz/api/dall-e?apikey=','command','aimg','17CcFNdK','getFile','https://vihangayt.me/tools/lexicaart?q=','235230PHrerN','7165pLDJuj','chat','dall-e','users','dalle'];a0_0x25b6=function(){return _0x466a08;};return a0_0x25b6();}import a0_0x454c7b from'node-fetch';const handler=async(_0xe400b7,{conn:_0xf87bd8,text:_0x27be10,usedPrefix:_0x47e629,command:_0x48e5e7})=>{const _0x13e171=a0_0x589b,_0x21fea3=global,_0x9fd221=_0x21fea3['db'][_0x13e171(0x76)][_0x13e171(0x83)][_0xe400b7['sender']][_0x13e171(0x77)],_0x49711a=JSON[_0x13e171(0x88)](fs['readFileSync'](_0x13e171(0x6b)+_0x9fd221+'.json')),_0x2ed429=_0x49711a[_0x13e171(0x6c)]['herramientas_dalle'];if(!_0x27be10)throw _0x2ed429[_0x13e171(0x87)][0x0]+'\x20'+(_0x47e629+_0x48e5e7)+'\x20'+_0x2ed429[_0x13e171(0x87)][0x1]+'\x20'+(_0x47e629+_0x48e5e7)+'\x20'+_0x2ed429['texto1'][0x2];await _0xf87bd8[_0x13e171(0x6f)](_0xe400b7[_0x13e171(0x81)],{'text':_0x2ed429[_0x13e171(0x78)]},{'quoted':_0xe400b7});try{const _0x332ea7=await a0_0x454c7b('https://vihangayt.me/tools/imagine?q='+_0x27be10),_0x2a8bf9=await _0x332ea7[_0x13e171(0x72)]();await _0xf87bd8[_0x13e171(0x6f)](_0xe400b7['chat'],{'image':{'url':_0x2a8bf9[_0x13e171(0x76)]}},{'quoted':_0xe400b7});}catch{console[_0x13e171(0x6e)](_0x2ed429['texto3'][0x0]);try{const _0x207d23=await _0xf87bd8[_0x13e171(0x7d)]('https://vihangayt.me/tools/midjourney?q='+_0x27be10);await _0xf87bd8['sendMessage'](_0xe400b7[_0x13e171(0x81)],{'image':{'url':_0x207d23[_0x13e171(0x76)]}},{'quoted':_0xe400b7});}catch{console[_0x13e171(0x6e)](_0x2ed429['texto3'][0x1]);try{const _0x1fa539=await a0_0x454c7b(_0x13e171(0x7e)+_0x27be10),_0x325dd5=await _0x1fa539[_0x13e171(0x72)]();await _0xf87bd8[_0x13e171(0x6f)](_0xe400b7['chat'],{'image':{'url':_0x325dd5['data'][0x0]['images'][0x0][_0x13e171(0x71)]}},{'quoted':_0xe400b7});}catch{console[_0x13e171(0x6e)](_0x2ed429[_0x13e171(0x74)][0x2]);try{const _0xc609f5=await _0xf87bd8[_0x13e171(0x7d)](_0x13e171(0x79)+lolkeysapi+_0x13e171(0x69)+_0x27be10);await _0xf87bd8['sendMessage'](_0xe400b7[_0x13e171(0x81)],{'image':{'url':_0xc609f5[_0x13e171(0x76)]}},{'quoted':_0xe400b7});}catch{console[_0x13e171(0x6e)](_0x2ed429[_0x13e171(0x74)][0x3]);throw _0x2ed429['texto3'][0x4];}}}}};function a0_0x589b(_0x1d0ab0,_0xcafc9c){const _0x25b665=a0_0x25b6();return a0_0x589b=function(_0x589b9e,_0x50b1d8){_0x589b9e=_0x589b9e-0x66;let _0x567691=_0x25b665[_0x589b9e];return _0x567691;},a0_0x589b(_0x1d0ab0,_0xcafc9c);}handler[a0_0x2baa4f(0x7a)]=[a0_0x2baa4f(0x82),a0_0x2baa4f(0x84),a0_0x2baa4f(0x6a),a0_0x2baa4f(0x86),a0_0x2baa4f(0x67),a0_0x2baa4f(0x66),a0_0x2baa4f(0x7b),'imagine'];export default handler;
+import fetch from 'node-fetch';
+
+
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.herramientas_dalle
+
+  if (!text) throw `${tradutor.texto1[0]} ${usedPrefix + command} ${tradutor.texto1[1]} ${usedPrefix + command} ${tradutor.texto1[2]}`;
+    await conn.sendMessage(m.chat, {text: tradutor.texto2}, {quoted: m});
+  try {
+    const tiores1 = await fetch(`https://vihangayt.me/tools/imagine?q=${text}`);
+    const json1 = await tiores1.json();
+    await conn.sendMessage(m.chat, {image: {url: json1.data}}, {quoted: m});
+  } catch {  
+      console.log(tradutor.texto3[0]);  
+  try {
+    const tiores2 = await conn.getFile(`https://vihangayt.me/tools/midjourney?q=${text}`);
+    await conn.sendMessage(m.chat, {image: {url: tiores2.data}}, {quoted: m});
+  } catch {
+      console.log(tradutor.texto3[1]);
+  try {
+    const tiores3 = await fetch(`https://vihangayt.me/tools/lexicaart?q=${text}`);
+    const json3 = await tiores3.json();
+    await conn.sendMessage(m.chat, {image: {url: json3.data[0].images[0].url}}, {quoted: m});
+  } catch {
+      console.log(tradutor.texto3[2]);
+  try {
+    const tiores4 = await conn.getFile(`https://api.lolhuman.xyz/api/dall-e?apikey=${lolkeysapi}&text=${text}`);
+    await conn.sendMessage(m.chat, {image: {url: tiores4.data}}, {quoted: m});
+  } catch {
+    console.log(tradutor.texto3[3]);
+    throw tradutor.texto3[4];
+  }}
+ }}
+};
+handler.command = ['dall-e', 'dalle', 'ia2', 'cimg', 'openai3', 'a-img', 'aimg', 'imagine'];
+export default handler;

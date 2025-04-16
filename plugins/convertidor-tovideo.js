@@ -1,1 +1,34 @@
-const a0_0x5ea01b=a0_0x288e;(function(_0x4d91f8,_0x19f49d){const _0x5bbf69=a0_0x288e,_0x5648db=_0x4d91f8();while(!![]){try{const _0x655ef0=-parseInt(_0x5bbf69(0x19c))/0x1*(-parseInt(_0x5bbf69(0x1a3))/0x2)+-parseInt(_0x5bbf69(0x19e))/0x3+parseInt(_0x5bbf69(0x18e))/0x4+-parseInt(_0x5bbf69(0x19b))/0x5+parseInt(_0x5bbf69(0x18f))/0x6+parseInt(_0x5bbf69(0x1a1))/0x7+-parseInt(_0x5bbf69(0x187))/0x8;if(_0x655ef0===_0x19f49d)break;else _0x5648db['push'](_0x5648db['shift']());}catch(_0x2e2d38){_0x5648db['push'](_0x5648db['shift']());}}}(a0_0x5a78,0xd8000));import{webp2mp4}from'../lib/webp2mp4.js';function a0_0x5a78(){const _0x1e9998=['8021975hETerl','255118OAaSLX','convertidores','3682893uOrPdg','texto2','-crf','8956983lIXcIu','parse','10GbyUth','readFileSync','./language/','tags','sender','quoted','mp4','*DONE*','yuv420p','help','5511840koMdLZ','-shortest','tovideo','download','test','language','sendFile','4346852wJrVwQ','4583220qXrsDD','mp3','mimetype','copy','alloc','color','command','-filter_complex','users','-pix_fmt','texto1','.json'];a0_0x5a78=function(){return _0x1e9998;};return a0_0x5a78();}function a0_0x288e(_0x496138,_0x264452){const _0x5a78f1=a0_0x5a78();return a0_0x288e=function(_0x288e6e,_0x1ebb54){_0x288e6e=_0x288e6e-0x183;let _0x2b39a6=_0x5a78f1[_0x288e6e];return _0x2b39a6;},a0_0x288e(_0x496138,_0x264452);}import{ffmpeg}from'../lib/converter.js';const handler=async(_0x4d65dc,{conn:_0xe68e28,usedPrefix:_0x3b37a6,command:_0xd149c5})=>{const _0x8acdea=a0_0x288e,_0x483c6a=global,_0x3dff4f=_0x483c6a['db']['data'][_0x8acdea(0x197)][_0x4d65dc[_0x8acdea(0x1a7)]][_0x8acdea(0x18c)],_0x710831=JSON[_0x8acdea(0x1a2)](fs[_0x8acdea(0x1a4)](_0x8acdea(0x1a5)+_0x3dff4f+_0x8acdea(0x19a))),_0x2b66cf=_0x710831['plugins']['convertidor_tovideo'];if(!_0x4d65dc[_0x8acdea(0x1a8)])throw'*'+_0x2b66cf[_0x8acdea(0x199)]+'\x20'+(_0x3b37a6+_0xd149c5)+'*';const _0x7fe11e=_0x4d65dc[_0x8acdea(0x1a8)][_0x8acdea(0x191)]||'';if(!/webp/['test'](_0x7fe11e))throw'*'+_0x2b66cf[_0x8acdea(0x19f)]+'\x20'+(_0x3b37a6+_0xd149c5)+'*';const _0x139486=await _0x4d65dc[_0x8acdea(0x1a8)][_0x8acdea(0x18a)]();let _0x495308=Buffer[_0x8acdea(0x193)](0x0);if(/webp/[_0x8acdea(0x18b)](_0x7fe11e))_0x495308=await webp2mp4(_0x139486);else/audio/[_0x8acdea(0x18b)](_0x7fe11e)&&(_0x495308=await ffmpeg(_0x139486,[_0x8acdea(0x196),_0x8acdea(0x194),_0x8acdea(0x198),_0x8acdea(0x185),_0x8acdea(0x1a0),'51','-c:a',_0x8acdea(0x192),_0x8acdea(0x188)],_0x8acdea(0x190),_0x8acdea(0x183)));await _0xe68e28[_0x8acdea(0x18d)](_0x4d65dc['chat'],_0x495308,'error.mp4',_0x8acdea(0x184),_0x4d65dc,0x0,{'thumbnail':_0x495308});};handler[a0_0x5ea01b(0x186)]=['tovideo'],handler[a0_0x5ea01b(0x1a6)]=[a0_0x5ea01b(0x19d)],handler[a0_0x5ea01b(0x195)]=[a0_0x5ea01b(0x189),'tomp4','mp4','togif'];export default handler;
+import {webp2mp4} from '../lib/webp2mp4.js';
+import {ffmpeg} from '../lib/converter.js';
+
+
+
+
+const handler = async (m, {conn, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.convertidor_tovideo
+
+  if (!m.quoted) throw `*${tradutor.texto1} ${usedPrefix + command}*`;
+  const mime = m.quoted.mimetype || '';
+  if (!/webp/.test(mime)) throw `*${tradutor.texto2} ${usedPrefix + command}*`;
+  const media = await m.quoted.download();
+  let out = Buffer.alloc(0);
+  if (/webp/.test(mime)) {
+    out = await webp2mp4(media);
+  } else if (/audio/.test(mime)) {
+    out = await ffmpeg(media, [
+      '-filter_complex', 'color',
+      '-pix_fmt', 'yuv420p',
+      '-crf', '51',
+      '-c:a', 'copy',
+      '-shortest',
+    ], 'mp3', 'mp4');
+  }
+  await conn.sendFile(m.chat, out, 'error.mp4', '*DONE*', m, 0, {thumbnail: out});
+};
+handler.help = ['tovideo'];
+handler.tags = ['convertidores'];
+handler.command = ['tovideo', 'tomp4', 'mp4', 'togif'];
+export default handler;

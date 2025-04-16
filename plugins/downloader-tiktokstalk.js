@@ -1,1 +1,34 @@
-function a0_0x30da(_0xfbb79c,_0x46848d){const _0x357395=a0_0x3573();return a0_0x30da=function(_0x30da4e,_0x5b969a){_0x30da4e=_0x30da4e-0x10d;let _0x4c38df=_0x357395[_0x30da4e];return _0x4c38df;},a0_0x30da(_0xfbb79c,_0x46848d);}const a0_0x4e893e=a0_0x30da;(function(_0x6b8cbf,_0x4434ac){const _0x4fabdc=a0_0x30da,_0x621321=_0x6b8cbf();while(!![]){try{const _0x3e49e3=parseInt(_0x4fabdc(0x117))/0x1*(parseInt(_0x4fabdc(0x111))/0x2)+-parseInt(_0x4fabdc(0x135))/0x3*(parseInt(_0x4fabdc(0x11b))/0x4)+parseInt(_0x4fabdc(0x134))/0x5+parseInt(_0x4fabdc(0x116))/0x6+-parseInt(_0x4fabdc(0x119))/0x7+parseInt(_0x4fabdc(0x123))/0x8*(-parseInt(_0x4fabdc(0x12f))/0x9)+parseInt(_0x4fabdc(0x114))/0xa;if(_0x3e49e3===_0x4434ac)break;else _0x621321['push'](_0x621321['shift']());}catch(_0x238002){_0x621321['push'](_0x621321['shift']());}}}(a0_0x3573,0x28cc6));function a0_0x3573(){const _0x4b8e7b=['json','users','texto3','text','https://api.lolhuman.xyz/api/stalktiktok/','plugins','map','chat','help','6192YADaSO','result','bio','buffer','data','429025KCPYeR','15GIEXKK','https://api.lolhuman.xyz/api/pptiktok/','user_picture','sendFile','downloader_tiktokstalk','2kYXMKf','username','status','5264740yKAONB','texto2','1699866EIjqJd','10331DPBtxY','tiktokstalk','2270100hRtvui','.json','132364utmcHM','followings','reply','?apikey=','readFileSync','language','tags','\x20<username>','2896UhzeqX','error.jpg','sender'];a0_0x3573=function(){return _0x4b8e7b;};return a0_0x3573();}import a0_0x4dece9 from'node-fetch';const handler=async(_0x3673a5,{conn:_0x250238,text:_0x5115b3})=>{const _0x50dedb=a0_0x30da,_0x38eb3c=global,_0x40fac4=_0x38eb3c['db'][_0x50dedb(0x133)][_0x50dedb(0x127)][_0x3673a5[_0x50dedb(0x125)]][_0x50dedb(0x120)],_0xdf6bf=JSON['parse'](fs[_0x50dedb(0x11f)]('./language/'+_0x40fac4+_0x50dedb(0x11a))),_0x51e046=_0xdf6bf[_0x50dedb(0x12b)][_0x50dedb(0x110)];if(!_0x5115b3)return _0x250238[_0x50dedb(0x11d)](_0x3673a5[_0x50dedb(0x12d)],_0x51e046['texto1'],_0x3673a5);try{const _0x3e01f8=await a0_0x4dece9(_0x50dedb(0x12a)+_0x5115b3+_0x50dedb(0x11e)+lolkeysapi),_0x4f5447=_0x50dedb(0x10d)+_0x5115b3+'?apikey='+lolkeysapi,_0x53fb9e=await _0x3e01f8[_0x50dedb(0x126)]();if(_0x3e01f8[_0x50dedb(0x113)]!==0xc8)throw await _0x3e01f8[_0x50dedb(0x129)]();if(!_0x53fb9e[_0x50dedb(0x113)])throw _0x53fb9e;const _0x9f6389=await(await a0_0x4dece9(_0x53fb9e[_0x50dedb(0x130)][_0x50dedb(0x10e)]))[_0x50dedb(0x132)](),_0x54edba=('\x0a'+_0x51e046['texto2'][0x0]+'\x20'+_0x53fb9e[_0x50dedb(0x130)][_0x50dedb(0x112)]+'\x0a'+_0x51e046[_0x50dedb(0x115)][0x1]+'\x20\x20'+_0x53fb9e['result']['nickname']+'\x0a'+_0x51e046[_0x50dedb(0x115)][0x2]+'\x20\x20'+_0x53fb9e[_0x50dedb(0x130)]['followers']+'\x0a'+_0x51e046['texto2'][0x3]+'\x20\x20'+_0x53fb9e[_0x50dedb(0x130)][_0x50dedb(0x11c)]+'\x0a'+_0x51e046['texto2'][0x4]+'\x20\x20'+_0x53fb9e[_0x50dedb(0x130)]['likes']+'\x0a'+_0x51e046[_0x50dedb(0x115)][0x5]+'\x20\x20'+_0x53fb9e[_0x50dedb(0x130)]['video']+'\x0a'+_0x51e046[_0x50dedb(0x115)][0x6]+'\x20\x20'+_0x53fb9e[_0x50dedb(0x130)][_0x50dedb(0x131)]+'\x0a')['trim']();_0x250238[_0x50dedb(0x10f)](_0x3673a5[_0x50dedb(0x12d)],_0x4f5447,_0x50dedb(0x124),_0x54edba,_0x3673a5,![]);}catch(_0xbe4009){throw _0x51e046[_0x50dedb(0x128)];}};handler[a0_0x4e893e(0x12e)]=[a0_0x4e893e(0x118)][a0_0x4e893e(0x12c)](_0x39e7b5=>_0x39e7b5+a0_0x4e893e(0x122)),handler[a0_0x4e893e(0x121)]=['downloader'],handler['command']=/^(tiktokstalk|ttstalk)$/i;export default handler;
+import fetch from 'node-fetch';
+
+const handler = async (m, { conn, text }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.downloader_tiktokstalk
+
+  if (!text) return conn.reply(m.chat, tradutor.texto1, m);
+  try {
+    const res = await fetch(`https://api.lolhuman.xyz/api/stalktiktok/${text}?apikey=${lolkeysapi}`);
+    const res2 = `https://api.lolhuman.xyz/api/pptiktok/${text}?apikey=${lolkeysapi}`;
+    const json = await res.json();
+    if (res.status !== 200) throw await res.text();
+    if (!json.status) throw json;
+    const thumb = await (await fetch(json.result.user_picture)).buffer();
+    const Mystic = `
+${tradutor.texto2[0]} ${json.result.username}
+${tradutor.texto2[1]}  ${json.result.nickname}
+${tradutor.texto2[2]}  ${json.result.followers}
+${tradutor.texto2[3]}  ${json.result.followings}
+${tradutor.texto2[4]}  ${json.result.likes}
+${tradutor.texto2[5]}  ${json.result.video}
+${tradutor.texto2[6]}  ${json.result.bio}
+`.trim();
+    conn.sendFile(m.chat, res2, 'error.jpg', Mystic, m, false);
+  } catch (e) {
+    throw tradutor.texto3;
+  }
+};
+handler.help = ['tiktokstalk'].map((v) => v + ' <username>');
+handler.tags = ['downloader'];
+handler.command = /^(tiktokstalk|ttstalk)$/i;
+export default handler;

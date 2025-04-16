@@ -1,1 +1,19 @@
-const a0_0x4bec05=a0_0x17f0;function a0_0x385b(){const _0x40a245=['354572ZmaBvw','reply','494072SYGUPW','map','texto3','\x20<text>','6670568flLwHT','.json','parse','database','replace','owner_delmsg','plugins','del','335553zEmbEl','list','15YPbZoj','msg','texto2','1651622juPkjy','sticker','44065wQJPsl','texto1','msgs','readFileSync','data','636456GxISzS'];a0_0x385b=function(){return _0x40a245;};return a0_0x385b();}(function(_0x436c91,_0x5d7412){const _0x81728f=a0_0x17f0,_0x4dde41=_0x436c91();while(!![]){try{const _0x2bec6f=parseInt(_0x81728f(0x116))/0x1+-parseInt(_0x81728f(0x103))/0x2+parseInt(_0x81728f(0x10f))/0x3+-parseInt(_0x81728f(0x11c))/0x4*(parseInt(_0x81728f(0x111))/0x5)+-parseInt(_0x81728f(0x11b))/0x6+-parseInt(_0x81728f(0x114))/0x7+parseInt(_0x81728f(0x107))/0x8;if(_0x2bec6f===_0x5d7412)break;else _0x4dde41['push'](_0x4dde41['shift']());}catch(_0x3fefdf){_0x4dde41['push'](_0x4dde41['shift']());}}}(a0_0x385b,0x20e5e));function a0_0x17f0(_0x43b33e,_0x41883f){const _0x385bf0=a0_0x385b();return a0_0x17f0=function(_0x17f00d,_0x302b2e){_0x17f00d=_0x17f00d-0x103;let _0xca1aa=_0x385bf0[_0x17f00d];return _0xca1aa;},a0_0x17f0(_0x43b33e,_0x41883f);}const handler=async(_0x535860,{command:_0x56beba,usedPrefix:_0x278da3,text:_0x5aa406})=>{const _0x5255b3=a0_0x17f0,_0x2535e1=global,_0x54ef5c=_0x2535e1['db'][_0x5255b3(0x11a)]['users'][_0x535860['sender']]['language'],_0x1620f6=JSON[_0x5255b3(0x109)](fs[_0x5255b3(0x119)]('./language/'+_0x54ef5c+_0x5255b3(0x108))),_0x4c0a41=_0x1620f6[_0x5255b3(0x10d)][_0x5255b3(0x10c)],_0x3fb93a=_0x56beba[_0x5255b3(0x10b)](/eliminar/i,'');if(!_0x5aa406)throw _0x4c0a41['texto1'][0x0]+'\x20'+_0x278da3+_0x5255b3(0x110)+_0x3fb93a+'\x20'+_0x4c0a41[_0x5255b3(0x117)][0x1];const _0x6b3ea0=global['db'][_0x5255b3(0x11a)][_0x5255b3(0x118)];if(!(_0x5aa406 in _0x6b3ea0))throw _0x4c0a41[_0x5255b3(0x113)][0x0]+'\x20\x27'+_0x5aa406+'\x27\x20'+_0x4c0a41[_0x5255b3(0x113)][0x1];delete _0x6b3ea0[_0x5aa406],_0x535860[_0x5255b3(0x11d)](_0x4c0a41[_0x5255b3(0x105)]+'\x20\x27'+_0x5aa406+'\x27*');};handler['help']=['vn',a0_0x4bec05(0x112),'video','audio','img',a0_0x4bec05(0x115)][a0_0x4bec05(0x104)](_0xdc55a6=>a0_0x4bec05(0x10e)+_0xdc55a6+a0_0x4bec05(0x106)),handler['tags']=[a0_0x4bec05(0x10a)],handler['command']=/^eliminar(vn|msg|video|audio|img|sticker)$/,handler['rowner']=!![];export default handler;
+const handler = async (m, {command, usedPrefix, text}) => {
+  const datas = global;
+  const idioma = datas.db.data.users[m.sender].language;
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`));
+  const tradutor = _translate.plugins.owner_delmsg;
+
+  const which = command.replace(/eliminar/i, '');
+  if (!text) throw `${tradutor.texto1[0]} ${usedPrefix}list${which} ${tradutor.texto1[1]}`;
+  const msgs = global.db.data.msgs;
+  if (!(text in msgs)) throw `${tradutor.texto2[0]} '${text}' ${tradutor.texto2[1]}`;
+  delete msgs[text];
+  m.reply(`${tradutor.texto3} '${text}'*`);
+};
+
+handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map((v) => 'del' + v + ' <text>');
+handler.tags = ['database'];
+handler.command = /^eliminar(vn|msg|video|audio|img|sticker)$/;
+handler.rowner = true;
+export default handler;

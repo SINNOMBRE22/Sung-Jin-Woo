@@ -1,1 +1,62 @@
-function a0_0x282c(){const _0x145f16=['3247194CnpmeF','replace','suittag','chat','remove','Sin\x20motivo','admin','parseMention','./src/warn.jpg','restrict','user','./language/','texto4','6903927rNFCSl','jid','command','562IyYzsI','users','4793tSCeyw','1571052NssRyi','108Wnbtjc','5sHvguE','readFileSync','\x0a*@','reply','78945MTpSjB','texto2','65YxqoEN','\x20(#𝚎𝚗𝚊𝚋𝚕𝚎\x20𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝)\x20','isGroup','7574392LXzQoc','group','data','sender','groupParticipantsUpdate','quoted','language','.json','mentionedJid','7PMiJKu','/3*','texto3','warn','includes','419468NoTUzg','10lWkVXw','botAdmin','split','99NKYEUv'];a0_0x282c=function(){return _0x145f16;};return a0_0x282c();}function a0_0x3611(_0x3172b5,_0x323143){const _0x282c81=a0_0x282c();return a0_0x3611=function(_0x361128,_0x250435){_0x361128=_0x361128-0x1e7;let _0x28ba11=_0x282c81[_0x361128];return _0x28ba11;},a0_0x3611(_0x3172b5,_0x323143);}const a0_0x1af767=a0_0x3611;(function(_0x334381,_0x57d988){const _0x5e0fe7=a0_0x3611,_0x22687a=_0x334381();while(!![]){try{const _0x4344c9=-parseInt(_0x5e0fe7(0x201))/0x1*(-parseInt(_0x5e0fe7(0x1ff))/0x2)+-parseInt(_0x5e0fe7(0x208))/0x3*(parseInt(_0x5e0fe7(0x203))/0x4)+-parseInt(_0x5e0fe7(0x204))/0x5*(parseInt(_0x5e0fe7(0x1ef))/0x6)+-parseInt(_0x5e0fe7(0x216))/0x7*(-parseInt(_0x5e0fe7(0x20d))/0x8)+-parseInt(_0x5e0fe7(0x1fc))/0x9*(-parseInt(_0x5e0fe7(0x1eb))/0xa)+parseInt(_0x5e0fe7(0x1ee))/0xb*(-parseInt(_0x5e0fe7(0x202))/0xc)+parseInt(_0x5e0fe7(0x20a))/0xd*(parseInt(_0x5e0fe7(0x1ea))/0xe);if(_0x4344c9===_0x57d988)break;else _0x22687a['push'](_0x22687a['shift']());}catch(_0x39c415){_0x22687a['push'](_0x22687a['shift']());}}}(a0_0x282c,0xbe908));const handler=async(_0xd4b8d4,{conn:_0xcea178,text:_0x55100c,command:_0x422619,usedPrefix:_0xef9e98})=>{const _0xc5c87c=a0_0x3611,_0x12e901=global,_0x3c6925=_0x12e901['db'][_0xc5c87c(0x20f)][_0xc5c87c(0x200)][_0xd4b8d4[_0xc5c87c(0x210)]][_0xc5c87c(0x213)],_0x575cd4=JSON['parse'](fs[_0xc5c87c(0x205)](_0xc5c87c(0x1fa)+_0x3c6925+_0xc5c87c(0x214))),_0x2d5865=_0x575cd4['plugins']['gc_warn'];if(_0xd4b8d4[_0xc5c87c(0x215)][_0xc5c87c(0x1e9)](_0xcea178['user'][_0xc5c87c(0x1fd)]))return;const _0x386bd4=_0xc5c87c(0x1f7);let _0x443315;if(_0xd4b8d4[_0xc5c87c(0x20c)])_0x443315=_0xd4b8d4[_0xc5c87c(0x215)][0x0]?_0xd4b8d4[_0xc5c87c(0x215)][0x0]:_0xd4b8d4['quoted']?_0xd4b8d4[_0xc5c87c(0x212)][_0xc5c87c(0x210)]:_0x55100c;else _0x443315=_0xd4b8d4[_0xc5c87c(0x1f2)];const _0x70b76f=global['db']['data']['users'][_0x443315],_0x4b736b=global['db'][_0xc5c87c(0x20f)]['settings'][_0xcea178[_0xc5c87c(0x1f9)]['jid']]||{},_0x5814f1=_0xc5c87c(0x1f4),_0x1389ee=_0x55100c||_0x5814f1,_0x38302f=_0x1389ee[_0xc5c87c(0x1f0)](/@\d+-?\d* /g,''),_0x10afbf=_0x2d5865['texto1']+'\x0a*'+(_0xef9e98+_0x422619)+'\x20@'+global[_0xc5c87c(0x1f1)]+'*';if(!_0x443315)throw _0xd4b8d4['reply'](_0x10afbf,_0xd4b8d4['chat'],{'mentions':_0xcea178[_0xc5c87c(0x1f6)](_0x10afbf)});_0x70b76f['warn']+=0x1,await _0xd4b8d4['reply']((_0x70b76f[_0xc5c87c(0x1e8)]==0x1?'*@'+_0x443315[_0xc5c87c(0x1ed)]`@`[0x0]+'*':'*@'+_0x443315[_0xc5c87c(0x1ed)]`@`[0x0]+'*')+'\x20'+_0x2d5865['texto2'][0x0]+'\x20'+_0x38302f+'\x0a'+_0x2d5865[_0xc5c87c(0x209)][0x1]+'\x20'+_0x70b76f[_0xc5c87c(0x1e8)]+_0xc5c87c(0x217),null,{'mentions':[_0x443315]});if(_0x70b76f[_0xc5c87c(0x1e8)]>=0x3){if(!_0x4b736b[_0xc5c87c(0x1f8)])return _0xd4b8d4['reply'](_0x2d5865[_0xc5c87c(0x1e7)][0x0]+_0xc5c87c(0x20b)+_0x2d5865[_0xc5c87c(0x1e7)][0x1]);_0x70b76f[_0xc5c87c(0x1e8)]=0x0,await _0xd4b8d4[_0xc5c87c(0x207)](_0x2d5865[_0xc5c87c(0x1fb)][0x0]+_0xc5c87c(0x206)+_0x443315[_0xc5c87c(0x1ed)]`@`[0x0]+'*\x20'+_0x2d5865[_0xc5c87c(0x1fb)][0x1],null,{'mentions':[_0x443315]}),await _0xcea178[_0xc5c87c(0x211)](_0xd4b8d4[_0xc5c87c(0x1f2)],[_0x443315],_0xc5c87c(0x1f3));}return!0x1;};handler[a0_0x1af767(0x1fe)]=/^(advertir|advertencia|warn|warning)$/i,handler[a0_0x1af767(0x20e)]=!![],handler[a0_0x1af767(0x1f5)]=!![],handler[a0_0x1af767(0x1ec)]=!![];export default handler;
+
+const handler = async (m, {conn, text, command, usedPrefix}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_warn
+
+  if (m.mentionedJid.includes(conn.user.jid)) return;
+  const pp = './src/warn.jpg';
+  let who;
+  if (m.isGroup) {
+    who = m.mentionedJid[0] ?
+      m.mentionedJid[0] :
+      m.quoted ?
+      m.quoted.sender :
+      text;
+  } else who = m.chat;
+  const user = global.db.data.users[who];
+  const bot = global.db.data.settings[conn.user.jid] || {};
+  const dReason = 'Sin motivo';
+  const msgtext = text || dReason;
+  const sdms = msgtext.replace(/@\d+-?\d* /g, '');
+  const warntext = `${tradutor.texto1}\n*${
+    usedPrefix + command
+  } @${global.suittag}*`;
+  if (!who) {
+    throw m.reply(warntext, m.chat, {mentions: conn.parseMention(warntext)});
+  }
+  user.warn += 1;
+  await m.reply(
+      `${
+      user.warn == 1 ? `*@${who.split`@`[0]}*` : `*@${who.split`@`[0]}*`
+      } ${tradutor.texto2[0]} ${sdms}\n${tradutor.texto2[1]} ${
+        user.warn
+      }/3*`,
+      null,
+      {mentions: [who]},
+  );
+  if (user.warn >= 3) {
+    if (!bot.restrict) {
+      return m.reply(
+          `${tradutor.texto3[0]} (#𝚎𝚗𝚊𝚋𝚕𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝) ${tradutor.texto3[1]}`,
+      );
+    }
+    user.warn = 0;
+    await m.reply(
+        `${tradutor.texto4[0]}\n*@${
+          who.split`@`[0]
+        }* ${tradutor.texto4[1]}`,
+        null,
+        {mentions: [who]},
+    );
+    await conn.groupParticipantsUpdate(m.chat, [who], 'remove');
+  }
+  return !1;
+};
+
+handler.command = /^(advertir|advertencia|warn|warning)$/i;
+handler.group = true;
+handler.admin = true;
+handler.botAdmin = true;
+export default handler;

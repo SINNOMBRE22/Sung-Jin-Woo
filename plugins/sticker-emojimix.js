@@ -1,1 +1,34 @@
-const a0_0x1e20f7=a0_0x141d;(function(_0x4a390f,_0x127077){const _0x3a2a59=a0_0x141d,_0x25421b=_0x4a390f();while(!![]){try{const _0x3c5472=-parseInt(_0x3a2a59(0x12d))/0x1*(-parseInt(_0x3a2a59(0x12e))/0x2)+parseInt(_0x3a2a59(0x139))/0x3+parseInt(_0x3a2a59(0x137))/0x4+-parseInt(_0x3a2a59(0x134))/0x5+parseInt(_0x3a2a59(0x13d))/0x6*(parseInt(_0x3a2a59(0x130))/0x7)+-parseInt(_0x3a2a59(0x13f))/0x8+parseInt(_0x3a2a59(0x138))/0x9*(-parseInt(_0x3a2a59(0x127))/0xa);if(_0x3c5472===_0x127077)break;else _0x25421b['push'](_0x25421b['shift']());}catch(_0x58a224){_0x25421b['push'](_0x25421b['shift']());}}}(a0_0x3e86,0x9dbb4));function a0_0x3e86(){const _0x22b0ff=['.json','results','9714DWcanP','242fRhEyK','catch','7RCYLVN','parse','sender','then','308945HEuRTs','url','map','4873612amErTE','9HYcdHf','2930034CgvgoA','https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=','sendFile','json','2145252CeMQFc','readFileSync','6008720vdmZef','22690700bwNsIp','tags','packname','command'];a0_0x3e86=function(){return _0x22b0ff;};return a0_0x3e86();}import{sticker}from'../lib/sticker.js';import a0_0x421643 from'@whiskeysockets/baileys';import a0_0x42e8ef from'node-fetch';import a0_0x3ffb19 from'fs';const handler=async(_0xcc83f3,{conn:_0xfd96c5,text:_0x256995,args:_0x589c33})=>{const _0x33a6e4=a0_0x141d,_0x1a7d31=global,_0x10afaf=_0x1a7d31['db']['data']['users'][_0xcc83f3[_0x33a6e4(0x132)]]['language'],_0x365907=JSON[_0x33a6e4(0x131)](a0_0x3ffb19[_0x33a6e4(0x13e)]('./language/'+_0x10afaf+_0x33a6e4(0x12b))),_0x272c4b=_0x365907['plugins']['sticker_emojimix'];if(!_0x589c33[0x0])throw _0x272c4b['texto1'];const [_0x2f7e31,_0x1a256d]=_0x256995['split']`&`,_0x40e7d9=await fetchJson(_0x33a6e4(0x13a)+encodeURIComponent(_0x2f7e31)+'_'+encodeURIComponent(_0x1a256d));for(const _0xc0eceb of _0x40e7d9[_0x33a6e4(0x12c)]){const _0x24dff0=await sticker(![],_0xc0eceb[_0x33a6e4(0x135)],global[_0x33a6e4(0x129)],global['author']);_0xfd96c5[_0x33a6e4(0x13b)](_0xcc83f3['chat'],_0x24dff0,null,{'asSticker':!![]});}};function a0_0x141d(_0x1359d9,_0x5ca7c8){const _0x3e86e5=a0_0x3e86();return a0_0x141d=function(_0x141d21,_0x2915af){_0x141d21=_0x141d21-0x127;let _0x2c1e92=_0x3e86e5[_0x141d21];return _0x2c1e92;},a0_0x141d(_0x1359d9,_0x5ca7c8);}handler['help']=['emojimix'][a0_0x1e20f7(0x136)](_0x1756d2=>_0x1756d2+'\x20emot1|emot2>'),handler[a0_0x1e20f7(0x128)]=['fun'],handler[a0_0x1e20f7(0x12a)]=/^(emojimix)$/i;export default handler;const fetchJson=(_0x27bd7c,_0x3747e1)=>new Promise(async(_0x3e8228,_0x2d106f)=>{const _0x54edfd=a0_0x1e20f7;a0_0x42e8ef(_0x27bd7c,_0x3747e1)[_0x54edfd(0x133)](_0x5eb1d3=>_0x5eb1d3[_0x54edfd(0x13c)]())[_0x54edfd(0x133)](_0x296f3d=>{_0x3e8228(_0x296f3d);})[_0x54edfd(0x12f)](_0x3fd223=>{_0x2d106f(_0x3fd223);});});
+import {sticker} from '../lib/sticker.js';
+import MessageType from '@whiskeysockets/baileys';
+import fetch from 'node-fetch';
+import fs from 'fs';
+
+
+const handler = async (m, {conn, text, args}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.sticker_emojimix
+
+  if (!args[0]) throw tradutor.texto1;
+  const [emoji1, emoji2] = text.split`&`;
+  const anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`);
+  for (const res of anu.results) {
+    const stiker = await sticker(false, res.url, global.packname, global.author);
+    conn.sendFile(m.chat, stiker, null, {asSticker: true});
+  }
+};
+handler.help = ['emojimix'].map((v) => v + ' emot1|emot2>');
+handler.tags = ['fun'];
+handler.command = /^(emojimix)$/i;
+export default handler;
+const fetchJson = (url, options) => new Promise(async (resolve, reject) => {
+  fetch(url, options)
+      .then((response) => response.json())
+      .then((json) => {
+        resolve(json);
+      })
+      .catch((err) => {
+        reject(err);
+      });
+});

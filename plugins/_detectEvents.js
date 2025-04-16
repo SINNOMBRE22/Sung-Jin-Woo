@@ -1,1 +1,108 @@
-(function(_0xca52f2,_0x2468d7){const _0x36d99f=a0_0x36aa,_0x246cc2=_0xca52f2();while(!![]){try{const _0x1a7415=-parseInt(_0x36d99f(0x168))/0x1*(-parseInt(_0x36d99f(0x15d))/0x2)+parseInt(_0x36d99f(0x174))/0x3+parseInt(_0x36d99f(0x13b))/0x4+parseInt(_0x36d99f(0x14c))/0x5+-parseInt(_0x36d99f(0x16e))/0x6*(parseInt(_0x36d99f(0x156))/0x7)+-parseInt(_0x36d99f(0x14a))/0x8*(-parseInt(_0x36d99f(0x14d))/0x9)+-parseInt(_0x36d99f(0x171))/0xa;if(_0x1a7415===_0x2468d7)break;else _0x246cc2['push'](_0x246cc2['shift']());}catch(_0x237890){_0x246cc2['push'](_0x246cc2['shift']());}}}(a0_0xc317,0xacc53));import{WAMessageStubType}from'@whiskeysockets/baileys';function a0_0xc317(){const _0x10baa5=['map','texto3_4','texto3_2','texto2_3','texto5_2','1COYlTB','cerrado','_detectevents','texto1','detect2','readFileSync','2043054sZXpFF','texto1_1','plugins','23707520LGfnCz','eliminado','texto2_1','3722949RJXtyE','texto7_1','texto4_3','tetxo1_2','image','messageStubParameters','data','./language/','1764540PLgEgN','groupMetadata','users','messageStubType','catch','isGroup','texto5_1','texto2','texto2_2','profilePictureUrl','sendMessage','```','texto6','sender','texto4_1','8tbUlcW','texto5_4','4713275bHSZQb','4836267cUldjG','texto3_3','texto5_5','language','texto4_2','texto7','endsWith','texto6_1','chat','7SNiMSy','status@broadcast','texto5_3','Halo','\x0aitem1.X-ABLabel:Ponsel\x0aEND:VCARD','@g.us','0@s.whatsapp.net','513584OOoczE','parse','texto4_4','texto3','salido','split'];a0_0xc317=function(){return _0x10baa5;};return a0_0xc317();}import a0_0x15d0f7 from'node-fetch';function a0_0x36aa(_0x2f1af0,_0x1ae1aa){const _0xc3175d=a0_0xc317();return a0_0x36aa=function(_0x36aa1d,_0x614056){_0x36aa1d=_0x36aa1d-0x137;let _0x54d3a9=_0xc3175d[_0x36aa1d];return _0x54d3a9;},a0_0x36aa(_0x2f1af0,_0x1ae1aa);}export async function before(_0x33488c,{conn:_0x3a293f,participants:_0x1dbf48}){const _0x43b15b=a0_0x36aa,_0x40726f=global,_0x2f6d27=_0x40726f['db'][_0x43b15b(0x139)][_0x43b15b(0x13d)][_0x33488c[_0x43b15b(0x148)]][_0x43b15b(0x150)],_0x4ad8b3=JSON[_0x43b15b(0x15e)](fs[_0x43b15b(0x16d)](_0x43b15b(0x13a)+_0x2f6d27+'.json')),_0x22dc18=_0x4ad8b3[_0x43b15b(0x170)][_0x43b15b(0x16a)];if(!_0x33488c[_0x43b15b(0x13e)]||!_0x33488c[_0x43b15b(0x140)])return!0x0;const _0x20e3ed=(await _0x3a293f[_0x43b15b(0x13c)](_0x33488c[_0x43b15b(0x155)]))['subject'],_0x14a8a2=_0x1dbf48['filter'](_0x121c07=>_0x121c07['admin']),_0x368e8d=await _0x3a293f[_0x43b15b(0x144)](_0x33488c[_0x43b15b(0x155)],_0x43b15b(0x137))[_0x43b15b(0x13f)](_0x7afb0b=>null)||'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/avatar_contact.png',_0x514c62=await(await a0_0x15d0f7(_0x368e8d))['buffer'](),_0x59f220=global['db'][_0x43b15b(0x139)]['chats'][_0x33488c[_0x43b15b(0x155)]],_0x54ecc8=[_0x33488c[_0x43b15b(0x148)],_0x33488c[_0x43b15b(0x138)][0x0],..._0x14a8a2[_0x43b15b(0x163)](_0x1d5a59=>_0x1d5a59['id'])],_0x45040c=[_0x33488c[_0x43b15b(0x148)],_0x33488c[_0x43b15b(0x138)][0x0]],_0x22072a={'key':{'participants':_0x43b15b(0x15c),'remoteJid':_0x43b15b(0x157),'fromMe':![],'id':_0x43b15b(0x159)},'message':{'contactMessage':{'vcard':'BEGIN:VCARD\x0aVERSION:3.0\x0aN:Sy;Bot;;;\x0aFN:y\x0aitem1.TEL;waid='+_0x33488c[_0x43b15b(0x148)][_0x43b15b(0x162)]('@')[0x0]+':'+_0x33488c['sender'][_0x43b15b(0x162)]('@')[0x0]+_0x43b15b(0x15a)}},'participant':'0@s.whatsapp.net'};if(_0x59f220['detect2']&&_0x33488c[_0x43b15b(0x13e)]==0x1d){let _0x489395=_0x22dc18[_0x43b15b(0x16b)];_0x489395+=_0x22dc18[_0x43b15b(0x16f)]+'\x20'+_0x20e3ed+'\x0a',_0x489395+=_0x22dc18[_0x43b15b(0x177)]+'\x20@'+_0x33488c[_0x43b15b(0x138)][0x0][_0x43b15b(0x162)]`@`[0x0]+'\x0a',_0x489395+=_0x22dc18['tetxo1_3']+'\x20@'+_0x33488c[_0x43b15b(0x148)][_0x43b15b(0x162)]`@`[0x0],await _0x3a293f[_0x43b15b(0x145)](_0x33488c[_0x43b15b(0x155)],{'image':_0x514c62,'caption':_0x489395,'mentions':_0x54ecc8},{'quoted':_0x22072a});}if(_0x59f220['detect2']&&_0x33488c[_0x43b15b(0x13e)]==0x1e){let _0x1884d1=_0x22dc18[_0x43b15b(0x142)];_0x1884d1+=_0x22dc18[_0x43b15b(0x173)]+'\x20'+_0x20e3ed+'\x0a',_0x1884d1+=_0x22dc18[_0x43b15b(0x143)]+'\x20@'+_0x33488c[_0x43b15b(0x138)][0x0]['split']`@`[0x0]+'\x0a',_0x1884d1+=_0x22dc18[_0x43b15b(0x166)]+'\x20@'+_0x33488c['sender'][_0x43b15b(0x162)]`@`[0x0],await _0x3a293f[_0x43b15b(0x145)](_0x33488c[_0x43b15b(0x155)],{'image':_0x514c62,'caption':_0x1884d1,'mentions':_0x54ecc8},{'quoted':_0x22072a});}if(_0x59f220[_0x43b15b(0x16c)]&&_0x33488c[_0x43b15b(0x13e)]==0x1b){let _0x653b79=_0x22dc18[_0x43b15b(0x160)];_0x653b79+=_0x22dc18['texto3_1']+'\x20'+_0x20e3ed+'\x0a',!_0x33488c[_0x43b15b(0x148)][_0x43b15b(0x153)](_0x43b15b(0x15b))?(_0x653b79+=_0x22dc18[_0x43b15b(0x165)]+'\x20@'+_0x33488c[_0x43b15b(0x138)][0x0][_0x43b15b(0x162)]`@`[0x0]+'\x0a',_0x653b79+=_0x22dc18[_0x43b15b(0x14e)]+'\x20@'+_0x33488c['sender'][_0x43b15b(0x162)]`@`[0x0]):_0x653b79+=_0x22dc18[_0x43b15b(0x164)]+'\x20@'+_0x33488c['messageStubParameters'][0x0][_0x43b15b(0x162)]`@`[0x0]+'\x0a',await _0x3a293f[_0x43b15b(0x145)](_0x33488c['chat'],{'image':_0x514c62,'caption':_0x653b79,'mentions':_0x45040c},{'quoted':_0x22072a});}if(_0x59f220[_0x43b15b(0x16c)]&&_0x33488c[_0x43b15b(0x13e)]==0x1c){let _0x14fa79=_0x22dc18['texto4'];_0x14fa79+=_0x22dc18[_0x43b15b(0x149)]+'\x20'+_0x20e3ed+'\x0a',!_0x33488c['sender'][_0x43b15b(0x153)](_0x43b15b(0x15b))?(_0x14fa79+=_0x22dc18[_0x43b15b(0x151)]+'\x20@'+_0x33488c[_0x43b15b(0x138)][0x0][_0x43b15b(0x162)]`@`[0x0]+'\x0a',_0x14fa79+=_0x22dc18[_0x43b15b(0x176)]+'\x20@'+_0x33488c[_0x43b15b(0x148)]['split']`@`[0x0]):_0x14fa79+=_0x22dc18[_0x43b15b(0x15f)]+'\x20@'+_0x33488c['messageStubParameters'][0x0][_0x43b15b(0x162)]`@`[0x0]+'\x0a',await _0x3a293f[_0x43b15b(0x145)](_0x33488c['chat'],{'image':{'url':_0x368e8d},'caption':_0x14fa79,'mentions':_0x45040c},{'quoted':_0x22072a});}if(_0x59f220[_0x43b15b(0x16c)]&&_0x33488c[_0x43b15b(0x13e)]==0x20){let _0x31f1dd;_0x33488c[_0x43b15b(0x138)][0x0]===_0x33488c[_0x43b15b(0x148)]?_0x31f1dd=_0x43b15b(0x161):_0x31f1dd=_0x43b15b(0x172);let _0x4fb70=texto5+'\x20'+_0x31f1dd+'\x20'+_0x22dc18[_0x43b15b(0x141)];_0x4fb70+=_0x22dc18[_0x43b15b(0x167)]+'\x20'+_0x20e3ed+'\x0a',_0x31f1dd===_0x43b15b(0x172)?(_0x4fb70+=_0x22dc18[_0x43b15b(0x158)]+'\x20@'+_0x33488c['messageStubParameters'][0x0][_0x43b15b(0x162)]`@`[0x0]+'\x0a',_0x4fb70+=_0x22dc18[_0x43b15b(0x14b)]+'\x20@'+_0x33488c[_0x43b15b(0x148)]['split']`@`[0x0]):_0x4fb70+=_0x22dc18[_0x43b15b(0x14f)]+'\x20@'+_0x33488c['messageStubParameters'][0x0][_0x43b15b(0x162)]`@`[0x0]+'\x0a',await _0x3a293f['sendMessage'](_0x33488c['chat'],{'image':{'url':_0x368e8d},'caption':_0x4fb70,'mentions':_0x45040c},{'quoted':_0x22072a});}if(_0x59f220[_0x43b15b(0x16c)]&&_0x33488c[_0x43b15b(0x13e)]==0x1a){let _0x21fa35;_0x33488c[_0x43b15b(0x138)][0x0][_0x43b15b(0x162)]`@`[0x0]==='on'?_0x21fa35=_0x43b15b(0x169):_0x21fa35='abierto';let _0x5f5be2=_0x22dc18[_0x43b15b(0x147)];_0x5f5be2+=_0x22dc18[_0x43b15b(0x154)]+'\x20'+_0x20e3ed+'\x0a',_0x5f5be2+=_0x22dc18['texto6_2']+'\x20'+(_0x43b15b(0x146)+_0x21fa35+_0x43b15b(0x146))+'\x0a',_0x5f5be2+=_0x22dc18['texto6_3']+'\x20@'+_0x33488c['sender']['split']`@`[0x0],await _0x3a293f[_0x43b15b(0x145)](_0x33488c[_0x43b15b(0x155)],{'image':{'url':_0x368e8d},'caption':_0x5f5be2,'mentions':_0x45040c},{'quoted':_0x22072a});}if(_0x59f220[_0x43b15b(0x16c)]&&_0x33488c['messageStubType']==0x15){let _0x4696bb=_0x22dc18[_0x43b15b(0x152)];_0x4696bb+=_0x22dc18[_0x43b15b(0x175)]+'\x20'+(_0x43b15b(0x146)+_0x20e3ed+_0x43b15b(0x146))+'\x0a',_0x4696bb+=_0x22dc18['texto7_2']+'\x20@'+_0x33488c['sender']['split']`@`[0x0],await _0x3a293f['sendMessage'](_0x33488c['chat'],{'image':{'url':_0x368e8d},'caption':_0x4696bb,'mentions':_0x45040c},{'quoted':_0x22072a});}}
+// Creditos del codigo a @Gatito-kw //
+
+/* GitHub: https://github.com/Gatito-kw */
+
+/* Bot: https://github.com/Gatito-kw/nekobot-md */
+
+import {WAMessageStubType} from '@whiskeysockets/baileys';
+import fetch from 'node-fetch';
+
+ // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+
+export async function before(m, {conn, participants}) {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins._detectevents
+
+  if (!m.messageStubType || !m.isGroup) return !0;
+  const groupName = (await conn.groupMetadata(m.chat)).subject;
+  const groupAdmins = participants.filter((p) => p.admin);
+  const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/avatar_contact.png';
+  const img = await (await fetch(pp)).buffer();
+  const chat = global.db.data.chats[m.chat];
+  const mentionsString = [m.sender, m.messageStubParameters[0], ...groupAdmins.map((v) => v.id)];
+  const mentionsContentM = [m.sender, m.messageStubParameters[0]];
+  const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
+
+  if (chat.detect2 && m.messageStubType == 29) {
+    let txt1 = tradutor.texto1;
+    txt1 += `${tradutor.texto1_1} ${groupName}\n`;
+    txt1 += `${tradutor.tetxo1_2} @${m.messageStubParameters[0].split`@`[0]}\n`;
+    txt1 += `${tradutor.tetxo1_3} @${m.sender.split`@`[0]}`;
+    await conn.sendMessage(m.chat, {image: img, caption: txt1, mentions: mentionsString}, {quoted: fkontak2});
+  }
+
+  if (chat.detect2 && m.messageStubType == 30) {
+    let txt2 = tradutor.texto2;
+    txt2 += `${tradutor.texto2_1} ${groupName}\n`;
+    txt2 += `${tradutor.texto2_2} @${m.messageStubParameters[0].split`@`[0]}\n`;
+    txt2 += `${tradutor.texto2_3} @${m.sender.split`@`[0]}`;
+    await conn.sendMessage(m.chat, {image: img, caption: txt2, mentions: mentionsString}, {quoted: fkontak2});
+  }
+
+  if (chat.detect2 && m.messageStubType == 27) {
+    let txt3 = tradutor.texto3;
+    txt3 += `${tradutor.texto3_1} ${groupName}\n`;
+    if (!m.sender.endsWith('@g.us')) {
+      txt3 += `${tradutor.texto3_2} @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt3 += `${tradutor.texto3_3} @${m.sender.split`@`[0]}`;
+    } else {
+      txt3 += `${tradutor.texto3_4} @${m.messageStubParameters[0].split`@`[0]}\n`;
+    }
+    await conn.sendMessage(m.chat, {image: img, caption: txt3, mentions: mentionsContentM}, {quoted: fkontak2});
+  }
+
+  if (chat.detect2 && m.messageStubType == 28) {
+    let txt4 = tradutor.texto4;
+    txt4 += `${tradutor.texto4_1} ${groupName}\n`;
+    if (!m.sender.endsWith('@g.us')) {
+      txt4 += `${tradutor.texto4_2} @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt4 += `${tradutor.texto4_3} @${m.sender.split`@`[0]}`;
+    } else {
+      txt4 += `${tradutor.texto4_4} @${m.messageStubParameters[0].split`@`[0]}\n`;
+    }
+    await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt4, mentions: mentionsContentM}, {quoted: fkontak2});
+  }
+
+  if (chat.detect2 && m.messageStubType == 32) {
+    let ax;
+    if (m.messageStubParameters[0] === m.sender) {
+      ax = 'salido';
+    } else {
+      ax = 'eliminado';
+    }
+    let txt5 = `${texto5} ${ax} ${tradutor.texto5_1}`;
+    txt5 += `${tradutor.texto5_2} ${groupName}\n`;
+    if (ax === 'eliminado') {
+      txt5 += `${tradutor.texto5_3} @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt5 += `${tradutor.texto5_4} @${m.sender.split`@`[0]}`;
+    } else {
+      txt5 += `${tradutor.texto5_5} @${m.messageStubParameters[0].split`@`[0]}\n`;
+    }
+    await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt5, mentions: mentionsContentM}, {quoted: fkontak2});
+  }
+
+  if (chat.detect2 && m.messageStubType == 26) {
+    let accion;
+    if (m.messageStubParameters[0].split`@`[0] === 'on') {
+      accion = 'cerrado';
+    } else {
+      accion = 'abierto';
+    }
+    let txt6 = tradutor.texto6;
+    txt6 += `${tradutor.texto6_1} ${groupName}\n`;
+    txt6 += `${tradutor.texto6_2} ${'```' + accion + '```'}\n`;
+    txt6 += `${tradutor.texto6_3} @${m.sender.split`@`[0]}`;
+    await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt6, mentions: mentionsContentM}, {quoted: fkontak2});
+  }
+
+  if (chat.detect2 && m.messageStubType == 21) {
+    let txt7 = tradutor.texto7;
+    txt7 += `${tradutor.texto7_1} ${'```' + groupName + '```'}\n`;
+    txt7 += `${tradutor.texto7_2} @${m.sender.split`@`[0]}`;
+    await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt7, mentions: mentionsContentM}, {quoted: fkontak2});
+  }
+} /* Cierre del comando */

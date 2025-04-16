@@ -1,1 +1,71 @@
-const a0_0x7747c7=a0_0x7c1f;(function(_0x5c0dd6,_0x270ef9){const _0x5afce3=a0_0x7c1f,_0x26abe0=_0x5c0dd6();while(!![]){try{const _0x52758d=parseInt(_0x5afce3(0x117))/0x1*(parseInt(_0x5afce3(0x126))/0x2)+-parseInt(_0x5afce3(0x112))/0x3+-parseInt(_0x5afce3(0x11c))/0x4*(parseInt(_0x5afce3(0x11f))/0x5)+-parseInt(_0x5afce3(0x118))/0x6*(parseInt(_0x5afce3(0x107))/0x7)+-parseInt(_0x5afce3(0x123))/0x8*(-parseInt(_0x5afce3(0x124))/0x9)+-parseInt(_0x5afce3(0x114))/0xa+parseInt(_0x5afce3(0x109))/0xb;if(_0x52758d===_0x270ef9)break;else _0x26abe0['push'](_0x26abe0['shift']());}catch(_0x26acb1){_0x26abe0['push'](_0x26abe0['shift']());}}}(a0_0x34b9,0x44afa));function a0_0x34b9(){const _0x2c041f=['593796TpSrgM','⚠️\x20No\x20se\x20encontraron\x20subdominios.','error','length','4cCNJLx','sendMessage','https://api.hackertarget.com/hostsearch/?q=','1226690soLeOI','🌍\x20*Hostname:*\x20','map','split','16CJNOXK','1496799JREDuh','get','2AvhucQ','netfree','org','⚠️\x20No\x20se\x20encontraron\x20IPs\x20asociadas.','Desconocido','7bvDjEJ','isp','7855353kqReOn','join','scan','push','?fields=isp,org,as','chat','provider','\x20example.com*','react','679569vbWrIo','reply','2636150ffQOvZ','help','http://ip-api.com/json/','69035flyeQJ'];a0_0x34b9=function(){return _0x2c041f;};return a0_0x34b9();}function a0_0x7c1f(_0x426a5c,_0x33b9a6){const _0x34b9a7=a0_0x34b9();return a0_0x7c1f=function(_0x7c1f11,_0x24013a){_0x7c1f11=_0x7c1f11-0x107;let _0x304d82=_0x34b9a7[_0x7c1f11];return _0x304d82;},a0_0x7c1f(_0x426a5c,_0x33b9a6);}import a0_0x5745e5 from'axios';import a0_0x459932 from'dns';let detectProvider=async _0x22cc39=>{const _0x1ae457=a0_0x7c1f;try{let {data:_0x3aa1c3}=await a0_0x5745e5['get'](_0x1ae457(0x116)+_0x22cc39+_0x1ae457(0x10d));return _0x3aa1c3['as']||_0x3aa1c3[_0x1ae457(0x128)]||_0x3aa1c3[_0x1ae457(0x108)]||_0x1ae457(0x12a);}catch(_0xd1da0){return _0x1ae457(0x12a);}},resolveIPs=async _0x50c417=>{return new Promise(_0x25ce4c=>{a0_0x459932['resolve4'](_0x50c417,async(_0x107c59,_0x21e5b0)=>{const _0x5d48df=a0_0x7c1f;if(_0x107c59)return _0x25ce4c([]);let _0x48e5eb=[];for(let _0x19c3d0 of _0x21e5b0){let _0x1e0d34=await detectProvider(_0x19c3d0);_0x48e5eb[_0x5d48df(0x10c)]({'ip':_0x19c3d0,'provider':_0x1e0d34});}_0x25ce4c(_0x48e5eb);});});},getSubdomains=async _0x39e7d9=>{const _0x425fea=a0_0x7c1f;try{let {data:_0x3c27b1}=await a0_0x5745e5[_0x425fea(0x125)](_0x425fea(0x11e)+_0x39e7d9);return _0x3c27b1[_0x425fea(0x122)]('\x0a')['map'](_0x27d68a=>_0x27d68a[_0x425fea(0x122)](',')[0x0]);}catch(_0x51db64){return[];}},handler=async(_0x48114e,{conn:_0x7f5866,text:_0x59e730,usedPrefix:_0xdd1e3a,command:_0x57f02d})=>{const _0x157294=a0_0x7c1f;if(!_0x59e730)throw'⚔️\x20*Error:*\x20Debes\x20ingresar\x20un\x20dominio.\x0a\x0a✦\x20*Ejemplo:*\x20\x0a-\x20*'+(_0xdd1e3a+_0x57f02d)+_0x157294(0x110);try{await _0x48114e[_0x157294(0x111)]('⏳');let _0x2f23b6=await _0x7f5866[_0x157294(0x11d)](_0x48114e[_0x157294(0x10e)],{'text':'🔍\x20*Buscando\x20información\x20de\x20dominio...*'},{'quoted':_0x48114e}),_0x271eb5=await getSubdomains(_0x59e730);if(!_0x271eb5[_0x157294(0x11b)])throw _0x157294(0x119);let _0x568bb7=[];for(let _0x50808d of _0x271eb5){let _0x18b73f=await resolveIPs(_0x50808d);if(_0x18b73f[_0x157294(0x11b)]===0x0)continue;let _0x2ab01a=_0x157294(0x120)+_0x50808d+'\x0a'+_0x18b73f[_0x157294(0x121)](_0x36f791=>'==>\x20'+_0x36f791['ip']+'\x20('+_0x36f791[_0x157294(0x10f)]+')')[_0x157294(0x10a)]('\x0a');_0x568bb7[_0x157294(0x10c)](_0x2ab01a);}let _0x380d1c=_0x568bb7[_0x157294(0x11b)]?_0x568bb7[_0x157294(0x10a)]('\x0a\x0a'):_0x157294(0x129);await _0x7f5866[_0x157294(0x11d)](_0x48114e[_0x157294(0x10e)],{'text':_0x380d1c},{'quoted':_0x48114e}),await _0x48114e[_0x157294(0x111)]('✅');}catch(_0x9d3954){await _0x48114e[_0x157294(0x111)]('❌'),await _0x48114e[_0x157294(0x113)]('❌\x20*Error:*\x20No\x20se\x20pudo\x20obtener\x20información.\x20'+(_0x9d3954['message']||_0x9d3954)),console[_0x157294(0x11a)](_0x9d3954);}};handler[a0_0x7747c7(0x115)]=[a0_0x7747c7(0x10b)],handler['tags']=[a0_0x7747c7(0x127)],handler['command']=[a0_0x7747c7(0x10b)];export default handler;
+import axios from 'axios';
+import dns from 'dns';
+
+let detectProvider = async (ip) => {
+    try {
+        let { data } = await axios.get(`http://ip-api.com/json/${ip}?fields=isp,org,as`);
+        return data.as || data.org || data.isp || 'Desconocido';
+    } catch (err) {
+        return 'Desconocido';
+    }
+};
+
+let resolveIPs = async (domain) => {
+    return new Promise((resolve) => {
+        dns.resolve4(domain, async (err, addresses) => {
+            if (err) return resolve([]);
+            let results = [];
+            for (let ip of addresses) {
+                let provider = await detectProvider(ip);
+                results.push({ ip, provider });
+            }
+            resolve(results);
+        });
+    });
+};
+
+let getSubdomains = async (domain) => {
+    try {
+        let { data } = await axios.get(`https://api.hackertarget.com/hostsearch/?q=${domain}`);
+        return data.split('\n').map(line => line.split(',')[0]);
+    } catch (err) {
+        return [];
+    }
+};
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+    if (!text) throw `⚔️ *Error:* Debes ingresar un dominio.\n\n✦ *Ejemplo:* \n- *${usedPrefix + command} example.com*`;
+
+    try {
+        await m.react('⏳');
+        let msg = await conn.sendMessage(m.chat, { text: `🔍 *Buscando información de dominio...*` }, { quoted: m });
+
+        let subdomains = await getSubdomains(text);
+        if (!subdomains.length) throw "⚠️ No se encontraron subdominios.";
+
+        let results = [];
+        for (let subdomain of subdomains) {
+            let ips = await resolveIPs(subdomain);
+            if (ips.length === 0) continue;
+
+            let info = `🌍 *Hostname:* ${subdomain}\n${ips.map(ip => `==> ${ip.ip} (${ip.provider})`).join('\n')}`;
+            results.push(info);
+        }
+
+        let response = results.length ? results.join('\n\n') : "⚠️ No se encontraron IPs asociadas.";
+        await conn.sendMessage(m.chat, { text: response }, { quoted: m });
+        await m.react('✅');
+
+    } catch (e) {
+        await m.react('❌');
+        await m.reply(`❌ *Error:* No se pudo obtener información. ${e.message || e}`);
+        console.error(e);
+    }
+};
+
+handler.help = ['scan'];
+handler.tags = ['netfree'];
+handler.command = ['scan'];
+
+export default handler;
+

@@ -1,1 +1,34 @@
-function a0_0x431b(){const _0x37c2f3=['language','msg','users','14nxrMXN','herramientas_fakereply','trim','message','./language/','2455otsrNQ','7148Qkdshy','data','26632hrESAi','readFileSync','command','join','reply','2VFjvPw','help','mentionedJid','2351961erqGBh','includes','19941020JAhNlr','2887590sWfiTe','\x0a\x0a*','mtype','split','2825049LaCtst','fromMe','isGroup','parse','chat','texto1','fake\x20<text>\x20@user\x20<text2>','.json','tools','key','262439LEEjzx','sender','10hCweRe','trimEnd'];a0_0x431b=function(){return _0x37c2f3;};return a0_0x431b();}const a0_0x1f0dc4=a0_0x11db;function a0_0x11db(_0x2c260d,_0x4d47b9){const _0x431b68=a0_0x431b();return a0_0x11db=function(_0x11db73,_0x5e3d93){_0x11db73=_0x11db73-0x1c6;let _0x3eb270=_0x431b68[_0x11db73];return _0x3eb270;},a0_0x11db(_0x2c260d,_0x4d47b9);}(function(_0x1a1371,_0x5ee013){const _0x24a8dd=a0_0x11db,_0x3eb72c=_0x1a1371();while(!![]){try{const _0xbe8cca=-parseInt(_0x24a8dd(0x1d5))/0x1+-parseInt(_0x24a8dd(0x1e9))/0x2*(-parseInt(_0x24a8dd(0x1cb))/0x3)+-parseInt(_0x24a8dd(0x1e2))/0x4*(-parseInt(_0x24a8dd(0x1e1))/0x5)+parseInt(_0x24a8dd(0x1c7))/0x6+-parseInt(_0x24a8dd(0x1dc))/0x7*(-parseInt(_0x24a8dd(0x1e4))/0x8)+parseInt(_0x24a8dd(0x1ec))/0x9*(parseInt(_0x24a8dd(0x1d7))/0xa)+-parseInt(_0x24a8dd(0x1c6))/0xb;if(_0xbe8cca===_0x5ee013)break;else _0x3eb72c['push'](_0x3eb72c['shift']());}catch(_0x2b6647){_0x3eb72c['push'](_0x3eb72c['shift']());}}}(a0_0x431b,0x78625));const handler=async(_0x2c0913,{conn:_0x8a101e,text:_0x4e7658,usedPrefix:_0x2bd6af,command:_0x2dc825})=>{const _0x359e5b=a0_0x11db,_0x1db68c=global,_0x4352c7=_0x1db68c['db'][_0x359e5b(0x1e3)][_0x359e5b(0x1db)][_0x2c0913[_0x359e5b(0x1d6)]][_0x359e5b(0x1d9)],_0x2ab2b6=JSON[_0x359e5b(0x1ce)](fs[_0x359e5b(0x1e5)](_0x359e5b(0x1e0)+_0x4352c7+_0x359e5b(0x1d2))),_0x563450=_0x2ab2b6['plugins'][_0x359e5b(0x1dd)];if(!_0x4e7658)return _0x2c0913[_0x359e5b(0x1e8)](_0x563450[_0x359e5b(0x1d0)][0x0]+_0x359e5b(0x1c8)+(_0x2bd6af+_0x2dc825)+'*\x20'+_0x563450[_0x359e5b(0x1d0)][0x1]+'\x20@'+_0x2c0913['sender'][_0x359e5b(0x1ca)]`@`[0x0]+'\x20a',null,{'mentions':[_0x2c0913[_0x359e5b(0x1d6)]]});const _0x4206da=copy(_0x2c0913);let _0x1f21b3;if(_0x4e7658[_0x359e5b(0x1ed)]('@0'))_0x1f21b3='0@s.whatsapp.net';else{if(_0x2c0913[_0x359e5b(0x1cd)])_0x1f21b3=_0x4206da['participant']=_0x2c0913[_0x359e5b(0x1eb)][0x0];else _0x1f21b3=_0x2c0913[_0x359e5b(0x1cf)];}if(!_0x1f21b3)return _0x2c0913[_0x359e5b(0x1e8)](_0x563450[_0x359e5b(0x1d0)][0x0]+_0x359e5b(0x1c8)+(_0x2bd6af+_0x2dc825)+'*\x20'+_0x563450[_0x359e5b(0x1d0)][0x1]+'\x20@'+_0x2c0913['sender']['split']`@`[0x0]+'\x20a',null,{'mentions':[_0x2c0913[_0x359e5b(0x1d6)]]});_0x4206da[_0x359e5b(0x1d4)][_0x359e5b(0x1cc)]=![],_0x4206da[_0x359e5b(0x1df)][_0x2c0913[_0x359e5b(0x1c9)]]=copy(_0x2c0913[_0x359e5b(0x1da)]);const _0x570165='@'+_0x1f21b3[_0x359e5b(0x1ca)]`@`[0x0],[_0x36cd08,..._0xc8128]=_0x4e7658[_0x359e5b(0x1ca)](_0x570165);_0x8a101e['fakeReply'](_0x2c0913[_0x359e5b(0x1cf)],_0xc8128[_0x359e5b(0x1e7)](_0x570165)['trimStart'](),_0x1f21b3,_0x36cd08[_0x359e5b(0x1d8)](),_0x2c0913[_0x359e5b(0x1cd)]?_0x2c0913[_0x359e5b(0x1cf)]:![],{'contextInfo':{'mentionedJid':_0x8a101e['parseMention'](_0xc8128[_0x359e5b(0x1e7)](_0x570165)[_0x359e5b(0x1de)]())}});};handler[a0_0x1f0dc4(0x1ea)]=[a0_0x1f0dc4(0x1d1)],handler['tags']=[a0_0x1f0dc4(0x1d3)],handler[a0_0x1f0dc4(0x1e6)]=/^(fitnah|fakereply|fake)$/;export default handler;function copy(_0x519aab){const _0xd3e2fa=a0_0x1f0dc4;return JSON[_0xd3e2fa(0x1ce)](JSON['stringify'](_0x519aab));}
+
+
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.herramientas_fakereply
+
+  if (!text) return m.reply(`${tradutor.texto1[0]}\n\n*${usedPrefix + command}* ${tradutor.texto1[1]} @${m.sender.split`@`[0]} a`, null, {mentions: [m.sender]});
+  const cm = copy(m);
+  let who;
+  if (text.includes('@0')) who = '0@s.whatsapp.net';
+  else if (m.isGroup) who = cm.participant = m.mentionedJid[0];
+  else who = m.chat;
+  if (!who) return m.reply(`${tradutor.texto1[0]}\n\n*${usedPrefix + command}* ${tradutor.texto1[1]} @${m.sender.split`@`[0]} a`, null, {mentions: [m.sender]});
+  cm.key.fromMe = false;
+  cm.message[m.mtype] = copy(m.msg);
+  const sp = '@' + who.split`@`[0];
+  const [fake, ...real] = text.split(sp);
+  conn.fakeReply(m.chat, real.join(sp).trimStart(), who, fake.trimEnd(), m.isGroup ? m.chat : false, {
+    contextInfo: {
+      mentionedJid: conn.parseMention(real.join(sp).trim()),
+    },
+  });
+};
+handler.help = ['fake <text> @user <text2>'];
+handler.tags = ['tools'];
+handler.command = /^(fitnah|fakereply|fake)$/;
+
+export default handler;
+
+function copy(obj) {
+  return JSON.parse(JSON.stringify(obj));
+}

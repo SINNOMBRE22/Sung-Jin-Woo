@@ -1,1 +1,19 @@
-const a0_0x8cd47c=a0_0x3ede;(function(_0xbd3c91,_0x2ce939){const _0x70968e=a0_0x3ede,_0x2bdd1b=_0xbd3c91();while(!![]){try{const _0x169c60=parseInt(_0x70968e(0xa3))/0x1*(-parseInt(_0x70968e(0xae))/0x2)+parseInt(_0x70968e(0xaf))/0x3*(parseInt(_0x70968e(0xaa))/0x4)+-parseInt(_0x70968e(0xa5))/0x5*(-parseInt(_0x70968e(0xa8))/0x6)+-parseInt(_0x70968e(0xa4))/0x7+parseInt(_0x70968e(0xac))/0x8+-parseInt(_0x70968e(0xab))/0x9+parseInt(_0x70968e(0xb0))/0xa;if(_0x169c60===_0x2ce939)break;else _0x2bdd1b['push'](_0x2bdd1b['shift']());}catch(_0x5147c9){_0x2bdd1b['push'](_0x2bdd1b['shift']());}}}(a0_0x36f3,0x883f2));const handler=async(_0x14d2aa,{conn:_0x351473})=>{const _0x23f92a=a0_0x3ede,_0x3b5e15=global,_0x37e897=_0x3b5e15['db'][_0x23f92a(0xa6)][_0x23f92a(0x9f)][_0x14d2aa['sender']]['language'],_0x469f4b=JSON[_0x23f92a(0xb3)](fs[_0x23f92a(0xad)]('./language/'+_0x37e897+_0x23f92a(0xb4))),_0x30c29d=_0x469f4b[_0x23f92a(0xa7)][_0x23f92a(0x9e)];global[_0x23f92a(0xa0)]=new RegExp('^['+(opts[_0x23f92a(0xa0)]||'‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\x5c-')['replace'](/[|\\{}()[\]^$+*?.\-\^]/g,_0x23f92a(0xa2))+']'),await _0x14d2aa['reply'](_0x30c29d[_0x23f92a(0xa1)]);};function a0_0x3ede(_0x29b718,_0x193fc8){const _0x36f3f1=a0_0x36f3();return a0_0x3ede=function(_0x3ede09,_0x42febb){_0x3ede09=_0x3ede09-0x9e;let _0x22cac2=_0x36f3f1[_0x3ede09];return _0x22cac2;},a0_0x3ede(_0x29b718,_0x193fc8);}handler[a0_0x8cd47c(0xa9)]=[a0_0x8cd47c(0xb2)],handler['tags']=[a0_0x8cd47c(0xb1)],handler['command']=/^(resetprefix)$/i,handler['rowner']=!![];function a0_0x36f3(){const _0x4e15cd=['data','plugins','599706OwhXNE','help','12SfOKDv','5984748cItnqu','5210448TjltZp','readFileSync','87338KEtPZc','743319rsHRhS','2082320rwzWKV','owner','resetprefix','parse','.json','owner_resetprefix','users','prefix','texto1','\x5c$&','20IwmyzM','1442672yNhkGp','35bBZPzk'];a0_0x36f3=function(){return _0x4e15cd;};return a0_0x36f3();}export default handler;
+
+
+const handler = async (m, {conn}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_resetprefix
+
+  global.prefix = new RegExp('^[' + (opts['prefix'] || '‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']');
+  await m.reply(tradutor.texto1);
+  // conn.fakeReply(m.chat, '[❗𝐈𝐍𝐅𝐎❗] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 𝚁𝙴𝚂𝚃𝙰𝙱𝙻𝙴𝙲𝙸𝙳𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾', '0@s.whatsapp.net', 'Reset Prefix')
+};
+handler.help = ['resetprefix'];
+handler.tags = ['owner'];
+handler.command = /^(resetprefix)$/i;
+handler.rowner = true;
+
+
+export default handler;

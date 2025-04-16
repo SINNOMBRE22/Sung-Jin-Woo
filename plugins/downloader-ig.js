@@ -1,1 +1,79 @@
-function a0_0x193b(){const _0x31d4ba=['18vtXtEb','ig\x20[𝙚𝙣𝙡𝙖𝙘𝙚]\x0a╚══════✦❘༻༺❘✦══════╝','3405240xnlKsZ','url','tags','2640675vRZTUp','sender','27lGRhkI','size','╔══════✦❘༻༺❘✦══════╗\x0a☠️\x20*¡𝗘𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻\x20𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗮𝗱𝗮!*\x0a✅\x20*𝘝𝘪́𝘥𝘦𝘰\x20𝘦𝘹𝘵𝘳𝘢𝘪́𝘥𝘰\x20𝘤𝘰𝘯\x20𝘦́𝘹𝘪𝘵𝘰*\x0a⏱️\x20*𝘛𝘪𝘦𝘮𝘱𝘰:*\x20','109462jaqdIZ','chat','▰▰▰▰▰▰▰▰▰\x20𝟏𝟬𝟬%','downloader','▰▰▰▰▰▰▰▱▱\x20𝟕𝟬%','▰▰▰▰▰▰▱▱▱\x20𝟔𝟬%','help','react','╔══════✦❘༻༺❘✦══════╗\x0a🚫\x20*𝙀𝙧𝙧𝙤𝙧:*\x20¡𝙊𝙡𝙫𝙞𝙙𝙖𝙨𝙩𝙚\x20𝙚𝙡\x20𝙚𝙣𝙡𝙖𝙘𝙚!\x20\x0a✦\x20*Ejemplo:*\x20','▰▰▰▰▱▱▱▱▱\x20𝟒𝟬%','length','3445926pMphyL','▰▰▰▰▰▰▰▰▱\x20𝟖𝟬%','1008931CNKbAU','1083908RdnTGH','No\x20se\x20encontró\x20contenido','group','▰▱▱▱▱▱▱▱▱\x20𝟏𝟎%','command','key','data','sendMessage','error','80619UtzORJ','╔══════✦❘༻༺❘✦══════╗\x0a🖤\x20*𝗜𝗻𝗶𝗰𝗶𝗮𝗻𝗱𝗼\x20𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\x0a▱▱▱▱▱▱▱▱▱\x20𝟎%\x0a╚══════✦❘༻༺❘✦══════╝','𝘴\x0a📹\x20*𝘛𝘢𝘮𝘢𝘯̃𝘰:*\x20','▰▰▱▱▱▱▱▱▱\x20𝟐𝟬%','toFixed','now','parseMention','Error:'];a0_0x193b=function(){return _0x31d4ba;};return a0_0x193b();}const a0_0x283e4b=a0_0x25a9;(function(_0xb699b2,_0x418006){const _0x29ec38=a0_0x25a9,_0x4eecbe=_0xb699b2();while(!![]){try{const _0x337ff5=parseInt(_0x29ec38(0x1df))/0x1+parseInt(_0x29ec38(0x1f1))/0x2*(parseInt(_0x29ec38(0x1e7))/0x3)+parseInt(_0x29ec38(0x1d6))/0x4+parseInt(_0x29ec38(0x1ec))/0x5+parseInt(_0x29ec38(0x1d3))/0x6+-parseInt(_0x29ec38(0x1d5))/0x7+-parseInt(_0x29ec38(0x1e9))/0x8*(parseInt(_0x29ec38(0x1ee))/0x9);if(_0x337ff5===_0x418006)break;else _0x4eecbe['push'](_0x4eecbe['shift']());}catch(_0x39a0cd){_0x4eecbe['push'](_0x4eecbe['shift']());}}}(a0_0x193b,0x5837c));import{igdl}from'ruhend-scraper';async function showProgress(_0xf4cf28,_0x46fdd0,_0x630555,_0x5953c5=0x9){const _0x30d2f3=a0_0x25a9,_0x20c988=['🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙'],_0x1e0bfb=[_0x30d2f3(0x1d9),_0x30d2f3(0x1e2),'▰▰▰▱▱▱▱▱▱\x20𝟑𝟬%',_0x30d2f3(0x1fa),'▰▰▰▰▰▱▱▱▱\x20𝟓𝟬%',_0x30d2f3(0x1f6),_0x30d2f3(0x1f5),_0x30d2f3(0x1d4),'▰▰▰▰▰▰▰▰▰\x20𝟗𝟬%',_0x30d2f3(0x1f3)];for(let _0x519d0f=0x0;_0x519d0f<=_0x5953c5;_0x519d0f++){await new Promise(_0x202099=>setTimeout(_0x202099,0x5dc));const _0x518da2=_0x20c988[_0x519d0f%_0x20c988[_0x30d2f3(0x1fb)]]+'\x20'+_0x1e0bfb[_0x519d0f];await _0xf4cf28['sendMessage'](_0x46fdd0[_0x30d2f3(0x1f2)],{'text':'╔══════✦❘༻༺❘✦══════╗\x0a📥\x20*𝗣𝗿𝗼𝗴𝗿𝗲𝘀𝗼\x20𝗱𝗲\x20𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\x0a'+_0x518da2+'\x0a╚══════✦❘༻༺❘✦══════╝','edit':_0x630555[_0x30d2f3(0x1db)],'mentions':_0xf4cf28['parseMention'](_0x46fdd0['sender'])});}}const handler=async(_0x55079d,{text:_0x2fc37a,conn:_0x2df988,args:_0x4c0bd7,usedPrefix:_0x1738a6,command:_0x4f1364})=>{const _0x121bed=a0_0x25a9;try{if(!_0x4c0bd7[0x0])return _0x2df988[_0x121bed(0x1dd)](_0x55079d[_0x121bed(0x1f2)],{'text':_0x121bed(0x1f9)+_0x1738a6+_0x121bed(0x1e8),'mentions':_0x2df988[_0x121bed(0x1e5)](_0x55079d['sender'])},{'quoted':_0x55079d});await _0x55079d[_0x121bed(0x1f8)]('⏳');const _0x1396b2=Date[_0x121bed(0x1e4)](),_0x3b83fb=await _0x2df988[_0x121bed(0x1dd)](_0x55079d[_0x121bed(0x1f2)],{'text':_0x121bed(0x1e0),'mentions':_0x2df988[_0x121bed(0x1e5)](_0x55079d['sender'])},{'quoted':_0x55079d}),_0x108730=await igdl(_0x4c0bd7[0x0]);if(!_0x108730?.[_0x121bed(0x1dc)]?.[_0x121bed(0x1fb)])throw new Error(_0x121bed(0x1d7));const _0x5f3721=_0x108730[_0x121bed(0x1dc)][0x0];if(!_0x5f3721?.[_0x121bed(0x1ea)])throw new Error('No\x20se\x20encontró\x20versión\x20descargable');await showProgress(_0x2df988,_0x55079d,_0x3b83fb),await _0x2df988['sendMessage'](_0x55079d[_0x121bed(0x1f2)],{'delete':_0x3b83fb[_0x121bed(0x1db)]}),await _0x2df988[_0x121bed(0x1dd)](_0x55079d['chat'],{'video':{'url':_0x5f3721[_0x121bed(0x1ea)]},'caption':_0x121bed(0x1f0)+((Date['now']()-_0x1396b2)/0x3e8)[_0x121bed(0x1e3)](0x1)+_0x121bed(0x1e1)+_0x5f3721[_0x121bed(0x1ef)]+'\x0a╚══════✦❘༻༺❘✦══════╝','fileName':'instagram_video.mp4','mentions':_0x2df988['parseMention'](_0x55079d[_0x121bed(0x1ed)])}),await _0x55079d[_0x121bed(0x1f8)]('✅');}catch(_0x10a163){console[_0x121bed(0x1de)](_0x121bed(0x1e6),_0x10a163),await _0x55079d['react']('❌');}};handler[a0_0x283e4b(0x1f7)]=['ig'],handler[a0_0x283e4b(0x1eb)]=[a0_0x283e4b(0x1f4)],handler[a0_0x283e4b(0x1da)]=/^(ig|instagram)$/i,handler[a0_0x283e4b(0x1d8)]=!![];function a0_0x25a9(_0x2f1d0f,_0x569512){const _0x193bba=a0_0x193b();return a0_0x25a9=function(_0x25a9cb,_0x51ab30){_0x25a9cb=_0x25a9cb-0x1d3;let _0x4ba53b=_0x193bba[_0x25a9cb];return _0x4ba53b;},a0_0x25a9(_0x2f1d0f,_0x569512);}export default handler;
+import { igdl } from 'ruhend-scraper';
+
+async function showProgress(conn, m, msg, totalSteps = 9) {
+    const clockAnimation = ['🕐', '🕑', '🕒', '🕓', '🕔', '🕕', '🕖', '🕗', '🕘', '🕙'];
+    const progress = [
+        "▰▱▱▱▱▱▱▱▱ 𝟏𝟎%",
+        "▰▰▱▱▱▱▱▱▱ 𝟐𝟬%",
+        "▰▰▰▱▱▱▱▱▱ 𝟑𝟬%",
+        "▰▰▰▰▱▱▱▱▱ 𝟒𝟬%",
+        "▰▰▰▰▰▱▱▱▱ 𝟓𝟬%",
+        "▰▰▰▰▰▰▱▱▱ 𝟔𝟬%",
+        "▰▰▰▰▰▰▰▱▱ 𝟕𝟬%",
+        "▰▰▰▰▰▰▰▰▱ 𝟖𝟬%",
+        "▰▰▰▰▰▰▰▰▰ 𝟗𝟬%",
+        "▰▰▰▰▰▰▰▰▰ 𝟏𝟬𝟬%"
+    ];
+
+    for (let i = 0; i <= totalSteps; i++) {  
+        await new Promise(resolve => setTimeout(resolve, 1500));  
+        const frame = `${clockAnimation[i % clockAnimation.length]} ${progress[i]}`;  
+
+        await conn.sendMessage(m.chat, {  
+            text: `╔══════✦❘༻༺❘✦══════╗\n📥 *𝗣𝗿𝗼𝗴𝗿𝗲𝘀𝗼 𝗱𝗲 𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\n${frame}\n╚══════✦❘༻༺❘✦══════╝`,  
+            edit: msg.key,  
+            mentions: conn.parseMention(m.sender)  
+        });  
+    }
+}
+
+const handler = async (m, { text, conn, args, usedPrefix, command }) => {
+    try {
+        if (!args[0]) {
+            return conn.sendMessage(m.chat, {
+                text: `╔══════✦❘༻༺❘✦══════╗\n🚫 *𝙀𝙧𝙧𝙤𝙧:* ¡𝙊𝙡𝙫𝙞𝙙𝙖𝙨𝙩𝙚 𝙚𝙡 𝙚𝙣𝙡𝙖𝙘𝙚! \n✦ *Ejemplo:* ${usedPrefix}ig [𝙚𝙣𝙡𝙖𝙘𝙚]\n╚══════✦❘༻༺❘✦══════╝`,
+                mentions: conn.parseMention(m.sender)
+            }, { quoted: m });
+        }
+
+        await m.react('⏳');  
+        const startTime = Date.now();  
+
+        const msg = await conn.sendMessage(m.chat, {  
+            text: `╔══════✦❘༻༺❘✦══════╗\n🖤 *𝗜𝗻𝗶𝗰𝗶𝗮𝗻𝗱𝗼 𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\n▱▱▱▱▱▱▱▱▱ 𝟎%\n╚══════✦❘༻༺❘✦══════╝`,
+            mentions: conn.parseMention(m.sender)  
+        }, { quoted: m });
+
+        const res = await igdl(args[0]);  
+        if (!res?.data?.length) throw new Error('No se encontró contenido');  
+
+        const data = res.data[0];  
+
+        if (!data?.url) throw new Error('No se encontró versión descargable');  
+
+        await showProgress(conn, m, msg);  
+
+        // Eliminar el mensaje de progreso antes de enviar el video
+        await conn.sendMessage(m.chat, { delete: msg.key });
+
+        await conn.sendMessage(m.chat, {  
+            video: { url: data.url },  
+            caption: `╔══════✦❘༻༺❘✦══════╗\n☠️ *¡𝗘𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗮𝗱𝗮!*\n✅ *𝘝𝘪́𝘥𝘦𝘰 𝘦𝘹𝘵𝘳𝘢𝘪́𝘥𝘰 𝘤𝘰𝘯 𝘦́𝘹𝘪𝘵𝘰*\n⏱️ *𝘛𝘪𝘦𝘮𝘱𝘰:* ${((Date.now() - startTime)/1000).toFixed(1)}𝘴\n📹 *𝘛𝘢𝘮𝘢𝘯̃𝘰:* ${data.size}\n╚══════✦❘༻༺❘✦══════╝`,  
+            fileName: 'instagram_video.mp4',  
+            mentions: conn.parseMention(m.sender)  
+        });
+
+        await m.react('✅');  
+
+    } catch (error) {  
+        console.error('Error:', error);  
+        await m.react('❌');  
+    }
+};
+
+handler.help = ['ig'];
+handler.tags = ['downloader'];
+handler.command = /^(ig|instagram)$/i;
+handler.group = true;
+
+export default handler;

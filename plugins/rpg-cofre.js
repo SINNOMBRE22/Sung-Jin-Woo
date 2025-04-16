@@ -1,1 +1,72 @@
-const a0_0x399af6=a0_0x28f7;(function(_0x535b32,_0x6725ac){const _0x258845=a0_0x28f7,_0x5ec9b7=_0x535b32();while(!![]){try{const _0x581d08=parseInt(_0x258845(0x7c))/0x1+parseInt(_0x258845(0x8b))/0x2*(parseInt(_0x258845(0x6a))/0x3)+-parseInt(_0x258845(0x93))/0x4+-parseInt(_0x258845(0x82))/0x5*(-parseInt(_0x258845(0x88))/0x6)+-parseInt(_0x258845(0x85))/0x7+-parseInt(_0x258845(0x8f))/0x8*(parseInt(_0x258845(0x78))/0x9)+-parseInt(_0x258845(0x90))/0xa*(-parseInt(_0x258845(0x89))/0xb);if(_0x581d08===_0x6725ac)break;else _0x5ec9b7['push'](_0x5ec9b7['shift']());}catch(_0x1fa21b){_0x5ec9b7['push'](_0x5ec9b7['shift']());}}}(a0_0x3881,0x367c0));const handler=async(_0x322cf4,{isPrems:_0x1016d3,conn:_0x1a3877})=>{const _0x44da41=a0_0x28f7,_0x32a9b4=global,_0x3741dc=_0x32a9b4['db'][_0x44da41(0x66)][_0x44da41(0x79)][_0x322cf4[_0x44da41(0x92)]][_0x44da41(0x77)],_0x52ef1f=JSON[_0x44da41(0x83)](fs[_0x44da41(0x6b)]('./language/'+_0x3741dc+_0x44da41(0x7d))),_0xb4c58f=_0x52ef1f[_0x44da41(0x8e)]['rpg_cofre'],_0x3c7812=global['db'][_0x44da41(0x66)][_0x44da41(0x79)][_0x322cf4[_0x44da41(0x92)]]['lastcofre']+0x5265c00;if(new Date()-global['db'][_0x44da41(0x66)][_0x44da41(0x79)][_0x322cf4[_0x44da41(0x92)]][_0x44da41(0x8d)]<0x5265c00)throw _0xb4c58f[_0x44da41(0x87)][0x0]+'\x20*'+msToTime(_0x3c7812-new Date())+'*\x20'+_0xb4c58f['texto1'][0x1];const _0x3cf2ad='https://img.freepik.com/vector-gratis/cofre-monedas-oro-piedras-preciosas-cristales-trofeo_107791-7769.jpg?w=2000',_0x51b3fb=Math[_0x44da41(0x7f)](Math[_0x44da41(0x70)]()*0x1e),_0x51b51d=Math[_0x44da41(0x7f)](Math[_0x44da41(0x70)]()*0xa),_0x4aea4f=Math[_0x44da41(0x7f)](Math[_0x44da41(0x70)]()*0xfa0),_0x25646b=Math['floor'](Math[_0x44da41(0x70)]()*0x7530);global['db'][_0x44da41(0x66)][_0x44da41(0x79)][_0x322cf4[_0x44da41(0x92)]][_0x44da41(0x7a)]+=_0x51b3fb,global['db'][_0x44da41(0x66)][_0x44da41(0x79)][_0x322cf4['sender']][_0x44da41(0x6e)]+=_0x4aea4f,global['db']['data'][_0x44da41(0x79)][_0x322cf4[_0x44da41(0x92)]]['joincount']+=_0x51b51d,global['db'][_0x44da41(0x66)]['users'][_0x322cf4[_0x44da41(0x92)]]['exp']+=_0x25646b;const _0x325b8b='\x0a'+_0xb4c58f[_0x44da41(0x7b)][0x0]+'\x0a'+_0xb4c58f['texto2'][0x1]+'\x0a'+_0xb4c58f[_0x44da41(0x7b)][0x2]+_0x44da41(0x76)+_0x51b3fb+'\x20'+_0xb4c58f[_0x44da41(0x7b)][0x3]+_0x44da41(0x76)+_0x51b51d+'\x20'+_0xb4c58f[_0x44da41(0x7b)][0x4]+_0x44da41(0x76)+_0x4aea4f+'\x20'+_0xb4c58f[_0x44da41(0x7b)][0x5]+_0x44da41(0x76)+_0x25646b+'\x20'+_0xb4c58f[_0x44da41(0x7b)][0x6]+'\x0a'+_0xb4c58f[_0x44da41(0x7b)][0x7],_0x4a49ec={'key':{'participants':_0x44da41(0x91),'remoteJid':'status@broadcast','fromMe':![],'id':_0x44da41(0x71)},'message':{'contactMessage':{'vcard':_0x44da41(0x75)+_0x322cf4[_0x44da41(0x92)][_0x44da41(0x8a)]('@')[0x0]+':'+_0x322cf4[_0x44da41(0x92)][_0x44da41(0x8a)]('@')[0x0]+_0x44da41(0x7e)}},'participant':'0@s.whatsapp.net'};await _0x1a3877[_0x44da41(0x84)](_0x322cf4[_0x44da41(0x67)],_0x3cf2ad,_0x44da41(0x68),_0x325b8b,_0x4a49ec),global['db'][_0x44da41(0x66)][_0x44da41(0x79)][_0x322cf4[_0x44da41(0x92)]][_0x44da41(0x8d)]=new Date()*0x1;};handler[a0_0x399af6(0x73)]=[a0_0x399af6(0x69)],handler[a0_0x399af6(0x86)]=[a0_0x399af6(0x6d)],handler[a0_0x399af6(0x80)]=[a0_0x399af6(0x6c),a0_0x399af6(0x72),a0_0x399af6(0x8c),'cofreabrir'],handler[a0_0x399af6(0x81)]=0x5;export default handler;function a0_0x3881(){const _0x456087=['\x20Horas\x20','random','Halo','cofre','help','\x20Minutos','BEGIN:VCARD\x0aVERSION:3.0\x0aN:Sy;Bot;;;\x0aFN:y\x0aitem1.TEL;waid=','\x0a║➢\x20*','language','9KfFhBI','users','limit','texto2','84609rhsacL','.json','\x0aitem1.X-ABLabel:Ponsel\x0aEND:VCARD','floor','command','level','2194285CqJEbW','parse','sendFile','1998304LCTQVS','tags','texto1','6gJWLsq','2574121zzGInJ','split','2554IkdjvK','abrircofre','lastcofre','plugins','2420960KSMdor','30ejGnWO','0@s.whatsapp.net','sender','1718252QmbEWZ','length','data','chat','mystic.jpg','daily','36cSvxgd','readFileSync','coffer','econ','money'];a0_0x3881=function(){return _0x456087;};return a0_0x3881();}function pickRandom(_0x67c09c){const _0xcd45a6=a0_0x399af6;return _0x67c09c[Math['floor'](Math[_0xcd45a6(0x70)]()*_0x67c09c[_0xcd45a6(0x65)])];}function a0_0x28f7(_0x58d94f,_0x172e0e){const _0x388129=a0_0x3881();return a0_0x28f7=function(_0x28f731,_0xba1f0e){_0x28f731=_0x28f731-0x65;let _0x23f1ef=_0x388129[_0x28f731];return _0x23f1ef;},a0_0x28f7(_0x58d94f,_0x172e0e);}function msToTime(_0x273da2){const _0xb9e940=a0_0x399af6,_0x54aac7=parseInt(_0x273da2%0x3e8/0x64);let _0x16624d=Math[_0xb9e940(0x7f)](_0x273da2/0x3e8%0x3c),_0x57ff06=Math[_0xb9e940(0x7f)](_0x273da2/(0x3e8*0x3c)%0x3c),_0x369187=Math[_0xb9e940(0x7f)](_0x273da2/(0x3e8*0x3c*0x3c)%0x18);return _0x369187=_0x369187<0xa?'0'+_0x369187:_0x369187,_0x57ff06=_0x57ff06<0xa?'0'+_0x57ff06:_0x57ff06,_0x16624d=_0x16624d<0xa?'0'+_0x16624d:_0x16624d,_0x369187+_0xb9e940(0x6f)+_0x57ff06+_0xb9e940(0x74);}
+
+const handler = async (m, {isPrems, conn}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_cofre
+
+  const time = global.db.data.users[m.sender].lastcofre + 86400000; // 36000000 10 Horas //86400000 24 Horas
+  if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `${tradutor.texto1[0]} *${msToTime(time - new Date())}* ${tradutor.texto1[1]}`;
+
+  const img = 'https://img.freepik.com/vector-gratis/cofre-monedas-oro-piedras-preciosas-cristales-trofeo_107791-7769.jpg?w=2000';
+  const dia = Math.floor(Math.random() * 30);
+  const tok = Math.floor(Math.random() * 10);
+  const mystic = Math.floor(Math.random() * 4000);
+  const expp = Math.floor(Math.random() * 30000);
+
+  global.db.data.users[m.sender].limit += dia;
+  global.db.data.users[m.sender].money += mystic;
+  global.db.data.users[m.sender].joincount += tok;
+  global.db.data.users[m.sender].exp += expp;
+
+  const texto = `
+${tradutor.texto2[0]}
+${tradutor.texto2[1]}
+${tradutor.texto2[2]}
+║➢ *${dia} ${tradutor.texto2[3]}
+║➢ *${tok} ${tradutor.texto2[4]}
+║➢ *${mystic} ${tradutor.texto2[5]}
+║➢ *${expp} ${tradutor.texto2[6]}
+${tradutor.texto2[7]}`;
+
+  const fkontak = {
+    'key': {
+      'participants': '0@s.whatsapp.net',
+      'remoteJid': 'status@broadcast',
+      'fromMe': false,
+      'id': 'Halo',
+    },
+    'message': {
+      'contactMessage': {
+        'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+      },
+    },
+    'participant': '0@s.whatsapp.net',
+  };
+
+  await conn.sendFile(m.chat, img, 'mystic.jpg', texto, fkontak);
+  // await conn.sendButton(m.chat, texto, wm, img, [['🔰 𝙼𝙴𝙽𝚄', '/menu'] ], fkontak, m)
+  global.db.data.users[m.sender].lastcofre = new Date * 1;
+};
+handler.help = ['daily'];
+handler.tags = ['econ'];
+handler.command = ['coffer', 'cofre', 'abrircofre', 'cofreabrir'];
+handler.level = 5;
+export default handler;
+
+function pickRandom(list) {
+  return list[Math.floor(Math.random() * list.length)];
+}
+
+function msToTime(duration) {
+  const milliseconds = parseInt((duration % 1000) / 100);
+  let seconds = Math.floor((duration / 1000) % 60);
+  let minutes = Math.floor((duration / (1000 * 60)) % 60);
+  let hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+
+  hours = (hours < 10) ? '0' + hours : hours;
+  minutes = (minutes < 10) ? '0' + minutes : minutes;
+  seconds = (seconds < 10) ? '0' + seconds : seconds;
+
+  return hours + ' Horas ' + minutes + ' Minutos';
+}

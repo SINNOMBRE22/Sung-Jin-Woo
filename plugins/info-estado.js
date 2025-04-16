@@ -1,1 +1,35 @@
-const a0_0x22c033=a0_0x31a0;function a0_0x31a0(_0x3abb3f,_0x3b8e7e){const _0x2b8656=a0_0x2b86();return a0_0x31a0=function(_0x31a08f,_0x2200c2){_0x31a08f=_0x31a08f-0x13d;let _0x27c41f=_0x2b8656[_0x31a08f];return _0x27c41f;},a0_0x31a0(_0x3abb3f,_0x3b8e7e);}(function(_0x1dcd12,_0x26cd4c){const _0x459682=a0_0x31a0,_0x16d71b=_0x1dcd12();while(!![]){try{const _0x2a8c0a=-parseInt(_0x459682(0x142))/0x1*(-parseInt(_0x459682(0x150))/0x2)+-parseInt(_0x459682(0x149))/0x3+parseInt(_0x459682(0x148))/0x4+-parseInt(_0x459682(0x14b))/0x5*(-parseInt(_0x459682(0x144))/0x6)+-parseInt(_0x459682(0x143))/0x7*(-parseInt(_0x459682(0x14e))/0x8)+-parseInt(_0x459682(0x14c))/0x9*(parseInt(_0x459682(0x153))/0xa)+-parseInt(_0x459682(0x13d))/0xb*(parseInt(_0x459682(0x154))/0xc);if(_0x2a8c0a===_0x26cd4c)break;else _0x16d71b['push'](_0x16d71b['shift']());}catch(_0x406765){_0x16d71b['push'](_0x16d71b['shift']());}}}(a0_0x2b86,0x662bc));function a0_0x2b86(){const _0x2c26ec=['floor','command','21370eCMEHF','108vCefmT','memoryUsage','\x0aTiempo\x20activo:\x20','327250bUKwOY','status','now','chat','help','26iNDmTk','296611CstBMx','3234yEXHiF','join','Sung\x20Jin-Woo','toFixed','2692896bWjCOh','443751oydUdT','toString','890PPhLmR','477UKJXvH','\x0aPrefijo\x20usado:\x20','32ASrXQI','log','674cjTrAq'];a0_0x2b86=function(){return _0x2c26ec;};return a0_0x2b86();}import{generateWAMessageFromContent}from'@whiskeysockets/baileys';import a0_0x49b1cb from'os';import a0_0x35268c from'util';import a0_0x291154 from'human-readable';import a0_0x45047e from'@whiskeysockets/baileys';import a0_0x5b0c0a from'fs';import{performance}from'perf_hooks';const handler=async(_0x445700,{conn:_0x5e6101,usedPrefix:_0x5c5001})=>{const _0x28b73b=a0_0x31a0,_0x5bc488=process['uptime']()*0x3e8,_0x463ed2=clockString(_0x5bc488),_0x241ec0=process[_0x28b73b(0x155)](),_0x5f4c7f=performance[_0x28b73b(0x13f)](),_0x455c76=performance[_0x28b73b(0x13f)](),_0x171159=(_0x455c76-_0x5f4c7f)[_0x28b73b(0x147)](0x7),_0x18f711=_0x28b73b(0x146),_0x414f3f='\x0aTiempo\x20de\x20respuesta:\x20'+_0x171159+_0x28b73b(0x156)+_0x463ed2+_0x28b73b(0x14d)+_0x5c5001;_0x5e6101['reply'](_0x445700[_0x28b73b(0x140)],_0x414f3f,_0x445700);};handler[a0_0x22c033(0x141)]=[a0_0x22c033(0x13e)],handler[a0_0x22c033(0x152)]=/^(ping|info|status|estado|infobot)$/i;export default handler;function clockString(_0x5748ca){const _0x59c2ab=a0_0x22c033,_0x5ee81c=Math[_0x59c2ab(0x151)](_0x5748ca/0x36ee80),_0x1c98e1=Math[_0x59c2ab(0x151)](_0x5748ca/0xea60)%0x3c,_0x1f6f63=Math[_0x59c2ab(0x151)](_0x5748ca/0x3e8)%0x3c;return console[_0x59c2ab(0x14f)]({'ms':_0x5748ca,'h':_0x5ee81c,'m':_0x1c98e1,'s':_0x1f6f63}),[_0x5ee81c,_0x1c98e1,_0x1f6f63]['map'](_0x329300=>_0x329300[_0x59c2ab(0x14a)]()['padStart'](0x2,0x0))[_0x59c2ab(0x145)](':');}
+import { generateWAMessageFromContent } from "@whiskeysockets/baileys";
+import os from "os";
+import util from "util";
+import sizeFormatter from "human-readable";
+import MessageType from "@whiskeysockets/baileys";
+import fs from "fs";
+import { performance } from "perf_hooks";
+
+const handler = async (m, { conn, usedPrefix }) => {
+  const _uptime = process.uptime() * 1000;
+  const uptime = clockString(_uptime);
+  const used = process.memoryUsage();
+  const old = performance.now();
+  const neww = performance.now();
+  const rtime = (neww - old).toFixed(7);
+  const wm = 'Sung Jin-Woo';
+  const info = `
+Tiempo de respuesta: ${rtime}
+Tiempo activo: ${uptime}
+Prefijo usado: ${usedPrefix}`;
+
+  // Enviar solo el ping
+  conn.reply(m.chat, info, m);
+};
+handler.help = ['status']
+handler.command = /^(ping|info|status|estado|infobot)$/i;
+export default handler;
+
+function clockString(ms) {
+  const h = Math.floor(ms / 3600000);
+  const m = Math.floor(ms / 60000) % 60;
+  const s = Math.floor(ms / 1000) % 60;
+  console.log({ ms, h, m, s });
+  return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(":");
+}

@@ -1,1 +1,23 @@
-const a0_0x1f0b77=a0_0x491d;(function(_0x158920,_0x5aa9ae){const _0x599b0a=a0_0x491d,_0x2c5a3d=_0x158920();while(!![]){try{const _0x3bd92f=parseInt(_0x599b0a(0x17c))/0x1+-parseInt(_0x599b0a(0x168))/0x2+-parseInt(_0x599b0a(0x17b))/0x3+parseInt(_0x599b0a(0x16f))/0x4*(-parseInt(_0x599b0a(0x162))/0x5)+-parseInt(_0x599b0a(0x165))/0x6*(parseInt(_0x599b0a(0x163))/0x7)+parseInt(_0x599b0a(0x178))/0x8*(parseInt(_0x599b0a(0x16d))/0x9)+-parseInt(_0x599b0a(0x171))/0xa*(-parseInt(_0x599b0a(0x164))/0xb);if(_0x3bd92f===_0x5aa9ae)break;else _0x2c5a3d['push'](_0x2c5a3d['shift']());}catch(_0x470263){_0x2c5a3d['push'](_0x2c5a3d['shift']());}}}(a0_0x4ecb,0x72e1a));function a0_0x491d(_0x23da40,_0x4eaa97){const _0x4ecb1b=a0_0x4ecb();return a0_0x491d=function(_0x491df1,_0x11e258){_0x491df1=_0x491df1-0x15e;let _0x1dd663=_0x4ecb1b[_0x491df1];return _0x1dd663;},a0_0x491d(_0x23da40,_0x4eaa97);}function a0_0x4ecb(){const _0x216faf=['1482462NJSZvD','readFileSync','convertidores','download','convertidor_toimg','4187529ugFhIe','./language/','5304NgWnHc','help','10RWOvtW','chat','toimg','alloc','plugins','img','test','8TPkIhR','.json','texto1','2424711oJHFRV','746600WrOsJk','sender','sendFile','users','catch','error.png','parse','quoted','mediaType','data','985zoxraH','14qdqmjR','20804575WQbxho','2465886xEfkkA','jpg','language'];a0_0x4ecb=function(){return _0x216faf;};return a0_0x4ecb();}import{webp2png}from'../lib/webp2mp4.js';const handler=async(_0x2ab251,{conn:_0x1ed1d7,usedPrefix:_0x4b830b,command:_0x3c6bff})=>{const _0x7a53c=a0_0x491d,_0x200a0a=global,_0x42dadc=_0x200a0a['db'][_0x7a53c(0x161)][_0x7a53c(0x17f)][_0x2ab251[_0x7a53c(0x17d)]][_0x7a53c(0x167)],_0x3ba875=JSON[_0x7a53c(0x15e)](fs[_0x7a53c(0x169)](_0x7a53c(0x16e)+_0x42dadc+_0x7a53c(0x179))),_0x4059a2=_0x3ba875[_0x7a53c(0x175)][_0x7a53c(0x16c)],_0x179549='*'+_0x4059a2[_0x7a53c(0x17a)]+'\x20'+(_0x4b830b+_0x3c6bff)+'*';if(!_0x2ab251[_0x7a53c(0x15f)])throw _0x179549;const _0x1318c6=_0x2ab251[_0x7a53c(0x15f)]||_0x2ab251,_0x1f8282=_0x1318c6[_0x7a53c(0x160)]||'';if(!/sticker/[_0x7a53c(0x177)](_0x1f8282))throw _0x179549;const _0x365959=await _0x1318c6[_0x7a53c(0x16b)](),_0x238edb=await webp2png(_0x365959)[_0x7a53c(0x180)](_0x3feb4b=>null)||Buffer[_0x7a53c(0x174)](0x0);await _0x1ed1d7[_0x7a53c(0x17e)](_0x2ab251[_0x7a53c(0x172)],_0x238edb,_0x7a53c(0x181),null,_0x2ab251);};handler[a0_0x1f0b77(0x170)]=[a0_0x1f0b77(0x173)],handler['tags']=[a0_0x1f0b77(0x16a)],handler['command']=[a0_0x1f0b77(0x173),a0_0x1f0b77(0x166),a0_0x1f0b77(0x176)];export default handler;
+import {webp2png} from '../lib/webp2mp4.js';
+
+
+const handler = async (m, {conn, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.convertidor_toimg
+
+
+  const notStickerMessage = `*${tradutor.texto1} ${usedPrefix + command}*`;
+  if (!m.quoted) throw notStickerMessage;
+  const q = m.quoted || m;
+  const mime = q.mediaType || '';
+  if (!/sticker/.test(mime)) throw notStickerMessage;
+  const media = await q.download();
+  const out = await webp2png(media).catch((_) => null) || Buffer.alloc(0);
+  await conn.sendFile(m.chat, out, 'error.png', null, m);
+};
+handler.help = ['toimg'];
+handler.tags = ['convertidores'];
+handler.command = ['toimg', 'jpg', 'img'];
+export default handler;

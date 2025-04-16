@@ -1,1 +1,10 @@
-function a0_0x8043(){const _0x1abad5=['13HUFiee','2760765zgLhgu','2iqzQuj','18ZwHSvD','8260835xqPGgE','1626541VarLXq','10xeUscP','chat','24VUZWZu','10340jNiZdp','reply','command','543bSaPxI','group','5856744tWoJxu','807818NmFWsE','6790836fcDiLF'];a0_0x8043=function(){return _0x1abad5;};return a0_0x8043();}const a0_0x286e74=a0_0x1145;(function(_0x2b5c4c,_0x2817fb){const _0x3cd812=a0_0x1145,_0x160223=_0x2b5c4c();while(!![]){try{const _0x2453a0=parseInt(_0x3cd812(0x12c))/0x1*(parseInt(_0x3cd812(0x128))/0x2)+-parseInt(_0x3cd812(0x125))/0x3*(-parseInt(_0x3cd812(0x133))/0x4)+parseInt(_0x3cd812(0x12b))/0x5+parseInt(_0x3cd812(0x132))/0x6*(-parseInt(_0x3cd812(0x12f))/0x7)+parseInt(_0x3cd812(0x127))/0x8*(-parseInt(_0x3cd812(0x12d))/0x9)+-parseInt(_0x3cd812(0x130))/0xa*(-parseInt(_0x3cd812(0x12e))/0xb)+parseInt(_0x3cd812(0x129))/0xc*(parseInt(_0x3cd812(0x12a))/0xd);if(_0x2453a0===_0x2817fb)break;else _0x160223['push'](_0x160223['shift']());}catch(_0x4a1a9d){_0x160223['push'](_0x160223['shift']());}}}(a0_0x8043,0xb7602));let handler=async(_0xfb5334,{conn:_0x47a7ad,args:_0x45fcf3})=>{const _0x3c3eeb=a0_0x1145;let _0xf8b1d=_0xfb5334['chat'],_0x171fc1='https://chat.whatsapp.com/'+await _0x47a7ad['groupInviteCode'](_0xf8b1d);_0x47a7ad[_0x3c3eeb(0x134)](_0xfb5334[_0x3c3eeb(0x131)],_0x171fc1,_0xfb5334,{'detectLink':!![]});};function a0_0x1145(_0x99f64c,_0x315239){const _0x80431=a0_0x8043();return a0_0x1145=function(_0x1145db,_0x342da0){_0x1145db=_0x1145db-0x125;let _0x266419=_0x80431[_0x1145db];return _0x266419;},a0_0x1145(_0x99f64c,_0x315239);}handler[a0_0x286e74(0x135)]=/^link(gro?up)?$/i,handler[a0_0x286e74(0x126)]=!![],handler['botAdmin']=!![];export default handler;
+let handler = async (m, { conn, args }) => {
+let group = m.chat
+let link = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group)
+conn.reply(m.chat, link, m, {detectLink: true})
+//conn.sendMessage(m.chat, { text: link }, { quoted: m, detectLink: true })
+}
+handler.command = /^link(gro?up)?$/i
+handler.group = true
+handler.botAdmin = true
+export default handler

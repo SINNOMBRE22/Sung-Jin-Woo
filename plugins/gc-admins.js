@@ -1,1 +1,32 @@
-function a0_0x35dc(_0x150054,_0x560053){const _0x5a504f=a0_0x5a50();return a0_0x35dc=function(_0x35dc8e,_0x33b7bc){_0x35dc8e=_0x35dc8e-0xdd;let _0x333147=_0x5a504f[_0x35dc8e];return _0x333147;},a0_0x35dc(_0x150054,_0x560053);}const a0_0xd47389=a0_0x35dc;function a0_0x5a50(){const _0x2e3ab0=['1286172RzLknl','owner','./language/','trim','16TpNqor','superadmin','map','.json','admins\x20[mensaje\x20sin\x20prefijo]','help','customPrefix','image','join','error.jpg','readFileSync','198705uJfHhT','catch','chat','split','18fCsTgY','24BqEQqu','texto1','filter','group','data','2073000rcYYvt','160260KcFsWV','sender','tags','profilePictureUrl','sendFile','users','184472MXyCet','admin','1414679grVsme','28725rbvsne','./src/admins.jpg'];a0_0x5a50=function(){return _0x2e3ab0;};return a0_0x5a50();}(function(_0x3218ff,_0x3dedc0){const _0x19e34a=a0_0x35dc,_0x5111e9=_0x3218ff();while(!![]){try{const _0x4c8453=-parseInt(_0x19e34a(0xee))/0x1*(-parseInt(_0x19e34a(0xf4))/0x2)+-parseInt(_0x19e34a(0xff))/0x3+-parseInt(_0x19e34a(0xdf))/0x4*(parseInt(_0x19e34a(0xe5))/0x5)+-parseInt(_0x19e34a(0xf0))/0x6+parseInt(_0x19e34a(0xed))/0x7+-parseInt(_0x19e34a(0xeb))/0x8*(parseInt(_0x19e34a(0xde))/0x9)+parseInt(_0x19e34a(0xe4))/0xa;if(_0x4c8453===_0x3dedc0)break;else _0x5111e9['push'](_0x5111e9['shift']());}catch(_0x157247){_0x5111e9['push'](_0x5111e9['shift']());}}}(a0_0x5a50,0x1d56a));const handler=async(_0x3a7362,{conn:_0x59607b,participants:_0x49213b,groupMetadata:_0x96c732,args:_0x1c0a3e})=>{const _0x58b0c6=a0_0x35dc,_0x57f427=global,_0x4069c1=_0x57f427['db'][_0x58b0c6(0xe3)][_0x58b0c6(0xea)][_0x3a7362[_0x58b0c6(0xe6)]]['language'],_0x3153b4=JSON['parse'](fs[_0x58b0c6(0xfe)](_0x58b0c6(0xf2)+_0x4069c1+_0x58b0c6(0xf7))),_0xffe673=_0x3153b4['plugins']['gc_admins'],_0x487e1c=await _0x59607b[_0x58b0c6(0xe8)](_0x3a7362['chat'],_0x58b0c6(0xfb))[_0x58b0c6(0x100)](_0x1eecad=>null)||_0x58b0c6(0xef),_0x2c2020=_0x49213b[_0x58b0c6(0xe1)](_0xbf0ec2=>_0xbf0ec2[_0x58b0c6(0xec)]),_0x36fee5=_0x2c2020[_0x58b0c6(0xf6)]((_0x1a0d1d,_0xca2ea7)=>_0xca2ea7+0x1+'.\x20@'+_0x1a0d1d['id'][_0x58b0c6(0xdd)]('@')[0x0])[_0x58b0c6(0xfc)]('\x0a'),_0x307df8=_0x96c732[_0x58b0c6(0xf1)]||_0x2c2020['find'](_0x4ef3c4=>_0x4ef3c4[_0x58b0c6(0xec)]===_0x58b0c6(0xf5))?.['id']||_0x3a7362[_0x58b0c6(0x101)]['split']`-`[0x0]+'@s.whatsapp.net',_0x2618d2=_0x1c0a3e[_0x58b0c6(0xfc)]` `,_0x56befc=_0xffe673[_0x58b0c6(0xe0)][0x3]+'\x20'+_0x2618d2,_0x17ae1a=(_0xffe673['texto1'][0x0]+'\x0a\x0a'+_0x56befc+'\x0a\x0a'+_0xffe673[_0x58b0c6(0xe0)][0x1]+'\x0a'+_0x36fee5+'\x0a\x0a'+_0xffe673[_0x58b0c6(0xe0)][0x2])[_0x58b0c6(0xf3)]();_0x59607b[_0x58b0c6(0xe9)](_0x3a7362['chat'],_0x487e1c,_0x58b0c6(0xfd),_0x17ae1a,_0x3a7362,![],{'mentions':[..._0x2c2020['map'](_0x57274d=>_0x57274d['id']),_0x307df8]});};handler[a0_0xd47389(0xf9)]=[a0_0xd47389(0xf8)],handler[a0_0xd47389(0xe7)]=['group'],handler[a0_0xd47389(0xfa)]=/a|@/i,handler['command']=/^(admins|@admins|dmins)$/i,handler[a0_0xd47389(0xe2)]=!![];export default handler;
+
+
+
+const handler = async (m, {conn, participants, groupMetadata, args}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_admins
+
+  const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || './src/admins.jpg';
+  const groupAdmins = participants.filter((p) => p.admin);
+  const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n');
+  const owner = groupMetadata.owner || groupAdmins.find((p) => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net';
+  const pesan = args.join` `;
+  const oi = `${tradutor.texto1[3]} ${pesan}`;
+  const text = `${tradutor.texto1[0]}
+
+${oi}
+
+${tradutor.texto1[1]}
+${listAdmin}
+
+${tradutor.texto1[2]}`.trim();
+  conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, {mentions: [...groupAdmins.map((v) => v.id), owner]});
+};
+handler.help = ['admins [mensaje sin prefijo]'];
+handler.tags = ['group'];
+// regex detect A word without case sensitive
+handler.customPrefix = /a|@/i;
+handler.command = /^(admins|@admins|dmins)$/i;
+handler.group = true;
+export default handler;

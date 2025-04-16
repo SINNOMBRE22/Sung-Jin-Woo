@@ -1,1 +1,50 @@
-const a0_0x59998c=a0_0x3f1c;(function(_0x30d5ad,_0x310191){const _0x1c9223=a0_0x3f1c,_0x35c581=_0x30d5ad();while(!![]){try{const _0x4b870b=parseInt(_0x1c9223(0x147))/0x1+parseInt(_0x1c9223(0x15f))/0x2*(-parseInt(_0x1c9223(0x158))/0x3)+parseInt(_0x1c9223(0x14e))/0x4+parseInt(_0x1c9223(0x155))/0x5+parseInt(_0x1c9223(0x13e))/0x6+parseInt(_0x1c9223(0x156))/0x7*(parseInt(_0x1c9223(0x162))/0x8)+-parseInt(_0x1c9223(0x14c))/0x9;if(_0x4b870b===_0x310191)break;else _0x35c581['push'](_0x35c581['shift']());}catch(_0x43feae){_0x35c581['push'](_0x35c581['shift']());}}}(a0_0x3814,0xf38f4));let handler=async(_0x20bc6e,{conn:_0x1f9a0a,args:_0x473fbf,participants:_0x5419c7})=>{const _0x2b8a83=a0_0x3f1c;global['db'][_0x2b8a83(0x14a)][_0x2b8a83(0x15a)][_0x20bc6e['sender']][_0x2b8a83(0x143)]+=0x1;let _0x33e6bb=Object[_0x2b8a83(0x148)](global['db']['data'][_0x2b8a83(0x15a)])[_0x2b8a83(0x15e)](([_0x3e014e,_0x86caea])=>{return{..._0x86caea,'jid':_0x3e014e};}),_0xd5f91b=_0x33e6bb['map'](toNumber(_0x2b8a83(0x143)))[_0x2b8a83(0x142)](sort('comandos')),_0x1c3f8f=_0xd5f91b[_0x2b8a83(0x15e)](enumGetKey),_0x4b06d0=_0x473fbf[0x0]&&_0x473fbf[0x0]['length']>0x0?Math[_0x2b8a83(0x161)](0xa,Math[_0x2b8a83(0x160)](parseInt(_0x473fbf[0x0]),0xa)):Math[_0x2b8a83(0x161)](0xa,_0xd5f91b[_0x2b8a83(0x14b)]),_0x57cb85=(_0x2b8a83(0x141)+_0x4b06d0+_0x2b8a83(0x15b)+(_0x1c3f8f[_0x2b8a83(0x154)](_0x20bc6e[_0x2b8a83(0x14f)])+0x1)+_0x2b8a83(0x15c)+_0x1c3f8f[_0x2b8a83(0x14b)]+_0x2b8a83(0x157)+_0xd5f91b[_0x2b8a83(0x146)](0x0,_0x4b06d0)['map'](({jid:_0x4d2024,comandos:_0x2b9812},_0x624301)=>_0x624301+0x1+'.\x20'+(_0x5419c7[_0x2b8a83(0x153)](_0xf76e89=>_0x4d2024===_0xf76e89[_0x2b8a83(0x152)])?'('+_0x1f9a0a[_0x2b8a83(0x149)](_0x4d2024)+')\x20wa.me/':'@')+_0x4d2024[_0x2b8a83(0x140)]`@`[0x0]+'\x20*'+_0x2b9812+_0x2b8a83(0x151))[_0x2b8a83(0x144)]('\x0a')+'\x0a')[_0x2b8a83(0x150)]();_0x20bc6e['reply'](_0x57cb85,null,{'mentions':_0x1f9a0a[_0x2b8a83(0x13f)](_0x57cb85)});};handler['help']=[a0_0x59998c(0x159)],handler['tags']=['xp'],handler[a0_0x59998c(0x145)]=['topcomandos'],handler[a0_0x59998c(0x15d)]=null,handler[a0_0x59998c(0x14d)]=0x0;function a0_0x3f1c(_0x1deeb9,_0x1b59ad){const _0x381408=a0_0x3814();return a0_0x3f1c=function(_0x3f1cca,_0x5255c2){_0x3f1cca=_0x3f1cca-0x13e;let _0x13554=_0x381408[_0x3f1cca];return _0x13554;},a0_0x3f1c(_0x1deeb9,_0x1b59ad);}export default handler;function a0_0x3814(){const _0x176d72=['7578204JFwDBr','sender','trim','\x20Comandos*','jid','some','indexOf','2876475Vqbtxa','3552017fqUetU','*\x0a\x0a','4052691xWrPfn','topcomandos','users','\x20USUARIOS\x20CON\x20MÁS\x20COMANDOS\x20USADOS*\x20•\x0aTú\x20:\x20*','*\x20de\x20*','fail','map','2yVMwoG','max','min','24JdPnYv','10743726UYTdlI','parseMention','split','\x0a*<\x20TOP\x20USUARIOS\x20CON\x20MÁS\x20COMANDOS\x20USADOS💻\x20/>*\x0a\x0a▢\x20*TOP\x20','sort','comandos','join','command','slice','1508790HhBQBt','entries','getName','data','length','44487297MPBfzU','exp'];a0_0x3814=function(){return _0x176d72;};return a0_0x3814();}function sort(_0x411ae9,_0x319f2c=!![]){if(_0x411ae9)return(..._0x58cde2)=>_0x58cde2[_0x319f2c&0x1][_0x411ae9]-_0x58cde2[!_0x319f2c&0x1][_0x411ae9];else return(..._0x5cfcc7)=>_0x5cfcc7[_0x319f2c&0x1]-_0x5cfcc7[!_0x319f2c&0x1];}function toNumber(_0x351381,_0x167e6e=0x0){return _0x351381?(_0x342f2c,_0x3212ef,_0x1121eb)=>{return{..._0x1121eb[_0x3212ef],[_0x351381]:_0x342f2c[_0x351381]===undefined?_0x167e6e:_0x342f2c[_0x351381]};}:_0x1b794d=>_0x1b794d===undefined?_0x167e6e:_0x1b794d;}function enumGetKey(_0x4ac7e3){const _0x4b3c45=a0_0x59998c;return _0x4ac7e3[_0x4b3c45(0x152)];}
+let handler = async (m, { conn, args, participants }) => {
+  global.db.data.users[m.sender].comandos += 1;
+  let users = Object.entries(global.db.data.users).map(([key, value]) => {
+    return { ...value, jid: key };
+  });
+
+  let sortedComandos = users.map(toNumber('comandos')).sort(sort('comandos'));
+  let usersComandos = sortedComandos.map(enumGetKey);
+
+  let len = args[0] && args[0].length > 0 ? Math.min(10, Math.max(parseInt(args[0]), 10)) : Math.min(10, sortedComandos.length);
+
+  let text = `
+*< TOP USUARIOS CON MÁS COMANDOS USADOS💻 />*
+
+▢ *TOP ${len} USUARIOS CON MÁS COMANDOS USADOS* •
+Tú : *${usersComandos.indexOf(m.sender) + 1}* de *${usersComandos.length}*
+
+${sortedComandos.slice(0, len).map(({ jid, comandos }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${comandos} Comandos*`).join('\n')}
+`.trim();
+
+  m.reply(text, null, { mentions: conn.parseMention(text) });
+};
+
+handler.help = ['topcomandos'];
+handler.tags = ['xp'];
+handler.command = ['topcomandos'];
+
+handler.fail = null;
+handler.exp = 0;
+
+export default handler;
+
+function sort(property, ascending = true) {
+  if (property) return (...args) => args[ascending & 1][property] - args[!ascending & 1][property];
+  else return (...args) => args[ascending & 1] - args[!ascending & 1];
+}
+
+function toNumber(property, _default = 0) {
+  if (property) {
+    return (a, i, b) => {
+      return { ...b[i], [property]: a[property] === undefined ? _default : a[property] };
+    };
+  } else {
+    return a => a === undefined ? _default : a;
+  }
+}
+
+function enumGetKey(a) {
+  return a.jid;
+}

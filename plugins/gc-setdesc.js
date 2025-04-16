@@ -1,1 +1,18 @@
-const a0_0x1acb5a=a0_0x154c;function a0_0x154c(_0x1b1b4b,_0x5b1ac4){const _0x16905c=a0_0x1690();return a0_0x154c=function(_0x154cfb,_0x318126){_0x154cfb=_0x154cfb-0xfe;let _0x30c656=_0x16905c[_0x154cfb];return _0x30c656;},a0_0x154c(_0x1b1b4b,_0x5b1ac4);}(function(_0x130d3f,_0x3bb00e){const _0x162197=a0_0x154c,_0x7a8161=_0x130d3f();while(!![]){try{const _0x418a80=-parseInt(_0x162197(0x115))/0x1+-parseInt(_0x162197(0x108))/0x2*(-parseInt(_0x162197(0x10a))/0x3)+parseInt(_0x162197(0x101))/0x4+parseInt(_0x162197(0x118))/0x5+-parseInt(_0x162197(0x119))/0x6*(-parseInt(_0x162197(0x109))/0x7)+parseInt(_0x162197(0x102))/0x8*(-parseInt(_0x162197(0x10f))/0x9)+-parseInt(_0x162197(0x105))/0xa*(parseInt(_0x162197(0x10b))/0xb);if(_0x418a80===_0x3bb00e)break;else _0x7a8161['push'](_0x7a8161['shift']());}catch(_0x39eaaa){_0x7a8161['push'](_0x7a8161['shift']());}}}(a0_0x1690,0xe93e9));function a0_0x1690(){const _0x3e4143=['gc_setdesc','1209170bafVhz','botAdmin','Setdesc\x20<text>','2OeFMHi','97692Izcunt','3085986yzaYSQ','22vrHCYQ','admin','join','texto1','72OBxQOr','data','help','command','groupUpdateDescription','users','1021277rpvuGN','group','./language/','5875440RsjLwq','108ofikNp','.json','parse','chat','5097896CwYGxY','1510952fdQiiP','readFileSync'];a0_0x1690=function(){return _0x3e4143;};return a0_0x1690();}const handler=async(_0x257609,{conn:_0x52ec8d,args:_0x1a2b2b})=>{const _0x3c9e96=a0_0x154c,_0x38751a=global,_0x148f51=_0x38751a['db'][_0x3c9e96(0x110)][_0x3c9e96(0x114)][_0x257609['sender']]['language'],_0x7f9850=JSON[_0x3c9e96(0xff)](fs[_0x3c9e96(0x103)](_0x3c9e96(0x117)+_0x148f51+_0x3c9e96(0xfe))),_0x3524b3=_0x7f9850['plugins'][_0x3c9e96(0x104)];await _0x52ec8d[_0x3c9e96(0x113)](_0x257609[_0x3c9e96(0x100)],''+_0x1a2b2b[_0x3c9e96(0x10d)]('\x20')),_0x257609['reply'](_0x3524b3[_0x3c9e96(0x10e)]);};handler[a0_0x1acb5a(0x111)]=[a0_0x1acb5a(0x107)],handler['tags']=[a0_0x1acb5a(0x116)],handler[a0_0x1acb5a(0x112)]=/^setdesk|setdesc$/i,handler['group']=!![],handler[a0_0x1acb5a(0x10c)]=!![],handler[a0_0x1acb5a(0x106)]=!![];export default handler;
+
+
+const handler = async (m, {conn, args}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_setdesc
+
+  await conn.groupUpdateDescription(m.chat, `${args.join(' ')}`);
+  m.reply(tradutor.texto1);
+};
+handler.help = ['Setdesc <text>'];
+handler.tags = ['group'];
+handler.command = /^setdesk|setdesc$/i;
+handler.group = true;
+handler.admin = true;
+handler.botAdmin = true;
+export default handler;

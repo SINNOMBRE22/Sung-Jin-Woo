@@ -1,1 +1,87 @@
-const a0_0x548932=a0_0x1d64;(function(_0x10a8fd,_0x56eba4){const _0x3a8eb8=a0_0x1d64,_0x3a2557=_0x10a8fd();while(!![]){try{const _0xa759e7=-parseInt(_0x3a8eb8(0x11b))/0x1+parseInt(_0x3a8eb8(0x11f))/0x2*(parseInt(_0x3a8eb8(0x122))/0x3)+parseInt(_0x3a8eb8(0x11d))/0x4+-parseInt(_0x3a8eb8(0x119))/0x5*(-parseInt(_0x3a8eb8(0x117))/0x6)+-parseInt(_0x3a8eb8(0x134))/0x7+parseInt(_0x3a8eb8(0x11a))/0x8*(-parseInt(_0x3a8eb8(0x113))/0x9)+-parseInt(_0x3a8eb8(0x137))/0xa;if(_0xa759e7===_0x56eba4)break;else _0x3a2557['push'](_0x3a2557['shift']());}catch(_0x46e2d2){_0x3a2557['push'](_0x3a2557['shift']());}}}(a0_0xe207,0x76b99));import{sticker}from'../lib/sticker.js';function a0_0x1d64(_0x4437c1,_0x1f6d1f){const _0xe207b6=a0_0xe207();return a0_0x1d64=function(_0x1d6443,_0x403d1e){_0x1d6443=_0x1d6443-0x112;let _0x20cdf9=_0xe207b6[_0x1d6443];return _0x20cdf9;},a0_0x1d64(_0x4437c1,_0x1f6d1f);}import a0_0x17cb95 from'../lib/uploadFile.js';import a0_0x1b7d6c from'../lib/uploadImage.js';import{webp2png}from'../lib/webp2mp4.js';function a0_0xe207(){const _0xe613da=['5XWCJEl','1463752SSKamy','318969GuGaMp','string','3407732Georfj','\x20\x20★━━━━━━━━\x0a\x09├\x20ʙᴏᴛ\x20\x20\x20\x20\x20:\x20\x0a\x09├\x20ᴀᴜᴛᴏʀ:\x0a\x09├\x20ɢʀᴜᴘᴏ:\x0a\x09├\x20ғᴇᴄʜᴀ\x20ᴄʀᴇᴀᴄɪᴏɴ:\x0a\x09★━━━━━━━━\x0a\x09\x09','311774bkubnC','match','*[❗𝐈𝐍𝐅𝐎❗]\x20𝙴𝙻\x20𝙴𝙽𝙻𝙰𝙲𝙴\x20/\x20𝚄𝚁𝙻\x20/\x20𝙻𝙸𝙽𝙺\x20𝙽𝙾\x20𝙴𝚂\x20𝚅𝙰𝙻𝙸𝙳𝙰,\x20𝙻𝙰\x20𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙲𝙸𝙾𝙽\x20𝙳𝙴𝙻\x20𝙴𝙽𝙻𝙰𝙲𝙴\x20/\x20𝚄𝚁𝙻\x20/\x20𝙻𝙸𝙽𝙺\x20𝙳𝙴𝙱𝙴\x20𝚂𝙴𝚁\x20.𝚓𝚙𝚐,\x20𝙴𝙹𝙴𝙼𝙿𝙻𝙾:\x20${usedPrefix}s\x20https://telegra.ph/file/0dc687c61410765e98de2.jpg*','12RfnZHI','error','users','tags','packname','sendFile','\x0a\x09\x0a\x09\x0a\x09\x0a\x09\x0a\x09','DD/MM/YY','format','help','data','*[❗𝐈𝐍𝐅𝐎❗]\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴\x20𝙰\x20𝚄𝙽\x20𝚅𝙸𝙳𝙴𝙾,\x20𝙸𝙼𝙰𝙶𝙴𝙽\x20𝙾\x20𝙸𝙽𝚂𝙴𝚁𝚃𝙴\x20𝙴𝙻\x20𝙴𝙽𝙻𝙰𝙲𝙴\x20𝙳𝙴\x20𝚄𝙽𝙰\x20𝙸𝙼𝙰𝙶𝙴𝙽\x20𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙲𝙸𝙾́𝙽\x20.𝚓𝚙𝚐\x20𝙴𝙻\x20𝙲𝚄𝙰𝙻\x20𝚂𝙴𝚁𝙰\x20𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝙳𝙾\x20𝙴𝙽\x20𝚂𝚃𝙸𝙲𝙺𝙴𝚁,\x20𝙳𝙴𝙱𝙴\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁\x20𝙾\x20𝚄𝚂𝙰𝚁\x20𝙴𝙻\x20𝙲𝙾𝙼𝙰𝙽𝙳𝙾\x20','spro','mediaType','chat','test','\x0a\x09★━━━━━━━━\x0a\x09\x0a\x09\x0a\x09\x0a\x09ᶜʳᵉᵃᵈᵒ\x20ᵖᵒʳ\x0a\x09','sticker','999334AIDrCv','quoted','America/Los_Angeles','6358240OBCuBc','author','\x20\x20\x20★━━━━━━━━\x0a\x09⌬\x20𝐴𝑟𝑐𝑎𝑛𝑒\x0a\x09⌬\x20𝑃𝑜𝑤𝑒𝑟𝑀𝑋\x0a\x09⌬\x20𝑆𝑡𝑖𝑐𝑘𝑒𝑟𝑙𝑎𝑛𝑑𝑖𝑎\x0a\x09⌬\x20','36XYAviA','getName','sender','*[❗𝐈𝐍𝐅𝐎❗]\x20𝙾𝙲𝚄𝚁𝚁𝙸𝙾\x20𝚄𝙽\x20𝙴𝚁𝚁𝙾𝚁,\x20𝚅𝚄𝙴𝙻𝚅𝙰\x20𝙰\x20𝙸𝙽𝚃𝙴𝚁𝙽𝚃𝙰𝚁𝙻𝙾.\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴\x20𝙰\x20𝚄𝙽\x20𝚅𝙸𝙳𝙴𝙾,\x20𝙸𝙼𝙰𝙶𝙴𝙽\x20𝙾\x20𝙸𝙽𝚂𝙴𝚁𝚃𝙴\x20𝙴𝙻\x20𝙴𝙽𝙻𝙰𝙲𝙴\x20𝙳𝙴\x20𝚄𝙽𝙰\x20𝙸𝙼𝙰𝙶𝙴𝙽\x20𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙲𝙸𝙾́𝙽\x20.𝚓𝚙𝚐\x20𝙴𝙻\x20𝙲𝚄𝙰𝙻\x20𝚂𝙴𝚁𝙰\x20𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝙳𝙾\x20𝙴𝙽\x20𝚂𝚃𝙸𝙲𝙺𝙴𝚁*','5041482pOoNQD','msg'];a0_0xe207=function(){return _0xe613da;};return a0_0xe207();}const handler=async(_0x29a2ee,{conn:_0x5ebccd,args:_0x252aa0,usedPrefix:_0x5a16e4,command:_0xfebe99})=>{const _0x3272a2=a0_0x1d64;if(_0x5a16e4=='a'||_0x5a16e4=='A')return;let _0x3f6fe9=![];const _0x4a54c5=db[_0x3272a2(0x12c)][_0x3272a2(0x124)][_0x29a2ee[_0x3272a2(0x115)]],_0x2a05f3=_0x5ebccd[_0x3272a2(0x114)](_0x29a2ee['sender']);try{const _0x2b1491=_0x29a2ee['quoted']?_0x29a2ee[_0x3272a2(0x135)]:_0x29a2ee,_0x151552=(_0x2b1491[_0x3272a2(0x118)]||_0x2b1491)['mimetype']||_0x2b1491[_0x3272a2(0x12f)]||'';if(/webp|image|video/g[_0x3272a2(0x131)](_0x151552)){const _0x3eaa0c=await _0x2b1491['download']?.();if(!_0x3eaa0c)throw _0x3272a2(0x12d)+(_0x5a16e4+_0xfebe99)+'*';let _0x455fda;try{_0x3f6fe9=await sticker(_0x3eaa0c,![],_0x3272a2(0x11e),_0x3272a2(0x112)+moment['tz'](_0x3272a2(0x136))[_0x3272a2(0x12a)](_0x3272a2(0x129))+_0x3272a2(0x132)+_0x2a05f3+_0x3272a2(0x128));}catch(_0x574aa9){console[_0x3272a2(0x123)](_0x574aa9);}finally{if(!_0x3f6fe9){if(/webp/g[_0x3272a2(0x131)](_0x151552))_0x455fda=await webp2png(_0x3eaa0c);else{if(/image/g[_0x3272a2(0x131)](_0x151552))_0x455fda=await a0_0x1b7d6c(_0x3eaa0c);else{if(/video/g[_0x3272a2(0x131)](_0x151552))_0x455fda=await a0_0x17cb95(_0x3eaa0c);}}if(typeof _0x455fda!==_0x3272a2(0x11c))_0x455fda=await a0_0x1b7d6c(_0x3eaa0c);_0x3f6fe9=await sticker(![],_0x455fda,'\x20\x20\x20★━━━━━━━━\x0a\x09⌬\x20Sung\x20Jin-Woo\x0a\x09⌬\x20SinNombre\x0a\x09⌬\x20Cibermarian\x0a\x09⌬\x20'+moment['tz']('America/Los_Angeles')[_0x3272a2(0x12a)](_0x3272a2(0x129))+_0x3272a2(0x132)+_0x2a05f3+'\x0a\x09\x0a\x09\x0a\x09\x0a\x09\x0a\x09');}}}else{if(_0x252aa0[0x0]){if(isUrl(_0x252aa0[0x0]))_0x3f6fe9=await sticker(![],_0x252aa0[0x0],global[_0x3272a2(0x126)],global[_0x3272a2(0x138)]);else return _0x29a2ee['reply'](_0x3272a2(0x121));}}}catch(_0x592248){console[_0x3272a2(0x123)](_0x592248);if(!_0x3f6fe9)_0x3f6fe9=_0x592248;}finally{if(_0x3f6fe9)_0x5ebccd[_0x3272a2(0x127)](_0x29a2ee[_0x3272a2(0x130)],_0x3f6fe9,'sticker.webp','',_0x29a2ee);else throw _0x3272a2(0x116);}};handler[a0_0x548932(0x12b)]=[a0_0x548932(0x12e)],handler[a0_0x548932(0x125)]=[a0_0x548932(0x133)],handler['command']=/^(spro)$/i,handler['group']=!![];export default handler;const isUrl=_0x1d5ada=>{const _0x291719=a0_0x548932;return _0x1d5ada[_0x291719(0x120)](new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png)/,'gi'));};
+import {sticker} from '../lib/sticker.js';
+import uploadFile from '../lib/uploadFile.js';
+import uploadImage from '../lib/uploadImage.js';
+import {webp2png} from '../lib/webp2mp4.js';
+
+const handler = async (m, {conn, args, usedPrefix, command}) => {
+  if (usedPrefix == 'a' || usedPrefix == 'A') return;
+  let stiker = false;
+  const user = db.data.users[m.sender];
+  const nombre = conn.getName(m.sender)
+  try {
+    const q = m.quoted ? m.quoted : m;
+    const mime = (q.msg || q).mimetype || q.mediaType || '';
+    if (/webp|image|video/g.test(mime)) {
+      const img = await q.download?.();
+      if (!img) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽 𝚅𝙸𝙳𝙴𝙾, 𝙸𝙼𝙰𝙶𝙴𝙽 𝙾 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙲𝙸𝙾́𝙽 .𝚓𝚙𝚐 𝙴𝙻 𝙲𝚄𝙰𝙻 𝚂𝙴𝚁𝙰 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝙳𝙾 𝙴𝙽 𝚂𝚃𝙸𝙲𝙺𝙴𝚁, 𝙳𝙴𝙱𝙴 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁 𝙾 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command}*`;
+      let out;
+      try {
+        stiker = await sticker(img, false, `  ★━━━━━━━━
+	├ ʙᴏᴛ     : 
+	├ ᴀᴜᴛᴏʀ:
+	├ ɢʀᴜᴘᴏ:
+	├ ғᴇᴄʜᴀ ᴄʀᴇᴀᴄɪᴏɴ:
+	★━━━━━━━━
+		`, `   ★━━━━━━━━
+	⌬ 𝐴𝑟𝑐𝑎𝑛𝑒
+	⌬ 𝑃𝑜𝑤𝑒𝑟𝑀𝑋
+	⌬ 𝑆𝑡𝑖𝑐𝑘𝑒𝑟𝑙𝑎𝑛𝑑𝑖𝑎
+	⌬ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}
+	★━━━━━━━━
+	
+	
+	
+	ᶜʳᵉᵃᵈᵒ ᵖᵒʳ
+	${nombre}
+	
+	
+	
+	
+	`);
+      } catch (e) {
+        console.error(e);
+      } finally {
+        if (!stiker) {
+          if (/webp/g.test(mime)) out = await webp2png(img);
+          else if (/image/g.test(mime)) out = await uploadImage(img);
+          else if (/video/g.test(mime)) out = await uploadFile(img);
+          if (typeof out !== 'string') out = await uploadImage(img);
+          stiker = await sticker(false, out,  `   ★━━━━━━━━
+	⌬ Sung Jin-Woo
+	⌬ SinNombre
+	⌬ Cibermarian
+	⌬ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}
+	★━━━━━━━━
+	
+	
+	
+	ᶜʳᵉᵃᵈᵒ ᵖᵒʳ
+	${nombre}
+	
+	
+	
+	
+	`);
+        }
+      }
+    } else if (args[0]) {
+      if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author);
+      else return m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 / 𝚄𝚁𝙻 / 𝙻𝙸𝙽𝙺 𝙽𝙾 𝙴𝚂 𝚅𝙰𝙻𝙸𝙳𝙰, 𝙻𝙰 𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 / 𝚄𝚁𝙻 / 𝙻𝙸𝙽𝙺 𝙳𝙴𝙱𝙴 𝚂𝙴𝚁 .𝚓𝚙𝚐, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix}s https://telegra.ph/file/0dc687c61410765e98de2.jpg*');
+    }
+  } catch (e) {
+    console.error(e);
+    if (!stiker) stiker = e;
+  } finally {
+    if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m);
+    else throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝚁𝙽𝚃𝙰𝚁𝙻𝙾. 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽 𝚅𝙸𝙳𝙴𝙾, 𝙸𝙼𝙰𝙶𝙴𝙽 𝙾 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙲𝙸𝙾́𝙽 .𝚓𝚙𝚐 𝙴𝙻 𝙲𝚄𝙰𝙻 𝚂𝙴𝚁𝙰 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝙳𝙾 𝙴𝙽 𝚂𝚃𝙸𝙲𝙺𝙴𝚁*';
+  }
+};
+handler.help = ['spro'];
+handler.tags = ['sticker'];
+handler.command = /^(spro)$/i
+handler.group = true
+export default handler;
+
+const isUrl = (text) => {
+  return text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png)/, 'gi'));
+};

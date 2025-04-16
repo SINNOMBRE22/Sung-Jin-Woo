@@ -1,1 +1,96 @@
-const a0_0x377814=a0_0x3bd4;(function(_0x4ebad2,_0x36e8bd){const _0x298c25=a0_0x3bd4,_0x27a98f=_0x4ebad2();while(!![]){try{const _0x37bd74=parseInt(_0x298c25(0xed))/0x1+-parseInt(_0x298c25(0xf8))/0x2+-parseInt(_0x298c25(0xf4))/0x3*(-parseInt(_0x298c25(0xee))/0x4)+parseInt(_0x298c25(0xf6))/0x5*(parseInt(_0x298c25(0xef))/0x6)+-parseInt(_0x298c25(0x114))/0x7+parseInt(_0x298c25(0x105))/0x8+-parseInt(_0x298c25(0x119))/0x9*(-parseInt(_0x298c25(0x112))/0xa);if(_0x37bd74===_0x36e8bd)break;else _0x27a98f['push'](_0x27a98f['shift']());}catch(_0x1da0db){_0x27a98f['push'](_0x27a98f['shift']());}}}(a0_0x1f5b,0x1fb41));import{igdl}from'ruhend-scraper';function a0_0x3bd4(_0xee524c,_0x57ee5e){const _0x1f5b57=a0_0x1f5b();return a0_0x3bd4=function(_0x3bd452,_0x2cfb04){_0x3bd452=_0x3bd452-0xeb;let _0x364a93=_0x1f5b57[_0x3bd452];return _0x364a93;},a0_0x3bd4(_0xee524c,_0x57ee5e);}async function showProgress(_0x4fe190,_0x5c97c8,_0x28da6d,_0x21032b=0x9){const _0x1c62c8=a0_0x3bd4,_0x3fe3e8=['🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙'],_0x5c937b=[_0x1c62c8(0xf0),_0x1c62c8(0xfe),'▰▰▰▱▱▱▱▱▱\x20𝟑𝟬%','▰▰▰▰▱▱▱▱▱\x20𝟒𝟬%',_0x1c62c8(0xfb),_0x1c62c8(0x113),_0x1c62c8(0x103),'▰▰▰▰▰▰▰▰▱\x20𝟖𝟬%',_0x1c62c8(0x10b),_0x1c62c8(0x104)];for(let _0x39aae3=0x0;_0x39aae3<=_0x21032b;_0x39aae3++){await new Promise(_0x4ccdf=>setTimeout(_0x4ccdf,0x5dc));const _0x33c97d='\x0a'+_0x3fe3e8[_0x39aae3%_0x3fe3e8[_0x1c62c8(0x10e)]]+'\x20'+_0x5c937b[_0x39aae3];await _0x4fe190['sendMessage'](_0x5c97c8[_0x1c62c8(0xf1)],{'text':_0x1c62c8(0x11a)+_0x33c97d+_0x1c62c8(0x116),'edit':_0x28da6d[_0x1c62c8(0x115)],'mentions':_0x4fe190[_0x1c62c8(0xec)](_0x5c97c8[_0x1c62c8(0x110)])});}}function a0_0x1f5b(){const _0x1a47e6=['find','group','tags','╔══════✦❘༻༺❘✦══════╗\x0a☠️\x20*¡𝗘𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻\x20𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗮𝗱𝗮!*\x0a✅\x20*𝘝𝘪́𝘥𝘦𝘰\x20𝘦𝘹𝘵𝘳𝘢𝘪́𝘥𝘰\x20𝘤𝘰𝘯\x20𝘦́𝘹𝘪𝘵𝘰*\x0a⏱️\x20*𝘛𝘪𝘦𝘮𝘱𝘰:*\x20','▰▰▰▰▰▰▰▰▰\x20𝟗𝟬%','Error:','720p\x20(HD)','length','╔══════✦❘༻༺❘✦══════╗\x0a🖤\x20*𝗜𝗻𝗶𝗰𝗶𝗮𝗻𝗱𝗼\x20𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\x0a▱▱▱▱▱▱▱▱▱\x20𝟎%\x0a╚══════✦❘༻༺❘✦══════╝','sender','toFixed','1572820AlcQZi','▰▰▰▰▰▰▱▱▱\x20𝟔𝟬%','1429330tnDDGi','key','\x0a╚══════✦❘༻༺❘✦══════╝','data','╔══════✦❘༻༺❘✦══════╗\x0a❌\x20*Error:*\x20','9jkYlze','╔══════✦❘༻༺❘✦══════╗\x0a📥\x20*𝗣𝗿𝗼𝗴𝗿𝗲𝘀𝗼\x20𝗱𝗲\x20𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\x0a','includes','parseMention','146040FwBMBP','220VSOPpl','774XvRbcB','▰▱▱▱▱▱▱▱▱\x20𝟏𝟎%','chat','Ocurrió\x20un\x20error\x20inesperado','𝘴\x0a📹\x20*𝘙𝘦𝘴𝘰𝘭𝘶𝘤𝘪𝘰́𝘯:*\x20','1725uzzzhK','url','5505qKSJkK','No\x20se\x20encontró\x20contenido','407480KlTCsc','react','No\x20se\x20encontró\x20versión\x20descargable','▰▰▰▰▰▱▱▱▱\x20𝟓𝟬%','\x20|\x20🔽\x20*𝘛𝘢𝘮𝘢𝘯̃𝘰:*\x20','test','▰▰▱▱▱▱▱▱▱\x20𝟐𝟬%','sendMessage','command','help','now','▰▰▰▰▰▰▰▱▱\x20𝟕𝟬%','▰▰▰▰▰▰▰▰▰\x20𝟏𝟬𝟬%','486488OtHJcQ','size'];a0_0x1f5b=function(){return _0x1a47e6;};return a0_0x1f5b();}const handler=async(_0x1efdfd,{text:_0x20a1c8,conn:_0x329ee7,args:_0x15220b,usedPrefix:_0x2e92d5,command:_0x1d244a})=>{const _0x39966e=a0_0x3bd4;try{if(!_0x15220b[0x0]){await _0x329ee7['sendMessage'](_0x1efdfd[_0x39966e(0xf1)],{'text':'╔══════✦❘༻༺❘✦══════╗\x0a🚫\x20*𝙀𝙧𝙧𝙤𝙧:*\x20¡𝙊𝙡𝙫𝙞𝙙𝙖𝙨𝙩𝙚\x20𝙚𝙡\x20𝙚𝙣𝙡𝙖𝙘𝙚!\x0a╚══════✦❘༻༺❘✦══════╝','mentions':_0x329ee7[_0x39966e(0xec)](_0x1efdfd[_0x39966e(0x110)])},{'quoted':_0x1efdfd});return;}if(!/https?:\/\/(www\.)?(facebook|fb)\.com\/.*/i[_0x39966e(0xfd)](_0x15220b[0x0])){await _0x329ee7[_0x39966e(0xff)](_0x1efdfd[_0x39966e(0xf1)],{'text':'╔══════✦❘༻༺❘✦══════╗\x0a🔗\x20*𝙀𝙣𝙡𝙖𝙘𝙚\x20𝙞𝙣𝙫𝙖́𝙡𝙞𝙙𝙤:*\x20¡𝙎𝙤𝙡𝙤\x20𝙨𝙚\x20𝙖𝙘𝙚𝙥𝙩𝙖𝙣\x20𝙚𝙣𝙡𝙖𝙘𝙚𝙨\x20𝙙𝙚\x20𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠!\x0a╚══════✦❘༻༺❘✦══════╝','mentions':_0x329ee7[_0x39966e(0xec)](_0x1efdfd['sender'])},{'quoted':_0x1efdfd});return;}await _0x1efdfd[_0x39966e(0xf9)]('⏳');const _0x281abf=Date[_0x39966e(0x102)](),_0x4e6be4=await _0x329ee7['sendMessage'](_0x1efdfd[_0x39966e(0xf1)],{'text':_0x39966e(0x10f),'mentions':_0x329ee7[_0x39966e(0xec)](_0x1efdfd[_0x39966e(0x110)])},{'quoted':_0x1efdfd}),_0x2b98b1=await igdl(_0x15220b[0x0]);if(!_0x2b98b1?.[_0x39966e(0x117)]?.[_0x39966e(0x10e)])throw new Error(_0x39966e(0xf7));const _0x4f7235=[_0x39966e(0x10d),'480p\x20(SD)','360p\x20(SD)','HD','SD'],_0x50c1bf=_0x4f7235['map'](_0x32e4db=>_0x2b98b1[_0x39966e(0x117)][_0x39966e(0x107)](_0x3c2d48=>_0x3c2d48['resolution'][_0x39966e(0xeb)](_0x32e4db)))['find'](Boolean);if(!_0x50c1bf?.['url'])throw new Error(_0x39966e(0xfa));await showProgress(_0x329ee7,_0x1efdfd,_0x4e6be4),await _0x329ee7['sendMessage'](_0x1efdfd[_0x39966e(0xf1)],{'delete':_0x4e6be4[_0x39966e(0x115)]}),await _0x329ee7['sendMessage'](_0x1efdfd[_0x39966e(0xf1)],{'video':{'url':_0x50c1bf[_0x39966e(0xf5)]},'caption':_0x39966e(0x10a)+((Date[_0x39966e(0x102)]()-_0x281abf)/0x3e8)[_0x39966e(0x111)](0x1)+_0x39966e(0xf3)+_0x50c1bf['resolution']+_0x39966e(0xfc)+_0x50c1bf[_0x39966e(0x106)]+'\x0a╚══════✦❘༻༺❘✦══════╝','fileName':'facebook_video.mp4','mentions':_0x329ee7[_0x39966e(0xec)](_0x1efdfd[_0x39966e(0x110)])}),await _0x1efdfd[_0x39966e(0xf9)]('✅');}catch(_0x3cebf7){console['error'](_0x39966e(0x10c),_0x3cebf7),await _0x329ee7[_0x39966e(0xff)](_0x1efdfd[_0x39966e(0xf1)],{'text':_0x39966e(0x118)+(_0x3cebf7['message']||_0x39966e(0xf2))+_0x39966e(0x116),'mentions':_0x329ee7['parseMention'](_0x1efdfd[_0x39966e(0x110)])},{'quoted':_0x1efdfd}),await _0x1efdfd[_0x39966e(0xf9)]('❌');}};handler[a0_0x377814(0x101)]=['fb'],handler[a0_0x377814(0x109)]=['downloader'],handler[a0_0x377814(0x100)]=/^(fb|facebook)$/i,handler[a0_0x377814(0x108)]=!![];export default handler;
+import { igdl } from 'ruhend-scraper';
+
+// Creado por SinNombre - 5629885039
+
+async function showProgress(conn, m, msg, totalSteps = 9) {
+    const clockAnimation = ['🕐', '🕑', '🕒', '🕓', '🕔', '🕕', '🕖', '🕗', '🕘', '🕙'];
+    const progress = [
+        "▰▱▱▱▱▱▱▱▱ 𝟏𝟎%",
+        "▰▰▱▱▱▱▱▱▱ 𝟐𝟬%",
+        "▰▰▰▱▱▱▱▱▱ 𝟑𝟬%",
+        "▰▰▰▰▱▱▱▱▱ 𝟒𝟬%",
+        "▰▰▰▰▰▱▱▱▱ 𝟓𝟬%",
+        "▰▰▰▰▰▰▱▱▱ 𝟔𝟬%",
+        "▰▰▰▰▰▰▰▱▱ 𝟕𝟬%",
+        "▰▰▰▰▰▰▰▰▱ 𝟖𝟬%",
+        "▰▰▰▰▰▰▰▰▰ 𝟗𝟬%",
+        "▰▰▰▰▰▰▰▰▰ 𝟏𝟬𝟬%"
+    ];
+
+    for (let i = 0; i <= totalSteps; i++) {  
+        await new Promise(resolve => setTimeout(resolve, 1500));  
+        const frame = `\n${clockAnimation[i % clockAnimation.length]} ${progress[i]}`;  
+
+        await conn.sendMessage(m.chat, {  
+            text: `╔══════✦❘༻༺❘✦══════╗\n📥 *𝗣𝗿𝗼𝗴𝗿𝗲𝘀𝗼 𝗱𝗲 𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\n${frame}\n╚══════✦❘༻༺❘✦══════╝`,  
+            edit: msg.key,  
+            mentions: conn.parseMention(m.sender)  
+        });  
+    }
+}
+
+const handler = async (m, { text, conn, args, usedPrefix, command }) => {
+    try {
+        if (!args[0]) {
+            await conn.sendMessage(m.chat, {
+                text: `╔══════✦❘༻༺❘✦══════╗\n🚫 *𝙀𝙧𝙧𝙤𝙧:* ¡𝙊𝙡𝙫𝙞𝙙𝙖𝙨𝙩𝙚 𝙚𝙡 𝙚𝙣𝙡𝙖𝙘𝙚!\n╚══════✦❘༻༺❘✦══════╝`,
+                mentions: conn.parseMention(m.sender)
+            }, { quoted: m });
+            return;
+        }
+
+        if (!/https?:\/\/(www\.)?(facebook|fb)\.com\/.*/i.test(args[0])) {  
+            await conn.sendMessage(m.chat, {  
+                text: `╔══════✦❘༻༺❘✦══════╗\n🔗 *𝙀𝙣𝙡𝙖𝙘𝙚 𝙞𝙣𝙫𝙖́𝙡𝙞𝙙𝙤:* ¡𝙎𝙤𝙡𝙤 𝙨𝙚 𝙖𝙘𝙚𝙥𝙩𝙖𝙣 𝙚𝙣𝙡𝙖𝙘𝙚𝙨 𝙙𝙚 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠!\n╚══════✦❘༻༺❘✦══════╝`,  
+                mentions: conn.parseMention(m.sender)  
+            }, { quoted: m });  
+            return;  
+        }  
+
+        await m.react('⏳');  
+        const startTime = Date.now();  
+
+        const msg = await conn.sendMessage(m.chat, {  
+            text: `╔══════✦❘༻༺❘✦══════╗\n🖤 *𝗜𝗻𝗶𝗰𝗶𝗮𝗻𝗱𝗼 𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻...*\n▱▱▱▱▱▱▱▱▱ 𝟎%\n╚══════✦❘༻༺❘✦══════╝`,
+            mentions: conn.parseMention(m.sender)  
+        }, { quoted: m });  
+
+        const res = await igdl(args[0]);  
+        if (!res?.data?.length) throw new Error('No se encontró contenido');  
+
+        const resolutions = ['720p (HD)', '480p (SD)', '360p (SD)', 'HD', 'SD'];  
+        const data = resolutions.map(r => res.data.find(i => i.resolution.includes(r))).find(Boolean);  
+
+        if (!data?.url) throw new Error('No se encontró versión descargable');  
+
+        await showProgress(conn, m, msg);  
+
+        // 🔥 **Se elimina el mensaje de progreso antes de enviar el video**
+        await conn.sendMessage(m.chat, { delete: msg.key });
+
+        // 📩 **Se envía el video con el cuadro final**
+        await conn.sendMessage(m.chat, {  
+            video: { url: data.url },  
+            caption: `╔══════✦❘༻༺❘✦══════╗\n☠️ *¡𝗘𝘅𝘁𝗿𝗮𝗰𝗰𝗶𝗼́𝗻 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗮𝗱𝗮!*\n✅ *𝘝𝘪́𝘥𝘦𝘰 𝘦𝘹𝘵𝘳𝘢𝘪́𝘥𝘰 𝘤𝘰𝘯 𝘦́𝘹𝘪𝘵𝘰*\n⏱️ *𝘛𝘪𝘦𝘮𝘱𝘰:* ${((Date.now() - startTime)/1000).toFixed(1)}𝘴\n📹 *𝘙𝘦𝘴𝘰𝘭𝘶𝘤𝘪𝘰́𝘯:* ${data.resolution} | 🔽 *𝘛𝘢𝘮𝘢𝘯̃𝘰:* ${data.size}\n╚══════✦❘༻༺❘✦══════╝`,  
+            fileName: 'facebook_video.mp4',  
+            mentions: conn.parseMention(m.sender)  
+        });  
+
+        await m.react('✅');  
+
+    } catch (error) {  
+        console.error('Error:', error);  
+        await conn.sendMessage(m.chat, {  
+            text: `╔══════✦❘༻༺❘✦══════╗\n❌ *Error:* ${error.message || 'Ocurrió un error inesperado'}\n╚══════✦❘༻༺❘✦══════╝`,  
+            mentions: conn.parseMention(m.sender)  
+        }, { quoted: m });  
+        await m.react('❌');  
+    }
+};
+
+handler.help = ['fb'];
+handler.tags = ['downloader'];
+handler.command = /^(fb|facebook)$/i;
+handler.group = true;
+
+export default handler;

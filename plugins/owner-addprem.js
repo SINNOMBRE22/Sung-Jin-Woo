@@ -1,1 +1,74 @@
-const a0_0x466f48=a0_0x5a78;(function(_0x319015,_0x18fc45){const _0x28eb05=a0_0x5a78,_0x2621cc=_0x319015();while(!![]){try{const _0x431590=parseInt(_0x28eb05(0x97))/0x1+-parseInt(_0x28eb05(0x8b))/0x2+parseInt(_0x28eb05(0x91))/0x3*(-parseInt(_0x28eb05(0xa2))/0x4)+parseInt(_0x28eb05(0x79))/0x5*(-parseInt(_0x28eb05(0x93))/0x6)+-parseInt(_0x28eb05(0x84))/0x7*(parseInt(_0x28eb05(0x9c))/0x8)+parseInt(_0x28eb05(0x85))/0x9+parseInt(_0x28eb05(0x7b))/0xa;if(_0x431590===_0x18fc45)break;else _0x2621cc['push'](_0x2621cc['shift']());}catch(_0x121487){_0x2621cc['push'](_0x2621cc['shift']());}}}(a0_0x500d,0x216e0));const handler=async(_0xe1c28c,{conn:_0x5561f2,text:_0x22e06a,usedPrefix:_0x2b716c,command:_0x4d279d})=>{const _0x2e413f=a0_0x5a78;let _0x1fe063;if(_0xe1c28c[_0x2e413f(0x8e)])_0x1fe063=_0xe1c28c[_0x2e413f(0x8a)][0x0]?_0xe1c28c[_0x2e413f(0x8a)][0x0]:_0xe1c28c[_0x2e413f(0x87)]?_0xe1c28c[_0x2e413f(0x87)][_0x2e413f(0x7f)]:![];else _0x1fe063=_0xe1c28c[_0x2e413f(0x9b)];const _0x6de4b6=_0x2e413f(0x81)+(_0x2b716c+_0x4d279d)+'\x20@'+_0xe1c28c[_0x2e413f(0x7f)][_0x2e413f(0x83)]`@`[0x0]+'\x201d*\x0a*◉\x20'+(_0x2b716c+_0x4d279d)+'\x20@'+_0xe1c28c['sender']['split']`@`[0x0]+_0x2e413f(0x86);if(!_0x1fe063)return _0xe1c28c[_0x2e413f(0x9d)](_0x6de4b6,null,{'mentions':_0x5561f2[_0x2e413f(0x7a)](_0x6de4b6)});const _0x3d163a=global['db'][_0x2e413f(0x9f)][_0x2e413f(0xa1)][_0x1fe063],_0x503362=_0x22e06a[_0x2e413f(0x95)]('@'+_0x1fe063[_0x2e413f(0x83)]`@`[0x0],'')[_0x2e413f(0x7d)](),_0x3a9636=_0x2e413f(0x99)+('@'+_0x1fe063[_0x2e413f(0x83)]`@`[0x0])+_0x2e413f(0x98);if(!_0x3d163a)return _0xe1c28c[_0x2e413f(0x9d)](_0x3a9636,null,{'mentions':_0x5561f2[_0x2e413f(0x7a)](_0x3a9636)});const _0x37d958=Date[_0x2e413f(0x8f)]();let _0x3e4ccd=0x0;const _0x342cbb=_0x503362[_0x2e413f(0x94)](/(\d+)([dhw])/);if(_0x342cbb){const _0x32b559=parseInt(_0x342cbb[0x1]),_0xbb9b2c=_0x342cbb[0x2];if(_0xbb9b2c==='d')_0x3e4ccd=_0x32b559*0x18*0x3c*0x3c*0x3e8;else{if(_0xbb9b2c==='h')_0x3e4ccd=_0x32b559*0x3c*0x3c*0x3e8;else _0xbb9b2c==='w'&&(_0x3e4ccd=_0x32b559*0x7*0x18*0x3c*0x3c*0x3e8);}}else return _0xe1c28c[_0x2e413f(0x9d)](_0x2e413f(0x7e),null,{'mentions':_0x5561f2[_0x2e413f(0x7a)]('@'+_0xe1c28c[_0x2e413f(0x7f)][_0x2e413f(0x83)]`@`[0x0])});if(_0x4d279d==_0x2e413f(0x7c)){if(_0x37d958<_0x3d163a[_0x2e413f(0x88)])_0x3d163a[_0x2e413f(0x88)]+=_0x3e4ccd;else _0x3d163a['premiumTime']=_0x37d958+_0x3e4ccd;_0x3d163a[_0x2e413f(0x8c)]=!![];const _0x4e0ffb=(_0x3d163a['premiumTime']-_0x37d958)/0x3e8,_0x5baf4f=_0x2e413f(0x90)+_0x1fe063[_0x2e413f(0x83)]`@`[0x0]+'*\x0a*🕐\x20𝚃𝙸𝙴𝙼𝙿𝙾:\x20'+_0x503362+_0x2e413f(0x89)+_0x4e0ffb+'\x20segundos*';_0xe1c28c['reply'](_0x5baf4f,null,{'mentions':_0x5561f2['parseMention'](_0x5baf4f)});}};handler[a0_0x466f48(0x77)]=[a0_0x466f48(0x82)],handler[a0_0x466f48(0x8d)]=[a0_0x466f48(0x9a)],handler[a0_0x466f48(0x80)]=[a0_0x466f48(0x7c)],handler[a0_0x466f48(0x78)]=!![],handler['rowner']=!![];function a0_0x500d(){const _0x242f46=['1833282tRSEeB','\x201w*','quoted','premiumTime','*\x0a*📉\x20𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴:\x20','mentionedJid','527050wTYDkT','premium','tags','isGroup','now','*🎟️\x20𝙽𝚄𝙴𝚅𝙾\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝙿𝚁𝙴𝙼𝙸𝚄𝙼!!!*\x0a\x0a*✨\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾:\x20@','77223CyCoty','\x20segundo','1238442mWHFDA','match','replace','\x20hora','180229stkfZp','\x20𝙽𝙾\x20𝚂𝙴\x20𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰\x20𝙴𝙽\x20𝙼𝙸\x20𝙱𝙰𝚂𝙴\x20𝙳𝙴\x20𝙳𝙰𝚃𝙾𝚂*','*[❗]\x20𝙴𝙻\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20','owner','chat','151144dFwwCv','reply','\x20minuto','data','floor','users','4GWvWkJ','help','group','5VGxPRI','parseMention','2864600ArfYkR','addprem','trim','*[❗]\x20Formato\x20de\x20tiempo\x20incorrecto.\x20Usa\x20d\x20para\x20días,\x20h\x20para\x20horas,\x20o\x20w\x20para\x20semanas.*','sender','command','*[❗𝐈𝐍𝐅𝐎❗]\x20𝙸𝙽𝙶𝚁𝙴𝚂𝙰\x20𝙴𝙻\x20@𝚝𝚊𝚐\x20𝙳𝙴\x20𝙻𝙰\x20𝙿𝙴𝚁𝚂𝙾𝙽𝙰\x20𝙾\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰\x20𝙰\x20𝙰𝙻𝙶𝚄𝙽\x20𝙼𝙴𝙽𝚂𝙰𝙹𝙴\x20𝙳𝙴\x20𝙻𝙰\x20𝙿𝙴𝚁𝚂𝙾𝙽𝙰\x20𝚀𝚄𝙴\x20𝙳𝙴𝚂𝙴𝙴\x20𝙰𝙶𝚁𝙴𝙶𝙰𝚁\x20𝙰\x20𝙻𝙾𝚂\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂\x20𝙿𝚁𝙴𝙼𝙸𝚄𝙼*\x0a\x0a*—◉\x20𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\x0a*◉\x20','addprem\x20[@user]\x20<time>','split','14BzmsTu'];a0_0x500d=function(){return _0x242f46;};return a0_0x500d();}export default handler;function a0_0x5a78(_0x41a6f4,_0x5c8ed9){const _0x500d10=a0_0x500d();return a0_0x5a78=function(_0x5a78e4,_0x3d4800){_0x5a78e4=_0x5a78e4-0x77;let _0x4ab99f=_0x500d10[_0x5a78e4];return _0x4ab99f;},a0_0x5a78(_0x41a6f4,_0x5c8ed9);}async function formatTime(_0x374fa9){const _0x136417=a0_0x466f48;let _0x38dd2e=Math['floor'](_0x374fa9/0x3e8),_0x54a216=Math[_0x136417(0xa0)](_0x38dd2e/0x3c),_0x4f8676=Math[_0x136417(0xa0)](_0x54a216/0x3c);const _0x26b5e1=Math[_0x136417(0xa0)](_0x4f8676/0x18);_0x38dd2e%=0x3c,_0x54a216%=0x3c,_0x4f8676%=0x18;let _0x542280='';return _0x26b5e1&&(_0x542280+=_0x26b5e1+'\x20día'+(_0x26b5e1>0x1?'s':'')+'\x20'),_0x4f8676&&(_0x542280+=_0x4f8676+_0x136417(0x96)+(_0x4f8676>0x1?'s':'')+'\x20'),_0x54a216&&(_0x542280+=_0x54a216+_0x136417(0x9e)+(_0x54a216>0x1?'s':'')+'\x20'),_0x38dd2e&&(_0x542280+=_0x38dd2e+_0x136417(0x92)+(_0x38dd2e>0x1?'s':'')+'\x20'),_0x542280['trim']();}
+const handler = async (m, { conn, text, usedPrefix, command }) => {
+  let who;
+  if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
+  else who = m.chat;
+
+  const textpremERROR = `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 @𝚝𝚊𝚐 𝙳𝙴 𝙻𝙰 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝙰𝙻𝙶𝚄𝙽 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙳𝙴 𝙻𝙰 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙴 𝙰𝙶𝚁𝙴𝙶𝙰𝚁 𝙰 𝙻𝙾𝚂 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝙿𝚁𝙴𝙼𝙸𝚄𝙼*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*◉ ${usedPrefix + command} @${m.sender.split`@`[0]} 1d*\n*◉ ${usedPrefix + command} @${m.sender.split`@`[0]} 1w*`;
+  if (!who) return m.reply(textpremERROR, null, { mentions: conn.parseMention(textpremERROR) });
+
+  const user = global.db.data.users[who];
+  const txt = text.replace('@' + who.split`@`[0], '').trim();
+
+  const ERROR = `*[❗] 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 ${'@' + who.split`@`[0]} 𝙽𝙾 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰 𝙴𝙽 𝙼𝙸 𝙱𝙰𝚂𝙴 𝙳𝙴 𝙳𝙰𝚃𝙾𝚂*`;
+  if (!user) return m.reply(ERROR, null, { mentions: conn.parseMention(ERROR) });
+
+  const now = Date.now();
+  let duration = 0;
+  const match = txt.match(/(\d+)([dhw])/);
+
+  if (match) {
+    const amount = parseInt(match[1]);
+    const unit = match[2];
+
+    if (unit === 'd') {
+      duration = amount * 24 * 60 * 60 * 1000; // días a milisegundos
+    } else if (unit === 'h') {
+      duration = amount * 60 * 60 * 1000; // horas a milisegundos
+    } else if (unit === 'w') {
+      duration = amount * 7 * 24 * 60 * 60 * 1000; // semanas a milisegundos
+    }
+  } else {
+    return m.reply(`*[❗] Formato de tiempo incorrecto. Usa d para días, h para horas, o w para semanas.*`, null, { mentions: conn.parseMention(`@${m.sender.split`@`[0]}`) });
+  }
+
+  if (command == 'addprem') {
+    if (now < user.premiumTime) user.premiumTime += duration;
+    else user.premiumTime = now + duration;
+    user.premium = true;
+    const timeLeft = (user.premiumTime - now) / 1000; // tiempo restante en segundos
+    const textprem = `*🎟️ 𝙽𝚄𝙴𝚅𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼!!!*\n\n*✨ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: @${who.split`@`[0]}*\n*🕐 𝚃𝙸𝙴𝙼𝙿𝙾: ${txt}*\n*📉 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴: ${timeLeft} segundos*`;
+    m.reply(textprem, null, { mentions: conn.parseMention(textprem) });
+  }
+};
+
+handler.help = ['addprem [@user] <time>'];
+handler.tags = ['owner'];
+handler.command = ['addprem'];
+handler.group = true;
+handler.rowner = true;
+
+export default handler;
+
+async function formatTime(ms) {
+  let seconds = Math.floor(ms / 1000);
+  let minutes = Math.floor(seconds / 60);
+  let hours = Math.floor(minutes / 60);
+  const days = Math.floor(hours / 24);
+  seconds %= 60;
+  minutes %= 60;
+  hours %= 24;
+  let timeString = '';
+  if (days) {
+    timeString += `${days} día${days > 1 ? 's' : ''} `;
+  }
+  if (hours) {
+    timeString += `${hours} hora${hours > 1 ? 's' : ''} `;
+  }
+  if (minutes) {
+    timeString += `${minutes} minuto${minutes > 1 ? 's' : ''} `;
+  }
+  if (seconds) {
+    timeString += `${seconds} segundo${seconds > 1 ? 's' : ''} `;
+  }
+  return timeString.trim();
+}

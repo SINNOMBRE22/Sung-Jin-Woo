@@ -1,1 +1,132 @@
-const a0_0x901988=a0_0x1b6c;function a0_0x1d15(){const _0x182a0f=['downloader_x_twitter','4143720pvzMVa','premium','twitter','error','plugins','Mozilla/5.0\x20(Macintosh;\x20Intel\x20Mac\x20OS\x20X\x2010_15_3)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/80.0.3987.132\x20Safari/537.36','parse','1595632ydiuRw','length','chat','tweet','readFileSync','downloader','data','default','result','3681048JXVLeq','push','likes','created_at','texto1','texto2','caption','https://pastebin.com/raw/SnCfd4ru','text','texto4','1380849TLLLOI','4228165CkTsvc','4OttkGl','match','texto5','group','bitrate','584393qNKbRp','forEach','screen_name','type','avatar_url','created_timestamp','video','.json','thumbnail_url','sendMessage','author','wait','media','2UiFiOT','help','name','13093587MYEivl','duration','url','content_type','photo','./language/','code'];a0_0x1d15=function(){return _0x182a0f;};return a0_0x1d15();}(function(_0x113429,_0x6a39a7){const _0x53689c=a0_0x1b6c,_0x4d5628=_0x113429();while(!![]){try{const _0x1786e2=-parseInt(_0x53689c(0xde))/0x1*(parseInt(_0x53689c(0xeb))/0x2)+-parseInt(_0x53689c(0xd7))/0x3*(-parseInt(_0x53689c(0xd9))/0x4)+parseInt(_0x53689c(0xd8))/0x5+parseInt(_0x53689c(0xf6))/0x6+parseInt(_0x53689c(0xcd))/0x7+parseInt(_0x53689c(0xfd))/0x8+-parseInt(_0x53689c(0xee))/0x9;if(_0x1786e2===_0x6a39a7)break;else _0x4d5628['push'](_0x4d5628['shift']());}catch(_0x5ae090){_0x4d5628['push'](_0x4d5628['shift']());}}}(a0_0x1d15,0xa6a7a));import a0_0x56d1f3 from'axios';let enviando=![];const handler=async(_0x43076e,{conn:_0x46b190,text:_0x6eb834,usedPrefix:_0x210a0f,command:_0x47e94d})=>{const _0x17b482=a0_0x1b6c,_0x1d583b=global,_0x9b0556=_0x1d583b['db'][_0x17b482(0x103)]['users'][_0x43076e['sender']]['language'],_0x8257db=JSON[_0x17b482(0xfc)](fs[_0x17b482(0x101)](_0x17b482(0xf3)+_0x9b0556+'.json')),_0x57a401=_0x8257db[_0x17b482(0xfa)][_0x17b482(0xf5)];if(!_0x6eb834)throw _0x57a401[_0x17b482(0xd1)]+'\x20'+(_0x210a0f+_0x47e94d)+'*\x20https://twitter.com/auronplay/status/1586487664274206720?s=20&t=3snvkvwGUIez5iWYQAehpw';if(enviando)return;enviando=!![];try{await _0x46b190[_0x17b482(0xe7)](_0x43076e[_0x17b482(0xff)],{'text':global[_0x17b482(0xe9)]},{'quoted':_0x43076e});const _0x14edc3=await TwitterDL(_0x6eb834);if(_0x14edc3?.['result'][_0x17b482(0xe1)]==_0x17b482(0xe4)){const _0x480379=_0x14edc3?.[_0x17b482(0xcc)][_0x17b482(0xd3)]?_0x14edc3[_0x17b482(0xcc)][_0x17b482(0xd3)]:_0x57a401[_0x17b482(0xd2)];for(let _0x41aa6d=0x0;_0x41aa6d<_0x14edc3[_0x17b482(0xcc)]['media'][_0x17b482(0xfe)];_0x41aa6d++){await _0x46b190['sendMessage'](_0x43076e[_0x17b482(0xff)],{'video':{'url':_0x14edc3[_0x17b482(0xcc)]['media'][_0x41aa6d][_0x17b482(0xcc)][0x0]['url']},'caption':_0x480379},{'quoted':_0x43076e});};enviando=![];return;}else{if(_0x14edc3?.[_0x17b482(0xcc)][_0x17b482(0xe1)]==_0x17b482(0xf2)){const _0x40a531=_0x14edc3?.[_0x17b482(0xcc)][_0x17b482(0xd3)]?_0x14edc3[_0x17b482(0xcc)][_0x17b482(0xd3)]:_0x57a401[_0x17b482(0xd2)];for(let _0x305ed3=0x0;_0x305ed3<_0x14edc3[_0x17b482(0xcc)][_0x17b482(0xea)][_0x17b482(0xfe)];_0x305ed3++){await _0x46b190[_0x17b482(0xe7)](_0x43076e[_0x17b482(0xff)],{'image':{'url':_0x14edc3['result'][_0x17b482(0xea)][_0x305ed3][_0x17b482(0xf0)]},'caption':_0x40a531},{'quoted':_0x43076e});};enviando=![];return;}}}catch{enviando=![];throw _0x57a401['texto3'];return;}};handler[a0_0x901988(0xec)]=[a0_0x901988(0xf8)],handler['tags']=[a0_0x901988(0x102)],handler['command']=/^((x|xdl|dlx|twdl|tw|twt|twitter)(dl)?)$/i,handler[a0_0x901988(0xf7)]=!![],handler[a0_0x901988(0xdc)]=!![];export default handler;function a0_0x1b6c(_0x3fd84f,_0x4d9a29){const _0x1d1543=a0_0x1d15();return a0_0x1b6c=function(_0x1b6cc7,_0x4087cd){_0x1b6cc7=_0x1b6cc7-0xcb;let _0x5c256f=_0x1d1543[_0x1b6cc7];return _0x5c256f;},a0_0x1b6c(_0x3fd84f,_0x4d9a29);}const _twitterapi=_0x5db648=>'https://info.tweeload.site/status/'+_0x5db648+a0_0x901988(0xe5),getAuthorization=async()=>{const _0x340c13=a0_0x901988,{data:_0x16afe5}=await a0_0x56d1f3[_0x340c13(0xcb)]['get'](_0x340c13(0xd4));return _0x16afe5;},TwitterDL=async _0x4f207f=>{return new Promise(async(_0x14a0d6,_0x2719dd)=>{const _0x5b6882=a0_0x1b6c,_0x743259=_0x4f207f['match'](/\/([\d]+)/);if(!_0x743259)return _0x14a0d6({'status':_0x5b6882(0xf9),'message':tradutor[_0x5b6882(0xd6)]});const _0x3bad82=await a0_0x56d1f3[_0x5b6882(0xcb)](_twitterapi(_0x743259[0x1]),{'method':'GET','headers':{'Authorization':await getAuthorization(),'user-agent':_0x5b6882(0xfb)}});if(_0x3bad82['data'][_0x5b6882(0xf4)]!==0xc8)return _0x14a0d6({'status':'error','message':tradutor[_0x5b6882(0xdb)]});const _0x2908b4={'id':_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)]['author']['id'],'name':_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)][_0x5b6882(0xe8)][_0x5b6882(0xed)],'username':_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)]['author'][_0x5b6882(0xe0)],'avatar_url':_0x3bad82['data'][_0x5b6882(0x100)]['author'][_0x5b6882(0xe2)],'banner_url':_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)]['author']['banner_url']};let _0x5849c1=[],_0x62dffd;_0x3bad82['data'][_0x5b6882(0x100)]?.[_0x5b6882(0xea)]?.['videos']?(_0x62dffd='video',_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)][_0x5b6882(0xea)]['videos'][_0x5b6882(0xdf)](_0x14bbd6=>{const _0x3f01ca=_0x5b6882,_0x2704b9=[];_0x14bbd6['video_urls'][_0x3f01ca(0xdf)](_0x109d18=>{const _0x8cd0d7=_0x3f01ca;_0x2704b9[_0x8cd0d7(0xce)]({'bitrate':_0x109d18[_0x8cd0d7(0xdd)],'content_type':_0x109d18[_0x8cd0d7(0xf1)],'resolution':_0x109d18[_0x8cd0d7(0xf0)][_0x8cd0d7(0xda)](/([\d ]{2,5}[x][\d ]{2,5})/)[0x0],'url':_0x109d18['url']});}),_0x2704b9[_0x3f01ca(0xfe)]!==0x0&&_0x5849c1[_0x3f01ca(0xce)]({'type':_0x14bbd6['type'],'duration':_0x14bbd6[_0x3f01ca(0xef)],'thumbnail_url':_0x14bbd6[_0x3f01ca(0xe6)],'result':_0x14bbd6[_0x3f01ca(0xe1)]===_0x3f01ca(0xe4)?_0x2704b9:_0x14bbd6[_0x3f01ca(0xf0)]});})):(_0x62dffd=_0x5b6882(0xf2),_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)][_0x5b6882(0xea)]['photos']['forEach'](_0x135333=>{_0x5849c1['push'](_0x135333);})),_0x14a0d6({'status':'success','result':{'id':_0x3bad82['data']['tweet']['id'],'caption':_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)][_0x5b6882(0xd5)],'created_at':_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)][_0x5b6882(0xd0)],'created_timestamp':_0x3bad82['data'][_0x5b6882(0x100)][_0x5b6882(0xe3)],'replies':_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)]['replies'],'retweets':_0x3bad82[_0x5b6882(0x103)]['tweet']['retweets'],'likes':_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)][_0x5b6882(0xcf)],'url':_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)][_0x5b6882(0xf0)],'possibly_sensitive':_0x3bad82[_0x5b6882(0x103)][_0x5b6882(0x100)]['possibly_sensitive'],'author':_0x2908b4,'type':_0x62dffd,'media':_0x5849c1['length']!==0x0?_0x5849c1:null}});});};
+import axios from 'axios';
+
+let enviando = false;
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.downloader_x_twitter
+
+
+if (!text) throw `${tradutor.texto1} ${usedPrefix + command}* https://twitter.com/auronplay/status/1586487664274206720?s=20&t=3snvkvwGUIez5iWYQAehpw`;
+if (enviando) return;
+    enviando = true;
+try {
+   await conn.sendMessage(m.chat, {text: global.wait}, {quoted: m}); 
+   const res = await TwitterDL(text);
+ if (res?.result.type == 'video') {
+     const caption = res?.result.caption ? res.result.caption : tradutor.texto2;
+     for (let i = 0; i < res.result.media.length; i++) {
+     await conn.sendMessage(m.chat, {video: {url: res.result.media[i].result[0].url}, caption: caption}, {quoted: m});
+     };
+     enviando = false;
+     return;
+ } else if (res?.result.type == 'photo') {
+     const caption = res?.result.caption ? res.result.caption : tradutor.texto2;
+     for (let i = 0; i < res.result.media.length; i++) {
+     await conn.sendMessage(m.chat, {image: {url: res.result.media[i].url}, caption: caption}, {quoted: m});
+     };
+     enviando = false;
+     return;
+  }
+} catch {
+    enviando = false;
+    throw tradutor.texto3;
+    return;
+  }
+};    
+handler.help = ['twitter'];
+handler.tags = ['downloader'];
+handler.command = /^((x|xdl|dlx|twdl|tw|twt|twitter)(dl)?)$/i;
+handler.premium = true
+handler.group = true
+export default handler;
+
+const _twitterapi = (id) => `https://info.tweeload.site/status/${id}.json`;
+const getAuthorization = async () => {
+    const { data } = await axios.default.get("https://pastebin.com/raw/SnCfd4ru");
+    return data;
+};
+const TwitterDL = async (url) => {
+  return new Promise(async (resolve, reject) => {
+    const id = url.match(/\/([\d]+)/);
+    if (!id)
+      return resolve({
+        status: "error",
+        message:
+          tradutor.texto4,
+      });
+      const response = await axios.default(_twitterapi(id[1]), {
+        method: "GET",
+        headers: {
+          Authorization: await getAuthorization(),
+          "user-agent":
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
+        },
+      });
+
+      if (response.data.code !== 200) {
+        return resolve({
+          status: "error",
+          message: tradutor.texto5,
+        });
+      }
+
+      const author = {
+        id: response.data.tweet.author.id,
+        name: response.data.tweet.author.name,
+        username: response.data.tweet.author.screen_name,
+        avatar_url: response.data.tweet.author.avatar_url,
+        banner_url: response.data.tweet.author.banner_url,
+      };
+
+      let media = [];
+      let type;
+
+      if (response.data.tweet?.media?.videos) {
+        type = "video";
+        response.data.tweet.media.videos.forEach((v) => {
+          const resultVideo = [];
+          v.video_urls.forEach((z) => {
+            resultVideo.push({
+              bitrate: z.bitrate,
+              content_type: z.content_type,
+              resolution: z.url.match(/([\d ]{2,5}[x][\d ]{2,5})/)[0],
+              url: z.url,
+            });
+          });
+          if (resultVideo.length !== 0) {
+            media.push({
+              type: v.type,
+              duration: v.duration,
+              thumbnail_url: v.thumbnail_url,
+              result: v.type === "video" ? resultVideo : v.url,
+            });
+          }
+        });
+      } else {
+        type = "photo";
+        response.data.tweet.media.photos.forEach((v) => {
+          media.push(v);
+        });
+      }
+
+      resolve({
+        status: "success",
+        result: {
+          id: response.data.tweet.id,
+          caption: response.data.tweet.text,
+          created_at: response.data.tweet.created_at,
+          created_timestamp: response.data.tweet.created_timestamp,
+          replies: response.data.tweet.replies,
+          retweets: response.data.tweet.retweets,
+          likes: response.data.tweet.likes,
+          url: response.data.tweet.url,
+          possibly_sensitive: response.data.tweet.possibly_sensitive,
+          author,
+          type,
+          media: media.length !== 0 ? media : null,
+        },
+      });
+  });
+};

@@ -1,1 +1,20 @@
-function a0_0x52f4(_0x1066c2,_0x42311e){const _0x578b95=a0_0x578b();return a0_0x52f4=function(_0x52f415,_0x16d179){_0x52f415=_0x52f415-0x1ce;let _0x217397=_0x578b95[_0x52f415];return _0x217397;},a0_0x52f4(_0x1066c2,_0x42311e);}const a0_0x331d07=a0_0x52f4;(function(_0x53e553,_0x4d4cf8){const _0x17b4ab=a0_0x52f4,_0x22c94d=_0x53e553();while(!![]){try{const _0x39a3a4=-parseInt(_0x17b4ab(0x1eb))/0x1*(parseInt(_0x17b4ab(0x1db))/0x2)+parseInt(_0x17b4ab(0x1ed))/0x3+-parseInt(_0x17b4ab(0x1df))/0x4*(-parseInt(_0x17b4ab(0x1d4))/0x5)+parseInt(_0x17b4ab(0x1d7))/0x6+-parseInt(_0x17b4ab(0x1e4))/0x7+parseInt(_0x17b4ab(0x1e2))/0x8+-parseInt(_0x17b4ab(0x1d0))/0x9;if(_0x39a3a4===_0x4d4cf8)break;else _0x22c94d['push'](_0x22c94d['shift']());}catch(_0x139412){_0x22c94d['push'](_0x22c94d['shift']());}}}(a0_0x578b,0x5f406));const handler=async(_0xec75c9,{conn:_0x5ea525,command:_0x5a8506,usedPrefix:_0x8d83e0,text:_0x1a1f45})=>{const _0x7a7d50=a0_0x52f4,_0x21e8a0=global,_0x38e03=_0x21e8a0['db']['data'][_0x7a7d50(0x1d5)][_0xec75c9[_0x7a7d50(0x1e8)]][_0x7a7d50(0x1ea)],_0x178ee0=JSON[_0x7a7d50(0x1ef)](fs[_0x7a7d50(0x1e9)]('./language/'+_0x38e03+_0x7a7d50(0x1de))),_0x539378=_0x178ee0[_0x7a7d50(0x1d9)][_0x7a7d50(0x1da)],_0x591545=_0x5a8506[_0x7a7d50(0x1ee)](/ver/i,'');if(!_0x1a1f45)throw _0x539378[_0x7a7d50(0x1d3)][0x0]+'\x20*'+_0x8d83e0+'list'+_0x591545+'*\x20'+_0x539378[_0x7a7d50(0x1d3)][0x1];const _0xe13f07=global['db'][_0x7a7d50(0x1cf)][_0x7a7d50(0x1d8)];if(!_0x1a1f45 in _0xe13f07)throw'*[❗𝐈𝐍𝐅𝐎❗]\x20\x27'+_0x1a1f45+'\x27\x20'+_0x539378['texto2'];const _0x253ac3=await _0x5ea525[_0x7a7d50(0x1ec)](_0xe13f07[_0x1a1f45]);await _0x253ac3[_0x7a7d50(0x1e7)](_0xec75c9[_0x7a7d50(0x1ce)],!![]);};handler['help']=['vn',a0_0x331d07(0x1e5),'video',a0_0x331d07(0x1e0),a0_0x331d07(0x1d6),a0_0x331d07(0x1e1)]['map'](_0x1df97a=>a0_0x331d07(0x1e3)+_0x1df97a+a0_0x331d07(0x1dc)),handler[a0_0x331d07(0x1dd)]=[a0_0x331d07(0x1d1)],handler[a0_0x331d07(0x1d2)]=/^ver(vn|msg|video|audio|foto|sticker)$/,handler[a0_0x331d07(0x1e6)]=!![];export default handler;function a0_0x578b(){const _0x29cef2=['data','5395050uKVLDO','database','command','texto1','1843755pWcisd','users','foto','558504IZMvsb','msgs','plugins','owner_getmsg','14fcyOHJ','\x20<text>','tags','.json','8EztNuD','audio','sticker','1692912fdZvbL','get','2084502VVHVnh','msg','rowner','copyNForward','sender','readFileSync','language','34254cYLwkN','serializeM','1454892fyjRCP','replace','parse','chat'];a0_0x578b=function(){return _0x29cef2;};return a0_0x578b();}
+
+
+const handler = async (m, {conn, command, usedPrefix, text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_getmsg
+
+  const which = command.replace(/ver/i, '');
+  if (!text) throw `${tradutor.texto1[0]} *${usedPrefix}list${which}* ${tradutor.texto1[1]}`;
+  const msgs = global.db.data.msgs;
+  if (!text in msgs) throw `*[❗𝐈𝐍𝐅𝐎❗] '${text}' ${tradutor.texto2}`;
+  const _m = await conn.serializeM(msgs[text]);
+  await _m.copyNForward(m.chat, true);
+};
+handler.help = ['vn', 'msg', 'video', 'audio', 'foto', 'sticker'].map((v) => 'get' + v + ' <text>');
+handler.tags = ['database'];
+handler.command = /^ver(vn|msg|video|audio|foto|sticker)$/;
+handler.rowner = true;
+export default handler;

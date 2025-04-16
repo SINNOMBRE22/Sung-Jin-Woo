@@ -1,1 +1,82 @@
-const a0_0x3d1bf5=a0_0x3dce;function a0_0x41e2(){const _0x11d0cd=['data','parse','2819376tyVaVY','downloader','tiktok','https://t.me/vpnmx','src','no_watermark_hd','MyApiRestBaseUrl','application/x-www-form-urlencoded;\x20charset=UTF-8','tags','value','status','texto9','8705270QGcZfX','\x20https://vm.tiktok.com/ZM686Q4ER/_','1231201SVuANn','jid','texto4','/api/tiktokv2?url=','455604LOukiz','texto5','texto1','plugins','texto7','2938908OdbgZa','./language/','#download-form\x20>\x20input[type=hidden]:nth-child(2)','message','div.download-links\x20>\x20div:nth-child(1)\x20>\x20a','limit','getFile','no_watermark_raw','readFileSync','nowm','sendMessage','entries','texto2','group','load','test','tiktoknowm','564ulXWfN','24CowBHz','video','post','chat','.json','&apikey=','play','user','texto8','42460PXuZkd','https://tikcdn.net','1342950CtDpru','descargas_tiktok','attr','div.download-links\x20>\x20div:nth-child(2)\x20>\x20a','18kriUKk','texto6','users','help','sender','command','tomp3_\x20','img','texto10','href','MyApiRestApikey'];a0_0x41e2=function(){return _0x11d0cd;};return a0_0x41e2();}(function(_0x20bc65,_0x1c0236){const _0x14e03d=a0_0x3dce,_0x1b9975=_0x20bc65();while(!![]){try{const _0x43862f=-parseInt(_0x14e03d(0x122))/0x1+parseInt(_0x14e03d(0x126))/0x2*(parseInt(_0x14e03d(0x107))/0x3)+-parseInt(_0x14e03d(0xf7))/0x4*(-parseInt(_0x14e03d(0x101))/0x5)+parseInt(_0x14e03d(0x12b))/0x6+parseInt(_0x14e03d(0x103))/0x7*(-parseInt(_0x14e03d(0xf8))/0x8)+parseInt(_0x14e03d(0x114))/0x9+-parseInt(_0x14e03d(0x120))/0xa;if(_0x43862f===_0x1c0236)break;else _0x1b9975['push'](_0x1b9975['shift']());}catch(_0x2d4058){_0x1b9975['push'](_0x1b9975['shift']());}}}(a0_0x41e2,0xa8744));import a0_0x3541b3 from'api-dylux';function a0_0x3dce(_0x202ab2,_0x21428d){const _0x41e293=a0_0x41e2();return a0_0x3dce=function(_0x3dcee3,_0x1a642b){_0x3dcee3=_0x3dcee3-0xee;let _0xdd7ee9=_0x41e293[_0x3dcee3];return _0xdd7ee9;},a0_0x3dce(_0x202ab2,_0x21428d);}import a0_0x17ea4b from'axios';import a0_0x517df3 from'cheerio';import{tiktok}from'@xct007/frieren-scraper';import{generateWAMessageFromContent}from'@whiskeysockets/baileys';import{tiktokdl}from'@bochilteam/scraper';const handler=async(_0x4080dc,{conn:_0x2022d8,text:_0x10fa0a,args:_0x2dd1dc,usedPrefix:_0x5b80cb,command:_0x1a61da})=>{const _0xc38500=a0_0x3dce,_0x2468b9=global,_0x1bae57=_0x2468b9['db'][_0xc38500(0x112)][_0xc38500(0x109)][_0x4080dc[_0xc38500(0x10b)]]['language'],_0x18e9d0=JSON[_0xc38500(0x113)](fs[_0xc38500(0xee)](_0xc38500(0x12c)+_0x1bae57+_0xc38500(0xfc))),_0x21d982=_0x18e9d0[_0xc38500(0x129)][_0xc38500(0x104)];if(!_0x10fa0a)throw _0x21d982[_0xc38500(0x128)]+'\x20_'+(_0x5b80cb+_0x1a61da)+_0xc38500(0x121);if(!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi['test'](_0x10fa0a))throw _0x21d982[_0xc38500(0xf2)]+'\x20_'+(_0x5b80cb+_0x1a61da)+'\x20https://vm.tiktok.com/ZM686Q4ER/_';const _0x1b24a0=''+_0x21d982['texto3'];try{const _0x116503={'quoted':_0x4080dc,'userJid':_0x2022d8[_0xc38500(0xff)][_0xc38500(0x123)]},_0x2fdf99=generateWAMessageFromContent(_0x4080dc[_0xc38500(0xfb)],{'extendedTextMessage':{'text':_0x1b24a0,'contextInfo':{'externalAdReply':{'title':'Sung\x20Jin-Woo','body':null,'thumbnail':imagen1,'sourceUrl':_0xc38500(0x117)},'mentionedJid':[_0x4080dc[_0xc38500(0x10b)]]}}},_0x116503);await _0x2022d8['relayMessage'](_0x4080dc[_0xc38500(0xfb)],_0x2fdf99[_0xc38500(0x12e)],{'messageId':_0x2fdf99['key']['id'],'mentions':[_0x4080dc[_0xc38500(0x10b)]]});const _0x2894e6=await _0x2022d8[_0xc38500(0x131)](global[_0xc38500(0x11a)]+_0xc38500(0x125)+_0x2dd1dc[0x0]+_0xc38500(0xfd)+global[_0xc38500(0x111)]),_0x41bbb4=_0x21d982['texto4'][0x0]+'\x20_'+_0x5b80cb+_0xc38500(0x10d)+_0x21d982[_0xc38500(0x124)][0x1];await _0x2022d8['sendMessage'](_0x4080dc[_0xc38500(0xfb)],{'video':_0x2894e6['data'],'caption':_0x41bbb4},{'quoted':_0x4080dc});}catch(_0x3fca33){try{const _0x51d195=await tiktok['v1'](_0x2dd1dc[0x0]),_0x263594=_0x21d982[_0xc38500(0x127)][0x0]+'\x20_'+_0x5b80cb+_0xc38500(0x10d)+_0x21d982['texto5'][0x1];await _0x2022d8[_0xc38500(0xf0)](_0x4080dc[_0xc38500(0xfb)],{'video':{'url':_0x51d195[_0xc38500(0xfe)]},'caption':_0x263594},{'quoted':_0x4080dc});}catch(_0x2b4128){try{const _0x36ebcb=await tiktokdlF(_0x2dd1dc[0x0]),_0x9fc44e=_0x21d982['texto6'][0x0]+'\x20_'+_0x5b80cb+'tomp3_\x20'+_0x21d982[_0xc38500(0x108)][0x1];await _0x2022d8[_0xc38500(0xf0)](_0x4080dc[_0xc38500(0xfb)],{'video':{'url':_0x36ebcb[_0xc38500(0xf9)]},'caption':_0x9fc44e},{'quoted':_0x4080dc});}catch(_0x1448b7){try{const _0x2d286b=await a0_0x3541b3[_0xc38500(0x116)](_0x2dd1dc[0x0]),_0x5265ad=_0x21d982[_0xc38500(0x12a)][0x0]+'\x20_'+_0x5b80cb+_0xc38500(0x10d)+_0x21d982[_0xc38500(0x12a)][0x1];await _0x2022d8['sendMessage'](_0x4080dc[_0xc38500(0xfb)],{'video':{'url':_0x2d286b[_0xc38500(0xef)]},'caption':_0x5265ad},{'quoted':_0x4080dc});}catch(_0x29fb7c){try{const {author:{nickname:_0x1cf8ea},video:_0x1dac5f,description:_0x2a2d50}=await tiktokdl(_0x2dd1dc[0x0]),_0x2ed40d=_0x1dac5f['no_watermark2']||_0x1dac5f['no_watermark']||_0xc38500(0x102)+_0x1dac5f[_0xc38500(0x132)]||_0x1dac5f[_0xc38500(0x119)],_0x17550e=_0x21d982[_0xc38500(0x100)][0x0]+'\x20_'+_0x5b80cb+_0xc38500(0x10d)+_0x21d982[_0xc38500(0x100)][0x1];await _0x2022d8[_0xc38500(0xf0)](_0x4080dc[_0xc38500(0xfb)],{'video':{'url':_0x2ed40d},'caption':_0x17550e},{'quoted':_0x4080dc});}catch{throw''+_0x21d982[_0xc38500(0x11f)];}}}}}};handler[a0_0x3d1bf5(0x10a)]=[a0_0x3d1bf5(0xf6)],handler[a0_0x3d1bf5(0x11c)]=[a0_0x3d1bf5(0x115)],handler[a0_0x3d1bf5(0x10c)]=/^(tiktok2|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i,handler[a0_0x3d1bf5(0xf3)]=!![],handler[a0_0x3d1bf5(0x130)]=0x3;export default handler;async function tiktokdlF(_0x27018b){const _0x4c38c2=a0_0x3d1bf5;if(!/tiktok/[_0x4c38c2(0xf5)](_0x27018b))return tradutor[_0x4c38c2(0x10f)]+'\x20_'+(usedPrefix+command)+_0x4c38c2(0x121);const _0x55f624=await a0_0x17ea4b['get']('https://tikdown.org/id'),_0x291599=a0_0x517df3[_0x4c38c2(0xf4)](_0x55f624[_0x4c38c2(0x112)]),_0x5963c8=_0x291599(_0x4c38c2(0x12d))[_0x4c38c2(0x105)](_0x4c38c2(0x11d)),_0x581503={'url':_0x27018b,'_token':_0x5963c8},{data:_0x2bea8a}=await a0_0x17ea4b['request']('https://tikdown.org/getAjax?',{'method':_0x4c38c2(0xfa),'data':new URLSearchParams(Object[_0x4c38c2(0xf1)](_0x581503)),'headers':{'content-type':_0x4c38c2(0x11b),'user-agent':'Mozilla/5.0\x20(Windows\x20NT\x206.3;\x20Win64;\x20x64)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/100.0.4896.88\x20Safari/537.36'}}),_0x41e5fb=a0_0x517df3[_0x4c38c2(0xf4)](_0x2bea8a['html']);return _0x2bea8a[_0x4c38c2(0x11e)]?{'status':!![],'thumbnail':_0x41e5fb(_0x4c38c2(0x10e))['attr'](_0x4c38c2(0x118)),'video':_0x41e5fb(_0x4c38c2(0x12f))[_0x4c38c2(0x105)](_0x4c38c2(0x110)),'audio':_0x41e5fb(_0x4c38c2(0x106))[_0x4c38c2(0x105)](_0x4c38c2(0x110))}:{'status':![]};}
+import fg from 'api-dylux';
+import axios from 'axios';
+import cheerio from 'cheerio';
+import {tiktok} from '@xct007/frieren-scraper';
+import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
+import {tiktokdl} from '@bochilteam/scraper';
+
+const handler = async (m, {conn, text, args, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.descargas_tiktok
+
+
+  if (!text) throw `${tradutor.texto1} _${usedPrefix + command} https://vm.tiktok.com/ZM686Q4ER/_`;
+  if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `${tradutor.texto2} _${usedPrefix + command} https://vm.tiktok.com/ZM686Q4ER/_`;
+  const texto = `${tradutor.texto3}`;
+  // let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, buttonId: `${usedPrefix}tomp3` }]
+  try {
+    const aa = {quoted: m, userJid: conn.user.jid};
+    const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: 'Sung Jin-Woo', body: null, thumbnail: imagen1, sourceUrl: 'https://t.me/vpnmx'}, mentionedJid: [m.sender]}}}, aa);
+    await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
+    const dataFn = await conn.getFile(`${global.MyApiRestBaseUrl}/api/tiktokv2?url=${args[0]}&apikey=${global.MyApiRestApikey}`);
+    const desc1n = `${tradutor.texto4[0]} _${usedPrefix}tomp3_ ${tradutor.texto4[1]}`;
+    await conn.sendMessage(m.chat, {video: dataFn.data, caption: desc1n}, {quoted: m});
+  } catch (ee1) {
+  try {
+    //const aa = {quoted: m, userJid: conn.user.jid};
+    //const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'}, mentionedJid: [m.sender]}}}, aa);
+    //await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
+    const dataF = await tiktok.v1(args[0]);
+    // let desc1 =  `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${dataF.nickname || 'Indefinido'}`
+    const desc1 = `${tradutor.texto5[0]} _${usedPrefix}tomp3_ ${tradutor.texto5[1]}`;
+    await conn.sendMessage(m.chat, {video: {url: dataF.play}, caption: desc1}, {quoted: m});
+  } catch (e1) {
+    try {
+      const tTiktok = await tiktokdlF(args[0]);
+      // let desc2 = `🔗 *Url:* ${tTiktok.video}`
+      const desc2 = `${tradutor.texto6[0]} _${usedPrefix}tomp3_ ${tradutor.texto6[1]}`;
+      await conn.sendMessage(m.chat, {video: {url: tTiktok.video}, caption: desc2}, {quoted: m});
+    } catch (e2) {
+      try {
+        const p = await fg.tiktok(args[0]);
+        // let te = `*𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴:* ${p.author || 'Indefinido'}`
+        const te = `${tradutor.texto7[0]} _${usedPrefix}tomp3_ ${tradutor.texto7[1]}`;
+        await conn.sendMessage(m.chat, {video: {url: p.nowm}, caption: te}, {quoted: m});
+      } catch (e3) {
+        try {
+          const {author: {nickname}, video, description} = await tiktokdl(args[0]);
+          const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd;
+          // let cap = `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${nickname || 'Indefinido'}`
+          const cap = `${tradutor.texto8[0]} _${usedPrefix}tomp3_ ${tradutor.texto8[1]}`;
+          await conn.sendMessage(m.chat, {video: {url: url}, caption: cap}, {quoted: m});
+        } catch {
+          throw `${tradutor.texto9}`;
+          }
+        }
+      }
+    }
+  }
+};
+handler.help = ['tiktoknowm'];
+handler.tags = ['downloader'];
+handler.command = /^(tiktok2|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i;
+handler.group = true
+handler.limit = 3;
+export default handler;
+
+async function tiktokdlF(url) {
+  if (!/tiktok/.test(url)) return `${tradutor.texto10} _${usedPrefix + command} https://vm.tiktok.com/ZM686Q4ER/_`;
+  const gettoken = await axios.get('https://tikdown.org/id');
+  const $ = cheerio.load(gettoken.data);
+  const token = $('#download-form > input[type=hidden]:nth-child(2)').attr( 'value' );
+  const param = {url: url, _token: token};
+  const {data} = await axios.request('https://tikdown.org/getAjax?', {method: 'post', data: new URLSearchParams(Object.entries(param)), headers: {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36'}});
+  const getdata = cheerio.load(data.html);
+  if (data.status) {
+    return {status: true, thumbnail: getdata('img').attr('src'), video: getdata('div.download-links > div:nth-child(1) > a').attr('href'), audio: getdata('div.download-links > div:nth-child(2) > a').attr('href')};
+  } else {
+    return {status: false};
+  }
+}

@@ -1,1 +1,17 @@
-const a0_0x92f838=a0_0x2e06;function a0_0x2e06(_0x1234c3,_0x12dcae){const _0x1e065f=a0_0x1e06();return a0_0x2e06=function(_0x2e067d,_0x3573c3){_0x2e067d=_0x2e067d-0xb3;let _0x40c4c6=_0x1e065f[_0x2e067d];return _0x40c4c6;},a0_0x2e06(_0x1234c3,_0x12dcae);}(function(_0x404053,_0x1171eb){const _0x1cb4e1=a0_0x2e06,_0x52853c=_0x404053();while(!![]){try{const _0x39edc6=-parseInt(_0x1cb4e1(0xbe))/0x1*(parseInt(_0x1cb4e1(0xc5))/0x2)+-parseInt(_0x1cb4e1(0xb4))/0x3*(parseInt(_0x1cb4e1(0xb9))/0x4)+-parseInt(_0x1cb4e1(0xcf))/0x5+-parseInt(_0x1cb4e1(0xb6))/0x6*(parseInt(_0x1cb4e1(0xbf))/0x7)+parseInt(_0x1cb4e1(0xc2))/0x8+-parseInt(_0x1cb4e1(0xba))/0x9*(-parseInt(_0x1cb4e1(0xbd))/0xa)+parseInt(_0x1cb4e1(0xc4))/0xb;if(_0x39edc6===_0x1171eb)break;else _0x52853c['push'](_0x52853c['shift']());}catch(_0x4978cb){_0x52853c['push'](_0x52853c['shift']());}}}(a0_0x1e06,0x91df2));const handler=async(_0x555162,{conn:_0x44804b,text:_0x4d165a,usedPrefix:_0xe94fa4,command:_0x112fb4})=>{const _0x3ba1ad=a0_0x2e06,_0x5c709d=global,_0x12bcc2=_0x5c709d['db'][_0x3ba1ad(0xc7)]['users'][_0x555162[_0x3ba1ad(0xc9)]][_0x3ba1ad(0xc0)],_0x53f8f1=JSON['parse'](fs['readFileSync'](_0x3ba1ad(0xcc)+_0x12bcc2+_0x3ba1ad(0xcb))),_0x240d86=_0x53f8f1[_0x3ba1ad(0xb8)]['owner_setprefix'];if(!_0x4d165a)throw _0x240d86[_0x3ba1ad(0xcd)]+'\x20'+(_0xe94fa4+_0x112fb4)+'\x20/';global[_0x3ba1ad(0xbb)]=new RegExp('^['+(_0x4d165a||global[_0x3ba1ad(0xca)][_0x3ba1ad(0xbb)]||_0x3ba1ad(0xb5))[_0x3ba1ad(0xc3)](/[|\\{}()[\]^$+*?.\-\^]/g,_0x3ba1ad(0xb7))+']'),await _0x555162['reply'](_0x240d86[_0x3ba1ad(0xce)]+'\x20'+_0x4d165a+'*');};handler[a0_0x92f838(0xc6)]=[a0_0x92f838(0xbc)]['map'](_0x4d6210=>_0x4d6210+a0_0x92f838(0xc8)),handler['tags']=['owner'],handler[a0_0x92f838(0xc1)]=/^(setprefix)$/i,handler[a0_0x92f838(0xb3)]=!![];export default handler;function a0_0x1e06(){const _0x4d345e=['data','\x20[prefix]','sender','opts','.json','./language/','texto1','texto2','5745510lasYkn','rowner','48zvTpru','‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\x5c-','39792acxMZr','\x5c$&','plugins','127292LNptFl','23427USpuUK','prefix','setprefix','2890SzUrJP','54ccMbBs','140yBHWBP','language','command','1832920GOsfKU','replace','16328994xrLBgK','2868haqejq','help'];a0_0x1e06=function(){return _0x4d345e;};return a0_0x1e06();}
+
+
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_setprefix
+
+  if (!text) throw `${tradutor.texto1} ${usedPrefix + command} /`;
+  global.prefix = new RegExp('^[' + (text || global.opts['prefix'] || '‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']');
+  await m.reply(`${tradutor.texto2} ${text}*`);
+};
+handler.help = ['setprefix'].map((v) => v + ' [prefix]');
+handler.tags = ['owner'];
+handler.command = /^(setprefix)$/i;
+handler.rowner = true;
+export default handler;

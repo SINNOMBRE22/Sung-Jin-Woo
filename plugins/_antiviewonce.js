@@ -1,1 +1,31 @@
-const a0_0xd71292=a0_0x3698;(function(_0x3da9a4,_0x33b387){const _0x204bcb=a0_0x3698,_0x166609=_0x3da9a4();while(!![]){try{const _0x5c2397=-parseInt(_0x204bcb(0x172))/0x1*(-parseInt(_0x204bcb(0x180))/0x2)+-parseInt(_0x204bcb(0x16d))/0x3+-parseInt(_0x204bcb(0x181))/0x4+-parseInt(_0x204bcb(0x18c))/0x5*(parseInt(_0x204bcb(0x170))/0x6)+parseInt(_0x204bcb(0x16f))/0x7+-parseInt(_0x204bcb(0x17d))/0x8+parseInt(_0x204bcb(0x18f))/0x9*(parseInt(_0x204bcb(0x16c))/0xa);if(_0x5c2397===_0x33b387)break;else _0x166609['push'](_0x166609['shift']());}catch(_0x4987c1){_0x166609['push'](_0x166609['shift']());}}}(a0_0x3bfd,0xd9089));const {downloadContentFromMessage}=await import(a0_0xd71292(0x187));function a0_0x3bfd(){const _0x3d14e8=['10wSvSOJ','4628103WxJLWb','antiviewonce','1610518uzxJeS','6566142sQwxLx','message','20FWHPKr','sender','test','sendFile','caption','isBanned','image','imageMessage','parse','conn','readFileSync','14053936uMBOEf','_antiviewonce','data','45718qTBnTL','3068696XuVdCu','plugins','chat','mtype','video','texto1','@whiskeysockets/baileys','chats','error.jpg','viewOnceMessageV2','from','5TEXMRX','text','./language/','48264201MlwVOl','language'];a0_0x3bfd=function(){return _0x3d14e8;};return a0_0x3bfd();}function a0_0x3698(_0x2f1cf6,_0x3c7e23){const _0x3bfd08=a0_0x3bfd();return a0_0x3698=function(_0x369819,_0x293934){_0x369819=_0x369819-0x16c;let _0x3af558=_0x3bfd08[_0x369819];return _0x3af558;},a0_0x3698(_0x2f1cf6,_0x3c7e23);}export async function before(_0x57bb69,{isAdmin:_0x22f0c8,isBotAdmin:_0x3c4822}){const _0x3b34be=a0_0xd71292,_0xd1b50c=global,_0x1c6ccc=_0xd1b50c['db'][_0x3b34be(0x17f)]['users'][_0x57bb69[_0x3b34be(0x173)]][_0x3b34be(0x190)],_0x41c20c=JSON[_0x3b34be(0x17a)](fs[_0x3b34be(0x17c)](_0x3b34be(0x18e)+_0x1c6ccc+'.json')),_0x4e86da=_0x41c20c[_0x3b34be(0x182)][_0x3b34be(0x17e)],_0xffdc46=db['data'][_0x3b34be(0x188)][_0x57bb69[_0x3b34be(0x183)]];if(/^[.~#/\$,](read)?viewonce/['test'](_0x57bb69[_0x3b34be(0x18d)]))return;if(!_0xffdc46?.[_0x3b34be(0x16e)]||_0xffdc46?.[_0x3b34be(0x177)])return;if(_0x57bb69[_0x3b34be(0x184)]==_0x3b34be(0x18a)){const _0x14236e=_0x57bb69['message'][_0x3b34be(0x18a)][_0x3b34be(0x171)],_0x16268b=Object['keys'](_0x14236e)[0x0],_0x103889=await downloadContentFromMessage(_0x14236e[_0x16268b],_0x16268b==_0x3b34be(0x179)?_0x3b34be(0x178):_0x3b34be(0x185));let _0x469361=Buffer[_0x3b34be(0x18b)]([]);for await(const _0x1a5a5a of _0x103889){_0x469361=Buffer['concat']([_0x469361,_0x1a5a5a]);}const _0x113725=_0x4e86da[_0x3b34be(0x186)];if(/video/[_0x3b34be(0x174)](_0x16268b))return mconn[_0x3b34be(0x17b)]['sendFile'](_0x57bb69[_0x3b34be(0x183)],_0x469361,'error.mp4',''+(_0x14236e[_0x16268b][_0x3b34be(0x176)]?_0x14236e[_0x16268b][_0x3b34be(0x176)]+'\x0a\x0a'+_0x113725:_0x113725),_0x57bb69);else{if(/image/['test'](_0x16268b))return mconn[_0x3b34be(0x17b)][_0x3b34be(0x175)](_0x57bb69['chat'],_0x469361,_0x3b34be(0x189),''+(_0x14236e[_0x16268b][_0x3b34be(0x176)]?_0x14236e[_0x16268b]['caption']+'\x0a\x0a'+_0x113725:_0x113725),_0x57bb69);}}}
+const {downloadContentFromMessage} = (await import('@whiskeysockets/baileys'));
+ // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+
+
+export async function before(m, {isAdmin, isBotAdmin}) {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins._antiviewonce
+  
+  const chat = db.data.chats[m.chat];
+  if (/^[.~#/\$,](read)?viewonce/.test(m.text)) return;
+  if (!chat?.antiviewonce || chat?.isBanned) return;
+  if (m.mtype == 'viewOnceMessageV2') {
+    const msg = m.message.viewOnceMessageV2.message;
+    const type = Object.keys(msg)[0];
+    const media = await downloadContentFromMessage(msg[type], type == 'imageMessage' ? 'image' : 'video');
+    let buffer = Buffer.from([]);
+    for await (const chunk of media) {
+      buffer = Buffer.concat([buffer, chunk]);
+    }
+    const cap = tradutor.texto1
+    if (/video/.test(type)) {
+      return mconn.conn.sendFile(m.chat, buffer, 'error.mp4', `${msg[type].caption ? msg[type].caption + '\n\n' + cap : cap}`, m);
+    } else if (/image/.test(type)) {
+      return mconn.conn.sendFile(m.chat, buffer, 'error.jpg', `${msg[type].caption ? msg[type].caption + '\n\n' + cap : cap}`, m);
+    }
+  }
+}

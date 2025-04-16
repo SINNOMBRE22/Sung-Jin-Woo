@@ -1,1 +1,26 @@
-const a0_0x33b9d7=a0_0xa8c2;(function(_0x2f1e73,_0x1a4f52){const _0x4deecf=a0_0xa8c2,_0x563fd5=_0x2f1e73();while(!![]){try{const _0x23701f=-parseInt(_0x4deecf(0x18f))/0x1+-parseInt(_0x4deecf(0x1ab))/0x2+parseInt(_0x4deecf(0x19e))/0x3*(parseInt(_0x4deecf(0x18e))/0x4)+-parseInt(_0x4deecf(0x1a8))/0x5+parseInt(_0x4deecf(0x1a6))/0x6*(parseInt(_0x4deecf(0x191))/0x7)+-parseInt(_0x4deecf(0x1a3))/0x8+parseInt(_0x4deecf(0x1a1))/0x9*(parseInt(_0x4deecf(0x19d))/0xa);if(_0x23701f===_0x1a4f52)break;else _0x563fd5['push'](_0x563fd5['shift']());}catch(_0x2e01fa){_0x563fd5['push'](_0x563fd5['shift']());}}}(a0_0x97e2,0xc49c7));const handler=async(_0x30e54a,{conn:_0x107a72})=>{const _0x522d36=a0_0xa8c2;await _0x107a72[_0x522d36(0x195)]()[_0x522d36(0x192)](async _0x13e6c8=>{const _0x368f9f=_0x522d36,_0x16be2b=global,_0xff4998=_0x16be2b['db'][_0x368f9f(0x199)][_0x368f9f(0x190)][_0x30e54a[_0x368f9f(0x1ad)]][_0x368f9f(0x1a7)],_0x48fcb5=JSON['parse'](fs[_0x368f9f(0x19b)](_0x368f9f(0x19a)+_0xff4998+'.json')),_0xdb92fb=_0x48fcb5[_0x368f9f(0x193)]['owner_blocklist'];let _0x274420=_0xdb92fb['texto1']+'\x20'+_0x13e6c8[_0x368f9f(0x1a2)]+_0x368f9f(0x19c);for(const _0xe424a0 of _0x13e6c8){_0x274420+=_0x368f9f(0x197)+_0xe424a0[_0x368f9f(0x1a5)]('@')[0x0]+'\x0a';}return _0x274420+=_0x368f9f(0x198),_0x107a72[_0x368f9f(0x1ac)](_0x30e54a[_0x368f9f(0x1a0)],_0x274420,_0x30e54a,{'mentions':await _0x107a72['parseMention'](_0x274420)});})[_0x522d36(0x196)](_0x318f7c=>{const _0x3a4d12=_0x522d36;console[_0x3a4d12(0x1ae)](_0x318f7c);throw tradutor[_0x3a4d12(0x19f)];});};handler[a0_0x33b9d7(0x1aa)]=[a0_0x33b9d7(0x1a4)],handler[a0_0x33b9d7(0x1af)]=[a0_0x33b9d7(0x1a9)],handler['command']=['blocklist','listblock'],handler[a0_0x33b9d7(0x194)]=!![];function a0_0xa8c2(_0x1affdd,_0x593aa2){const _0x97e21=a0_0x97e2();return a0_0xa8c2=function(_0xa8c27d,_0x3d7998){_0xa8c27d=_0xa8c27d-0x18e;let _0x1943b4=_0x97e21[_0xa8c27d];return _0x1943b4;},a0_0xa8c2(_0x1affdd,_0x593aa2);}export default handler;function a0_0x97e2(){const _0x31f1e3=['1316334NdnMbj','reply','sender','log','tags','2447084bdoYxl','894409PpHIVV','users','32137adupRO','then','plugins','rowner','fetchBlocklist','catch','▢\x20@','└───────────','data','./language/','readFileSync','\x0a\x0a┌─⊷\x0a','2516090cyWeCS','3GbRqtz','texto2','chat','99PReeHc','length','7280712JvRAlr','blocklist','split','1626pFjdWE','language','6778235ZBSLfb','owner','help'];a0_0x97e2=function(){return _0x31f1e3;};return a0_0x97e2();}
+/* Creado por https://github.com/FG98F */
+
+
+const handler = async (m, {conn}) => {
+  await conn.fetchBlocklist().then(async (data) => {
+    const datas = global
+    const idioma = datas.db.data.users[m.sender].language
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const tradutor = _translate.plugins.owner_blocklist
+
+    let txt = `${tradutor.texto1} ${data.length}\n\n┌─⊷\n`;
+    for (const i of data) {
+      txt += `▢ @${i.split('@')[0]}\n`;
+    }
+    txt += '└───────────';
+    return conn.reply(m.chat, txt, m, {mentions: await conn.parseMention(txt)});
+  }).catch((err) => {
+    console.log(err);
+    throw tradutor.texto2;
+  });
+};
+handler.help = ['blocklist'];
+handler.tags = ['owner'];
+handler.command = ['blocklist', 'listblock'];
+handler.rowner = true;
+export default handler;

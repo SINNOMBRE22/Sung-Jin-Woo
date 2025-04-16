@@ -1,1 +1,469 @@
-const a0_0x424444=a0_0x33b6;function a0_0x33b6(_0x228ad4,_0x28295e){const _0x407a4f=a0_0x407a();return a0_0x33b6=function(_0x33b615,_0x2000f9){_0x33b615=_0x33b615-0x1f3;let _0x53ad50=_0x407a4f[_0x33b615];return _0x53ad50;},a0_0x33b6(_0x228ad4,_0x28295e);}function a0_0x407a(){const _0x2c27c4=['▰▰▰▰▱▱▱▱▱▱\x2040%','toString','title','Basic\x20','playlist','Artista:\x20','music','from','▰▰▰▰▰▰▰▰▰▰\x20100%\x20-\x20Falló\x20la\x20extracción\x20de:\x20','name','4696MUMEPm','▰▰▰▰▰▰▰▰▱▱\x2080%','▰▰▰▰▰▰▰▱▱▱\x2070%','https://api.spotify.com/v1/playlists/','&type=album','now','/top-tracks?market=US','https://api.spotify.com/v1/albums/','track','spotify','\x0a🛠️\x20Intento:\x20','images','base64','spotify.com/artist','downloader','artists','\x20https://open.spotify.com/playlist/...\x0a•\x20','reply','3041098SaPvck','No\x20se\x20pudieron\x20extraer\x20las\x20siguientes\x20sombras:\x0a','.mp3','▰▰▰▰▰▰▰▰▰▱\x2090%','album','Error\x20al\x20obtener\x20la\x20imagen:\x20','key','113999hOtPUY','statusText','expiresAt','external_urls','\x20https://open.spotify.com/track/...\x0a•\x20','floor','\x20https://open.spotify.com/album/...\x0a•\x20','10431624fQmgZF','▱▱▱▱▱▱▱▱▱▱\x200%','application/x-www-form-urlencoded','json','expires_in','toLowerCase','map','duration_ms','https://api.spotify.com/v1/search?q=','chat','token','url','thumbnail','3585505UXAvuY','▰▰▰▰▰▰▰▰▰▰\x20100%\x20-\x20¡Descargado!','sendMessage','Álbum:\x20','https://api.spotify.com/v1/artists/','❌\x20*Error:*\x20No\x20se\x20encontraron\x20resultados.','react','post','234lePVdr','tags','\x20(1/1)','188840jFcTnW','━━━━━━━━━━━━━━━━━━\x0a⚔️\x20Extracción\x20en\x20Curso\x0a🌟\x20Objetivo:\x20','error','3yKFcTJ','\x0a💠\x20Progreso:\x20','open.spotify.com/artist','⚔️\x20Error:\x20No\x20ingresaste\x20ninguna\x20búsqueda\x20o\x20enlace.\x0a\x0aEjemplo:\x0a•\x20','length','Igris\x20intentará\x20obtener\x20de\x20nuevo\x20las\x20sombras\x20de:\x0a','Top\x20Tracks','5130ZWXnRn','spotify.com/track','\x0a━━━━━━━━━━━━━━━━━━','play','\x20Bellyache\x0a•\x20','access_token','artist','https://accounts.spotify.com/api/token','get','https://api.spotify.com/v1/tracks/','message','▰▱▱▱▱▱▱▱▱▱\x2010%','Bearer\x20','includes','No\x20se\x20pudo\x20extraer\x20el\x20ID\x20de\x20la\x20playlist.','data','join','items','grant_type=client_credentials','No\x20se\x20pudo\x20extraer\x20la\x20sombra\x20de:\x20','indexOf','acc6302297e040aeb6e4ac1fbdfd62c3:0e8439a1280a43aba9a5bc0a16f3f009','buffer','split','group','audio/mpeg','tracks','open.spotify.com/album','push','No\x20se\x20pudo\x20extraer\x20el\x20ID\x20del\x20track.','⚠️\x20No\x20se\x20encontraron\x20canciones\x20en\x20el\x20álbum.','11232940MglHYc','\x20(Reintento)'];a0_0x407a=function(){return _0x2c27c4;};return a0_0x407a();}(function(_0x164f27,_0x5c9bd2){const _0x224f20=a0_0x33b6,_0x329ad3=_0x164f27();while(!![]){try{const _0x39528c=-parseInt(_0x224f20(0x228))/0x1+parseInt(_0x224f20(0x221))/0x2*(parseInt(_0x224f20(0x24a))/0x3)+parseInt(_0x224f20(0x20f))/0x4*(parseInt(_0x224f20(0x251))/0x5)+-parseInt(_0x224f20(0x22f))/0x6+-parseInt(_0x224f20(0x23c))/0x7+-parseInt(_0x224f20(0x247))/0x8*(parseInt(_0x224f20(0x244))/0x9)+parseInt(_0x224f20(0x203))/0xa;if(_0x39528c===_0x5c9bd2)break;else _0x329ad3['push'](_0x329ad3['shift']());}catch(_0x15ae92){_0x329ad3['push'](_0x329ad3['shift']());}}}(a0_0x407a,0xd45bb));import a0_0x58f782 from'axios';import a0_0xfeb0e5 from'node-fetch';let spotifyTokenCache={'token':null,'expiresAt':0x0};async function getSpotifyToken(){const _0x3fbf75=a0_0x33b6,_0x3c375e=Date[_0x3fbf75(0x214)]();if(spotifyTokenCache[_0x3fbf75(0x239)]&&spotifyTokenCache[_0x3fbf75(0x22a)]>_0x3c375e)return spotifyTokenCache[_0x3fbf75(0x239)];const _0x477b04=await a0_0x58f782({'method':_0x3fbf75(0x243),'url':_0x3fbf75(0x258),'headers':{'Content-Type':_0x3fbf75(0x231),'Authorization':_0x3fbf75(0x208)+Buffer[_0x3fbf75(0x20c)](_0x3fbf75(0x1f9))[_0x3fbf75(0x206)](_0x3fbf75(0x21b))},'data':_0x3fbf75(0x1f6)}),_0x240451=_0x477b04[_0x3fbf75(0x1f3)][_0x3fbf75(0x256)];return spotifyTokenCache[_0x3fbf75(0x239)]=_0x240451,spotifyTokenCache[_0x3fbf75(0x22a)]=_0x3c375e+_0x477b04[_0x3fbf75(0x1f3)][_0x3fbf75(0x233)]*0x3e8-0xea60,_0x240451;}async function getBuffer(_0x2848c6){const _0x296f17=a0_0x33b6,_0x5bd8b2=await a0_0xfeb0e5(_0x2848c6);if(!_0x5bd8b2['ok'])throw new Error(_0x296f17(0x226)+_0x5bd8b2[_0x296f17(0x229)]);return await _0x5bd8b2[_0x296f17(0x1fa)]();}function formatExtractionMessage(_0x5c6f10,_0x9ff673,_0x10d69b){const _0xb7be43=a0_0x33b6;return _0xb7be43(0x248)+_0x5c6f10+_0xb7be43(0x219)+_0x9ff673+_0xb7be43(0x24b)+_0x10d69b+_0xb7be43(0x253);}async function progressWithSync(_0x1ee38a,_0x13f881,_0x486c67,_0x284f98,{objective:_0x224d49,attempt:_0x56bc28,failedTrack:failedTrack=null}){const _0x3fbcda=a0_0x33b6;let _0x473735=![];const _0x42b985=['▱▱▱▱▱▱▱▱▱▱\x200%',_0x3fbcda(0x25c),'▰▰▱▱▱▱▱▱▱▱\x2020%','▰▰▰▱▱▱▱▱▱▱\x2030%',_0x3fbcda(0x205),'▰▰▰▰▰▱▱▱▱▱\x2050%','▰▰▰▰▰▰▱▱▱▱\x2060%',_0x3fbcda(0x211),_0x3fbcda(0x210),_0x3fbcda(0x224)];let _0x5ea68a=0x0;const _0x32aaad=0x12c,_0x5df282=setInterval(async()=>{const _0x2e7ccf=_0x3fbcda;if(_0x5ea68a<_0x42b985[_0x2e7ccf(0x24e)]){const _0x13b445=formatExtractionMessage(_0x224d49,_0x56bc28,_0x42b985[_0x5ea68a]);await _0x1ee38a[_0x2e7ccf(0x23e)](_0x13f881[_0x2e7ccf(0x238)],{'text':_0x13b445,'edit':_0x486c67[_0x2e7ccf(0x227)]}),_0x5ea68a++;}},_0x32aaad);try{await _0x284f98;}catch(_0x386509){_0x473735=!![];}clearInterval(_0x5df282);const _0x2f662f=_0x473735&&failedTrack?_0x3fbcda(0x20d)+failedTrack:_0x3fbcda(0x23d),_0x617c1d=formatExtractionMessage(_0x224d49,_0x56bc28,_0x2f662f);await _0x1ee38a['sendMessage'](_0x13f881[_0x3fbcda(0x238)],{'text':_0x617c1d,'edit':_0x486c67['key']});}async function downloadWithRetries(_0x508ff4,_0x16aa35,_0x485b82,_0x480991,_0x2c3f61){const _0x23d01f=a0_0x33b6;let _0x378c67=null;for(let _0x5f0041=0x1;_0x5f0041<=0x3;_0x5f0041++){try{const _0x9f573c=a0_0xfeb0e5('https://apis-starlights-team.koyeb.app/starlight/spotifydl?url='+_0x508ff4[_0x23d01f(0x23a)])['then'](_0x3f94fb=>_0x3f94fb[_0x23d01f(0x232)]());await progressWithSync(_0x16aa35,_0x485b82,_0x480991,_0x9f573c,{'objective':_0x2c3f61,'attempt':_0x5f0041,'failedTrack':_0x5f0041===0x3?_0x508ff4[_0x23d01f(0x20e)]:null}),_0x378c67=await _0x9f573c;if(!_0x378c67||!_0x378c67[_0x23d01f(0x20b)])throw new Error('No\x20se\x20pudo\x20obtener\x20el\x20enlace\x20de\x20descarga\x20para\x20'+_0x508ff4[_0x23d01f(0x20e)]);return _0x378c67;}catch(_0x4e7a15){if(_0x5f0041===0x3)return null;await new Promise(_0x5f2217=>setTimeout(_0x5f2217,0x3e8));}}return null;}let handler=async(_0x1fbc4c,{conn:_0x2aaccd,text:_0x10149c,usedPrefix:_0x390ba6,command:_0x16b933})=>{const _0x46d770=a0_0x33b6;if(!_0x10149c)throw _0x46d770(0x24d)+(_0x390ba6+_0x16b933)+_0x46d770(0x255)+(_0x390ba6+_0x16b933)+_0x46d770(0x22c)+(_0x390ba6+_0x16b933)+_0x46d770(0x22e)+(_0x390ba6+_0x16b933)+_0x46d770(0x21f)+(_0x390ba6+_0x16b933)+'\x20https://open.spotify.com/artist/...';try{await _0x1fbc4c[_0x46d770(0x242)]('⏳');let _0xdc3b55=![],_0x224229=![],_0x188cf3=![],_0x5b57b7;if(_0x10149c[_0x46d770(0x25e)](_0x46d770(0x1ff))){_0xdc3b55=!![],_0x5b57b7=await spotifyAlbum(_0x10149c);if(!_0x5b57b7?.['tracks']?.['length'])throw _0x46d770(0x202);}else{if(_0x10149c['includes']('open.spotify.com/playlist')){_0x224229=!![],_0x5b57b7=await spotifyPlaylist(_0x10149c);if(!_0x5b57b7?.[_0x46d770(0x1fe)]?.[_0x46d770(0x24e)])throw'⚠️\x20No\x20se\x20encontraron\x20canciones\x20en\x20la\x20playlist.';}else{if(_0x10149c[_0x46d770(0x25e)](_0x46d770(0x24c))||_0x10149c[_0x46d770(0x25e)](_0x46d770(0x21c))){_0xdc3b55=!![],_0x188cf3=!![],_0x5b57b7=await spotifyArtist(_0x10149c);if(!_0x5b57b7?.[_0x46d770(0x1fe)]?.['length'])throw'⚠️\x20No\x20se\x20encontraron\x20canciones\x20para\x20el\x20artista.';}else{if(_0x10149c['includes'](_0x46d770(0x252)))_0x5b57b7={'tracks':[await spotifyTrack(_0x10149c)]};else{if(_0x10149c[_0x46d770(0x234)]()['includes'](_0x46d770(0x225))){_0xdc3b55=!![],_0x5b57b7=await spotifyAlbumSearch(_0x10149c);if(!_0x5b57b7?.[_0x46d770(0x1fe)]?.['length'])throw'⚠️\x20No\x20se\x20encontraron\x20canciones\x20en\x20el\x20álbum.';}else{const _0xbc3fb4=await spotifyxv(_0x10149c);if(!_0xbc3fb4[_0x46d770(0x24e)]||!_0xbc3fb4[0x0][_0x46d770(0x23a)])throw _0x46d770(0x241);_0x5b57b7={'tracks':[_0xbc3fb4[0x0]]};}}}}}if(_0xdc3b55||_0x224229){let _0x52f3fb=[];for(let _0x54a0e0=0x0;_0x54a0e0<_0x5b57b7[_0x46d770(0x1fe)][_0x46d770(0x24e)];_0x54a0e0++){const _0x370d43=_0x5b57b7[_0x46d770(0x1fe)][_0x54a0e0],_0x5c6b58=_0x370d43[_0x46d770(0x20e)]+'\x20('+(_0x54a0e0+0x1)+'/'+_0x5b57b7[_0x46d770(0x1fe)][_0x46d770(0x24e)]+')',_0x3e4eef=formatExtractionMessage(_0x5c6b58,0x1,'▱▱▱▱▱▱▱▱▱▱\x200%'),_0x4581ef=await _0x2aaccd[_0x46d770(0x23e)](_0x1fbc4c[_0x46d770(0x238)],{'text':_0x3e4eef}),_0xb805d2=await downloadWithRetries(_0x370d43,_0x2aaccd,_0x1fbc4c,_0x4581ef,_0x5c6b58);_0xb805d2?(await _0x2aaccd['sendMessage'](_0x1fbc4c['chat'],{'delete':_0x4581ef[_0x46d770(0x227)]}),await _0x2aaccd['sendMessage'](_0x1fbc4c[_0x46d770(0x238)],{'audio':{'url':_0xb805d2[_0x46d770(0x20b)]},'fileName':_0xb805d2[_0x46d770(0x207)]+_0x46d770(0x223),'mimetype':_0x46d770(0x1fd),'contextInfo':{'externalAdReply':{'showAdAttribution':![],'title':''+_0xb805d2[_0x46d770(0x207)],'body':'Artista:\x20'+_0xb805d2[_0x46d770(0x257)],'description':_0x46d770(0x23f)+_0xb805d2[_0x46d770(0x225)],'thumbnailUrl':_0xb805d2['thumbnail']}}}),await new Promise(_0x328730=>setTimeout(_0x328730,0x7d0))):_0x52f3fb['push'](_0x370d43);}if(_0x52f3fb[_0x46d770(0x24e)]>0x0){let _0x254149=_0x52f3fb['map'](_0x1ae310=>_0x1ae310[_0x46d770(0x20e)])[_0x46d770(0x1f4)]('\x0a');await _0x2aaccd[_0x46d770(0x23e)](_0x1fbc4c['chat'],{'text':'Igris\x20intentará\x20obtener\x20de\x20nuevo\x20las\x20sombras\x20de:\x0a'+_0x254149});let _0xa2d59=[];for(let _0x93221b of _0x52f3fb){const _0x18ec8a=_0x93221b[_0x46d770(0x20e)]+_0x46d770(0x204),_0x2f45b0=formatExtractionMessage(_0x18ec8a,0x1,_0x46d770(0x230)),_0x7f7da6=await _0x2aaccd[_0x46d770(0x23e)](_0x1fbc4c[_0x46d770(0x238)],{'text':_0x2f45b0}),_0x403122=await downloadWithRetries(_0x93221b,_0x2aaccd,_0x1fbc4c,_0x7f7da6,_0x18ec8a);_0x403122?(await _0x2aaccd[_0x46d770(0x23e)](_0x1fbc4c[_0x46d770(0x238)],{'delete':_0x7f7da6[_0x46d770(0x227)]}),await _0x2aaccd[_0x46d770(0x23e)](_0x1fbc4c['chat'],{'audio':{'url':_0x403122[_0x46d770(0x20b)]},'fileName':_0x403122[_0x46d770(0x207)]+'.mp3','mimetype':_0x46d770(0x1fd),'contextInfo':{'externalAdReply':{'showAdAttribution':![],'title':''+_0x403122[_0x46d770(0x207)],'body':_0x46d770(0x20a)+_0x403122['artist'],'description':'Álbum:\x20'+_0x403122['album'],'thumbnailUrl':_0x403122['thumbnail']}}}),await new Promise(_0x10c51d=>setTimeout(_0x10c51d,0x7d0))):_0xa2d59[_0x46d770(0x200)](_0x93221b);}if(_0xa2d59['length']>0x0){let _0x543996=_0xa2d59[_0x46d770(0x235)](_0x8db25c=>_0x8db25c['name'])[_0x46d770(0x1f4)]('\x0a');await _0x2aaccd['sendMessage'](_0x1fbc4c[_0x46d770(0x238)],{'text':_0x46d770(0x222)+_0x543996});}}}else{const _0x14eb41=_0x5b57b7[_0x46d770(0x1fe)][0x0],_0x252ce3=_0x14eb41['name']+_0x46d770(0x246),_0xd27259=formatExtractionMessage(_0x252ce3,0x1,_0x46d770(0x230)),_0x402cab=await _0x2aaccd['sendMessage'](_0x1fbc4c[_0x46d770(0x238)],{'text':_0xd27259}),_0x5c9cdc=await downloadWithRetries(_0x14eb41,_0x2aaccd,_0x1fbc4c,_0x402cab,_0x252ce3);if(!_0x5c9cdc){await _0x2aaccd['sendMessage'](_0x1fbc4c[_0x46d770(0x238)],{'text':_0x46d770(0x24f)+_0x14eb41[_0x46d770(0x20e)]});const _0x3f6bc1=formatExtractionMessage(_0x252ce3+_0x46d770(0x204),0x1,_0x46d770(0x230)),_0xeeeac1=await _0x2aaccd[_0x46d770(0x23e)](_0x1fbc4c[_0x46d770(0x238)],{'text':_0x3f6bc1}),_0x54ef16=await downloadWithRetries(_0x14eb41,_0x2aaccd,_0x1fbc4c,_0xeeeac1,_0x252ce3+_0x46d770(0x204));!_0x54ef16?await _0x2aaccd[_0x46d770(0x23e)](_0x1fbc4c[_0x46d770(0x238)],{'text':_0x46d770(0x1f7)+_0x14eb41['name']}):(await _0x2aaccd['sendMessage'](_0x1fbc4c['chat'],{'delete':_0xeeeac1['key']}),await _0x2aaccd[_0x46d770(0x23e)](_0x1fbc4c['chat'],{'audio':{'url':_0x54ef16[_0x46d770(0x20b)]},'fileName':_0x54ef16[_0x46d770(0x207)]+_0x46d770(0x223),'mimetype':'audio/mpeg','contextInfo':{'externalAdReply':{'showAdAttribution':![],'title':''+_0x54ef16['title'],'body':'Artista:\x20'+_0x54ef16[_0x46d770(0x257)],'description':'Álbum:\x20'+_0x54ef16[_0x46d770(0x225)],'thumbnailUrl':_0x54ef16[_0x46d770(0x23b)]}}}),await new Promise(_0x4d6c34=>setTimeout(_0x4d6c34,0x7d0)));}else await _0x2aaccd[_0x46d770(0x23e)](_0x1fbc4c['chat'],{'delete':_0x402cab[_0x46d770(0x227)]}),await _0x2aaccd[_0x46d770(0x23e)](_0x1fbc4c[_0x46d770(0x238)],{'audio':{'url':_0x5c9cdc[_0x46d770(0x20b)]},'fileName':_0x5c9cdc[_0x46d770(0x207)]+_0x46d770(0x223),'mimetype':'audio/mpeg','contextInfo':{'externalAdReply':{'showAdAttribution':![],'title':''+_0x5c9cdc[_0x46d770(0x207)],'body':'Artista:\x20'+_0x5c9cdc[_0x46d770(0x257)],'description':_0x46d770(0x23f)+_0x5c9cdc[_0x46d770(0x225)],'thumbnailUrl':_0x5c9cdc[_0x46d770(0x23b)]}}}),await _0x1fbc4c[_0x46d770(0x242)]('✅');}}catch(_0x30dcc9){await _0x1fbc4c['react']('❌'),await _0x1fbc4c[_0x46d770(0x220)]('❌\x20*Error:*\x20'+(_0x30dcc9[_0x46d770(0x25b)]||_0x30dcc9)),console['error'](_0x30dcc9);}};handler['help']=[a0_0x424444(0x218),a0_0x424444(0x254)],handler[a0_0x424444(0x245)]=[a0_0x424444(0x21d)],handler['command']=[a0_0x424444(0x218),a0_0x424444(0x254)],handler[a0_0x424444(0x1fc)]=![];export default handler;async function spotifyxv(_0x3c8e8c){const _0x4169a5=a0_0x424444,_0x1bcdde=await getSpotifyToken();try{let _0x394c3c=await a0_0x58f782({'method':_0x4169a5(0x259),'url':_0x4169a5(0x237)+encodeURIComponent(_0x3c8e8c)+'&type=track','headers':{'Authorization':'Bearer\x20'+_0x1bcdde}});const _0x2d093d=_0x394c3c['data'][_0x4169a5(0x1fe)]['items'];return _0x2d093d['map'](_0x115de2=>({'name':_0x115de2[_0x4169a5(0x20e)],'artist':_0x115de2['artists']['map'](_0x2c5774=>_0x2c5774[_0x4169a5(0x20e)])['join'](',\x20'),'album':_0x115de2['album'][_0x4169a5(0x20e)],'duration':timestamp(_0x115de2[_0x4169a5(0x236)]),'url':_0x115de2[_0x4169a5(0x22b)][_0x4169a5(0x218)],'thumbnail':_0x115de2[_0x4169a5(0x225)][_0x4169a5(0x21a)][0x0]?.[_0x4169a5(0x23a)]||''}));}catch(_0x18014f){return console[_0x4169a5(0x249)](_0x18014f),[];}}async function spotifyAlbum(_0x455a3a){const _0x3a937c=a0_0x424444;let _0x126bbf;try{const _0x366a6f=_0x455a3a['split']('/');_0x126bbf=_0x366a6f[_0x366a6f['indexOf'](_0x3a937c(0x225))+0x1][_0x3a937c(0x1fb)]('?')[0x0];}catch(_0x5f9b19){throw new Error('No\x20se\x20pudo\x20extraer\x20el\x20ID\x20del\x20álbum.');}const _0xc1c4df=await getSpotifyToken();let _0x4b0acc=await a0_0x58f782({'method':_0x3a937c(0x259),'url':_0x3a937c(0x216)+_0x126bbf,'headers':{'Authorization':'Bearer\x20'+_0xc1c4df}});const _0x42c375=_0x4b0acc[_0x3a937c(0x1f3)],_0x3d46da=_0x42c375[_0x3a937c(0x1fe)][_0x3a937c(0x1f5)]['map'](_0x5c8855=>({'name':_0x5c8855['name'],'artist':_0x5c8855['artists'][_0x3a937c(0x235)](_0x38969c=>_0x38969c[_0x3a937c(0x20e)])[_0x3a937c(0x1f4)](',\x20'),'album':_0x42c375[_0x3a937c(0x20e)],'url':_0x5c8855['external_urls'][_0x3a937c(0x218)],'thumbnail':_0x42c375['images'][0x0]?.[_0x3a937c(0x23a)]||''}));return{'album':_0x42c375,'tracks':_0x3d46da};}async function spotifyAlbumSearch(_0x5bc7c9){const _0x397faf=a0_0x424444,_0x4be0f1=await getSpotifyToken();let _0xaf798b=await a0_0x58f782({'method':_0x397faf(0x259),'url':_0x397faf(0x237)+encodeURIComponent(_0x5bc7c9)+_0x397faf(0x213),'headers':{'Authorization':_0x397faf(0x25d)+_0x4be0f1}});const _0x1f6aaa=_0xaf798b[_0x397faf(0x1f3)]['albums']['items'];if(!_0x1f6aaa['length'])return null;const _0x146c5d=_0x1f6aaa[0x0]['id'];let _0x3a5c98=await a0_0x58f782({'method':_0x397faf(0x259),'url':_0x397faf(0x216)+_0x146c5d,'headers':{'Authorization':'Bearer\x20'+_0x4be0f1}});const _0x39239d=_0x3a5c98[_0x397faf(0x1f3)],_0x311c56=_0x39239d[_0x397faf(0x1fe)]['items'][_0x397faf(0x235)](_0x1788bd=>({'name':_0x1788bd[_0x397faf(0x20e)],'artist':_0x1788bd[_0x397faf(0x21e)]['map'](_0x5e088c=>_0x5e088c['name'])[_0x397faf(0x1f4)](',\x20'),'album':_0x39239d['name'],'url':_0x1788bd[_0x397faf(0x22b)][_0x397faf(0x218)],'thumbnail':_0x39239d[_0x397faf(0x21a)][0x0]?.[_0x397faf(0x23a)]||''}));return{'album':_0x39239d,'tracks':_0x311c56};}async function spotifyPlaylist(_0x566141){const _0x5f4d98=a0_0x424444;let _0x3fa050;try{const _0x2180ab=_0x566141[_0x5f4d98(0x1fb)]('/');_0x3fa050=_0x2180ab[_0x2180ab['indexOf'](_0x5f4d98(0x209))+0x1]['split']('?')[0x0];}catch(_0x506b95){throw new Error(_0x5f4d98(0x25f));}const _0x4b671c=await getSpotifyToken();let _0x8fb9b6=await a0_0x58f782({'method':_0x5f4d98(0x259),'url':_0x5f4d98(0x212)+_0x3fa050,'headers':{'Authorization':_0x5f4d98(0x25d)+_0x4b671c}});const _0x5568a8=_0x8fb9b6[_0x5f4d98(0x1f3)],_0x541c7f=_0x5568a8[_0x5f4d98(0x1fe)][_0x5f4d98(0x1f5)]['map'](_0x27a3cc=>{const _0x2afbd8=_0x5f4d98,_0x455350=_0x27a3cc[_0x2afbd8(0x217)];return{'name':_0x455350[_0x2afbd8(0x20e)],'artist':_0x455350[_0x2afbd8(0x21e)]['map'](_0x1f330a=>_0x1f330a[_0x2afbd8(0x20e)])['join'](',\x20'),'album':_0x5568a8[_0x2afbd8(0x20e)],'url':_0x455350['external_urls'][_0x2afbd8(0x218)],'thumbnail':_0x455350[_0x2afbd8(0x225)][_0x2afbd8(0x21a)][0x0]?.['url']||''};});return{'album':{'name':_0x5568a8[_0x5f4d98(0x20e)]},'tracks':_0x541c7f};}async function spotifyArtist(_0x221222){const _0x53317e=a0_0x424444;let _0x6484d8;try{const _0x22eb81=_0x221222['split']('/');_0x6484d8=_0x22eb81[_0x22eb81[_0x53317e(0x1f8)](_0x53317e(0x257))+0x1]['split']('?')[0x0];}catch(_0x47a520){throw new Error('No\x20se\x20pudo\x20extraer\x20el\x20ID\x20del\x20artista.');}const _0x5406f6=await getSpotifyToken();let _0x4050d7=await a0_0x58f782({'method':_0x53317e(0x259),'url':_0x53317e(0x240)+_0x6484d8+_0x53317e(0x215),'headers':{'Authorization':_0x53317e(0x25d)+_0x5406f6}});const _0x305d72=_0x4050d7[_0x53317e(0x1f3)],_0x1cc887=_0x305d72[_0x53317e(0x1fe)]['map'](_0xe3486f=>({'name':_0xe3486f[_0x53317e(0x20e)],'artist':_0xe3486f[_0x53317e(0x21e)][_0x53317e(0x235)](_0x37e9c7=>_0x37e9c7[_0x53317e(0x20e)])[_0x53317e(0x1f4)](',\x20'),'album':_0x53317e(0x250),'url':_0xe3486f['external_urls'][_0x53317e(0x218)],'thumbnail':_0xe3486f[_0x53317e(0x225)][_0x53317e(0x21a)][0x0]?.[_0x53317e(0x23a)]||''}));return{'album':{'name':_0x53317e(0x250)},'tracks':_0x1cc887};}async function spotifyTrack(_0x59df5b){const _0x18ab5e=a0_0x424444;let _0x2a805d;try{const _0x2a80d0=_0x59df5b['split']('/');_0x2a805d=_0x2a80d0[_0x2a80d0[_0x18ab5e(0x1f8)](_0x18ab5e(0x217))+0x1][_0x18ab5e(0x1fb)]('?')[0x0];}catch(_0x57f067){throw new Error(_0x18ab5e(0x201));}const _0x220533=await getSpotifyToken();let _0x30dc1c=await a0_0x58f782({'method':'get','url':_0x18ab5e(0x25a)+_0x2a805d,'headers':{'Authorization':'Bearer\x20'+_0x220533}});const _0xd9ac0f=_0x30dc1c[_0x18ab5e(0x1f3)];return{'name':_0xd9ac0f[_0x18ab5e(0x20e)],'artist':_0xd9ac0f[_0x18ab5e(0x21e)][_0x18ab5e(0x235)](_0x4e091e=>_0x4e091e[_0x18ab5e(0x20e)])[_0x18ab5e(0x1f4)](',\x20'),'album':_0xd9ac0f[_0x18ab5e(0x225)][_0x18ab5e(0x20e)],'url':_0xd9ac0f[_0x18ab5e(0x22b)][_0x18ab5e(0x218)],'thumbnail':_0xd9ac0f[_0x18ab5e(0x225)][_0x18ab5e(0x21a)][0x0]?.[_0x18ab5e(0x23a)]||''};}function timestamp(_0x9dd51a){const _0x31ae8a=a0_0x424444,_0x5c438c=Math[_0x31ae8a(0x22d)](_0x9dd51a/0xea60),_0x50d62e=Math[_0x31ae8a(0x22d)](_0x9dd51a%0xea60/0x3e8);return _0x5c438c+':'+(_0x50d62e<0xa?'0':'')+_0x50d62e;}
+import axios from 'axios'
+import fetch from 'node-fetch'
+
+// 1. Cacheo del token de Spotify
+let spotifyTokenCache = {
+  token: null,
+  expiresAt: 0
+}
+
+async function getSpotifyToken() {
+  const now = Date.now()
+  if (spotifyTokenCache.token && spotifyTokenCache.expiresAt > now) {
+    return spotifyTokenCache.token
+  }
+  const response = await axios({
+    method: 'post',
+    url: 'https://accounts.spotify.com/api/token',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization:
+        'Basic ' +
+        Buffer.from(
+          'acc6302297e040aeb6e4ac1fbdfd62c3:0e8439a1280a43aba9a5bc0a16f3f009'
+        ).toString('base64')
+    },
+    data: 'grant_type=client_credentials'
+  })
+  const token = response.data.access_token
+  // Se resta un margen de 60s para renovarlo antes de que expire
+  spotifyTokenCache.token = token
+  spotifyTokenCache.expiresAt = now + response.data.expires_in * 1000 - 60000
+  return token
+}
+
+// 2. Obtención de un Buffer desde la URL
+async function getBuffer(url) {
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`Error al obtener la imagen: ${res.statusText}`)
+  return await res.buffer()
+}
+
+// 3. Formateo del mensaje de progreso
+function formatExtractionMessage(objective, attempt, progress) {
+  return `━━━━━━━━━━━━━━━━━━
+⚔️ Extracción en Curso
+🌟 Objetivo: ${objective}
+🛠️ Intento: ${attempt}
+💠 Progreso: ${progress}
+━━━━━━━━━━━━━━━━━━`
+}
+
+// 4. Función de progreso optimizada con setInterval
+async function progressWithSync(conn, m, msg, downloadPromise, { objective, attempt, failedTrack = null }) {
+  let failureOccurred = false
+  const animation = [
+    '▱▱▱▱▱▱▱▱▱▱ 0%',
+    '▰▱▱▱▱▱▱▱▱▱ 10%',
+    '▰▰▱▱▱▱▱▱▱▱ 20%',
+    '▰▰▰▱▱▱▱▱▱▱ 30%',
+    '▰▰▰▰▱▱▱▱▱▱ 40%',
+    '▰▰▰▰▰▱▱▱▱▱ 50%',
+    '▰▰▰▰▰▰▱▱▱▱ 60%',
+    '▰▰▰▰▰▰▰▱▱▱ 70%',
+    '▰▰▰▰▰▰▰▰▱▱ 80%',
+    '▰▰▰▰▰▰▰▰▰▱ 90%'
+  ]
+  let i = 0
+  const interval = 300
+  const progressInterval = setInterval(async () => {
+    if (i < animation.length) {
+      const formattedMessage = formatExtractionMessage(objective, attempt, animation[i])
+      await conn.sendMessage(m.chat, { text: formattedMessage, edit: msg.key })
+      i++
+    }
+  }, interval)
+
+  try {
+    await downloadPromise
+  } catch (err) {
+    failureOccurred = true
+  }
+  clearInterval(progressInterval)
+  const finalMessage =
+    failureOccurred && failedTrack
+      ? `▰▰▰▰▰▰▰▰▰▰ 100% - Falló la extracción de: ${failedTrack}`
+      : '▰▰▰▰▰▰▰▰▰▰ 100% - ¡Descargado!'
+  const finalFormattedMessage = formatExtractionMessage(objective, attempt, finalMessage)
+  await conn.sendMessage(m.chat, { text: finalFormattedMessage, edit: msg.key })
+}
+
+// 5. Reintentos de descarga
+async function downloadWithRetries(track, conn, m, msg, objectiveText) {
+  let data = null
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const fetchMusicPromise = fetch(
+        `https://apis-starlights-team.koyeb.app/starlight/spotifydl?url=${track.url}`
+      ).then(res => res.json())
+
+      await progressWithSync(conn, m, msg, fetchMusicPromise, {
+        objective: objectiveText,
+        attempt,
+        failedTrack: attempt === 3 ? track.name : null
+      })
+
+      data = await fetchMusicPromise
+      if (!data || !data.music) {
+        throw new Error(`No se pudo obtener el enlace de descarga para ${track.name}`)
+      }
+      return data
+    } catch (err) {
+      if (attempt === 3) return null
+      await new Promise(resolve => setTimeout(resolve, 1000))
+    }
+  }
+  return null
+}
+
+// 6. Handler principal
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text)
+    throw `⚔️ Error: No ingresaste ninguna búsqueda o enlace.
+
+Ejemplo:
+• ${usedPrefix + command} Bellyache
+• ${usedPrefix + command} https://open.spotify.com/track/...
+• ${usedPrefix + command} https://open.spotify.com/album/...
+• ${usedPrefix + command} https://open.spotify.com/playlist/...
+• ${usedPrefix + command} https://open.spotify.com/artist/...`
+
+  try {
+    await m.react('⏳')
+    let isAlbum = false, isPlaylist = false, isArtist = false, dataToProcess
+
+    // Detecta el tipo de enlace o búsqueda
+    if (text.includes('open.spotify.com/album')) {
+      isAlbum = true
+      dataToProcess = await spotifyAlbum(text)
+      if (!dataToProcess?.tracks?.length) throw '⚠️ No se encontraron canciones en el álbum.'
+    } else if (text.includes('open.spotify.com/playlist')) {
+      isPlaylist = true
+      dataToProcess = await spotifyPlaylist(text)
+      if (!dataToProcess?.tracks?.length) throw '⚠️ No se encontraron canciones en la playlist.'
+    } else if (text.includes('open.spotify.com/artist') || text.includes('spotify.com/artist')) {
+      isAlbum = true
+      isArtist = true
+      dataToProcess = await spotifyArtist(text)
+      if (!dataToProcess?.tracks?.length) throw '⚠️ No se encontraron canciones para el artista.'
+    } else if (text.includes('spotify.com/track')) {
+      dataToProcess = { tracks: [ await spotifyTrack(text) ] }
+    } else {
+      // Búsqueda por nombre
+      if (text.toLowerCase().includes('album')) {
+        isAlbum = true
+        dataToProcess = await spotifyAlbumSearch(text)
+        if (!dataToProcess?.tracks?.length) throw '⚠️ No se encontraron canciones en el álbum.'
+      } else {
+        const trackInfo = await spotifyxv(text)
+        if (!trackInfo.length || !trackInfo[0].url)
+          throw '❌ *Error:* No se encontraron resultados.'
+        dataToProcess = { tracks: [trackInfo[0]] }
+      }
+    }
+
+    // 6.1 Procesamiento para Álbum/Playlist/Artista
+    if (isAlbum || isPlaylist) {
+      let failedTracks = []
+      for (let i = 0; i < dataToProcess.tracks.length; i++) {
+        const track = dataToProcess.tracks[i]
+        const objectiveText = `${track.name} (${i + 1}/${dataToProcess.tracks.length})`
+
+        const initAnim = formatExtractionMessage(objectiveText, 1, '▱▱▱▱▱▱▱▱▱▱ 0%')
+        const animMsg = await conn.sendMessage(m.chat, { text: initAnim })
+
+        const data = await downloadWithRetries(track, conn, m, animMsg, objectiveText)
+        if (data) {
+          await conn.sendMessage(m.chat, { delete: animMsg.key })
+          await conn.sendMessage(m.chat, {
+            audio: { url: data.music },
+            fileName: `${data.title}.mp3`,
+            mimetype: 'audio/mpeg',
+            contextInfo: {
+              externalAdReply: {
+                showAdAttribution: false,
+                title: `${data.title}`,
+                body: `Artista: ${data.artist}`,
+                description: `Álbum: ${data.album}`,
+                thumbnailUrl: data.thumbnail
+              }
+            }
+          })
+          await new Promise(resolve => setTimeout(resolve, 2000))
+        } else {
+          failedTracks.push(track)
+        }
+      }
+
+      // Reintentos para los tracks fallidos
+      if (failedTracks.length > 0) {
+        let failedTitles = failedTracks.map(t => t.name).join('\n')
+        await conn.sendMessage(m.chat, {
+          text: `Igris intentará obtener de nuevo las sombras de:\n${failedTitles}`
+        })
+
+        let stillFailedTracks = []
+        for (let track of failedTracks) {
+          const objectiveText = `${track.name} (Reintento)`
+          const initAnim = formatExtractionMessage(objectiveText, 1, '▱▱▱▱▱▱▱▱▱▱ 0%')
+          const animMsg = await conn.sendMessage(m.chat, { text: initAnim })
+
+          const data = await downloadWithRetries(track, conn, m, animMsg, objectiveText)
+          if (data) {
+            await conn.sendMessage(m.chat, { delete: animMsg.key })
+            await conn.sendMessage(m.chat, {
+              audio: { url: data.music },
+              fileName: `${data.title}.mp3`,
+              mimetype: 'audio/mpeg',
+              contextInfo: {
+                externalAdReply: {
+                  showAdAttribution: false,
+                  title: `${data.title}`,
+                  body: `Artista: ${data.artist}`,
+                  description: `Álbum: ${data.album}`,
+                  thumbnailUrl: data.thumbnail
+                }
+              }
+            })
+            await new Promise(resolve => setTimeout(resolve, 2000))
+          } else {
+            stillFailedTracks.push(track)
+          }
+        }
+        if (stillFailedTracks.length > 0) {
+          let stillFailedTitles = stillFailedTracks.map(t => t.name).join('\n')
+          await conn.sendMessage(m.chat, {
+            text: `No se pudieron extraer las siguientes sombras:\n${stillFailedTitles}`
+          })
+        }
+      }
+
+    // 6.2 Procesamiento para canción individual
+    } else {
+      const track = dataToProcess.tracks[0]
+      const objectiveText = `${track.name} (1/1)`
+      const initAnim = formatExtractionMessage(objectiveText, 1, '▱▱▱▱▱▱▱▱▱▱ 0%')
+      const animMsg = await conn.sendMessage(m.chat, { text: initAnim })
+
+      const data = await downloadWithRetries(track, conn, m, animMsg, objectiveText)
+      if (!data) {
+        await conn.sendMessage(m.chat, {
+          text: `Igris intentará obtener de nuevo las sombras de:\n${track.name}`
+        })
+        const initAnimRetry = formatExtractionMessage(objectiveText + ' (Reintento)', 1, '▱▱▱▱▱▱▱▱▱▱ 0%')
+        const animMsgRetry = await conn.sendMessage(m.chat, { text: initAnimRetry })
+
+        const dataRetry = await downloadWithRetries(track, conn, m, animMsgRetry, objectiveText + ' (Reintento)')
+        if (!dataRetry) {
+          await conn.sendMessage(m.chat, {
+            text: `No se pudo extraer la sombra de: ${track.name}`
+          })
+        } else {
+          await conn.sendMessage(m.chat, { delete: animMsgRetry.key })
+          await conn.sendMessage(m.chat, {
+            audio: { url: dataRetry.music },
+            fileName: `${dataRetry.title}.mp3`,
+            mimetype: 'audio/mpeg',
+            contextInfo: {
+              externalAdReply: {
+                showAdAttribution: false,
+                title: `${dataRetry.title}`,
+                body: `Artista: ${dataRetry.artist}`,
+                description: `Álbum: ${dataRetry.album}`,
+                thumbnailUrl: dataRetry.thumbnail
+              }
+            }
+          })
+          await new Promise(resolve => setTimeout(resolve, 2000))
+        }
+      } else {
+        await conn.sendMessage(m.chat, { delete: animMsg.key })
+        await conn.sendMessage(m.chat, {
+          audio: { url: data.music },
+          fileName: `${data.title}.mp3`,
+          mimetype: 'audio/mpeg',
+          contextInfo: {
+            externalAdReply: {
+              showAdAttribution: false,
+              title: `${data.title}`,
+              body: `Artista: ${data.artist}`,
+              description: `Álbum: ${data.album}`,
+              thumbnailUrl: data.thumbnail
+            }
+          }
+        })
+        await m.react('✅')
+      }
+    }
+  } catch (e1) {
+    await m.react('❌')
+    await m.reply(`❌ *Error:* ${e1.message || e1}`)
+    console.error(e1)
+  }
+}
+
+handler.help = ['spotify', 'play']
+handler.tags = ['downloader']
+handler.command = ['spotify', 'play']
+handler.group = false
+export default handler
+
+// 7. Funciones auxiliares para Spotify
+
+async function spotifyxv(query) {
+  const token = await getSpotifyToken()
+  try {
+    let response = await axios({
+      method: 'get',
+      url: `https://api.spotify.com/v1/search?q=${encodeURIComponent(query)}&type=track`,
+      headers: { Authorization: `Bearer ${token}` }
+    })
+    const tracks = response.data.tracks.items
+    return tracks.map(track => ({
+      name: track.name,
+      artist: track.artists.map(a => a.name).join(', '),
+      album: track.album.name,
+      duration: timestamp(track.duration_ms),
+      url: track.external_urls.spotify,
+      thumbnail: track.album.images[0]?.url || ''
+    }))
+  } catch (error) {
+    console.error(error)
+    return []
+  }
+}
+
+async function spotifyAlbum(url) {
+  let albumId
+  try {
+    const parts = url.split('/')
+    albumId = parts[parts.indexOf('album') + 1].split('?')[0]
+  } catch (e) {
+    throw new Error('No se pudo extraer el ID del álbum.')
+  }
+  const token = await getSpotifyToken()
+  let response = await axios({
+    method: 'get',
+    url: `https://api.spotify.com/v1/albums/${albumId}`,
+    headers: { Authorization: `Bearer ${token}` }
+  })
+  const albumData = response.data
+  const tracks = albumData.tracks.items.map(t => ({
+    name: t.name,
+    artist: t.artists.map(a => a.name).join(', '),
+    album: albumData.name,
+    url: t.external_urls.spotify,
+    thumbnail: albumData.images[0]?.url || ''
+  }))
+  return { album: albumData, tracks }
+}
+
+async function spotifyAlbumSearch(query) {
+  const token = await getSpotifyToken()
+  let response = await axios({
+    method: 'get',
+    url: `https://api.spotify.com/v1/search?q=${encodeURIComponent(query)}&type=album`,
+    headers: { Authorization: `Bearer ${token}` }
+  })
+  const albums = response.data.albums.items
+  if (!albums.length) return null
+
+  const albumId = albums[0].id
+  let albumResponse = await axios({
+    method: 'get',
+    url: `https://api.spotify.com/v1/albums/${albumId}`,
+    headers: { Authorization: `Bearer ${token}` }
+  })
+  const albumData = albumResponse.data
+  const tracks = albumData.tracks.items.map(t => ({
+    name: t.name,
+    artist: t.artists.map(a => a.name).join(', '),
+    album: albumData.name,
+    url: t.external_urls.spotify,
+    thumbnail: albumData.images[0]?.url || ''
+  }))
+  return { album: albumData, tracks }
+}
+
+async function spotifyPlaylist(url) {
+  let playlistId
+  try {
+    const parts = url.split('/')
+    playlistId = parts[parts.indexOf('playlist') + 1].split('?')[0]
+  } catch (e) {
+    throw new Error('No se pudo extraer el ID de la playlist.')
+  }
+  const token = await getSpotifyToken()
+  let response = await axios({
+    method: 'get',
+    url: `https://api.spotify.com/v1/playlists/${playlistId}`,
+    headers: { Authorization: `Bearer ${token}` }
+  })
+  const playlistData = response.data
+  const tracks = playlistData.tracks.items.map(item => {
+    const track = item.track
+    return {
+      name: track.name,
+      artist: track.artists.map(a => a.name).join(', '),
+      album: playlistData.name,
+      url: track.external_urls.spotify,
+      thumbnail: track.album.images[0]?.url || ''
+    }
+  })
+  return { album: { name: playlistData.name }, tracks }
+}
+
+async function spotifyArtist(url) {
+  let artistId
+  try {
+    const parts = url.split('/')
+    artistId = parts[parts.indexOf('artist') + 1].split('?')[0]
+  } catch (e) {
+    throw new Error('No se pudo extraer el ID del artista.')
+  }
+  const token = await getSpotifyToken()
+  let response = await axios({
+    method: 'get',
+    url: `https://api.spotify.com/v1/artists/${artistId}/top-tracks?market=US`,
+    headers: { Authorization: `Bearer ${token}` }
+  })
+  const artistData = response.data
+  const tracks = artistData.tracks.map(t => ({
+    name: t.name,
+    artist: t.artists.map(a => a.name).join(', '),
+    album: 'Top Tracks',
+    url: t.external_urls.spotify,
+    thumbnail: t.album.images[0]?.url || ''
+  }))
+  return { album: { name: 'Top Tracks' }, tracks }
+}
+
+async function spotifyTrack(url) {
+  let trackId
+  try {
+    const parts = url.split('/')
+    trackId = parts[parts.indexOf('track') + 1].split('?')[0]
+  } catch (e) {
+    throw new Error('No se pudo extraer el ID del track.')
+  }
+  const token = await getSpotifyToken()
+  let response = await axios({
+    method: 'get',
+    url: `https://api.spotify.com/v1/tracks/${trackId}`,
+    headers: { Authorization: `Bearer ${token}` }
+  })
+  const track = response.data
+  return {
+    name: track.name,
+    artist: track.artists.map(a => a.name).join(', '),
+    album: track.album.name,
+    url: track.external_urls.spotify,
+    thumbnail: track.album.images[0]?.url || ''
+  }
+}
+
+function timestamp(ms) {
+  const min = Math.floor(ms / 60000)
+  const sec = Math.floor((ms % 60000) / 1000)
+  return `${min}:${sec < 10 ? '0' : ''}${sec}`
+}

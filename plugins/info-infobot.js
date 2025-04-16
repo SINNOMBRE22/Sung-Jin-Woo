@@ -1,1 +1,59 @@
-const a0_0x353553=a0_0x2356;(function(_0x4b2675,_0x270965){const _0x25a434=a0_0x2356,_0xb8ec51=_0x4b2675();while(!![]){try{const _0x2c46cb=-parseInt(_0x25a434(0x171))/0x1*(parseInt(_0x25a434(0x148))/0x2)+parseInt(_0x25a434(0x169))/0x3*(parseInt(_0x25a434(0x14c))/0x4)+parseInt(_0x25a434(0x16a))/0x5*(-parseInt(_0x25a434(0x16f))/0x6)+parseInt(_0x25a434(0x164))/0x7+parseInt(_0x25a434(0x147))/0x8*(parseInt(_0x25a434(0x178))/0x9)+parseInt(_0x25a434(0x14a))/0xa+-parseInt(_0x25a434(0x15b))/0xb;if(_0x2c46cb===_0x270965)break;else _0xb8ec51['push'](_0xb8ec51['shift']());}catch(_0x72be9e){_0xb8ec51['push'](_0xb8ec51['shift']());}}}(a0_0x2321,0xb5bf4));import{generateWAMessageFromContent}from'@whiskeysockets/baileys';import a0_0x48055d from'os';function a0_0x2356(_0x5e79f7,_0x366855){const _0x232159=a0_0x2321();return a0_0x2356=function(_0x2356ff,_0x49c1fb){_0x2356ff=_0x2356ff-0x144;let _0x43b58a=_0x232159[_0x2356ff];return _0x43b58a;},a0_0x2356(_0x5e79f7,_0x366855);}function a0_0x2321(){const _0x5a08b9=['68NBEezf','*𝚙𝚛𝚒𝚟𝚊𝚍𝚘*','*𝚙𝚞𝚋𝚕𝚒𝚌𝚘*','isChats','help','\x0a╠➥\x20[📵]\x20𝙰𝙽𝚃𝙸𝙻𝙻𝙰𝙼𝙰𝙳𝙰:\x20','padStart','log','*\x0a╠➥\x20[🎩]\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂:\x20*','opts','*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*','*\x0a╠➥\x20[🦜]\x20𝙲𝙷𝙰𝚃𝚂\x20𝙳𝙴\x20𝙶𝚁𝚄𝙿𝙾𝚂:\x20*','@g.us','toString','botinfo','1854974ZAJZTH','jid','endsWith','command','memoryUsage','filter','uptime','data','info','4995718jluTzK','parseMention','join','relayMessage','\x0a╠➥\x20[❗]\x20𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃:\x20','143343LvPfbk','7208665mKbcKq','\x0a╠═〘\x20𝐈𝐍𝐅𝐎\x20𝐃𝐄𝐋\x20𝐁𝐎𝐓\x20〙\x20═\x0a╠\x0a╠➥\x20[🤴🏻]\x20𝙲𝚁𝙴𝙰𝙳𝙾𝚁:\x20*SinNombre*\x0a╠➥\x20[🔗]\x20𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾:\x20wa.me/message/BSE4ZCEPY7ZOP1\x0a╠➥\x20[🎳]\x20𝙿𝚁𝙴𝙵𝙸𝙹𝙾:\x20*','entries','*\x20\x0a╠➥\x20[🚀]\x20𝙰𝙲𝚃𝙸𝚅𝙸𝙳𝙰𝙳:\x20*','\x0a╠➥\x20[💬]\x20𝙰𝙽𝚃𝙸𝙿𝚁𝙸𝚅𝙰𝙳𝙾:\x20','6AiWYTW','length','9257pyOOic','floor','\x20𝚗𝚞𝚖𝚎𝚛𝚘𝚜*\x0a╠➥\x20[☑️]\x20𝙰𝚄𝚃𝙾𝚁𝙴𝙰𝙳:\x20','now','\x0a╠➥\x20[👨‍🦯]\x20𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳:\x20\x0a╠\x20\x20*','*\x20\x0a╠➥\x20[💡]\x20𝙲𝙷𝙰𝚃𝚂\x20𝚃𝙾𝚃𝙰𝙻𝙴𝚂:\x20*','tags','105741niUyTW','*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*','keys','map','chats','328HRMwpI','148DXZfBw','\x20\x0a╠➥\x20[💬]\x20𝙿𝙲𝙾𝙽𝙻𝚈:\x20','10321610NVzKZh','user'];a0_0x2321=function(){return _0x5a08b9;};return a0_0x2321();}import a0_0x3750c7 from'util';import a0_0x1b3a00 from'human-readable';import a0_0x221cda from'@whiskeysockets/baileys';import a0_0x42b96f from'fs';import{performance}from'perf_hooks';let handler=async(_0x29646a,{conn:_0x372e5f,usedPrefix:_0x37de5d})=>{const _0x288e1b=a0_0x2356;let _0x4d97d5=process[_0x288e1b(0x161)]()*0x3e8,_0x4644d6=clockString(_0x4d97d5),_0x18234c=Object[_0x288e1b(0x144)](global['db'][_0x288e1b(0x162)]['users'])[_0x288e1b(0x170)];const _0xfbedcb=Object[_0x288e1b(0x16c)](_0x372e5f[_0x288e1b(0x146)])[_0x288e1b(0x160)](([_0x4d907a,_0x37a2b4])=>_0x4d907a&&_0x37a2b4[_0x288e1b(0x14f)]),_0x3721fa=_0xfbedcb[_0x288e1b(0x160)](([_0x546457])=>_0x546457[_0x288e1b(0x15d)](_0x288e1b(0x158))),_0x272f42=_0xfbedcb[_0x288e1b(0x160)](([_0xcd2e4c])=>_0xcd2e4c['endsWith']('@g.us')),_0x150571=process[_0x288e1b(0x15f)](),{restrict:_0x1b7a5e,antiCall:_0x568320,antiprivado:_0x5a0a89,modejadibot:_0x142a80}=global['db']['data']['settings'][_0x372e5f[_0x288e1b(0x14b)][_0x288e1b(0x15c)]]||{},{autoread:_0x50968f,gconly:_0x122ef7,pconly:_0x53e7f2,self:_0x293e3a}=global[_0x288e1b(0x155)]||{};let _0x3820c5=performance[_0x288e1b(0x174)](),_0x51f711=performance[_0x288e1b(0x174)](),_0x151122=_0x51f711-_0x3820c5,_0x195fa8=(_0x288e1b(0x16b)+_0x37de5d+'*\x0a╠➥\x20[🔐]\x20𝙲𝙷𝙰𝚃𝚂\x20𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂:\x20*'+(_0xfbedcb['length']-_0x272f42[_0x288e1b(0x170)])+_0x288e1b(0x157)+_0x272f42[_0x288e1b(0x170)]+_0x288e1b(0x176)+_0xfbedcb[_0x288e1b(0x170)]+_0x288e1b(0x16d)+_0x4644d6+_0x288e1b(0x154)+_0x18234c+_0x288e1b(0x173)+(_0x50968f?_0x288e1b(0x179):_0x288e1b(0x156))+_0x288e1b(0x168)+(_0x1b7a5e?'*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*':_0x288e1b(0x156))+_0x288e1b(0x149)+(_0x53e7f2?_0x288e1b(0x179):'*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*')+'\x0a╠➥\x20[🏢]\x20𝙶𝙲𝙾𝙽𝙻𝚈:\x20'+(_0x122ef7?_0x288e1b(0x179):_0x288e1b(0x156))+'\x0a╠➥\x20[🌎]\x20𝙼𝙾𝙳𝙾:\x20'+(_0x293e3a?_0x288e1b(0x14d):_0x288e1b(0x14e))+_0x288e1b(0x16e)+(_0x5a0a89?_0x288e1b(0x179):'*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*')+'\x0a╠➥\x20[🤖]\x20𝙼𝙾𝙳𝙴𝙹𝙰𝙳𝙸𝙱𝙾𝚃:\x20'+(_0x142a80?'*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*':'*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*')+_0x288e1b(0x151)+(_0x568320?_0x288e1b(0x179):_0x288e1b(0x156))+_0x288e1b(0x175)+_0x151122+'\x20ms*\x20\x0a╠\x0a╠═〘\x20Sung\x20Jin-Woo\x20〙\x20═\x0a')['trim'](),_0x7da8d4={'quoted':_0x29646a,'userJid':_0x372e5f[_0x288e1b(0x14b)][_0x288e1b(0x15c)]},_0x3bb69e=generateWAMessageFromContent(_0x29646a['chat'],{'liveLocationMessage':{'degreesLatitude':0x0,'degreesLongitude':0x0,'caption':_0x195fa8,'secuenceNumber':'0','contextInfo':{'mentionedJid':_0x372e5f[_0x288e1b(0x165)]()}}},_0x7da8d4);_0x372e5f[_0x288e1b(0x167)](_0x29646a['chat'],_0x3bb69e['message'],{});};handler[a0_0x353553(0x150)]=[a0_0x353553(0x15a)],handler[a0_0x353553(0x177)]=[a0_0x353553(0x163)],handler[a0_0x353553(0x15e)]=/^(infobot|botinfo)$/i;export default handler;function clockString(_0x47e059){const _0x5e9224=a0_0x353553;let _0x4bd24e=Math[_0x5e9224(0x172)](_0x47e059/0x36ee80),_0x13cff1=Math[_0x5e9224(0x172)](_0x47e059/0xea60)%0x3c,_0x5ac707=Math[_0x5e9224(0x172)](_0x47e059/0x3e8)%0x3c;return console[_0x5e9224(0x153)]({'ms':_0x47e059,'h':_0x4bd24e,'m':_0x13cff1,'s':_0x5ac707}),[_0x4bd24e,_0x13cff1,_0x5ac707][_0x5e9224(0x145)](_0x164d6f=>_0x164d6f[_0x5e9224(0x159)]()[_0x5e9224(0x152)](0x2,0x0))[_0x5e9224(0x166)](':');}
+import { generateWAMessageFromContent } from '@whiskeysockets/baileys'
+import os from 'os'
+import util from 'util'
+import sizeFormatter from 'human-readable'
+import MessageType from '@whiskeysockets/baileys'
+import fs from 'fs'
+import { performance } from 'perf_hooks'
+let handler = async (m, { conn, usedPrefix }) => {
+let _uptime = process.uptime() * 1000
+let uptime = clockString(_uptime) 
+let totalreg = Object.keys(global.db.data.users).length
+const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
+const groupsIn = chats.filter(([id]) => id.endsWith('@g.us'))
+const groups = chats.filter(([id]) => id.endsWith('@g.us'))
+const used = process.memoryUsage()
+const { restrict, antiCall, antiprivado, modejadibot } = global.db.data.settings[conn.user.jid] || {}
+const { autoread, gconly, pconly, self } = global.opts || {}
+let old = performance.now()
+let neww = performance.now()
+let speed = neww - old
+let info = `
+╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
+╠
+╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *SinNombre*
+╠➥ [🔗] 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾: wa.me/message/BSE4ZCEPY7ZOP1
+╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
+╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
+╠➥ [🦜] 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: *${groups.length}* 
+╠➥ [💡] 𝙲𝙷𝙰𝚃𝚂 𝚃𝙾𝚃𝙰𝙻𝙴𝚂: *${chats.length}* 
+╠➥ [🚀] 𝙰𝙲𝚃𝙸𝚅𝙸𝙳𝙰𝙳: *${uptime}*
+╠➥ [🎩] 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: *${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
+╠➥ [☑️] 𝙰𝚄𝚃𝙾𝚁𝙴𝙰𝙳: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
+╠➥ [❗] 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
+╠➥ [💬] 𝙿𝙲𝙾𝙽𝙻𝚈: ${pconly ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
+╠➥ [🏢] 𝙶𝙲𝙾𝙽𝙻𝚈: ${gconly ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
+╠➥ [🌎] 𝙼𝙾𝙳𝙾: ${self ? '*𝚙𝚛𝚒𝚟𝚊𝚍𝚘*' : '*𝚙𝚞𝚋𝚕𝚒𝚌𝚘*'}
+╠➥ [💬] 𝙰𝙽𝚃𝙸𝙿𝚁𝙸𝚅𝙰𝙳𝙾: ${antiprivado ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
+╠➥ [🤖] 𝙼𝙾𝙳𝙴𝙹𝙰𝙳𝙸𝙱𝙾𝚃: ${modejadibot ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
+╠➥ [📵] 𝙰𝙽𝚃𝙸𝙻𝙻𝙰𝙼𝙰𝙳𝙰: ${antiCall ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
+╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
+╠  *${speed} ms* 
+╠
+╠═〘 Sung Jin-Woo 〙 ═
+`.trim() 
+let aa = { quoted: m, userJid: conn.user.jid }
+let res = generateWAMessageFromContent (m.chat, {liveLocationMessage: {degreesLatitude: 0, degreesLongitude: 0, caption: info, secuenceNumber: "0", contextInfo: {mentionedJid: conn.parseMention()}}}, aa)
+conn.relayMessage(m.chat, res.message, {})
+}
+handler.help = ['botinfo']
+handler.tags = ['info']
+handler.command = /^(infobot|botinfo)$/i
+export default handler
+
+function clockString(ms) {
+let h = Math.floor(ms / 3600000)
+let m = Math.floor(ms / 60000) % 60
+let s = Math.floor(ms / 1000) % 60
+console.log({ms,h,m,s})
+return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')}

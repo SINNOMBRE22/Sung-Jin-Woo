@@ -1,1 +1,110 @@
-const a0_0x2a150b=a0_0x5291;function a0_0x5291(_0x358d34,_0x14c683){const _0x2d4394=a0_0x2d43();return a0_0x5291=function(_0x529145,_0x529a75){_0x529145=_0x529145-0xbe;let _0x1327c2=_0x2d4394[_0x529145];return _0x1327c2;},a0_0x5291(_0x358d34,_0x14c683);}(function(_0x308a35,_0x4f5af3){const _0x1577a0=a0_0x5291,_0x5db5f1=_0x308a35();while(!![]){try{const _0x3fcc74=parseInt(_0x1577a0(0xd9))/0x1+-parseInt(_0x1577a0(0xec))/0x2*(-parseInt(_0x1577a0(0xdb))/0x3)+parseInt(_0x1577a0(0xca))/0x4+parseInt(_0x1577a0(0xee))/0x5*(parseInt(_0x1577a0(0xe4))/0x6)+-parseInt(_0x1577a0(0xc3))/0x7+-parseInt(_0x1577a0(0xe8))/0x8+-parseInt(_0x1577a0(0xdd))/0x9;if(_0x3fcc74===_0x4f5af3)break;else _0x5db5f1['push'](_0x5db5f1['shift']());}catch(_0x2a9c49){_0x5db5f1['push'](_0x5db5f1['shift']());}}}(a0_0x2d43,0x8572a));import a0_0x16bac1 from'node-fetch';import a0_0x23a313 from'@vitalets/google-translate-api';function a0_0x2d43(){const _0x104868=['reply','&symsg=','isGroup','user','2736568SNsyap','content','Tu\x20seras\x20Sung\x20Jin-Woo,\x20un\x20bot\x20creado\x20por\x20PowerMX','prefix','message','Sin\x20definir','modoia','then','error','respon','https://vihangayt.me/tools/chatgpt2?q=','users','chatgpt','replace','fromMe','919515MPDAJP','https://vihangayt.me/tools/chatgpt3?q=','9twbqPD','choices','8545302qwCMKm','https://api-fgmods.ddns.net/api/info/openai?text=','https://api.akuari.my.id/ai/gpt?chat=','text','result','&apikey=XlwAnX8d','data','147414yrGfjd','system','openai_key','before','6410608yQhStK','conn','trim','json','523948fBRfHS','test','85UMEHSd','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/chatgpt_indicciones.txt','https://vihangayt.me/tools/chatgpt?q=','POST','jid','@name','3568922lRffKM','sender','https://api.openai.com/v1/chat/completions'];a0_0x2d43=function(){return _0x104868;};return a0_0x2d43();}const handler=_0x270f9f=>_0x270f9f;handler[a0_0x2a150b(0xe7)]=async _0xa35139=>{const _0x3078e1=a0_0x2a150b;let _0x1509a8=![];const _0x3a8441=global[_0x3078e1(0xcd)];if(_0x3a8441[_0x3078e1(0xed)](_0xa35139[_0x3078e1(0xe0)]))_0x1509a8=!![];const _0x47efe5=global['db'][_0x3078e1(0xe3)]['settings'][mconn[_0x3078e1(0xe9)][_0x3078e1(0xc9)][_0x3078e1(0xc1)]];if(_0x47efe5[_0x3078e1(0xd0)]&&!_0xa35139[_0x3078e1(0xc8)]&&!_0x1509a8&&!_0xa35139[_0x3078e1(0xd8)]&&_0xa35139[_0x3078e1(0xe0)]!==''){if(/^.*false|disnable|(turn)?off|0/i['test'](_0xa35139[_0x3078e1(0xe0)]))return;let _0x46ba0a=_0xa35139[_0x3078e1(0xe0)];const _0x599a70=mconn[_0x3078e1(0xe9)]['getName'](_0xa35139[_0x3078e1(0xc4)]),_0x58d2f2=''+(_0x599a70||_0x3078e1(0xcf)),_0x4e304b=await a0_0x16bac1(_0x3078e1(0xbe))[_0x3078e1(0xd1)](_0x2f5ad3=>_0x2f5ad3[_0x3078e1(0xe0)]()),_0x9b656a=_0x4e304b[_0x3078e1(0xd7)](_0x3078e1(0xc2),_0x58d2f2),_0x1cd018=_0x3078e1(0xcc);try{async function _0x2bd2f1(_0x2166fc){const _0x5af534=_0x3078e1,_0x31c79a=global[_0x5af534(0xe6)];let _0x225568=global[_0x5af534(0xd6)]['data'][_0x5af534(0xd5)][_0xa35139[_0x5af534(0xc4)]];_0x225568['push']({'role':_0x5af534(0xc9),'content':_0x2166fc});const _0x371eb4=_0x5af534(0xc5),_0x264cc7={'Content-Type':'application/json','Authorization':'Bearer\x20'+_0x31c79a},_0x127c87={'model':'gpt-3.5-turbo','messages':[{'role':_0x5af534(0xe5),'content':_0x9b656a},..._0x225568]},_0x4f45fe=await a0_0x16bac1(_0x371eb4,{'method':_0x5af534(0xc0),'headers':_0x264cc7,'body':JSON['stringify'](_0x127c87)}),_0x2d5051=await _0x4f45fe['json'](),_0x53f047=_0x2d5051[_0x5af534(0xdc)][0x0][_0x5af534(0xce)][_0x5af534(0xcb)];return _0x53f047;};let _0x1939ca=await _0x2bd2f1(_0x46ba0a);_0xa35139[_0x3078e1(0xc6)]((''+_0x1939ca)[_0x3078e1(0xea)]());return;}catch{try{const _0x156e05=await a0_0x16bac1(_0x3078e1(0xde)+_0x46ba0a+_0x3078e1(0xc7)+_0x1cd018+_0x3078e1(0xe2)),_0x1c0df1=await _0x156e05['json']();if(_0x1c0df1[_0x3078e1(0xe1)]==_0x3078e1(0xd2)||_0x1c0df1[_0x3078e1(0xe1)]==''||!_0x1c0df1[_0x3078e1(0xe1)])return XD;let _0xb77119='';try{_0xb77119=unescape(_0x1c0df1[_0x3078e1(0xe1)]);}catch{_0xb77119=_0x1c0df1['result'];}_0xa35139[_0x3078e1(0xc6)]((''+_0xb77119)[_0x3078e1(0xea)]());return;}catch{try{const _0x220c37=await a0_0x16bac1(_0x3078e1(0xbf)+_0x46ba0a),_0x2ee776=await _0x220c37['json']();if(_0x2ee776[_0x3078e1(0xe3)]==_0x3078e1(0xd2)||_0x2ee776['data']==''||!_0x2ee776[_0x3078e1(0xe3)])return XD;let _0x5eb80d='';try{_0x5eb80d=unescape(_0x2ee776['data']);}catch{_0x5eb80d=_0x2ee776[_0x3078e1(0xe3)];}_0xa35139[_0x3078e1(0xc6)]((''+_0x5eb80d)['trim']());return;}catch{try{const _0x65df06=await a0_0x16bac1(_0x3078e1(0xd4)+_0x46ba0a),_0x1816aa=await _0x65df06['json']();if(_0x1816aa['data']=='error'||_0x1816aa['data']==''||!_0x1816aa[_0x3078e1(0xe3)])return XD;let _0x392483='';try{_0x392483=unescape(_0x1816aa[_0x3078e1(0xe3)]);}catch{_0x392483=_0x1816aa[_0x3078e1(0xe3)];}_0xa35139['reply']((''+_0x392483)[_0x3078e1(0xea)]());return;}catch{try{const _0x4cb6fc=await a0_0x16bac1(_0x3078e1(0xda)+_0x46ba0a),_0xf0e6d0=await _0x4cb6fc[_0x3078e1(0xeb)]();if(_0xf0e6d0[_0x3078e1(0xe3)]==_0x3078e1(0xd2)||_0xf0e6d0[_0x3078e1(0xe3)]==''||!_0xf0e6d0['data'])return XD;let _0x3776='';try{_0x3776=unescape(_0xf0e6d0[_0x3078e1(0xe3)]);}catch{_0x3776=_0xf0e6d0[_0x3078e1(0xe3)];}_0xa35139['reply']((''+_0x3776)[_0x3078e1(0xea)]());return;}catch{const _0x1d7313=await a0_0x16bac1(_0x3078e1(0xdf)+_0x46ba0a),_0x1f50c3=await _0x1d7313[_0x3078e1(0xeb)]();let _0x519bb6='';try{_0x519bb6=unescape(_0x1f50c3[_0x3078e1(0xd3)]);}catch{_0x519bb6=_0x1f50c3[_0x3078e1(0xd3)];}const _0x37a514=await a0_0x23a313(''+_0x519bb6,{'to':'es','autoCorrect':!![]});_0xa35139[_0x3078e1(0xc6)]((''+_0x37a514['text'])['trim']());return;}}}}}}return!![];};export default handler;
+import fetch from 'node-fetch';
+import translate from '@vitalets/google-translate-api';
+ // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+  
+const handler = (m) => m;
+
+handler.before = async (m) => {
+  let Prefijo = false;
+  const prefixRegex = global.prefix;
+  if (prefixRegex.test(m.text)) Prefijo = true;
+  const bot = global.db.data.settings[mconn.conn.user.jid]   
+  if (bot.modoia && !m.isGroup && !Prefijo && !m.fromMe && m.text !== '') {
+     if (/^.*false|disnable|(turn)?off|0/i.test(m.text)) return;
+        let textodem = m.text;
+        const name = mconn.conn.getName(m.sender)
+        const namedem = `${name || 'Sin definir'}`
+        const sytm = await fetch(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/chatgpt_indicciones.txt`).then(v => v.text());
+        const sistema1 = sytm.replace('@name', namedem)
+        const sistema2 = 'Tu seras Sung Jin-Woo, un bot creado por PowerMX';
+        try {
+        async function getOpenAIChatCompletion(texto) {
+        const openaiAPIKey = global.openai_key;
+        let chgptdb = global.chatgpt.data.users[m.sender];
+        chgptdb.push({ role: 'user', content: texto });
+        const url = "https://api.openai.com/v1/chat/completions";
+        const headers = { "Content-Type": "application/json", "Authorization": `Bearer ${openaiAPIKey}` };
+        const data = { "model": "gpt-3.5-turbo", "messages": [{ "role": "system", "content": sistema1 }, ...chgptdb, ]};
+        const response = await fetch(url, {method: "POST", headers: headers, body: JSON.stringify(data)});
+        const result = await response.json();
+        const finalResponse = result.choices[0].message.content;
+        return finalResponse;
+        };
+        let respuesta = await getOpenAIChatCompletion(textodem);
+        m.reply(`${respuesta}`.trim());
+        return;
+        } catch {    
+        try {
+        const fgapi1 = await fetch(`https://api-fgmods.ddns.net/api/info/openai?text=${textodem}&symsg=${sistema2}&apikey=XlwAnX8d`);
+        const fgjson1 = await fgapi1.json();
+        if (fgjson1.result == 'error' || fgjson1.result == '' || !fgjson1.result) return XD;
+        let parsedData1 = ''; 
+        try {     
+        parsedData1 = unescape(fgjson1.result);
+        } catch {
+        parsedData1 = fgjson1.result;    
+        }    
+        m.reply(`${parsedData1}`.trim());
+        return;    
+        } catch {
+        try {
+        const vihangayt1 = await fetch(`https://vihangayt.me/tools/chatgpt?q=${textodem}`);
+        const vihangaytjson1 = await vihangayt1.json();
+        if (vihangaytjson1.data == 'error' || vihangaytjson1.data == '' || !vihangaytjson1.data) return XD;
+        let parsedData2 = ''; 
+        try {     
+        parsedData2 = unescape(vihangaytjson1.data);
+        } catch {
+        parsedData2 = vihangaytjson1.data;    
+        }            
+        m.reply(`${parsedData2}`.trim()); 
+        return;
+        } catch {
+        try {
+        const vihangayt2 = await fetch(`https://vihangayt.me/tools/chatgpt2?q=${textodem}`);
+        const vihangaytjson2 = await vihangayt2.json();
+        if (vihangaytjson2.data == 'error' || vihangaytjson2.data == '' || !vihangaytjson2.data) return XD; 
+        let parsedData3 = ''; 
+        try {     
+        parsedData3 = unescape(vihangaytjson2.data);
+        } catch {
+        parsedData3 = vihangaytjson2.data;    
+        }            
+        m.reply(`${parsedData3}`.trim()); 
+        return;    
+        } catch {
+        try {    
+        const vihangayt3 = await fetch(`https://vihangayt.me/tools/chatgpt3?q=${textodem}`);
+        const vihangaytjson3 = await vihangayt3.json();
+        if (vihangaytjson3.data == 'error' || vihangaytjson3.data == '' || !vihangaytjson3.data) return XD;
+        let parsedData4 = ''; 
+        try {     
+        parsedData4 = unescape(vihangaytjson3.data);    
+        } catch {    
+        parsedData4 = vihangaytjson3.data;    
+        }            
+        m.reply(`${parsedData4}`.trim()); 
+        return;    
+        } catch {    
+        const akuariapi2 = await fetch(`https://api.akuari.my.id/ai/gpt?chat=${textodem}`);
+        const akuariapijson2 = await akuariapi2.json();
+        let parsedData5 = ''; 
+        try {     
+        parsedData5 = unescape(akuariapijson2.respon);
+        } catch {
+        parsedData5 = akuariapijson2.respon;    
+        }            
+        const akuariapiresult2 = await translate(`${parsedData5}`, {to: 'es', autoCorrect: true});
+        m.reply(`${akuariapiresult2.text}`.trim());  
+        return;    
+        }     
+       }
+      }
+     }
+    }
+   }
+  return true;
+};
+export default handler;

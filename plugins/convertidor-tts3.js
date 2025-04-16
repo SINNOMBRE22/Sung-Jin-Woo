@@ -1,1 +1,53 @@
-function a0_0x24f6(_0x200b09,_0x46d8a8){const _0xe865d0=a0_0xe865();return a0_0x24f6=function(_0x24f6db,_0x5046e3){_0x24f6db=_0x24f6db-0xde;let _0x5cc9a3=_0xe865d0[_0x24f6db];return _0x5cc9a3;},a0_0x24f6(_0x200b09,_0x46d8a8);}const a0_0x5f2e73=a0_0x24f6;(function(_0x737b52,_0x358194){const _0x30c381=a0_0x24f6,_0x163fa8=_0x737b52();while(!![]){try{const _0x369d00=-parseInt(_0x30c381(0xf2))/0x1*(parseInt(_0x30c381(0xea))/0x2)+parseInt(_0x30c381(0xe4))/0x3+parseInt(_0x30c381(0xe1))/0x4+-parseInt(_0x30c381(0x102))/0x5*(-parseInt(_0x30c381(0xf0))/0x6)+-parseInt(_0x30c381(0xf8))/0x7+parseInt(_0x30c381(0xf6))/0x8+-parseInt(_0x30c381(0xff))/0x9;if(_0x369d00===_0x358194)break;else _0x163fa8['push'](_0x163fa8['shift']());}catch(_0x54b1a0){_0x163fa8['push'](_0x163fa8['shift']());}}}(a0_0xe865,0xee372));import a0_0x265a9e from'node-fetch';const handler=async(_0x29c378,{conn:_0x2d4b12,usedPrefix:_0x31b877,command:_0x13f17d,text:_0x52b37c})=>{const _0x71fa3f=a0_0x24f6,_0x4a10a3=_0x52b37c[_0x71fa3f(0xfe)](/^(\w+)\s*\|\s*(.+)/i);if(!_0x4a10a3){const _0x599a3c=await getVoices(),_0x1d43d4=_0x599a3c[_0x71fa3f(0xe3)][_0x71fa3f(0xf3)](_0x849b24=>_0x849b24[_0x71fa3f(0xeb)])[_0x71fa3f(0xef)]('\x0a◉\x20');return _0x29c378['reply'](_0x71fa3f(0x100)+(_0x31b877+_0x13f17d)+_0x71fa3f(0xe8)+(_0x31b877+_0x13f17d)+'\x20'+_0x599a3c[_0x71fa3f(0xe3)][0x0][_0x71fa3f(0xeb)]+_0x71fa3f(0x103)+_0x1d43d4);}const [,_0x1e06c0,_0x4c88d7]=_0x4a10a3,_0x3c4d72=await getVoices(),_0xd28afa=_0x3c4d72[_0x71fa3f(0xe3)][_0x71fa3f(0xfd)](_0x3af5bd=>_0x3af5bd[_0x71fa3f(0xeb)][_0x71fa3f(0xf9)]()===_0x1e06c0[_0x71fa3f(0xf9)]());if(!_0xd28afa){const _0xa0200d=_0x3c4d72[_0x71fa3f(0xe3)][_0x71fa3f(0xf3)](_0x5515a6=>_0x5515a6['name'])[_0x71fa3f(0xef)](_0x71fa3f(0xfb));return _0x29c378[_0x71fa3f(0xf5)](_0x71fa3f(0x105)+_0x1e06c0+'\x22.\x0a\x0a—◉\x20Lista\x20de\x20voces\x20disponibles:\x0a◉\x20'+_0xa0200d);}const _0x282972=await convertTextToSpeech(_0x4c88d7,_0xd28afa[_0x71fa3f(0x104)]);_0x282972&&_0x2d4b12['sendMessage'](_0x29c378[_0x71fa3f(0xde)],{'audio':_0x282972[_0x71fa3f(0xf1)],'fileName':_0x71fa3f(0xe5),'mimetype':'audio/mpeg','ptt':!![]},{'quoted':_0x29c378});};handler['help']=[a0_0x5f2e73(0xec)],handler[a0_0x5f2e73(0xe0)]=[a0_0x5f2e73(0xe2)],handler[a0_0x5f2e73(0xee)]=/^(tts3)$/i;export default handler;function a0_0xe865(){const _0x3341eb=['error.mp3','eleven_monolingual_v1','https://api.elevenlabs.io/v1/text-to-speech/','\x20nombre_voz\x20|\x20texto\x0a\x0a*—◉\x20Ejemplo\x20de\x20uso:*\x0a◉\x20','Error\x20al\x20obtener\x20las\x20voces:','2EYvYkz','name','tts3','https://api.elevenlabs.io/v1/voices','command','join','5434248XpHbHw','audio','744145QyfffN','map','application/json','reply','11084448DyyymA','Error\x20al\x20generar\x20el\x20audio:','11392815fKcKBi','toLowerCase','error','\x0a◉\x20','GET','find','match','20973303osSgDD','*[❗]\x20Formato\x20de\x20uso\x20erroneo,\x20voz\x20o\x20texto\x20faltante.*\x0a\x0a*—◉\x20Ejemplo:*\x0a◉\x20','POST','10NEnfZN','\x20|\x20este\x20es\x20un\x20texto\x20de\x20ejemplo\x0a\x0a*—◉\x20Lista\x20de\x20voces\x20disponibles:*\x0a◉\x20','voice_id','[❗]\x20No\x20se\x20encontró\x20ninguna\x20voz\x20con\x20el\x20nombre\x20\x22','chat','buffer','tags','4486324foLntL','convertidores','voices','4077702XrtrTK'];a0_0xe865=function(){return _0x3341eb;};return a0_0xe865();}const apiKey='a0e2c6022f1aeb28b5020b1dd0faf6ee',getVoices=async()=>{const _0x49d0dd=a0_0x5f2e73,_0xca759c=_0x49d0dd(0xed),_0x4ecad2={'method':_0x49d0dd(0xfc),'headers':{'Content-Type':'application/json','xi-api-key':apiKey}};try{const _0x813ee5=await a0_0x265a9e(_0xca759c,_0x4ecad2),_0x45722d=await _0x813ee5['json']();return _0x45722d;}catch(_0x5e214e){return console[_0x49d0dd(0xfa)](_0x49d0dd(0xe9),_0x5e214e),[];}},convertTextToSpeech=async(_0x5cbe77,_0x39c56f)=>{const _0xeadc16=a0_0x5f2e73,_0x282611=_0xeadc16(0xe7)+_0x39c56f,_0x19438b={'method':_0xeadc16(0x101),'headers':{'Content-Type':_0xeadc16(0xf4),'xi-api-key':apiKey},'body':JSON['stringify']({'text':_0x5cbe77,'model_id':_0xeadc16(0xe6),'voice_settings':{'stability':0.5,'similarity_boost':0.5}})};try{const _0x301f12=await a0_0x265a9e(_0x282611,_0x19438b),_0x4a98a7=await _0x301f12[_0xeadc16(0xdf)]();return{'audio':_0x4a98a7};}catch(_0x3df578){return console[_0xeadc16(0xfa)](_0xeadc16(0xf7),_0x3df578),[];}};
+import fetch from 'node-fetch';
+
+const handler = async (m, { conn, usedPrefix, command, text }) => {
+  const match = text.match(/^(\w+)\s*\|\s*(.+)/i);
+  if (!match) {
+    const voices = await getVoices();
+    const voiceNames = voices.voices.map(voice => voice.name).join('\n◉ ');
+    return m.reply(`*[❗] Formato de uso erroneo, voz o texto faltante.*\n\n*—◉ Ejemplo:*\n◉ ${usedPrefix + command} nombre_voz | texto\n\n*—◉ Ejemplo de uso:*\n◉ ${usedPrefix + command} ${voices.voices[0].name} | este es un texto de ejemplo\n\n*—◉ Lista de voces disponibles:*\n◉ ${voiceNames}`
+    );
+  }
+  const [, voiceName, inputText] = match;
+  const voices = await getVoices();
+  const voice = voices.voices.find(voice => voice.name.toLowerCase() === voiceName.toLowerCase());
+  if (!voice) {
+    const voiceNames = voices.voices.map(voice => voice.name).join('\n◉ ');
+    return m.reply(`[❗] No se encontró ninguna voz con el nombre "${voiceName}".\n\n—◉ Lista de voces disponibles:\n◉ ${voiceNames}`);
+  }
+  const audio = await convertTextToSpeech(inputText, voice.voice_id);
+  if (audio) {
+    conn.sendMessage(m.chat, { audio: audio.audio, fileName: `error.mp3`, mimetype: 'audio/mpeg', ptt: true }, { quoted: m });
+  }
+};
+handler.help = ['tts3'];
+handler.tags = ['convertidores'];
+handler.command = /^(tts3)$/i;
+export default handler;
+
+const apiKey = 'a0e2c6022f1aeb28b5020b1dd0faf6ee';
+const getVoices = async () => {
+  const url = 'https://api.elevenlabs.io/v1/voices';
+  const options = { method: 'GET', headers: { 'Content-Type': 'application/json', 'xi-api-key': apiKey }};
+  try {
+    const response = await fetch(url, options);
+    const voices = await response.json();
+    return voices;
+  } catch (error) {
+    console.error('Error al obtener las voces:', error);
+    return [];
+  }
+};
+
+const convertTextToSpeech = async (text, voiceId) => {
+  const url = `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`;
+  const options = { method: 'POST', headers: { 'Content-Type': 'application/json', 'xi-api-key': apiKey }, body: JSON.stringify({ text: text, model_id: 'eleven_monolingual_v1', voice_settings: { stability: 0.5, similarity_boost: 0.5 }})};
+  try {
+    const response = await fetch(url, options);
+    const audioBuffer = await response.buffer();
+    return { audio: audioBuffer };
+  } catch (error) {
+    console.error('Error al generar el audio:', error);
+    return [];  
+  }
+};

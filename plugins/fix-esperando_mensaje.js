@@ -1,1 +1,43 @@
-const a0_0x3019c8=a0_0x1011;(function(_0x5e0462,_0x1f3d17){const _0x2dc92f=a0_0x1011,_0x322bbb=_0x5e0462();while(!![]){try{const _0x2bee52=-parseInt(_0x2dc92f(0xd0))/0x1+-parseInt(_0x2dc92f(0xd9))/0x2*(-parseInt(_0x2dc92f(0xd4))/0x3)+-parseInt(_0x2dc92f(0xd7))/0x4+-parseInt(_0x2dc92f(0xc0))/0x5+-parseInt(_0x2dc92f(0xd5))/0x6+-parseInt(_0x2dc92f(0xc9))/0x7*(-parseInt(_0x2dc92f(0xdd))/0x8)+parseInt(_0x2dc92f(0xda))/0x9;if(_0x2bee52===_0x1f3d17)break;else _0x322bbb['push'](_0x322bbb['shift']());}catch(_0x503708){_0x322bbb['push'](_0x322bbb['shift']());}}}(a0_0x4651,0xbf116));import{readdirSync,unlinkSync,existsSync,promises as a0_0x3061fe,rmSync,readFileSync}from'fs';function a0_0x4651(){const _0x43e32e=['jid','user','228714RQIPdO','8862132mZAOcP','readdir','3323436LJuJVw','parse','36gzllgR','20449926CKsIjT','main','texto4','13544yEiNsb','sender','includes','texto3','help','3139045UfYrzq','sendMessage','unlink','data','conn','fix_esperando_mensage','texto5','isGroup','split','5607XOGBWi','tags','texto2','.json','language','chat','plugins','1282287kapzdH','texto1'];a0_0x4651=function(){return _0x43e32e;};return a0_0x4651();}import a0_0x147af6 from'path';const handler=async(_0x193144,{conn:_0x5e63bc,usedPrefix:_0x278dfe})=>{const _0x1f1bf8=a0_0x1011,_0x3c1fc7=global,_0x3229ff=_0x3c1fc7['db'][_0x1f1bf8(0xc3)]['users'][_0x193144[_0x1f1bf8(0xde)]][_0x1f1bf8(0xcd)],_0x1c91f8=JSON[_0x1f1bf8(0xd8)](readFileSync('./language/'+_0x3229ff+_0x1f1bf8(0xcc))),_0xb547d3=_0x1c91f8[_0x1f1bf8(0xcf)][_0x1f1bf8(0xc5)];if(global[_0x1f1bf8(0xc4)][_0x1f1bf8(0xd3)]['jid']!==_0x5e63bc[_0x1f1bf8(0xd3)][_0x1f1bf8(0xd2)])return _0x5e63bc[_0x1f1bf8(0xc1)](_0x193144[_0x1f1bf8(0xce)],{'text':_0xb547d3[_0x1f1bf8(0xd1)]},{'quoted':_0x193144});const _0xde2045=_0x193144[_0x1f1bf8(0xc7)]?[_0x193144[_0x1f1bf8(0xce)],_0x193144[_0x1f1bf8(0xde)]]:[_0x193144[_0x1f1bf8(0xde)]],_0x441659='./Jinwoosesion/';try{const _0x408651=await a0_0x3061fe[_0x1f1bf8(0xd6)](_0x441659);let _0x4a6bd2=0x0;for(const _0x29edc0 of _0x408651){for(const _0x501ed7 of _0xde2045){if(_0x29edc0[_0x1f1bf8(0xdf)](_0x501ed7[_0x1f1bf8(0xc8)]('@')[0x0])){await a0_0x3061fe[_0x1f1bf8(0xc2)](a0_0x147af6['join'](_0x441659,_0x29edc0)),_0x4a6bd2++;break;}}}_0x4a6bd2===0x0?await _0x5e63bc[_0x1f1bf8(0xc1)](_0x193144[_0x1f1bf8(0xce)],{'text':_0xb547d3[_0x1f1bf8(0xcb)]},{'quoted':_0x193144}):await _0x5e63bc[_0x1f1bf8(0xc1)](_0x193144[_0x1f1bf8(0xce)],{'text':_0xb547d3[_0x1f1bf8(0xbe)][0x0]+'\x20'+_0x4a6bd2+'\x20'+_0xb547d3['texto3'][0x1]},{'quoted':_0x193144});}catch(_0x3c6ab9){console['error'](_0xb547d3[_0x1f1bf8(0xdc)],_0x3c6ab9),await _0x5e63bc[_0x1f1bf8(0xc1)](_0x193144['chat'],{'text':_0xb547d3[_0x1f1bf8(0xc6)]},{'quoted':_0x193144});}await _0x5e63bc[_0x1f1bf8(0xc1)](_0x193144[_0x1f1bf8(0xce)],{'text':_0xb547d3['texto6']+'\x20\x0a'+_0x278dfe+'s\x0a'+_0x278dfe+'s\x0a'+_0x278dfe+'s'},{'quoted':_0x193144});};function a0_0x1011(_0x5a825c,_0x463983){const _0x465180=a0_0x4651();return a0_0x1011=function(_0x1011c9,_0x14ad3b){_0x1011c9=_0x1011c9-0xbe;let _0xf8bbd5=_0x465180[_0x1011c9];return _0xf8bbd5;},a0_0x1011(_0x5a825c,_0x463983);}handler[a0_0x3019c8(0xbf)]=['ds'],handler[a0_0x3019c8(0xca)]=[a0_0x3019c8(0xdb)],handler['command']=/^(fixmsgespera|ds)$/i;export default handler;
+/* Codigo hecho por @Fabri115 y mejorado por BrunoSobrino */
+
+import { readdirSync, unlinkSync, existsSync, promises as fs, rmSync, readFileSync } from 'fs';
+import path from 'path';
+
+const handler = async (m, { conn, usedPrefix }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.fix_esperando_mensage
+
+  if (global.conn.user.jid !== conn.user.jid) {
+    return conn.sendMessage(m.chat, {text: tradutor.texto1}, {quoted: m});
+  }
+  const chatId = m.isGroup ? [m.chat, m.sender] : [m.sender];
+  const sessionPath = './Jinwoosesion/';
+  try {
+    const files = await fs.readdir(sessionPath);
+    let filesDeleted = 0;
+    for (const file of files) {
+      for (const id of chatId) {
+        if (file.includes(id.split('@')[0])) {
+          await fs.unlink(path.join(sessionPath, file));
+          filesDeleted++;
+          break;
+        }
+      }
+    }
+    if (filesDeleted === 0) {
+      await conn.sendMessage(m.chat, {text: tradutor.texto2}, {quoted: m});
+    } else {
+      await conn.sendMessage(m.chat, {text: `${tradutor.texto3[0]} ${filesDeleted} ${tradutor.texto3[1]}`}, {quoted: m});
+    }
+  } catch (err) {
+    console.error(tradutor.texto4, err);
+    await conn.sendMessage(m.chat, {text: tradutor.texto5}, {quoted: m});
+  }
+  await conn.sendMessage(m.chat, {text: `${tradutor.texto6} \n${usedPrefix}s\n${usedPrefix}s\n${usedPrefix}s`}, {quoted: m});
+};
+handler.help = ['ds'];
+handler.tags = ['main'];
+handler.command = /^(fixmsgespera|ds)$/i;
+export default handler;

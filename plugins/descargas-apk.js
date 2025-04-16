@@ -1,1 +1,38 @@
-const a0_0xb8309b=a0_0x53aa;(function(_0x8910ea,_0x39e6da){const _0xe017a1=a0_0x53aa,_0x5aaf89=_0x8910ea();while(!![]){try{const _0x2b712f=parseInt(_0xe017a1(0x74))/0x1*(parseInt(_0xe017a1(0x6e))/0x2)+-parseInt(_0xe017a1(0x86))/0x3+parseInt(_0xe017a1(0x80))/0x4+-parseInt(_0xe017a1(0x85))/0x5*(parseInt(_0xe017a1(0x81))/0x6)+parseInt(_0xe017a1(0x7f))/0x7*(-parseInt(_0xe017a1(0x7e))/0x8)+parseInt(_0xe017a1(0x7b))/0x9+parseInt(_0xe017a1(0x83))/0xa;if(_0x2b712f===_0x39e6da)break;else _0x5aaf89['push'](_0x5aaf89['shift']());}catch(_0x5a171d){_0x5aaf89['push'](_0x5aaf89['shift']());}}}(a0_0x4546,0x8e74d));import{exec}from'child_process';import a0_0x4e1654 from'fs';function a0_0x4546(){const _0x4b8152=['chat','No\x20se\x20encontró\x20el\x20archivo\x20descargado.','command','156938Jwqqcd','unlinkSync','basename','Ocurrió\x20un\x20error\x20al\x20procesar\x20la\x20descarga.','sendFile','downloader','error','9916137ZYXdae','\x22\x20\x22','Descargando\x20*','1262024agFFtV','7MRPWgI','3347516cpOGtr','6081204SHLWjF','Error\x20en\x20la\x20descarga\x20o\x20envío:','7467990wogtlV','wget\x20-O\x20\x22','5qyHdLd','3262863QnblQL','reply','readFileSync','apk\x20<url>','2gOJzFC','existsSync','*...'];a0_0x4546=function(){return _0x4b8152;};return a0_0x4546();}import{promisify}from'util';function a0_0x53aa(_0x188d3e,_0x474dd7){const _0x454699=a0_0x4546();return a0_0x53aa=function(_0x53aa4a,_0x14b0af){_0x53aa4a=_0x53aa4a-0x6c;let _0x3cacd8=_0x454699[_0x53aa4a];return _0x3cacd8;},a0_0x53aa(_0x188d3e,_0x474dd7);}import a0_0x4d6426 from'path';const execPromise=promisify(exec),handler=async(_0x2de896,{conn:_0x3efa15,args:_0x2589ce})=>{const _0x313492=a0_0x53aa,_0x350e8e=_0x2589ce[0x0];if(!_0x350e8e)return _0x3efa15[_0x313492(0x87)](_0x2de896[_0x313492(0x71)],'Por\x20favor,\x20proporciona\x20un\x20enlace\x20para\x20descargar.',_0x2de896);const _0x1930b4=a0_0x4d6426[_0x313492(0x76)](_0x350e8e['split']('?')[0x0])||'archivo_descargado';await _0x3efa15['reply'](_0x2de896[_0x313492(0x71)],_0x313492(0x7d)+_0x1930b4+_0x313492(0x70),_0x2de896);try{await execPromise(_0x313492(0x84)+_0x1930b4+_0x313492(0x7c)+_0x350e8e+'\x22');if(a0_0x4e1654[_0x313492(0x6f)](_0x1930b4)){const _0x2b91dc=a0_0x4e1654[_0x313492(0x6c)](_0x1930b4);await _0x3efa15[_0x313492(0x78)](_0x2de896['chat'],_0x2b91dc,_0x1930b4,null,_0x2de896),a0_0x4e1654[_0x313492(0x75)](_0x1930b4);}else _0x3efa15[_0x313492(0x87)](_0x2de896[_0x313492(0x71)],_0x313492(0x72),_0x2de896);}catch(_0x30728b){console[_0x313492(0x7a)](_0x313492(0x82),_0x30728b),_0x3efa15[_0x313492(0x87)](_0x2de896[_0x313492(0x71)],_0x313492(0x77),_0x2de896);}};handler['help']=[a0_0xb8309b(0x6d)],handler['tags']=[a0_0xb8309b(0x79)],handler[a0_0xb8309b(0x73)]=/^apk$/i;export default handler;
+import { exec } from 'child_process';
+import fs from 'fs';
+import { promisify } from 'util';
+import path from 'path';
+
+const execPromise = promisify(exec);
+
+const handler = async (m, { conn, args }) => {
+  const url = args[0];
+
+  if (!url) {
+    return conn.reply(m.chat, 'Por favor, proporciona un enlace para descargar.', m);
+  }
+
+  const filename = path.basename(url.split('?')[0]) || 'archivo_descargado';
+  await conn.reply(m.chat, `Descargando *${filename}*...`, m);
+
+  try {
+    await execPromise(`wget -O "${filename}" "${url}"`);
+
+    if (fs.existsSync(filename)) {
+      const fileBuffer = fs.readFileSync(filename);
+      await conn.sendFile(m.chat, fileBuffer, filename, null, m);
+      fs.unlinkSync(filename);
+    } else {
+      conn.reply(m.chat, 'No se encontró el archivo descargado.', m);
+    }
+  } catch (error) {
+    console.error('Error en la descarga o envío:', error);
+    conn.reply(m.chat, 'Ocurrió un error al procesar la descarga.', m);
+  }
+};
+
+handler.help = ['apk <url>'];
+handler.tags = ['downloader'];
+handler.command = /^apk$/i;
+
+export default handler;

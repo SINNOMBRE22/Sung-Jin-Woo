@@ -1,1 +1,22 @@
-const a0_0x70d64f=a0_0x5e9b;(function(_0x30ab85,_0x361229){const _0x32e797=a0_0x5e9b,_0x5e886c=_0x30ab85();while(!![]){try{const _0x148f29=-parseInt(_0x32e797(0xf6))/0x1+-parseInt(_0x32e797(0x107))/0x2+parseInt(_0x32e797(0x105))/0x3*(parseInt(_0x32e797(0xf3))/0x4)+-parseInt(_0x32e797(0x109))/0x5*(parseInt(_0x32e797(0xf7))/0x6)+parseInt(_0x32e797(0x103))/0x7*(-parseInt(_0x32e797(0x10c))/0x8)+-parseInt(_0x32e797(0xfe))/0x9+parseInt(_0x32e797(0xf5))/0xa;if(_0x148f29===_0x361229)break;else _0x5e886c['push'](_0x5e886c['shift']());}catch(_0x3ea0be){_0x5e886c['push'](_0x5e886c['shift']());}}}(a0_0x472a,0x88389));const handler=async(_0x4a3441,{conn:_0x2b99dc})=>{const _0x3fbb7f=a0_0x5e9b,_0x48ed35=global,_0x5afc4a=_0x48ed35['db'][_0x3fbb7f(0x10b)][_0x3fbb7f(0xf8)][_0x4a3441[_0x3fbb7f(0x106)]]['language'],_0x5aedfe=JSON[_0x3fbb7f(0xf1)](fs[_0x3fbb7f(0xfc)]('./language/'+_0x5afc4a+_0x3fbb7f(0xfa))),_0x1e106c=_0x5aedfe[_0x3fbb7f(0x100)][_0x3fbb7f(0xfb)],_0x19d86a=global['db'][_0x3fbb7f(0x10b)][_0x3fbb7f(0xf8)][_0x4a3441[_0x3fbb7f(0x106)]];_0x2b99dc['sendMessage'](_0x4a3441[_0x3fbb7f(0x104)],{'text':_0x3fbb7f(0xf2)+_0x4a3441[_0x3fbb7f(0x106)]['split']('@')[0x0]+'\x20'+_0x1e106c[_0x3fbb7f(0xf9)],'mentions':[_0x4a3441[_0x3fbb7f(0x106)]]},{'quoted':_0x4a3441}),global['db'][_0x3fbb7f(0x10b)][_0x3fbb7f(0xf8)][_0x4a3441[_0x3fbb7f(0x106)]][_0x3fbb7f(0xff)]=Infinity,global['db'][_0x3fbb7f(0x10b)][_0x3fbb7f(0xf8)][_0x4a3441[_0x3fbb7f(0x106)]][_0x3fbb7f(0x108)]=Infinity,global['db'][_0x3fbb7f(0x10b)]['users'][_0x4a3441[_0x3fbb7f(0x106)]][_0x3fbb7f(0x102)]=Infinity,global['db'][_0x3fbb7f(0x10b)][_0x3fbb7f(0xf8)][_0x4a3441[_0x3fbb7f(0x106)]][_0x3fbb7f(0x10d)]=Infinity;};function a0_0x5e9b(_0x2be459,_0x3b824e){const _0x472aad=a0_0x472a();return a0_0x5e9b=function(_0x5e9bd6,_0x33c103){_0x5e9bd6=_0x5e9bd6-0xf0;let _0x4714de=_0x472aad[_0x5e9bd6];return _0x4714de;},a0_0x5e9b(_0x2be459,_0x3b824e);}function a0_0x472a(){const _0x1a2541=['rowner','6075009NQnysm','money','plugins','chetar','level','2023gMgEOt','chat','1521966PsmLRl','sender','1030358OTmnTK','limit','43895NqMDZU','owner','data','25696xCXtpq','exp','help','parse','*[❗]\x20@','8wqeQQv','tags','31113760WOLDQg','492700rpLJuO','654MgdvZs','users','texto1','.json','owner_chetar','readFileSync'];a0_0x472a=function(){return _0x1a2541;};return a0_0x472a();}handler[a0_0x70d64f(0xf0)]=[a0_0x70d64f(0x101)],handler[a0_0x70d64f(0xf4)]=[a0_0x70d64f(0x10a)],handler['command']=/^(ilimitado|infiniy|chetar)$/i,handler[a0_0x70d64f(0xfd)]=!![],handler['fail']=null;export default handler;
+
+
+
+const handler = async (m, { conn }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_chetar
+
+    const user = global.db.data.users[m.sender];
+        conn.sendMessage(m.chat, {text: `*[❗] @${m.sender.split('@')[0]} ${tradutor.texto1}`, mentions: [m.sender]}, {quoted: m});
+      global.db.data.users[m.sender].money = Infinity;
+    global.db.data.users[m.sender].limit = Infinity;
+  global.db.data.users[m.sender].level = Infinity;
+ global.db.data.users[m.sender].exp = Infinity;
+};
+handler.help = ['chetar'];
+handler.tags = ['owner'];
+handler.command = /^(ilimitado|infiniy|chetar)$/i;
+handler.rowner = true;
+handler.fail = null;
+export default handler;

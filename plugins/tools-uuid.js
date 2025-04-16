@@ -1,1 +1,83 @@
-const a0_0x1904c9=a0_0x389e;(function(_0x5f5c3e,_0x3d5fb0){const _0x512293=a0_0x389e,_0xb0b027=_0x5f5c3e();while(!![]){try{const _0x261513=parseInt(_0x512293(0xfd))/0x1*(-parseInt(_0x512293(0x112))/0x2)+-parseInt(_0x512293(0x11a))/0x3*(-parseInt(_0x512293(0x106))/0x4)+parseInt(_0x512293(0x111))/0x5+parseInt(_0x512293(0x110))/0x6*(parseInt(_0x512293(0x10b))/0x7)+parseInt(_0x512293(0x10d))/0x8+parseInt(_0x512293(0x10c))/0x9+-parseInt(_0x512293(0x115))/0xa;if(_0x261513===_0x3d5fb0)break;else _0xb0b027['push'](_0xb0b027['shift']());}catch(_0x14761c){_0xb0b027['push'](_0xb0b027['shift']());}}}(a0_0x1487,0x43d39));function a0_0x389e(_0x48802d,_0x42f79e){const _0x14873f=a0_0x1487();return a0_0x389e=function(_0x389e81,_0x2fded1){_0x389e81=_0x389e81-0xf8;let _0x246719=_0x14873f[_0x389e81];return _0x246719;},a0_0x389e(_0x48802d,_0x42f79e);}import a0_0x470ca3 from'child_process';import{promisify}from'util';import a0_0x588bff from'fs';let exec=promisify(a0_0x470ca3[a0_0x1904c9(0x117)])[a0_0x1904c9(0xf9)](a0_0x470ca3),handler=async(_0x42f0ad,{conn:_0x4d9446})=>{const _0x2ae43b=a0_0x1904c9;global['db'][_0x2ae43b(0xf8)]['users'][_0x42f0ad[_0x2ae43b(0x108)]][_0x2ae43b(0x10f)]=(global['db'][_0x2ae43b(0xf8)][_0x2ae43b(0xfe)][_0x42f0ad[_0x2ae43b(0x108)]]['comandos']||0x0)+0x1;const _0x364e80=_0x42f0ad['sender']===global['owner'][0x0][0x0][_0x2ae43b(0x103)](/[^0-9]/g,'')+'@s.whatsapp.net';if(!_0x364e80){let _0x547d57=0x3*0x18*0x3c*0x3c*0x3e8,_0x347695=global['db'][_0x2ae43b(0xf8)][_0x2ae43b(0xfe)][_0x42f0ad['sender']]['lastusuario']||0x0,_0x2ab0b3=Date[_0x2ae43b(0x107)]();if(_0x2ab0b3-_0x347695<_0x547d57){let _0x19e16f=_0x547d57-(_0x2ab0b3-_0x347695);throw _0x2ae43b(0xfc)+msToTime(_0x19e16f)+'\x20para\x20usar\x20este\x20poder\x20otra\x20vez.*';}global['db']['data'][_0x2ae43b(0xfe)][_0x42f0ad[_0x2ae43b(0x108)]][_0x2ae43b(0xff)]=_0x2ab0b3;}let _0x4a6883=_0x42f0ad[_0x2ae43b(0x104)]&&_0x42f0ad[_0x2ae43b(0x104)][0x0]?_0x42f0ad[_0x2ae43b(0x104)][0x0]:_0x42f0ad[_0x2ae43b(0x10e)]?_0x4d9446[_0x2ae43b(0x105)]['jid']:_0x42f0ad[_0x2ae43b(0x108)],_0x464e90=_0x4d9446[_0x2ae43b(0x114)](_0x4a6883);await _0x42f0ad['reply'](_0x2ae43b(0x11b));let _0x317608;try{_0x317608=await exec(_0x2ae43b(0x100));}catch(_0x347702){_0x317608=_0x347702;}let {stdout:_0x48d3e5}=_0x317608,_0x4dfdcd=_0x2ae43b(0x109),_0x423789=a0_0x588bff[_0x2ae43b(0xfb)](_0x2ae43b(0x113));await _0x4d9446['sendFile'](_0x42f0ad[_0x2ae43b(0x119)],_0x423789,_0x2ae43b(0x102),_0x4dfdcd,_0x42f0ad),await _0x4d9446['sendMessage'](_0x4a6883+'@s.whatsapp.net',{'text':_0x48d3e5},{'quoted':_0x42f0ad});};handler['help']=[a0_0x1904c9(0x11c),a0_0x1904c9(0x118)],handler[a0_0x1904c9(0x10a)]=['netfree'],handler[a0_0x1904c9(0x101)]=/^(v2user|v2ray)$/i,handler[a0_0x1904c9(0x116)]=!![];function a0_0x1487(){const _0x1adb3f=['6BSdMMV','1855935IddTvk','388634uOldOb','src/Usuario-demo2.png','getName','4530980bwrYSS','group','exec','v2ray','chat','603357YRhJtS','⚙️\x20*Invocando\x20una\x20cuenta\x20V2Ray...*','v2user','data','bind','floor','readFileSync','*⏳\x20Aún\x20no\x20estás\x20listo.\x20Vuelve\x20en\x20','2trwfFO','users','lastusuario','/usr/local/bin/v2rays','command','Usuario-demo2.png','replace','mentionedJid','user','4pGTUpG','now','sender','*✅\x20Invocación\x20Exitosa*\x0a\x0aUn\x20nuevo\x20usuario\x20ha\x20sido\x20generado\x20con\x20éxito.\x0a\x0aLos\x20detalles\x20han\x20sido\x20enviados\x20de\x20forma\x20privada.\x0a\x0a╭───────༺\x20𖤐\x20༻───────╮\x0a\x20\x20*Recuerda:*\x0a\x20\x20Puedes\x20apoyar\x20este\x20proyecto\x20con\x20el\x20comando\x0a\x20\x20Comando:\x20*.donar*\x0a╰───────༺\x20𖤐\x20༻───────╯','tags','2297722qBzYXT','818910ZJjkJQ','1024056zVgepW','fromMe','comandos'];a0_0x1487=function(){return _0x1adb3f;};return a0_0x1487();}export default handler;function msToTime(_0x68b7a0){const _0x3b876d=a0_0x1904c9;let _0x1a3b40=Math['floor'](_0x68b7a0/0x3e8%0x3c),_0x98a80b=Math[_0x3b876d(0xfa)](_0x68b7a0/(0x3e8*0x3c)%0x3c),_0x1a009d=Math[_0x3b876d(0xfa)](_0x68b7a0/(0x3e8*0x3c*0x3c)%0x18),_0x2f0c20=Math[_0x3b876d(0xfa)](_0x68b7a0/(0x3e8*0x3c*0x3c*0x18));return _0x2f0c20+'d\x20'+_0x1a009d+'h\x20'+_0x98a80b+'m\x20'+_0x1a3b40+'s';}
+import cp from 'child_process';
+import { promisify } from 'util';
+import fs from 'fs';
+
+let exec = promisify(cp.exec).bind(cp);
+
+let handler = async (m, { conn }) => {
+  global.db.data.users[m.sender].comandos = (global.db.data.users[m.sender].comandos || 0) + 1;
+
+  // ========== [INICIO DE MODIFICACIÓN] ========== //
+  const isOwner = m.sender === global.owner[0][0].replace(/[^0-9]/g, '') + '@s.whatsapp.net';
+  
+  if (!isOwner) {
+    let cooldown = 3 * 24 * 60 * 60 * 1000;
+    let lastUsage = global.db.data.users[m.sender].lastusuario || 0;
+    let now = Date.now();
+    
+    if (now - lastUsage < cooldown) {
+      let remaining = cooldown - (now - lastUsage);
+      throw `*⏳ Aún no estás listo. Vuelve en ${msToTime(remaining)} para usar este poder otra vez.*`;
+    }
+    global.db.data.users[m.sender].lastusuario = now;
+  }
+  // ========== [FIN DE MODIFICACIÓN] ========== //
+
+  let who = (m.mentionedJid && m.mentionedJid[0])
+    ? m.mentionedJid[0]
+    : (m.fromMe ? conn.user.jid : m.sender);
+  let name = conn.getName(who);
+
+  await m.reply("⚙️ *Invocando una cuenta V2Ray...*");
+
+  let o;
+  try {
+    o = await exec('/usr/local/bin/v2rays');
+  } catch (e) {
+    o = e;
+  }
+
+  let { stdout } = o;
+
+  let textoGrupo = `*✅ Invocación Exitosa*
+
+Un nuevo usuario ha sido generado con éxito.
+
+Los detalles han sido enviados de forma privada.
+
+╭───────༺ 𖤐 ༻───────╮
+  *Recuerda:*
+  Puedes apoyar este proyecto con el comando
+  Comando: *.donar*
+╰───────༺ 𖤐 ༻───────╯`;
+
+  let imageBufferFinal = fs.readFileSync('src/Usuario-demo2.png');
+  await conn.sendFile(
+    m.chat,
+    imageBufferFinal,
+    'Usuario-demo2.png',
+    textoGrupo,
+    m
+  );
+
+  await conn.sendMessage(
+    `${who}@s.whatsapp.net`,
+    { text: stdout },
+    { quoted: m }
+  );
+};
+
+handler.help = ['v2user', 'v2ray'];
+handler.tags = ['netfree'];
+handler.command = /^(v2user|v2ray)$/i;
+handler.group = true;
+export default handler;
+
+function msToTime(duration) {
+  let seconds = Math.floor((duration / 1000) % 60),
+      minutes = Math.floor((duration / (1000 * 60)) % 60),
+      hours = Math.floor((duration / (1000 * 60 * 60)) % 24),
+      days = Math.floor(duration / (1000 * 60 * 60 * 24));
+
+  return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+}

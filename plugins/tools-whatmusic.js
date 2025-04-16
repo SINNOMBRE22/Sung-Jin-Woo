@@ -1,1 +1,34 @@
-const a0_0x4dceae=a0_0x1193;(function(_0x461b95,_0x1ada8){const _0x4a679b=a0_0x1193,_0x306f72=_0x461b95();while(!![]){try{const _0x572dba=-parseInt(_0x4a679b(0x11a))/0x1+parseInt(_0x4a679b(0x10b))/0x2*(-parseInt(_0x4a679b(0x11c))/0x3)+parseInt(_0x4a679b(0x10c))/0x4+parseInt(_0x4a679b(0x11b))/0x5*(parseInt(_0x4a679b(0x115))/0x6)+parseInt(_0x4a679b(0x119))/0x7+parseInt(_0x4a679b(0x11e))/0x8+-parseInt(_0x4a679b(0x11d))/0x9;if(_0x572dba===_0x1ada8)break;else _0x306f72['push'](_0x306f72['shift']());}catch(_0x4fa697){_0x306f72['push'](_0x306f72['shift']());}}}(a0_0x5e16,0x4d1d6));import a0_0x2ec5a4 from'fs';function a0_0x5e16(){const _0x506239=['42JnHVfX','2022219CGgNys','4411976vOTmdd','music','download','command','quoted','./tmp/','writeFileSync','join','msg','name','\x0a𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂\x20𝙳𝙴\x20𝙻𝙰\x20𝙱𝚄𝚂𝚀𝚄𝙴𝙳𝙰\x0a\x0a•\x20📌\x20𝚃𝙸𝚃𝚄𝙻𝙾:\x20','readFileSync','*[❗𝐈𝐍𝐅𝐎❗]\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰\x20𝙰\x20𝚄𝙽\x20𝙰𝚄𝙳𝙸𝙾*','identify','map','unlinkSync','mimetype','82172uVzurN','1423172kFSYGq','No\x20encontrado','test','c33c767d683f78bd17d4bd4991955d81','split','\x0a•\x20💾\x20𝙰𝙻𝙱𝚄𝙼:\x20','\x0a•\x20🌐\x20𝙶𝙴𝙽𝙴𝚁𝙾:\x20','sender','seconds','42NrQIvM','reply','status','\x0a•\x20👨‍🎤\x20𝙰𝚁𝚃𝙸𝚂𝚃𝙰:\x20','2528603HiKtTv','521949laQcZF','263705MqhClr'];a0_0x5e16=function(){return _0x506239;};return a0_0x5e16();}import a0_0x3c64b5 from'acrcloud';function a0_0x1193(_0x4a2bbf,_0x49e3fb){const _0x5e1630=a0_0x5e16();return a0_0x1193=function(_0x1193a7,_0x31b8b9){_0x1193a7=_0x1193a7-0x102;let _0xe44a0e=_0x5e1630[_0x1193a7];return _0xe44a0e;},a0_0x1193(_0x4a2bbf,_0x49e3fb);}let acr=new a0_0x3c64b5({'host':'identify-eu-west-1.acrcloud.com','access_key':a0_0x4dceae(0x10f),'access_secret':'bvgaIAEtADBTbLwiPGYlxupWqkNGIjT7J9Ag2vIu'}),handler=async _0x495ddf=>{const _0x4ae70c=a0_0x4dceae;let _0x36cf5d=_0x495ddf['quoted']?_0x495ddf[_0x4ae70c(0x122)]:_0x495ddf,_0x52cbc1=(_0x36cf5d[_0x4ae70c(0x102)]||_0x36cf5d)[_0x4ae70c(0x10a)]||'';if(/audio|video/[_0x4ae70c(0x10e)](_0x52cbc1)){if((_0x36cf5d[_0x4ae70c(0x102)]||_0x36cf5d)[_0x4ae70c(0x114)]>0x14)return _0x495ddf[_0x4ae70c(0x116)]('[❗𝐈𝐍𝐅𝐎❗]\x0a\x0aEl\x20archivo\x20que\x20carga\x20es\x20demasiado\x20grande,\x20le\x20sugerimos\x20que\x20corte\x20el\x20archivo\x20grande\x20a\x20un\x20archivo\x20más\x20pequeño,\x2010-20\x20segundos\x20Los\x20datos\x20de\x20audio\x20son\x20suficientes\x20para\x20identificar');let _0xe45c9e=await _0x36cf5d[_0x4ae70c(0x120)](),_0x2a5a89=_0x52cbc1[_0x4ae70c(0x110)]('/')[0x1];a0_0x2ec5a4[_0x4ae70c(0x124)](_0x4ae70c(0x123)+_0x495ddf[_0x4ae70c(0x113)]+'.'+_0x2a5a89,_0xe45c9e);let _0x11d76a=await acr[_0x4ae70c(0x107)](a0_0x2ec5a4[_0x4ae70c(0x105)](_0x4ae70c(0x123)+_0x495ddf[_0x4ae70c(0x113)]+'.'+_0x2a5a89)),{code:_0x46667b,msg:_0x5d15d4}=_0x11d76a[_0x4ae70c(0x117)];if(_0x46667b!==0x0)throw _0x5d15d4;let {title:_0x158d6a,artists:_0x5a1770,album:_0x12e449,genres:_0x4dfffc,release_date:_0x2913b6}=_0x11d76a['metadata'][_0x4ae70c(0x11f)][0x0],_0x4b3a15=(_0x4ae70c(0x104)+_0x158d6a+_0x4ae70c(0x118)+(_0x5a1770!==undefined?_0x5a1770[_0x4ae70c(0x108)](_0x540217=>_0x540217[_0x4ae70c(0x103)])[_0x4ae70c(0x125)](',\x20'):'No\x20encontrado')+_0x4ae70c(0x111)+(_0x12e449['name']||_0x4ae70c(0x10d))+_0x4ae70c(0x112)+(_0x4dfffc!==undefined?_0x4dfffc[_0x4ae70c(0x108)](_0x3db0a2=>_0x3db0a2[_0x4ae70c(0x103)])[_0x4ae70c(0x125)](',\x20'):'No\x20encontrado')+'\x0a•\x20📆\x20𝙵𝙴𝙲𝙷𝙰\x20𝙳𝙴\x20𝙻𝙰𝙽𝚉𝙰𝙼𝙸𝙴𝙽𝚃𝙾:\x20'+(_0x2913b6||_0x4ae70c(0x10d))+'\x0a')['trim']();a0_0x2ec5a4[_0x4ae70c(0x109)](_0x4ae70c(0x123)+_0x495ddf['sender']+'.'+_0x2a5a89),_0x495ddf[_0x4ae70c(0x116)](_0x4b3a15);}else throw _0x4ae70c(0x106);};handler[a0_0x4dceae(0x121)]=/^quemusica|quemusicaes|whatmusic$/i;export default handler;
+import fs from 'fs'
+import acrcloud from 'acrcloud'
+let acr = new acrcloud({
+host: 'identify-eu-west-1.acrcloud.com',
+access_key: 'c33c767d683f78bd17d4bd4991955d81',
+access_secret: 'bvgaIAEtADBTbLwiPGYlxupWqkNGIjT7J9Ag2vIu'
+})
+
+let handler = async (m) => {
+let q = m.quoted ? m.quoted : m
+let mime = (q.msg || q).mimetype || ''
+if (/audio|video/.test(mime)) { if ((q.msg || q).seconds > 20) return m.reply('[❗𝐈𝐍𝐅𝐎❗]\n\nEl archivo que carga es demasiado grande, le sugerimos que corte el archivo grande a un archivo más pequeño, 10-20 segundos Los datos de audio son suficientes para identificar') 
+let media = await q.download()
+let ext = mime.split('/')[1]
+fs.writeFileSync(`./tmp/${m.sender}.${ext}`, media)
+let res = await acr.identify(fs.readFileSync(`./tmp/${m.sender}.${ext}`))
+let { code, msg } = res.status
+if (code !== 0) throw msg
+let { title, artists, album, genres, release_date } = res.metadata.music[0]
+let txt = `
+𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 𝙳𝙴 𝙻𝙰 𝙱𝚄𝚂𝚀𝚄𝙴𝙳𝙰
+
+• 📌 𝚃𝙸𝚃𝚄𝙻𝙾: ${title}
+• 👨‍🎤 𝙰𝚁𝚃𝙸𝚂𝚃𝙰: ${artists !== undefined ? artists.map(v => v.name).join(', ') : 'No encontrado'}
+• 💾 𝙰𝙻𝙱𝚄𝙼: ${album.name || 'No encontrado'}
+• 🌐 𝙶𝙴𝙽𝙴𝚁𝙾: ${genres !== undefined ? genres.map(v => v.name).join(', ') : 'No encontrado'}
+• 📆 𝙵𝙴𝙲𝙷𝙰 𝙳𝙴 𝙻𝙰𝙽𝚉𝙰𝙼𝙸𝙴𝙽𝚃𝙾: ${release_date || 'No encontrado'}
+`.trim()
+fs.unlinkSync(`./tmp/${m.sender}.${ext}`)
+m.reply(txt)
+} else throw '*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝚄𝙽 𝙰𝚄𝙳𝙸𝙾*'
+}
+handler.command = /^quemusica|quemusicaes|whatmusic$/i
+export default handler

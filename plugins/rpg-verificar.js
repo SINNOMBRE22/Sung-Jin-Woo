@@ -1,1 +1,50 @@
-function a0_0x2622(){const _0x467e5d=['texto3','texto7','getName','age','chat','3139DihMua','regTime','\x20Shadow.18*','texto2','language','texto8','registered','898gfegaG','hex','1332ssSteU','7175050uBgpSe','command','users','money','307428usTDlj','sender','12jAJEke','\x20\x0a┃\x20','texto5','data','trim','main','64360AburoF','mystic.jpg','./language/','name','texto1','imagen1','image','texto6','parse','help','match','913SgwJlX','plugins','test','tags','10649442RXENPS','unreg*\x20','rpg_verificar','digest','7xnkZYC','profilePictureUrl','length','exp','89256mvMKYK','9731416LNxtbc'];a0_0x2622=function(){return _0x467e5d;};return a0_0x2622();}function a0_0x1a29(_0x22f540,_0x3e13c2){const _0x26227a=a0_0x2622();return a0_0x1a29=function(_0x1a2956,_0x30b24f){_0x1a2956=_0x1a2956-0xbc;let _0x57a191=_0x26227a[_0x1a2956];return _0x57a191;},a0_0x1a29(_0x22f540,_0x3e13c2);}const a0_0xe67bee=a0_0x1a29;(function(_0x3d9ef9,_0x4fba3a){const _0x579495=a0_0x1a29,_0x109d43=_0x3d9ef9();while(!![]){try{const _0x1b98c6=-parseInt(_0x579495(0xc8))/0x1*(-parseInt(_0x579495(0xcf))/0x2)+parseInt(_0x579495(0xc1))/0x3*(-parseInt(_0x579495(0xd8))/0x4)+parseInt(_0x579495(0xd2))/0x5+-parseInt(_0x579495(0xed))/0x6+parseInt(_0x579495(0xbd))/0x7*(-parseInt(_0x579495(0xc2))/0x8)+parseInt(_0x579495(0xd1))/0x9*(-parseInt(_0x579495(0xde))/0xa)+parseInt(_0x579495(0xe9))/0xb*(parseInt(_0x579495(0xd6))/0xc);if(_0x1b98c6===_0x4fba3a)break;else _0x109d43['push'](_0x109d43['shift']());}catch(_0x22893c){_0x109d43['push'](_0x109d43['shift']());}}}(a0_0x2622,0xe4ed0));import{createHash}from'crypto';const Reg=/\|?(.*)([.|] *?)([0-9]*)$/i,handler=async function(_0x239b0e,{conn:_0x4cb1ac,text:_0x35d064,usedPrefix:_0x257576,command:_0x48e2a1}){const _0x3829de=a0_0x1a29,_0x481647=global,_0x2ca128=_0x481647['db'][_0x3829de(0xdb)][_0x3829de(0xd4)][_0x239b0e['sender']][_0x3829de(0xcc)],_0x3b86e6=JSON[_0x3829de(0xe6)](fs['readFileSync'](_0x3829de(0xe0)+_0x2ca128+'.json')),_0x32af09=_0x3b86e6[_0x3829de(0xea)][_0x3829de(0xef)],_0x33754e=global['db'][_0x3829de(0xdb)][_0x3829de(0xd4)][_0x239b0e['sender']],_0x137e45=_0x4cb1ac[_0x3829de(0xc5)](_0x239b0e[_0x3829de(0xd7)]),_0x368032=await _0x4cb1ac[_0x3829de(0xbe)](_0x239b0e[_0x3829de(0xc7)],_0x3829de(0xe4))['catch'](_0x51017c=>global[_0x3829de(0xe3)]);if(_0x33754e[_0x3829de(0xce)]===!![])throw _0x32af09['texto1'][0x0]+'\x0a*'+_0x257576+_0x3829de(0xee)+_0x32af09[_0x3829de(0xe2)][0x1];if(!Reg[_0x3829de(0xeb)](_0x35d064))throw _0x32af09[_0x3829de(0xcb)][0x0]+'\x20:\x20'+(_0x257576+_0x48e2a1)+'\x20'+_0x32af09['texto2'][0x1]+'\x20'+(_0x257576+_0x48e2a1)+_0x3829de(0xca);let [_0x7328a6,_0x2a9206,_0x568a1f,_0x3b9232]=_0x35d064[_0x3829de(0xe8)](Reg);if(!_0x2a9206)throw _0x32af09[_0x3829de(0xc3)];if(!_0x3b9232)throw _0x32af09[_0x3829de(0xda)];if(_0x2a9206[_0x3829de(0xbf)]>=0x1e)throw _0x32af09[_0x3829de(0xe5)];_0x3b9232=parseInt(_0x3b9232);if(_0x3b9232>0x64)throw _0x32af09[_0x3829de(0xe5)];if(_0x3b9232<0x5)throw _0x32af09[_0x3829de(0xc4)];_0x33754e[_0x3829de(0xe1)]=_0x2a9206[_0x3829de(0xdc)](),_0x33754e[_0x3829de(0xc6)]=_0x3b9232,_0x33754e[_0x3829de(0xc9)]=+new Date(),_0x33754e[_0x3829de(0xce)]=!![];const _0x362a53=createHash('md5')['update'](_0x239b0e[_0x3829de(0xd7)])[_0x3829de(0xbc)](_0x3829de(0xd0)),_0x5f028f=_0x32af09[_0x3829de(0xcd)][0x0]+'\x0a'+_0x32af09[_0x3829de(0xcd)][0x1]+'」\x0a'+_0x32af09['texto8'][0x2]+'\x0a'+_0x32af09[_0x3829de(0xcd)][0x3]+'\x20'+_0x2a9206+'\x0a'+_0x32af09[_0x3829de(0xcd)][0x4]+'\x20'+_0x3b9232+'\x20'+_0x32af09[_0x3829de(0xcd)][0x5]+'\x0a'+_0x32af09[_0x3829de(0xcd)][0x6]+_0x3829de(0xd9)+_0x362a53+'\x0a'+_0x32af09[_0x3829de(0xcd)][0x7]+'\x0a'+_0x32af09['texto8'][0x8]+'\x20\x0a'+_0x32af09[_0x3829de(0xcd)][0x9]+'\x0a'+_0x32af09['texto8'][0xa]+'\x0a'+_0x32af09['texto8'][0xb];await _0x4cb1ac['sendFile'](_0x239b0e[_0x3829de(0xc7)],_0x368032,_0x3829de(0xdf),_0x5f028f),global['db'][_0x3829de(0xdb)][_0x3829de(0xd4)][_0x239b0e[_0x3829de(0xd7)]][_0x3829de(0xd5)]+=0x2710,global['db'][_0x3829de(0xdb)][_0x3829de(0xd4)][_0x239b0e[_0x3829de(0xd7)]][_0x3829de(0xc0)]+=0x2710;};handler[a0_0xe67bee(0xe7)]=['registrar'],handler[a0_0xe67bee(0xec)]=[a0_0xe67bee(0xdd)],handler[a0_0xe67bee(0xd3)]=/^(verify|register|verificar|reg|registrar)$/i;export default handler;
+import {createHash} from 'crypto';
+
+
+
+const Reg = /\|?(.*)([.|] *?)([0-9]*)$/i;
+const handler = async function(m, {conn, text, usedPrefix, command}) {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_verificar
+
+  const user = global.db.data.users[m.sender];
+  const name2 = conn.getName(m.sender);
+  const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => global.imagen1);
+  if (user.registered === true) throw `${tradutor.texto1[0]}\n*${usedPrefix}unreg* ${tradutor.texto1[1]}`;
+  if (!Reg.test(text)) throw `${tradutor.texto2[0]} : ${usedPrefix + command} ${tradutor.texto2[1]} ${usedPrefix + command} Shadow.18*`;
+  let [_, name, splitter, age] = text.match(Reg);
+  if (!name) throw tradutor.texto3;
+  if (!age) throw tradutor.texto5;
+  if (name.length >= 30) throw tradutor.texto6;
+  age = parseInt(age);
+  if (age > 100) throw tradutor.texto6;
+  if (age < 5) throw tradutor.texto7;
+  user.name = name.trim();
+  user.age = age;
+  user.regTime = + new Date;
+  user.registered = true;
+  const sn = createHash('md5').update(m.sender).digest('hex');
+  const caption = `${tradutor.texto8[0]}
+${tradutor.texto8[1]}」
+${tradutor.texto8[2]}
+${tradutor.texto8[3]} ${name}
+${tradutor.texto8[4]} ${age} ${tradutor.texto8[5]}
+${tradutor.texto8[6]} 
+┃ ${sn}
+${tradutor.texto8[7]}
+${tradutor.texto8[8]} 
+${tradutor.texto8[9]}
+${tradutor.texto8[10]}
+${tradutor.texto8[11]}`;
+  // let author = global.author
+  await conn.sendFile(m.chat, pp, 'mystic.jpg', caption);
+  // conn.sendButton(m.chat, caption, `¡𝚃𝚄 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴 𝚃𝙴 𝚂𝙴𝚁𝚅𝙸𝚁𝙰 𝙿𝙾𝚁 𝚂𝙸 𝙳𝙴𝚂𝙴𝙰𝚂 𝙱𝙾𝚁𝚁𝙰𝚁 𝚃𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙴𝙽 𝙴𝙻 𝙱𝙾𝚃!\n${author}`, [['¡¡𝙰𝙷𝙾𝚁𝙰 𝚂𝙾𝚈 𝚄𝙽 𝚅𝙴𝚁𝙸𝙵𝙸𝙲𝙰𝙳𝙾/𝙰!!', '/profile']], m)
+  global.db.data.users[m.sender].money += 10000;
+  global.db.data.users[m.sender].exp += 10000;
+};
+handler.help = ['registrar'];
+handler.tags = ['main'];
+handler.command = /^(verify|register|verificar|reg|registrar)$/i;
+export default handler;

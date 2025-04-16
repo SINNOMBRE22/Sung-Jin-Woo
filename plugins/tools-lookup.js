@@ -1,1 +1,65 @@
-const a0_0x1979ee=a0_0x3b7c;(function(_0x1ce354,_0x336355){const _0x20f7a0=a0_0x3b7c,_0x3f16f2=_0x1ce354();while(!![]){try{const _0x3f0040=parseInt(_0x20f7a0(0x100))/0x1+-parseInt(_0x20f7a0(0x113))/0x2+-parseInt(_0x20f7a0(0xf6))/0x3*(parseInt(_0x20f7a0(0x10c))/0x4)+parseInt(_0x20f7a0(0x10b))/0x5+-parseInt(_0x20f7a0(0xf3))/0x6*(-parseInt(_0x20f7a0(0x104))/0x7)+parseInt(_0x20f7a0(0xf0))/0x8+parseInt(_0x20f7a0(0xfe))/0x9*(parseInt(_0x20f7a0(0x10a))/0xa);if(_0x3f0040===_0x336355)break;else _0x3f16f2['push'](_0x3f16f2['shift']());}catch(_0x4d47cc){_0x3f16f2['push'](_0x3f16f2['shift']());}}}(a0_0x56a8,0xc4d38));import a0_0x48beca from'node-fetch';const decoratedBox=(_0x16a70a,_0x2037b7,_0x51cafa)=>{const _0x24ac8d=a0_0x3b7c,_0x442176=_0x2037b7[_0x24ac8d(0x108)]('\x0a')['map'](_0x28184f=>_0x24ac8d(0x111)+_0x28184f)[_0x24ac8d(0xf8)]('\x0a');return _0x24ac8d(0x112)+_0x16a70a+_0x24ac8d(0xf1)+_0x51cafa+_0x24ac8d(0xf4)+_0x442176+_0x24ac8d(0x103);};let handler=async(_0x55d33a,{text:_0x281b7b,usedPrefix:_0x2eabf5,command:_0x390fa8})=>{const _0x3b6a58=a0_0x3b7c;global['db']['data'][_0x3b6a58(0xf9)][_0x55d33a[_0x3b6a58(0x116)]][_0x3b6a58(0x110)]+=0x1;if(!_0x281b7b)throw _0x3b6a58(0x117);if(_0x281b7b['includes'](_0x3b6a58(0xfa))||_0x281b7b[_0x3b6a58(0xf7)](_0x3b6a58(0x10e)))throw _0x3b6a58(0x115);try{const _0x57b6ca=_0x3b6a58(0x101);let _0x4b3f65=await a0_0x48beca(_0x3b6a58(0x102)+_0x281b7b,{'headers':{'X-Api-Key':_0x57b6ca},'contentType':'application/json'}),_0x3c423c=await _0x4b3f65[_0x3b6a58(0x105)]();if(!_0x4b3f65['ok'])throw new Error('Error\x20en\x20la\x20API\x20Ninjas');_0x55d33a[_0x3b6a58(0xf5)](decoratedBox(_0x281b7b,_0x3c423c,global['db'][_0x3b6a58(0xfb)][_0x3b6a58(0xf9)][_0x55d33a['sender']][_0x3b6a58(0x110)])),console[_0x3b6a58(0xfd)](_0x3c423c);}catch(_0xb31dfd){console[_0x3b6a58(0xfc)](_0x3b6a58(0x106),_0xb31dfd);try{let _0x2a1ab7=await a0_0x48beca(_0x3b6a58(0x10d)+_0x281b7b),_0x1b326f=await _0x2a1ab7[_0x3b6a58(0x105)]();_0x55d33a['reply'](decoratedBox(_0x281b7b,_0x1b326f,global['db'][_0x3b6a58(0xfb)]['users'][_0x55d33a[_0x3b6a58(0x116)]]['comandos'])),console[_0x3b6a58(0xfd)](_0x1b326f);}catch(_0x2f0832){console[_0x3b6a58(0xfc)]('Error\x20en\x20fallback:',_0x2f0832),_0x55d33a[_0x3b6a58(0xf5)](_0x3b6a58(0x107));}}};function a0_0x56a8(){const _0x1b2e1e=['https://api.api-ninjas.com/v1/dnslookup?domain=','\x0a━━━━\x20✦\x20❘༻༺❘\x20✦\x20━━━━','14TLLTso','text','Error\x20con\x20api:','━━━━\x20✦\x20❘༻༺❘\x20✦\x20━━━━\x0a⚠️\x20ERROR:\x20No\x20se\x20puede\x20procesar\x20la\x20solicitud\x20de\x20búsqueda\x20de\x20DNS\x0a━━━━\x20✦\x20❘༻༺❘\x20✦\x20━━━━','split','command','260tjxMBH','533620ROkXBW','5142300mEVLpT','https://api.hackertarget.com/dnslookup/?q=','http://','help','comandos','\x20\x20\x20','━━━━\x20✦\x20❘༻༺❘\x20✦\x20━━━━\x0aDominio:\x20','1212784YRQvUh','tags','Por\x20favor\x20ingrese\x20el\x20dominio/subdominio\x20sin\x20protocolo.\x20Ejemplo:\x20powermx.org','sender','Ingrese\x20Dominio/Subdominio!\x0a\x0a*Ejemplo:*\x20example.com','9270984zSFYyk','\x0aComandos\x20Ejecutados:\x20','lookup','2081358LAoyUu','\x0a━━━━\x20✦\x20❘༻༺❘\x20✦\x20━━━━\x0aResultados\x20de\x20DNS:\x0a','reply','3IUZnFo','includes','join','users','https://','data','error','log','57051XuSSAL','netfree','573970QrDNCU','E4/gdcfciJHSQdy4+9+Ryw==JHciNFemGqOVIbyv'];a0_0x56a8=function(){return _0x1b2e1e;};return a0_0x56a8();}function a0_0x3b7c(_0x457fbe,_0x1f4790){const _0x56a85e=a0_0x56a8();return a0_0x3b7c=function(_0x3b7c1a,_0xf174c4){_0x3b7c1a=_0x3b7c1a-0xf0;let _0x461fae=_0x56a85e[_0x3b7c1a];return _0x461fae;},a0_0x3b7c(_0x457fbe,_0x1f4790);}handler[a0_0x1979ee(0x10f)]=[a0_0x1979ee(0xf2)],handler[a0_0x1979ee(0x114)]=[a0_0x1979ee(0xff)],handler[a0_0x1979ee(0x109)]=/^(lookup)$/i;export default handler;
+import fetch from 'node-fetch'
+
+// Función para generar el menú con el diseño decorado
+const decoratedBox = (domain, dnsResult, commandsCount) => {
+  // Formatea cada línea del resultado para mantener la indentación
+  const dnsLines = dnsResult.split('\n').map(line => `   ${line}`).join('\n');
+  return (
+`━━━━ ✦ ❘༻༺❘ ✦ ━━━━
+Dominio: ${domain}
+Comandos Ejecutados: ${commandsCount}
+━━━━ ✦ ❘༻༺❘ ✦ ━━━━
+Resultados de DNS:
+${dnsLines}
+━━━━ ✦ ❘༻༺❘ ✦ ━━━━`
+  );
+};
+
+let handler = async (m, { text, usedPrefix, command }) => {
+  // Incrementa el contador de comandos del usuario
+  global.db.data.users[m.sender].comandos += 1;
+  
+  // Validación de entrada
+  if (!text)
+    throw `Ingrese Dominio/Subdominio!\n\n*Ejemplo:* example.com`;
+  if (text.includes('https://') || text.includes('http://'))
+    throw `Por favor ingrese el dominio/subdominio sin protocolo. Ejemplo: powermx.org`;
+
+  try {
+    // Llamada a la API principal (api-ninjas)
+    const api_key = 'E4/gdcfciJHSQdy4+9+Ryw==JHciNFemGqOVIbyv';
+    let response = await fetch(`https://api.api-ninjas.com/v1/dnslookup?domain=${text}`, {
+      headers: { 'X-Api-Key': api_key },
+      contentType: 'application/json'
+    });
+    let dnsResult = await response.text();
+
+    if (!response.ok) throw new Error('Error en la API Ninjas');
+
+    // Envía el menú formateado al usuario
+    m.reply(decoratedBox(text, dnsResult, global.db.data.users[m.sender].comandos));
+    console.log(dnsResult);
+  } catch (error) {
+    console.error('Error con api:', error);
+    // Fallback: utiliza la API de hackertarget.com
+    try {
+      let fallbackResponse = await fetch(`https://api.hackertarget.com/dnslookup/?q=${text}`);
+      let fallbackData = await fallbackResponse.text();
+      m.reply(decoratedBox(text, fallbackData, global.db.data.users[m.sender].comandos));
+      console.log(fallbackData);
+    } catch (fallbackError) {
+      console.error('Error en fallback:', fallbackError);
+      m.reply(
+`━━━━ ✦ ❘༻༺❘ ✦ ━━━━
+⚠️ ERROR: No se puede procesar la solicitud de búsqueda de DNS
+━━━━ ✦ ❘༻༺❘ ✦ ━━━━`
+      );
+    }
+  }
+};
+
+handler.help = ['lookup'];
+handler.tags = ['netfree'];
+handler.command = /^(lookup)$/i;
+
+export default handler;

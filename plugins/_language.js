@@ -1,1 +1,130 @@
-const a0_0x1fdf7f=a0_0x3934;function a0_0xc4f0(){const _0x3404ad=['*[\x20✅\x20]\x20The\x20Mystic\x20-\x20Bot*\x0a\x0a*—◉*\x20*_Idioma\x20definido\x20a\x20Español\x20🇪🇸_*','.json','texto1','*[\x20✅\x20]\x20Configuración\x20del\x20grupo*\x0a\x0a*—◉*\x20*_Idioma\x20definido\x20a\x20Español\x20🇪🇸_*','isGroup','langgroup*\x20es\x0a\x0a','*[\x20✅\x20]\x20Configuration\x20du\x20groupe*\x0a\x0a*—◉*\x20*_Langue\x20définie\x20en\x20Français\x20🇫🇷_*','plugins','*[\x20✅\x20]\x20The\x20Mystic\x20-\x20Bot*\x0a\x0a*—◉*\x20*_Langue\x20définie\x20en\x20Français\x20🇫🇷_*','[\x20✅\x20]\x20ذا\x20ميستيك\x20-\x20بوت\x0a\x0a*—◉*\x20اللغة\x20مضبوطة\x20على\x20العربية\x20🇸🇦','112596qqrOOS','\x20*(\x20','\x20)*\x0a','texto4','data','language','reply','10RznAbe','command','chats','lang','langgroup','2655126WcMiIP','472440TsAOnJ','47973rUSdei','44UtNYax','chat','*[\x20✅\x20]\x20Configuración\x20del\x20grupo*\x0a\x0a*—◉*\x20*_Idioma\x20definido\x20em\x20Português\x20🇧🇷_*','2596867lyWntp','*[\x20✅\x20]\x20Configuración\x20del\x20grupo*\x0a\x0a*—◉*\x20*_Idioma\x20definido\x20a\x20Inglês\x20🇬🇧_*','parse','./language/','1162692fcsrEj','*[\x20✅\x20]\x20The\x20Mystic\x20-\x20Bot*\x0a\x0a*—◉*\x20*_Idioma\x20definido\x20em\x20Português\x20🇧🇷_*','*[\x20✅\x20]\x20The\x20Mystic\x20-\x20Bot*\x0a\x0a*—◉*\x20*_Idioma\x20definido\x20a\x20Inglês\x20🇬🇧_*','*[\x20✅\x20]\x20The\x20Mystic\x20-\x20Bot*\x0a\x0a*—◉*\x20*_Язык\x20установлен\x20на\x20русский\x20🇷🇺_*','pt-br','343148yKszRW','users','texto2','lang*\x20es\x0a\x0a','[\x20✅\x20]\x20تكوين\x20المجموعة\x0a\x0a*—◉*\x20اللغة\x20مضبوطة\x20على\x20العربية\x20🇸🇦','readFileSync','toLowerCase','*[\x20✅\x20]\x20The\x20Mystic\x20-\x20Bot*\x0a\x0a*—◉*\x20*_Язык\x20установлен\x20на\x20русский\x20🇷🇺*','sender'];a0_0xc4f0=function(){return _0x3404ad;};return a0_0xc4f0();}(function(_0x1bee48,_0x51c624){const _0x27fa81=a0_0x3934,_0x272957=_0x1bee48();while(!![]){try{const _0x1ef8dd=parseInt(_0x27fa81(0x141))/0x1+parseInt(_0x27fa81(0x135))/0x2*(-parseInt(_0x27fa81(0x134))/0x3)+-parseInt(_0x27fa81(0x126))/0x4+-parseInt(_0x27fa81(0x12d))/0x5*(-parseInt(_0x27fa81(0x13c))/0x6)+-parseInt(_0x27fa81(0x138))/0x7+-parseInt(_0x27fa81(0x133))/0x8+parseInt(_0x27fa81(0x132))/0x9;if(_0x1ef8dd===_0x51c624)break;else _0x272957['push'](_0x272957['shift']());}catch(_0x862885){_0x272957['push'](_0x272957['shift']());}}}(a0_0xc4f0,0x34abb));function a0_0x3934(_0x310982,_0x215b23){const _0xc4f0ae=a0_0xc4f0();return a0_0x3934=function(_0x3934f4,_0x46d9ac){_0x3934f4=_0x3934f4-0x114;let _0x51eb40=_0xc4f0ae[_0x3934f4];return _0x51eb40;},a0_0x3934(_0x310982,_0x215b23);}const handler=async(_0x291023,{args:_0x3ea0ea,usedPrefix:_0x439c83,command:_0x3a909a,isAdmin:_0x48af5c})=>{const _0x5df048=a0_0x3934;try{const _0x29447e=global,_0x35c57c=_0x29447e['db'][_0x5df048(0x12a)][_0x5df048(0x114)][_0x291023['sender']][_0x5df048(0x12b)],_0x5bc268=JSON[_0x5df048(0x13a)](fs[_0x5df048(0x118)](_0x5df048(0x13b)+_0x35c57c+_0x5df048(0x11d))),_0x1ca221=_0x5bc268[_0x5df048(0x123)]['_language'];_0x29447e['db']['data']['users'][_0x291023[_0x5df048(0x11b)]][_0x5df048(0x12b)];let _0x315c41;_0x3ea0ea[0x0]!=undefined&&(_0x315c41=_0x3ea0ea[0x0][_0x5df048(0x119)]());if(_0x3a909a===_0x5df048(0x130)){if(_0x315c41===_0x5df048(0x140)||_0x315c41==='pt'||_0x315c41==='br')global['db'][_0x5df048(0x12a)]['users'][_0x291023[_0x5df048(0x11b)]][_0x5df048(0x12b)]=_0x5df048(0x140),_0x291023[_0x5df048(0x12c)](_0x5df048(0x13d));else{if(_0x315c41==='es')global['db'][_0x5df048(0x12a)][_0x5df048(0x114)][_0x291023[_0x5df048(0x11b)]][_0x5df048(0x12b)]='es',_0x291023[_0x5df048(0x12c)](_0x5df048(0x11c));else{if(_0x315c41==='en')global['db'][_0x5df048(0x12a)][_0x5df048(0x114)][_0x291023[_0x5df048(0x11b)]][_0x5df048(0x12b)]='en',_0x291023[_0x5df048(0x12c)](_0x5df048(0x13e));else{if(_0x315c41==='ru')global['db']['data'][_0x5df048(0x114)][_0x291023[_0x5df048(0x11b)]][_0x5df048(0x12b)]='ru',_0x291023[_0x5df048(0x12c)](_0x5df048(0x13f));else{if(_0x315c41==='fr')global['db']['data'][_0x5df048(0x114)][_0x291023[_0x5df048(0x11b)]]['language']='fr',_0x291023[_0x5df048(0x12c)](_0x5df048(0x124));else _0x315c41==='ar'?(global['db'][_0x5df048(0x12a)][_0x5df048(0x114)][_0x291023['sender']][_0x5df048(0x12b)]='ar',_0x291023[_0x5df048(0x12c)](_0x5df048(0x125))):_0x291023[_0x5df048(0x12c)]('\x0a'+_0x1ca221[_0x5df048(0x11e)][0x2]+'\x0a'+_0x1ca221[_0x5df048(0x11e)][0x3]+_0x5df048(0x127)+_0x29447e['db']['data']['users'][_0x291023['sender']][_0x5df048(0x12b)]+_0x5df048(0x128)+_0x1ca221[_0x5df048(0x11e)][0x0]+'\x0a*'+_0x439c83+_0x5df048(0x116)+_0x1ca221[_0x5df048(0x11e)][0x1]+'\x0a\x0a');}}}}}if(_0x3a909a===_0x5df048(0x131)){if(_0x291023[_0x5df048(0x120)]===![])return _0x291023[_0x5df048(0x12c)](_0x1ca221['texto3']);if(_0x291023[_0x5df048(0x120)]===!![]&&_0x48af5c===![])return _0x291023[_0x5df048(0x12c)](_0x1ca221[_0x5df048(0x129)]);if(_0x315c41==='pt-br'||_0x315c41==='pt'||_0x315c41==='br')global['db']['data']['chats'][_0x291023[_0x5df048(0x136)]]['language']=_0x5df048(0x140),_0x291023[_0x5df048(0x12c)](_0x5df048(0x137));else{if(_0x315c41==='es')global['db'][_0x5df048(0x12a)][_0x5df048(0x12f)][_0x291023[_0x5df048(0x136)]][_0x5df048(0x12b)]='es',_0x291023[_0x5df048(0x12c)](_0x5df048(0x11f));else{if(_0x315c41==='en')global['db'][_0x5df048(0x12a)][_0x5df048(0x12f)][_0x291023[_0x5df048(0x136)]][_0x5df048(0x12b)]='en',_0x291023[_0x5df048(0x12c)](_0x5df048(0x139));else{if(_0x315c41==='ru')global['db']['data'][_0x5df048(0x12f)][_0x291023[_0x5df048(0x136)]][_0x5df048(0x12b)]='ru',_0x291023['reply'](_0x5df048(0x11a));else{if(_0x315c41==='fr')global['db'][_0x5df048(0x12a)]['chats'][_0x291023[_0x5df048(0x136)]][_0x5df048(0x12b)]='fr',_0x291023[_0x5df048(0x12c)](_0x5df048(0x122));else _0x315c41==='ar'?(global['db'][_0x5df048(0x12a)][_0x5df048(0x12f)][_0x291023[_0x5df048(0x136)]]['language']='ar',_0x291023[_0x5df048(0x12c)](_0x5df048(0x117))):_0x291023[_0x5df048(0x12c)]('\x0a'+_0x1ca221['texto2'][0x0]+'\x0a*'+_0x439c83+_0x5df048(0x121)+_0x1ca221[_0x5df048(0x115)][0x1]+'\x0a\x0a');}}}}}}catch(_0x374d5d){global['db'][_0x5df048(0x12a)]['users'][_0x291023[_0x5df048(0x11b)]]['language']='es',global['db'][_0x5df048(0x12a)][_0x5df048(0x12f)][_0x291023['chat']][_0x5df048(0x12b)]='es',_0x291023[_0x5df048(0x12c)]('*[ERROR]*\x20-\x20\x20_Por\x20defecto\x20el\x20idioma\x20estaba\x20configurado\x20en\x20español._\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20```contacta\x20a\x20los\x20creadores\x20del\x20bot```\x20');}};handler[a0_0x1fdf7f(0x12e)]=/^(lang||langgroup)$/i;export default handler;
+/*************************************************/
+/*
+/* Créditos al creador de este módulo.
+/* Jefferson: https://github.com/jeffersonalionco
+/* 
+/*************************************************/
+const handler = async (m, { args, usedPrefix, command, isAdmin }) => {
+    try {
+        const data = global
+        const idioma = data.db.data.users[m.sender].language
+        const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+        const tradutor = _translate.plugins._language
+
+        
+
+
+        data.db.data.users[m.sender].language
+        let sigla // Args user
+
+        //---- Transformar "cadena" en letras minúsculas
+        if (args[0] != undefined) {
+            sigla = args[0].toLowerCase()
+        }
+
+        if (command === 'lang') {
+            // ----- Opciones de lenguaje
+            if (sigla === 'pt-br' || sigla === 'pt' || sigla === 'br') {
+                global.db.data.users[m.sender].language = 'pt-br'
+                m.reply(`*[ ✅ ] The Mystic - Bot*\n\n*—◉* *_Idioma definido em Português 🇧🇷_*`)
+
+            } else if (sigla === 'es') {
+                global.db.data.users[m.sender].language = 'es'
+                m.reply(`*[ ✅ ] The Mystic - Bot*\n\n*—◉* *_Idioma definido a Español 🇪🇸_*`)
+
+            } else if (sigla === 'en') {
+                global.db.data.users[m.sender].language = 'en'
+                m.reply(`*[ ✅ ] The Mystic - Bot*\n\n*—◉* *_Idioma definido a Inglês 🇬🇧_*`)
+
+            } else if (sigla === 'ru') {
+                global.db.data.users[m.sender].language = 'ru'
+                m.reply(`*[ ✅ ] The Mystic - Bot*\n\n*—◉* *_Язык установлен на русский 🇷🇺_*`)
+
+            }else if (sigla === 'fr') {
+                global.db.data.users[m.sender].language = 'fr'
+                m.reply(`*[ ✅ ] The Mystic - Bot*\n\n*—◉* *_Langue définie en Français 🇫🇷_*`)
+
+            }else if (sigla === 'ar') {
+                global.db.data.users[m.sender].language = 'ar'
+                m.reply("[ ✅ ] ذا ميستيك - بوت\n\n*—◉* اللغة مضبوطة على العربية 🇸🇦")
+
+            }else {
+
+                m.reply(`
+${tradutor.texto1[2]}
+${tradutor.texto1[3]} *( ${data.db.data.users[m.sender].language} )*
+${tradutor.texto1[0]}
+*${usedPrefix}lang* es
+
+${tradutor.texto1[1]}
+
+`)
+            }
+
+
+        }
+
+        // - DEFINIDO TRADUÇÕES PARA GRUPOS NO BOT THE MYSTIC 
+
+        if (command === 'langgroup') {
+
+            // ----- Condiciones para grupos
+            if (m.isGroup === false) {
+                return m.reply(tradutor.texto3)
+            }
+            if (m.isGroup === true && isAdmin === false) {
+                return m.reply(tradutor.texto4)
+            }
+
+            // ----- Opciones de lenguaje
+            if (sigla === 'pt-br' || sigla === 'pt' || sigla === 'br') {
+                global.db.data.chats[m.chat].language = 'pt-br';
+
+                m.reply(`*[ ✅ ] Configuración del grupo*\n\n*—◉* *_Idioma definido em Português 🇧🇷_*`)
+            } else if (sigla === 'es') {
+                global.db.data.chats[m.chat].language = 'es';
+
+                m.reply(`*[ ✅ ] Configuración del grupo*\n\n*—◉* *_Idioma definido a Español 🇪🇸_*`)
+            } else if (sigla === 'en') {
+                global.db.data.chats[m.chat].language = 'en';
+
+                m.reply(`*[ ✅ ] Configuración del grupo*\n\n*—◉* *_Idioma definido a Inglês 🇬🇧_*`)
+            } else if (sigla === 'ru') {
+                global.db.data.chats[m.chat].language = 'ru';
+
+                m.reply(`*[ ✅ ] The Mystic - Bot*\n\n*—◉* *_Язык установлен на русский 🇷🇺*`)
+            }else if (sigla === 'fr') {
+                global.db.data.chats[m.chat].language = 'fr';
+
+                m.reply(`*[ ✅ ] Configuration du groupe*\n\n*—◉* *_Langue définie en Français 🇫🇷_*`)
+            } else if (sigla === 'ar') {
+                global.db.data.chats[m.chat].language = 'ar';
+
+                m.reply("[ ✅ ] تكوين المجموعة\n\n*—◉* اللغة مضبوطة على العربية 🇸🇦")
+            } else  {
+                m.reply(`
+${tradutor.texto2[0]}
+*${usedPrefix}langgroup* es
+
+${tradutor.texto2[1]}
+
+`)
+            }
+
+        }
+        // Fim 
+    } catch (error) {
+        global.db.data.users[m.sender].language = 'es'
+        global.db.data.chats[m.chat].language = 'es'
+        m.reply(`*[ERROR]* -  _Por defecto el idioma estaba configurado en español._
+                \`\`\`contacta a los creadores del bot\`\`\` `)
+    }
+
+
+}
+
+
+
+handler.command = /^(lang||langgroup)$/i;
+
+export default handler

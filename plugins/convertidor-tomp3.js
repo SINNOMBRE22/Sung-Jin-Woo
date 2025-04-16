@@ -1,1 +1,23 @@
-const a0_0x1bbd17=a0_0x1139;function a0_0x1139(_0x2b7037,_0x3d3de8){const _0x58290e=a0_0x5829();return a0_0x1139=function(_0x1139d1,_0x463950){_0x1139d1=_0x1139d1-0x1a1;let _0x253e98=_0x58290e[_0x1139d1];return _0x253e98;},a0_0x1139(_0x2b7037,_0x3d3de8);}(function(_0x2d62f5,_0x51c09b){const _0x197cde=a0_0x1139,_0x3ac4f2=_0x2d62f5();while(!![]){try{const _0x2690d2=-parseInt(_0x197cde(0x1b8))/0x1*(parseInt(_0x197cde(0x1b3))/0x2)+parseInt(_0x197cde(0x1a1))/0x3+parseInt(_0x197cde(0x1ab))/0x4+-parseInt(_0x197cde(0x1a5))/0x5+parseInt(_0x197cde(0x1ae))/0x6*(parseInt(_0x197cde(0x1ba))/0x7)+-parseInt(_0x197cde(0x1aa))/0x8+parseInt(_0x197cde(0x1ac))/0x9;if(_0x2690d2===_0x51c09b)break;else _0x3ac4f2['push'](_0x3ac4f2['shift']());}catch(_0x7f6e4f){_0x3ac4f2['push'](_0x3ac4f2['shift']());}}}(a0_0x5829,0xefa14));import{toAudio}from'../lib/converter.js';const handler=async(_0xe9745c,{conn:_0x28fe7f,usedPrefix:_0x25dcd8,command:_0x4ac8b3})=>{const _0x376c6c=a0_0x1139,_0x999cb7=global,_0x20321d=_0x999cb7['db'][_0x376c6c(0x1a3)]['users'][_0xe9745c[_0x376c6c(0x1a9)]][_0x376c6c(0x1b2)],_0x16d6b1=JSON[_0x376c6c(0x1c0)](fs['readFileSync'](_0x376c6c(0x1ad)+_0x20321d+_0x376c6c(0x1be))),_0x140b03=_0x16d6b1[_0x376c6c(0x1bc)][_0x376c6c(0x1bb)],_0x3fd838=_0xe9745c[_0x376c6c(0x1a2)]?_0xe9745c[_0x376c6c(0x1a2)]:_0xe9745c,_0x2bceb0=(_0x3fd838||_0x3fd838[_0x376c6c(0x1b7)])['mimetype']||_0x3fd838['mediaType']||'';if(!/video|audio/[_0x376c6c(0x1b0)](_0x2bceb0))throw'*'+_0x140b03['texto1']+'*';const _0x47bd26=await _0x3fd838[_0x376c6c(0x1a8)]();if(!_0x47bd26)throw'*'+_0x140b03[_0x376c6c(0x1b4)]+'*';const _0xef9a3b=await toAudio(_0x47bd26,_0x376c6c(0x1af));if(!_0xef9a3b['data'])throw'*'+_0x140b03[_0x376c6c(0x1b1)]+'*';_0x28fe7f[_0x376c6c(0x1a6)](_0xe9745c['chat'],{'audio':_0xef9a3b['data'],'mimetype':'audio/mpeg'},{'quoted':_0xe9745c});};handler[a0_0x1bbd17(0x1a7)]=[a0_0x1bbd17(0x1bd)],handler[a0_0x1bbd17(0x1b5)]=[a0_0x1bbd17(0x1b6)],handler[a0_0x1bbd17(0x1a4)]=[a0_0x1bbd17(0x1bd),a0_0x1bbd17(0x1bf)],handler[a0_0x1bbd17(0x1b9)]=/^to(mp3|audio)$/i;export default handler;function a0_0x5829(){const _0x431362=['10422344BvkSww','7748956InLSgI','8454744sBtALN','./language/','258Nequym','mp4','test','texto3','language','24734NqLeGc','texto2','tags','convertidores','msg','139lpngVQ','command','226625iqvkqF','convertidor_tomp3','plugins','tomp3','.json','toaudio','parse','4166529eTyICO','quoted','data','alias','8271465uxDXsl','sendMessage','help','download','sender'];a0_0x5829=function(){return _0x431362;};return a0_0x5829();}
+import {toAudio} from '../lib/converter.js';
+
+const handler = async (m, {conn, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.convertidor_tomp3
+
+
+  const q = m.quoted ? m.quoted : m;
+  const mime = (q || q.msg).mimetype || q.mediaType || '';
+  if (!/video|audio/.test(mime)) throw `*${tradutor.texto1}*`;
+  const media = await q.download();
+  if (!media) throw `*${tradutor.texto2}*`;
+  const audio = await toAudio(media, 'mp4');
+  if (!audio.data) throw `*${tradutor.texto3}*`;
+  conn.sendMessage(m.chat, {audio: audio.data, mimetype: 'audio/mpeg'}, {quoted: m});
+};
+handler.help = ['tomp3'];
+handler.tags = ['convertidores'];
+handler.alias = ['tomp3', 'toaudio'];
+handler.command = /^to(mp3|audio)$/i;
+export default handler;

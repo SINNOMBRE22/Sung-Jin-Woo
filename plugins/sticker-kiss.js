@@ -1,1 +1,26 @@
-const a0_0x3f3706=a0_0x28c2;function a0_0x28da(){const _0x242d59=['\x20le\x20dio\x20besos\x20a\x20','mentionedJid','command','2115495GpFJAE','language','11286bhCFSJ','getName','jid','134bPlsia','340WZZbwG','4549795HTsTAh','sender','1705476PcXBJv','sendFile','https://nekos.life/api/kiss','7675208zdgoiP','fromMe','parse','quoted','json','./language/','texto1','.json','4iECgtU','data','7oCzxfT','28805130ccMZUN','user','group'];a0_0x28da=function(){return _0x242d59;};return a0_0x28da();}(function(_0x38da42,_0x36452d){const _0x2f7a7a=a0_0x28c2,_0xe930f=_0x38da42();while(!![]){try{const _0xef6781=parseInt(_0x2f7a7a(0xeb))/0x1*(parseInt(_0x2f7a7a(0xec))/0x2)+-parseInt(_0x2f7a7a(0xe8))/0x3+-parseInt(_0x2f7a7a(0xdd))/0x4*(parseInt(_0x2f7a7a(0xed))/0x5)+-parseInt(_0x2f7a7a(0xd2))/0x6*(parseInt(_0x2f7a7a(0xdf))/0x7)+-parseInt(_0x2f7a7a(0xd5))/0x8+-parseInt(_0x2f7a7a(0xe6))/0x9+parseInt(_0x2f7a7a(0xe0))/0xa;if(_0xef6781===_0x36452d)break;else _0xe930f['push'](_0xe930f['shift']());}catch(_0x17b643){_0xe930f['push'](_0xe930f['shift']());}}}(a0_0x28da,0x7cb96));import{sticker}from'../lib/sticker.js';import a0_0x1979d7 from'node-fetch';import a0_0x38e2ab from'@whiskeysockets/baileys';const handler=async(_0x33950c,{conn:_0x498860,text:_0x44c8cc})=>{const _0x4e9be5=a0_0x28c2,_0x1b5141=global,_0x87a0f4=_0x1b5141['db'][_0x4e9be5(0xde)]['users'][_0x33950c['sender']][_0x4e9be5(0xe7)],_0x594415=JSON[_0x4e9be5(0xd7)](fs['readFileSync'](_0x4e9be5(0xda)+_0x87a0f4+_0x4e9be5(0xdc))),_0x5b31a0=_0x594415['plugins']['sticker_kiss'];try{const _0x4c3bbc=_0x33950c[_0x4e9be5(0xe4)]&&_0x33950c[_0x4e9be5(0xe4)][0x0]?_0x33950c[_0x4e9be5(0xe4)][0x0]:_0x33950c[_0x4e9be5(0xd8)][_0x4e9be5(0xd1)]?_0x33950c[_0x4e9be5(0xd8)]['sender']:_0x33950c[_0x4e9be5(0xd6)]?_0x498860[_0x4e9be5(0xe1)][_0x4e9be5(0xea)]:_0x33950c[_0x4e9be5(0xd1)];if(!_0x4c3bbc)throw _0x5b31a0[_0x4e9be5(0xdb)];const _0x2c48c0=await a0_0x1979d7(_0x4e9be5(0xd4)),_0x51c29e=await _0x2c48c0[_0x4e9be5(0xd9)](),{url:_0x48caea}=_0x51c29e,_0x4d96f7=_0x498860[_0x4e9be5(0xe9)](_0x33950c[_0x4e9be5(0xd1)]),_0x548d19=_0x498860['getName'](_0x4c3bbc),_0x1e93b5=await sticker(null,_0x48caea,_0x4d96f7+_0x4e9be5(0xe3)+_0x548d19);_0x498860[_0x4e9be5(0xd3)](_0x33950c['chat'],_0x1e93b5,null,null,_0x33950c,![],{'asSticker':!![]});}catch{}};function a0_0x28c2(_0x253e09,_0x48728e){const _0x28da92=a0_0x28da();return a0_0x28c2=function(_0x28c265,_0x429532){_0x28c265=_0x28c265-0xd1;let _0x4d3c3a=_0x28da92[_0x28c265];return _0x4d3c3a;},a0_0x28c2(_0x253e09,_0x48728e);}handler[a0_0x3f3706(0xe5)]=/^(kiss|skiss|kis|besos|beso)$/i,handler[a0_0x3f3706(0xe2)]=!![];export default handler;
+import {sticker} from '../lib/sticker.js';
+import fetch from 'node-fetch';
+import MessageType from '@whiskeysockets/baileys';
+
+
+const handler = async (m, {conn, text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.sticker_kiss
+
+  try {
+    const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender;
+    if (!who) throw tradutor.texto1;
+    const res = await fetch('https://nekos.life/api/kiss');
+    const json = await res.json();
+    const {url} = json;
+    const name_1 = conn.getName(m.sender)
+    const name_2 = conn.getName(who)
+    const stiker = await sticker(null, url, `${name_1} le dio besos a ${name_2}`);
+    conn.sendFile(m.chat, stiker, null, null, m, false, {asSticker: true});
+  } catch { }
+};
+handler.command = /^(kiss|skiss|kis|besos|beso)$/i;
+handler.group = true;
+export default handler;

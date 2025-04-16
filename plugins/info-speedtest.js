@@ -1,1 +1,28 @@
-const a0_0x19a732=a0_0x2854;function a0_0x2854(_0x18f321,_0xdb187d){const _0xa41d7d=a0_0xa41d();return a0_0x2854=function(_0x285486,_0x1dceee){_0x285486=_0x285486-0x89;let _0x50d81e=_0xa41d7d[_0x285486];return _0x50d81e;},a0_0x2854(_0x18f321,_0xdb187d);}(function(_0x33492c,_0x15f336){const _0x7321d6=a0_0x2854,_0x571eec=_0x33492c();while(!![]){try{const _0x2d9b36=-parseInt(_0x7321d6(0x9b))/0x1*(parseInt(_0x7321d6(0x94))/0x2)+-parseInt(_0x7321d6(0x8d))/0x3*(parseInt(_0x7321d6(0x8f))/0x4)+-parseInt(_0x7321d6(0x97))/0x5+parseInt(_0x7321d6(0x90))/0x6*(-parseInt(_0x7321d6(0x98))/0x7)+-parseInt(_0x7321d6(0x89))/0x8*(-parseInt(_0x7321d6(0x9e))/0x9)+-parseInt(_0x7321d6(0x96))/0xa*(parseInt(_0x7321d6(0x93))/0xb)+parseInt(_0x7321d6(0x91))/0xc*(parseInt(_0x7321d6(0x8b))/0xd);if(_0x2d9b36===_0x15f336)break;else _0x571eec['push'](_0x571eec['shift']());}catch(_0x7bbcfc){_0x571eec['push'](_0x571eec['shift']());}}}(a0_0xa41d,0x678c7));import a0_0x38b8f7 from'child_process';import{promisify}from'util';const exec=promisify(a0_0x38b8f7[a0_0x19a732(0x92)])['bind'](a0_0x38b8f7),handler=async _0x14c374=>{const _0x5e19c6=a0_0x19a732;let _0x41490c;try{_0x41490c=await exec(_0x5e19c6(0x8e));const {stdout:_0x51f0b2,stderr:_0x189185}=_0x41490c;if(_0x51f0b2[_0x5e19c6(0x8a)]()){const _0x4731ce=_0x51f0b2[_0x5e19c6(0x9c)](/http[^"]+\.png/),_0x1c7a9b=_0x4731ce?_0x4731ce[0x0]:null;await conn[_0x5e19c6(0x8c)](_0x14c374[_0x5e19c6(0x99)],{'image':{'url':_0x1c7a9b},'caption':_0x51f0b2[_0x5e19c6(0x8a)]()},{'quoted':_0x14c374});}if(_0x189185['trim']()){const _0x3946ed=_0x189185[_0x5e19c6(0x9c)](/http[^"]+\.png/),_0x2baf4d=_0x3946ed?_0x3946ed[0x0]:null;await conn[_0x5e19c6(0x8c)](_0x14c374[_0x5e19c6(0x99)],{'image':{'url':_0x2baf4d},'caption':_0x189185[_0x5e19c6(0x8a)]()},{'quoted':_0x14c374});}}catch(_0x439fb5){return _0x41490c=_0x439fb5[_0x5e19c6(0x9d)],_0x14c374['reply'](_0x41490c);}};function a0_0xa41d(){const _0x416782=['49AOahTq','chat','help','77204KAoeyH','match','message','2285838OqSKHt','8BjzLvy','trim','28841059gTghlY','sendMessage','36240lzArIz','python3\x20ookla-speedtest.py\x20--secure\x20--share','224fWWliD','283542ZLHpJh','12ylJVPF','exec','192093uBatkA','8FZyGKo','speedtest','150KeQSxd','2351750VfJbFz'];a0_0xa41d=function(){return _0x416782;};return a0_0xa41d();}handler[a0_0x19a732(0x9a)]=[a0_0x19a732(0x95)],handler['tags']=['info'],handler['command']=/^(speedtest?|test?speed)$/i;export default handler;
+import cp from 'child_process';
+import { promisify } from 'util';
+const exec = promisify(cp.exec).bind(cp);
+
+const handler = async (m) => {
+    let o;
+    try {
+        o = await exec('python3 ookla-speedtest.py --secure --share');
+        const {stdout, stderr} = o;
+        if (stdout.trim()) {
+            const match = stdout.match(/http[^"]+\.png/);
+            const urlImagen = match ? match[0] : null;
+            await conn.sendMessage(m.chat, {image: {url: urlImagen}, caption: stdout.trim()}, {quoted: m});
+        }
+        if (stderr.trim()) { 
+            const match2 = stderr.match(/http[^"]+\.png/);
+            const urlImagen2 = match2 ? match2[0] : null;    
+            await conn.sendMessage(m.chat, {image: {url: urlImagen2}, caption: stderr.trim()}, {quoted: m});
+        }
+    } catch (e) {
+        o = e.message;
+        return m.reply(o)
+    }
+};
+handler.help = ['speedtest'];
+handler.tags = ['info'];
+handler.command = /^(speedtest?|test?speed)$/i;
+export default handler;

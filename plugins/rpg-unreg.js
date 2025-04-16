@@ -1,1 +1,21 @@
-function a0_0x1779(_0x3b381b,_0x3e23bb){const _0x3a8e7e=a0_0x3a8e();return a0_0x1779=function(_0x1779af,_0x4dd050){_0x1779af=_0x1779af-0x10a;let _0x47aaa1=_0x3a8e7e[_0x1779af];return _0x47aaa1;},a0_0x1779(_0x3b381b,_0x3e23bb);}const a0_0x423ef1=a0_0x1779;(function(_0x543f1f,_0x276bf1){const _0x4d4b16=a0_0x1779,_0x266cb0=_0x543f1f();while(!![]){try{const _0x37f511=parseInt(_0x4d4b16(0x11b))/0x1+parseInt(_0x4d4b16(0x129))/0x2*(-parseInt(_0x4d4b16(0x11d))/0x3)+-parseInt(_0x4d4b16(0x11c))/0x4+-parseInt(_0x4d4b16(0x10d))/0x5+parseInt(_0x4d4b16(0x123))/0x6+-parseInt(_0x4d4b16(0x124))/0x7*(-parseInt(_0x4d4b16(0x11f))/0x8)+parseInt(_0x4d4b16(0x10e))/0x9;if(_0x37f511===_0x276bf1)break;else _0x266cb0['push'](_0x266cb0['shift']());}catch(_0x2d293e){_0x266cb0['push'](_0x266cb0['shift']());}}}(a0_0x3a8e,0x23f82));import{createHash}from'crypto';const handler=async function(_0x15ae98,{args:_0xb0a5ec}){const _0x2b6a08=a0_0x1779,_0x4da0a9=global,_0x4c3081=_0x4da0a9['db']['data'][_0x2b6a08(0x113)][_0x15ae98[_0x2b6a08(0x120)]]['language'],_0x582ee3=JSON[_0x2b6a08(0x11a)](fs['readFileSync'](_0x2b6a08(0x110)+_0x4c3081+'.json')),_0x452469=_0x582ee3[_0x2b6a08(0x128)][_0x2b6a08(0x10a)];if(!_0xb0a5ec[0x0])throw _0x452469[_0x2b6a08(0x127)];const _0x3c870d=global['db'][_0x2b6a08(0x117)][_0x2b6a08(0x113)][_0x15ae98[_0x2b6a08(0x120)]],_0xd4086d=createHash(_0x2b6a08(0x11e))[_0x2b6a08(0x112)](_0x15ae98['sender'])[_0x2b6a08(0x111)](_0x2b6a08(0x121));if(_0xb0a5ec[0x0]!==_0xd4086d)throw _0x452469[_0x2b6a08(0x10c)];_0x3c870d[_0x2b6a08(0x118)]=![],_0x15ae98[_0x2b6a08(0x114)](_0x452469[_0x2b6a08(0x10b)]);};handler[a0_0x423ef1(0x119)]=['','ister'][a0_0x423ef1(0x10f)](_0x19f6b8=>a0_0x423ef1(0x126)+_0x19f6b8+a0_0x423ef1(0x115)),handler[a0_0x423ef1(0x122)]=['main'],handler[a0_0x423ef1(0x116)]=/^unreg(ister)?$/i,handler[a0_0x423ef1(0x125)]=!![];function a0_0x3a8e(){const _0x2f1c6a=['./language/','digest','update','users','reply','\x20<numero\x20de\x20serie>','command','data','registered','help','parse','19852JTTeCp','193208MTcnAY','99ulDalh','md5','8MqqpaZ','sender','hex','tags','118956xdFerA','714861aginZS','register','unreg','texto1','plugins','2614jSksRo','rpg_unreg','texto3','texto2','506330MCdIEH','1784052fNQLPo','map'];a0_0x3a8e=function(){return _0x2f1c6a;};return a0_0x3a8e();}export default handler;
+import {createHash} from 'crypto';
+
+
+const handler = async function(m, {args}) {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_unreg
+
+  if (!args[0]) throw tradutor.texto1;
+  const user = global.db.data.users[m.sender];
+  const sn = createHash('md5').update(m.sender).digest('hex');
+  if (args[0] !== sn) throw tradutor.texto2;
+  user.registered = false;
+  m.reply(tradutor.texto3);
+};
+handler.help = ['', 'ister'].map((v) => 'unreg' + v + ' <numero de serie>');
+handler.tags = ['main'];
+handler.command = /^unreg(ister)?$/i;
+handler.register = true;
+export default handler;

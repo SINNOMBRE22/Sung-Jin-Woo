@@ -1,1 +1,42 @@
-const a0_0x4832e4=a0_0x1971;(function(_0x450e24,_0x5360dd){const _0x373fa6=a0_0x1971,_0x12e47d=_0x450e24();while(!![]){try{const _0x53ee4f=parseInt(_0x373fa6(0x1bc))/0x1+parseInt(_0x373fa6(0x1ba))/0x2+-parseInt(_0x373fa6(0x1b3))/0x3+-parseInt(_0x373fa6(0x1aa))/0x4+-parseInt(_0x373fa6(0x1af))/0x5+-parseInt(_0x373fa6(0x1b9))/0x6+parseInt(_0x373fa6(0x1b2))/0x7;if(_0x53ee4f===_0x5360dd)break;else _0x12e47d['push'](_0x12e47d['shift']());}catch(_0x383e06){_0x12e47d['push'](_0x12e47d['shift']());}}}(a0_0x5775,0x2917e));function a0_0x5775(){const _0x4b1c5f=['.zip','gitclone\x20<url>','\x20<URL\x20del\x20repositorio>*','Error\x20en\x20','match','replace','Aquí\x20está\x20tu\x20archivo.','log','⚠️\x20Enlace\x20inválido.\x20Asegúrate\x20de\x20proporcionar\x20una\x20URL\x20de\x20GitHub\x20válida.','512940qsmCqn','HEAD','get','downloader','sendFile','1594075YTABRk','Uso\x20incorrecto.\x20Prueba:\x20*','reply','5952653ekBtGr','826698aeKHBn','help','/zipball','https://api.github.com/repos/','headers','chat','535062XVhGVd','129858PtqMeY','test','64803iLVvfV'];a0_0x5775=function(){return _0x4b1c5f;};return a0_0x5775();}import a0_0x22e81c from'node-fetch';const regex=/(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i;let handler=async(_0x431f84,{args:_0x270b10,usedPrefix:_0x338945,command:_0x4070d7,conn:_0x13a4d4})=>{const _0x3b29ce=a0_0x1971;console[_0x3b29ce(0x1a8)]('Ejecutando\x20gitclone\x20con\x20argumentos:',_0x270b10);if(!_0x270b10[0x0])return _0x431f84['reply'](_0x3b29ce(0x1b0)+(_0x338945+_0x4070d7)+_0x3b29ce(0x1a3));if(!regex[_0x3b29ce(0x1bb)](_0x270b10[0x0]))return _0x431f84[_0x3b29ce(0x1b1)](_0x3b29ce(0x1a9));try{let [_0x542e38,_0x49fe5e,_0x3d475d]=_0x270b10[0x0][_0x3b29ce(0x1a5)](regex)||[];_0x3d475d=_0x3d475d[_0x3b29ce(0x1a6)](/.git$/,'');let _0x4687dd=_0x3b29ce(0x1b6)+_0x49fe5e+'/'+_0x3d475d+_0x3b29ce(0x1b5),_0x472cfa=await a0_0x22e81c(_0x4687dd,{'method':_0x3b29ce(0x1ab)});if(!_0x472cfa['ok'])throw new Error('El\x20repositorio\x20no\x20existe\x20o\x20no\x20se\x20pudo\x20acceder.');let _0x224b2b=_0x472cfa[_0x3b29ce(0x1b7)][_0x3b29ce(0x1ac)]('content-disposition'),_0x58a619=_0x224b2b?_0x224b2b[_0x3b29ce(0x1a5)](/attachment; filename=(.*)/)[0x1]:_0x3d475d+_0x3b29ce(0x1a1);await _0x431f84[_0x3b29ce(0x1b1)]('📥\x20Descargando\x20repositorio,\x20espera\x20un\x20momento...'),await _0x13a4d4[_0x3b29ce(0x1ae)](_0x431f84[_0x3b29ce(0x1b8)],_0x4687dd,_0x58a619,_0x3b29ce(0x1a7),_0x431f84);}catch(_0x13f03){return console['error'](_0x3b29ce(0x1a4)+_0x4070d7+':',_0x13f03),_0x431f84[_0x3b29ce(0x1b1)]('❌\x20Ocurrió\x20un\x20error\x20al\x20intentar\x20descargar\x20el\x20repositorio.');}};function a0_0x1971(_0x3e0dc9,_0x231997){const _0x57753a=a0_0x5775();return a0_0x1971=function(_0x1971bb,_0x2a82f6){_0x1971bb=_0x1971bb-0x1a1;let _0x170603=_0x57753a[_0x1971bb];return _0x170603;},a0_0x1971(_0x3e0dc9,_0x231997);}handler[a0_0x4832e4(0x1b4)]=[a0_0x4832e4(0x1a2)],handler['tags']=[a0_0x4832e4(0x1ad)],handler['command']=/^(gitclone|clonarepo|clonarrepo|repoclonar)$/i;export default handler;
+import fetch from 'node-fetch';
+
+const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i;
+
+let handler = async (m, { args, usedPrefix, command, conn }) => {
+    console.log('Ejecutando gitclone con argumentos:', args);
+
+    if (!args[0]) {
+        return m.reply(`Uso incorrecto. Prueba: *${usedPrefix + command} <URL del repositorio>*`);
+    }
+
+    if (!regex.test(args[0])) {
+        return m.reply('⚠️ Enlace inválido. Asegúrate de proporcionar una URL de GitHub válida.');
+    }
+
+    try {
+        let [_, user, repo] = args[0].match(regex) || [];
+        repo = repo.replace(/.git$/, '');
+        let url = `https://api.github.com/repos/${user}/${repo}/zipball`;
+
+        let response = await fetch(url, { method: 'HEAD' });
+        if (!response.ok) {
+            throw new Error('El repositorio no existe o no se pudo acceder.');
+        }
+
+        let contentDisposition = response.headers.get('content-disposition');
+        let filename = contentDisposition ? contentDisposition.match(/attachment; filename=(.*)/)[1] : `${repo}.zip`;
+
+        await m.reply('📥 Descargando repositorio, espera un momento...');
+        await conn.sendFile(m.chat, url, filename, 'Aquí está tu archivo.', m);
+
+    } catch (e) {
+        console.error(`Error en ${command}:`, e);
+        return m.reply('❌ Ocurrió un error al intentar descargar el repositorio.');
+    }
+};
+
+handler.help = ['gitclone <url>'];
+handler.tags = ['downloader'];
+handler.command = /^(gitclone|clonarepo|clonarrepo|repoclonar)$/i;
+
+export default handler;

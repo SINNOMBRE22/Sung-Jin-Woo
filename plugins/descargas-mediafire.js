@@ -1,1 +1,80 @@
-const a0_0x14f1e0=a0_0x5b6a;(function(_0x398556,_0x1167ea){const _0x1b0392=a0_0x5b6a,_0x420313=_0x398556();while(!![]){try{const _0x3b8a69=parseInt(_0x1b0392(0x155))/0x1*(-parseInt(_0x1b0392(0x160))/0x2)+-parseInt(_0x1b0392(0x148))/0x3+parseInt(_0x1b0392(0x152))/0x4*(-parseInt(_0x1b0392(0x149))/0x5)+parseInt(_0x1b0392(0x15c))/0x6*(-parseInt(_0x1b0392(0x153))/0x7)+parseInt(_0x1b0392(0x13b))/0x8*(-parseInt(_0x1b0392(0x151))/0x9)+parseInt(_0x1b0392(0x15a))/0xa+-parseInt(_0x1b0392(0x159))/0xb*(-parseInt(_0x1b0392(0x165))/0xc);if(_0x3b8a69===_0x1167ea)break;else _0x420313['push'](_0x420313['shift']());}catch(_0x42d6c4){_0x420313['push'](_0x420313['shift']());}}}(a0_0x23d9,0x39205));import a0_0x24989c from'axios';import a0_0x346635 from'node-fetch';function a0_0x5b6a(_0x505ed8,_0x4c8132){const _0x23d957=a0_0x23d9();return a0_0x5b6a=function(_0x5b6a76,_0x547a38){_0x5b6a76=_0x5b6a76-0x13a;let _0xaea1a2=_0x23d957[_0x5b6a76];return _0xaea1a2;},a0_0x5b6a(_0x505ed8,_0x4c8132);}import a0_0x2dcc63 from'cheerio';function a0_0x23d9(){const _0x2c92b9=['get','attr','json','text','2282936iMboys','help','https://api.agatz.xyz/api/mediafire?url=','react','href','data','downloader','tags','No\x20se\x20recibió\x20información\x20válida\x20desde\x20la\x20API\x20principal.','link','#downloadButton','application/octet-stream','head','1279293WUtzGJ','542525avePJx','nama','No\x20se\x20pudo\x20obtener\x20el\x20enlace\x20de\x20descarga.','trim','⚠️\x20*Debes\x20proporcionar\x20un\x20enlace\x20de\x20MediaFire.*','No\x20se\x20pudo\x20obtener\x20el\x20nombre\x20del\x20archivo.','mime','replace','9JiPFPQ','4lglFLF','7sgufvy','❗\x20Error\x20al\x20descargar\x20el\x20archivo.','359271PMXLCx','chat','headers','mediafire\x20<url>','55djsptD','1606290qIWXXx','https://www-mediafire-com.translate.goog/','1094496tVbJmc','size','content-type','error','2xZiwGD','Download','reply','sendFile','https://www.mediafire.com/','3444840dJdbMX','🔥\x20*[Descarga\x20Completa]*\x20🔥\x0a\x20\x20\x0a📂\x20*Archivo:*\x20','\x0a📝\x20*Tipo:*\x20','title','Error\x20en\x20descarga\x20interna:','Error\x20en\x20API\x20principal:'];a0_0x23d9=function(){return _0x2c92b9;};return a0_0x23d9();}let handler=async(_0x1795e7,{conn:_0x3f890c,args:_0x505d87})=>{const _0x413ed7=a0_0x5b6a;if(!_0x505d87[0x0])throw _0x413ed7(0x14d);_0x1795e7[_0x413ed7(0x13e)]('⚡');try{const _0x3935e7=await a0_0x346635(_0x413ed7(0x13d)+_0x505d87[0x0]),_0x8d92ef=await _0x3935e7[_0x413ed7(0x16d)]();if(_0x8d92ef[_0x413ed7(0x140)]&&_0x8d92ef[_0x413ed7(0x140)]['link']){await sendMediafireFile(_0x1795e7,_0x3f890c,_0x8d92ef[_0x413ed7(0x140)][_0x413ed7(0x14a)],_0x8d92ef['data'][_0x413ed7(0x15d)],_0x8d92ef[_0x413ed7(0x140)][_0x413ed7(0x14f)],_0x8d92ef['data'][_0x413ed7(0x144)]);return;}else throw new Error(_0x413ed7(0x143));}catch(_0x27f70c){console['error'](_0x413ed7(0x16a),_0x27f70c);}try{let _0x56a94b=await mediafireDl(_0x505d87[0x0]),{name:_0x3e77e8,size:_0x3a780f,mime:_0x57331e,link:_0xe333f6}=_0x56a94b;await sendMediafireFile(_0x1795e7,_0x3f890c,_0x3e77e8,_0x3a780f,_0x57331e,_0xe333f6);}catch(_0x21cdec){console[_0x413ed7(0x15f)](_0x413ed7(0x169),_0x21cdec),await _0x3f890c[_0x413ed7(0x162)](_0x1795e7[_0x413ed7(0x156)],_0x413ed7(0x154),_0x1795e7),_0x1795e7[_0x413ed7(0x13e)]('❌');}};async function sendMediafireFile(_0x212dab,_0x24f244,_0x368330,_0x1ddc62,_0xfca5c2,_0x504670){const _0x51c665=a0_0x5b6a;let _0x1192a5=_0x51c665(0x166)+_0x368330+'\x0a📏\x20*Tamaño:*\x20'+_0x1ddc62+_0x51c665(0x167)+_0xfca5c2+'\x0a\x0a🚀\x20*Enviando\x20archivo...*';await _0x24f244[_0x51c665(0x163)](_0x212dab[_0x51c665(0x156)],_0x504670,_0x368330,_0x1192a5,_0x212dab,null,{'mimetype':_0xfca5c2,'asDocument':!![]}),_0x212dab[_0x51c665(0x13e)]('✅');}handler[a0_0x14f1e0(0x13c)]=[a0_0x14f1e0(0x158)],handler[a0_0x14f1e0(0x142)]=[a0_0x14f1e0(0x141)],handler['command']=/^(mediafire|mediafiredl|dlmediafire)$/i;export default handler;async function mediafireDl(_0x3a1f11){const _0x3e7f70=a0_0x14f1e0,_0x30536a=_0x3a1f11[_0x3e7f70(0x150)](_0x3e7f70(0x164),''),_0x30a6b4=await a0_0x24989c[_0x3e7f70(0x16b)](_0x3e7f70(0x15b)+_0x30536a+'?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en&_x_tr_pto=wapp'),_0x57849f=a0_0x2dcc63['load'](_0x30a6b4[_0x3e7f70(0x140)]),_0x134092=_0x57849f(_0x3e7f70(0x145))[_0x3e7f70(0x16c)](_0x3e7f70(0x13f));if(!_0x134092)throw new Error(_0x3e7f70(0x14b));const _0x1172c5=_0x57849f('div.promoDownloadName.notranslate\x20>\x20div')[_0x3e7f70(0x16c)](_0x3e7f70(0x168));if(!_0x1172c5)throw new Error(_0x3e7f70(0x14e));const _0x1c74ac=_0x1172c5[_0x3e7f70(0x14c)](),_0x2dda4e=_0x57849f('#downloadButton')[_0x3e7f70(0x13a)](),_0x3a6f48=_0x2dda4e[_0x3e7f70(0x150)](_0x3e7f70(0x161),'')[_0x3e7f70(0x150)](/||\n/g,'')[_0x3e7f70(0x14c)]();let _0x5120d7='';try{const _0x410768=await a0_0x24989c[_0x3e7f70(0x147)](_0x134092);_0x5120d7=_0x410768[_0x3e7f70(0x157)][_0x3e7f70(0x15e)]||_0x3e7f70(0x146);}catch(_0x4f7b72){_0x5120d7=_0x3e7f70(0x146);}return{'name':_0x1c74ac,'size':_0x3a6f48,'mime':_0x5120d7,'link':_0x134092};}
+import axios from 'axios';
+import fetch from 'node-fetch';
+import cheerio from 'cheerio';
+
+let handler = async (m, { conn, args }) => {
+  if (!args[0]) throw "⚠️ *Debes proporcionar un enlace de MediaFire.*";
+
+  m.react("⚡");
+
+  // Primer intento: usar API principal
+  try {
+    const res = await fetch(`https://api.agatz.xyz/api/mediafire?url=${args[0]}`);
+    const data = await res.json();
+
+    if (data.data && data.data.link) {
+      await sendMediafireFile(m, conn, data.data.nama, data.data.size, data.data.mime, data.data.link);
+      return;
+    } else {
+      throw new Error("No se recibió información válida desde la API principal.");
+    }
+  } catch (error) {
+    console.error("Error en API principal:", error);
+  }
+
+  // Segundo intento: usar la función interna
+  try {
+    let res = await mediafireDl(args[0]);
+    let { name, size, mime, link } = res;
+    await sendMediafireFile(m, conn, name, size, mime, link);
+  } catch (e) {
+    console.error("Error en descarga interna:", e);
+    await conn.reply(m.chat, `❗ Error al descargar el archivo.`, m);
+    m.react("❌");
+  }
+};
+
+async function sendMediafireFile(m, conn, name, size, mime, link) {
+  let caption = `🔥 *[Descarga Completa]* 🔥
+  
+📂 *Archivo:* ${name}
+📏 *Tamaño:* ${size}
+📝 *Tipo:* ${mime}
+
+🚀 *Enviando archivo...*`;
+  
+  await conn.sendFile(m.chat, link, name, caption, m, null, { mimetype: mime, asDocument: true });
+  m.react("✅");
+}
+
+handler.help = ['mediafire <url>'];
+handler.tags = ['downloader'];
+handler.command = /^(mediafire|mediafiredl|dlmediafire)$/i;
+export default handler;
+
+async function mediafireDl(url) {
+  // Se transforma la URL para omitir posibles restricciones
+  const transformedUrl = url.replace('https://www.mediafire.com/', '');
+  const res = await axios.get(`https://www-mediafire-com.translate.goog/${transformedUrl}?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en&_x_tr_pto=wapp`);
+  const $ = cheerio.load(res.data);
+
+  const link = $('#downloadButton').attr('href');
+  if (!link) throw new Error("No se pudo obtener el enlace de descarga.");
+
+  const nameRaw = $('div.promoDownloadName.notranslate > div').attr('title');
+  if (!nameRaw) throw new Error("No se pudo obtener el nombre del archivo.");
+  const name = nameRaw.trim();
+
+  const sizeRaw = $('#downloadButton').text();
+  const size = sizeRaw.replace('Download', '').replace(/||\n/g, '').trim();
+
+  let mime = '';
+  try {
+    const headRes = await axios.head(link);
+    mime = headRes.headers['content-type'] || 'application/octet-stream';
+  } catch (err) {
+    mime = 'application/octet-stream';
+  }
+  
+  return { name, size, mime, link };
+}

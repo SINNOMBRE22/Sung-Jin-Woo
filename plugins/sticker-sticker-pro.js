@@ -1,1 +1,135 @@
-const a0_0x3307f4=a0_0x28a2;(function(_0x2db574,_0x4b7948){const _0x294dfa=a0_0x28a2,_0x4e30a7=_0x2db574();while(!![]){try{const _0x235b18=-parseInt(_0x294dfa(0x147))/0x1+parseInt(_0x294dfa(0x15c))/0x2*(-parseInt(_0x294dfa(0x141))/0x3)+parseInt(_0x294dfa(0x140))/0x4*(parseInt(_0x294dfa(0x144))/0x5)+-parseInt(_0x294dfa(0x154))/0x6+-parseInt(_0x294dfa(0x13c))/0x7+parseInt(_0x294dfa(0x136))/0x8*(-parseInt(_0x294dfa(0x15e))/0x9)+parseInt(_0x294dfa(0x161))/0xa;if(_0x235b18===_0x4b7948)break;else _0x4e30a7['push'](_0x4e30a7['shift']());}catch(_0x58bc93){_0x4e30a7['push'](_0x4e30a7['shift']());}}}(a0_0x3645,0xc8e4c));import a0_0x35f46b from'node-fetch';import{addExif}from'../lib/sticker.js';import{Sticker}from'wa-sticker-formatter';let handler=async(_0x28df6e,{conn:_0x282260,args:_0x5c6e3e,usedPrefix:_0x440735,command:_0x5bdc3c})=>{const _0x41acf1=a0_0x28a2;let _0x3e2c7b=![];try{let [_0x318bb7,..._0x118d1d]=_0x5c6e3e[_0x41acf1(0x142)]` `[_0x41acf1(0x133)]`|`;_0x118d1d=(_0x118d1d||[])[_0x41acf1(0x142)]`|`;let _0x53c558=_0x28df6e[_0x41acf1(0x164)]?_0x28df6e[_0x41acf1(0x164)]:_0x28df6e,_0x5eef5a=(_0x53c558[_0x41acf1(0x15b)]||_0x53c558)[_0x41acf1(0x134)]||_0x53c558[_0x41acf1(0x146)]||'';if(/webp/g['test'](_0x5eef5a)){let _0x5c2ac1=await _0x53c558['download']?.();_0x3e2c7b=await addExif(_0x5c2ac1,_0x318bb7||'',_0x118d1d||'');}else{if(/image/g[_0x41acf1(0x158)](_0x5eef5a)){let _0x9ef4a7=await _0x53c558[_0x41acf1(0x13b)]?.();_0x3e2c7b=await createSticker(_0x9ef4a7,![],_0x318bb7,_0x118d1d);}else{if(/video/g[_0x41acf1(0x158)](_0x5eef5a)){let _0x257e0e=await _0x53c558[_0x41acf1(0x13b)]?.();_0x3e2c7b=await mp4ToWebp(_0x257e0e,{'pack':_0x318bb7,'author':_0x118d1d});}else{if(_0x5c6e3e[0x0]&&isUrl(_0x5c6e3e[0x0]))_0x3e2c7b=await createSticker(![],_0x5c6e3e[0x0],'',_0x118d1d,0x14);else throw _0x41acf1(0x139)+(_0x440735+_0x5bdc3c);}}}}catch(_0x51d903){console[_0x41acf1(0x153)](_0x51d903),_0x3e2c7b=_0x51d903;}finally{_0x28df6e[_0x41acf1(0x148)](_0x3e2c7b),_0x28df6e[_0x41acf1(0x159)]('❤️');}};handler['help']=['s'],handler[a0_0x3307f4(0x15d)]=[a0_0x3307f4(0x155)],handler[a0_0x3307f4(0x13a)]=/^(s|sticker)$/i,handler['group']=!![];export default handler;function a0_0x28a2(_0x3b5825,_0x28deb5){const _0x36456f=a0_0x3645();return a0_0x28a2=function(_0x28a27f,_0x5722a8){_0x28a27f=_0x28a27f-0x133;let _0x424b14=_0x36456f[_0x28a27f];return _0x424b14;},a0_0x28a2(_0x3b5825,_0x28deb5);}const isUrl=_0x49e22d=>{const _0x506f7f=a0_0x3307f4;return _0x49e22d[_0x506f7f(0x160)](new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png)/,'gi'));};async function createSticker(_0x3daf66,_0x1c88ed,_0x16039f,_0x41fc2b,_0x43b94e){const _0x1212c4=a0_0x3307f4;let _0x364c21={'type':_0x1212c4(0x138),'pack':_0x1212c4(0x152),'quality':_0x43b94e};return new Sticker(_0x3daf66?_0x3daf66:_0x1c88ed,_0x364c21)['toBuffer']();}function a0_0x3645(){const _0x1d30a9=['sticker','C:\x5c\x5cProgram\x20Files\x20(x86)\x5c\x5cGoogle\x5c\x5cChrome\x5c\x5cApplication\x5c\x5cchrome.exe','00:00:00.0','test','react','2.2106.5','msg','320566GqTvjw','tags','8433caIUVW','2.20.205.16','match','31558490PneBft','post','session','quoted','application/json;charset=utf-8','split','mimetype','pack','9096NntUoN','HeadlessChrome/88.0.4324.190','full','😒\x20Etiqueta\x20una\x20imagen/video/sticker\x20con\x20el\x20comando\x20','command','download','2116457ngwBba','--disable-offline-load-stale-cache','Windows\x20Server\x202016','author','4356604XHkXar','3zVNORP','join','--disable-application-cache','5pHjjqr','text','mediaType','1440090ZRyjiy','reply','6247','crop','--disk-cache-size=0','WhatsApp/2.2037.6\x20Mozilla/5.0\x20(Macintosh;\x20Intel\x20Mac\x20OS\x20X\x2010_15_6)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/85.0.4183.83\x20Safari/537.36','base64','from','toString','--no-sandbox','--disable-setuid-sandbox','\x20\x20\x20★━━━━━━━━\x0a\x09⌬\x20Sung\x20Jin-Woo\x0a\x09⌬\x20SinNombre\x0a\x09⌬\x20Cibermaian\x0a\x09★━━━━━━━━\x0a\x09\x09\x0a\x09\x09\x0a\x09\x09\x0a\x09\x09\x0a\x09\x09\x0a\x09\x09\x0a\x09\x09\x0a\x09\x09\x0a\x09\x09\x0a\x09ᴡᴡᴡ.SinNombre.ʟᴛᴅ\x0a\x09𝓢𝓽𝓲𝓬𝓴𝓮𝓻\x20𝓒𝓻𝓮𝓪𝓭𝓸\x20𝓬𝓸𝓷\x20𝓐𝓶𝓸𝓻\x20❤️\x0a\x09\x0a\x09\x09','log','2724282kVpbvl'];a0_0x3645=function(){return _0x1d30a9;};return a0_0x3645();}async function mp4ToWebp(_0x5ad142,_0x5c5083){const _0x6d74ed=a0_0x3307f4;if(_0x5c5083){if(!_0x5c5083[_0x6d74ed(0x135)])_0x5c5083['pack']='‎';if(!_0x5c5083[_0x6d74ed(0x13f)])_0x5c5083['author']='‎';if(!_0x5c5083[_0x6d74ed(0x14a)])_0x5c5083[_0x6d74ed(0x14a)]=![];}else!_0x5c5083&&(_0x5c5083={'pack':'‎','author':'‎','crop':![]});let _0x3f3737=_0x5ad142[_0x6d74ed(0x14f)](_0x6d74ed(0x14d));const _0x116912={'file':'data:video/mp4;base64,'+_0x3f3737,'processOptions':{'crop':_0x5c5083?.[_0x6d74ed(0x14a)],'startTime':_0x6d74ed(0x157),'endTime':'00:00:7.0','loop':0x0},'stickerMetadata':{..._0x5c5083},'sessionInfo':{'WA_VERSION':_0x6d74ed(0x15a),'PAGE_UA':_0x6d74ed(0x14c),'WA_AUTOMATE_VERSION':'3.6.10\x20UPDATE\x20AVAILABLE:\x203.6.11','BROWSER_VERSION':_0x6d74ed(0x137),'OS':_0x6d74ed(0x13e),'START_TS':0x177dc64c025,'NUM':_0x6d74ed(0x149),'LAUNCH_TIME_MS':0x1efe,'PHONE_VERSION':_0x6d74ed(0x15f)},'config':{'sessionId':_0x6d74ed(0x163),'headless':!![],'qrTimeout':0x14,'authTimeout':0x0,'cacheEnabled':![],'useChrome':!![],'killProcessOnBrowserClose':!![],'throwErrorOnTosBlock':![],'chromiumArgs':[_0x6d74ed(0x150),_0x6d74ed(0x151),'--aggressive-cache-discard','--disable-cache',_0x6d74ed(0x143),_0x6d74ed(0x13d),_0x6d74ed(0x14b)],'executablePath':_0x6d74ed(0x156),'skipBrokenMethodsCheck':!![],'stickerServerEndpoint':!![]}};let _0x294a13=await a0_0x35f46b('https://sticker-api.openwa.dev/convertMp4BufferToWebpDataUrl',{'method':_0x6d74ed(0x162),'headers':{'Accept':'application/json,\x20text/plain,\x20/','Content-Type':_0x6d74ed(0x165)},'body':JSON['stringify'](_0x116912)});return Buffer[_0x6d74ed(0x14e)]((await _0x294a13[_0x6d74ed(0x145)]())[_0x6d74ed(0x133)](';base64,')[0x1],_0x6d74ed(0x14d));}
+import fetch from 'node-fetch'
+import { addExif } from '../lib/sticker.js'
+import { Sticker } from 'wa-sticker-formatter'
+
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+	//global.db.data.users[m.sender].comandos += 1;
+	let stiker = false
+	try {
+		let [packname, ...author] = args.join` `.split`|`
+		author = (author || []).join`|`
+		let q = m.quoted ? m.quoted : m
+		let mime = (q.msg || q).mimetype || q.mediaType || ''
+		if (/webp/g.test(mime)) {
+			let img = await q.download?.()
+			stiker = await addExif(img, packname || '', author || '')
+		} else if (/image/g.test(mime)) {
+			let img = await q.download?.()
+			stiker = await createSticker(img, false, packname, author)
+		} else if (/video/g.test(mime)) {
+		//	if ((q.msg || q).seconds > 10) throw 'Max 10 seconds!'
+			let img = await q.download?.()
+			stiker = await mp4ToWebp(img, { pack: packname, author: author })
+		} else if (args[0] && isUrl(args[0])) {
+			stiker = await createSticker(false, args[0], '', author, 20)
+		} else throw `😒 Etiqueta una imagen/video/sticker con el comando ${usedPrefix + command}`
+	} catch (e) {
+		console.log(e)
+		stiker = e
+	} finally {
+		m.reply(stiker)
+		m.react('❤️')
+	}
+}
+handler.help = ['s']
+handler.tags = ['sticker']
+handler.command = /^(s|sticker)$/i
+handler.group = true
+export default handler
+
+const isUrl = (text) => {
+  return text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png)/, 'gi'))
+}
+
+
+async function createSticker(img, url, packName, authorName, quality) {
+	let stickerMetadata = {
+		type: 'full',
+		pack: `   ★━━━━━━━━
+	⌬ Sung Jin-Woo
+	⌬ SinNombre
+	⌬ Cibermaian
+	★━━━━━━━━
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	ᴡᴡᴡ.SinNombre.ʟᴛᴅ
+	𝓢𝓽𝓲𝓬𝓴𝓮𝓻 𝓒𝓻𝓮𝓪𝓭𝓸 𝓬𝓸𝓷 𝓐𝓶𝓸𝓻 ❤️
+	
+		`,
+		quality
+	}
+	return (new Sticker(img ? img : url, stickerMetadata)).toBuffer()
+}
+
+async function mp4ToWebp(file, stickerMetadata) {
+	if (stickerMetadata) {
+		if (!stickerMetadata.pack) stickerMetadata.pack = '‎'
+		if (!stickerMetadata.author) stickerMetadata.author = '‎'
+		if (!stickerMetadata.crop) stickerMetadata.crop = false
+	} else if (!stickerMetadata) {
+		stickerMetadata = { pack: '‎', author: '‎', crop: false }
+	}
+	let getBase64 = file.toString('base64')
+	const Format = {
+		file: `data:video/mp4;base64,${getBase64}`,
+		processOptions: {
+			crop: stickerMetadata?.crop,
+			startTime: '00:00:00.0',
+			endTime: '00:00:7.0',
+			loop: 0
+		},
+		stickerMetadata: {
+			...stickerMetadata
+		},
+		sessionInfo: {
+			WA_VERSION: '2.2106.5',
+			PAGE_UA: 'WhatsApp/2.2037.6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+			WA_AUTOMATE_VERSION: '3.6.10 UPDATE AVAILABLE: 3.6.11',
+			BROWSER_VERSION: 'HeadlessChrome/88.0.4324.190',
+			OS: 'Windows Server 2016',
+			START_TS: 1614310326309,
+			NUM: '6247',
+			LAUNCH_TIME_MS: 7934,
+			PHONE_VERSION: '2.20.205.16'
+		},
+		config: {
+			sessionId: 'session',
+			headless: true,
+			qrTimeout: 20,
+			authTimeout: 0,
+			cacheEnabled: false,
+			useChrome: true,
+			killProcessOnBrowserClose: true,
+			throwErrorOnTosBlock: false,
+			chromiumArgs: [
+				'--no-sandbox',
+				'--disable-setuid-sandbox',
+				'--aggressive-cache-discard',
+				'--disable-cache',
+				'--disable-application-cache',
+				'--disable-offline-load-stale-cache',
+				'--disk-cache-size=0'
+			],
+			executablePath: 'C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe',
+			skipBrokenMethodsCheck: true,
+			stickerServerEndpoint: true
+		 }
+	}
+	let res = await fetch('https://sticker-api.openwa.dev/convertMp4BufferToWebpDataUrl', {
+		method: 'post',
+		headers: {
+			Accept: 'application/json, text/plain, /',
+			'Content-Type': 'application/json;charset=utf-8',
+		},
+		body: JSON.stringify(Format)
+	})
+	return Buffer.from((await res.text()).split(';base64,')[1], 'base64')
+}
+

@@ -1,1 +1,35 @@
-const a0_0x156f95=a0_0x1797;(function(_0x368fac,_0x37b6ed){const _0x27a748=a0_0x1797,_0x1fecc0=_0x368fac();while(!![]){try{const _0x46e1fa=parseInt(_0x27a748(0x1d8))/0x1+-parseInt(_0x27a748(0x1bf))/0x2*(parseInt(_0x27a748(0x1be))/0x3)+parseInt(_0x27a748(0x1d7))/0x4+parseInt(_0x27a748(0x1c0))/0x5+parseInt(_0x27a748(0x1d6))/0x6*(-parseInt(_0x27a748(0x1c4))/0x7)+parseInt(_0x27a748(0x1c7))/0x8*(parseInt(_0x27a748(0x1c8))/0x9)+parseInt(_0x27a748(0x1ca))/0xa*(parseInt(_0x27a748(0x1d0))/0xb);if(_0x46e1fa===_0x37b6ed)break;else _0x1fecc0['push'](_0x1fecc0['shift']());}catch(_0x30ba6a){_0x1fecc0['push'](_0x1fecc0['shift']());}}}(a0_0x112d,0xee90f));function a0_0x112d(){const _0xae1667=['plugins','3966CnSYoc','74nOsaCJ','1532095rujFwA','push','cleartmp','users','19509SBhGQa','data','owner_cleartmp','1695992fyeCDH','18XXtmcC','help','2662970qbOewV','reply','.json','./language/','../tmp','owner','22uXpuPm','tags','forEach','map','rowner','parse','4014GzRTAp','6463284ZehVTp','11752iPHtvD','chat'];a0_0x112d=function(){return _0xae1667;};return a0_0x112d();}function a0_0x1797(_0x5783fc,_0x33c634){const _0x112db8=a0_0x112d();return a0_0x1797=function(_0x179758,_0x182113){_0x179758=_0x179758-0x1bd;let _0x3098ea=_0x112db8[_0x179758];return _0x3098ea;},a0_0x1797(_0x5783fc,_0x33c634);}import{tmpdir}from'os';import a0_0xa22279,{join}from'path';import{readdirSync,statSync,unlinkSync,existsSync,readFileSync,watch}from'fs';const handler=async(_0x471a87,{conn:_0x260881,usedPrefix:_0x265a4a,__dirname:_0x42b8aa,args:_0x49d35c})=>{const _0x1b7fe6=a0_0x1797,_0x193a47=global,_0x3b2121=_0x193a47['db'][_0x1b7fe6(0x1c5)][_0x1b7fe6(0x1c3)][_0x471a87['sender']]['language'],_0x272cc5=JSON[_0x1b7fe6(0x1d5)](fs['readFileSync'](_0x1b7fe6(0x1cd)+_0x3b2121+_0x1b7fe6(0x1cc))),_0x2c82ff=_0x272cc5[_0x1b7fe6(0x1bd)][_0x1b7fe6(0x1c6)];_0x260881[_0x1b7fe6(0x1cb)](_0x471a87[_0x1b7fe6(0x1d9)],_0x2c82ff['texto1'],_0x471a87);const _0x4e53fb=[tmpdir(),join(_0x42b8aa,_0x1b7fe6(0x1ce))],_0x275fea=[];return _0x4e53fb[_0x1b7fe6(0x1d2)](_0x2c6f72=>readdirSync(_0x2c6f72)[_0x1b7fe6(0x1d2)](_0x1a9969=>_0x275fea[_0x1b7fe6(0x1c1)](join(_0x2c6f72,_0x1a9969)))),_0x275fea[_0x1b7fe6(0x1d3)](_0x5b12df=>{const _0x29040a=statSync(_0x5b12df);unlinkSync(_0x5b12df);});};handler[a0_0x156f95(0x1c9)]=[a0_0x156f95(0x1c2)],handler[a0_0x156f95(0x1d1)]=[a0_0x156f95(0x1cf)],handler['command']=/^(cleartmp|cleartemp)$/i,handler[a0_0x156f95(0x1d4)]=!![];export default handler;
+import {tmpdir} from 'os';
+import path, {join} from 'path';
+import {
+  readdirSync,
+  statSync,
+  unlinkSync,
+  existsSync,
+  readFileSync,
+  watch,
+} from 'fs';
+
+
+
+
+const handler = async (m, {conn, usedPrefix: _p, __dirname, args}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_cleartmp
+
+  conn.reply(m.chat, tradutor.texto1, m);
+
+  const tmp = [tmpdir(), join(__dirname, '../tmp')];
+  const filename = [];
+  tmp.forEach((dirname) => readdirSync(dirname).forEach((file) => filename.push(join(dirname, file))));
+  return filename.map((file) => {
+    const stats = statSync(file);
+    unlinkSync(file);
+  });
+};
+handler.help = ['cleartmp'];
+handler.tags = ['owner'];
+handler.command = /^(cleartmp|cleartemp)$/i;
+handler.rowner = true;
+export default handler;

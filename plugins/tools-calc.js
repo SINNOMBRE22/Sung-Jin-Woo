@@ -1,1 +1,44 @@
-const a0_0x812444=a0_0x2199;(function(_0x8b211e,_0x3e377d){const _0x5c676f=a0_0x2199,_0x2f5395=_0x8b211e();while(!![]){try{const _0x41adf7=parseInt(_0x5c676f(0x197))/0x1*(-parseInt(_0x5c676f(0x18d))/0x2)+parseInt(_0x5c676f(0x19d))/0x3*(-parseInt(_0x5c676f(0x199))/0x4)+-parseInt(_0x5c676f(0x192))/0x5+-parseInt(_0x5c676f(0x19e))/0x6*(parseInt(_0x5c676f(0x1ad))/0x7)+parseInt(_0x5c676f(0x1a1))/0x8*(-parseInt(_0x5c676f(0x190))/0x9)+parseInt(_0x5c676f(0x1a4))/0xa+parseInt(_0x5c676f(0x1a6))/0xb*(parseInt(_0x5c676f(0x19f))/0xc);if(_0x41adf7===_0x3e377d)break;else _0x2f5395['push'](_0x2f5395['shift']());}catch(_0x567339){_0x2f5395['push'](_0x2f5395['shift']());}}}(a0_0x3296,0xce236));const handler=async(_0x180d57,{conn:_0x2d025b,text:_0x23e2d9})=>{const _0x24c67c=a0_0x2199,_0x5dad6c=global,_0x645f56=_0x5dad6c['db'][_0x24c67c(0x18e)][_0x24c67c(0x191)][_0x180d57['sender']]['language'],_0x1297df=JSON[_0x24c67c(0x1a8)](fs[_0x24c67c(0x1a9)]('./language/'+_0x645f56+_0x24c67c(0x1ab))),_0x3abbbc=_0x1297df[_0x24c67c(0x1ae)][_0x24c67c(0x194)],_0x20d9fd=_0x180d57[_0x24c67c(0x1ac)];_0x2d025b[_0x24c67c(0x1a3)]=_0x2d025b[_0x24c67c(0x1a3)]?_0x2d025b[_0x24c67c(0x1a3)]:{};_0x20d9fd in _0x2d025b[_0x24c67c(0x1a3)]&&(clearTimeout(_0x2d025b[_0x24c67c(0x1a3)][_0x20d9fd][0x3]),delete _0x2d025b[_0x24c67c(0x1a3)][_0x20d9fd],_0x180d57[_0x24c67c(0x1a7)](_0x3abbbc['texto2']));const _0x57546f=_0x23e2d9[_0x24c67c(0x196)](/[^0-9\-\/+*×÷πEe()piPI/]/g,'')[_0x24c67c(0x196)](/×/g,'*')[_0x24c67c(0x196)](/÷/g,'/')[_0x24c67c(0x196)](/π|pi/gi,_0x24c67c(0x18c))[_0x24c67c(0x196)](/e/gi,_0x24c67c(0x19a))[_0x24c67c(0x196)](/\/+/g,'/')[_0x24c67c(0x196)](/\++/g,'+')[_0x24c67c(0x196)](/-+/g,'-'),_0x5681f2=_0x57546f[_0x24c67c(0x196)](/Math\.PI/g,'π')[_0x24c67c(0x196)](/Math\.E/g,'e')['replace'](/\//g,'÷')[_0x24c67c(0x196)](/\*×/g,'×');try{console['log'](_0x57546f);const _0xbae529=new Function(_0x24c67c(0x195)+_0x57546f)();if(!_0xbae529)throw _0xbae529;_0x180d57[_0x24c67c(0x1a7)]('*'+_0x5681f2+_0x24c67c(0x19b)+_0xbae529+'_');}catch(_0x37b103){if(_0x37b103==undefined)throw _0x3abbbc[_0x24c67c(0x1aa)];throw _0x3abbbc[_0x24c67c(0x19c)];}};handler[a0_0x812444(0x1a0)]=[a0_0x812444(0x193)],handler[a0_0x812444(0x198)]=[a0_0x812444(0x18f)],handler[a0_0x812444(0x1a2)]=/^(calc(ulat(e|or))?|kalk(ulator)?)$/i,handler[a0_0x812444(0x1a5)]=0x5;function a0_0x3296(){const _0x462c41=['Math.E','*\x20=\x20_','texto3','714mlNNMW','592902xefdEL','63774792QldSIz','help','56oFSRjB','command','math','5806150RdMmQF','exp','11ZdhXGz','reply','parse','readFileSync','texto1','.json','chat','105ConfVj','plugins','Math.PI','10CnYKVO','data','tools','1620909uiXzEI','users','640350EwfwPv','calc\x20<expression>','herramientas_calc','return\x20','replace','275359cfYeOx','tags','13496efOeaj'];a0_0x3296=function(){return _0x462c41;};return a0_0x3296();}function a0_0x2199(_0x1295d0,_0x19c8ca){const _0x3296ae=a0_0x3296();return a0_0x2199=function(_0x219902,_0x4b7599){_0x219902=_0x219902-0x18c;let _0x21c3b9=_0x3296ae[_0x219902];return _0x21c3b9;},a0_0x2199(_0x1295d0,_0x19c8ca);}export default handler;
+
+
+const handler = async (m, {conn, text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.herramientas_calc
+
+  const id = m.chat;
+  conn.math = conn.math ? conn.math : {};
+  if (id in conn.math) {
+    clearTimeout(conn.math[id][3]);
+    delete conn.math[id];
+    m.reply(tradutor.texto2);
+  }
+  const val = text
+      .replace(/[^0-9\-\/+*×÷πEe()piPI/]/g, '')
+      .replace(/×/g, '*')
+      .replace(/÷/g, '/')
+      .replace(/π|pi/gi, 'Math.PI')
+      .replace(/e/gi, 'Math.E')
+      .replace(/\/+/g, '/')
+      .replace(/\++/g, '+')
+      .replace(/-+/g, '-');
+  const format = val
+      .replace(/Math\.PI/g, 'π')
+      .replace(/Math\.E/g, 'e')
+      .replace(/\//g, '÷')
+      .replace(/\*×/g, '×');
+  try {
+    console.log(val);
+    const result = (new Function('return ' + val))();
+    if (!result) throw result;
+    m.reply(`*${format}* = _${result}_`);
+  } catch (e) {
+    if (e == undefined) throw tradutor.texto1;
+    throw tradutor.texto3;
+  }
+};
+handler.help = ['calc <expression>'];
+handler.tags = ['tools'];
+handler.command = /^(calc(ulat(e|or))?|kalk(ulator)?)$/i;
+handler.exp = 5;
+export default handler;

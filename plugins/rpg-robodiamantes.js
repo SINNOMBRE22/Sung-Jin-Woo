@@ -1,1 +1,62 @@
-const a0_0x4b130c=a0_0x500e;function a0_0x500e(_0x1de5fc,_0x4e240c){const _0x490211=a0_0x4902();return a0_0x500e=function(_0x500eb5,_0x352995){_0x500eb5=_0x500eb5-0x11d;let _0x217db1=_0x490211[_0x500eb5];return _0x217db1;},a0_0x500e(_0x1de5fc,_0x4e240c);}(function(_0x38d410,_0x22bf51){const _0x59b73c=a0_0x500e,_0xe3345e=_0x38d410();while(!![]){try{const _0x452a5b=-parseInt(_0x59b73c(0x134))/0x1+-parseInt(_0x59b73c(0x11d))/0x2*(-parseInt(_0x59b73c(0x139))/0x3)+-parseInt(_0x59b73c(0x12d))/0x4*(-parseInt(_0x59b73c(0x132))/0x5)+-parseInt(_0x59b73c(0x133))/0x6*(-parseInt(_0x59b73c(0x144))/0x7)+-parseInt(_0x59b73c(0x123))/0x8+parseInt(_0x59b73c(0x142))/0x9+-parseInt(_0x59b73c(0x12f))/0xa*(-parseInt(_0x59b73c(0x13c))/0xb);if(_0x452a5b===_0x22bf51)break;else _0xe3345e['push'](_0xe3345e['shift']());}catch(_0xde0fe7){_0xe3345e['push'](_0xe3345e['shift']());}}}(a0_0x4902,0xbad00));let ro=0xa,handler=async(_0x11c5b2,{conn:_0x5bd869,usedPrefix:_0x5c73f3,command:_0x4121d7})=>{const _0x592bb9=a0_0x500e;global['db'][_0x592bb9(0x128)][_0x592bb9(0x137)][_0x11c5b2[_0x592bb9(0x136)]][_0x592bb9(0x13d)]+=0x1;let _0x10f2e7=global['db'][_0x592bb9(0x128)]['users'][_0x11c5b2[_0x592bb9(0x136)]][_0x592bb9(0x12e)]+0x44aa200;if(new Date()-global['db']['data'][_0x592bb9(0x137)][_0x11c5b2[_0x592bb9(0x136)]][_0x592bb9(0x12e)]<0x44aa200)throw _0x592bb9(0x126)+msToTime(_0x10f2e7-new Date())+_0x592bb9(0x140);let _0x285a71;_0x11c5b2[_0x592bb9(0x138)]?_0x285a71=_0x11c5b2[_0x592bb9(0x13f)][0x0]?_0x11c5b2[_0x592bb9(0x13f)][0x0]:_0x11c5b2[_0x592bb9(0x130)]?_0x11c5b2[_0x592bb9(0x130)][_0x592bb9(0x136)]:![]:_0x285a71=_0x11c5b2['chat'];if(!_0x285a71)throw _0x592bb9(0x12c);if(!(_0x285a71 in global['db'][_0x592bb9(0x128)][_0x592bb9(0x137)]))throw _0x592bb9(0x11e);let _0xa94c3e=global['db'][_0x592bb9(0x128)]['users'][_0x285a71],_0x131b5a=Math['floor'](Math[_0x592bb9(0x121)]()*ro);if(_0xa94c3e[_0x592bb9(0x127)]<_0x131b5a)return _0x11c5b2[_0x592bb9(0x135)]('🐭\x20@'+_0x285a71[_0x592bb9(0x12a)]`@`[0x0]+_0x592bb9(0x13e)+ro+'\x20xp*\x0aNo\x20robes\x20a\x20un\x20pobre\x20v\x22:',null,{'mentions':[_0x285a71]});global['db'][_0x592bb9(0x128)][_0x592bb9(0x137)][_0x11c5b2[_0x592bb9(0x136)]][_0x592bb9(0x127)]+=_0x131b5a,global['db'][_0x592bb9(0x128)][_0x592bb9(0x137)][_0x285a71][_0x592bb9(0x127)]-=_0x131b5a,global['db']['data'][_0x592bb9(0x137)][_0x11c5b2[_0x592bb9(0x136)]]['lastdiamantes']=new Date()*0x1,!global['db']['data'][_0x592bb9(0x137)][_0x11c5b2['sender']][_0x592bb9(0x129)]?global['db'][_0x592bb9(0x128)][_0x592bb9(0x137)][_0x11c5b2[_0x592bb9(0x136)]][_0x592bb9(0x129)]=0x1:global['db'][_0x592bb9(0x128)]['users'][_0x11c5b2[_0x592bb9(0x136)]][_0x592bb9(0x129)]++,_0x11c5b2[_0x592bb9(0x135)](_0x592bb9(0x125)+_0x131b5a+_0x592bb9(0x12b)+_0x285a71[_0x592bb9(0x12a)]`@`[0x0]+'*',null,{'mentions':[_0x285a71]});};handler[a0_0x4b130c(0x124)]=[a0_0x4b130c(0x11f)],handler[a0_0x4b130c(0x13b)]=[a0_0x4b130c(0x120)],handler[a0_0x4b130c(0x131)]=[a0_0x4b130c(0x11f),a0_0x4b130c(0x143)],handler['group']=!![],handler[a0_0x4b130c(0x122)]=!![];export default handler;function msToTime(_0x50850b){const _0x1521bc=a0_0x4b130c;var _0x533599=parseInt(_0x50850b%0x3e8/0x64),_0x59a45b=Math[_0x1521bc(0x13a)](_0x50850b/0x3e8%0x3c),_0x568606=Math[_0x1521bc(0x13a)](_0x50850b/(0x3e8*0x3c)%0x3c),_0x183a27=Math[_0x1521bc(0x13a)](_0x50850b/(0x3e8*0x3c*0x3c)%0x18);return _0x183a27=_0x183a27<0xa?'0'+_0x183a27:_0x183a27,_0x568606=_0x568606<0xa?'0'+_0x568606:_0x568606,_0x59a45b=_0x59a45b<0xa?'0'+_0x59a45b:_0x59a45b,_0x183a27+'\x20Hora(s)\x20'+_0x568606+_0x1521bc(0x141);}function a0_0x4902(){const _0x2ffec6=['tags','12793BwKNBv','comandos','\x20tiene\x20menos\x20de\x20*','mentionedJid','\x20para\x20volver\x20a\x20robar*','\x20Minuto(s)','32274ZvsoXd','asaltar','7049210ntxWCw','27706lvJUeL','*[❗]\x20El\x20usuario\x20no\x20se\x20encuentra\x20en\x20mi\x20base\x20de\x20datos.*','atracar','econ','random','register','2313608nQlXug','help','*‣\x20🐭\x20Robaste\x20','*⏱️¡Hey!\x20Espera\x20','limit','data','robodia','split','\x20Diamantes\x20a\x20@','*[❗]\x20Etiqueta\x20a\x20alguien\x20para\x20robar.*','39684PfVeTQ','lastdiamantes','700vOfufV','quoted','command','5vbmynH','6GThLoK','324622PcABZe','reply','sender','users','isGroup','60hdJqwA','floor'];a0_0x4902=function(){return _0x2ffec6;};return a0_0x4902();}
+let ro = 10;
+let handler = async (m, { conn, usedPrefix, command }) => {
+global.db.data.users[m.sender].comandos += 1;
+    let time = global.db.data.users[m.sender].lastdiamantes + 72000000;
+    if (new Date() - global.db.data.users[m.sender].lastdiamantes < 72000000) {
+        throw `*⏱️¡Hey! Espera ${msToTime(time - new Date())} para volver a robar*`;
+    }
+
+    let who;
+    if (m.isGroup) {
+        who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
+    } else {
+        who = m.chat;
+    }
+
+    if (!who) {
+        throw `*[❗] Etiqueta a alguien para robar.*`;
+    }
+
+    if (!(who in global.db.data.users)) {
+        throw `*[❗] El usuario no se encuentra en mi base de datos.*`;
+    }
+
+    let users = global.db.data.users[who];
+    let rob = Math.floor(Math.random() * ro);
+
+    if (users.limit < rob) {
+        return m.reply(`🐭 @${who.split`@`[0]} tiene menos de *${ro} xp*\nNo robes a un pobre v":`, null, { mentions: [who] });
+    }
+
+    global.db.data.users[m.sender].limit += rob;
+    global.db.data.users[who].limit -= rob;
+    global.db.data.users[m.sender].lastdiamantes = new Date() * 1;
+
+    if (!global.db.data.users[m.sender].robodia) {
+        global.db.data.users[m.sender].robodia = 1;
+    } else {
+        global.db.data.users[m.sender].robodia++;
+    }
+
+    m.reply(`*‣ 🐭 Robaste ${rob} Diamantes a @${who.split`@`[0]}*`, null, { mentions: [who] });
+	  	 
+};
+
+handler.help = ['atracar'];
+handler.tags = ['econ'];
+handler.command = ['atracar', 'asaltar'];
+handler.group = true
+handler.register = true
+export default handler;
+
+function msToTime(duration) {
+    var milliseconds = parseInt((duration % 1000) / 100),
+        seconds = Math.floor((duration / 1000) % 60),
+        minutes = Math.floor((duration / (1000 * 60)) % 60),
+        hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+    return hours + " Hora(s) " + minutes + " Minuto(s)";
+}
+

@@ -1,1 +1,105 @@
-function a0_0x1a00(_0x3f6bc9,_0x5e3bc1){const _0x382acd=a0_0x382a();return a0_0x1a00=function(_0x1a002d,_0xabfe38){_0x1a002d=_0x1a002d-0x11e;let _0x197622=_0x382acd[_0x1a002d];return _0x197622;},a0_0x1a00(_0x3f6bc9,_0x5e3bc1);}const a0_0x2ee87e=a0_0x1a00;(function(_0x287d88,_0xfa3dd9){const _0x43484a=a0_0x1a00,_0x2b4ebc=_0x287d88();while(!![]){try{const _0x39d897=-parseInt(_0x43484a(0x121))/0x1+parseInt(_0x43484a(0x140))/0x2+-parseInt(_0x43484a(0x12b))/0x3+-parseInt(_0x43484a(0x131))/0x4+-parseInt(_0x43484a(0x128))/0x5*(parseInt(_0x43484a(0x142))/0x6)+parseInt(_0x43484a(0x124))/0x7+parseInt(_0x43484a(0x135))/0x8;if(_0x39d897===_0xfa3dd9)break;else _0x2b4ebc['push'](_0x2b4ebc['shift']());}catch(_0xffdb64){_0x2b4ebc['push'](_0x2b4ebc['shift']());}}}(a0_0x382a,0xa340d));export async function handler(_0x5ddd17,{text:_0x40acb6,command:_0x5c4885}){const _0x9cac3f=a0_0x1a00;if(!_0x40acb6)return _0x5ddd17[_0x9cac3f(0x13a)](_0x9cac3f(0x134));const _0xf3d96d={'inteligencia':{'definicion':_0x9cac3f(0x13e),'categoria':_0x9cac3f(0x126)},'amor':{'definicion':'Sentimiento\x20de\x20afecto\x20intenso\x20hacia\x20una\x20persona,\x20animal\x20o\x20cosa.','categoria':'Sentimientos\x20y\x20Emociones'},'programación':{'definicion':_0x9cac3f(0x11e),'categoria':_0x9cac3f(0x12d)},'algoritmo':{'definicion':_0x9cac3f(0x137),'categoria':_0x9cac3f(0x12e)},'bot':{'definicion':_0x9cac3f(0x13f),'categoria':_0x9cac3f(0x136)},'javascript':{'definicion':_0x9cac3f(0x129),'categoria':_0x9cac3f(0x130)},'linux':{'definicion':_0x9cac3f(0x133),'categoria':_0x9cac3f(0x123)},'ubuntu':{'definicion':_0x9cac3f(0x11f),'categoria':_0x9cac3f(0x123)},'servidor':{'definicion':'Computadora\x20o\x20software\x20que\x20proporciona\x20servicios\x20a\x20otros\x20dispositivos\x20en\x20una\x20red.','categoria':_0x9cac3f(0x145)},'base\x20de\x20datos':{'definicion':_0x9cac3f(0x12a),'categoria':_0x9cac3f(0x13d)},'código':{'definicion':'Conjunto\x20de\x20instrucciones\x20escritas\x20en\x20un\x20lenguaje\x20de\x20programación.','categoria':_0x9cac3f(0x130)},'hacker':{'definicion':'Persona\x20experta\x20en\x20informática\x20que\x20explora\x20y\x20modifica\x20sistemas\x20para\x20mejorarlos\x20o\x20explotarlos.','categoria':_0x9cac3f(0x12c)}},_0x46109c=_0x40acb6['toLowerCase']();if(_0xf3d96d[_0x46109c]){const {definicion:_0xc2952c,categoria:_0x38bcb9}=_0xf3d96d[_0x46109c];return _0x5ddd17[_0x9cac3f(0x13a)]('📖\x20*Definición\x20de\x20'+_0x46109c+':*\x0a'+_0xc2952c+_0x9cac3f(0x120)+_0x38bcb9);}else try{const _0x39252d=await fetch('https://api.dictionaryapi.dev/api/v2/entries/es/'+_0x46109c);if(!_0x39252d['ok'])throw new Error('La\x20API\x20no\x20dispone\x20de\x20definiciones\x20para\x20palabras\x20en\x20español');const _0x1e43cd=await _0x39252d[_0x9cac3f(0x122)](),_0x326a3d=_0x1e43cd[0x0]?.[_0x9cac3f(0x12f)]?.[0x0]?.['definitions']?.[0x0]?.[_0x9cac3f(0x146)],_0x27765c=_0x1e43cd[0x0]?.[_0x9cac3f(0x12f)]?.[0x0]?.['partOfSpeech']||_0x9cac3f(0x132);return _0x326a3d?_0x5ddd17['reply'](_0x9cac3f(0x13c)+_0x46109c+_0x9cac3f(0x127)+_0x326a3d+_0x9cac3f(0x120)+_0x27765c):_0x5ddd17[_0x9cac3f(0x13a)](_0x9cac3f(0x144)+_0x46109c+'*\x20en\x20el\x20diccionario\x20en\x20línea.');}catch(_0x347c7f){return _0x5ddd17[_0x9cac3f(0x13a)]('❌\x20Error\x20al\x20buscar\x20la\x20palabra\x20en\x20línea:\x20'+_0x347c7f[_0x9cac3f(0x141)]);}}handler[a0_0x2ee87e(0x125)]=['diccionario',a0_0x2ee87e(0x143)],handler[a0_0x2ee87e(0x139)]=['diccionario\x20[palabra]'],handler[a0_0x2ee87e(0x13b)]=[a0_0x2ee87e(0x138)];function a0_0x382a(){const _0x25551e=['Ciencia\x20y\x20Psicología',':*\x0a','5eWRXVE','Lenguaje\x20de\x20programación\x20utilizado\x20en\x20desarrollo\x20web\x20y\x20aplicaciones.','Sistema\x20organizado\x20para\x20almacenar,\x20gestionar\x20y\x20recuperar\x20información.','1812624CyGOUC','Ciberseguridad','Tecnología\x20y\x20Desarrollo','Matemáticas\x20y\x20Computación','meanings','Lenguajes\x20de\x20Programación','1087176QxkFhF','No\x20especificado','Sistema\x20operativo\x20de\x20código\x20abierto\x20basado\x20en\x20Unix.','❌\x20*Uso\x20incorrecto.*\x0a🔹\x20Escribe:\x20*.diccionario\x20palabra*\x0a📖\x20Ejemplo:\x20*.diccionario\x20inteligencia*','10915848gjClFq','Tecnología\x20e\x20Inteligencia\x20Artificial','Conjunto\x20de\x20pasos\x20organizados\x20para\x20realizar\x20una\x20tarea\x20específica.','tools','help','reply','tags','📖\x20*Definición\x20de\x20','Computación\x20y\x20Datos','Capacidad\x20de\x20aprender,\x20entender,\x20razonar\x20y\x20tomar\x20decisiones.','Programa\x20automatizado\x20que\x20realiza\x20tareas\x20específicas\x20de\x20forma\x20autónoma.','984844HOXMpu','message','6780342gQsvZm','definir','❌\x20No\x20se\x20encontró\x20la\x20definición\x20de\x20*','Redes\x20y\x20Servidores','definition','Proceso\x20de\x20escribir,\x20probar\x20y\x20mantener\x20código\x20para\x20computadoras.','Distribución\x20de\x20Linux\x20basada\x20en\x20Debian,\x20popular\x20por\x20su\x20facilidad\x20de\x20uso.','\x0a\x0a🗂\x20*Categoría:*\x20','154605BqrTpM','json','Sistemas\x20Operativos','6807122gTMMkK','command'];a0_0x382a=function(){return _0x25551e;};return a0_0x382a();}export default handler;
+export async function handler(m, { text, command }) {
+  if (!text) {
+    return m.reply(
+      '❌ *Uso incorrecto.*\n🔹 Escribe: *.diccionario palabra*\n📖 Ejemplo: *.diccionario inteligencia*'
+    );
+  }
+
+  // Base de datos interna del diccionario
+  const diccionario = {
+    "inteligencia": {
+      definicion: "Capacidad de aprender, entender, razonar y tomar decisiones.",
+      categoria: "Ciencia y Psicología"
+    },
+    "amor": {
+      definicion: "Sentimiento de afecto intenso hacia una persona, animal o cosa.",
+      categoria: "Sentimientos y Emociones"
+    },
+    "programación": {
+      definicion: "Proceso de escribir, probar y mantener código para computadoras.",
+      categoria: "Tecnología y Desarrollo"
+    },
+    "algoritmo": {
+      definicion: "Conjunto de pasos organizados para realizar una tarea específica.",
+      categoria: "Matemáticas y Computación"
+    },
+    "bot": {
+      definicion: "Programa automatizado que realiza tareas específicas de forma autónoma.",
+      categoria: "Tecnología e Inteligencia Artificial"
+    },
+    "javascript": {
+      definicion: "Lenguaje de programación utilizado en desarrollo web y aplicaciones.",
+      categoria: "Lenguajes de Programación"
+    },
+    "linux": {
+      definicion: "Sistema operativo de código abierto basado en Unix.",
+      categoria: "Sistemas Operativos"
+    },
+    "ubuntu": {
+      definicion: "Distribución de Linux basada en Debian, popular por su facilidad de uso.",
+      categoria: "Sistemas Operativos"
+    },
+    "servidor": {
+      definicion: "Computadora o software que proporciona servicios a otros dispositivos en una red.",
+      categoria: "Redes y Servidores"
+    },
+    "base de datos": {
+      definicion: "Sistema organizado para almacenar, gestionar y recuperar información.",
+      categoria: "Computación y Datos"
+    },
+    "código": {
+      definicion: "Conjunto de instrucciones escritas en un lenguaje de programación.",
+      categoria: "Lenguajes de Programación"
+    },
+    "hacker": {
+      definicion: "Persona experta en informática que explora y modifica sistemas para mejorarlos o explotarlos.",
+      categoria: "Ciberseguridad"
+    }
+  };
+
+  // Convertir a minúsculas para evitar errores de capitalización
+  const palabra = text.toLowerCase();
+
+  // Buscar la palabra en el diccionario interno
+  if (diccionario[palabra]) {
+    const { definicion, categoria } = diccionario[palabra];
+    return m.reply(
+      `📖 *Definición de ${palabra}:*\n${definicion}\n\n🗂 *Categoría:* ${categoria}`
+    );
+  } else {
+    // Si no se encuentra, se consulta la API de dictionaryapi.dev
+    try {
+      const res = await fetch(
+        `https://api.dictionaryapi.dev/api/v2/entries/es/${palabra}`
+      );
+      if (!res.ok) {
+        // Si la respuesta no es correcta, asumimos que no existen datos en español
+        throw new Error(
+          "La API no dispone de definiciones para palabras en español"
+        );
+      }
+      const data = await res.json();
+      const definicionEnLinea =
+        data[0]?.meanings?.[0]?.definitions?.[0]?.definition;
+      const categoriaEnLinea =
+        data[0]?.meanings?.[0]?.partOfSpeech || "No especificado";
+      if (definicionEnLinea) {
+        return m.reply(
+          `📖 *Definición de ${palabra}:*\n${definicionEnLinea}\n\n🗂 *Categoría:* ${categoriaEnLinea}`
+        );
+      } else {
+        return m.reply(
+          `❌ No se encontró la definición de *${palabra}* en el diccionario en línea.`
+        );
+      }
+    } catch (error) {
+      return m.reply(`❌ Error al buscar la palabra en línea: ${error.message}`);
+    }
+  }
+}
+
+// Configuración del comando
+handler.command = ["diccionario", "definir"];
+handler.help = ["diccionario [palabra]"];
+handler.tags = ["tools"];
+export default handler;

@@ -1,1 +1,17 @@
-const a0_0x2b798f=a0_0x2895;function a0_0x125b(){const _0xddcc78=['2914920nlJASQ','1141944SRRUso','https://chat.whatsapp.com/','15YwoHAQ','4690672XbZMfG','37250DIgCvp','16292TRGndd','language','readFileSync','5310798RitvtV','revoke','915555jFFOEl','sender','5949qKBFwp','parse','reply','chat','command','texto1','admin','botAdmin','group','41pThzGv','gc_revoke','data'];a0_0x125b=function(){return _0xddcc78;};return a0_0x125b();}(function(_0x4b5a46,_0x4587a3){const _0x4f9fb6=a0_0x2895,_0x25e34f=_0x4b5a46();while(!![]){try{const _0x1c87f8=parseInt(_0x4f9fb6(0x175))/0x1*(parseInt(_0x4f9fb6(0x165))/0x2)+-parseInt(_0x4f9fb6(0x16a))/0x3+-parseInt(_0x4f9fb6(0x179))/0x4*(parseInt(_0x4f9fb6(0x162))/0x5)+-parseInt(_0x4f9fb6(0x168))/0x6+-parseInt(_0x4f9fb6(0x163))/0x7+parseInt(_0x4f9fb6(0x178))/0x8+-parseInt(_0x4f9fb6(0x16c))/0x9*(-parseInt(_0x4f9fb6(0x164))/0xa);if(_0x1c87f8===_0x4587a3)break;else _0x25e34f['push'](_0x25e34f['shift']());}catch(_0x10697a){_0x25e34f['push'](_0x25e34f['shift']());}}}(a0_0x125b,0x6c538));const handler=async(_0x461a44,{conn:_0x2dc568})=>{const _0x50bbf8=a0_0x2895,_0x448d75=global,_0x39e9fd=_0x448d75['db'][_0x50bbf8(0x177)]['users'][_0x461a44[_0x50bbf8(0x16b)]][_0x50bbf8(0x166)],_0x1d9a6c=JSON[_0x50bbf8(0x16d)](fs[_0x50bbf8(0x167)]('./language/'+_0x39e9fd+'.json')),_0x3d43ed=_0x1d9a6c['plugins'][_0x50bbf8(0x176)],_0x112d71=await _0x2dc568['groupRevokeInvite'](_0x461a44['chat']);await _0x2dc568[_0x50bbf8(0x16e)](_0x461a44[_0x50bbf8(0x16f)],_0x3d43ed[_0x50bbf8(0x171)]+'\x20'+(_0x50bbf8(0x17a)+_0x112d71),_0x461a44);};handler[a0_0x2b798f(0x170)]=['resetlink',a0_0x2b798f(0x169)],handler[a0_0x2b798f(0x173)]=!![],handler[a0_0x2b798f(0x172)]=!![],handler[a0_0x2b798f(0x174)]=!![];function a0_0x2895(_0x564ccc,_0x2f4ce0){const _0x125b41=a0_0x125b();return a0_0x2895=function(_0x289521,_0x4a08fa){_0x289521=_0x289521-0x162;let _0x14bfaf=_0x125b41[_0x289521];return _0x14bfaf;},a0_0x2895(_0x564ccc,_0x2f4ce0);}export default handler;
+/* Creditos a https://github.com/ALBERTO9883 */
+
+
+const handler = async (m, {conn}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_revoke
+
+  const revoke = await conn.groupRevokeInvite(m.chat);
+  await conn.reply(m.chat, `${tradutor.texto1} ${'https://chat.whatsapp.com/' + revoke}`, m);
+};
+handler.command = ['resetlink', 'revoke'];
+handler.botAdmin = true;
+handler.admin = true;
+handler.group = true;
+export default handler;

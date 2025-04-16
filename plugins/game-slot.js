@@ -1,1 +1,87 @@
-function a0_0x3d19(_0xa2ec6c,_0x30deff){const _0x520f00=a0_0x520f();return a0_0x3d19=function(_0x3d19cc,_0x373ccc){_0x3d19cc=_0x3d19cc-0xe1;let _0x166e65=_0x520f00[_0x3d19cc];return _0x166e65;},a0_0x3d19(_0xa2ec6c,_0x30deff);}const a0_0x4cc0d9=a0_0x3d19;(function(_0x5e15a5,_0xb9e70a){const _0xc9e9e0=a0_0x3d19,_0x40505e=_0x5e15a5();while(!![]){try{const _0x174c8f=parseInt(_0xc9e9e0(0x107))/0x1*(parseInt(_0xc9e9e0(0xe1))/0x2)+-parseInt(_0xc9e9e0(0x10c))/0x3+parseInt(_0xc9e9e0(0xf2))/0x4+parseInt(_0xc9e9e0(0xec))/0x5*(-parseInt(_0xc9e9e0(0xf0))/0x6)+-parseInt(_0xc9e9e0(0xee))/0x7+parseInt(_0xc9e9e0(0xf1))/0x8+-parseInt(_0xc9e9e0(0xf6))/0x9*(-parseInt(_0xc9e9e0(0xf9))/0xa);if(_0x174c8f===_0xb9e70a)break;else _0x40505e['push'](_0x40505e['shift']());}catch(_0x27bcf7){_0x40505e['push'](_0x40505e['shift']());}}}(a0_0x520f,0x33118));function a0_0x520f(){const _0x21b104=['data','\x20\x0a\x0a','27PzfACq','\x20:\x20','random','exp','🕊️','487584hCpGhv','.json','18440PhJezz','texto2','help','\x0a────────\x0a🎰\x20|\x20','plugins','\x20100*','trim','language','\x20𝚇𝙿*','texto3','game_slot','10ojMCtF','users','1502410KefnWI','game','945198wyRKsI','1785992MYchBh','310164EJJJCX','sender','slot','lastslot','12510eFSZbm','texto6','texto4','2530vEvYba','tags','./language/','reply','parse','texto5','texto8','\x20\x0a*','floor','length','\x20s\x20','command'];a0_0x520f=function(){return _0x21b104;};return a0_0x520f();}const handler=async(_0x456b1d,{args:_0x4c2c69,usedPrefix:_0x36c032,command:_0x36ff6b})=>{const _0x491ad3=a0_0x3d19,_0x1ed095=global,_0x3e178e=_0x1ed095['db'][_0x491ad3(0x105)][_0x491ad3(0xed)][_0x456b1d[_0x491ad3(0xf3)]][_0x491ad3(0xe8)],_0x245064=JSON[_0x491ad3(0xfd)](fs['readFileSync'](_0x491ad3(0xfb)+_0x3e178e+_0x491ad3(0x10d))),_0x20c437=_0x245064[_0x491ad3(0xe5)][_0x491ad3(0xeb)],_0x5e0205=('\x0a'+_0x20c437['texto1']+_0x491ad3(0x106)+_0x20c437[_0x491ad3(0xe2)]+_0x491ad3(0x100)+(_0x36c032+_0x36ff6b)+_0x491ad3(0xe6))[_0x491ad3(0xe7)]();if(!_0x4c2c69[0x0])throw _0x5e0205;if(isNaN(_0x4c2c69[0x0]))throw _0x5e0205;const _0x5a6126=parseInt(_0x4c2c69[0x0]),_0x11707c=global['db'][_0x491ad3(0x105)][_0x491ad3(0xed)][_0x456b1d[_0x491ad3(0xf3)]],_0x4d62f1=_0x11707c[_0x491ad3(0xf5)]+0x2710;if(new Date()-_0x11707c[_0x491ad3(0xf5)]<0x2710)throw _0x20c437['texto3'][0x0]+'\x20'+msToTime(_0x4d62f1-new Date())+'\x20'+_0x20c437[_0x491ad3(0xea)][0x1];if(_0x5a6126<0x64)throw _0x20c437[_0x491ad3(0xf8)];if(_0x11707c[_0x491ad3(0x10a)]<_0x5a6126)throw _0x20c437[_0x491ad3(0xfe)];const _0x3e98e9=['🐋','🐉',_0x491ad3(0x10b)];let _0x536e2b=Math['floor'](Math['random']()*_0x3e98e9[_0x491ad3(0x102)]),_0x174d35=Math[_0x491ad3(0x101)](Math[_0x491ad3(0x109)]()*_0x3e98e9[_0x491ad3(0x102)]),_0x4c93c8=Math[_0x491ad3(0x101)](Math[_0x491ad3(0x109)]()*_0x3e98e9[_0x491ad3(0x102)]);const _0x2ebe26=[],_0x2432e2=[],_0x5f1430=[];for(let _0xc8505c=0x0;_0xc8505c<0x3;_0xc8505c++){_0x2ebe26[_0xc8505c]=_0x3e98e9[_0x536e2b],_0x536e2b++;if(_0x536e2b==_0x3e98e9['length'])_0x536e2b=0x0;}for(let _0x505df6=0x0;_0x505df6<0x3;_0x505df6++){_0x2432e2[_0x505df6]=_0x3e98e9[_0x174d35],_0x174d35++;if(_0x174d35==_0x3e98e9['length'])_0x174d35=0x0;}for(let _0x5ccc45=0x0;_0x5ccc45<0x3;_0x5ccc45++){_0x5f1430[_0x5ccc45]=_0x3e98e9[_0x4c93c8],_0x4c93c8++;if(_0x4c93c8==_0x3e98e9[_0x491ad3(0x102)])_0x4c93c8=0x0;}let _0x1b8354;if(_0x536e2b==_0x174d35&&_0x174d35==_0x4c93c8)_0x1b8354=_0x20c437[_0x491ad3(0xf7)]+'\x20+'+(_0x5a6126+_0x5a6126)+'\x20𝚇𝙿*',_0x11707c[_0x491ad3(0x10a)]+=_0x5a6126;else _0x536e2b==_0x174d35||_0x536e2b==_0x4c93c8||_0x174d35==_0x4c93c8?(_0x1b8354=''+_0x20c437['texto7'],_0x11707c['exp']+=0xa):(_0x1b8354=_0x20c437[_0x491ad3(0xff)]+'\x20-'+_0x5a6126+_0x491ad3(0xe9),_0x11707c[_0x491ad3(0x10a)]-=_0x5a6126);return _0x11707c[_0x491ad3(0xf5)]=new Date()*0x1,await _0x456b1d[_0x491ad3(0xfc)]('\x0a🎰\x20|\x20*SLOTS*\x20\x0a────────\x0a'+_0x2ebe26[0x0]+'\x20:\x20'+_0x2432e2[0x0]+_0x491ad3(0x108)+_0x5f1430[0x0]+'\x0a'+_0x2ebe26[0x1]+_0x491ad3(0x108)+_0x2432e2[0x1]+_0x491ad3(0x108)+_0x5f1430[0x1]+'\x0a'+_0x2ebe26[0x2]+'\x20:\x20'+_0x2432e2[0x2]+_0x491ad3(0x108)+_0x5f1430[0x2]+_0x491ad3(0xe4)+_0x1b8354);};handler[a0_0x4cc0d9(0xe3)]=['slot\x20<apuesta>'],handler[a0_0x4cc0d9(0xfa)]=[a0_0x4cc0d9(0xef)],handler[a0_0x4cc0d9(0x104)]=[a0_0x4cc0d9(0xf4)];export default handler;function msToTime(_0x5163a5){const _0x1b880c=a0_0x4cc0d9,_0x5f5c4d=parseInt(_0x5163a5%0x3e8/0x64);let _0x2a970d=Math[_0x1b880c(0x101)](_0x5163a5/0x3e8%0x3c),_0x2f1236=Math[_0x1b880c(0x101)](_0x5163a5/(0x3e8*0x3c)%0x3c),_0x4f0408=Math[_0x1b880c(0x101)](_0x5163a5/(0x3e8*0x3c*0x3c)%0x18);return _0x4f0408=_0x4f0408<0xa?'0'+_0x4f0408:_0x4f0408,_0x2f1236=_0x2f1236<0xa?'0'+_0x2f1236:_0x2f1236,_0x2a970d=_0x2a970d<0xa?'0'+_0x2a970d:_0x2a970d,_0x2f1236+'\x20m\x20'+_0x2a970d+_0x1b880c(0x103);}
+/* CREDITOS A https://github.com/FG98F */
+
+
+
+const handler = async (m, {args, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.game_slot
+
+  const fa = `
+${tradutor.texto1} 
+
+${tradutor.texto2} 
+*${usedPrefix + command} 100*`.trim();
+  if (!args[0]) throw fa;
+  if (isNaN(args[0])) throw fa;
+  const apuesta = parseInt(args[0]);
+  const users = global.db.data.users[m.sender];
+  const time = users.lastslot + 10000;
+  if (new Date - users.lastslot < 10000) throw `${tradutor.texto3[0]} ${msToTime(time - new Date())} ${tradutor.texto3[1]}`;
+  if (apuesta < 100) throw tradutor.texto4;
+  if (users.exp < apuesta) {
+    throw tradutor.texto5;
+  }
+  const emojis = ['🐋', '🐉', '🕊️'];
+  let a = Math.floor(Math.random() * emojis.length);
+  let b = Math.floor(Math.random() * emojis.length);
+  let c = Math.floor(Math.random() * emojis.length);
+  const x = [];
+  const y = [];
+  const z = [];
+  for (let i = 0; i < 3; i++) {
+    x[i] = emojis[a];
+    a++;
+    if (a == emojis.length) a = 0;
+  }
+  for (let i = 0; i < 3; i++) {
+    y[i] = emojis[b];
+    b++;
+    if (b == emojis.length) b = 0;
+  }
+  for (let i = 0; i < 3; i++) {
+    z[i] = emojis[c];
+    c++;
+    if (c == emojis.length) c = 0;
+  }
+  let end;
+  if (a == b && b == c) {
+    end = `${tradutor.texto6} +${apuesta + apuesta} 𝚇𝙿*`;
+    users.exp += apuesta;
+  } else if (a == b || a == c || b == c) {
+    end = `${tradutor.texto7}`;
+    users.exp += 10;
+  } else {
+    end = `${tradutor.texto8} -${apuesta} 𝚇𝙿*`;
+    users.exp -= apuesta;
+  }
+  users.lastslot = new Date * 1;
+  return await m.reply(
+      `
+🎰 | *SLOTS* 
+────────
+${x[0]} : ${y[0]} : ${z[0]}
+${x[1]} : ${y[1]} : ${z[1]}
+${x[2]} : ${y[2]} : ${z[2]}
+────────
+🎰 | ${end}`);
+};
+handler.help = ['slot <apuesta>'];
+handler.tags = ['game'];
+handler.command = ['slot'];
+export default handler;
+
+function msToTime(duration) {
+  const milliseconds = parseInt((duration % 1000) / 100);
+  let seconds = Math.floor((duration / 1000) % 60);
+  let minutes = Math.floor((duration / (1000 * 60)) % 60);
+  let hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+
+  hours = (hours < 10) ? '0' + hours : hours;
+  minutes = (minutes < 10) ? '0' + minutes : minutes;
+  seconds = (seconds < 10) ? '0' + seconds : seconds;
+
+  return minutes + ' m ' + seconds + ' s ';
+}
+

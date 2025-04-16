@@ -1,1 +1,17 @@
-const a0_0x8e5c6b=a0_0xaf2c;(function(_0x3e6552,_0xaaf5bb){const _0x4517d6=a0_0xaf2c,_0x31e0c9=_0x3e6552();while(!![]){try{const _0x3af0ad=parseInt(_0x4517d6(0x135))/0x1+-parseInt(_0x4517d6(0x13b))/0x2*(parseInt(_0x4517d6(0x131))/0x3)+parseInt(_0x4517d6(0x12a))/0x4+parseInt(_0x4517d6(0x134))/0x5*(parseInt(_0x4517d6(0x133))/0x6)+parseInt(_0x4517d6(0x13f))/0x7*(-parseInt(_0x4517d6(0x144))/0x8)+-parseInt(_0x4517d6(0x13c))/0x9+-parseInt(_0x4517d6(0x140))/0xa*(-parseInt(_0x4517d6(0x129))/0xb);if(_0x3af0ad===_0xaaf5bb)break;else _0x31e0c9['push'](_0x31e0c9['shift']());}catch(_0x316789){_0x31e0c9['push'](_0x31e0c9['shift']());}}}(a0_0x2ef7,0x33431));function a0_0xaf2c(_0x361418,_0x4083ae){const _0x2ef73a=a0_0x2ef7();return a0_0xaf2c=function(_0xaf2c4a,_0x527ab8){_0xaf2c4a=_0xaf2c4a-0x129;let _0x151942=_0x2ef73a[_0xaf2c4a];return _0x151942;},a0_0xaf2c(_0x361418,_0x4083ae);}const handler=async(_0x55ee57,{conn:_0x33b973,text:_0x130673,isROwner:_0x53ac41,isOwner:_0x218279})=>{const _0x5c7c8c=a0_0xaf2c,_0x8325cc=global,_0x977f2=_0x8325cc['db'][_0x5c7c8c(0x132)][_0x5c7c8c(0x12b)][_0x55ee57['sender']][_0x5c7c8c(0x141)],_0x59097a=JSON[_0x5c7c8c(0x13e)](fs[_0x5c7c8c(0x138)]('./language/'+_0x977f2+_0x5c7c8c(0x136))),_0x5aa2d0=_0x59097a['plugins'][_0x5c7c8c(0x12d)];if(_0x130673)global['db'][_0x5c7c8c(0x132)]['chats'][_0x55ee57['chat']][_0x5c7c8c(0x139)]=_0x130673,_0x55ee57[_0x5c7c8c(0x145)](_0x5aa2d0[_0x5c7c8c(0x13a)]);else throw _0x5aa2d0[_0x5c7c8c(0x12f)]+_0x5c7c8c(0x12c)+_0x5aa2d0[_0x5c7c8c(0x146)];};function a0_0x2ef7(){const _0x579452=['1602erIhhr','data','642NbFJUh','1165Miekmx','118133IqmJSb','.json','setbye\x20<text>','readFileSync','sBye','texto1','710UysvaV','2298438FevEvL','admin','parse','2652643YkQvOP','10KMRjfQ','language','group','command','8hinHeh','reply','texto3','5779015xkRYmn','1461764lVBrQF','users','\x0a*-\x20@user\x20','gc_setbye','help','texto2','tags'];a0_0x2ef7=function(){return _0x579452;};return a0_0x2ef7();}handler[a0_0x8e5c6b(0x12e)]=[a0_0x8e5c6b(0x137)],handler[a0_0x8e5c6b(0x130)]=[a0_0x8e5c6b(0x142)],handler[a0_0x8e5c6b(0x143)]=['setbye'],handler[a0_0x8e5c6b(0x13d)]=!![];export default handler;
+
+const handler = async (m, {conn, text, isROwner, isOwner}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_setbye
+
+  if (text) {
+    global.db.data.chats[m.chat].sBye = text;
+    m.reply(tradutor.texto1);
+  } else throw `${tradutor.texto2}\n*- @user ${tradutor.texto3}`;
+};
+handler.help = ['setbye <text>'];
+handler.tags = ['group'];
+handler.command = ['setbye'];
+handler.admin = true;
+export default handler;

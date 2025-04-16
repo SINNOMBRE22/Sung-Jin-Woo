@@ -1,1 +1,63 @@
-const a0_0x9a2010=a0_0x4b5a;(function(_0x19dbe1,_0x3c7df0){const _0x321a2c=a0_0x4b5a,_0x17a1e6=_0x19dbe1();while(!![]){try{const _0x186133=-parseInt(_0x321a2c(0x1f0))/0x1+parseInt(_0x321a2c(0x1ea))/0x2*(parseInt(_0x321a2c(0x1ed))/0x3)+-parseInt(_0x321a2c(0x1da))/0x4*(-parseInt(_0x321a2c(0x1d6))/0x5)+-parseInt(_0x321a2c(0x1ec))/0x6*(-parseInt(_0x321a2c(0x1d1))/0x7)+parseInt(_0x321a2c(0x1ef))/0x8+parseInt(_0x321a2c(0x1e1))/0x9+-parseInt(_0x321a2c(0x1e7))/0xa;if(_0x186133===_0x3c7df0)break;else _0x17a1e6['push'](_0x17a1e6['shift']());}catch(_0xf21d2b){_0x17a1e6['push'](_0x17a1e6['shift']());}}}(a0_0x46d2,0xa0fad));let ro=0x30d40,handler=async(_0x87ba81,{conn:_0x385e25,usedPrefix:_0x52bb09,command:_0x2a9320})=>{const _0x36ede7=a0_0x4b5a;global['db']['data']['users'][_0x87ba81[_0x36ede7(0x1dd)]][_0x36ede7(0x1df)]+=0x1;let _0x40e255;_0x87ba81[_0x36ede7(0x1e9)]?_0x40e255=_0x87ba81[_0x36ede7(0x1e6)][0x0]?_0x87ba81[_0x36ede7(0x1e6)][0x0]:_0x87ba81[_0x36ede7(0x1d4)]?_0x87ba81[_0x36ede7(0x1d4)][_0x36ede7(0x1dd)]:![]:_0x40e255=_0x87ba81[_0x36ede7(0x1d7)];if(!_0x40e255)throw _0x36ede7(0x1ce);if(!(_0x40e255 in global['db'][_0x36ede7(0x1e8)][_0x36ede7(0x1d8)]))throw _0x36ede7(0x1e5);let _0x42a62c=global['db']['data'][_0x36ede7(0x1d8)][_0x40e255],_0x5e92df=Math['floor'](Math[_0x36ede7(0x1cf)]()*ro);if(_0x42a62c[_0x36ede7(0x1d5)]<_0x5e92df)return _0x87ba81['reply'](_0x36ede7(0x1e3)+_0x40e255[_0x36ede7(0x1d9)]`@`[0x0]+_0x36ede7(0x1eb)+ro+_0x36ede7(0x1ee),null,{'mentions':[_0x40e255]});global['db'][_0x36ede7(0x1e8)]['users'][_0x87ba81[_0x36ede7(0x1dd)]]['exp']+=_0x5e92df,global['db'][_0x36ede7(0x1e8)][_0x36ede7(0x1d8)][_0x40e255][_0x36ede7(0x1d5)]-=_0x5e92df,global['db'][_0x36ede7(0x1e8)][_0x36ede7(0x1d8)][_0x87ba81[_0x36ede7(0x1dd)]][_0x36ede7(0x1d0)]=new Date()*0x1,!global['db'][_0x36ede7(0x1e8)][_0x36ede7(0x1d8)][_0x87ba81[_0x36ede7(0x1dd)]]['robo']?global['db'][_0x36ede7(0x1e8)][_0x36ede7(0x1d8)][_0x87ba81[_0x36ede7(0x1dd)]]['robo']=0x1:global['db'][_0x36ede7(0x1e8)][_0x36ede7(0x1d8)][_0x87ba81['sender']]['robo']++,_0x87ba81[_0x36ede7(0x1cd)]('*‣\x20🐭\x20TOMALA!!!\x20ROBO\x20SUPREMO!!!!\x20El\x20admin\x20ha\x20robado\x20'+_0x5e92df+_0x36ede7(0x1e4)+_0x40e255[_0x36ede7(0x1d9)]`@`[0x0]+'*',null,{'mentions':[_0x40e255]});};handler[a0_0x9a2010(0x1ca)]=[a0_0x9a2010(0x1de)],handler[a0_0x9a2010(0x1e2)]=['owner'],handler[a0_0x9a2010(0x1db)]=[a0_0x9a2010(0x1de),a0_0x9a2010(0x1d3)],handler[a0_0x9a2010(0x1d2)]=!![],handler[a0_0x9a2010(0x1e0)]=!![],handler[a0_0x9a2010(0x1cc)]=!![];export default handler;function a0_0x46d2(){const _0x276735=['help','floor','rowner','reply','*[❗]\x20Etiqueta\x20a\x20alguien\x20para\x20robar.*','random','lastrob','1225IjBqxe','group','tomala','quoted','exp','10ouMinF','chat','users','split','53268AjtBjL','command','\x20Hora(s)\x20','sender','robosupremo','comandos','register','4540698ARIsef','tags','🐭\x20@','\x20XP\x20a\x20@','*[❗]\x20El\x20usuario\x20no\x20se\x20encuentra\x20en\x20mi\x20base\x20de\x20datos.*','mentionedJid','14072770DQDKNP','data','isGroup','301564XKSIXd','\x20tiene\x20menos\x20de\x20*','31686zGLDZy','6IyMnba','\x20xp*\x0aNo\x20robes\x20a\x20un\x20pobre\x20v\x22:','4977392IfPlMY','312419zkbsbE'];a0_0x46d2=function(){return _0x276735;};return a0_0x46d2();}function a0_0x4b5a(_0x2cc78d,_0x40ce29){const _0x46d217=a0_0x46d2();return a0_0x4b5a=function(_0x4b5ac6,_0x2c5699){_0x4b5ac6=_0x4b5ac6-0x1ca;let _0x23414d=_0x46d217[_0x4b5ac6];return _0x23414d;},a0_0x4b5a(_0x2cc78d,_0x40ce29);}function msToTime(_0x21513b){const _0x46b46f=a0_0x9a2010;var _0x5b60ea=parseInt(_0x21513b%0x3e8/0x64),_0x2ce05c=Math['floor'](_0x21513b/0x3e8%0x3c),_0x2387bd=Math['floor'](_0x21513b/(0x3e8*0x3c)%0x3c),_0x559c2c=Math[_0x46b46f(0x1cb)](_0x21513b/(0x3e8*0x3c*0x3c)%0x18);return _0x559c2c=_0x559c2c<0xa?'0'+_0x559c2c:_0x559c2c,_0x2387bd=_0x2387bd<0xa?'0'+_0x2387bd:_0x2387bd,_0x2ce05c=_0x2ce05c<0xa?'0'+_0x2ce05c:_0x2ce05c,_0x559c2c+_0x46b46f(0x1dc)+_0x2387bd+'\x20Minuto(s)';}
+let ro = 200000;
+let handler = async (m, { conn, usedPrefix, command }) => {
+	global.db.data.users[m.sender].comandos += 1;
+//*    let time = global.db.data.users[m.sender].lastrob + 7200000;
+//*    if (new Date() - global.db.data.users[m.sender].lastrob < 7200000) {
+//*        throw `*⏱️¡Hey! Espera ${msToTime(time - new Date())} para volver a robar*`;
+//*    }
+
+    let who;
+    if (m.isGroup) {
+        who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
+    } else {
+        who = m.chat;
+    }
+
+    if (!who) {
+        throw `*[❗] Etiqueta a alguien para robar.*`;
+    }
+
+    if (!(who in global.db.data.users)) {
+        throw `*[❗] El usuario no se encuentra en mi base de datos.*`;
+    }
+
+    let users = global.db.data.users[who];
+    let rob = Math.floor(Math.random() * ro);
+
+    if (users.exp < rob) {
+        return m.reply(`🐭 @${who.split`@`[0]} tiene menos de *${ro} xp*\nNo robes a un pobre v":`, null, { mentions: [who] });
+    }
+
+    global.db.data.users[m.sender].exp += rob;
+    global.db.data.users[who].exp -= rob;
+    global.db.data.users[m.sender].lastrob = new Date() * 1;
+
+    if (!global.db.data.users[m.sender].robo) {
+        global.db.data.users[m.sender].robo = 1;
+    } else {
+        global.db.data.users[m.sender].robo++;
+    }
+
+    m.reply(`*‣ 🐭 TOMALA!!! ROBO SUPREMO!!!! El admin ha robado ${rob} XP a @${who.split`@`[0]}*`, null, { mentions: [who] });
+
+};
+
+handler.help = ['robosupremo'];
+handler.tags = ['owner'];
+handler.command = ['robosupremo', 'tomala'];
+handler.group = true
+handler.register = true
+handler.rowner = true;
+export default handler;
+
+function msToTime(duration) {
+    var milliseconds = parseInt((duration % 1000) / 100),
+        seconds = Math.floor((duration / 1000) % 60),
+        minutes = Math.floor((duration / (1000 * 60)) % 60),
+        hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+    return hours + " Hora(s) " + minutes + " Minuto(s)";
+}
+

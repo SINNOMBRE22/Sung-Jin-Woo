@@ -1,1 +1,26 @@
-const a0_0x25948b=a0_0x5b57;function a0_0x3ddc(){const _0x4d0367=['1227hsNYzO','user','command','35RVqVFH','916130xakRdV','texto1','suittag','parseMention','mentionedJid','botAdmin','./language/','readFileSync','♻️\x20*@','.json','plugins','./src/warn.jpg','reply','601052DwKYNT','warn','26279LHYJdx','3280bJiQUp','/3*','language','gc_unwarn','jid','238978yguLdz','isGroup','admin','users','parse','quoted','includes','404ZEbVyl','188208yAXGZw','193764vYsVYM','208YKDKay','settings','chat','data','sender'];a0_0x3ddc=function(){return _0x4d0367;};return a0_0x3ddc();}(function(_0x2b1bb4,_0x6255bd){const _0x42b036=a0_0x5b57,_0x2adbfa=_0x2b1bb4();while(!![]){try{const _0x215717=parseInt(_0x42b036(0x11d))/0x1+-parseInt(_0x42b036(0x125))/0x2+-parseInt(_0x42b036(0x10c))/0x3*(-parseInt(_0x42b036(0x12c))/0x4)+parseInt(_0x42b036(0x110))/0x5+-parseInt(_0x42b036(0x12e))/0x6*(parseInt(_0x42b036(0x10f))/0x7)+parseInt(_0x42b036(0x12f))/0x8*(parseInt(_0x42b036(0x12d))/0x9)+parseInt(_0x42b036(0x120))/0xa*(-parseInt(_0x42b036(0x11f))/0xb);if(_0x215717===_0x6255bd)break;else _0x2adbfa['push'](_0x2adbfa['shift']());}catch(_0x2a422f){_0x2adbfa['push'](_0x2adbfa['shift']());}}}(a0_0x3ddc,0x4a66c));function a0_0x5b57(_0x5f3eec,_0x362fdb){const _0x3ddc4e=a0_0x3ddc();return a0_0x5b57=function(_0x5b57bb,_0xe06d34){_0x5b57bb=_0x5b57bb-0x108;let _0x3b9202=_0x3ddc4e[_0x5b57bb];return _0x3b9202;},a0_0x5b57(_0x5f3eec,_0x362fdb);}const handler=async(_0x5d9d0e,{conn:_0x2768d8,text:_0x1c5208,command:_0xaae9de,usedPrefix:_0x160086})=>{const _0x586307=a0_0x5b57,_0xb97cf4=global,_0x3eca68=_0xb97cf4['db'][_0x586307(0x10a)]['users'][_0x5d9d0e[_0x586307(0x10b)]][_0x586307(0x122)],_0x29808e=JSON[_0x586307(0x129)](fs[_0x586307(0x117)](_0x586307(0x116)+_0x3eca68+_0x586307(0x119))),_0x230917=_0x29808e[_0x586307(0x11a)][_0x586307(0x123)],_0xeb4ac5=_0x586307(0x11b);let _0x578253;if(_0x5d9d0e[_0x586307(0x126)])_0x578253=_0x5d9d0e['mentionedJid'][0x0]?_0x5d9d0e[_0x586307(0x114)][0x0]:_0x5d9d0e[_0x586307(0x12a)]?_0x5d9d0e['quoted'][_0x586307(0x10b)]:_0x1c5208;else _0x578253=_0x5d9d0e[_0x586307(0x109)];const _0x31e8e4=global['db'][_0x586307(0x10a)][_0x586307(0x128)][_0x578253],_0x2f0c9a=global['db']['data'][_0x586307(0x108)][_0x2768d8[_0x586307(0x10d)][_0x586307(0x124)]]||{},_0xc6b73b=_0x230917[_0x586307(0x111)]+'\x0a*'+(_0x160086+_0xaae9de)+'\x20@'+global[_0x586307(0x112)]+'*';if(!_0x578253)throw _0x5d9d0e[_0x586307(0x11c)](_0xc6b73b,_0x5d9d0e['chat'],{'mentions':_0x2768d8[_0x586307(0x113)](_0xc6b73b)});if(_0x5d9d0e[_0x586307(0x114)][_0x586307(0x12b)](_0x2768d8[_0x586307(0x10d)]['jid']))return;if(_0x31e8e4[_0x586307(0x11e)]==0x0)throw _0x230917['texto2'];_0x31e8e4[_0x586307(0x11e)]-=0x1,await _0x5d9d0e['reply'](''+(_0x31e8e4[_0x586307(0x11e)]==0x1?'*@'+_0x578253['split']`@`[0x0]+'*':_0x586307(0x118)+_0x578253['split']`@`[0x0]+'*')+_0x230917['texto3']+'\x20'+_0x31e8e4['warn']+_0x586307(0x121),null,{'mentions':[_0x578253]});};handler[a0_0x25948b(0x10e)]=/^(unwarn|delwarn|deladvertir|deladvertencia|delwarning)$/i,handler['group']=!![],handler[a0_0x25948b(0x127)]=!![],handler[a0_0x25948b(0x115)]=!![];export default handler;
+
+
+const handler = async (m, {conn, text, command, usedPrefix}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_unwarn
+
+  const pp = './src/warn.jpg';
+  let who;
+  if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text;
+  else who = m.chat;
+  const user = global.db.data.users[who];
+  const bot = global.db.data.settings[conn.user.jid] || {};
+  const warntext = `${tradutor.texto1}\n*${usedPrefix + command} @${global.suittag}*`;
+  if (!who) throw m.reply(warntext, m.chat, {mentions: conn.parseMention(warntext)});
+  if (m.mentionedJid.includes(conn.user.jid)) return;
+  if (user.warn == 0) throw tradutor.texto2;
+  user.warn -= 1;
+  await m.reply(`${user.warn == 1 ? `*@${who.split`@`[0]}*` : `♻️ *@${who.split`@`[0]}*`}${tradutor.texto3} ${user.warn}/3*`, null, {mentions: [who]});
+};
+handler.command = /^(unwarn|delwarn|deladvertir|deladvertencia|delwarning)$/i;
+handler.group = true;
+handler.admin = true;
+handler.botAdmin = true;
+export default handler;

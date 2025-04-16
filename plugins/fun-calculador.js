@@ -1,1 +1,119 @@
-function a0_0x1512(){const _0xeadbb7=['language','toUpperCase','data','.json','856537RnBXbT','readFileSync','2maGTph','pajera','texto8','tags','10570zjHxFr','texto1','chat','🏳️‍🌈','random','\x20⬣━━━━','900XhnRcw','texto26','texto4','parseMention','texto22','texto11','texto13','《\x20███████▒▒▒▒▒》50%','🔥🥵','texto23','manco','getRandom','\x22*\x0a\x0a━━━━⬣\x20','prostituta','puta','trim','\x0a\x0a*\x22','texto12','texto5','texto3','./language/','length','\x20⬣━━━━\x0a\x0a—◉\x20','texto7','floor','10fOzCZX','247842ClucGk','60KRszAb','texto10','fun_calculador','━━━━⬣\x20','64PXfQBA','267943QHHnvY','texto21','texto24','command','lesbiana','texto6','texto17','help','sender','map','manca','%\x20Gay.\x20','fun','🫦👅','《\x20████▒▒▒▒▒▒▒▒》30%','775825jVeMDJ','texto2','pajero','texto14','27HKoOep','texto18','texto20','170190ByffPV','79432wmadoc','prostituto','texto19','sendMessage','😏💦','texto16','puto','texto15','rata','gay2'];a0_0x1512=function(){return _0xeadbb7;};return a0_0x1512();}const a0_0xa5011a=a0_0x3432;(function(_0x13c58c,_0x4324d7){const _0x49a6eb=a0_0x3432,_0x5b8d96=_0x13c58c();while(!![]){try{const _0x53c111=parseInt(_0x49a6eb(0x17f))/0x1*(-parseInt(_0x49a6eb(0x1a3))/0x2)+-parseInt(_0x49a6eb(0x1bc))/0x3*(-parseInt(_0x49a6eb(0x1c0))/0x4)+-parseInt(_0x49a6eb(0x1b8))/0x5+-parseInt(_0x49a6eb(0x189))/0x6*(-parseInt(_0x49a6eb(0x183))/0x7)+parseInt(_0x49a6eb(0x1a8))/0x8*(parseInt(_0x49a6eb(0x1bf))/0x9)+-parseInt(_0x49a6eb(0x1a2))/0xa*(-parseInt(_0x49a6eb(0x17d))/0xb)+parseInt(_0x49a6eb(0x1a4))/0xc*(-parseInt(_0x49a6eb(0x1a9))/0xd);if(_0x53c111===_0x4324d7)break;else _0x5b8d96['push'](_0x5b8d96['shift']());}catch(_0x1dcfb3){_0x5b8d96['push'](_0x5b8d96['shift']());}}}(a0_0x1512,0x1f533));const handler=async(_0x25d1f7,{conn:_0x5ea70f,command:_0x41f66b,text:_0x28ba9c,usedPrefix:_0x5df190})=>{const _0x509346=a0_0x3432,_0x45f25e=global,_0x394d17=_0x45f25e['db'][_0x509346(0x17b)]['users'][_0x25d1f7[_0x509346(0x1b1)]][_0x509346(0x179)],_0x5d349b=JSON['parse'](fs[_0x509346(0x17e)](_0x509346(0x19d)+_0x394d17+_0x509346(0x17c))),_0x403076=_0x5d349b['plugins'][_0x509346(0x1a6)];if(!_0x28ba9c)throw''+_0x403076[_0x509346(0x18a)];const _0x4cac8b=0x1f4[_0x509346(0x194)]();let _0x1c035e='',_0x32e2ad='';switch(_0x41f66b){case'gay2':_0x1c035e=_0x509346(0x186);if(_0x4cac8b<0x32)_0x32e2ad=_0x403076[_0x509346(0x184)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x184)][0x1]+'\x20'+_0x4cac8b+_0x509346(0x1b4)+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x184)][0x2];else _0x4cac8b>0x64?_0x32e2ad=_0x403076[_0x509346(0x1b9)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x1b9)][0x1]+'\x20'+_0x4cac8b+'%\x20Gay.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x1b9)][0x2]:_0x32e2ad=_0x403076[_0x509346(0x19c)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076['texto3'][0x1]+'\x20'+_0x4cac8b+'%\x20Gay.\x20'+_0x1c035e+'*\x0a'+_0x403076['texto3'][0x2];break;case'lesbiana':_0x1c035e=_0x509346(0x186);if(_0x4cac8b<0x32)_0x32e2ad=_0x403076['texto4'][0x0]+'\x20'+_0x28ba9c['toUpperCase']()+'\x20'+_0x403076[_0x509346(0x18b)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x18b)][0x2];else _0x4cac8b>0x64?_0x32e2ad=_0x403076[_0x509346(0x19b)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x19b)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x19b)][0x2]:_0x32e2ad=_0x403076[_0x509346(0x1ae)][0x0]+'\x20'+_0x28ba9c['toUpperCase']()+'\x20'+_0x403076[_0x509346(0x1ae)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x1ae)][0x2];break;case _0x509346(0x1ba):case'pajera':_0x1c035e=_0x509346(0x173);if(_0x4cac8b<0x32)_0x32e2ad=_0x403076['texto7'][0x0]+'\x20'+_0x28ba9c['toUpperCase']()+'\x20'+_0x403076[_0x509346(0x1a0)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x1a0)][0x2];else _0x4cac8b>0x64?_0x32e2ad=_0x403076['texto8'][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x181)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x181)][0x2]:_0x32e2ad=_0x403076['texto9'][0x0]+'\x20'+_0x28ba9c['toUpperCase']()+'\x20'+_0x403076['texto9'][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076['texto9'][0x2];break;case _0x509346(0x175):case'puta':_0x1c035e=_0x509346(0x191);if(_0x4cac8b<0x32)_0x32e2ad=_0x403076[_0x509346(0x1a5)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x1a5)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x1a5)][0x2];else _0x4cac8b>0x64?_0x32e2ad=_0x403076[_0x509346(0x18e)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076['texto11'][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x18e)][0x2]:_0x32e2ad=_0x403076[_0x509346(0x19a)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x19a)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x19a)][0x2];break;case _0x509346(0x193):case _0x509346(0x1b3):_0x1c035e='💩';if(_0x4cac8b<0x32)_0x32e2ad=_0x403076[_0x509346(0x18f)][0x0]+'\x20'+_0x28ba9c['toUpperCase']()+'\x20'+_0x403076[_0x509346(0x18f)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x18f)][0x2];else _0x4cac8b>0x64?_0x32e2ad=_0x403076['texto14'][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x1bb)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x1bb)][0x2]:_0x32e2ad=_0x403076[_0x509346(0x176)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x176)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x176)][0x2];break;case _0x509346(0x177):_0x1c035e='🐁';if(_0x4cac8b<0x32)_0x32e2ad=_0x403076[_0x509346(0x174)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x174)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x174)][0x2];else _0x4cac8b>0x64?_0x32e2ad=_0x403076[_0x509346(0x1af)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076['texto17'][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076['texto17'][0x2]:_0x32e2ad=_0x403076[_0x509346(0x1bd)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076['texto18'][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x1bd)][0x2];break;case'prostituto':case'prostituta':_0x1c035e=_0x509346(0x1b6);if(_0x4cac8b<0x32)_0x32e2ad=_0x403076[_0x509346(0x171)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x171)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076['texto19'][0x2];else _0x4cac8b>0x64?_0x32e2ad=_0x403076[_0x509346(0x1be)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076[_0x509346(0x1be)][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x1be)][0x2]:_0x32e2ad=_0x403076[_0x509346(0x1aa)][0x0]+'\x20'+_0x28ba9c[_0x509346(0x17a)]()+'\x20'+_0x403076['texto21'][0x1]+'\x20'+_0x4cac8b+'%\x20'+_0x41f66b+'.\x20'+_0x1c035e+'*\x0a'+_0x403076[_0x509346(0x1aa)][0x2];break;default:throw''+_0x403076[_0x509346(0x18d)];}const _0x3e3eeb=_0x403076[_0x509346(0x192)],_0x56543d=_0x3e3eeb[Math[_0x509346(0x1a1)](Math[_0x509346(0x187)]()*_0x3e3eeb['length'])],_0x19c6ee=(_0x509346(0x1a7)+_0x403076[_0x509346(0x1ab)]+_0x509346(0x19f)+_0x32e2ad+_0x509346(0x199)+_0x56543d+_0x509346(0x195)+_0x403076[_0x509346(0x1ab)]+_0x509346(0x188))[_0x509346(0x198)]();async function _0x5d6508(){const _0x316663=_0x509346;var _0x3b85ab=['《\x20█▒▒▒▒▒▒▒▒▒▒▒》10%',_0x316663(0x1b7),_0x316663(0x190),'《\x20██████████▒▒》80%','《\x20████████████》100%'];let {key:_0x5b3e16}=await _0x5ea70f[_0x316663(0x172)](_0x25d1f7[_0x316663(0x185)],{'text':''+_0x403076['texto25'],'mentions':_0x5ea70f['parseMention'](_0x19c6ee)},{'quoted':_0x25d1f7});for(let _0x420ae6=0x0;_0x420ae6<_0x3b85ab[_0x316663(0x19e)];_0x420ae6++){await new Promise(_0x588a2f=>setTimeout(_0x588a2f,0x3e8)),await _0x5ea70f[_0x316663(0x172)](_0x25d1f7[_0x316663(0x185)],{'text':_0x3b85ab[_0x420ae6],'edit':_0x5b3e16,'mentions':_0x5ea70f['parseMention'](_0x19c6ee)},{'quoted':_0x25d1f7});}await _0x5ea70f[_0x316663(0x172)](_0x25d1f7[_0x316663(0x185)],{'text':_0x19c6ee,'edit':_0x5b3e16,'mentions':_0x5ea70f[_0x316663(0x18c)](_0x19c6ee)},{'quoted':_0x25d1f7});}_0x5d6508();};handler[a0_0xa5011a(0x1b0)]=[a0_0xa5011a(0x178),a0_0xa5011a(0x1ad),'pajero',a0_0xa5011a(0x180),'puto',a0_0xa5011a(0x197),'manco',a0_0xa5011a(0x1b3),'rata',a0_0xa5011a(0x196),a0_0xa5011a(0x170)][a0_0xa5011a(0x1b2)](_0x4b210d=>_0x4b210d+'\x20@tag\x20|\x20nombre'),handler[a0_0xa5011a(0x182)]=[a0_0xa5011a(0x1b5)],handler[a0_0xa5011a(0x1ac)]=/^(gay2|lesbiana|pajero|pajera|puto|puta|manco|manca|rata|prostituta|prostituto)$/i;function a0_0x3432(_0x21ac4d,_0x3d8327){const _0x1512e5=a0_0x1512();return a0_0x3432=function(_0x3432d6,_0x302603){_0x3432d6=_0x3432d6-0x170;let _0x9ee942=_0x1512e5[_0x3432d6];return _0x9ee942;},a0_0x3432(_0x21ac4d,_0x3d8327);}export default handler;
+
+const handler = async (m, { conn, command, text, usedPrefix }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.fun_calculador
+
+  if (!text) throw `${tradutor.texto26}`;
+  const percentages = (500).getRandom();
+  let emoji = '';
+  let description = '';
+  switch (command) {
+    case 'gay2':
+      emoji = '🏳️‍🌈';
+      if (percentages < 50) {
+        description = `${tradutor.texto1[0]} ${text.toUpperCase()} ${tradutor.texto1[1]} ${percentages}% Gay. ${emoji}*\n${tradutor.texto1[2]}`;
+      } else if (percentages > 100) {
+        description = `${tradutor.texto2[0]} ${text.toUpperCase()} ${tradutor.texto2[1]} ${percentages}% Gay. ${emoji}*\n${tradutor.texto2[2]}`;
+      } else {
+        description = `${tradutor.texto3[0]} ${text.toUpperCase()} ${tradutor.texto3[1]} ${percentages}% Gay. ${emoji}*\n${tradutor.texto3[2]}`;
+      }
+      break;
+    case 'lesbiana':
+      emoji = '🏳️‍🌈';
+      if (percentages < 50) {
+        description = `${tradutor.texto4[0]} ${text.toUpperCase()} ${tradutor.texto4[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto4[2]}`;
+      } else if (percentages > 100) {
+        description = `${tradutor.texto5[0]} ${text.toUpperCase()} ${tradutor.texto5[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto5[2]}`;
+      } else {
+        description = `${tradutor.texto6[0]} ${text.toUpperCase()} ${tradutor.texto6[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto6[2]}`;
+      }
+      break;
+    case 'pajero':
+    case 'pajera':
+      emoji = '😏💦';
+      if (percentages < 50) {
+        description = `${tradutor.texto7[0]} ${text.toUpperCase()} ${tradutor.texto7[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto7[2]}`;
+      } else if (percentages > 100) {
+        description = `${tradutor.texto8[0]} ${text.toUpperCase()} ${tradutor.texto8[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto8[2]}`;
+      } else {
+        description = `${tradutor.texto9[0]} ${text.toUpperCase()} ${tradutor.texto9[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto9[2]}`;
+      }
+      break;
+    case 'puto':
+    case 'puta':
+      emoji = '🔥🥵';
+      if (percentages < 50) {
+        description = `${tradutor.texto10[0]} ${text.toUpperCase()} ${tradutor.texto10[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto10[2]}`;
+      } else if (percentages > 100) {
+        description = `${tradutor.texto11[0]} ${text.toUpperCase()} ${tradutor.texto11[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto11[2]}`;
+      } else {
+        description = `${tradutor.texto12[0]} ${text.toUpperCase()} ${tradutor.texto12[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto12[2]}`;
+      }
+      break;
+    case 'manco':
+    case 'manca':
+      emoji = '💩';
+      if (percentages < 50) {
+        description = `${tradutor.texto13[0]} ${text.toUpperCase()} ${tradutor.texto13[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto13[2]}`;
+      } else if (percentages > 100) {
+        description = `${tradutor.texto14[0]} ${text.toUpperCase()} ${tradutor.texto14[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto14[2]}`;
+      } else {
+        description = `${tradutor.texto15[0]} ${text.toUpperCase()} ${tradutor.texto15[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto15[2]}`;
+      }
+      break;
+    case 'rata':
+      emoji = '🐁';
+      if (percentages < 50) {
+        description = `${tradutor.texto16[0]} ${text.toUpperCase()} ${tradutor.texto16[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto16[2]}`;
+      } else if (percentages > 100) {
+        description = `${tradutor.texto17[0]} ${text.toUpperCase()} ${tradutor.texto17[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto17[2]}`;
+      } else {
+        description = `${tradutor.texto18[0]} ${text.toUpperCase()} ${tradutor.texto18[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto18[2]}`;
+      }
+      break;
+    case 'prostituto':
+    case 'prostituta':
+      emoji = '🫦👅';
+      if (percentages < 50) {
+        description = `${tradutor.texto19[0]} ${text.toUpperCase()} ${tradutor.texto19[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto19[2]}`;
+      } else if (percentages > 100) {
+        description = `${tradutor.texto20[0]} ${text.toUpperCase()} ${tradutor.texto20[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto20[2]}`;
+      } else {
+        description = `${tradutor.texto21[0]} ${text.toUpperCase()} ${tradutor.texto21[1]} ${percentages}% ${command}. ${emoji}*\n${tradutor.texto21[2]}`;
+      }
+      break;
+      default:
+      throw `${tradutor.texto22}`;
+  }
+  const responses = tradutor.texto23;
+  const response = responses[Math.floor(Math.random() * responses.length)];
+  const cal = `━━━━⬣ ${tradutor.texto24} ⬣━━━━
+
+—◉ ${description}
+
+*"${response}"*
+
+━━━━⬣ ${tradutor.texto24} ⬣━━━━`.trim()  
+  async function loading() {
+var hawemod = [
+"《 █▒▒▒▒▒▒▒▒▒▒▒》10%",
+"《 ████▒▒▒▒▒▒▒▒》30%",
+"《 ███████▒▒▒▒▒》50%",
+"《 ██████████▒▒》80%",
+"《 ████████████》100%"
+]
+   let { key } = await conn.sendMessage(m.chat, {text: `${tradutor.texto25}`, mentions: conn.parseMention(cal)}, {quoted: m})
+ for (let i = 0; i < hawemod.length; i++) {
+   await new Promise(resolve => setTimeout(resolve, 1000)); 
+   await conn.sendMessage(m.chat, {text: hawemod[i], edit: key, mentions: conn.parseMention(cal)}, {quoted: m}); 
+  }
+  await conn.sendMessage(m.chat, {text: cal, edit: key, mentions: conn.parseMention(cal)}, {quoted: m});         
+ }
+loading()    
+};
+handler.help = ['gay2', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 'manco', 'manca', 'rata', 'prostituta', 'prostituto'].map((v) => v + ' @tag | nombre');
+handler.tags = ['fun'];
+handler.command = /^(gay2|lesbiana|pajero|pajera|puto|puta|manco|manca|rata|prostituta|prostituto)$/i;
+export default handler;

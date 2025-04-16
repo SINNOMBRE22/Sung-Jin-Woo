@@ -1,1 +1,24 @@
-const a0_0x1539f7=a0_0x2a01;(function(_0xafb2a8,_0x98770){const _0x5b0a49=a0_0x2a01,_0x4f9ab4=_0xafb2a8();while(!![]){try{const _0x1d62b0=-parseInt(_0x5b0a49(0x1e0))/0x1+parseInt(_0x5b0a49(0x1cb))/0x2+-parseInt(_0x5b0a49(0x1d9))/0x3+parseInt(_0x5b0a49(0x1d6))/0x4+parseInt(_0x5b0a49(0x1cd))/0x5+parseInt(_0x5b0a49(0x1d3))/0x6*(-parseInt(_0x5b0a49(0x1ca))/0x7)+parseInt(_0x5b0a49(0x1d5))/0x8;if(_0x1d62b0===_0x98770)break;else _0x4f9ab4['push'](_0x4f9ab4['shift']());}catch(_0x5407e6){_0x4f9ab4['push'](_0x4f9ab4['shift']());}}}(a0_0x3f79,0xdde63));function a0_0x2a01(_0x58afa9,_0x471af1){const _0x3f7974=a0_0x3f79();return a0_0x2a01=function(_0x2a019c,_0xc353e7){_0x2a019c=_0x2a019c-0x1c8;let _0x3a4a1f=_0x3f7974[_0x2a019c];return _0x3a4a1f;},a0_0x2a01(_0x58afa9,_0x471af1);}import a0_0x14bb2f from'node-fetch';import{JSDOM}from'jsdom';let handler=async(_0x57a7bd,{conn:_0x149050,text:_0x3cf77d})=>{const _0x2a1e16=a0_0x2a01;_0x149050['reply'](_0x57a7bd[_0x2a1e16(0x1e1)],Object[_0x2a1e16(0x1d1)](await stylizeText(_0x3cf77d?_0x3cf77d:_0x57a7bd[_0x2a1e16(0x1dc)]&&_0x57a7bd['quoted'][_0x2a1e16(0x1dd)]?_0x57a7bd[_0x2a1e16(0x1dc)]['text']:_0x57a7bd[_0x2a1e16(0x1dd)]))[_0x2a1e16(0x1df)](([_0x31b7a6,_0xcb12ae])=>'*'+_0x31b7a6+'*\x0a'+_0xcb12ae)[_0x2a1e16(0x1d2)]`\n\n`,_0x57a7bd);};handler[a0_0x1539f7(0x1d7)]=[a0_0x1539f7(0x1de)][a0_0x1539f7(0x1df)](_0x456b49=>_0x456b49+'\x20<text>'),handler[a0_0x1539f7(0x1cc)]=[a0_0x1539f7(0x1d4)],handler[a0_0x1539f7(0x1c8)]=/^(generartexto|style(text)?)$/i,handler[a0_0x1539f7(0x1c9)]=0x0;function a0_0x3f79(){const _0x39530f=['1546364OtMmVg','chat','\x20Reversed','window','command','exp','7BazQRO','1499330dFwMXG','tags','2137800RSFkuK','textContent','document','querySelector','entries','join','3482778SrCiLm','tools','4165376BtyVhV','6156844woKfAj','help','children','604146BMcKJS','.aname','replace','quoted','text','style','map'];a0_0x3f79=function(){return _0x39530f;};return a0_0x3f79();}export default handler;async function stylizeText(_0x4984e6){const _0x47ed31=a0_0x1539f7;let _0x5d8c80=await a0_0x14bb2f('http://qaz.wtf/u/convert.cgi?text='+encodeURIComponent(_0x4984e6)),_0x82df45=await _0x5d8c80[_0x47ed31(0x1dd)](),_0x1ab952=new JSDOM(_0x82df45),_0x1d3104=_0x1ab952[_0x47ed31(0x1e3)][_0x47ed31(0x1cf)][_0x47ed31(0x1d0)]('table')[_0x47ed31(0x1d8)][0x0]['children'],_0x37b3ea={};for(let _0x43797d of _0x1d3104){let _0x27714a=_0x43797d['querySelector'](_0x47ed31(0x1da))['innerHTML'],_0x5d4d53=_0x43797d['children'][0x1][_0x47ed31(0x1ce)][_0x47ed31(0x1db)](/^\n/,'')[_0x47ed31(0x1db)](/\n$/,'');_0x37b3ea[_0x27714a+(_0x37b3ea[_0x27714a]?_0x47ed31(0x1e2):'')]=_0x5d4d53;}return _0x37b3ea;}
+import fetch from 'node-fetch'
+import { JSDOM } from 'jsdom'
+let handler = async (m, { conn, text }) => {
+conn.reply(m.chat, Object.entries(await stylizeText(text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text)).map(([name, value]) => `*${name}*\n${value}`).join`\n\n`, m)
+}
+handler.help = ['style'].map(v => v + ' <text>')
+handler.tags = ['tools']
+handler.command = /^(generartexto|style(text)?)$/i
+handler.exp = 0
+export default handler
+
+async function stylizeText(text) {
+let res = await fetch('http://qaz.wtf/u/convert.cgi?text=' + encodeURIComponent(text))
+let html = await res.text()
+let dom = new JSDOM(html)
+let table = dom.window.document.querySelector('table').children[0].children
+let obj = {}
+for (let tr of table) {
+let name = tr.querySelector('.aname').innerHTML
+let content = tr.children[1].textContent.replace(/^\n/, '').replace(/\n$/, '')
+obj[name + (obj[name] ? ' Reversed' : '')] = content
+}
+return obj
+}

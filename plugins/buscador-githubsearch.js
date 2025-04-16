@@ -1,1 +1,42 @@
-function a0_0x3dbe(_0x4bc1e6,_0x18150a){const _0x79394c=a0_0x7939();return a0_0x3dbe=function(_0x3dbe93,_0xeedce1){_0x3dbe93=_0x3dbe93-0xfd;let _0x31f885=_0x79394c[_0x3dbe93];return _0x31f885;},a0_0x3dbe(_0x4bc1e6,_0x18150a);}const a0_0x4d558e=a0_0x3dbe;(function(_0x3e2e80,_0x491661){const _0x557c35=a0_0x3dbe,_0x4a0bb2=_0x3e2e80();while(!![]){try{const _0x22eb2e=-parseInt(_0x557c35(0x10f))/0x1+parseInt(_0x557c35(0x105))/0x2+-parseInt(_0x557c35(0x124))/0x3*(-parseInt(_0x557c35(0x102))/0x4)+-parseInt(_0x557c35(0x118))/0x5+-parseInt(_0x557c35(0x101))/0x6+-parseInt(_0x557c35(0x126))/0x7+parseInt(_0x557c35(0x11a))/0x8*(parseInt(_0x557c35(0x109))/0x9);if(_0x22eb2e===_0x491661)break;else _0x4a0bb2['push'](_0x4a0bb2['shift']());}catch(_0x1caa33){_0x4a0bb2['push'](_0x4a0bb2['shift']());}}}(a0_0x7939,0xcb8c3));import a0_0x3c7a90 from'node-fetch';const handler=async(_0xd94867,{conn:_0x5e0163,text:_0x49c65b,usedPrefix:_0x5c28cf,command:_0x27619c})=>{const _0x164630=a0_0x3dbe,_0x614ed9=global,_0x48a322=_0x614ed9['db'][_0x164630(0x10d)][_0x164630(0x115)][_0xd94867[_0x164630(0x120)]][_0x164630(0x122)],_0x4ed7c1=JSON[_0x164630(0x12a)](fs[_0x164630(0x10e)]('./language/'+_0x48a322+_0x164630(0x11f))),_0x1366a9=_0x4ed7c1[_0x164630(0x10b)][_0x164630(0x111)];if(!_0x49c65b)throw'*[❗]\x20Ingresa\x20un\x20texto\x20para\x20buscar,\x20ejemplo:\x20'+(_0x5c28cf+_0x27619c)+_0x164630(0x106);const _0x39b954=await a0_0x3c7a90(global[_0x164630(0x113)]('https://api.github.com',_0x164630(0x10c),{'q':_0x49c65b})),_0x1cf45f=await _0x39b954[_0x164630(0x125)]();if(_0x39b954[_0x164630(0x121)]!==0xc8)throw _0x1cf45f;const _0x25abec=_0x1cf45f['items']['map']((_0x307e9c,_0x39b119)=>{const _0x345141=_0x164630;return('\x0a*'+(0x1+_0x39b119)+'.\x20'+_0x307e9c[_0x345141(0x104)]+(_0x307e9c['fork']?_0x345141(0x11c):'')+'*\x0a'+_0x1366a9[_0x345141(0x11e)][0x0]+'\x20'+_0x307e9c[_0x345141(0x112)]+'\x0a'+_0x1366a9[_0x345141(0x11e)][0x1]+'\x20'+formatDate(_0x307e9c[_0x345141(0x110)])+'\x0a'+_0x1366a9[_0x345141(0x11e)][0x2]+'\x20'+formatDate(_0x307e9c['updated_at'])+'\x0a'+_0x1366a9['texto1'][0x3]+'\x20'+_0x307e9c[_0x345141(0x100)]+_0x345141(0x128)+_0x307e9c[_0x345141(0x116)]+_0x345141(0x108)+_0x307e9c['forks']+_0x345141(0x119)+_0x307e9c['stargazers_count']+_0x345141(0x114)+(_0x307e9c[_0x345141(0x10a)]?_0x345141(0x107)+_0x1366a9[_0x345141(0x11e)][0x4]+'\x0a'+_0x307e9c['description']:'')+'\x0a')['trim']();})['join'](_0x164630(0xfd));_0x5e0163[_0x164630(0x123)](_0xd94867[_0x164630(0x129)],{'text':_0x25abec[_0x164630(0x117)]()},{'quoted':_0xd94867});};handler[a0_0x4d558e(0x11d)]=[a0_0x4d558e(0x11b)],handler[a0_0x4d558e(0x127)]=['search'],handler[a0_0x4d558e(0xff)]=/^(ghs|githubs|githubs|githubsearch|gits|gitsearch)$/i;export default handler;function formatDate(_0x2dffad,_0x432226='es'){const _0x240541=a0_0x4d558e,_0x514787=new Date(_0x2dffad);return _0x514787['toLocaleDateString'](_0x432226,{'weekday':'long','day':_0x240541(0xfe),'month':_0x240541(0x103),'year':_0x240541(0xfe),'hour':_0x240541(0xfe),'minute':_0x240541(0xfe),'second':_0x240541(0xfe)});}function a0_0x7939(){const _0x1b6029=['data','readFileSync','117865MWuJcb','created_at','buscador_githubsearch','html_url','API','\x20◉\x20❓\x20\x0a','users','watchers','trim','300475tiCnzW','\x20◉\x20⭐\x20','8CNIiHx','gitsearch','\x20(fork)','help','texto1','.json','sender','status','language','sendMessage','175146umPdWT','json','2584596QUCGAE','tags','\x0a👁\x20','chat','parse','\x0a\x0a◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\x0a\x0a','numeric','command','clone_url','5112804UsxqYw','32ldqPtP','long','full_name','3194780oUxPdF','\x20TheMystic-Bot-MD*','📝\x20','\x20◉\x20🍴\x20','1517463klCuQQ','description','plugins','/search/repositories'];a0_0x7939=function(){return _0x1b6029;};return a0_0x7939();}
+import fetch from 'node-fetch';
+
+ // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+  
+
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.buscador_githubsearch
+
+  if (!text) throw `*[❗] Ingresa un texto para buscar, ejemplo: ${usedPrefix + command} TheMystic-Bot-MD*`;
+  const res = await fetch(global.API('https://api.github.com', '/search/repositories', {
+    q: text,
+  }));
+  const json = await res.json();
+  if (res.status !== 200) throw json;
+  //const imagen = await conn.getFile(json.items[0].owner.avatar_url).data
+  const str = json.items.map((repo, index) => {
+  return `
+*${1 + index}. ${repo.full_name}${repo.fork ? ' (fork)' : ''}*
+${tradutor.texto1[0]} ${repo.html_url}
+${tradutor.texto1[1]} ${formatDate(repo.created_at)}
+${tradutor.texto1[2]} ${formatDate(repo.updated_at)}
+${tradutor.texto1[3]} ${repo.clone_url}
+👁 ${repo.watchers} ◉ 🍴 ${repo.forks} ◉ ⭐ ${repo.stargazers_count} ◉ ❓ 
+${repo.description ? `📝 ${tradutor.texto1[4]}\n${repo.description}` : ''}
+`.trim()}).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n');
+  conn.sendMessage(m.chat, {text: str.trim()}, {quoted: m})
+//conn.sendMessage(m.chat, {text: str.trim(), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen, "mediaUrl": `https://www.atom.bio/theshadowbrokers-team`, "sourceUrl": `https://www.atom.bio/theshadowbrokers-team`}}}, {quoted: m});  
+};
+handler.help = ['gitsearch'];
+handler.tags = ['search'];
+handler.command = /^(ghs|githubs|githubs|githubsearch|gits|gitsearch)$/i;
+export default handler;
+
+function formatDate(n, locale = 'es') {
+  const d = new Date(n);
+  return d.toLocaleDateString(locale, {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric'});
+}

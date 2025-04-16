@@ -1,1 +1,37 @@
-const a0_0x491be8=a0_0x4b24;(function(_0x322df5,_0x18f600){const _0x1758e0=a0_0x4b24,_0x4443ef=_0x322df5();while(!![]){try{const _0x32be71=parseInt(_0x1758e0(0x1a7))/0x1+parseInt(_0x1758e0(0x1bb))/0x2+-parseInt(_0x1758e0(0x1b5))/0x3*(-parseInt(_0x1758e0(0x1a1))/0x4)+-parseInt(_0x1758e0(0x1c1))/0x5*(-parseInt(_0x1758e0(0x1bd))/0x6)+parseInt(_0x1758e0(0x1b4))/0x7+-parseInt(_0x1758e0(0x1ad))/0x8+-parseInt(_0x1758e0(0x19f))/0x9;if(_0x32be71===_0x18f600)break;else _0x4443ef['push'](_0x4443ef['shift']());}catch(_0xec1808){_0x4443ef['push'](_0x4443ef['shift']());}}}(a0_0x8a43,0x64502));function a0_0x8a43(){const _0x4782ee=['readFileSync','18965nxnmWB','digest','md5','update','getNumber','sendMessage','replace','\x20\x20\x0a','user','4238595NHijxf','chat','4fZFYTP','parse','tags','includes','plugins','https://telegra.ph/file/06cc652844ea19e8aed1c.jpg','429555ZgQoSQ','.json','rpg_perfil','users','sender','@s.whatsapp.net','6429864jUnYHj','getName','texto2','prems','mentionedJid','perfil\x20[@user]','language','4051670spvqBU','833775FcPoKj','data','profilePictureUrl','international','jid','./language/','510292yiBCDH','split','228zBYiKO','hex','\x20\x20wa.me/'];a0_0x8a43=function(){return _0x4782ee;};return a0_0x8a43();}function a0_0x4b24(_0x10f5b2,_0x5c2729){const _0x8a435=a0_0x8a43();return a0_0x4b24=function(_0x4b2455,_0x405525){_0x4b2455=_0x4b2455-0x19e;let _0x1444f1=_0x8a435[_0x4b2455];return _0x1444f1;},a0_0x4b24(_0x10f5b2,_0x5c2729);}import{createHash}from'crypto';import a0_0x4fe2c4 from'awesome-phonenumber';import a0_0x51e6fa from'node-fetch';const handler=async(_0x523d7a,{conn:_0xf13d49,usedPrefix:_0x4e2564,participants:_0xe6c7db,isPrems:_0x36f4d1})=>{const _0x7dc984=a0_0x4b24,_0x23c2ed=global,_0x560e62=_0x23c2ed['db']['data']['users'][_0x523d7a[_0x7dc984(0x1ab)]][_0x7dc984(0x1b3)],_0x1479f2=JSON[_0x7dc984(0x1a2)](fs[_0x7dc984(0x1c0)](_0x7dc984(0x1ba)+_0x560e62+_0x7dc984(0x1a8))),_0x49fd94=_0x1479f2[_0x7dc984(0x1a5)][_0x7dc984(0x1a9)];let _0xebad4e=_0x7dc984(0x1a6);const _0x34af5e=_0x523d7a[_0x7dc984(0x1b1)]&&_0x523d7a[_0x7dc984(0x1b1)][0x0]?_0x523d7a[_0x7dc984(0x1b1)][0x0]:_0x523d7a['fromMe']?_0xf13d49[_0x7dc984(0x19e)][_0x7dc984(0x1b9)]:_0x523d7a[_0x7dc984(0x1ab)];if(!(_0x34af5e in global['db']['data'][_0x7dc984(0x1aa)]))throw _0x49fd94['texto1'];try{_0xebad4e=await _0xf13d49[_0x7dc984(0x1b7)](_0x34af5e);}catch(_0x515231){}finally{const {name:_0x5ede70,limit:_0x4b9b87,lastclaim:_0x314845,registered:_0x2e9153,regTime:_0x2be9f6,age:_0x4dbd4d,premiumTime:_0x21b02f}=global['db'][_0x7dc984(0x1b6)]['users'][_0x34af5e],_0x16031e=_0xf13d49[_0x7dc984(0x1ae)](_0x34af5e),_0x90378e=global[_0x7dc984(0x1b0)][_0x7dc984(0x1a4)](_0x34af5e['split']`@`[0x0]),_0x42abff=createHash(_0x7dc984(0x1c3))[_0x7dc984(0x1c4)](_0x34af5e)[_0x7dc984(0x1c2)](_0x7dc984(0x1be)),_0x4b3764=_0x49fd94[_0x7dc984(0x1af)][0x0]+'\x20'+_0x16031e+'\x20'+(_0x2e9153?'('+_0x5ede70+')\x20':'')+'\x0a'+_0x49fd94[_0x7dc984(0x1af)][0x1]+'\x20\x20'+a0_0x4fe2c4('+'+_0x34af5e[_0x7dc984(0x1c7)](_0x7dc984(0x1ac),''))[_0x7dc984(0x1c5)](_0x7dc984(0x1b8))+'\x0a'+_0x49fd94['texto2'][0x2]+_0x7dc984(0x1bf)+_0x34af5e[_0x7dc984(0x1bc)]`@`[0x0]+(_0x2e9153?_0x49fd94[_0x7dc984(0x1af)][0x7]+_0x4dbd4d+_0x49fd94['texto2'][0x8]:'')+'\x0a'+_0x49fd94[_0x7dc984(0x1af)][0x3]+'\x20\x20'+_0x4b9b87+'\x20'+_0x49fd94['texto2'][0x9]+'\x0a'+_0x49fd94['texto2'][0x4]+'\x20\x20'+(_0x2e9153?_0x49fd94[_0x7dc984(0x1af)][0xa]:_0x49fd94[_0x7dc984(0x1af)][0xb])+'\x0a'+_0x49fd94[_0x7dc984(0x1af)][0x5]+'\x20\x20'+(_0x21b02f>0x0?'Si':(_0x36f4d1?_0x49fd94[_0x7dc984(0x1af)][0xa]:_0x49fd94['texto2'][0xb])||'')+'\x0a'+_0x49fd94[_0x7dc984(0x1af)][0x6]+_0x7dc984(0x1c8)+_0x42abff;_0xf13d49[_0x7dc984(0x1c6)](_0x523d7a[_0x7dc984(0x1a0)],{'image':{'url':_0xebad4e},'caption':_0x4b3764},{'quoted':_0x523d7a});}};handler['help']=[a0_0x491be8(0x1b2)],handler[a0_0x491be8(0x1a3)]=['xp'],handler['command']=/^perfil|profile?$/i;export default handler;
+import {createHash} from 'crypto';
+import PhoneNumber from 'awesome-phonenumber';
+import fetch from 'node-fetch';
+
+
+const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_perfil
+
+  let pp = 'https://telegra.ph/file/06cc652844ea19e8aed1c.jpg';
+  const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
+  if (!(who in global.db.data.users)) throw tradutor.texto1;
+  try {
+    pp = await conn.profilePictureUrl(who);
+  } catch (e) {
+  } finally {
+    const {name, limit, lastclaim, registered, regTime, age, premiumTime} = global.db.data.users[who];
+    const username = conn.getName(who);
+    const prem = global.prems.includes(who.split `@` [0]);
+    const sn = createHash('md5').update(who).digest('hex');
+    const str = `${tradutor.texto2[0]} ${username} ${registered ? '(' + name + ') ': ''}
+${tradutor.texto2[1]}  ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+${tradutor.texto2[2]}  wa.me/${who.split`@`[0]}${registered ? tradutor.texto2[7] + age + tradutor.texto2[8] : ''}
+${tradutor.texto2[3]}  ${limit} ${tradutor.texto2[9]}
+${tradutor.texto2[4]}  ${registered ? tradutor.texto2[10] : tradutor.texto2[11]}
+${tradutor.texto2[5]}  ${premiumTime > 0 ? 'Si' : (isPrems ? tradutor.texto2[10] : tradutor.texto2[11]) || ''}
+${tradutor.texto2[6]}  
+${sn}`;
+    conn.sendMessage(m.chat, {image: {url: pp}, caption: str}, {quoted: m});
+  }
+};
+handler.help = ['perfil [@user]'];
+handler.tags = ['xp'];
+handler.command = /^perfil|profile?$/i;
+export default handler;

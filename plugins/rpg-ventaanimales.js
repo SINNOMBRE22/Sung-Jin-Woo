@@ -1,1 +1,54 @@
-const a0_0x267b1a=a0_0x1ffc;(function(_0x442c5c,_0x5cebdd){const _0x525326=a0_0x1ffc,_0x192da6=_0x442c5c();while(!![]){try{const _0x37359c=parseInt(_0x525326(0x100))/0x1+parseInt(_0x525326(0xf0))/0x2+parseInt(_0x525326(0x105))/0x3*(-parseInt(_0x525326(0x103))/0x4)+-parseInt(_0x525326(0xf6))/0x5+parseInt(_0x525326(0xfd))/0x6+-parseInt(_0x525326(0xeb))/0x7+parseInt(_0x525326(0xf4))/0x8*(parseInt(_0x525326(0xf1))/0x9);if(_0x37359c===_0x5cebdd)break;else _0x192da6['push'](_0x192da6['shift']());}catch(_0x244770){_0x192da6['push'](_0x192da6['shift']());}}}(a0_0x1280,0x3080c));import a0_0x436dbd from'fs';import a0_0x23d8dd from'path';function a0_0x1ffc(_0x11707a,_0x5220ec){const _0x128035=a0_0x1280();return a0_0x1ffc=function(_0x1ffcb0,_0x29eaf6){_0x1ffcb0=_0x1ffcb0-0xe8;let _0x4b361c=_0x128035[_0x1ffcb0];return _0x4b361c;},a0_0x1ffc(_0x11707a,_0x5220ec);}const handler=async(_0x1f380b,{conn:_0x15ed6d})=>{const _0x31653c=a0_0x1ffc;global['db'][_0x31653c(0xfc)][_0x31653c(0x109)][_0x1f380b[_0x31653c(0xee)]][_0x31653c(0xea)]+=0x1;const _0x4fe31e=global['db']['data'][_0x31653c(0x109)][_0x1f380b[_0x31653c(0xee)]],_0x4acbeb={'🐂\x20Toro':_0x31653c(0xf5),'🐅\x20Tigre':'harimau','🐘\x20Elefante':_0x31653c(0x107),'🐐\x20Cabra':_0x31653c(0xf9),'🐖\x20Panda':_0x31653c(0xed),'🐊\x20Cocodrilo':_0x31653c(0xe9),'🐃\x20Bufalo':_0x31653c(0xfa),'🐮\x20Vaca':'sapi','🐒\x20Mono':_0x31653c(0x101),'🐗\x20Jabali':'babihutan','🐖\x20Cerdo':_0x31653c(0xfe),'🐓\x20Pollo':'ayam'};let _0x551d59=0x0;for(const _0x440a45 in _0x4acbeb){const _0x5eac44=_0x4acbeb[_0x440a45],_0x42ae0a=_0x4fe31e[_0x5eac44];if(_0x42ae0a>0x0){const _0x5df853=Math[_0x31653c(0x108)](Math['random']()*0x3e8)+0x1;_0x551d59+=_0x42ae0a*_0x5df853,_0x4fe31e[_0x31653c(0xf2)]+=_0x42ae0a*_0x5df853,_0x4fe31e[_0x5eac44]=0x0;}}const _0x4065f6=_0x551d59>0x0?_0x31653c(0x104)+_0x551d59+_0x31653c(0xf7):'No\x20tienes\x20animales\x20para\x20vender.',_0x2cfd10=_0x31653c(0xe8),_0x3bbd72=a0_0x436dbd[_0x31653c(0xf8)](a0_0x23d8dd[_0x31653c(0xf3)](_0x2cfd10));_0x15ed6d[_0x31653c(0xff)](_0x1f380b['chat'],_0x3bbd72,'granja.jpg',_0x4065f6,_0x1f380b);};handler[a0_0x267b1a(0x102)]=[a0_0x267b1a(0xec)],handler[a0_0x267b1a(0x106)]=[a0_0x267b1a(0xfb)],handler['command']=/^venderanimales$/i,handler[a0_0x267b1a(0xef)]=!![];export default handler;function a0_0x1280(){const _0x6b91e1=['readFileSync','kambing','kerbau','econ','data','147012aldplc','babi','sendFile','202079cPzSVj','monyet','help','45532wLXxsX','Has\x20vendido\x20todos\x20tus\x20animales\x20por\x20un\x20total\x20de\x20','75FtKDbu','tags','gajah','floor','users','./granja.jpg','buaya','comandos','2109471IuncXq','venderanimales','panda','sender','group','35664oCJDbc','1461105nLrdyz','exp','resolve','40UDWeXV','banteng','1357710hmFLnM','\x20de\x20experiencia.'];a0_0x1280=function(){return _0x6b91e1;};return a0_0x1280();}
+import fs from 'fs';
+import path from 'path';
+
+const handler = async (m, { conn }) => {
+  global.db.data.users[m.sender].comandos += 1;
+
+  const user = global.db.data.users[m.sender];
+
+  const animalCount = {
+    '🐂 Toro': 'banteng',
+    '🐅 Tigre': 'harimau',
+    '🐘 Elefante': 'gajah',
+    '🐐 Cabra': 'kambing',
+    '🐖 Panda': 'panda',
+    '🐊 Cocodrilo': 'buaya',
+    '🐃 Bufalo': 'kerbau',
+    '🐮 Vaca': 'sapi',
+    '🐒 Mono': 'monyet',
+    '🐗 Jabali': 'babihutan',
+    '🐖 Cerdo': 'babi',
+    '🐓 Pollo': 'ayam',
+  };
+
+  let totalVendido = 0;
+
+  for (const animal in animalCount) {
+    const propertyName = animalCount[animal];
+    const count = user[propertyName];
+    if (count > 0) {
+      const costoAleatorio = Math.floor(Math.random() * 1000) + 1;
+      totalVendido += count * costoAleatorio;
+      user.exp += count * costoAleatorio;
+      user[propertyName] = 0;
+    }
+  }
+
+  const message = totalVendido > 0
+    ? `Has vendido todos tus animales por un total de ${totalVendido} de experiencia.`
+    : 'No tienes animales para vender.';
+
+  const granjaImagePath = './granja.jpg'; // Ruta de la imagen de la granja
+
+  // Cargar la imagen en un Buffer
+  const granjaImageBuffer = fs.readFileSync(path.resolve(granjaImagePath));
+
+  conn.sendFile(m.chat, granjaImageBuffer, 'granja.jpg', message, m);
+};
+
+handler.help = ['venderanimales'];
+handler.tags = ['econ'];
+handler.command = /^venderanimales$/i;
+handler.group = true;
+
+export default handler;

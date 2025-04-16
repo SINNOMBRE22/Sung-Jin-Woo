@@ -1,1 +1,26 @@
-const a0_0x24ad9e=a0_0x2388;function a0_0x31eb(){const _0x59687f=['🦙\x20*Mixtral:*\x0a\x0a','command','8156KjLFin','93018cuYVBP','\x20[/INST]','reply','93ySEdkZ','help','1289980ssgTuK','762822pOykJs','[/INST]','<s>[INST]\x20Responde\x20en\x20español:\x20','180LNanhB','generated_text','chat','Bearer\x20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','https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1','136EFLjdZ','application/json','stringify','418026WQbTwr','POST','177807ZpUzIe','2609460IMRJFU','tools'];a0_0x31eb=function(){return _0x59687f;};return a0_0x31eb();}function a0_0x2388(_0x5aef02,_0x577095){const _0x31ebc6=a0_0x31eb();return a0_0x2388=function(_0x238846,_0x22514e){_0x238846=_0x238846-0x102;let _0xb67a22=_0x31ebc6[_0x238846];return _0xb67a22;},a0_0x2388(_0x5aef02,_0x577095);}(function(_0x16a816,_0x3dd180){const _0x22735c=a0_0x2388,_0x2c7045=_0x16a816();while(!![]){try{const _0x2a7f2b=parseInt(_0x22735c(0x118))/0x1+-parseInt(_0x22735c(0x117))/0x2*(-parseInt(_0x22735c(0x102))/0x3)+-parseInt(_0x22735c(0x113))/0x4+-parseInt(_0x22735c(0x104))/0x5+-parseInt(_0x22735c(0x110))/0x6+-parseInt(_0x22735c(0x112))/0x7*(parseInt(_0x22735c(0x10d))/0x8)+-parseInt(_0x22735c(0x105))/0x9*(-parseInt(_0x22735c(0x108))/0xa);if(_0x2a7f2b===_0x3dd180)break;else _0x2c7045['push'](_0x2c7045['shift']());}catch(_0x254871){_0x2c7045['push'](_0x2c7045['shift']());}}}(a0_0x31eb,0x515af));import a0_0x2b401e from'node-fetch';const handler=async(_0x5c2b34,{conn:_0x1b50f2,text:_0x4d633d})=>{const _0x298668=a0_0x2388,_0x3f9419=await a0_0x2b401e(_0x298668(0x10c),{'method':_0x298668(0x111),'headers':{'Authorization':_0x298668(0x10b),'Content-Type':_0x298668(0x10e)},'body':JSON[_0x298668(0x10f)]({'inputs':_0x298668(0x107)+_0x4d633d+_0x298668(0x119)})}),_0x4974e6=await _0x3f9419['json'](),_0xb182a9=_0x4974e6[0x0][_0x298668(0x109)]['split'](_0x298668(0x106))[0x1]['trim']();await _0x1b50f2[_0x298668(0x11a)](_0x5c2b34[_0x298668(0x10a)],_0x298668(0x115)+_0xb182a9,_0x5c2b34);};handler[a0_0x24ad9e(0x103)]=['ia\x20<texto>'],handler[a0_0x24ad9e(0x116)]=/^ia$/i,handler['tags']=[a0_0x24ad9e(0x114)];export default handler;
+import fetch from 'node-fetch';
+
+const handler = async (m, { conn, text }) => {
+  const response = await fetch('https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1', {
+    method: 'POST',
+    headers: { 
+      'Authorization': 'Bearer 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', // Consíguelo en: https://huggingface.co/settings/tokens
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      inputs: `<s>[INST] Responde en español: ${text} [/INST]`
+    })
+  });
+
+  const data = await response.json();
+  const respuesta = data[0].generated_text.split('[/INST]')[1].trim();
+  await conn.reply(m.chat, `🦙 *Mixtral:*\n\n${respuesta}`, m);
+};
+
+handler.help = ['ia <texto>'];
+handler.command = /^ia$/i;
+handler.tags = ['tools'];
+export default handler;
+
+
+

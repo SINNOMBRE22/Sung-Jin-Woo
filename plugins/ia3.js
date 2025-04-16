@@ -1,1 +1,38 @@
-const a0_0x1513d4=a0_0x1d22;(function(_0x2b667f,_0x388220){const _0x143c4d=a0_0x1d22,_0x2dff41=_0x2b667f();while(!![]){try{const _0x379ab6=parseInt(_0x143c4d(0x99))/0x1+-parseInt(_0x143c4d(0x8c))/0x2*(parseInt(_0x143c4d(0x95))/0x3)+parseInt(_0x143c4d(0xa4))/0x4*(parseInt(_0x143c4d(0x98))/0x5)+-parseInt(_0x143c4d(0x9c))/0x6+-parseInt(_0x143c4d(0xa6))/0x7+-parseInt(_0x143c4d(0x96))/0x8+parseInt(_0x143c4d(0x8b))/0x9;if(_0x379ab6===_0x388220)break;else _0x2dff41['push'](_0x2dff41['shift']());}catch(_0x61316f){_0x2dff41['push'](_0x2dff41['shift']());}}}(a0_0x4345,0xdf446));function a0_0x4345(){const _0x183177=['content','parts','stringify','516bLVaed','text','11828775QtejWM','error','command','json','49133412rvZqHf','2apdIMp','gemini\x20<texto>','reply','candidates','chat','tools','Responde\x20en\x20español:\x20','❌\x20*Ocurrió\x20un\x20error\x20inesperado.*','❌\x20*Ocurrió\x20un\x20error\x20al\x20conectar\x20con\x20la\x20API.*','3358569HqbuHV','4429840VEcuqi','https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=','4385QNyTTW','393110vttrMo','🤖\x20*Gemini\x20responde:*\x0a\x0a','tags','10127586OXBZkM','❌\x20*Ocurrió\x20un\x20error:*\x20No\x20se\x20recibió\x20una\x20respuesta\x20válida\x20de\x20Gemini.','AIzaSyC9aYO5gSiGELAQ81oGlVKsITVj1u5KokA','POST','application/json'];a0_0x4345=function(){return _0x183177;};return a0_0x4345();}import a0_0x2756cc from'node-fetch';const handler=async(_0x68a270,{conn:_0x441544,text:_0x2f95e6})=>{const _0x4f3ab3=a0_0x1d22,_0x1d318c=_0x4f3ab3(0x9e);try{const _0x322f82=await a0_0x2756cc(_0x4f3ab3(0x97)+_0x1d318c,{'method':_0x4f3ab3(0x9f),'headers':{'Content-Type':_0x4f3ab3(0xa0)},'body':JSON[_0x4f3ab3(0xa3)]({'contents':[{'parts':[{'text':_0x4f3ab3(0x92)+_0x2f95e6}]}]})});if(!_0x322f82['ok'])return _0x441544['reply'](_0x68a270[_0x4f3ab3(0x90)],_0x4f3ab3(0x94),_0x68a270);const _0x2227e1=await _0x322f82[_0x4f3ab3(0x8a)]();if(!_0x2227e1['candidates']||!_0x2227e1[_0x4f3ab3(0x8f)][0x0]||!_0x2227e1['candidates'][0x0][_0x4f3ab3(0xa1)]||!_0x2227e1[_0x4f3ab3(0x8f)][0x0][_0x4f3ab3(0xa1)][_0x4f3ab3(0xa2)][0x0])return _0x441544[_0x4f3ab3(0x8e)](_0x68a270[_0x4f3ab3(0x90)],_0x4f3ab3(0x9d),_0x68a270);const _0x37ae1d=_0x2227e1[_0x4f3ab3(0x8f)][0x0][_0x4f3ab3(0xa1)]['parts'][0x0][_0x4f3ab3(0xa5)];await _0x441544[_0x4f3ab3(0x8e)](_0x68a270[_0x4f3ab3(0x90)],_0x4f3ab3(0x9a)+_0x37ae1d,_0x68a270);}catch(_0x21e888){return console[_0x4f3ab3(0x88)](_0x21e888),_0x441544[_0x4f3ab3(0x8e)](_0x68a270[_0x4f3ab3(0x90)],_0x4f3ab3(0x93),_0x68a270);}};handler['help']=[a0_0x1513d4(0x8d)],handler[a0_0x1513d4(0x89)]=/^(gemini|ia)$/i,handler[a0_0x1513d4(0x9b)]=[a0_0x1513d4(0x91)];function a0_0x1d22(_0x3e437e,_0x4265a8){const _0x4345a5=a0_0x4345();return a0_0x1d22=function(_0x1d2247,_0x40d3a9){_0x1d2247=_0x1d2247-0x88;let _0x26a315=_0x4345a5[_0x1d2247];return _0x26a315;},a0_0x1d22(_0x3e437e,_0x4265a8);}export default handler;
+import fetch from 'node-fetch';
+
+const handler = async (m, { conn, text }) => {
+  const API_KEY = 'AIzaSyC9aYO5gSiGELAQ81oGlVKsITVj1u5KokA';
+  try {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${API_KEY}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{
+          parts: [{ text: `Responde en español: ${text}` }]
+        }]
+      })
+    });
+
+    if (!response.ok) {
+      return conn.reply(m.chat, '❌ *Ocurrió un error al conectar con la API.*', m);
+    }
+
+    const data = await response.json();
+
+    if (!data.candidates || !data.candidates[0] || !data.candidates[0].content || !data.candidates[0].content.parts[0]) {
+      return conn.reply(m.chat, '❌ *Ocurrió un error:* No se recibió una respuesta válida de Gemini.', m);
+    }
+
+    const respuesta = data.candidates[0].content.parts[0].text;
+    await conn.reply(m.chat, `🤖 *Gemini responde:*\n\n${respuesta}`, m);
+    
+  } catch (error) {
+    console.error(error);
+    return conn.reply(m.chat, '❌ *Ocurrió un error inesperado.*', m);
+  }
+};
+
+handler.help = ['gemini <texto>'];
+handler.command = /^(gemini|ia)$/i;
+handler.tags = ['tools'];
+export default handler;

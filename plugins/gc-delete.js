@@ -1,1 +1,39 @@
-const a0_0x12f837=a0_0x18cf;(function(_0x18f464,_0x458a8f){const _0x226d84=a0_0x18cf,_0x2e2766=_0x18f464();while(!![]){try{const _0x3abce0=parseInt(_0x226d84(0xb1))/0x1*(parseInt(_0x226d84(0xb6))/0x2)+-parseInt(_0x226d84(0xbe))/0x3*(parseInt(_0x226d84(0xb7))/0x4)+-parseInt(_0x226d84(0xa9))/0x5*(-parseInt(_0x226d84(0xb8))/0x6)+parseInt(_0x226d84(0xa3))/0x7*(-parseInt(_0x226d84(0xaa))/0x8)+-parseInt(_0x226d84(0xbb))/0x9+parseInt(_0x226d84(0xad))/0xa*(parseInt(_0x226d84(0xab))/0xb)+parseInt(_0x226d84(0xae))/0xc;if(_0x3abce0===_0x458a8f)break;else _0x2e2766['push'](_0x2e2766['shift']());}catch(_0x779069){_0x2e2766['push'](_0x2e2766['shift']());}}}(a0_0x16f5,0x659b5));function a0_0x18cf(_0x357e5e,_0xc1cf11){const _0x16f56f=a0_0x16f5();return a0_0x18cf=function(_0x18cfbb,_0x20f375){_0x18cfbb=_0x18cfbb-0x9d;let _0x20e853=_0x16f56f[_0x18cfbb];return _0x20e853;},a0_0x18cf(_0x357e5e,_0xc1cf11);}const handler=async(_0x53a50a,{conn:_0x1544eb,usedPrefix:_0x1237fa,command:_0x5084f6})=>{const _0x104187=a0_0x18cf,_0x5a88e4=global,_0x4f9ba0=_0x5a88e4['db']['data'][_0x104187(0xa5)][_0x53a50a[_0x104187(0xa7)]]['language'],_0x35f363=JSON[_0x104187(0xa2)](fs['readFileSync'](_0x104187(0xa6)+_0x4f9ba0+_0x104187(0xbf))),_0x126d40=_0x35f363[_0x104187(0xbc)][_0x104187(0xb4)];if(!_0x53a50a[_0x104187(0xb9)])throw _0x126d40['texto1'];try{const _0xa298aa=_0x53a50a[_0x104187(0xac)][_0x104187(0x9f)][_0x104187(0xb5)][_0x104187(0xaf)],_0x5e1477=_0x53a50a[_0x104187(0xac)]['extendedTextMessage']['contextInfo'][_0x104187(0x9d)];return _0x1544eb[_0x104187(0xbd)](_0x53a50a[_0x104187(0xba)],{'delete':{'remoteJid':_0x53a50a['chat'],'fromMe':![],'id':_0x5e1477,'participant':_0xa298aa}});}catch{return _0x1544eb[_0x104187(0xbd)](_0x53a50a[_0x104187(0xba)],{'delete':_0x53a50a[_0x104187(0xb9)]['vM'][_0x104187(0xa0)]});}};handler[a0_0x12f837(0xb3)]=['del',a0_0x12f837(0xa8)],handler[a0_0x12f837(0xb2)]=[a0_0x12f837(0xb0)],handler[a0_0x12f837(0xa1)]=/^del(ete)?$/i,handler[a0_0x12f837(0xb0)]=!![],handler[a0_0x12f837(0xa4)]=!![],handler[a0_0x12f837(0x9e)]=!![];function a0_0x16f5(){const _0x127c92=['botAdmin','extendedTextMessage','key','command','parse','21XsyxOI','admin','users','./language/','sender','delete','1945655lBVGlb','1537080cEQQjK','489016CrcvnC','message','10hwqpwv','6945792KSBCes','participant','group','261aNnbRK','tags','help','gc_delete','contextInfo','3694RDkrDy','181084GdGMKx','6TyCPSG','quoted','chat','4109517fWgmch','plugins','sendMessage','3NTUaPv','.json','stanzaId'];a0_0x16f5=function(){return _0x127c92;};return a0_0x16f5();}export default handler;
+/* Creditos a https://github.com/FG98F */
+
+
+const handler = async (m, {conn, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_delete
+
+  if (!m.quoted) throw tradutor.texto1;
+  try {
+    const delet = m.message.extendedTextMessage.contextInfo.participant;
+    const bang = m.message.extendedTextMessage.contextInfo.stanzaId;
+    return conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
+  } catch {
+    return conn.sendMessage(m.chat, {delete: m.quoted.vM.key});
+  }
+};
+handler.help = ['del', 'delete'];
+handler.tags = ['group'];
+handler.command = /^del(ete)?$/i;
+handler.group = true;
+handler.admin = true;
+handler.botAdmin = true;
+export default handler;
+
+/* let handler = function (m) {
+if (!m.quoted) throw false
+let { chat, fromMe, isBaileys } = m.quoted
+if (!fromMe) throw false
+if (!isBaileys) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚂𝙴 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙽𝙾 𝙵𝚄𝙴 𝙴𝙽𝚅𝙸𝙰𝙳𝙾 𝙿𝙾𝚁 𝙼𝙸, 𝙽𝙾 𝙻𝙾 𝙿𝚄𝙴𝙳𝙾 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁*'
+conn.sendMessage(chat, { delete: m.quoted.vM.key })
+}
+handler.help = ['del', 'delete']
+handler.tags = ['tools']
+handler.command = /^del(ete)?$/i
+handler.group = true
+handler.admin = true
+export default handler*/

@@ -1,1 +1,33 @@
-function a0_0x5142(){const _0x411dc6=['command','econ','2448714pcgAFs','admin','774084JURzLM','users','600040FDjyQe','1wjBMdp','comandos','data','42iJcZBy','sender','%).\x20¡No\x20puedes\x20comprar\x20más!','\x20puntos\x20de\x20experiencia.','11959624gnWOhr','5vJfetN','11eAhrqW','68553660oQDgns','exp','%\x20de\x20carnada.\x20\x0a\x0aGastaste\x20','🪱\x20Ya\x20tienes\x20la\x20cantidad\x20máxima\x20de\x20carnada\x20(','help','comprarcarnada','9bpSNLa','group','chat','tags','No\x20tienes\x20suficiente\x20experiencia\x20para\x20comprar\x20carnada.\x20Necesitas\x20','reply','umpan','🪱\x20Has\x20comprado\x20carnada.\x20Ahora\x20tienes\x20','12583650MXoBMK','199944rnFxWa','min','botAdmin'];a0_0x5142=function(){return _0x411dc6;};return a0_0x5142();}const a0_0x33dcd1=a0_0x4f1a;(function(_0x226b15,_0x25c309){const _0x9921cd=a0_0x4f1a,_0x302471=_0x226b15();while(!![]){try{const _0x573e92=-parseInt(_0x9921cd(0xbf))/0x1*(parseInt(_0x9921cd(0xba))/0x2)+parseInt(_0x9921cd(0xc2))/0x3*(-parseInt(_0x9921cd(0xb5))/0x4)+-parseInt(_0x9921cd(0xc7))/0x5*(parseInt(_0x9921cd(0xbc))/0x6)+-parseInt(_0x9921cd(0xbe))/0x7+parseInt(_0x9921cd(0xc6))/0x8*(-parseInt(_0x9921cd(0xcf))/0x9)+-parseInt(_0x9921cd(0xb4))/0xa+-parseInt(_0x9921cd(0xc8))/0xb*(-parseInt(_0x9921cd(0xc9))/0xc);if(_0x573e92===_0x25c309)break;else _0x302471['push'](_0x302471['shift']());}catch(_0x28c5bd){_0x302471['push'](_0x302471['shift']());}}}(a0_0x5142,0xc8570));const handler=async(_0x49ffaf,{conn:_0x148770})=>{const _0x3d0f31=a0_0x4f1a;global['db'][_0x3d0f31(0xc1)][_0x3d0f31(0xbd)][_0x49ffaf[_0x3d0f31(0xc3)]][_0x3d0f31(0xc0)]+=0x1;const _0x40aa59=global['db']['data']['users'][_0x49ffaf[_0x3d0f31(0xc3)]],_0x223aa9=0x64,_0x2239a9=0x9c4,_0x30a7e5=_0x40aa59['umpan']/0x19;if(_0x40aa59['umpan']>=_0x223aa9)return _0x148770[_0x3d0f31(0xb1)](_0x49ffaf[_0x3d0f31(0xae)],_0x3d0f31(0xcc)+_0x223aa9+_0x3d0f31(0xc4),_0x49ffaf);const _0xc0a9fc=_0x2239a9*(_0x30a7e5+0x1);if(_0x40aa59[_0x3d0f31(0xca)]<_0xc0a9fc||_0x40aa59[_0x3d0f31(0xca)]<0x0)return _0x148770[_0x3d0f31(0xb1)](_0x49ffaf['chat'],_0x3d0f31(0xb0)+_0xc0a9fc+'\x20puntos\x20de\x20experiencia\x20para\x20comprar\x20'+0x19+'%\x20de\x20carnada.',_0x49ffaf);global['db']['data'][_0x3d0f31(0xbd)][_0x49ffaf[_0x3d0f31(0xc3)]][_0x3d0f31(0xb2)]=Math[_0x3d0f31(0xb6)](_0x40aa59[_0x3d0f31(0xb2)]+0x19,_0x223aa9),global['db']['data']['users'][_0x49ffaf[_0x3d0f31(0xc3)]]['exp']-=_0xc0a9fc,_0x148770['reply'](_0x49ffaf[_0x3d0f31(0xae)],_0x3d0f31(0xb3)+_0x40aa59[_0x3d0f31(0xb2)]+_0x3d0f31(0xcb)+_0xc0a9fc+_0x3d0f31(0xc5),_0x49ffaf);};function a0_0x4f1a(_0x2843ed,_0x461611){const _0x5142c9=a0_0x5142();return a0_0x4f1a=function(_0x4f1af8,_0x3c344a){_0x4f1af8=_0x4f1af8-0xae;let _0xd0d6e5=_0x5142c9[_0x4f1af8];return _0xd0d6e5;},a0_0x4f1a(_0x2843ed,_0x461611);}handler[a0_0x33dcd1(0xcd)]=[a0_0x33dcd1(0xce)],handler[a0_0x33dcd1(0xaf)]=[a0_0x33dcd1(0xb9)],handler[a0_0x33dcd1(0xb8)]=/^(buyworm|carnada)$/i,handler[a0_0x33dcd1(0xd0)]=!![],handler[a0_0x33dcd1(0xbb)]=![],handler[a0_0x33dcd1(0xb7)]=![],handler[a0_0x33dcd1(0xca)]=0x0;export default handler;
+// rpg-carnada.js
+
+const handler = async (m, { conn }) => {
+  global.db.data.users[m.sender].comandos += 1;
+  const user = global.db.data.users[m.sender];
+
+  const maxWorm = 100;
+  const costPerWorm = 2500;
+  const umpanLevel = user.umpan / 25; 
+
+  if (user.umpan >= maxWorm) {
+    return conn.reply(m.chat, `🪱 Ya tienes la cantidad máxima de carnada (${maxWorm}%). ¡No puedes comprar más!`, m);
+  }
+
+  const requiredExp = costPerWorm * (umpanLevel + 1); 
+  if (user.exp < requiredExp || user.exp < 0) {
+    return conn.reply(m.chat, `No tienes suficiente experiencia para comprar carnada. Necesitas ${requiredExp} puntos de experiencia para comprar ${25}% de carnada.`, m);
+  }
+
+  global.db.data.users[m.sender].umpan = Math.min(user.umpan + 25, maxWorm);
+  global.db.data.users[m.sender].exp -= requiredExp; 
+
+  conn.reply(m.chat, `🪱 Has comprado carnada. Ahora tienes ${user.umpan}% de carnada. \n\nGastaste ${requiredExp} puntos de experiencia.`, m);
+};
+
+handler.help = ['comprarcarnada'];
+handler.tags = ['econ'];
+handler.command = /^(buyworm|carnada)$/i;
+handler.group = true;
+handler.admin = false;
+handler.botAdmin = false;
+handler.exp = 0;
+export default handler;
