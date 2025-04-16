@@ -1,16 +1,1 @@
-
-
-const handler = async (m, {conn, text, command}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.owner_leavegc
-
-  const id = text ? text : m.chat;
-  await conn.reply(id, tradutor.texto1);
-  await conn.groupLeave(id);
-};
-handler.command = /^(out|leavegc|leave|salirdelgrupo)$/i;
-handler.group = true;
-handler.rowner = true;
-export default handler;
+const a0_0x58cb31=a0_0x45d3;function a0_0x4693(){const _0x4b60bd=['119590DBIBqU','20wAuIlL','217EdGDfr','texto1','869jKpzME','plugins','sender','.json','command','294ZCwcvC','owner_leavegc','data','2191VjroBf','rowner','reply','1063056lrUeVH','3824739vjftsd','users','31023468KJXtcw','226794ckfFqJ','94888jWaQDO','6mDJSYN'];a0_0x4693=function(){return _0x4b60bd;};return a0_0x4693();}function a0_0x45d3(_0x39c7ec,_0x3f267f){const _0x469383=a0_0x4693();return a0_0x45d3=function(_0x45d3d0,_0x5b06a2){_0x45d3d0=_0x45d3d0-0x10a;let _0x1a2e4f=_0x469383[_0x45d3d0];return _0x1a2e4f;},a0_0x45d3(_0x39c7ec,_0x3f267f);}(function(_0x1455a5,_0x38e77f){const _0x31b650=a0_0x45d3,_0x334b7c=_0x1455a5();while(!![]){try{const _0x1b6e9f=parseInt(_0x31b650(0x10a))/0x1*(parseInt(_0x31b650(0x11d))/0x2)+parseInt(_0x31b650(0x113))/0x3*(-parseInt(_0x31b650(0x10d))/0x4)+-parseInt(_0x31b650(0x115))/0x5*(parseInt(_0x31b650(0x111))/0x6)+parseInt(_0x31b650(0x116))/0x7*(-parseInt(_0x31b650(0x112))/0x8)+-parseInt(_0x31b650(0x10e))/0x9+parseInt(_0x31b650(0x114))/0xa*(-parseInt(_0x31b650(0x118))/0xb)+parseInt(_0x31b650(0x110))/0xc;if(_0x1b6e9f===_0x38e77f)break;else _0x334b7c['push'](_0x334b7c['shift']());}catch(_0x3bf8c1){_0x334b7c['push'](_0x334b7c['shift']());}}}(a0_0x4693,0x76f33));const handler=async(_0x36707a,{conn:_0x3ed4cb,text:_0x1ca77a,command:_0x47cb00})=>{const _0x3edbf1=a0_0x45d3,_0x381bf0=global,_0x42d802=_0x381bf0['db'][_0x3edbf1(0x11f)][_0x3edbf1(0x10f)][_0x36707a[_0x3edbf1(0x11a)]]['language'],_0x1ba02b=JSON['parse'](fs['readFileSync']('./language/'+_0x42d802+_0x3edbf1(0x11b))),_0x1822a5=_0x1ba02b[_0x3edbf1(0x119)][_0x3edbf1(0x11e)],_0x38dfcf=_0x1ca77a?_0x1ca77a:_0x36707a['chat'];await _0x3ed4cb[_0x3edbf1(0x10c)](_0x38dfcf,_0x1822a5[_0x3edbf1(0x117)]),await _0x3ed4cb['groupLeave'](_0x38dfcf);};handler[a0_0x58cb31(0x11c)]=/^(out|leavegc|leave|salirdelgrupo)$/i,handler['group']=!![],handler[a0_0x58cb31(0x10b)]=!![];export default handler;

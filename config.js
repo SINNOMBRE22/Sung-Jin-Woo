@@ -7,7 +7,7 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "5217971085986"  // Número del bot (el número con el que instalaste el bot en WhatsApp, SIN +)
+global.botnumber = ""  // Número del bot (el número con el que instalaste el bot en WhatsApp, SIN +)
 global.confirmCode = ""
 
 global.owner = [   // Lista de dueños del bot[A

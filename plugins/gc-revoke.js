@@ -1,17 +1,1 @@
-/* Creditos a https://github.com/ALBERTO9883 */
-
-
-const handler = async (m, {conn}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.gc_revoke
-
-  const revoke = await conn.groupRevokeInvite(m.chat);
-  await conn.reply(m.chat, `${tradutor.texto1} ${'https://chat.whatsapp.com/' + revoke}`, m);
-};
-handler.command = ['resetlink', 'revoke'];
-handler.botAdmin = true;
-handler.admin = true;
-handler.group = true;
-export default handler;
+function a0_0x2975(_0x16fc9f,_0x231a81){const _0x4ba0d9=a0_0x4ba0();return a0_0x2975=function(_0x297508,_0x5649b9){_0x297508=_0x297508-0x167;let _0x29294b=_0x4ba0d9[_0x297508];return _0x29294b;},a0_0x2975(_0x16fc9f,_0x231a81);}const a0_0x29d547=a0_0x2975;function a0_0x4ba0(){const _0x3d262e=['group','5kkARcC','parse','526062gALuYt','1545620wCHmjG','botAdmin','revoke','229036CgjNyr','plugins','gc_revoke','users','admin','data','3Mtozsm','readFileSync','386634iMQVoB','.json','350199mMOEFf','24184WWBziC','https://chat.whatsapp.com/','chat','336GfuQJm','83006zhZQOT','./language/','reply','texto1'];a0_0x4ba0=function(){return _0x3d262e;};return a0_0x4ba0();}(function(_0x16e729,_0x1e20b1){const _0x11d3b5=a0_0x2975,_0x21bb6a=_0x16e729();while(!![]){try{const _0x2501bc=parseInt(_0x11d3b5(0x173))/0x1+-parseInt(_0x11d3b5(0x17a))/0x2+parseInt(_0x11d3b5(0x16a))/0x3*(parseInt(_0x11d3b5(0x17e))/0x4)+-parseInt(_0x11d3b5(0x178))/0x5*(parseInt(_0x11d3b5(0x16c))/0x6)+-parseInt(_0x11d3b5(0x172))/0x7*(-parseInt(_0x11d3b5(0x16f))/0x8)+parseInt(_0x11d3b5(0x16e))/0x9+parseInt(_0x11d3b5(0x17b))/0xa;if(_0x2501bc===_0x1e20b1)break;else _0x21bb6a['push'](_0x21bb6a['shift']());}catch(_0x2a1755){_0x21bb6a['push'](_0x21bb6a['shift']());}}}(a0_0x4ba0,0x24f4c));const handler=async(_0x1dcd91,{conn:_0x520e98})=>{const _0xd08c85=a0_0x2975,_0x2c467d=global,_0xc5262c=_0x2c467d['db'][_0xd08c85(0x169)][_0xd08c85(0x167)][_0x1dcd91['sender']]['language'],_0x4d05b0=JSON[_0xd08c85(0x179)](fs[_0xd08c85(0x16b)](_0xd08c85(0x174)+_0xc5262c+_0xd08c85(0x16d))),_0x5c01bb=_0x4d05b0[_0xd08c85(0x17f)][_0xd08c85(0x180)],_0x583276=await _0x520e98['groupRevokeInvite'](_0x1dcd91[_0xd08c85(0x171)]);await _0x520e98[_0xd08c85(0x175)](_0x1dcd91['chat'],_0x5c01bb[_0xd08c85(0x176)]+'\x20'+(_0xd08c85(0x170)+_0x583276),_0x1dcd91);};handler['command']=['resetlink',a0_0x29d547(0x17d)],handler[a0_0x29d547(0x17c)]=!![],handler[a0_0x29d547(0x168)]=!![],handler[a0_0x29d547(0x177)]=!![];export default handler;

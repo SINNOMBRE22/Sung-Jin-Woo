@@ -1,17 +1,1 @@
-
-
-const handler = async (m, {conn}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.cmd_list
-
-  conn.reply(m.chat, `
-*${tradutor.texto1}*
-
-${Object.entries(global.db.data.sticker).map(([key, value], index) => `*${index + 1}.-*\n*𝙲𝙾𝙳𝙸𝙶𝙾:* ${value.locked ? `*(𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘)* ${key}` : key}\n*𝙲𝙾𝙼𝙰𝙽𝙳𝙾/𝚃𝙴𝚇𝚃𝙾* ${value.text}`).join('\n\n')}
-`.trim(), null, {mentions: Object.values(global.db.data.sticker).map((x) => x.mentionedJid).reduce((a, b) => [...a, ...b], [])});
-};
-handler.command = ['listcmd', 'cmdlist'];
-handler.rowner = true;
-export default handler;
+const a0_0x5584e=a0_0x1923;function a0_0x1923(_0x20dac0,_0x8b88da){const _0x2748d0=a0_0x2748();return a0_0x1923=function(_0x19230f,_0x278018){_0x19230f=_0x19230f-0x1a1;let _0x5716c7=_0x2748d0[_0x19230f];return _0x5716c7;},a0_0x1923(_0x20dac0,_0x8b88da);}(function(_0x34a8cb,_0x4c3537){const _0x5e4728=a0_0x1923,_0x5972b3=_0x34a8cb();while(!![]){try{const _0x33b833=-parseInt(_0x5e4728(0x1a5))/0x1*(parseInt(_0x5e4728(0x1b4))/0x2)+parseInt(_0x5e4728(0x1b9))/0x3*(parseInt(_0x5e4728(0x1bd))/0x4)+-parseInt(_0x5e4728(0x1a9))/0x5+parseInt(_0x5e4728(0x1be))/0x6*(parseInt(_0x5e4728(0x1af))/0x7)+-parseInt(_0x5e4728(0x1b2))/0x8*(parseInt(_0x5e4728(0x1ad))/0x9)+parseInt(_0x5e4728(0x1b8))/0xa+parseInt(_0x5e4728(0x1ab))/0xb*(parseInt(_0x5e4728(0x1a3))/0xc);if(_0x33b833===_0x4c3537)break;else _0x5972b3['push'](_0x5972b3['shift']());}catch(_0x430530){_0x5972b3['push'](_0x5972b3['shift']());}}}(a0_0x2748,0x3106e));const handler=async(_0x2f64da,{conn:_0x4d2466})=>{const _0x380395=a0_0x1923,_0xe07aa6=global,_0x16ec67=_0xe07aa6['db'][_0x380395(0x1b6)][_0x380395(0x1c1)][_0x2f64da['sender']][_0x380395(0x1bf)],_0x4c51b7=JSON[_0x380395(0x1a1)](fs[_0x380395(0x1c3)](_0x380395(0x1ae)+_0x16ec67+_0x380395(0x1b5))),_0x2e88e9=_0x4c51b7['plugins'][_0x380395(0x1bb)];_0x4d2466[_0x380395(0x1c0)](_0x2f64da[_0x380395(0x1b3)],('\x0a*'+_0x2e88e9[_0x380395(0x1a6)]+'*\x0a\x0a'+Object[_0x380395(0x1a7)](global['db']['data'][_0x380395(0x1a4)])[_0x380395(0x1ba)](([_0x7e848b,_0x171cfa],_0x4aa803)=>'*'+(_0x4aa803+0x1)+'.-*\x0a*𝙲𝙾𝙳𝙸𝙶𝙾:*\x20'+(_0x171cfa[_0x380395(0x1c4)]?_0x380395(0x1aa)+_0x7e848b:_0x7e848b)+_0x380395(0x1bc)+_0x171cfa[_0x380395(0x1b1)])[_0x380395(0x1b7)]('\x0a\x0a')+'\x0a')['trim'](),null,{'mentions':Object[_0x380395(0x1b0)](global['db'][_0x380395(0x1b6)][_0x380395(0x1a4)])[_0x380395(0x1ba)](_0x351a90=>_0x351a90[_0x380395(0x1a2)])[_0x380395(0x1ac)]((_0x5208e1,_0x806a51)=>[..._0x5208e1,..._0x806a51],[])});};function a0_0x2748(){const _0x40d47a=['1073424CXsyqM','reduce','9BxzwgM','./language/','873971cJWlAR','values','text','2569272yRxuVk','chat','2EIebqD','.json','data','join','324300SJLmbt','3UVYdjN','map','cmd_list','\x0a*𝙲𝙾𝙼𝙰𝙽𝙳𝙾/𝚃𝙴𝚇𝚃𝙾*\x20','202424GxIdYh','18Knpirx','language','reply','users','cmdlist','readFileSync','locked','parse','mentionedJid','60frsjdl','sticker','318916ASDMpm','texto1','entries','listcmd','523130godBfu','*(𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘)*\x20'];a0_0x2748=function(){return _0x40d47a;};return a0_0x2748();}handler['command']=[a0_0x5584e(0x1a8),a0_0x5584e(0x1c2)],handler['rowner']=!![];export default handler;

@@ -1,18 +1,1 @@
-
-
-const handler = async (m, {conn, text, isROwner, isOwner}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.gc_setwelcome
-
-  if (text) {
-    global.db.data.chats[m.chat].sWelcome = text;
-    m.reply(tradutor.texto1);
-  } else throw `${tradutor.texto2[0]}\n*- @user (mención)*\n*- @group (nombre de grupo)*\n*- @desc (description de grupo)*`;
-};
-handler.help = ['setwelcome <text>'];
-handler.tags = ['group'];
-handler.command = ['setwelcome'];
-handler.admin = true;
-export default handler;
+const a0_0xf089b6=a0_0x373f;function a0_0x373f(_0x285d6a,_0x509af8){const _0x389699=a0_0x3896();return a0_0x373f=function(_0x373f35,_0x50fd8a){_0x373f35=_0x373f35-0x1e3;let _0x3f94d4=_0x389699[_0x373f35];return _0x3f94d4;},a0_0x373f(_0x285d6a,_0x509af8);}(function(_0x1420bf,_0x53b804){const _0x35f711=a0_0x373f,_0x2a3c05=_0x1420bf();while(!![]){try{const _0x1c4e99=-parseInt(_0x35f711(0x1e5))/0x1*(-parseInt(_0x35f711(0x1e9))/0x2)+-parseInt(_0x35f711(0x1e6))/0x3*(-parseInt(_0x35f711(0x1e7))/0x4)+parseInt(_0x35f711(0x1fb))/0x5*(parseInt(_0x35f711(0x1f2))/0x6)+-parseInt(_0x35f711(0x1f1))/0x7*(parseInt(_0x35f711(0x1f6))/0x8)+parseInt(_0x35f711(0x1ee))/0x9+-parseInt(_0x35f711(0x1e8))/0xa*(-parseInt(_0x35f711(0x1f9))/0xb)+-parseInt(_0x35f711(0x1ec))/0xc;if(_0x1c4e99===_0x53b804)break;else _0x2a3c05['push'](_0x2a3c05['shift']());}catch(_0x423c16){_0x2a3c05['push'](_0x2a3c05['shift']());}}}(a0_0x3896,0x7b675));function a0_0x3896(){const _0x4ccd9b=['./language/','chat','parse','1MCkLUU','66bnobpg','135628yKpMOY','10PEvQdh','86858MzETDk','data','setwelcome\x20<text>','12341256vDFyGi','texto2','4656843GIbLPu','readFileSync','tags','7AozZEH','6zoFzkT','sender','group','chats','7163176yMEjPp','reply','command','7944497kwIMEm','plugins','2001295JqqGwS','\x0a*-\x20@user\x20(mención)*\x0a*-\x20@group\x20(nombre\x20de\x20grupo)*\x0a*-\x20@desc\x20(description\x20de\x20grupo)*','setwelcome','admin','users','sWelcome'];a0_0x3896=function(){return _0x4ccd9b;};return a0_0x3896();}const handler=async(_0x308ad2,{conn:_0x569522,text:_0x4833c9,isROwner:_0x15de4b,isOwner:_0x5186f7})=>{const _0x4e2c42=a0_0x373f,_0x36d610=global,_0x1be551=_0x36d610['db'][_0x4e2c42(0x1ea)][_0x4e2c42(0x1ff)][_0x308ad2[_0x4e2c42(0x1f3)]]['language'],_0x45c2c0=JSON[_0x4e2c42(0x1e4)](fs[_0x4e2c42(0x1ef)](_0x4e2c42(0x201)+_0x1be551+'.json')),_0x284d16=_0x45c2c0[_0x4e2c42(0x1fa)]['gc_setwelcome'];if(_0x4833c9)global['db'][_0x4e2c42(0x1ea)][_0x4e2c42(0x1f5)][_0x308ad2[_0x4e2c42(0x1e3)]][_0x4e2c42(0x200)]=_0x4833c9,_0x308ad2[_0x4e2c42(0x1f7)](_0x284d16['texto1']);else throw _0x284d16[_0x4e2c42(0x1ed)][0x0]+_0x4e2c42(0x1fc);};handler['help']=[a0_0xf089b6(0x1eb)],handler[a0_0xf089b6(0x1f0)]=[a0_0xf089b6(0x1f4)],handler[a0_0xf089b6(0x1f8)]=[a0_0xf089b6(0x1fd)],handler[a0_0xf089b6(0x1fe)]=!![];export default handler;

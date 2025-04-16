@@ -1,13 +1,1 @@
-
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-let prem = global.prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != conn.user.jid) 
-let teks = `▢ *USUARIOS PREMIUM*\n─────────────\n` + prem.map(v => '- @' + v.replace(/@.+/, '')).join`\n`
-m.reply(teks, null, {mentions: conn.parseMention(teks)})
-
-}
-handler.help = ['listpremium']
-handler.tags = ['owner']
-handler.command = ['premiumlist', 'listprem', 'premlist', 'listpremium', 'listapremium'] 
-handler.owner = true
-
-export default handler
+const a0_0x591f74=a0_0x5b95;function a0_0x5b95(_0x43f057,_0x3d4146){const _0x1b51f2=a0_0x1b51();return a0_0x5b95=function(_0x5b95d5,_0x146316){_0x5b95d5=_0x5b95d5-0x1c5;let _0x906bee=_0x1b51f2[_0x5b95d5];return _0x906bee;},a0_0x5b95(_0x43f057,_0x3d4146);}(function(_0x1b5ce5,_0xe76728){const _0x564b30=a0_0x5b95,_0x60898=_0x1b5ce5();while(!![]){try{const _0x3b7a39=-parseInt(_0x564b30(0x1d5))/0x1+-parseInt(_0x564b30(0x1d3))/0x2*(parseInt(_0x564b30(0x1e1))/0x3)+-parseInt(_0x564b30(0x1e0))/0x4+-parseInt(_0x564b30(0x1d8))/0x5+parseInt(_0x564b30(0x1da))/0x6*(-parseInt(_0x564b30(0x1de))/0x7)+-parseInt(_0x564b30(0x1ca))/0x8+-parseInt(_0x564b30(0x1dd))/0x9*(-parseInt(_0x564b30(0x1d2))/0xa);if(_0x3b7a39===_0xe76728)break;else _0x60898['push'](_0x60898['shift']());}catch(_0x532f27){_0x60898['push'](_0x60898['shift']());}}}(a0_0x1b51,0xcb8f4));let handler=async(_0x55b8c8,{conn:_0x593f44,args:_0x33d243,usedPrefix:_0x490979,command:_0x9085d4})=>{const _0xff5a0c=a0_0x5b95;let _0x2eae34=global[_0xff5a0c(0x1d0)][_0xff5a0c(0x1cc)](_0x33da21=>_0x33da21['replace'](/[^0-9]/g,'')+_0xff5a0c(0x1c8))[_0xff5a0c(0x1dc)](_0x53967a=>_0x53967a!=_0x593f44[_0xff5a0c(0x1d6)][_0xff5a0c(0x1db)]),_0x59dd97=_0xff5a0c(0x1d1)+_0x2eae34[_0xff5a0c(0x1cc)](_0x5f2a5e=>_0xff5a0c(0x1d4)+_0x5f2a5e[_0xff5a0c(0x1ce)](/@.+/,''))[_0xff5a0c(0x1d7)]`\n`;_0x55b8c8[_0xff5a0c(0x1cf)](_0x59dd97,null,{'mentions':_0x593f44[_0xff5a0c(0x1c6)](_0x59dd97)});};function a0_0x1b51(){const _0x1791ea=['10urWHsL','172lWVmsM','-\x20@','1268886nttykW','user','join','2915WHzxQW','command','12zVfDWn','jid','filter','43005330OdDQzb','812735XQCdGQ','owner','73756njKclP','33441MVYAAU','premlist','parseMention','premiumlist','@s.whatsapp.net','tags','11726640FvjgfW','listpremium','map','listapremium','replace','reply','prems','▢\x20*USUARIOS\x20PREMIUM*\x0a─────────────\x0a'];a0_0x1b51=function(){return _0x1791ea;};return a0_0x1b51();}handler['help']=['listpremium'],handler[a0_0x591f74(0x1c9)]=['owner'],handler[a0_0x591f74(0x1d9)]=[a0_0x591f74(0x1c7),'listprem',a0_0x591f74(0x1c5),a0_0x591f74(0x1cb),a0_0x591f74(0x1cd)],handler[a0_0x591f74(0x1df)]=!![];export default handler;

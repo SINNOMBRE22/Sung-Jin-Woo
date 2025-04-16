@@ -1,14 +1,1 @@
-let handler = async m => m.reply(`
-
-≡  *Sung Jin-Woo┃ Innozent Zero*   
-
-─────────────
-Para ver mis comandos teclea 
-.arise
-.despertare
-.menu
-`.trim())
-handler.help = ['bot']
-handler.command = ['bot'] 
-
-export default handler
+function a0_0x3750(){const _0x301239=['4017ljbFEv','bot','3811210gieuSq','161KfEbVn','3145540LqXNJw','23915YixYuF','19554IqbtWx','2856704Mluesx','reply','14755257hNcDum','9oyJJcA','34UFCaIQ','996dfWPtz'];a0_0x3750=function(){return _0x301239;};return a0_0x3750();}function a0_0x40f8(_0x57e2bc,_0x5bf339){const _0x375025=a0_0x3750();return a0_0x40f8=function(_0x40f8a4,_0x365097){_0x40f8a4=_0x40f8a4-0x1ac;let _0x544bc0=_0x375025[_0x40f8a4];return _0x544bc0;},a0_0x40f8(_0x57e2bc,_0x5bf339);}const a0_0x46124b=a0_0x40f8;(function(_0x3a2066,_0x163c48){const _0x44f5cc=a0_0x40f8,_0x5e372a=_0x3a2066();while(!![]){try{const _0x23b6d3=-parseInt(_0x44f5cc(0x1b2))/0x1*(parseInt(_0x44f5cc(0x1b8))/0x2)+-parseInt(_0x44f5cc(0x1ad))/0x3*(parseInt(_0x44f5cc(0x1ac))/0x4)+-parseInt(_0x44f5cc(0x1af))/0x5+parseInt(_0x44f5cc(0x1b3))/0x6*(-parseInt(_0x44f5cc(0x1b0))/0x7)+parseInt(_0x44f5cc(0x1b4))/0x8+-parseInt(_0x44f5cc(0x1b7))/0x9*(-parseInt(_0x44f5cc(0x1b1))/0xa)+parseInt(_0x44f5cc(0x1b6))/0xb;if(_0x23b6d3===_0x163c48)break;else _0x5e372a['push'](_0x5e372a['shift']());}catch(_0x451d3b){_0x5e372a['push'](_0x5e372a['shift']());}}}(a0_0x3750,0x6a698));let handler=async _0x2a3896=>_0x2a3896[a0_0x46124b(0x1b5)]('\x0a\x0a≡\x20\x20*Sung\x20Jin-Woo┃\x20Innozent\x20Zero*\x20\x20\x20\x0a\x0a─────────────\x0aPara\x20ver\x20mis\x20comandos\x20teclea\x20\x0a.arise\x0a.despertare\x0a.menu\x0a'['trim']());handler['help']=[a0_0x46124b(0x1ae)],handler['command']=[a0_0x46124b(0x1ae)];export default handler;

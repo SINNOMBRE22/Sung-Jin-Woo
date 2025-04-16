@@ -1,17 +1,1 @@
-
-const handler = async (m, {conn, text, isROwner, isOwner}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.gc_setbye
-
-  if (text) {
-    global.db.data.chats[m.chat].sBye = text;
-    m.reply(tradutor.texto1);
-  } else throw `${tradutor.texto2}\n*- @user ${tradutor.texto3}`;
-};
-handler.help = ['setbye <text>'];
-handler.tags = ['group'];
-handler.command = ['setbye'];
-handler.admin = true;
-export default handler;
+const a0_0x4978af=a0_0x4870;function a0_0x4870(_0x1cd446,_0x159e6d){const _0x23ddbd=a0_0x23dd();return a0_0x4870=function(_0x48707e,_0x4ed835){_0x48707e=_0x48707e-0x164;let _0x3c569c=_0x23ddbd[_0x48707e];return _0x3c569c;},a0_0x4870(_0x1cd446,_0x159e6d);}(function(_0x4824eb,_0x2ef2a6){const _0x140cd7=a0_0x4870,_0x162c02=_0x4824eb();while(!![]){try{const _0x1bec8b=-parseInt(_0x140cd7(0x17c))/0x1+parseInt(_0x140cd7(0x172))/0x2+parseInt(_0x140cd7(0x177))/0x3*(parseInt(_0x140cd7(0x17d))/0x4)+-parseInt(_0x140cd7(0x16b))/0x5+parseInt(_0x140cd7(0x171))/0x6*(-parseInt(_0x140cd7(0x165))/0x7)+parseInt(_0x140cd7(0x17e))/0x8+-parseInt(_0x140cd7(0x168))/0x9;if(_0x1bec8b===_0x2ef2a6)break;else _0x162c02['push'](_0x162c02['shift']());}catch(_0x59692e){_0x162c02['push'](_0x162c02['shift']());}}}(a0_0x23dd,0x9c5c5));const handler=async(_0x329fdd,{conn:_0x232674,text:_0x5fe3d5,isROwner:_0x1b621c,isOwner:_0x2a59dc})=>{const _0x4bd6a8=a0_0x4870,_0x1dba1a=global,_0x4e1528=_0x1dba1a['db'][_0x4bd6a8(0x16c)][_0x4bd6a8(0x16e)][_0x329fdd['sender']]['language'],_0x2472f5=JSON[_0x4bd6a8(0x16a)](fs[_0x4bd6a8(0x176)]('./language/'+_0x4e1528+_0x4bd6a8(0x17b))),_0x45c2ef=_0x2472f5[_0x4bd6a8(0x166)]['gc_setbye'];if(_0x5fe3d5)global['db'][_0x4bd6a8(0x16c)]['chats'][_0x329fdd[_0x4bd6a8(0x170)]]['sBye']=_0x5fe3d5,_0x329fdd[_0x4bd6a8(0x178)](_0x45c2ef[_0x4bd6a8(0x175)]);else throw _0x45c2ef[_0x4bd6a8(0x173)]+_0x4bd6a8(0x169)+_0x45c2ef[_0x4bd6a8(0x179)];};function a0_0x23dd(){const _0x1cab48=['command','9289loxyrH','plugins','tags','2995587LeARPl','\x0a*-\x20@user\x20','parse','2761010oPRwCU','data','help','users','group','chat','480uEuRyk','2183456anIwYl','texto2','setbye','texto1','readFileSync','793383RonCeh','reply','texto3','admin','.json','687904urHsJq','12nEeAnE','3475608kPocAZ'];a0_0x23dd=function(){return _0x1cab48;};return a0_0x23dd();}handler[a0_0x4978af(0x16d)]=['setbye\x20<text>'],handler[a0_0x4978af(0x167)]=[a0_0x4978af(0x16f)],handler[a0_0x4978af(0x164)]=[a0_0x4978af(0x174)],handler[a0_0x4978af(0x17a)]=!![];export default handler;
