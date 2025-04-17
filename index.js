@@ -1,1 +1,80 @@
-const a0_0x329d56=a0_0x2f59;(function(_0x27fbc4,_0x1031e4){const _0xdc311f=a0_0x2f59,_0x25ca32=_0x27fbc4();while(!![]){try{const _0x4c64ff=parseInt(_0xdc311f(0xf0))/0x1*(parseInt(_0xdc311f(0x10b))/0x2)+parseInt(_0xdc311f(0xff))/0x3+parseInt(_0xdc311f(0xf2))/0x4*(parseInt(_0xdc311f(0xf9))/0x5)+parseInt(_0xdc311f(0x101))/0x6*(-parseInt(_0xdc311f(0xfc))/0x7)+parseInt(_0xdc311f(0xf6))/0x8+parseInt(_0xdc311f(0x10c))/0x9+-parseInt(_0xdc311f(0xf4))/0xa;if(_0x4c64ff===_0x1031e4)break;else _0x25ca32['push'](_0x25ca32['shift']());}catch(_0xea3f84){_0x25ca32['push'](_0x25ca32['shift']());}}}(a0_0x1143,0xcd5c2),console['log']('[\x20ℹ️\x20]\x20Iniciando...'));import{join,dirname}from'path';import{createRequire}from'module';import{fileURLToPath}from'url';import{setupMaster,fork}from'cluster';import{watchFile,unwatchFile}from'fs';import a0_0x330cb6 from'cfonts';import{createInterface}from'readline';import a0_0x5449f2 from'yargs';function a0_0x1143(){const _0x290b56=['9156XBAZPH','kill','17186510MXJAnW','test','5122000cOqlnA','exit','console','465xTDuhm','pm_id','env','7lcsMfw','[RECIBIDO]','uptime','1157592HxqEnq','parse','4265040VGxvEK','center','Sun\x20Jin-Woo','reset','exitProcess','stdin','magenta','slice','stdout','argv','12tuTNvP','15039108aIgcts','process','[\x20ℹ️\x20]\x20Ocurrio\x20un\x20error\x20inesperado:','url','apply','Mariana\x0abot','log','main.js','line','60107ecmnCS','red'];a0_0x1143=function(){return _0x290b56;};return a0_0x1143();}const __dirname=dirname(fileURLToPath(import.meta[a0_0x329d56(0x10f)])),require=createRequire(__dirname),{name,author}=require(join(__dirname,'./package.json')),{say}=a0_0x330cb6,rl=createInterface(process[a0_0x329d56(0x106)],process[a0_0x329d56(0x109)]);say(a0_0x329d56(0x111),{'font':'chrome','align':a0_0x329d56(0x102),'gradient':[a0_0x329d56(0xf1),a0_0x329d56(0x107)]}),say(a0_0x329d56(0x103),{'font':a0_0x329d56(0xf8),'align':a0_0x329d56(0x102),'gradient':[a0_0x329d56(0xf1),'magenta']});function a0_0x2f59(_0x1439fd,_0x223b25){const _0x1143f5=a0_0x1143();return a0_0x2f59=function(_0x2f5943,_0x7a52c8){_0x2f5943=_0x2f5943-0xed;let _0x164a89=_0x1143f5[_0x2f5943];return _0x164a89;},a0_0x2f59(_0x1439fd,_0x223b25);}let isRunning=![];function start(_0x2f83b1){const _0x37c0ee=a0_0x329d56;if(isRunning)return;isRunning=!![];const _0x370423=[join(__dirname,_0x2f83b1),...process[_0x37c0ee(0x10a)][_0x37c0ee(0x108)](0x2)];setupMaster({'exec':_0x370423[0x0],'args':_0x370423[_0x37c0ee(0x108)](0x1)});const _0x119567=fork();_0x119567['on']('message',_0x4a269f=>{const _0x1bf4f1=_0x37c0ee;console[_0x1bf4f1(0xed)](_0x1bf4f1(0xfd),_0x4a269f);switch(_0x4a269f){case _0x1bf4f1(0x104):_0x119567[_0x1bf4f1(0x10d)][_0x1bf4f1(0xf3)](),isRunning=![],start[_0x1bf4f1(0x110)](this,arguments);break;case'uptime':_0x119567['send'](process[_0x1bf4f1(0xfe)]());break;}}),_0x119567['on'](_0x37c0ee(0xf7),(_0x45601b,_0x138084)=>{const _0x5ec641=_0x37c0ee;isRunning=![],console['error'](_0x5ec641(0x10e),_0x138084),_0x119567[_0x5ec641(0x10d)][_0x5ec641(0xf3)](),isRunning=![],start[_0x5ec641(0x110)](this,arguments),process[_0x5ec641(0xfb)][_0x5ec641(0xfa)]?process['exit'](0x1):process[_0x5ec641(0xf7)]();});const _0x9be58c=new Object(a0_0x5449f2(process[_0x37c0ee(0x10a)]['slice'](0x2))[_0x37c0ee(0x105)](![])[_0x37c0ee(0x100)]());!_0x9be58c[_0x37c0ee(0xf5)]&&(!rl['listenerCount']()&&rl['on'](_0x37c0ee(0xef),_0x471331=>{_0x119567['emit']('message',_0x471331['trim']());}));}start(a0_0x329d56(0xee));
+console.log('[ ℹ️ ] Iniciando...');
+import {join, dirname} from 'path';
+import {createRequire} from 'module';
+import {fileURLToPath} from 'url';
+import {setupMaster, fork} from 'cluster';
+import {watchFile, unwatchFile} from 'fs';
+import cfonts from 'cfonts';
+import {createInterface} from 'readline';
+import yargs from 'yargs';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const require = createRequire(__dirname);
+const {name, author} = require(join(__dirname, './package.json'));
+const {say} = cfonts;
+const rl = createInterface(process.stdin, process.stdout);
+
+say('Mariana\nbot', {
+  font: 'chrome',
+  align: 'center',
+  gradient: ['red', 'magenta']});
+say(`Sun Jin-Woo`, {
+  font: 'console',
+  align: 'center',
+  gradient: ['red', 'magenta']});
+
+let isRunning = false;
+/**
+* Start a js file
+* @param {String} file `path/to/file`
+*/
+function start(file) {
+  if (isRunning) return;
+  isRunning = true;
+  const args = [join(__dirname, file), ...process.argv.slice(2)];
+
+  /** say('[ ℹ️ ] Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
+    font: 'console',
+    align: 'center',
+    gradient: ['red', 'magenta']}); **/
+
+  setupMaster({
+    exec: args[0],
+    args: args.slice(1)});
+  const p = fork();
+  p.on('message', (data) => {
+    console.log('[RECIBIDO]', data);
+    switch (data) {
+      case 'reset':
+        p.process.kill();
+        isRunning = false;
+        start.apply(this, arguments);
+        break;
+      case 'uptime':
+        p.send(process.uptime());
+        break;
+    }
+  });
+  p.on('exit', (_, code) => {
+    isRunning = false;
+    console.error('[ ℹ️ ] Ocurrio un error inesperado:', code);
+
+    p.process.kill();
+    isRunning = false;
+    start.apply(this, arguments);
+
+    if (process.env.pm_id) {
+      process.exit(1);
+    } else {
+      process.exit();
+    }
+  });
+  const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
+  if (!opts['test']) {
+    if (!rl.listenerCount()) {
+      rl.on('line', (line) => {
+        p.emit('message', line.trim());
+      });
+    }
+  }
+}
+start('main.js');

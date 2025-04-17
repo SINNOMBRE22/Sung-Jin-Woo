@@ -1,1 +1,48 @@
-(function(_0x29b9fd,_0x5d4ef3){const _0x26972a=a0_0x1771,_0x24637b=_0x29b9fd();while(!![]){try{const _0xe06817=parseInt(_0x26972a(0x165))/0x1*(-parseInt(_0x26972a(0x168))/0x2)+parseInt(_0x26972a(0x15d))/0x3+parseInt(_0x26972a(0x16c))/0x4*(parseInt(_0x26972a(0x15f))/0x5)+-parseInt(_0x26972a(0x162))/0x6*(-parseInt(_0x26972a(0x15c))/0x7)+parseInt(_0x26972a(0x160))/0x8+-parseInt(_0x26972a(0x164))/0x9*(parseInt(_0x26972a(0x167))/0xa)+-parseInt(_0x26972a(0x16b))/0xb*(parseInt(_0x26972a(0x15e))/0xc);if(_0xe06817===_0x5d4ef3)break;else _0x24637b['push'](_0x24637b['shift']());}catch(_0x45b90b){_0x24637b['push'](_0x24637b['shift']());}}}(a0_0x4db8,0x5e5cd));import a0_0x247ff1 from'node-fetch';function a0_0x1771(_0x2e8e87,_0x14b783){const _0x4db85d=a0_0x4db8();return a0_0x1771=function(_0x17717d,_0x5bc4a3){_0x17717d=_0x17717d-0x158;let _0x4a50f8=_0x4db85d[_0x17717d];return _0x4a50f8;},a0_0x1771(_0x2e8e87,_0x14b783);}import{FormData,Blob}from'formdata-node';function a0_0x4db8(){const _0xa5a6cd=['19528rZOHAa','POST','append','132Tslwjj','4XNBgZO','toArrayBuffer','files','json','files[]','tmp.','364eUmWwi','1717749DluUed','907440lRLsmo','1381780iTBIWs','5459000cTUgNG','url','22524hMwLTh','https://qu.ax/upload.php','27QfbQHm','27rzBreP','Failed\x20to\x20upload\x20the\x20file\x20to\x20qu.ax','563150HjWHpP'];a0_0x4db8=function(){return _0xa5a6cd;};return a0_0x4db8();}import{fileTypeFromBuffer}from'file-type';export default async _0x50ce2c=>{const _0x143635=a0_0x1771,{ext:_0x5aaee3,mime:_0x388605}=await fileTypeFromBuffer(_0x50ce2c),_0xa1586a=new FormData(),_0x131f02=new Blob([_0x50ce2c[_0x143635(0x16d)]()],{'type':_0x388605});_0xa1586a[_0x143635(0x16a)](_0x143635(0x15a),_0x131f02,_0x143635(0x15b)+_0x5aaee3);const _0x25c49e=await a0_0x247ff1(_0x143635(0x163),{'method':_0x143635(0x169),'body':_0xa1586a}),_0x1beba4=await _0x25c49e[_0x143635(0x159)]();if(_0x1beba4&&_0x1beba4['success'])return _0x1beba4[_0x143635(0x158)][0x0][_0x143635(0x161)];else throw new Error(_0x143635(0x166));};
+import fetch from 'node-fetch';
+import { FormData, Blob } from 'formdata-node';
+import { fileTypeFromBuffer } from 'file-type';
+
+/**
+ * Upload file to qu.ax
+ * Supported mimetypes:
+ * - `image/jpeg`
+ * - `image/jpg`
+ * - `image/png`
+ * - `video/mp4`
+ * - `video/webm`
+ * - `audio/mpeg`
+ * - `audio/wav`
+ * @param {Buffer} buffer File Buffer
+ * @return {Promise<string>}
+ */
+export default async (buffer) => {
+  const { ext, mime } = await fileTypeFromBuffer(buffer);
+  const form = new FormData();
+  const blob = new Blob([buffer.toArrayBuffer()], { type: mime });
+  form.append('files[]', blob, 'tmp.' + ext);
+  const res = await fetch('https://qu.ax/upload.php', { method: 'POST', body: form });
+  const result = await res.json();
+  if (result && result.success) {
+    return result.files[0].url;
+  } else {
+    throw new Error('Failed to upload the file to qu.ax');
+  }
+};
+
+/*import fetch from 'node-fetch';
+import {FormData, Blob} from 'formdata-node';
+import {fileTypeFromBuffer} from 'file-type';
+export default async (buffer) => {
+  const {ext, mime} = await fileTypeFromBuffer(buffer);
+  const form = new FormData();
+  const blob = new Blob([buffer.toArrayBuffer()], {type: mime});
+  form.append('file', blob, 'tmp.' + ext);
+  const res = await fetch('https://telegra.ph/upload', {
+    method: 'POST',
+    body: form,
+  });
+  const img = await res.json();
+  if (img.error) throw img.error;
+  return 'https://telegra.ph' + img[0].src;
+};*/
+

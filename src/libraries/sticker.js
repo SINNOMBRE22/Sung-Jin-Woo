@@ -1,1 +1,232 @@
-const a0_0x261b61=a0_0x4d9f;(function(_0x126940,_0x2a0577){const _0x11d89e=a0_0x4d9f,_0x483294=_0x126940();while(!![]){try{const _0x2bdf94=parseInt(_0x11d89e(0x1ea))/0x1*(parseInt(_0x11d89e(0x1e7))/0x2)+-parseInt(_0x11d89e(0x1db))/0x3+-parseInt(_0x11d89e(0x20b))/0x4*(-parseInt(_0x11d89e(0x215))/0x5)+parseInt(_0x11d89e(0x1f5))/0x6*(parseInt(_0x11d89e(0x1e8))/0x7)+-parseInt(_0x11d89e(0x1fa))/0x8*(-parseInt(_0x11d89e(0x221))/0x9)+parseInt(_0x11d89e(0x1da))/0xa*(parseInt(_0x11d89e(0x1d4))/0xb)+parseInt(_0x11d89e(0x1f7))/0xc*(-parseInt(_0x11d89e(0x1f9))/0xd);if(_0x2bdf94===_0x2a0577)break;else _0x483294['push'](_0x483294['shift']());}catch(_0x3f8555){_0x483294['push'](_0x483294['shift']());}}}(a0_0x174d,0x95f72));import{dirname}from'path';import{fileURLToPath}from'url';import*as a0_0x112747 from'fs';import*as a0_0x36fb1f from'path';function a0_0x4d9f(_0x4877c5,_0x4737c5){const _0x174ddd=a0_0x174d();return a0_0x4d9f=function(_0x4d9f9e,_0x5097d7){_0x4d9f9e=_0x4d9f9e-0x1cd;let _0x183906=_0x174ddd[_0x4d9f9e];return _0x183906;},a0_0x4d9f(_0x4877c5,_0x4737c5);}import*as a0_0x5347cd from'crypto';import{ffmpeg}from'./converter.js';function a0_0x174d(){const _0x5a4b18=['wa-sticker-formatter','../tmp','reply','default','addOutputOptions','jpeg','close','.webp','93370QKiXBz','magick','https://api.xteam.xyz/sticker/wm?','iosAppStoreLink','chat','format','stdout','bin','accessibilityText','data','test','stickerMakerSourceType','7948917mBBSIj','androidAppStoreLink','status','toUpperCase','libwebp','ext','ffmpegWebp','load','12991jXhVZc','-vf','webp:-','png:-','buffer','scale=\x27min(320,iw)\x27:min\x27(320,ih)\x27:force_original_aspect_ratio=decrease,fps=15,\x20pad=320:320:-1:-1:color=white@0.0,\x20split\x20[a][b];\x20[a]\x20palettegen=reserve_transparent=on:transparency_color=ffffff\x20[p];\x20[b][p]\x20paletteuse','10090VTvXPw','2803557WtCumb','toString','toBuffer','push','stdin','randomBytes','ffmpeg','mime','exports','toFormat','isAiSticker','unlink','14PpJgXd','77iejhfb','entries','113233HyZNwu','Image','exit','input','webp','templateId','from','isAvatarSticker','MYSTIC','inputFormat','convert','327216OkVzJP','isFirstPartySticker','120aZzqrV','-vcodec','3392389sRyIfv','8ReiwOq','url','html','filter','support','error','../tmp/','save','readFile','packId','.jpeg','promises','join','includes','writeUIntLE','scale=512:512:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=512:512:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1','concat','148vGllwT','WEBP'];a0_0x174d=function(){return _0x5a4b18;};return a0_0x174d();}import a0_0x3053f4 from'fluent-ffmpeg';import{spawn}from'child_process';import a0_0x52a545 from'./uploadFile.js';import a0_0x365b93 from'./uploadImage.js';import{fileTypeFromBuffer}from'file-type';import a0_0x5ac9b0 from'node-webpmux';import a0_0x2789d7 from'node-fetch';const __dirname=dirname(fileURLToPath(import.meta[a0_0x261b61(0x1fb)])),tmp=a0_0x36fb1f[a0_0x261b61(0x206)](__dirname,a0_0x261b61(0x20e));function sticker2(_0x5283be,_0x322b0e){return new Promise(async(_0x3ac5f5,_0x2b4c44)=>{const _0x42af8f=a0_0x4d9f;try{if(_0x322b0e){const _0x235824=await a0_0x2789d7(_0x322b0e);if(_0x235824[_0x42af8f(0x1ce)]!==0xc8)throw await _0x235824['text']();_0x5283be=await _0x235824[_0x42af8f(0x1d8)]();}const _0x30155b=a0_0x36fb1f[_0x42af8f(0x206)](tmp,+new Date()+_0x42af8f(0x204));await a0_0x112747[_0x42af8f(0x205)]['writeFile'](_0x30155b,_0x5283be);const _0x282dbd=spawn(_0x42af8f(0x1e1),['-y','-i',_0x30155b,_0x42af8f(0x1d5),'scale=512:512:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=512:512:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1','-f','png','-']);_0x282dbd['on'](_0x42af8f(0x1ff),_0x2b4c44),_0x282dbd['on'](_0x42af8f(0x213),async()=>{await a0_0x112747['promises']['unlink'](_0x30155b);});const _0x5d548b=[],[_0x4359cb,..._0x2da4d2]=[...module[_0x42af8f(0x1e3)][_0x42af8f(0x1fe)]['gm']?['gm']:module[_0x42af8f(0x1e3)][_0x42af8f(0x216)]?[_0x42af8f(0x216)]:[],_0x42af8f(0x1f4),_0x42af8f(0x1d7),_0x42af8f(0x1d6)],_0x24cd53=spawn(_0x4359cb,_0x2da4d2);_0x24cd53['on'](_0x42af8f(0x1ff),_0x416c51=>conn[_0x42af8f(0x20f)](m[_0x42af8f(0x219)],util[_0x42af8f(0x21a)](_0x416c51),m)),_0x24cd53['stdout']['on'](_0x42af8f(0x21e),_0x40f220=>_0x5d548b[_0x42af8f(0x1de)](_0x40f220)),_0x282dbd[_0x42af8f(0x21b)]['pipe'](_0x24cd53[_0x42af8f(0x1df)]),_0x24cd53['on'](_0x42af8f(0x1ec),()=>{const _0x551553=_0x42af8f;_0x3ac5f5(Buffer[_0x551553(0x20a)](_0x5d548b));});}catch(_0x2b876e){_0x2b4c44(_0x2b876e);}});}async function sticker3(_0x59d421,_0x7eea9c,_0x4cc69b,_0x5204f5){const _0x544d1a=a0_0x261b61;_0x7eea9c=_0x7eea9c?_0x7eea9c:await a0_0x52a545(_0x59d421);const _0x4aa8e3=await a0_0x2789d7(_0x544d1a(0x217)+new URLSearchParams(Object[_0x544d1a(0x1e9)]({'url':_0x7eea9c,'packname':_0x4cc69b,'author':_0x5204f5})));return await _0x4aa8e3[_0x544d1a(0x1d8)]();}async function sticker4(_0x450640,_0x58c235){const _0x7330e1=a0_0x261b61;if(_0x58c235){const _0x2d3436=await a0_0x2789d7(_0x58c235);if(_0x2d3436['status']!==0xc8)throw await _0x2d3436['text']();_0x450640=await _0x2d3436[_0x7330e1(0x1d8)]();}return await ffmpeg(_0x450640,[_0x7330e1(0x1d5),_0x7330e1(0x209)],_0x7330e1(0x212),'webp');}async function sticker5(_0x254aa8,_0x289b45,_0x3afddb,_0x48f5b5,_0x20dc87=[''],_0xc9dc03={}){const _0x8fb79a=a0_0x261b61,{Sticker:_0x17e02d}=await import(_0x8fb79a(0x20d)),_0x9e6335={'type':_0x8fb79a(0x210),'pack':_0x3afddb,'author':_0x48f5b5,'categories':_0x20dc87,..._0xc9dc03};return new _0x17e02d(_0x254aa8?_0x254aa8:_0x289b45,_0x9e6335)[_0x8fb79a(0x1dd)]();}function sticker6(_0x31c5ff,_0x5c66f3){return new Promise(async(_0x2cb5a2,_0x31b21c)=>{const _0x1d05b6=a0_0x4d9f;if(_0x5c66f3){const _0x303048=await a0_0x2789d7(_0x5c66f3);if(_0x303048[_0x1d05b6(0x1ce)]!==0xc8)throw await _0x303048['text']();_0x31c5ff=await _0x303048['buffer']();}const _0x22c522=await fileTypeFromBuffer(_0x31c5ff)||{'mime':'application/octet-stream','ext':_0x1d05b6(0x21c)};if(_0x22c522['ext']=='bin')_0x31b21c(_0x31c5ff);const _0x889dd1=a0_0x36fb1f[_0x1d05b6(0x206)](__dirname,_0x1d05b6(0x200)+ +new Date()+'.'+_0x22c522[_0x1d05b6(0x1d1)]),_0x4a00e8=a0_0x36fb1f['join'](_0x889dd1+_0x1d05b6(0x214));await a0_0x112747[_0x1d05b6(0x205)]['writeFile'](_0x889dd1,_0x31c5ff);const _0x30b750=/video/i[_0x1d05b6(0x21f)](_0x22c522[_0x1d05b6(0x1e2)])?a0_0x3053f4(_0x889dd1)[_0x1d05b6(0x1f3)](_0x22c522['ext']):a0_0x3053f4(_0x889dd1)[_0x1d05b6(0x1ed)](_0x889dd1);_0x30b750['on']('error',function(_0x3487d8){const _0x1c5fb7=_0x1d05b6;console[_0x1c5fb7(0x1ff)](_0x3487d8),a0_0x112747[_0x1c5fb7(0x205)][_0x1c5fb7(0x1e6)](_0x889dd1),_0x31b21c(_0x31c5ff);})['on']('end',async function(){const _0x52bb82=_0x1d05b6;a0_0x112747[_0x52bb82(0x205)]['unlink'](_0x889dd1),_0x2cb5a2(await a0_0x112747['promises'][_0x52bb82(0x202)](_0x4a00e8));})[_0x1d05b6(0x211)]([_0x1d05b6(0x1f8),_0x1d05b6(0x1d0),_0x1d05b6(0x1d5),_0x1d05b6(0x1d9)])[_0x1d05b6(0x1e4)](_0x1d05b6(0x1ee))['save'](_0x4a00e8);});}async function addExif(_0x5bf364,_0x284504,_0x17361c,_0x2f1e23=[''],_0x439835){const _0x270832=a0_0x261b61,_0x4da92c=new a0_0x5ac9b0[(_0x270832(0x1eb))](),_0x192e1d=_0x270832(0x1f2)+a0_0x5347cd[_0x270832(0x1e0)](0xc)[_0x270832(0x1dc)]('hex')[_0x270832(0x1cf)](),_0x38af21={'sticker-pack-id':_0x439835['packId']?_0x439835[_0x270832(0x203)]:''+_0x192e1d,'sticker-pack-name':_0x284504?_0x284504:undefined,'sticker-pack-publisher':_0x17361c?_0x17361c:undefined,'android-app-store-link':_0x439835[_0x270832(0x1cd)]?_0x439835[_0x270832(0x1cd)]:undefined,'ios-app-store-link':_0x439835[_0x270832(0x218)]?_0x439835[_0x270832(0x218)]:undefined,'is-ai-sticker':_0x439835[_0x270832(0x1e5)]?0x1:undefined,'is-first-party-sticker':_0x439835[_0x270832(0x1f6)]?0x1:undefined,'accessibility-text':_0x439835['accessibilityText']?_0x439835[_0x270832(0x21d)]:undefined,'avatar-sticker-template-id':_0x439835['templateId']?_0x439835[_0x270832(0x1ef)]:undefined,'is-avatar-sticker':_0x439835[_0x270832(0x1f1)]?0x1:undefined,'sticker-maker-source-type':_0x439835[_0x270832(0x220)]?_0x439835[_0x270832(0x220)]:undefined,'emojis':_0x2f1e23?_0x2f1e23:undefined},_0x15ef63=Buffer[_0x270832(0x1f0)]([0x49,0x49,0x2a,0x0,0x8,0x0,0x0,0x0,0x1,0x0,0x41,0x57,0x7,0x0,0x0,0x0,0x0,0x0,0x16,0x0,0x0,0x0]),_0x2f6ac2=Buffer[_0x270832(0x1f0)](JSON['stringify'](_0x38af21),'utf8'),_0x436340=Buffer[_0x270832(0x20a)]([_0x15ef63,_0x2f6ac2]);return _0x436340[_0x270832(0x208)](_0x2f6ac2['length'],0xe,0x4),await _0x4da92c[_0x270832(0x1d3)](_0x5bf364),_0x4da92c['exif']=_0x436340,await _0x4da92c[_0x270832(0x201)](null);}async function sticker(_0x3cde69,_0x16d38f,..._0x4acaa5){const _0x13e8b5=a0_0x261b61;let _0x44266a,_0xb3b0e1;for(const _0x3c7522 of[sticker3,global[_0x13e8b5(0x1fe)][_0x13e8b5(0x1e1)]&&sticker6,sticker5,global[_0x13e8b5(0x1fe)][_0x13e8b5(0x1e1)]&&global[_0x13e8b5(0x1fe)][_0x13e8b5(0x1d2)]&&sticker4,global[_0x13e8b5(0x1fe)][_0x13e8b5(0x1e1)]&&(global[_0x13e8b5(0x1fe)][_0x13e8b5(0x1f4)]||global[_0x13e8b5(0x1fe)][_0x13e8b5(0x216)]||global[_0x13e8b5(0x1fe)]['gm'])&&sticker2][_0x13e8b5(0x1fd)](_0xc8a6ba=>_0xc8a6ba)){try{_0xb3b0e1=await _0x3c7522(_0x3cde69,_0x16d38f,..._0x4acaa5);if(_0xb3b0e1[_0x13e8b5(0x207)](_0x13e8b5(0x1fc)))continue;if(_0xb3b0e1['includes'](_0x13e8b5(0x20c)))try{return await addExif(_0xb3b0e1,..._0x4acaa5);}catch(_0xde441c){return console['error'](_0xde441c),_0xb3b0e1;}throw _0xb3b0e1['toString']();}catch(_0x43d0d4){_0x44266a=_0x43d0d4;continue;}}return console[_0x13e8b5(0x1ff)](_0x44266a),_0x44266a;}const support={'ffmpeg':!![],'ffprobe':!![],'ffmpegWebp':!![],'convert':!![],'magick':![],'gm':![],'find':![]};export{sticker,sticker2,sticker3,sticker4,sticker6,addExif,support};
+import { dirname } from 'path'
+import { fileURLToPath } from 'url'
+import * as fs from 'fs'
+import * as path from 'path'
+import * as  crypto from 'crypto'
+import { ffmpeg } from './converter.js'
+import fluent_ffmpeg from 'fluent-ffmpeg'
+import { spawn } from 'child_process'
+import uploadFile from './uploadFile.js'
+import uploadImage from './uploadImage.js'
+import { fileTypeFromBuffer } from 'file-type'
+import webp from 'node-webpmux'
+import fetch from 'node-fetch'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const tmp = path.join(__dirname, '../tmp')
+/**
+ * Image to Sticker
+ * @param {Buffer} img Image Buffer
+ * @param {String} url Image URL
+ */
+function sticker2(img, url) {
+  return new Promise(async (resolve, reject) => {
+    try {
+      if (url) {
+        const res = await fetch(url)
+        if (res.status !== 200) throw await res.text()
+        img = await res.buffer()
+      }
+      const inp = path.join(tmp, +new Date + '.jpeg')
+      await fs.promises.writeFile(inp, img)
+      const ff = spawn('ffmpeg', [
+        '-y',
+        '-i', inp,
+        '-vf', 'scale=512:512:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=512:512:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1',
+        '-f', 'png',
+        '-'
+      ])
+      ff.on('error', reject)
+      ff.on('close', async () => {
+        await fs.promises.unlink(inp)
+      })
+      const bufs = []
+      const [_spawnprocess, ..._spawnargs] = [...(module.exports.support.gm ? ['gm'] : module.exports.magick ? ['magick'] : []), 'convert', 'png:-', 'webp:-']
+      const im = spawn(_spawnprocess, _spawnargs)
+      im.on('error', e => conn.reply(m.chat, util.format(e), m))
+      im.stdout.on('data', chunk => bufs.push(chunk))
+      ff.stdout.pipe(im.stdin)
+      im.on('exit', () => {
+        resolve(Buffer.concat(bufs))
+      })
+    } catch (e) {
+      reject(e)
+    }
+  })
+}
+
+/**
+ * Image/Video to Sticker
+ * @param {Buffer} img Image/Video Buffer
+ * @param {String} url Image/Video URL
+ * @param {String} packname EXIF Packname
+ * @param {String} author EXIF Author
+ */
+async function sticker3(img, url, packname, author) {
+  url = url ? url : await uploadFile(img)
+  const res = await fetch('https://api.xteam.xyz/sticker/wm?' + new URLSearchParams(Object.entries({
+    url,
+    packname,
+    author
+  })))
+  return await res.buffer()
+}
+
+/**
+ * Image to Sticker
+ * @param {Buffer} img Image/Video Buffer
+ * @param {String} url Image/Video URL
+ */
+async function sticker4(img, url) {
+  if (url) {
+    const res = await fetch(url)
+    if (res.status !== 200) throw await res.text()
+    img = await res.buffer()
+  }
+  return await ffmpeg(img, [
+    '-vf', 'scale=512:512:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=512:512:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1'
+  ], 'jpeg', 'webp')
+}
+
+async function sticker5(img, url, packname, author, categories = [''], extra = {}) {
+  const { Sticker } = await import('wa-sticker-formatter')
+  const stickerMetadata = {
+    type: 'default',
+    pack: packname,
+    author,
+    categories,
+    ...extra
+  }
+  return (new Sticker(img ? img : url, stickerMetadata)).toBuffer()
+}
+
+/**
+ * Convert using fluent-ffmpeg
+ * @param {string} img 
+ * @param {string} url 
+ */
+function sticker6(img, url) {
+  return new Promise(async (resolve, reject) => {
+    if (url) {
+      const res = await fetch(url)
+      if (res.status !== 200) throw await res.text()
+      img = await res.buffer()
+    }
+    const type = await fileTypeFromBuffer(img) || {
+      mime: 'application/octet-stream',
+      ext: 'bin'
+    }
+    if (type.ext == 'bin') reject(img)
+    const tmp = path.join(__dirname, `../tmp/${+ new Date()}.${type.ext}`)
+    const out = path.join(tmp + '.webp')
+    await fs.promises.writeFile(tmp, img)
+    // https://github.com/MhankBarBar/termux-wabot/blob/main/index.js#L313#L368
+    const Fffmpeg = /video/i.test(type.mime) ? fluent_ffmpeg(tmp).inputFormat(type.ext) : fluent_ffmpeg(tmp).input(tmp)
+    Fffmpeg
+      .on('error', function (err) {
+        console.error(err)
+        fs.promises.unlink(tmp)
+        reject(img)
+      })
+      .on('end', async function () {
+        fs.promises.unlink(tmp)
+        resolve(await fs.promises.readFile(out))
+      })
+      .addOutputOptions([
+        `-vcodec`, `libwebp`, `-vf`,
+        `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`
+      ])
+      .toFormat('webp')
+      .save(out)
+  })
+}
+/**
+ * Add WhatsApp JSON Exif Metadata
+ * Taken from https://github.com/pedroslopez/whatsapp-web.js/pull/527/files
+ * new json made by https://github.com/Skidy89
+ * @param {Buffer} webpSticker 
+ * @param {String} packname 
+ * @param {String} author 
+ * @param {String} categories 
+ * @param {Object} extra 
+ * @returns 
+ */
+async function addExif(webpSticker, packname, author, categories = [''], metadata) {
+  const img = new webp.Image();
+  const stickerPackId = 'MYSTIC' + crypto.randomBytes(12).toString('hex').toUpperCase()
+  const json = {
+      "sticker-pack-id": metadata.packId ? metadata.packId : `${stickerPackId}`,
+      "sticker-pack-name": packname ? packname : undefined,
+      "sticker-pack-publisher": author ? author : undefined,
+      "android-app-store-link": metadata.androidAppStoreLink ? metadata.androidAppStoreLink : undefined,
+      "ios-app-store-link": metadata.iosAppStoreLink ? metadata.iosAppStoreLink : undefined,
+      "is-ai-sticker": metadata.isAiSticker ? 1 : undefined,
+      "is-first-party-sticker": metadata.isFirstPartySticker ? 1 : undefined,
+      "accessibility-text": metadata.accessibilityText ? metadata.accessibilityText : undefined,
+      "avatar-sticker-template-id": metadata.templateId ? metadata.templateId : undefined,
+      "is-avatar-sticker": metadata.isAvatarSticker ? 1 : undefined,
+      "sticker-maker-source-type": metadata.stickerMakerSourceType ? metadata.stickerMakerSourceType : undefined,
+      "emojis": categories ? categories : undefined
+  };
+  const exifAttr = Buffer.from([0x49, 0x49, 0x2A, 0x00, 0x08, 0x00, 0x00, 0x00, 0x01, 0x00, 0x41, 0x57, 0x07, 0x00, 0x00, 0x00, 0x00, 0x00, 0x16, 0x00, 0x00, 0x00]);
+  const jsonBuffer = Buffer.from(JSON.stringify(json), 'utf8');
+  const exif = Buffer.concat([exifAttr, jsonBuffer]);
+  exif.writeUIntLE(jsonBuffer.length, 14, 4);
+  await img.load(webpSticker)
+  img.exif = exif
+  return await img.save(null)
+}
+
+/**
+ * Image/Video to Sticker
+ * @param {Buffer} img Image/Video Buffer
+ * @param {String} url Image/Video URL
+ * @param {...String} 
+*/
+async function sticker(img, url, ...args) {
+  let lastError, stiker
+  for (const func of [
+    sticker3, global.support.ffmpeg && sticker6, sticker5,
+    global.support.ffmpeg && global.support.ffmpegWebp && sticker4,
+    global.support.ffmpeg && (global.support.convert || global.support.magick || global.support.gm) && sticker2,
+  ].filter(f => f)) {
+    try {
+      stiker = await func(img, url, ...args)
+      if (stiker.includes('html')) continue
+      if (stiker.includes('WEBP')) {
+        try {
+          return await addExif(stiker, ...args)
+        } catch (e) {
+          console.error(e)
+          return stiker
+        }
+      }
+      throw stiker.toString()
+    } catch (err) {
+      lastError = err
+      continue
+    }
+  }
+  console.error(lastError)
+  return lastError
+}
+
+const support = {
+  ffmpeg: true,
+  ffprobe: true,
+  ffmpegWebp: true,
+  convert: true,
+  magick: false,
+  gm: false,
+  find: false
+}
+
+export {
+  sticker,
+  sticker2,
+  sticker3,
+  sticker4,
+  sticker6,
+  addExif,
+  support
+}

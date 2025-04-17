@@ -1,1 +1,49 @@
-(function(_0x1e45e0,_0x4f4d39){const _0x3ca586=a0_0x15cd,_0x402db2=_0x1e45e0();while(!![]){try{const _0x1ef8d9=-parseInt(_0x3ca586(0x1b3))/0x1*(-parseInt(_0x3ca586(0x199))/0x2)+parseInt(_0x3ca586(0x1a6))/0x3+parseInt(_0x3ca586(0x19d))/0x4*(-parseInt(_0x3ca586(0x1a5))/0x5)+-parseInt(_0x3ca586(0x1a4))/0x6*(parseInt(_0x3ca586(0x1b1))/0x7)+-parseInt(_0x3ca586(0x1ac))/0x8+parseInt(_0x3ca586(0x1b6))/0x9*(parseInt(_0x3ca586(0x19c))/0xa)+parseInt(_0x3ca586(0x19f))/0xb*(parseInt(_0x3ca586(0x1a9))/0xc);if(_0x1ef8d9===_0x4f4d39)break;else _0x402db2['push'](_0x402db2['shift']());}catch(_0x25e0cb){_0x402db2['push'](_0x402db2['shift']());}}}(a0_0x4ee0,0x195e3));import a0_0x219980 from'express';function a0_0x15cd(_0x4d5831,_0x1ef987){const _0x4ee078=a0_0x4ee0();return a0_0x15cd=function(_0x15cd41,_0x25a697){_0x15cd41=_0x15cd41-0x198;let _0x6ac5fb=_0x4ee078[_0x15cd41];return _0x6ac5fb;},a0_0x15cd(_0x4d5831,_0x1ef987);}import{createServer}from'http';import a0_0x10c122 from'path';import{Socket}from'socket.io';import{toBuffer}from'qrcode';import a0_0x45c302 from'node-fetch';function connect(_0x4016e2,_0xa8155c){const _0x10117d=a0_0x15cd,_0x1adfb2=global['app']=a0_0x219980();console[_0x10117d(0x1a2)](_0x1adfb2);const _0xd2ba6f=global[_0x10117d(0x19a)]=createServer(_0x1adfb2);let _0x2ff438=_0x10117d(0x1a7);_0x4016e2['ev']['on']('connection.update',function _0x397086({qr:_0x23ad7a}){if(_0x23ad7a)_0x2ff438=_0x23ad7a;}),_0x1adfb2[_0x10117d(0x1af)](async(_0x17f190,_0x590722)=>{const _0x68cb02=_0x10117d;_0x590722[_0x68cb02(0x1aa)](_0x68cb02(0x1ad),_0x68cb02(0x1a0)),_0x590722[_0x68cb02(0x1a3)](await toBuffer(_0x2ff438));}),_0xd2ba6f[_0x10117d(0x19b)](_0xa8155c,()=>{const _0x1e9f70=_0x10117d;console[_0x1e9f70(0x1a2)]('[\x20ℹ️\x20]\x20La\x20aplicación\x20está\x20escuchando\x20el\x20puerto',_0xa8155c,_0x1e9f70(0x19e));if(opts[_0x1e9f70(0x1a8)])keepAlive();});}function a0_0x4ee0(){const _0x23539f=['1395783yBSdxk','emit','env','12RgnzOu','server','listen','10qMjmoD','4vJkmyu','(ignorar\x20si\x20ya\x20escaneo\x20el\x20código\x20QR)','33pfqmKC','image/png','REPL_SLUG','log','end','6vQrNBq','631660wZIUNM','471567cACZdi','El\x20código\x20QR\x20es\x20invalido,\x20posiblemente\x20ya\x20se\x20escaneo\x20el\x20código\x20QR.','keepalive','1020moRIIk','setHeader','test','365664DdEnuz','content-type','https://','use','.repl.co','426356OOEGEm','REPL_OWNER','4054wGmgHK','catch','error'];a0_0x4ee0=function(){return _0x23539f;};return a0_0x4ee0();}function pipeEmit(_0x1ea7bb,_0x25fe01,_0x432cdb=''){const _0x582cdf=a0_0x15cd,_0x20062a=_0x1ea7bb['emit'];return _0x1ea7bb[_0x582cdf(0x1b7)]=function(_0xc6ed11,..._0x168886){const _0x55fff9=_0x582cdf;_0x20062a[_0x55fff9(0x1b7)](_0xc6ed11,..._0x168886),_0x25fe01[_0x55fff9(0x1b7)](_0x432cdb+_0xc6ed11,..._0x168886);},{'unpipeEmit'(){_0x1ea7bb['emit']=_0x20062a;}};}function keepAlive(){const _0x2a3410=a0_0x15cd,_0x2547db=_0x2a3410(0x1ae)+process[_0x2a3410(0x198)][_0x2a3410(0x1a1)]+'.'+process[_0x2a3410(0x198)][_0x2a3410(0x1b2)]+_0x2a3410(0x1b0);if(/(\/\/|\.)undefined\./[_0x2a3410(0x1ab)](_0x2547db))return;setInterval(()=>{const _0x1c478b=_0x2a3410;a0_0x45c302(_0x2547db)[_0x1c478b(0x1b4)](console[_0x1c478b(0x1b5)]);},0x5*0x3e8*0x3c);}export default connect;
+import express from 'express';
+import {createServer} from 'http';
+import path from 'path';
+import {Socket} from 'socket.io';
+import {toBuffer} from 'qrcode';
+import fetch from 'node-fetch';
+
+function connect(conn, PORT) {
+  const app = global.app = express();
+  console.log(app);
+  const server = global.server = createServer(app);
+  let _qr = 'El código QR es invalido, posiblemente ya se escaneo el código QR.';
+
+  conn.ev.on('connection.update', function appQR({qr}) {
+    if (qr) _qr = qr;
+  });
+
+  app.use(async (req, res) => {
+    res.setHeader('content-type', 'image/png');
+    res.end(await toBuffer(_qr));
+  });
+
+  server.listen(PORT, () => {
+    console.log('[ ℹ️ ] La aplicación está escuchando el puerto', PORT, '(ignorar si ya escaneo el código QR)');
+    if (opts['keepalive']) keepAlive();
+  });
+}
+
+function pipeEmit(event, event2, prefix = '') {
+  const old = event.emit;
+  event.emit = function(event, ...args) {
+    old.emit(event, ...args);
+    event2.emit(prefix + event, ...args);
+  };
+  return {
+    unpipeEmit() {
+      event.emit = old;
+    }};
+}
+
+function keepAlive() {
+  const url = `https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co`;
+  if (/(\/\/|\.)undefined\./.test(url)) return;
+  setInterval(() => {
+    fetch(url).catch(console.error);
+  }, 5 * 1000 * 60);
+}
+
+export default connect;

@@ -1,1 +1,66 @@
-(function(_0x1fa6b4,_0x5648da){const _0x161d0e=a0_0x4b01,_0x4be88a=_0x1fa6b4();while(!![]){try{const _0x2132a0=-parseInt(_0x161d0e(0x157))/0x1+parseInt(_0x161d0e(0x165))/0x2*(-parseInt(_0x161d0e(0x15b))/0x3)+-parseInt(_0x161d0e(0x163))/0x4*(parseInt(_0x161d0e(0x167))/0x5)+parseInt(_0x161d0e(0x159))/0x6+parseInt(_0x161d0e(0x158))/0x7*(parseInt(_0x161d0e(0x16b))/0x8)+parseInt(_0x161d0e(0x161))/0x9+parseInt(_0x161d0e(0x168))/0xa*(parseInt(_0x161d0e(0x156))/0xb);if(_0x2132a0===_0x5648da)break;else _0x4be88a['push'](_0x4be88a['shift']());}catch(_0x395316){_0x4be88a['push'](_0x4be88a['shift']());}}}(a0_0x172f,0x67b6b));function a0_0x172f(){const _0x31aff3=['320725xnLGwo','4326427WYUScU','829530CZXsaD','text','118887xTBLuE','tmp.','toArrayBuffer','files','append','success','6200037hVDmGT','https://file.io/?expires=1d','196FBNdXu','url','38YcrbqR','parse','3475hyJCKw','6770hFLXYh','https://storage.restfulapi.my.id/upload','file','8HQWomJ','POST','isArray','1419zfHpUu'];a0_0x172f=function(){return _0x31aff3;};return a0_0x172f();}import a0_0x127891 from'node-fetch';import{FormData,Blob}from'formdata-node';function a0_0x4b01(_0x4c4037,_0x376b11){const _0x172f32=a0_0x172f();return a0_0x4b01=function(_0x4b0183,_0x33d4af){_0x4b0183=_0x4b0183-0x155;let _0x5aa564=_0x172f32[_0x4b0183];return _0x5aa564;},a0_0x4b01(_0x4c4037,_0x376b11);}import{fileTypeFromBuffer}from'file-type';const fileIO=async _0xdd76a3=>{const _0x5a11b6=a0_0x4b01,{ext:_0x34ca36,mime:_0x390903}=await fileTypeFromBuffer(_0xdd76a3)||{},_0x5c3891=new FormData(),_0x582bd6=new Blob([_0xdd76a3['toArrayBuffer']()],{'type':_0x390903});_0x5c3891['append'](_0x5a11b6(0x16a),_0x582bd6,_0x5a11b6(0x15c)+_0x34ca36);const _0x957f1b=await a0_0x127891(_0x5a11b6(0x162),{'method':'POST','body':_0x5c3891}),_0x16e0e5=await _0x957f1b['json']();if(!_0x16e0e5[_0x5a11b6(0x160)])throw _0x16e0e5;return _0x16e0e5['link'];},RESTfulAPI=async _0x5a656b=>{const _0x68baa1=a0_0x4b01,_0x4a5d7d=new FormData();let _0x36990b=_0x5a656b;if(!Array[_0x68baa1(0x155)](_0x5a656b))_0x36990b=[_0x5a656b];for(const _0x3dcc87 of _0x36990b){const _0x4583cf=new Blob([_0x3dcc87[_0x68baa1(0x15d)]()]);_0x4a5d7d[_0x68baa1(0x15f)](_0x68baa1(0x16a),_0x4583cf);}const _0xd2049d=await a0_0x127891(_0x68baa1(0x169),{'method':_0x68baa1(0x16c),'body':_0x4a5d7d});let _0x526891=await _0xd2049d[_0x68baa1(0x15a)]();try{_0x526891=JSON[_0x68baa1(0x166)](_0x526891);if(!Array[_0x68baa1(0x155)](_0x5a656b))return _0x526891[_0x68baa1(0x15e)][0x0][_0x68baa1(0x164)];return _0x526891['files']['map'](_0x138c5d=>_0x138c5d['url']);}catch(_0x4ec860){throw _0x526891;}};export default async function (inp){let err=![];for(const upload of[RESTfulAPI,fileIO]){try{return await upload(inp);}catch(e){err=e;}}if(err)throw err;}
+import fetch from 'node-fetch';
+import {FormData, Blob} from 'formdata-node';
+import {fileTypeFromBuffer} from 'file-type';
+/**
+ * Upload epheremal file to file.io
+ * `Expired in 1 day`
+ * `100MB Max Filesize`
+ * @param {Buffer} buffer File Buffer
+ */
+const fileIO = async (buffer) => {
+  const {ext, mime} = await fileTypeFromBuffer(buffer) || {};
+  const form = new FormData();
+  const blob = new Blob([buffer.toArrayBuffer()], {type: mime});
+  form.append('file', blob, 'tmp.' + ext);
+  const res = await fetch('https://file.io/?expires=1d', { // 1 Day Expiry Date
+    method: 'POST',
+    body: form,
+  });
+  const json = await res.json();
+  if (!json.success) throw json;
+  return json.link;
+};
+
+/**
+ * Upload file to storage.restfulapi.my.id
+ * @param {Buffer|ReadableStream|(Buffer|ReadableStream)[]} inp File Buffer/Stream or Array of them
+ * @return {string|null|(string|null)[]}
+ */
+const RESTfulAPI = async (inp) => {
+  const form = new FormData();
+  let buffers = inp;
+  if (!Array.isArray(inp)) buffers = [inp];
+  for (const buffer of buffers) {
+    const blob = new Blob([buffer.toArrayBuffer()]);
+    form.append('file', blob);
+  }
+  const res = await fetch('https://storage.restfulapi.my.id/upload', {
+    method: 'POST',
+    body: form,
+  });
+  let json = await res.text();
+  try {
+    json = JSON.parse(json);
+    if (!Array.isArray(inp)) return json.files[0].url;
+    return json.files.map((res) => res.url);
+  } catch (e) {
+    throw json;
+  }
+};
+
+/**
+ *
+ * @param {Buffer} inp
+ * @return {Promise<string>}
+ */
+export default async function(inp) {
+  let err = false;
+  for (const upload of [RESTfulAPI, fileIO]) {
+    try {
+      return await upload(inp);
+    } catch (e) {
+      err = e;
+    }
+  }
+  if (err) throw err;
+}
