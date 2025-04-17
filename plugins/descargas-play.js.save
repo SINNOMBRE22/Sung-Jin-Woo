@@ -1,0 +1,148 @@
+import fetch from 'node-fetch';
+import axios from 'axios';
+import yts from 'yt-search';
+import { ogmp3 } from '../src/libraries/youtubedl.js';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const { ytmp3, ytmp4 } = require('@hiudyy/ytdl');
+
+// Frames de animación (barra de progreso)
+const PROGRESS_FRAMES = [
+  '▱▱▱▱▱▱▱▱▱▱ 0%',
+  '▰▱▱▱▱▱▱▱▱▱ 10%',
+  '▰▰▱▱▱▱▱▱▱▱ 20%',
+  '▰▰▰▱▱▱▱▱▱▱ 30%',
+  '▰▰▰▰▱▱▱▱▱▱ 40%',
+  '▰▰▰▰▰▱▱▱▱▱ 50%',
+  '▰▰▰▰▰▰▱▱▱▱ 60%',
+  '▰▰▰▰▰▰▰▱▱▱ 70%',
+  '▰▰▰▰▰▰▰▰▱▱ 80%',
+  '▰▰▰▰▰▰▰▰▰▱ 90%',
+  '▰▰▰▰▰▰▰▰▰▰ 100%'
+];
+
+function milesNumber(n) {
+  return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+}
+
+function secondString(sec) {
+  sec = Number(sec);
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  const s = sec % 60;
+  return `${h ? h + 'h ' : ''}${m ? m + 'm ' : ''}${s}s`;
+}
+
+async function searchYouTube(query) {
+  const r = await yts({ query, hl: 'es', gl: 'ES' });
+  return r.videos;
+}
+
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `Uso: ${usedPrefix + command} <título o enlace YouTube>`;
+
+  // Buscar vídeo
+  const videos = await searchYouTube(text);
+  if (!videos.length) throw 'No se encontró ningún resultado.';
+  const info = videos[0];
+
+  // Descripción y preview URL
+  const desc = `${info.title}\n${info.ago} • ${secondString(info.duration.seconds)} • ${milesNumber(info.views)} vistas`;
+  const previewUrl = info.url.replace('youtube.com', 'sinnombre.ovh');
+
+  // Enviar mensaje inicial con detalles y 0%
+  const animMsg = await conn.sendMessage(m.chat, {
+    text: `Descargando ${command === 'play' ? 'audio' : 'vídeo'}:\n${desc}\n\n${PROGRESS_FRAMES[0]}`
+  }, { quoted: m });
+  await m.react('🕐');
+
+  const contextInfo = {
+    externalAdReply: {
+      title: info.title,
+      body: info.author.name,
+      thumbnailUrl: info.thumbnail,
+      sourceUrl: previewUrl,
+      mediaType: 2,
+      showAdAttribution: false
+    }
+  };
+
+  if (command === 'play') {
+    // Descarga de audio (ytmp3 o ogmp3)
+    const downloadAudio = async () => {
+      try {
+        return await ytmp3(info.url);
+      } catch {
+        const r = await ogmp3.download(info.url, '320', 'audio');
+        return { url: r.result.download };
+      }
+    };
+    const data = await downloadAudio();
+
+    // Barra de progreso
+    for (let i = 1; i < PROGRESS_FRAMES.length; i++) {
+      await delay(500);
+      await conn.sendMessage(m.chat, {
+        text: `Descargando audio:\n${desc}\n\n${PROGRESS_FRAMES[i]}`,
+        edit: animMsg.key
+      });
+    }
+
+    // Enviar audio
+    await conn.sendMessage(m.chat, {
+      audio: data.url ? { url: data.url } : data,
+      mimetype: 'audio/mpeg',
+      fileName: `${info.title}.mp3`,
+      caption: desc,
+      contextInfo
+    }, { quoted: m });
+    await m.react('✅');
+
+  } else if (command === 'yt') {
+    // Obtener vídeo con sistema de fallback
+    let data;
+    try {
+      data = await ytmp4(info.url);
+    } catch (error) {
+      // Fallback a API alternativa
+      const res = await axios.get(`https://api.akuari.my.id/downloader/youtube?link=${encodeURIComponent(info.url)}`);
+      data = { url: res.data.mp4.url };
+    }
+
+    // Barra de progreso
+    for (let i = 1; i < PROGRESS_FRAMES.length; i++) {
+      await delay(500);
+      await conn.sendMessage(m.chat, {
+        text: `Descargando vídeo:\n${desc}\n\n${PROGRESS_FRAMES[i]}`,
+        edit: animMsg.key
+      });
+    }
+
+    // Preparar payload de vídeo
+    const videoPayload = data.url 
+      ? { video: { url: data.url } }
+      : { video: data };  // Buffer directo
+
+    // Enviar vídeo
+    await conn.sendMessage(m.chat, {
+      ...videoPayload,
+      fileName: `${info.title}.mp4`,
+      mimetype: 'video/mp4',
+      caption: info.title,
+      contextInfo
+    }, { quoted: m });
+    await m.react('✅');
+
+  } else {
+    throw 'Comando no reconocido.';
+  }
+};
+
+handler.help = ['play (texto)', 'yt (texto)'];
+handler.tags = ['downloader'];
+handler.command = ['play', 'yt'];
+handler.group = false;
+
+export default handler;

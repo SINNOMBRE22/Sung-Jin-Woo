@@ -1,1 +1,80 @@
-const a0_0x4f1a70=a0_0xfd7d;(function(_0x15628c,_0x4fcafc){const _0x5ca693=a0_0xfd7d,_0x18b77c=_0x15628c();while(!![]){try{const _0x410364=-parseInt(_0x5ca693(0x1c1))/0x1*(-parseInt(_0x5ca693(0x1b7))/0x2)+parseInt(_0x5ca693(0x1ca))/0x3*(parseInt(_0x5ca693(0x1c5))/0x4)+-parseInt(_0x5ca693(0x1ae))/0x5+parseInt(_0x5ca693(0x1c9))/0x6*(parseInt(_0x5ca693(0x1c2))/0x7)+parseInt(_0x5ca693(0x1be))/0x8+-parseInt(_0x5ca693(0x1bb))/0x9+-parseInt(_0x5ca693(0x1ab))/0xa;if(_0x410364===_0x4fcafc)break;else _0x18b77c['push'](_0x18b77c['shift']());}catch(_0x25a957){_0x18b77c['push'](_0x18b77c['shift']());}}}(a0_0x6ccc,0xd414a),console[a0_0x4f1a70(0x1ce)](a0_0x4f1a70(0x1c7)));import{join,dirname}from'path';import{createRequire}from'module';import{fileURLToPath}from'url';import{setupMaster,fork}from'cluster';import{watchFile,unwatchFile}from'fs';import a0_0x5188d9 from'cfonts';import{createInterface}from'readline';import a0_0x2ff927 from'yargs';function a0_0xfd7d(_0x483f6e,_0x33dffa){const _0x6ccce3=a0_0x6ccc();return a0_0xfd7d=function(_0xfd7dc0,_0x28ccbb){_0xfd7dc0=_0xfd7dc0-0x1a8;let _0x18b8e2=_0x6ccce3[_0xfd7dc0];return _0x18b8e2;},a0_0xfd7d(_0x483f6e,_0x33dffa);}const __dirname=dirname(fileURLToPath(import.meta[a0_0x4f1a70(0x1ad)])),require=createRequire(__dirname),{name,author}=require(join(__dirname,a0_0x4f1a70(0x1c3))),{say}=a0_0x5188d9,rl=createInterface(process[a0_0x4f1a70(0x1b9)],process['stdout']);say('Mariana\x0abot',{'font':'chrome','align':a0_0x4f1a70(0x1c0),'gradient':['red',a0_0x4f1a70(0x1cd)]}),say(a0_0x4f1a70(0x1b8),{'font':'console','align':a0_0x4f1a70(0x1c0),'gradient':[a0_0x4f1a70(0x1a9),a0_0x4f1a70(0x1cd)]});let isRunning=![];function start(_0x2e2b58){const _0x4973bc=a0_0x4f1a70;if(isRunning)return;isRunning=!![];const _0x507187=[join(__dirname,_0x2e2b58),...process['argv'][_0x4973bc(0x1b2)](0x2)];setupMaster({'exec':_0x507187[0x0],'args':_0x507187[_0x4973bc(0x1b2)](0x1)});const _0x270a0e=fork();_0x270a0e['on'](_0x4973bc(0x1bd),_0x98d6ab=>{const _0x1392a4=_0x4973bc;console[_0x1392a4(0x1ce)]('[RECIBIDO]',_0x98d6ab);switch(_0x98d6ab){case _0x1392a4(0x1b1):_0x270a0e[_0x1392a4(0x1ac)][_0x1392a4(0x1b5)](),isRunning=![],start[_0x1392a4(0x1cc)](this,arguments);break;case _0x1392a4(0x1bc):_0x270a0e[_0x1392a4(0x1c6)](process[_0x1392a4(0x1bc)]());break;}}),_0x270a0e['on'](_0x4973bc(0x1cb),(_0x135f92,_0x216f51)=>{const _0x1aeff1=_0x4973bc;isRunning=![],console[_0x1aeff1(0x1af)](_0x1aeff1(0x1b6),_0x216f51),_0x270a0e[_0x1aeff1(0x1ac)]['kill'](),isRunning=![],start[_0x1aeff1(0x1cc)](this,arguments),process[_0x1aeff1(0x1b3)]['pm_id']?process[_0x1aeff1(0x1cb)](0x1):process[_0x1aeff1(0x1cb)]();});const _0x511a58=new Object(a0_0x2ff927(process[_0x4973bc(0x1b0)][_0x4973bc(0x1b2)](0x2))[_0x4973bc(0x1c4)](![])[_0x4973bc(0x1a8)]());!_0x511a58[_0x4973bc(0x1c8)]&&(!rl[_0x4973bc(0x1b4)]()&&rl['on'](_0x4973bc(0x1ba),_0x568299=>{const _0x2f1975=_0x4973bc;_0x270a0e[_0x2f1975(0x1bf)](_0x2f1975(0x1bd),_0x568299['trim']());}));}function a0_0x6ccc(){const _0x5ae875=['uptime','message','12727488FliUQG','emit','center','1HJKWKD','3738RbEttF','./package.json','exitProcess','12OXwzre','send','[\x20ℹ️\x20]\x20Iniciando...','test','7716zVZkqd','1581198lwRqSw','exit','apply','magenta','log','parse','red','main.js','17391940cOcURg','process','url','6801025yeyrGq','error','argv','reset','slice','env','listenerCount','kill','[\x20ℹ️\x20]\x20Ocurrio\x20un\x20error\x20inesperado:','1372002ddSKRw','Sun\x20Jin-Woo','stdin','line','5191002YrRTEN'];a0_0x6ccc=function(){return _0x5ae875;};return a0_0x6ccc();}start(a0_0x4f1a70(0x1aa));
+console.log('[ ℹ️ ] Iniciando...');
+import {join, dirname} from 'path';
+import {createRequire} from 'module';
+import {fileURLToPath} from 'url';
+import {setupMaster, fork} from 'cluster';
+import {watchFile, unwatchFile} from 'fs';
+import cfonts from 'cfonts';
+import {createInterface} from 'readline';
+import yargs from 'yargs';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const require = createRequire(__dirname);
+const {name, author} = require(join(__dirname, './package.json'));
+const {say} = cfonts;
+const rl = createInterface(process.stdin, process.stdout);
+
+say('Mariana\nbot', {
+  font: 'chrome',
+  align: 'center',
+  gradient: ['red', 'magenta']});
+say(`Sun Jin-Woo`, {
+  font: 'console',
+  align: 'center',
+  gradient: ['red', 'magenta']});
+
+let isRunning = false;
+/**
+* Start a js file
+* @param {String} file `path/to/file`
+*/
+function start(file) {
+  if (isRunning) return;
+  isRunning = true;
+  const args = [join(__dirname, file), ...process.argv.slice(2)];
+
+  /** say('[ ℹ️ ] Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
+    font: 'console',
+    align: 'center',
+    gradient: ['red', 'magenta']}); **/
+
+  setupMaster({
+    exec: args[0],
+    args: args.slice(1)});
+  const p = fork();
+  p.on('message', (data) => {
+    console.log('[RECIBIDO]', data);
+    switch (data) {
+      case 'reset':
+        p.process.kill();
+        isRunning = false;
+        start.apply(this, arguments);
+        break;
+      case 'uptime':
+        p.send(process.uptime());
+        break;
+    }
+  });
+  p.on('exit', (_, code) => {
+    isRunning = false;
+    console.error('[ ℹ️ ] Ocurrio un error inesperado:', code);
+
+    p.process.kill();
+    isRunning = false;
+    start.apply(this, arguments);
+
+    if (process.env.pm_id) {
+      process.exit(1);
+    } else {
+      process.exit();
+    }
+  });
+  const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
+  if (!opts['test']) {
+    if (!rl.listenerCount()) {
+      rl.on('line', (line) => {
+        p.emit('message', line.trim());
+      });
+    }
+  }
+}
+start('main.js');
