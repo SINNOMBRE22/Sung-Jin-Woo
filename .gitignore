@@ -6,7 +6,8 @@ tmp
 jadibts
 datasecret
 backups/
-plugins/backups
+plugins/backups/
+src/libraries/backups/
 
 # Ignora plugin sensibles
 plugins/supersecretlistener.js
