@@ -8,6 +8,7 @@ datasecret
 backups/
 plugins/backups/
 src/libraries/backups/
+lib/backups
 
 # Ignora plugin sensibles
 plugins/supersecretlistener.js
