@@ -12,7 +12,7 @@ global.confirmCode = ""
 
 global.owner = [   // Lista de dueños del bot[A
   ['5215629885039', 'Owner', true],  // Dueño principal (tu número personal)
-  ['5217971532324', 'COwner', true]  // Co-dueño (puede ser un amigo o ayudante)
+  ['5215629885039', 'COwner', true]  // Co-dueño (puede ser un amigo o ayudante)
 ];
 
 global.suittag = ['5215629885039']; // Usuarios que pueden usar comandos tipo "suit", "dard", etc.
