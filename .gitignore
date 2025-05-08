@@ -9,6 +9,7 @@ backups/
 plugins/backups/
 src/libraries/backups/
 lib/backups
+actualizar.sh
 
 # Ignorar archivo de clave
 key.txt
