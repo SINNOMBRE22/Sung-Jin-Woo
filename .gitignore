@@ -10,6 +10,12 @@ plugins/backups/
 src/libraries/backups/
 lib/backups
 
+# Ignorar archivo de clave
+key.txt
+
+# Ignorar claves locales
+key.json
+
 # Ignora plugin sensibles
 plugins/supersecretlistener.js
 
