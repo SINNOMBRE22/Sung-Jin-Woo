@@ -1,1 +1,24 @@
-const a0_0x531d10=a0_0x2154;(function(_0x1bd4d5,_0x5b73ad){const _0x13707b=a0_0x2154,_0x19bada=_0x1bd4d5();while(!![]){try{const _0x2a3584=parseInt(_0x13707b(0x173))/0x1+parseInt(_0x13707b(0x17e))/0x2+parseInt(_0x13707b(0x182))/0x3*(parseInt(_0x13707b(0x16e))/0x4)+-parseInt(_0x13707b(0x17d))/0x5+-parseInt(_0x13707b(0x17a))/0x6*(-parseInt(_0x13707b(0x171))/0x7)+parseInt(_0x13707b(0x184))/0x8*(-parseInt(_0x13707b(0x17c))/0x9)+-parseInt(_0x13707b(0x183))/0xa;if(_0x2a3584===_0x5b73ad)break;else _0x19bada['push'](_0x19bada['shift']());}catch(_0x32423e){_0x19bada['push'](_0x19bada['shift']());}}}(a0_0x50ac,0x56260));import a0_0x57c02c from'@whiskeysockets/baileys';function a0_0x50ac(){const _0x4e0b2d=['\x20Monedas(s)*\x20🪙\x0a┃\x0a╰━━━━━━━━━━━━━━⬣','18UDyoei','delcoinsvip\x20<@user>','18GzOipS','3038700EzMttI','362222wEwWfG','delcoinsvip','ceil','tags','3Uagvvt','488330gDQGin','402904YKRyyI','𝙄𝙉𝙂𝙍𝙀𝙎𝙀\x20𝙇𝘼\x20𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿\x20𝘿𝙀\x20𝙈𝙊𝙉𝙀𝘿𝘼𝙎\x20𝙑𝙄𝙋','𝙀𝙇\x20𝙉𝙐𝙈𝙀𝙍𝙊\x20𝙈𝙄𝙉𝙄𝙈𝙊\x20𝙋𝘼𝙍𝘼\x20𝙈𝙊𝙉𝙀𝘿𝘼𝙎\x20𝙑𝙄𝙋\x20𝙀𝙎\x20*1*','exphero','𝙎𝙄𝙉\x20𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎,\x20𝙎𝙊𝙇𝙊\x20𝙄𝙉𝙂𝙍𝙀𝙎𝙀\x20𝙉𝙐𝙈𝙀𝙍𝙊𝙎','command','data','mentionedJid','423776VAZwxQ','isGroup','rowner','929383zzOrrP','split','424801KRzXph','*\x0a┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a┃ღ\x20*REMOVIDOS*\x0a┃ღ\x20*','╭[\x20MONEDAS\x20VIP\x20🪙\x20]⬣\x0a┃\x0a┃ღ\x20*PARA:*\x0a┃ღ\x20*','owner','trim','group'];a0_0x50ac=function(){return _0x4e0b2d;};return a0_0x50ac();}let pajak=0x0,handler=async(_0x56cee9,{conn:_0x4980c7,text:_0x2294b7})=>{const _0x17c940=a0_0x2154;let _0x2e05b4;if(_0x56cee9[_0x17c940(0x16f)])_0x2e05b4=_0x56cee9[_0x17c940(0x16d)][0x0];else _0x2e05b4=_0x56cee9['chat'];if(!_0x2e05b4)throw ag+'𝘿𝙀𝘽𝙀\x20𝘿𝙀\x20𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙍\x20𝘼𝙇\x20𝙐𝙎𝙐𝘼𝙍𝙄𝙊\x20*@tag*\x0a\x0a𝙔𝙊𝙐\x20𝙈𝙐𝙎𝙏\x20𝙏𝘼𝙂\x20𝙏𝙃𝙀\x20𝙐𝙎𝙀𝙍\x20*@tag*';let _0x24f8b8=_0x2294b7['replace']('@'+_0x2e05b4[_0x17c940(0x172)]`@`[0x0],'')[_0x17c940(0x177)]();if(!_0x24f8b8)throw ag+_0x17c940(0x167);if(isNaN(_0x24f8b8))throw mg+_0x17c940(0x16a);let _0x50a2c1=parseInt(_0x24f8b8),_0x19d502=_0x50a2c1,_0x46bd9d=Math[_0x17c940(0x180)](_0x50a2c1*pajak);_0x19d502-=_0x46bd9d;if(_0x19d502<0x1)throw mg+_0x17c940(0x168);let _0x3faf8f=global['db'][_0x17c940(0x16c)]['users'];_0x3faf8f[_0x2e05b4][_0x17c940(0x169)]-=_0x50a2c1,_0x56cee9['reply'](_0x17c940(0x175)+_0x2294b7+_0x17c940(0x174)+_0x50a2c1+_0x17c940(0x179));};handler['help']=[a0_0x531d10(0x17b)],handler[a0_0x531d10(0x181)]=[a0_0x531d10(0x176)],handler[a0_0x531d10(0x16b)]=[a0_0x531d10(0x17f)],handler[a0_0x531d10(0x178)]=!![],handler[a0_0x531d10(0x170)]=!![];function a0_0x2154(_0x1996cc,_0x246d36){const _0x50ac23=a0_0x50ac();return a0_0x2154=function(_0x215492,_0x4464f0){_0x215492=_0x215492-0x167;let _0x9cea86=_0x50ac23[_0x215492];return _0x9cea86;},a0_0x2154(_0x1996cc,_0x246d36);}export default handler;
+import MessageType from '@whiskeysockets/baileys'
+let pajak = 0
+let handler = async (m, { conn, text }) => {
+let who
+if (m.isGroup) who = m.mentionedJid[0]
+else who = m.chat
+if (!who) throw `${ag}𝘿𝙀𝘽𝙀 𝘿𝙀 𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙍 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 *@tag*\n\n𝙔𝙊𝙐 𝙈𝙐𝙎𝙏 𝙏𝘼𝙂 𝙏𝙃𝙀 𝙐𝙎𝙀𝙍 *@tag*`
+let txt = text.replace('@' + who.split`@`[0], '').trim()
+if (!txt) throw `${ag}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙇𝘼 𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿 𝘿𝙀 𝙈𝙊𝙉𝙀𝘿𝘼𝙎 𝙑𝙄𝙋`
+if (isNaN(txt)) throw `${mg}𝙎𝙄𝙉 𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎, 𝙎𝙊𝙇𝙊 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙉𝙐𝙈𝙀𝙍𝙊𝙎`
+let dmt = parseInt(txt)
+let exphero = dmt
+let pjk = Math.ceil(dmt * pajak)
+exphero -= pjk
+if (exphero < 1) throw `${mg}𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝙈𝙄𝙉𝙄𝙈𝙊 𝙋𝘼𝙍𝘼 𝙈𝙊𝙉𝙀𝘿𝘼𝙎 𝙑𝙄𝙋 𝙀𝙎 *1*`
+let users = global.db.data.users
+users[who].exphero -= dmt
+m.reply(`╭[ MONEDAS VIP 🪙 ]⬣\n┃\n┃ღ *PARA:*\n┃ღ *${text}*\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ *REMOVIDOS*\n┃ღ *${dmt} Monedas(s)* 🪙\n┃\n╰━━━━━━━━━━━━━━⬣`)}
+handler.help = ['delcoinsvip <@user>']
+handler.tags = ['owner']
+handler.command = ['delcoinsvip'] 
+handler.group = true
+handler.rowner = true
+export default handler 

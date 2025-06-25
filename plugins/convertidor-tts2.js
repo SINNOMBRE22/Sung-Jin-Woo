@@ -1,1 +1,133 @@
-const a0_0x4fa74b=a0_0xb8e8;(function(_0x462afe,_0x5bf0cf){const _0x5c86c4=a0_0xb8e8,_0xffd6fd=_0x462afe();while(!![]){try{const _0x243d13=parseInt(_0x5c86c4(0xfd))/0x1+parseInt(_0x5c86c4(0xfb))/0x2*(parseInt(_0x5c86c4(0xfa))/0x3)+-parseInt(_0x5c86c4(0xf7))/0x4+parseInt(_0x5c86c4(0xe2))/0x5*(-parseInt(_0x5c86c4(0x104))/0x6)+-parseInt(_0x5c86c4(0x107))/0x7*(parseInt(_0x5c86c4(0x10b))/0x8)+parseInt(_0x5c86c4(0xf5))/0x9*(parseInt(_0x5c86c4(0x10e))/0xa)+-parseInt(_0x5c86c4(0xfe))/0xb*(-parseInt(_0x5c86c4(0x103))/0xc);if(_0x243d13===_0x5bf0cf)break;else _0xffd6fd['push'](_0xffd6fd['shift']());}catch(_0x4f234a){_0xffd6fd['push'](_0xffd6fd['shift']());}}}(a0_0x383c,0x4a51d));function a0_0x383c(){const _0x4b8f6f=['language','parse','texto2','tags','text/event-stream','json','plugins','reduce','texto4','SrgwcKcLzSY63IdsAxd1PzscFjL2','https://play.ht/api/v2/tts','convertidores','join','application/json','match','length','includes','27MmPdvg','GET','446056cAwxGP','fe2ee40099494579af0ecf871b5af266','gtts2','3azZjoX','1121854UmZdeN','Bearer\x20','460692QgBEde','11mqbKgS','data','chat','Error:','trim','2598852itIicC','683454pHZnQb','map','error','7jvFelG','texto3','[❗]\x20Error,\x20no\x20se\x20obtuvo\x20respuesta\x20de\x20la\x20API.','./language/','3963496xZrrPB','help','*\x0a*◉\x20','49670wnIYdB','texto7','sendMessage','resultado','.json','convertidor_tts2','15WDZVsB','command'];a0_0x383c=function(){return _0x4b8f6f;};return a0_0x383c();}import a0_0x40cb39 from'axios';import a0_0x1cf1f0 from'node-fetch';import a0_0xd444a8 from'fs';const handler=async(_0x30b589,{conn:_0x240d28,usedPrefix:_0x755f39,command:_0x2a9944,text:_0x86197a,args:_0x352aea})=>{const _0x4aa517=a0_0xb8e8,_0x25446b=global,_0x895e76=_0x25446b['db'][_0x4aa517(0xff)]['users'][_0x30b589['sender']][_0x4aa517(0xe4)],_0x3cb999=JSON[_0x4aa517(0xe5)](a0_0xd444a8['readFileSync'](_0x4aa517(0x10a)+_0x895e76+_0x4aa517(0xe0))),_0x49ced8=_0x3cb999[_0x4aa517(0xea)][_0x4aa517(0xe1)],[_0x4ac84f,..._0x3a11fd]=_0x86197a['split']('\x20'),_0x1e381b=_0x3a11fd[_0x4aa517(0xf0)]('\x20');if(!_0x4ac84f){let _0x9bbc9a=await getVoiceList(_0x49ced8),_0x62ffaf='*'+_0x49ced8['texto1']+'*\x0a';for(let _0x5b4cd8=0x0,_0x3d0370=0x0;_0x3d0370<0x64&&_0x5b4cd8<_0x9bbc9a['resultado'][_0x4aa517(0xf3)];_0x5b4cd8++){const _0x5cbe36=_0x9bbc9a['resultado'][_0x5b4cd8];_0x5cbe36['ID']&&_0x5cbe36['ID'][_0x4aa517(0xf3)]<=0x14&&(_0x62ffaf+='*◉\x20'+(_0x755f39+_0x2a9944)+'\x20'+_0x5cbe36['ID']+'\x20'+_0x49ced8[_0x4aa517(0xe6)]+'*\x0a',_0x3d0370++);}return _0x240d28['sendMessage'](_0x30b589[_0x4aa517(0x100)],{'text':_0x62ffaf[_0x4aa517(0x102)]()},{'quoted':_0x30b589});}let _0x4e5abe=![],_0xe0563c=await getVoiceList(_0x49ced8);for(const _0x2f75c7 of _0xe0563c[_0x4aa517(0x111)]){if(_0x2f75c7['ID']===_0x4ac84f){_0x4e5abe=!![];break;}}if(!_0x4e5abe)return _0x240d28[_0x4aa517(0x110)](_0x30b589['chat'],{'text':'*'+_0x49ced8[_0x4aa517(0x108)][0x0]+'\x20'+(_0x755f39+_0x2a9944)+'\x20'+_0x49ced8[_0x4aa517(0x108)][0x1]+'*'},{'quoted':_0x30b589});if(!_0x1e381b)return _0x240d28[_0x4aa517(0x110)](_0x30b589['chat'],{'text':'*'+_0x49ced8[_0x4aa517(0xec)][0x0]+_0x4aa517(0x10d)+(_0x755f39+_0x2a9944)+'\x20'+_0x4ac84f+'\x20'+_0x49ced8[_0x4aa517(0xec)][0x1]+'*'},{'quoted':_0x30b589});let _0x240557=await makeTTSRequest(_0x1e381b,_0x4ac84f,_0x49ced8);_0x240d28[_0x4aa517(0x110)](_0x30b589[_0x4aa517(0x100)],{'audio':{'url':_0x240557[_0x4aa517(0x111)]},'fileName':'voz.mp3','mimetype':'audio/mpeg','ptt':!![]},{'quoted':_0x30b589});};handler[a0_0x4fa74b(0x10c)]=[a0_0x4fa74b(0xf9)],handler[a0_0x4fa74b(0xe7)]=[a0_0x4fa74b(0xef)],handler[a0_0x4fa74b(0xe3)]=/^(g?tts2)$/i;function a0_0xb8e8(_0x8be7b3,_0xc2ca13){const _0x383c43=a0_0x383c();return a0_0xb8e8=function(_0xb8e80d,_0x73efe0){_0xb8e80d=_0xb8e80d-0xe0;let _0x161635=_0x383c43[_0xb8e80d];return _0x161635;},a0_0xb8e8(_0x8be7b3,_0xc2ca13);}export default handler;const secretKey=a0_0x4fa74b(0xf8),userId=a0_0x4fa74b(0xed);async function getVoiceList(_0x4eacf1){const _0x2abe27=a0_0x4fa74b,_0x156139='https://play.ht/api/v2/voices',_0x5645a4={'method':_0x2abe27(0xf6),'headers':{'accept':_0x2abe27(0xf1),'AUTHORIZATION':_0x2abe27(0xfc)+secretKey,'X-USER-ID':userId}};try{const _0xb77a5b=await a0_0x1cf1f0(_0x156139,_0x5645a4),_0x41646a=await _0xb77a5b[_0x2abe27(0xe9)](),_0xbbd780=_0x41646a[_0x2abe27(0xeb)]((_0x3dd4e0,_0x413289)=>{return!_0x3dd4e0['some'](_0x5cc06f=>_0x5cc06f['id']===_0x413289['id'])&&_0x3dd4e0['push'](_0x413289),_0x3dd4e0;},[]),_0x34245b=_0xbbd780[_0x2abe27(0x105)](_0x404d6d=>({'ID':_0x404d6d['id'],'name':_0x404d6d['name'],'lenguaje':_0x404d6d['language']}));return{'resultado':_0x34245b[_0x2abe27(0xf3)]?_0x34245b:[]};}catch(_0x21f9f0){return console[_0x2abe27(0x106)]('Error:',_0x21f9f0),{'resultado':[]};}}async function makeTTSRequest(_0x576584,_0x449933,_0x221815){const _0x515a1d=a0_0x4fa74b,_0x28524a={'text':_0x576584,'voice':_0x449933},_0x459028={'Authorization':_0x515a1d(0xfc)+secretKey,'X-User-Id':userId,'accept':_0x515a1d(0xe8),'content-type':'application/json'};try{const _0xff4846=await a0_0x40cb39['post'](_0x515a1d(0xee),_0x28524a,{'headers':_0x459028}),_0xf174b9=_0xff4846[_0x515a1d(0xff)]['split']('\x0d\x0a\x0d\x0a'),_0x10480e=_0xf174b9['find'](_0x4def2b=>_0x4def2b[_0x515a1d(0xf4)]('\x22stage\x22:\x22complete\x22')),_0x220056=_0x10480e[_0x515a1d(0xf2)](/"url":"([^"]+)"/),_0x4011b0=_0x220056?_0x220056[0x1]:null;return{'resultado':_0x4011b0?_0x4011b0:''+_0x221815[_0x515a1d(0x10f)]};}catch(_0x34bac1){return console['error'](_0x515a1d(0x101),_0x34bac1),{'resultado':_0x515a1d(0x109)};}}
+/*//////////////////////////////////////////////
+
+        [ ❗ ] CREADOR - NO BORRAR [ ❗ ]
+
+            Código hecho por @SinNombre
+        Github: https://github.com/SinNombre
+
+        Nota: Los efectos están solo en inglés,
+        así que los textos en otros idiomas
+        pueden sonar extraños.
+
+//////////////////////////////////////////////*/
+
+import axios from 'axios';
+import fetch from 'node-fetch';
+import fs from 'fs';
+
+const handler = async (m, { conn, usedPrefix, command, text, args }) => {
+  const datas = global;
+  const idioma = datas.db.data.users[m.sender].language;
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`));
+  const tradutor = _translate.plugins.convertidor_tts2;
+
+  const [efecto, ...textoArray] = text.split(" ");
+  const texto = textoArray.join(" ");
+
+  if (!efecto) {
+    let voiceList = await getVoiceList(tradutor);
+    let responseText = `*${tradutor.texto1}*\n`;
+
+    for (let i = 0, count = 0; count < 100 && i < voiceList.resultado.length; i++) {
+      const entry = voiceList.resultado[i];
+      // Verifica que exista entry.ID antes de acceder a su longitud
+      if (entry.ID && entry.ID.length <= 20) {
+        responseText += `*◉ ${usedPrefix + command} ${entry.ID} ${tradutor.texto2}*\n`;
+        count++;
+      }
+    }
+
+    return conn.sendMessage(m.chat, { text: responseText.trim() }, { quoted: m });
+  }
+
+  let efectoValido = false;
+  let voiceList = await getVoiceList(tradutor);
+  for (const entry of voiceList.resultado) {
+    if (entry.ID === efecto) {
+      efectoValido = true;
+      break;
+    }
+  }
+
+  if (!efectoValido)
+    return conn.sendMessage(
+      m.chat,
+      { text: `*${tradutor.texto3[0]} ${usedPrefix + command} ${tradutor.texto3[1]}*` },
+      { quoted: m }
+    );
+
+  if (!texto)
+    return conn.sendMessage(
+      m.chat,
+      { text: `*${tradutor.texto4[0]}*\n*◉ ${usedPrefix + command} ${efecto} ${tradutor.texto4[1]}*` },
+      { quoted: m }
+    );
+
+  let masivo = await makeTTSRequest(texto, efecto, tradutor);
+  conn.sendMessage(
+    m.chat,
+    { audio: { url: masivo.resultado }, fileName: 'voz.mp3', mimetype: 'audio/mpeg', ptt: true },
+    { quoted: m }
+  );
+};
+
+handler.help = ['gtts2'];
+handler.tags = ['convertidores'];
+handler.command = /^(g?tts2)$/i;
+export default handler;
+
+const secretKey = 'fe2ee40099494579af0ecf871b5af266';
+const userId = 'SrgwcKcLzSY63IdsAxd1PzscFjL2';
+
+async function getVoiceList(tradutor) {
+  const url = 'https://play.ht/api/v2/voices';
+  const options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      AUTHORIZATION: `Bearer ${secretKey}`,
+      'X-USER-ID': userId
+    }
+  };
+  try {
+    const response = await fetch(url, options);
+    const responseData = await response.json(); 
+    const uniqueData = responseData.reduce((acc, current) => {
+      if (!acc.some(item => item.id === current.id)) {
+        acc.push(current);
+      }
+      return acc;
+    }, []);
+    const simplifiedList = uniqueData.map(entry => ({
+      ID: entry.id,
+      name: entry.name,
+      lenguaje: entry.language  
+    }));
+    // Devuelve la lista simplificada, o un array vacío si no hay datos
+    return { resultado: simplifiedList.length ? simplifiedList : [] };
+  } catch (error) {
+    console.error('Error:', error);
+    return { resultado: [] };
+  }
+}
+
+async function makeTTSRequest(texto, efecto, tradutor) {
+  const requestData = { text: texto, voice: efecto };
+  const headers = {
+    'Authorization': `Bearer ${secretKey}`,
+    'X-User-Id': userId,
+    'accept': 'text/event-stream',
+    'content-type': 'application/json'
+  };
+  try {
+    const response = await axios.post('https://play.ht/api/v2/tts', requestData, { headers });
+    const events = response.data.split('\r\n\r\n');
+    const eventData = events.find(event => event.includes('"stage":"complete"'));
+    const urlMatch = eventData.match(/"url":"([^"]+)"/);
+    const url = urlMatch ? urlMatch[1] : null;
+    return { resultado: url ? url : `${tradutor.texto7}` };
+  } catch (error) {
+    console.error('Error:', error);
+    return { resultado: '[❗] Error, no se obtuvo respuesta de la API.' };
+  }
+}

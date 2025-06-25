@@ -1,1 +1,30 @@
-const a0_0x25535b=a0_0x7992;function a0_0x7992(_0x3227b2,_0x55bfa9){const _0x1c5f27=a0_0x1c5f();return a0_0x7992=function(_0x799236,_0x18d0ad){_0x799236=_0x799236-0xf3;let _0x30ba12=_0x1c5f27[_0x799236];return _0x30ba12;},a0_0x7992(_0x3227b2,_0x55bfa9);}(function(_0x28ffd0,_0xafda81){const _0x1a071c=a0_0x7992,_0x489220=_0x28ffd0();while(!![]){try{const _0x2f6ccf=parseInt(_0x1a071c(0xf8))/0x1+-parseInt(_0x1a071c(0x107))/0x2+-parseInt(_0x1a071c(0xfc))/0x3*(parseInt(_0x1a071c(0x109))/0x4)+parseInt(_0x1a071c(0x103))/0x5+parseInt(_0x1a071c(0x100))/0x6+-parseInt(_0x1a071c(0x10c))/0x7*(parseInt(_0x1a071c(0xff))/0x8)+parseInt(_0x1a071c(0xfa))/0x9*(parseInt(_0x1a071c(0x10d))/0xa);if(_0x2f6ccf===_0xafda81)break;else _0x489220['push'](_0x489220['shift']());}catch(_0x3e7f3d){_0x489220['push'](_0x489220['shift']());}}}(a0_0x1c5f,0xb686d));import a0_0x468ac4 from'node-fetch';import{sticker}from'../lib/sticker.js';function a0_0x1c5f(){const _0x4beae8=['27xcPtrc','data','4278027mXIdrn','language','result','9304CBKIvn','1154196ZzGMzp','chat','users','3890460zWrMbO','json','tags','packname','1396120HuZxYL','downloader_stickerpack','4HyIXGs','.json','https://api.akuari.my.id/downloader/stickerpack?link=','5999YBQTjX','9127160oYwzQE','help','reply','sender','downloader','readFileSync','parse','texto1','159783sFFLgL','texto2'];a0_0x1c5f=function(){return _0x4beae8;};return a0_0x1c5f();}const handler=async(_0x1d6834,{conn:_0x4f2ce0,text:_0x35c642,usedPrefix:_0x1e34fd,command:_0x36be66})=>{const _0x2f216f=a0_0x7992,_0x26eb8f=global,_0x130791=_0x26eb8f['db'][_0x2f216f(0xfb)][_0x2f216f(0x102)][_0x1d6834[_0x2f216f(0xf3)]][_0x2f216f(0xfd)],_0x4ee2a0=JSON[_0x2f216f(0xf6)](fs[_0x2f216f(0xf5)]('./language/'+_0x130791+_0x2f216f(0x10a))),_0x5ecd36=_0x4ee2a0['plugins'][_0x2f216f(0x108)];if(!_0x35c642)throw _0x5ecd36[_0x2f216f(0xf7)]+'\x20'+(_0x1e34fd+_0x36be66)+'*\x20https://getstickerpack.com/stickers/flork-memes-4-1';try{const _0x45a246=_0x35c642,_0x35ded5=await a0_0x468ac4(_0x2f216f(0x10b)+_0x45a246),_0x12ec86=await _0x35ded5[_0x2f216f(0x104)]();for(const _0x232dc7 of _0x12ec86[_0x2f216f(0xfe)]||_0x12ec86){const _0x1b66eb=await sticker(![],_0x232dc7,global[_0x2f216f(0x106)],global['author']);_0x4f2ce0['sendFile'](_0x1d6834[_0x2f216f(0x101)],_0x1b66eb,null,{'asSticker':!![]},_0x1d6834,!![],{'contextInfo':{'forwardingScore':0xc8,'isForwarded':!![]}},{'quoted':_0x1d6834});}}catch{await _0x1d6834[_0x2f216f(0x10f)](''+_0x5ecd36[_0x2f216f(0xf9)]);}};handler[a0_0x25535b(0x10e)]=['stickerpack'],handler[a0_0x25535b(0x105)]=[a0_0x25535b(0xf4)],handler['command']=/^stickerpack$/i;export default handler;
+/* By https://github.com/ALBERTO9883/NyanCatBot-MD */
+import fetch from 'node-fetch';
+import {sticker} from '../lib/sticker.js';
+
+
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.downloader_stickerpack
+
+  if (!text) throw `${tradutor.texto1} ${usedPrefix + command}* https://getstickerpack.com/stickers/flork-memes-4-1`;
+  try {
+    const url = text;
+    const res = await fetch(`https://api.akuari.my.id/downloader/stickerpack?link=${url}`);
+    const json = await res.json();
+    for (const data of (json.result || json)) {
+      const stikers = await sticker(false, data, global.packname, global.author);
+      conn.sendFile(m.chat, stikers, null, {asSticker: true}, m, true, {contextInfo: {'forwardingScore': 200, 'isForwarded': true}}, {quoted: m});
+      // await delay(1500)
+    }
+  } catch {
+    await m.reply(`${tradutor.texto2}`);
+  }
+};
+handler.help = ['stickerpack'];
+handler.tags = ['downloader'];
+handler.command = /^stickerpack$/i;
+export default handler;
+// const delay = time => new Promise(res => setTimeout(res, time))

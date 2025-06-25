@@ -1,1 +1,15 @@
-const a0_0x199b2c=a0_0x5144;(function(_0x4def13,_0x3c04a){const _0x5628ec=a0_0x5144,_0x33efa9=_0x4def13();while(!![]){try{const _0x392ebd=-parseInt(_0x5628ec(0xc7))/0x1*(parseInt(_0x5628ec(0xc4))/0x2)+-parseInt(_0x5628ec(0xbf))/0x3+parseInt(_0x5628ec(0xc6))/0x4+-parseInt(_0x5628ec(0xb2))/0x5+parseInt(_0x5628ec(0xbd))/0x6*(-parseInt(_0x5628ec(0xb8))/0x7)+-parseInt(_0x5628ec(0xbe))/0x8+-parseInt(_0x5628ec(0xc0))/0x9*(-parseInt(_0x5628ec(0xc2))/0xa);if(_0x392ebd===_0x3c04a)break;else _0x33efa9['push'](_0x33efa9['shift']());}catch(_0x307189){_0x33efa9['push'](_0x33efa9['shift']());}}}(a0_0x361f,0x3ef0b));const handler=async _0x21b043=>{const _0xdefd49=a0_0x5144,_0x563a30=global,_0x6d7059=_0x563a30['db']['data'][_0xdefd49(0xb7)][_0x21b043['sender']][_0xdefd49(0xbb)],_0x1e3576=JSON[_0xdefd49(0xc1)](fs[_0xdefd49(0xb1)]('./language/'+_0x6d7059+_0xdefd49(0xb5))),_0x322b02=_0x1e3576[_0xdefd49(0xb0)][_0xdefd49(0xc5)];global['db'][_0xdefd49(0xb3)]['chats'][_0x21b043['chat']]['isBanned']=!![],_0x21b043['reply'](_0x322b02[_0xdefd49(0xc3)]);};handler[a0_0x199b2c(0xb4)]=[a0_0x199b2c(0xba)],handler[a0_0x199b2c(0xb9)]=[a0_0x199b2c(0xbc)],handler[a0_0x199b2c(0xb6)]=/^banchat$/i,handler['rowner']=!![];export default handler;function a0_0x5144(_0x4b7246,_0x305296){const _0x361f20=a0_0x361f();return a0_0x5144=function(_0x514499,_0x27470f){_0x514499=_0x514499-0xb0;let _0xbf129a=_0x361f20[_0x514499];return _0xbf129a;},a0_0x5144(_0x4b7246,_0x305296);}function a0_0x361f(){const _0x5c50b8=['2964880rrBcdx','1390023RNcjYZ','13004757GEIsOV','parse','10SUUmen','texto1','2EOUgIc','owner_banchat','2059404uKwXaP','90608ZVYpFy','plugins','readFileSync','1810035BVwJKv','data','help','.json','command','users','969395hYyJmK','tags','banchat','language','owner','18CIWeFG'];a0_0x361f=function(){return _0x5c50b8;};return a0_0x361f();}
+
+const handler = async (m) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_banchat
+
+  global.db.data.chats[m.chat].isBanned = true;
+  m.reply(tradutor.texto1);
+};
+handler.help = ['banchat'];
+handler.tags = ['owner'];
+handler.command = /^banchat$/i;
+handler.rowner = true;
+export default handler;

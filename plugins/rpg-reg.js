@@ -1,1 +1,37 @@
-const a0_0x2d06dc=a0_0x32c7;(function(_0x151b09,_0x437f06){const _0x5ccb40=a0_0x32c7,_0x921d2d=_0x151b09();while(!![]){try{const _0x5bc5b7=-parseInt(_0x5ccb40(0xae))/0x1*(parseInt(_0x5ccb40(0xb8))/0x2)+-parseInt(_0x5ccb40(0xba))/0x3+parseInt(_0x5ccb40(0xb1))/0x4*(-parseInt(_0x5ccb40(0xbd))/0x5)+parseInt(_0x5ccb40(0xbc))/0x6+parseInt(_0x5ccb40(0xb4))/0x7+parseInt(_0x5ccb40(0xaf))/0x8+parseInt(_0x5ccb40(0xc1))/0x9;if(_0x5bc5b7===_0x437f06)break;else _0x921d2d['push'](_0x921d2d['shift']());}catch(_0xe4b70e){_0x921d2d['push'](_0x921d2d['shift']());}}}(a0_0x3b13,0xb5684));import{createHash}from'crypto';function a0_0x3b13(){const _0x3d56ed=['sendMessage','6201265XgDoQT','money','help','texto1','212KBLaXY','sender','4106034iQHRHa','tags','8654814SivJvY','5dbiHnR','update','chat','main','976185ibEQzx','myns','*[❗INFO❗]\x20Su\x20número\x20de\x20serie\x20es:*\x20','digest','data','exp','6683sQYLQU','3560592fLKZNA','users','247132MgpuSx','registered'];a0_0x3b13=function(){return _0x3d56ed;};return a0_0x3b13();}const handler=async function(_0x2a0a4d,{conn:_0x560806,text:_0x4ac1be,usedPrefix:_0x2132b2,command:_0x29f0b4}){const _0x2312a6=a0_0x32c7,_0x4c35b9=global,_0x451d90=global['db'][_0x2312a6(0xac)][_0x2312a6(0xb0)][_0x2a0a4d[_0x2312a6(0xb9)]],_0x271d62={'texto1':'*[❗INFO❗]\x20Por\x20favor,\x20registrese\x20antes\x20de\x20solicitar\x20el\x20número\x20de\x20serie.*','texto2':_0x2312a6(0xc3)};if(!_0x451d90[_0x2312a6(0xb2)])throw''+_0x271d62[_0x2312a6(0xb7)];const _0x4235fa=createHash('md5')[_0x2312a6(0xbe)](_0x2a0a4d[_0x2312a6(0xb9)])[_0x2312a6(0xab)]('hex'),_0x56c09d=_0x271d62['texto2']+'\x20'+_0x4235fa;await _0x560806[_0x2312a6(0xb3)](_0x2a0a4d[_0x2312a6(0xbf)],{'text':_0x56c09d}),global['db'][_0x2312a6(0xac)]['users'][_0x2a0a4d[_0x2312a6(0xb9)]][_0x2312a6(0xb5)]+=0x2710,global['db']['data'][_0x2312a6(0xb0)][_0x2a0a4d[_0x2312a6(0xb9)]][_0x2312a6(0xad)]+=0x2710;};handler[a0_0x2d06dc(0xb6)]=[a0_0x2d06dc(0xc2)],handler[a0_0x2d06dc(0xbb)]=[a0_0x2d06dc(0xc0)],handler['command']=/^(myns)$/i;function a0_0x32c7(_0x55177d,_0x3af5f3){const _0x3b1381=a0_0x3b13();return a0_0x32c7=function(_0x32c75a,_0x4ad648){_0x32c75a=_0x32c75a-0xab;let _0x78a3bb=_0x3b1381[_0x32c75a];return _0x78a3bb;},a0_0x32c7(_0x55177d,_0x3af5f3);}export default handler;
+import { createHash } from 'crypto';
+
+const handler = async function (m, { conn, text, usedPrefix, command }) {
+  const datas = global;
+  const user = global.db.data.users[m.sender];
+
+  // Definir los mensajes propios directamente en el código
+  const mensajes = {
+    texto1: "*[❗INFO❗] Por favor, registrese antes de solicitar el número de serie.*",
+    texto2: "*[❗INFO❗] Su número de serie es:* "
+  };
+
+  // Verificar si el usuario está registrado
+  if (!user.registered) {
+    // Si no está registrado, muestra el mensaje propio de no registrado
+    throw `${mensajes.texto1}`;
+  }
+
+  // Recuperar el número de serie del usuario (md5 generado desde m.sender)
+  const sn = createHash('md5').update(m.sender).digest('hex');
+  
+  // Mensaje de respuesta con el número de serie utilizando mensajes propios
+  const caption = `${mensajes.texto2} ${sn}`;
+
+  // Enviar el mensaje con el número de serie
+  await conn.sendMessage(m.chat, { text: caption });
+
+  // Aquí podrías incluir recompensas si lo deseas
+  global.db.data.users[m.sender].money += 10000;
+  global.db.data.users[m.sender].exp += 10000;
+};
+
+handler.help = ['myns'];  // Comando que activa la función
+handler.tags = ['main'];
+handler.command = /^(myns)$/i;  // El comando #myns
+
+export default handler;

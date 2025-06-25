@@ -1,1 +1,110 @@
-const a0_0x61c824=a0_0x3d28;function a0_0x11af(){const _0x3d5341=['error','16808xhyPRz','subdoms_','4728WFBJnb','status','flatMap','chat','netfree','dev','351WQYPiB','177666CmOzDy','\x20(no)\x20⚠️','split','utf8','http://','\x20(si)\x20✅','trim','map','&output=json','unlinkSync','api','sendMessage','mobile','data','proscan\x20<domain>','https://','\x20(error)\x20❌','298880iXDkWx','from','https://crt.sh/?q=%.','length','⚔️\x20*Error:*\x20Debes\x20ingresar\x20un\x20dominio,\x20por\x20ejemplo\x20`proscan\x20example.com`','6363372dTfmCN','11dscxXo','www','filter','help','replace','host','tags','yes','react','admin','reply','result','get','writeFileSync','command','isArray','readFileSync','.txt','❌\x20No\x20se\x20encontraron\x20subdominios\x20para\x20','292kWMrux','matchAll','⚠️\x20Ocurrió\x20un\x20error\x20interno.\x20Intenta\x20más\x20tarde.','45108znRySP','138deGClh','🕰️','all','105xoWgCY','5205rGGaRs'];a0_0x11af=function(){return _0x3d5341;};return a0_0x11af();}(function(_0x288a9b,_0x14c938){const _0xa57e90=a0_0x3d28,_0x24b66d=_0x288a9b();while(!![]){try{const _0x387448=parseInt(_0xa57e90(0x93))/0x1*(parseInt(_0xa57e90(0x8b))/0x2)+parseInt(_0xa57e90(0x8a))/0x3+parseInt(_0xa57e90(0x87))/0x4*(-parseInt(_0xa57e90(0x8f))/0x5)+parseInt(_0xa57e90(0x9a))/0x6*(-parseInt(_0xa57e90(0x8e))/0x7)+-parseInt(_0xa57e90(0x91))/0x8*(parseInt(_0xa57e90(0x99))/0x9)+-parseInt(_0xa57e90(0xab))/0xa+parseInt(_0xa57e90(0x74))/0xb*(parseInt(_0xa57e90(0x73))/0xc);if(_0x387448===_0x14c938)break;else _0x24b66d['push'](_0x24b66d['shift']());}catch(_0x1baadb){_0x24b66d['push'](_0x24b66d['shift']());}}}(a0_0x11af,0x3a7cc));import a0_0x4a6075 from'axios';function a0_0x3d28(_0x173135,_0x3fc706){const _0x11af49=a0_0x11af();return a0_0x3d28=function(_0x3d28bc,_0x47b58e){_0x3d28bc=_0x3d28bc-0x73;let _0x4fad46=_0x11af49[_0x3d28bc];return _0x4fad46;},a0_0x3d28(_0x173135,_0x3fc706);}import a0_0x56d714 from'fs';async function checkHost(_0x359f05){const _0x524818=a0_0x3d28,_0x519534={'timeout':0x2710,'validateStatus':()=>!![]};let _0x2d05f1;try{_0x2d05f1=await a0_0x4a6075['get'](_0x524818(0xa9)+_0x359f05,_0x519534);}catch{try{_0x2d05f1=await a0_0x4a6075[_0x524818(0x80)](_0x524818(0x9e)+_0x359f05,_0x519534);}catch{return{'host':_0x359f05,'result':'error'};}}const _0x216b46=typeof _0x2d05f1[_0x524818(0xa7)]==='string'?_0x2d05f1[_0x524818(0xa7)]:'',_0x10918c=_0x216b46['includes']('Please\x20check\x20that\x20this\x20domain\x20has\x20been\x20added\x20to\x20a\x20service');return{'host':_0x359f05,'result':_0x10918c?'yes':'no'};}async function fetchCrtsh(_0x34675d){const _0x53d1c1=a0_0x3d28;try{const _0x492164=await a0_0x4a6075['get']('https://crt.sh/?q=%.'+_0x34675d+_0x53d1c1(0xa2),{'headers':{'Accept':'application/json'},'timeout':0x3a98});if(Array[_0x53d1c1(0x83)](_0x492164[_0x53d1c1(0xa7)])&&_0x492164[_0x53d1c1(0xa7)][_0x53d1c1(0xae)])return _0x492164['data'][_0x53d1c1(0x95)](_0x37ea01=>_0x37ea01['name_value'][_0x53d1c1(0x9c)]('\x0a'))[_0x53d1c1(0xa1)](_0x4b9250=>_0x4b9250[_0x53d1c1(0x78)](/^\*\./,'')[_0x53d1c1(0xa0)]())[_0x53d1c1(0x76)](Boolean);}catch{}const _0x100ed4=(await a0_0x4a6075[_0x53d1c1(0x80)](_0x53d1c1(0xad)+_0x34675d,{'timeout':0x3a98}))[_0x53d1c1(0xa7)];return Array[_0x53d1c1(0xac)](new Set([..._0x100ed4[_0x53d1c1(0x88)](/<TD>([0-9A-Za-z._-]+)<\/TD>/g)][_0x53d1c1(0xa1)](_0x39aee4=>_0x39aee4[0x1][_0x53d1c1(0x78)](/^\*\./,''))));}async function fetchSonar(_0x1fe9d7){const _0x578ce9=a0_0x3d28;try{const _0x11dab7=await a0_0x4a6075[_0x578ce9(0x80)]('https://sonar.omnisint.io/subdomains/'+_0x1fe9d7,{'timeout':0x2710});if(Array[_0x578ce9(0x83)](_0x11dab7[_0x578ce9(0xa7)]))return _0x11dab7['data'];}catch{}return[];}function makeBrute(_0x2ea7bf){const _0x296cf4=a0_0x3d28;return[_0x296cf4(0x75),_0x296cf4(0xa4),_0x296cf4(0x77),_0x296cf4(0x94),_0x296cf4(0xa6),_0x296cf4(0x98),_0x296cf4(0x7d)][_0x296cf4(0xa1)](_0x462d86=>_0x462d86+'.'+_0x2ea7bf);}let handler=async(_0x459908,{conn:_0x1ed0a3,text:_0x1a6342})=>{const _0x530922=a0_0x3d28;if(!_0x1a6342)return _0x459908[_0x530922(0x7e)](_0x530922(0xaf));const _0xbfa387=_0x1a6342[_0x530922(0xa0)](),_0x1699a1=await _0x459908[_0x530922(0x7e)]('🕰️\x20Recolectando\x20subdominios…');await _0x459908[_0x530922(0x7c)](_0x530922(0x8c));try{const [_0xa7e9e0,_0x49b840]=await Promise['all']([fetchCrtsh(_0xbfa387),fetchSonar(_0xbfa387)]),_0x32be8a=Array[_0x530922(0xac)](new Set([..._0xa7e9e0,..._0x49b840,...makeBrute(_0xbfa387)]));if(!_0x32be8a['length']){await _0x459908[_0x530922(0x7e)](_0x530922(0x86)+_0xbfa387+'.');return;}const _0x1a0163=await Promise[_0x530922(0x8d)](_0x32be8a['map'](checkHost)),_0x221a11=_0x1a0163[_0x530922(0xa1)](_0x3c3122=>{const _0x4caf6f=_0x530922;if(_0x3c3122['result']===_0x4caf6f(0x7b))return _0x3c3122[_0x4caf6f(0x79)]+_0x4caf6f(0x9f);if(_0x3c3122[_0x4caf6f(0x7f)]==='no')return _0x3c3122[_0x4caf6f(0x79)]+_0x4caf6f(0x9b);return _0x3c3122['host']+_0x4caf6f(0xaa);}),_0x88f7c2=_0x530922(0x92)+_0xbfa387+_0x530922(0x85);a0_0x56d714[_0x530922(0x81)](_0x88f7c2,_0x221a11['join']('\x0a'),_0x530922(0x9d)),await _0x1ed0a3[_0x530922(0xa5)](_0x459908[_0x530922(0x96)],{'document':a0_0x56d714[_0x530922(0x84)](_0x88f7c2),'fileName':_0x88f7c2,'mimetype':'text/plain'},{'quoted':_0x459908}),a0_0x56d714[_0x530922(0xa3)](_0x88f7c2);}catch(_0x2a5bbe){console[_0x530922(0x90)](_0x2a5bbe),await _0x459908[_0x530922(0x7e)](_0x530922(0x89));}finally{await _0x1699a1['delete']();}};handler[a0_0x61c824(0x77)]=[a0_0x61c824(0xa8)],handler[a0_0x61c824(0x7a)]=[a0_0x61c824(0x97)],handler[a0_0x61c824(0x82)]=/^(scan2|proscan)$/i;export default handler;
+import axios from 'axios';
+import fs from 'fs';
+
+// 1) Comprueba un host igual que tu Python: HTTPS → HTTP, luego busca texto “Please check…”
+async function checkHost(user) {
+  const opts = { timeout: 10000, validateStatus: () => true };
+  let res;
+  try {
+    res = await axios.get(`https://${user}`, opts);
+  } catch {
+    try {
+      res = await axios.get(`http://${user}`, opts);
+    } catch {
+      // Ninguno respondió: error
+      return { host: user, result: 'error' };
+    }
+  }
+  const html = typeof res.data === 'string' ? res.data : '';
+  const found = html.includes('Please check that this domain has been added to a service');
+  return { host: user, result: found ? 'yes' : 'no' };
+}
+
+// 2) Extrae subdominios de crt.sh (JSON + scraping HTML)  
+async function fetchCrtsh(domain) {
+  try {
+    const r = await axios.get(
+      `https://crt.sh/?q=%.${domain}&output=json`,
+      { headers: { Accept: 'application/json' }, timeout: 15000 }
+    );
+    if (Array.isArray(r.data) && r.data.length) {
+      return r.data
+        .flatMap(e => e.name_value.split('\n'))
+        .map(s => s.replace(/^\*\./, '').trim())
+        .filter(Boolean);
+    }
+  } catch {}
+  const html = (await axios.get(`https://crt.sh/?q=%.${domain}`, { timeout:15000 })).data;
+  return Array.from(new Set(
+    [...html.matchAll(/<TD>([0-9A-Za-z._-]+)<\/TD>/g)]
+      .map(m => m[1].replace(/^\*\./, ''))
+  ));
+}
+
+// 3) Obtiene subdominios de OmniSINT (Project Sonar)
+async function fetchSonar(domain) {
+  try {
+    const r = await axios.get(`https://sonar.omnisint.io/subdomains/${domain}`, { timeout:10000 });
+    if (Array.isArray(r.data)) return r.data;
+  } catch {}
+  return [];
+}
+
+// 4) Wordlist ligera para brute-force
+function makeBrute(domain) {
+  return ['www','api','help','status','mobile','dev','admin']
+    .map(w => `${w}.${domain}`);
+}
+
+let handler = async (m, { conn, text }) => {
+  if (!text) {
+    return m.reply('⚔️ *Error:* Debes ingresar un dominio, por ejemplo `proscan example.com`');
+  }
+
+  const domain = text.trim();
+  const pm = await m.reply('🕰️ Recolectando subdominios…');
+  await m.react('🕰️');
+
+  try {
+    // 1) juntamos fuentes y bruce-force
+    const [a,b] = await Promise.all([fetchCrtsh(domain), fetchSonar(domain)]);
+    const subs = Array.from(new Set([...a, ...b, ...makeBrute(domain)]));
+
+    if (!subs.length) {
+      await m.reply(`❌ No se encontraron subdominios para ${domain}.`);
+      return;
+    }
+
+    // 2) chequeamos cada uno con la misma lógica textual de tu Python
+    const results = await Promise.all(subs.map(checkHost));
+
+    // 3) formateamos igual: “host: yes/no/error” y añadimos emoji
+    const lines = results.map(r => {
+      if (r.result === 'yes') return `${r.host} (si) ✅`;
+      if (r.result === 'no')  return `${r.host} (no) ⚠️`;
+      return `${r.host} (error) ❌`;
+    });
+
+    // 4) guardamos y enviamos SOLO el archivo .txt
+    const fn = `subdoms_${domain}.txt`;
+    fs.writeFileSync(fn, lines.join('\n'), 'utf8');
+    await conn.sendMessage(
+      m.chat,
+      { document: fs.readFileSync(fn), fileName: fn, mimetype:'text/plain' },
+      { quoted: m }
+    );
+    fs.unlinkSync(fn);
+
+  } catch (e) {
+    console.error(e);
+    await m.reply('⚠️ Ocurrió un error interno. Intenta más tarde.');
+  } finally {
+    await pm.delete();
+  }
+};
+
+handler.help = ['proscan <domain>'];
+handler.tags = ['netfree'];
+handler.command = /^(scan2|proscan)$/i;
+
+export default handler;

@@ -1,1 +1,29 @@
-const a0_0x5190da=a0_0x4ff2;(function(_0x491fb8,_0x50f386){const _0x1be514=a0_0x4ff2,_0x2e1fc1=_0x491fb8();while(!![]){try{const _0x4cb617=-parseInt(_0x1be514(0x1c8))/0x1+-parseInt(_0x1be514(0x1d0))/0x2*(-parseInt(_0x1be514(0x1d5))/0x3)+parseInt(_0x1be514(0x1c1))/0x4*(parseInt(_0x1be514(0x1d4))/0x5)+parseInt(_0x1be514(0x1d8))/0x6+parseInt(_0x1be514(0x1da))/0x7+parseInt(_0x1be514(0x1d1))/0x8+-parseInt(_0x1be514(0x1ce))/0x9;if(_0x4cb617===_0x50f386)break;else _0x2e1fc1['push'](_0x2e1fc1['shift']());}catch(_0x136594){_0x2e1fc1['push'](_0x2e1fc1['shift']());}}}(a0_0x4ef8,0x7ec12));const xpperlimit=0x15e,handler=async(_0x5189e3,{conn:_0x2173f7,command:_0x4c5036,args:_0x252ddc})=>{const _0x2b5117=a0_0x4ff2,_0x35d154=global,_0x583d13=_0x35d154['db'][_0x2b5117(0x1bf)][_0x2b5117(0x1c4)][_0x5189e3[_0x2b5117(0x1de)]][_0x2b5117(0x1c5)],_0x3e5a7f=JSON[_0x2b5117(0x1c0)](fs['readFileSync'](_0x2b5117(0x1d3)+_0x583d13+'.json')),_0x13409d=_0x3e5a7f[_0x2b5117(0x1c3)][_0x2b5117(0x1d6)];let _0x28131e=_0x4c5036[_0x2b5117(0x1d7)](/^buy/i,'');_0x28131e=_0x28131e?/all/i[_0x2b5117(0x1c7)](_0x28131e)?Math[_0x2b5117(0x1dd)](global['db']['data']['users'][_0x5189e3[_0x2b5117(0x1de)]][_0x2b5117(0x1ca)]/xpperlimit):parseInt(_0x28131e):_0x252ddc[0x0]?parseInt(_0x252ddc[0x0]):0x1,_0x28131e=Math['max'](0x1,_0x28131e);if(global['db'][_0x2b5117(0x1bf)][_0x2b5117(0x1c4)][_0x5189e3['sender']][_0x2b5117(0x1ca)]>=xpperlimit*_0x28131e)global['db'][_0x2b5117(0x1bf)][_0x2b5117(0x1c4)][_0x5189e3[_0x2b5117(0x1de)]]['exp']-=xpperlimit*_0x28131e,global['db'][_0x2b5117(0x1bf)][_0x2b5117(0x1c4)][_0x5189e3[_0x2b5117(0x1de)]][_0x2b5117(0x1df)]+=_0x28131e,_0x2173f7['reply'](_0x5189e3['chat'],'\x0a'+_0x13409d[_0x2b5117(0x1be)][0x0]+'\x0a'+_0x13409d[_0x2b5117(0x1be)][0x1]+_0x2b5117(0x1bc)+_0x28131e+_0x2b5117(0x1bd)+_0x13409d['texto1'][0x2]+'\x20-'+xpperlimit*_0x28131e+'\x20XP\x0a'+_0x13409d[_0x2b5117(0x1be)][0x3],_0x5189e3);else _0x2173f7[_0x2b5117(0x1cc)](_0x5189e3[_0x2b5117(0x1db)],_0x13409d[_0x2b5117(0x1d2)]+'\x20*'+_0x28131e+'*\x20'+_0x13409d[_0x2b5117(0x1cb)],_0x5189e3);};function a0_0x4ff2(_0xce23b3,_0x100861){const _0x4ef8e4=a0_0x4ef8();return a0_0x4ff2=function(_0x4ff2b1,_0x3a603a){_0x4ff2b1=_0x4ff2b1-0x1bc;let _0x33e2ef=_0x4ef8e4[_0x4ff2b1];return _0x33e2ef;},a0_0x4ff2(_0xce23b3,_0x100861);}handler[a0_0x5190da(0x1d9)]=[a0_0x5190da(0x1c2),a0_0x5190da(0x1dc)],handler[a0_0x5190da(0x1cf)]=['xp'],handler[a0_0x5190da(0x1c9)]=[a0_0x5190da(0x1cd),'buyall'],handler['group']=!![],handler[a0_0x5190da(0x1c6)]=![];export default handler;function a0_0x4ef8(){const _0x1120d6=['replace','3237150VCNiWO','help','844179jCktJe','chat','Buyall','floor','sender','limit','\x20:\x20+\x20','💎\x20\x0a','texto1','data','parse','4nqlCsR','Buy','plugins','users','language','disabled','test','710018ycNDfE','command','exp','texto3','reply','buy','4940451mGdKGs','tags','27394EDLExJ','5531768ZPjwGv','texto2','./language/','9715nCJWLb','93legAbf','rpg_shop'];a0_0x4ef8=function(){return _0x1120d6;};return a0_0x4ef8();}
+
+
+const xpperlimit = 350;
+const handler = async (m, {conn, command, args}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_shop
+
+  let count = command.replace(/^buy/i, '');
+  count = count ? /all/i.test(count) ? Math.floor(global.db.data.users[m.sender].exp / xpperlimit) : parseInt(count) : args[0] ? parseInt(args[0]) : 1;
+  count = Math.max(1, count);
+  if (global.db.data.users[m.sender].exp >= xpperlimit * count) {
+    global.db.data.users[m.sender].exp -= xpperlimit * count;
+    global.db.data.users[m.sender].limit += count;
+    conn.reply(m.chat, `
+${tradutor.texto1[0]}
+${tradutor.texto1[1]} : + ${count}💎 
+${tradutor.texto1[2]} -${xpperlimit * count} XP
+${tradutor.texto1[3]}`, m);
+  } else conn.reply(m.chat, `${tradutor.texto2} *${count}* ${tradutor.texto3}`, m);
+};
+handler.help = ['Buy', 'Buyall'];
+handler.tags = ['xp'];
+handler.command = ['buy', 'buyall'];
+handler.group = true
+handler.disabled = false;
+
+export default handler;

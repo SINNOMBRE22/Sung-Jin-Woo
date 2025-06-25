@@ -1,1 +1,50 @@
-const a0_0x4e699f=a0_0x3e87;function a0_0x19fb(){const _0x4f29df=['join','*\x20de\x20*','207816iJSdjW','\x0a*<\x20TOP\x20DIAMANTES\x20/>*\x0a\x20\x20\x20\x20\x0a\x0a▢\x20*TOP\x20','entries','limit','help','length','8XdJkrO','reply','sender','2310WeOiNo','19864llCcNR','exp','users','690858sIgsNc','comandos','sort','4773130MADCoI','some','min','indexOf',')\x20wa.me/','slice','10qiBQDK','fail','getName','split','command','*\x0a\x0a','map','3246534ndhayO','jid','519oTTVkJ','topdiamantes','1445286sTofiX','data','tags','26saLcOA','56174QJSZDq','level'];a0_0x19fb=function(){return _0x4f29df;};return a0_0x19fb();}(function(_0x15819c,_0x436201){const _0xd9babe=a0_0x3e87,_0x49ec7a=_0x15819c();while(!![]){try{const _0x42aab2=parseInt(_0xd9babe(0x83))/0x1*(-parseInt(_0xd9babe(0x84))/0x2)+-parseInt(_0xd9babe(0x7e))/0x3*(parseInt(_0xd9babe(0x92))/0x4)+-parseInt(_0xd9babe(0x9e))/0x5*(parseInt(_0xd9babe(0x80))/0x6)+-parseInt(_0xd9babe(0x95))/0x7+parseInt(_0xd9babe(0x8e))/0x8*(-parseInt(_0xd9babe(0x7c))/0x9)+-parseInt(_0xd9babe(0x98))/0xa+parseInt(_0xd9babe(0x91))/0xb*(parseInt(_0xd9babe(0x88))/0xc);if(_0x42aab2===_0x436201)break;else _0x49ec7a['push'](_0x49ec7a['shift']());}catch(_0x570a4f){_0x49ec7a['push'](_0x49ec7a['shift']());}}}(a0_0x19fb,0x998a9));let handler=async(_0x45ca8d,{conn:_0x2a9eae,args:_0x4f59d4,participants:_0x140f94})=>{const _0x351a25=a0_0x3e87;global['db'][_0x351a25(0x81)][_0x351a25(0x94)][_0x45ca8d[_0x351a25(0x90)]][_0x351a25(0x96)]+=0x1;let _0x441b64=Object[_0x351a25(0x8a)](global['db'][_0x351a25(0x81)]['users'])[_0x351a25(0x7b)](([_0x4cd629,_0x2eee04])=>{return{..._0x2eee04,'jid':_0x4cd629};}),_0x40d914=_0x441b64['map'](toNumber('exp'))[_0x351a25(0x97)](sort('exp')),_0x240bb7=_0x441b64[_0x351a25(0x7b)](toNumber(_0x351a25(0x8b)))[_0x351a25(0x97)](sort(_0x351a25(0x8b))),_0x218cd7=_0x441b64[_0x351a25(0x7b)](toNumber('level'))[_0x351a25(0x97)](sort(_0x351a25(0x85))),_0x5e913f=_0x40d914[_0x351a25(0x7b)](enumGetKey),_0x57aed8=_0x240bb7[_0x351a25(0x7b)](enumGetKey),_0x708a4c=_0x218cd7['map'](enumGetKey),_0x43382a=_0x4f59d4[0x0]&&_0x4f59d4[0x0][_0x351a25(0x8d)]>0x0?Math['min'](0x64,Math['max'](parseInt(_0x4f59d4[0x0]),0xa)):Math[_0x351a25(0x9a)](0xa,_0x40d914[_0x351a25(0x8d)]),_0x1de994=(_0x351a25(0x89)+_0x43382a+'\x20DIAMANTES💎*\x20•\x0aTú\x20:\x20*'+(_0x57aed8[_0x351a25(0x9b)](_0x45ca8d[_0x351a25(0x90)])+0x1)+_0x351a25(0x87)+_0x57aed8[_0x351a25(0x8d)]+_0x351a25(0x7a)+_0x240bb7[_0x351a25(0x9d)](0x0,_0x43382a)[_0x351a25(0x7b)](({jid:_0x1a787c,limit:_0x54c78d},_0x2ce27c)=>_0x2ce27c+0x1+'.\x20'+(_0x140f94[_0x351a25(0x99)](_0x1f3502=>_0x1a787c===_0x1f3502[_0x351a25(0x7d)])?'('+_0x2a9eae[_0x351a25(0xa0)](_0x1a787c)+_0x351a25(0x9c):'@')+_0x1a787c[_0x351a25(0xa1)]`@`[0x0]+'\x20*'+_0x54c78d+'\x20Diamantes*')[_0x351a25(0x86)]`\n`+'\x0a\x0a')['trim']();_0x45ca8d[_0x351a25(0x8f)](_0x1de994,null,{'mentions':_0x2a9eae['parseMention'](_0x1de994)});};handler[a0_0x4e699f(0x8c)]=[a0_0x4e699f(0x7f)],handler[a0_0x4e699f(0x82)]=['xp'],handler[a0_0x4e699f(0x79)]=[a0_0x4e699f(0x7f)],handler[a0_0x4e699f(0x9f)]=null,handler[a0_0x4e699f(0x93)]=0x0;function a0_0x3e87(_0x827dc6,_0x135d41){const _0x19fbe9=a0_0x19fb();return a0_0x3e87=function(_0x3e87ae,_0x34082e){_0x3e87ae=_0x3e87ae-0x79;let _0x15c680=_0x19fbe9[_0x3e87ae];return _0x15c680;},a0_0x3e87(_0x827dc6,_0x135d41);}export default handler;function sort(_0x30e38c,_0x5742a1=!![]){if(_0x30e38c)return(..._0x280b72)=>_0x280b72[_0x5742a1&0x1][_0x30e38c]-_0x280b72[!_0x5742a1&0x1][_0x30e38c];else return(..._0x5ea048)=>_0x5ea048[_0x5742a1&0x1]-_0x5ea048[!_0x5742a1&0x1];}function toNumber(_0x3ac236,_0x186160=0x0){if(_0x3ac236)return(_0x2ac23d,_0x5078fe,_0x4d8e23)=>{return{..._0x4d8e23[_0x5078fe],[_0x3ac236]:_0x2ac23d[_0x3ac236]===undefined?_0x186160:_0x2ac23d[_0x3ac236]};};else return _0x501d54=>_0x501d54===undefined?_0x186160:_0x501d54;}function enumGetKey(_0xb882f6){return _0xb882f6['jid'];}
+let handler = async (m, { conn, args, participants }) => {
+	global.db.data.users[m.sender].comandos += 1;
+let users = Object.entries(global.db.data.users).map(([key, value]) => {
+return {...value, jid: key}})
+let sortedExp = users.map(toNumber('exp')).sort(sort('exp'))
+let sortedLim = users.map(toNumber('limit')).sort(sort('limit'))
+let sortedLevel = users.map(toNumber('level')).sort(sort('level'))
+let usersExp = sortedExp.map(enumGetKey)
+let usersLim = sortedLim.map(enumGetKey)
+let usersLevel = sortedLevel.map(enumGetKey)
+let len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 10)) : Math.min(10, sortedExp.length)
+let text = `
+*< TOP DIAMANTES />*
+    
+
+▢ *TOP ${len} DIAMANTES💎* •
+Tú : *${usersLim.indexOf(m.sender) + 1}* de *${usersLim.length}*
+
+${sortedLim.slice(0, len).map(({ jid, limit }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${limit} Diamantes*`).join`\n`}
+
+`.trim()
+  m.reply(text, null, { mentions: conn.parseMention(text) })
+
+}
+handler.help = ['topdiamantes']
+handler.tags = ['xp']
+handler.command = ['topdiamantes'] 
+
+
+
+handler.fail = null
+handler.exp = 0
+
+export default handler
+
+function sort(property, ascending = true) {
+  if (property) return (...args) => args[ascending & 1][property] - args[!ascending & 1][property]
+  else return (...args) => args[ascending & 1] - args[!ascending & 1]
+}
+
+function toNumber(property, _default = 0) {
+  if (property) return (a, i, b) => {
+    return {...b[i], [property]: a[property] === undefined ? _default : a[property]}
+  }
+  else return a => a === undefined ? _default : a
+}
+
+function enumGetKey(a) {
+  return a.jid
+}

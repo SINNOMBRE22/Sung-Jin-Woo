@@ -1,1 +1,87 @@
-const a0_0xafc4d=a0_0x1c20;(function(_0x59381f,_0x15f459){const _0x86de9d=a0_0x1c20,_0xadf022=_0x59381f();while(!![]){try{const _0x441bf3=parseInt(_0x86de9d(0x1fe))/0x1+parseInt(_0x86de9d(0x1cc))/0x2*(parseInt(_0x86de9d(0x1ee))/0x3)+parseInt(_0x86de9d(0x1dc))/0x4+-parseInt(_0x86de9d(0x1e7))/0x5+parseInt(_0x86de9d(0x1e9))/0x6*(-parseInt(_0x86de9d(0x1da))/0x7)+-parseInt(_0x86de9d(0x1f2))/0x8+parseInt(_0x86de9d(0x1f8))/0x9*(parseInt(_0x86de9d(0x1df))/0xa);if(_0x441bf3===_0x15f459)break;else _0xadf022['push'](_0xadf022['shift']());}catch(_0x50f0e7){_0xadf022['push'](_0xadf022['shift']());}}}(a0_0x507a,0x8e4b9));import a0_0x31009b from'axios';import a0_0x31523a from'fs';import a0_0x5c9a8c from'path';import{fileURLToPath}from'url';const handler=async(_0x511fc4,{conn:_0xba7067,command:_0x557d69,args:_0x5794b6})=>{const _0x102d64=a0_0x1c20;if(!_0x5794b6[0x0])return _0xba7067[_0x102d64(0x1d8)](_0x511fc4[_0x102d64(0x1d4)],{'text':_0x102d64(0x1db)},{'quoted':_0x511fc4});const _0x2ee784=_0x5794b6[0x0],_0x412950=_0x557d69===_0x102d64(0x1fb),_0x5dfd9e=_0x412950?_0x102d64(0x1f3):_0x102d64(0x1cd),_0x20998b=_0x412950?_0x102d64(0x1ed):_0x102d64(0x1e2),_0x17b9b0=[_0x102d64(0x1ce),_0x102d64(0x1ca),_0x102d64(0x1d2),_0x102d64(0x201),_0x102d64(0x202),'▰▰▰▰▰▱▱▱▱\x20𝟖𝟱%',_0x102d64(0x1cb)];try{await _0x511fc4[_0x102d64(0x1f5)]('⚔️');let _0x223583=await _0xba7067['sendMessage'](_0x511fc4[_0x102d64(0x1d4)],{'text':'━━━✦❘༻༺❘✦━━━\x0a'+_0x20998b+'\x0a'+_0x17b9b0[0x0]+_0x102d64(0x200)});for(let _0x2da2b8=0x1;_0x2da2b8<_0x17b9b0[_0x102d64(0x1e0)];_0x2da2b8++){await new Promise(_0x13f716=>setTimeout(_0x13f716,0x2bc)),await _0xba7067['sendMessage'](_0x511fc4[_0x102d64(0x1d4)],{'edit':_0x223583[_0x102d64(0x1f4)],'text':'━━━✦❘༻༺❘✦━━━\x0a'+_0x20998b+'\x0a'+_0x17b9b0[_0x2da2b8]+_0x102d64(0x200)});}const _0x122471=await a0_0x31009b['get'](_0x102d64(0x1e6)+encodeURIComponent(_0x2ee784));if(!_0x122471[_0x102d64(0x1d3)][_0x102d64(0x1f7)])throw new Error(_0x102d64(0x1e8));const _0x14f296=_0x412950?_0x122471['data'][_0x102d64(0x1d5)][_0x102d64(0x1cf)]:_0x122471['data'][_0x102d64(0x1d5)][_0x102d64(0x1d6)],_0x2063a0=_0x412950?'mp3':_0x102d64(0x1d7),_0x20a63d=_0x122471[_0x102d64(0x1d3)][_0x102d64(0x1d5)][_0x102d64(0x1de)]+'.'+_0x2063a0,_0x1d98af=fileURLToPath(import.meta[_0x102d64(0x1f1)]),_0x27ec09=a0_0x5c9a8c[_0x102d64(0x1ec)](_0x1d98af),_0x25ee6d=a0_0x5c9a8c[_0x102d64(0x1fc)](_0x27ec09,_0x20a63d),_0x5cebca=await a0_0x31009b({'url':_0x14f296,'method':'GET','responseType':_0x102d64(0x1e3)}),_0x22e850=a0_0x31523a[_0x102d64(0x1f6)](_0x25ee6d);_0x5cebca[_0x102d64(0x1d3)][_0x102d64(0x1fa)](_0x22e850),_0x22e850['on'](_0x102d64(0x1d9),async()=>{const _0x67348f=_0x102d64;await _0xba7067[_0x67348f(0x1d8)](_0x511fc4[_0x67348f(0x1d4)],{'delete':_0x223583['key']});const _0x3eac8e=_0x67348f(0x1d1)+_0x122471[_0x67348f(0x1d3)][_0x67348f(0x1d5)]['title']+_0x67348f(0x1e4)+_0x122471[_0x67348f(0x1d3)]['BK9']['time']+_0x67348f(0x1ff)+_0x2ee784+_0x67348f(0x200),_0x20282f=_0x412950?{'audio':{'url':_0x25ee6d},'mimetype':'audio/mpeg','fileName':_0x20a63d,'caption':_0x3eac8e}:{'video':{'url':_0x25ee6d},'mimetype':_0x67348f(0x1d0),'fileName':_0x20a63d,'caption':_0x3eac8e};await _0xba7067[_0x67348f(0x1d8)](_0x511fc4['chat'],_0x20282f,{'quoted':_0x511fc4}),a0_0x31523a[_0x67348f(0x1f9)](_0x25ee6d);}),_0x22e850['on'](_0x102d64(0x1f0),async _0x174363=>{const _0x4c06cc=_0x102d64;console[_0x4c06cc(0x1f0)](_0x4c06cc(0x1ea),_0x174363),await _0xba7067[_0x4c06cc(0x1d8)](_0x511fc4['chat'],{'text':'❌\x20*Error:*\x20No\x20se\x20pudo\x20procesar\x20el\x20archivo.'},{'quoted':_0x511fc4});});}catch(_0x51e1cc){console[_0x102d64(0x1f0)](_0x51e1cc),await _0xba7067['sendMessage'](_0x511fc4[_0x102d64(0x1d4)],{'text':_0x102d64(0x1ef)},{'quoted':_0x511fc4});}};handler[a0_0xafc4d(0x1fd)]=[a0_0xafc4d(0x1fb),'ytvideo'],handler[a0_0xafc4d(0x1eb)]=[a0_0xafc4d(0x1e5)],handler[a0_0xafc4d(0x1e1)]=/^(ytaudio|ytvideo)$/i,handler[a0_0xafc4d(0x1dd)]=!![];function a0_0x1c20(_0x34f72f,_0xabc43f){const _0x507a19=a0_0x507a();return a0_0x1c20=function(_0x1c20e7,_0x2814a9){_0x1c20e7=_0x1c20e7-0x1ca;let _0x2ac77c=_0x507a19[_0x1c20e7];return _0x2ac77c;},a0_0x1c20(_0x34f72f,_0xabc43f);}function a0_0x507a(){const _0x1f0231=['audio','key','react','createWriteStream','status','27McuNij','unlinkSync','pipe','ytaudio','resolve','help','830381RbYoFQ','\x0a🔗\x20*Enlace:*\x20','\x0a━━━✦❘༻༺❘✦━━━','▰▰▰▱▱▱▱▱▱\x20𝟓𝟎%','▰▰▰▰▱▱▱▱▱\x20𝟳𝟎%','▰▱▱▱▱▱▱▱▱\x20𝟏𝟓%','▰▰▰▰▰▰▰▰▰\x20𝟏𝟎𝟎%','12428fcHbXV','video','▱▱▱▱▱▱▱▱▱\x20𝟎%','low','video/mp4','━━━✦❘༻༺❘✦━━━\x0a📜\x20*Título:*\x20','▰▰▱▱▱▱▱▱▱\x20𝟑𝟎%','data','chat','BK9','high','mp4','sendMessage','finish','6007141poabga','━━━✦❘༻༺❘✦━━━\x0a⚠️\x20*El\x20Sistema\x20requiere\x20un\x20enlace\x20de\x20YouTube\x20para\x20continuar.*\x0a━━━✦❘༻༺❘✦━━━','1115372VhqzdA','group','title','4181030fifShM','length','command','🎬\x20*Extrayendo\x20Video...*','stream','\x0a⏳\x20*Duración:*\x20','downloader','https://bk9.fun/download/alldownload?url=','5551810ylYZNa','No\x20se\x20pudo\x20procesar\x20el\x20enlace.','6nkJGlr','Error\x20al\x20guardar\x20el\x20archivo:','tags','dirname','🎵\x20*Extrayendo\x20Audio...*','117DZtDPP','❌\x20*Error:*\x20No\x20se\x20pudo\x20procesar\x20tu\x20solicitud.','error','url','436104wDwtvA'];a0_0x507a=function(){return _0x1f0231;};return a0_0x507a();}export default handler;
+import axios from 'axios';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const handler = async (m, { conn, command, args }) => {
+  if (!args[0]) return conn.sendMessage(m.chat, { text: '⚠️ *Debes proporcionar un enlace de YouTube.*' }, { quoted: m });
+
+  const youtubeURL = args[0];
+  const isAudio = command === 'ytaudio';
+  const mediaType = isAudio ? 'audio' : 'video';
+  const extractingText = isAudio ? '🎵 *Extrayendo Audio...*' : '🎬 *Extrayendo Video...*';
+
+  const animation = [
+    "▱▱▱▱▱▱▱▱▱ 𝟎%",
+    "▰▱▱▱▱▱▱▱▱ 𝟏𝟓%",
+    "▰▰▱▱▱▱▱▱▱ 𝟑𝟎%",
+    "▰▰▰▱▱▱▱▱▱ 𝟓𝟎%",
+    "▰▰▰▰▱▱▱▱▱ 𝟳𝟎%",
+    "▰▰▰▰▰▱▱▱▱ 𝟖𝟱%",
+    "▰▰▰▰▰▰▰▰▰ 𝟏𝟎𝟎%"
+  ];
+
+  try {
+    await m.react('⚔️');
+
+    // Animación inicial
+    let progressMsg = await conn.sendMessage(m.chat, { text: `${extractingText}\n${animation[0]}` });
+
+    for (let i = 1; i < animation.length; i++) {
+      await new Promise(res => setTimeout(res, 700));
+      await conn.sendMessage(m.chat, { edit: progressMsg.key, text: `${extractingText}\n${animation[i]}` });
+    }
+
+    // Llamada a tu API
+    const apiUrl = `http://api.colegialas.site/youtube?url=${encodeURIComponent(youtubeURL)}&key=MIKEYSECRETA456`;
+    const response = await axios.get(apiUrl);
+
+    if (!response.data.status) throw new Error('No se pudo obtener el contenido.');
+
+    const info = response.data;
+    const mediaUrl = isAudio ? info.low : info.high;
+    const extension = isAudio ? 'mp3' : 'mp4';
+    const fileName = `${info.title}.${extension}`;
+
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+    const filePath = path.resolve(__dirname, fileName);
+
+    const mediaStream = await axios({
+      url: mediaUrl,
+      method: 'GET',
+      responseType: 'stream'
+    });
+
+    const writer = fs.createWriteStream(filePath);
+    mediaStream.data.pipe(writer);
+
+    writer.on('finish', async () => {
+      await conn.sendMessage(m.chat, { delete: progressMsg.key });
+
+      const infoText = `📜 *Título:* ${info.title}\n⏳ *Duración:* ${info.time}\n🔗 *Enlace:* ${youtubeURL}`;
+
+      const sendOptions = isAudio
+        ? { audio: { url: filePath }, mimetype: 'audio/mpeg', fileName, caption: infoText }
+        : { video: { url: filePath }, mimetype: 'video/mp4', fileName, caption: infoText };
+
+      await conn.sendMessage(m.chat, sendOptions, { quoted: m });
+      fs.unlinkSync(filePath);
+    });
+
+    writer.on('error', async () => {
+      await conn.sendMessage(m.chat, { text: '❌ *Error:* No se pudo guardar el archivo.' }, { quoted: m });
+    });
+
+  } catch (error) {
+    console.error(error);
+    await conn.sendMessage(m.chat, { text: '❌ *Error:* No se pudo procesar tu solicitud.' }, { quoted: m });
+  }
+};
+
+handler.help = ['ytaudio', 'ytvideo'];
+handler.tags = ['downloader'];
+handler.command = /^(ytaudio|ytvideo)$/i;
+handler.group = false;
+
+export default handler;

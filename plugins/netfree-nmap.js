@@ -1,1 +1,32 @@
-const a0_0x523e69=a0_0x4097;(function(_0x52bb90,_0x4877db){const _0x3d9d5e=a0_0x4097,_0x19f7b4=_0x52bb90();while(!![]){try{const _0x494918=-parseInt(_0x3d9d5e(0x14c))/0x1+parseInt(_0x3d9d5e(0x14e))/0x2*(parseInt(_0x3d9d5e(0x142))/0x3)+-parseInt(_0x3d9d5e(0x146))/0x4*(-parseInt(_0x3d9d5e(0x148))/0x5)+-parseInt(_0x3d9d5e(0x149))/0x6+-parseInt(_0x3d9d5e(0x140))/0x7+parseInt(_0x3d9d5e(0x155))/0x8+parseInt(_0x3d9d5e(0x158))/0x9*(parseInt(_0x3d9d5e(0x144))/0xa);if(_0x494918===_0x4877db)break;else _0x19f7b4['push'](_0x19f7b4['shift']());}catch(_0x1666ca){_0x19f7b4['push'](_0x19f7b4['shift']());}}}(a0_0x263e,0x319f0));import a0_0x48a5e1 from'child_process';import{promisify}from'util';const exec=promisify(a0_0x48a5e1[a0_0x523e69(0x156)])['bind'](a0_0x48a5e1);function a0_0x4097(_0x3d8c61,_0x432227){const _0x263eb4=a0_0x263e();return a0_0x4097=function(_0x4097a9,_0x5b1e58){_0x4097a9=_0x4097a9-0x140;let _0x143389=_0x263eb4[_0x4097a9];return _0x143389;},a0_0x4097(_0x3d8c61,_0x432227);}let handler=async(_0x187d7a,{text:_0x54fa85})=>{const _0x2f0d2f=a0_0x523e69;if(!_0x54fa85)return _0x187d7a['reply']('━━━━━━✦❘༻༺❘✦━━━━━━\x0a⚠️\x20*Debes\x20ingresar\x20una\x20IP\x20o\x20dominio\x20para\x20escanear.*\x0a━━━━━━✦❘༻༺❘✦━━━━━━');let _0x18805c=await _0x187d7a['reply'](_0x2f0d2f(0x157));try{let {stdout:_0x46f3e9,stderr:_0x4549cb}=await exec(_0x2f0d2f(0x147)+_0x54fa85),_0x45c392=_0x46f3e9['trim']()||_0x2f0d2f(0x14a)+_0x4549cb[_0x2f0d2f(0x150)]();await conn[_0x2f0d2f(0x141)](_0x187d7a[_0x2f0d2f(0x153)],{'edit':_0x18805c[_0x2f0d2f(0x143)],'text':'━━━━━━✦❘༻༺❘✦━━━━━━\x0a📡\x20*Resultados\x20del\x20escaneo:*\x0a\x0a'+_0x45c392+_0x2f0d2f(0x14b)});}catch(_0x17d0ce){await conn[_0x2f0d2f(0x141)](_0x187d7a[_0x2f0d2f(0x153)],{'edit':_0x18805c[_0x2f0d2f(0x143)],'text':_0x2f0d2f(0x152)});}};handler[a0_0x523e69(0x14d)]=[a0_0x523e69(0x159)],handler[a0_0x523e69(0x154)]=[a0_0x523e69(0x14f)],handler[a0_0x523e69(0x145)]=/^(portscan|nmap)$/i,handler[a0_0x523e69(0x151)]=!![];function a0_0x263e(){const _0x77feb2=['327924dXqqBC','portscan','1069593jBgvmO','sendMessage','249ZLlOsr','key','120AQwZiD','command','1168lzSzVb','nmap\x20','1495mTqAZN','1418562NYfibZ','⚠️\x20*Error:*\x20','\x0a━━━━━━✦❘༻༺❘✦━━━━━━','195246mcTBPy','help','3464FZDVUL','netfree','trim','group','⚠️\x20*Error\x20al\x20ejecutar\x20el\x20escaneo.*','chat','tags','955392iZWtSE','exec','━━━━━━✦❘༻༺❘✦━━━━━━\x0a🔍\x20*Escaneando...*\x0a━━━━━━✦❘༻༺❘✦━━━━━━'];a0_0x263e=function(){return _0x77feb2;};return a0_0x263e();}export default handler;
+import cp from 'child_process';
+import { promisify } from 'util';
+
+const exec = promisify(cp.exec).bind(cp);
+
+let handler = async (m, { text }) => {
+    if (!text) return m.reply(`━━━━━━✦❘༻༺❘✦━━━━━━\n⚠️ *Debes ingresar una IP o dominio para escanear.*\n━━━━━━✦❘༻༺❘✦━━━━━━`);
+
+    let msg = await m.reply(`━━━━━━✦❘༻༺❘✦━━━━━━\n🔍 *Escaneando...*\n━━━━━━✦❘༻༺❘✦━━━━━━`);
+
+    try {
+        let { stdout, stderr } = await exec(`nmap ${text}`);
+        let resultado = stdout.trim() || `⚠️ *Error:* ${stderr.trim()}`;
+
+        await conn.sendMessage(m.chat, { 
+            edit: msg.key, 
+            text: `━━━━━━✦❘༻༺❘✦━━━━━━\n📡 *Resultados del escaneo:*\n\n${resultado}\n━━━━━━✦❘༻༺❘✦━━━━━━`
+        });
+    } catch (e) {
+        await conn.sendMessage(m.chat, { 
+            edit: msg.key, 
+            text: `⚠️ *Error al ejecutar el escaneo.*`
+        });
+    }
+};
+
+handler.help = ['portscan'];
+handler.tags = ['netfree'];
+handler.command = /^(portscan|nmap)$/i;
+handler.group = true;
+
+export default handler;

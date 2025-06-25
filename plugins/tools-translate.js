@@ -1,1 +1,36 @@
-(function(_0x28ebbc,_0x17e90f){const _0x300014=a0_0x3a95,_0xf5d02c=_0x28ebbc();while(!![]){try{const _0x2400f1=-parseInt(_0x300014(0x1ae))/0x1*(parseInt(_0x300014(0x19c))/0x2)+parseInt(_0x300014(0x1ad))/0x3*(parseInt(_0x300014(0x1b3))/0x4)+parseInt(_0x300014(0x1a6))/0x5+parseInt(_0x300014(0x1b5))/0x6+parseInt(_0x300014(0x1b6))/0x7+parseInt(_0x300014(0x1a1))/0x8*(-parseInt(_0x300014(0x1b9))/0x9)+-parseInt(_0x300014(0x1ac))/0xa*(parseInt(_0x300014(0x1b8))/0xb);if(_0x2400f1===_0x17e90f)break;else _0xf5d02c['push'](_0xf5d02c['shift']());}catch(_0x2291e1){_0xf5d02c['push'](_0xf5d02c['shift']());}}}(a0_0x75f8,0x8ccef));function a0_0x3a95(_0x5f3857,_0x434946){const _0x75f880=a0_0x75f8();return a0_0x3a95=function(_0x3a9510,_0x1d4acb){_0x3a9510=_0x3a9510-0x19b;let _0x174771=_0x75f880[_0x3a9510];return _0x174771;},a0_0x3a95(_0x5f3857,_0x434946);}import a0_0x3ef8c9 from'@vitalets/google-translate-api';import a0_0x183703 from'node-fetch';const handler=async(_0x5b266f,{args:_0x539213,usedPrefix:_0x440a4c,command:_0x571188})=>{const _0x2d6e7d=a0_0x3a95,_0x13681e=global,_0x351da7=_0x13681e['db'][_0x2d6e7d(0x1b0)]['users'][_0x5b266f[_0x2d6e7d(0x1a0)]]['language'],_0x3ea0b4=JSON[_0x2d6e7d(0x1b7)](fs['readFileSync'](_0x2d6e7d(0x1af)+_0x351da7+_0x2d6e7d(0x1b1))),_0x3b9391=_0x3ea0b4[_0x2d6e7d(0x1a7)]['herramientas__translate'],_0x48ee32=_0x3b9391[_0x2d6e7d(0x1a2)][0x0]+'\x20'+(_0x440a4c+_0x571188)+'\x20'+_0x3b9391[_0x2d6e7d(0x1a2)][0x1]+'\x0a*'+(_0x440a4c+_0x571188)+'\x20'+_0x3b9391['texto1'][0x2]+_0x2d6e7d(0x19f);if(!_0x539213||!_0x539213[0x0])return _0x5b266f[_0x2d6e7d(0x1b4)](_0x48ee32);let _0x6480a7=_0x539213[0x0],_0x21b64a=_0x539213[_0x2d6e7d(0x1a5)](0x1)[_0x2d6e7d(0x1a9)]('\x20');const _0x2ffe74='es';(_0x539213[0x0]||'')['length']!==0x2&&(_0x6480a7=_0x2ffe74,_0x21b64a=_0x539213['join']('\x20'));if(!_0x21b64a&&_0x5b266f[_0x2d6e7d(0x1a4)]&&_0x5b266f[_0x2d6e7d(0x1a4)][_0x2d6e7d(0x1ab)])_0x21b64a=_0x5b266f[_0x2d6e7d(0x1a4)]['text'];try{const _0x12d8ca=await a0_0x3ef8c9(''+_0x21b64a,{'to':_0x6480a7,'autoCorrect':!![]});await _0x5b266f[_0x2d6e7d(0x1b4)](_0x3b9391['texto3']+_0x12d8ca[_0x2d6e7d(0x1ab)]);}catch{try{const _0x1a1f8e=await a0_0x183703('https://api.lolhuman.xyz/api/translate/auto/'+_0x6480a7+_0x2d6e7d(0x19d)+lolkeysapi+_0x2d6e7d(0x1aa)+_0x21b64a),_0x39edc1=await _0x1a1f8e[_0x2d6e7d(0x1a3)](),_0x3b9c3a=_0x39edc1[_0x2d6e7d(0x1b2)][_0x2d6e7d(0x19b)];await _0x5b266f[_0x2d6e7d(0x1b4)](''+_0x3b9391[_0x2d6e7d(0x19e)]+_0x3b9c3a);}catch{await _0x5b266f['reply'](_0x3b9391[_0x2d6e7d(0x1a8)]);}}};handler['command']=/^(translate|traducir|trad)$/i;function a0_0x75f8(){const _0x4c08c0=['slice','3936510rzvuFf','plugins','texto2','join','&text=','text','10825930cWgLYS','1887xMoyUV','107sTyoNk','./language/','data','.json','result','4940YVmfGO','reply','3845040YymlbI','6787137nIKVuK','parse','11zpfyzi','225zKlzwO','translated','13994KWSSHs','?apikey=','texto3','\x0a*-\x20https://cloud.google.com/translate/docs/languages*','sender','245288KJZRIz','texto1','json','quoted'];a0_0x75f8=function(){return _0x4c08c0;};return a0_0x75f8();}export default handler;
+import translate from '@vitalets/google-translate-api';
+import fetch from 'node-fetch';
+
+
+const handler = async (m, {args, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.herramientas__translate
+
+  const msg = `${tradutor.texto1[0]} ${usedPrefix + command} ${tradutor.texto1[1]}\n*${usedPrefix + command} ${tradutor.texto1[2]}\n*- https://cloud.google.com/translate/docs/languages*`;
+  if (!args || !args[0]) return m.reply(msg);
+  let lang = args[0];
+  let text = args.slice(1).join(' ');
+  const defaultLang = 'es';
+  if ((args[0] || '').length !== 2) {
+    lang = defaultLang;
+    text = args.join(' ');
+  }
+  if (!text && m.quoted && m.quoted.text) text = m.quoted.text;
+  try {
+    const result = await translate(`${text}`, {to: lang, autoCorrect: true});
+    await m.reply(tradutor.texto3 + result.text);
+  } catch {
+    try {
+      const lol = await fetch(`https://api.lolhuman.xyz/api/translate/auto/${lang}?apikey=${lolkeysapi}&text=${text}`);
+      const loll = await lol.json();
+      const result2 = loll.result.translated;
+      await m.reply(`${tradutor.texto3 }` + result2);
+    } catch {
+      await m.reply(tradutor.texto2);
+    }
+  }
+};
+handler.command = /^(translate|traducir|trad)$/i;
+export default handler;

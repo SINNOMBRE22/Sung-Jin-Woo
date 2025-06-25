@@ -1,1 +1,41 @@
-const a0_0x23bd2b=a0_0x347d;function a0_0x47a9(){const _0x37a5ad=['plugins','45OywMGc','1542wKaBkO','265','isGroup','322581RaduXm','users','groupParticipantsUpdate','212','sender','313031qklKfJ','user','4885947yKAGPK','reply','_antiarab','antiArab2','chats','chat','1048fxwHBZ','7371MzHnwR','.json','626276utHHkQ','startsWith','status','remove','404','8YtDCGh','parse','texto2','texto3','./language/','jid','before','settings','963350lAsPCO','restrict','2400sSaTSd','data'];a0_0x47a9=function(){return _0x37a5ad;};return a0_0x47a9();}function a0_0x347d(_0x1fd99c,_0x34d74c){const _0x47a9d1=a0_0x47a9();return a0_0x347d=function(_0x347d70,_0x561c87){_0x347d70=_0x347d70-0xce;let _0x5a9d8d=_0x47a9d1[_0x347d70];return _0x5a9d8d;},a0_0x347d(_0x1fd99c,_0x34d74c);}(function(_0x34a474,_0x439d74){const _0xa3f79d=a0_0x347d,_0x25228a=_0x34a474();while(!![]){try{const _0x5bcb3b=-parseInt(_0xa3f79d(0xd8))/0x1+-parseInt(_0xa3f79d(0xe3))/0x2+-parseInt(_0xa3f79d(0xd3))/0x3*(-parseInt(_0xa3f79d(0xe8))/0x4)+parseInt(_0xa3f79d(0xf2))/0x5*(-parseInt(_0xa3f79d(0xd0))/0x6)+parseInt(_0xa3f79d(0xe1))/0x7*(-parseInt(_0xa3f79d(0xe0))/0x8)+-parseInt(_0xa3f79d(0xcf))/0x9*(-parseInt(_0xa3f79d(0xf0))/0xa)+parseInt(_0xa3f79d(0xda))/0xb;if(_0x5bcb3b===_0x439d74)break;else _0x25228a['push'](_0x25228a['shift']());}catch(_0x4fabf9){_0x25228a['push'](_0x25228a['shift']());}}}(a0_0x47a9,0x3ddfa));const handler=_0x57a0b3=>_0x57a0b3;handler[a0_0x23bd2b(0xee)]=async function(_0x510857,{conn:_0x3b211a,isAdmin:_0xdbd4de,isBotAdmin:_0x42bd81,isOwner:_0x4c2e1b,isROwner:_0x32bdb6}){const _0x512531=a0_0x23bd2b,_0x16465e=global,_0x4d7fb2=_0x16465e['db']['data'][_0x512531(0xd4)][_0x510857['sender']]['language'],_0x4b90b6=JSON[_0x512531(0xe9)](fs['readFileSync'](_0x512531(0xec)+_0x4d7fb2+_0x512531(0xe2))),_0x540f3f=_0x4b90b6[_0x512531(0xce)][_0x512531(0xdc)];if(!_0x510857[_0x512531(0xd2)])return!0x1;const _0x46fa3e=global['db'][_0x512531(0xf3)][_0x512531(0xde)][_0x510857[_0x512531(0xdf)]],_0x53ded9=global['db']['data'][_0x512531(0xef)][_0x3b211a[_0x512531(0xd9)][_0x512531(0xed)]]||{};if(_0x42bd81&&_0x46fa3e[_0x512531(0xdd)]&&!_0xdbd4de&&!_0x4c2e1b&&!_0x32bdb6&&_0x53ded9[_0x512531(0xf1)]){if(_0x510857[_0x512531(0xd7)][_0x512531(0xe4)](_0x512531(0xd6)||'212')){_0x510857[_0x512531(0xdb)](_0x540f3f['texto1']);const _0x14290e=await _0x3b211a[_0x512531(0xd5)](_0x510857[_0x512531(0xdf)],[_0x510857[_0x512531(0xd7)]],_0x512531(0xe6));if(_0x14290e[0x0]['status']===_0x512531(0xe7))return;}if(_0x510857[_0x512531(0xd7)][_0x512531(0xe4)](_0x512531(0xd1)||_0x512531(0xd1))){_0x510857[_0x512531(0xdb)](_0x540f3f[_0x512531(0xea)]);const _0x437e96=await _0x3b211a[_0x512531(0xd5)](_0x510857[_0x512531(0xdf)],[_0x510857['sender']],'remove');if(_0x437e96[0x0][_0x512531(0xe5)]===_0x512531(0xe7))return;}if(_0x510857[_0x512531(0xd7)][_0x512531(0xe4)]('92'||'92')){_0x510857[_0x512531(0xdb)](_0x540f3f[_0x512531(0xeb)]);const _0x173138=await _0x3b211a[_0x512531(0xd5)](_0x510857[_0x512531(0xdf)],[_0x510857[_0x512531(0xd7)]],_0x512531(0xe6));if(_0x173138[0x0][_0x512531(0xe5)]===_0x512531(0xe7))return;}}};export default handler;
+// TheMystic-Bot-MD@BrunoSobrino - _antiarab.js
+
+
+const handler = (m) => m;
+handler.before = async function (m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }) {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+
+  const tradutor = _translate.plugins._antiarab
+  // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+
+  /* if (m.message) {
+    console.log(m.message)
+  }*/
+  if (!m.isGroup) return !1;
+  const chat = global.db.data.chats[m.chat];
+  const bot = global.db.data.settings[conn.user.jid] || {};
+  if (isBotAdmin && chat.antiArab2 && !isAdmin && !isOwner && !isROwner && bot.restrict) {
+    if (m.sender.startsWith('212' || '212')) {
+      m.reply(tradutor.texto1);
+      const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
+      if (responseb[0].status === '404') return;
+    }
+
+    if (m.sender.startsWith('265' || '265')) {
+      m.reply(tradutor.texto2);
+      const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
+      if (responseb[0].status === '404') return;
+    }
+
+    if (m.sender.startsWith('92' || '92')) {
+      m.reply(tradutor.texto3);
+      const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
+      if (responseb[0].status === '404') return;
+    }
+  }
+};
+export default handler;

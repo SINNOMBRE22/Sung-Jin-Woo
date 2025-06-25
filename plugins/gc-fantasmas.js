@@ -1,1 +1,37 @@
-const a0_0xdb1f=a0_0x3608;function a0_0x3608(_0x107662,_0x3fb8dd){const _0x37e321=a0_0x37e3();return a0_0x3608=function(_0x3608e9,_0x28585b){_0x3608e9=_0x3608e9-0x161;let _0x2c7381=_0x37e321[_0x3608e9];return _0x2c7381;},a0_0x3608(_0x107662,_0x3fb8dd);}(function(_0x591ac7,_0x1b2564){const _0xfb5a50=a0_0x3608,_0x579f75=_0x591ac7();while(!![]){try{const _0x353d3e=-parseInt(_0xfb5a50(0x16b))/0x1*(-parseInt(_0xfb5a50(0x179))/0x2)+-parseInt(_0xfb5a50(0x176))/0x3+parseInt(_0xfb5a50(0x17e))/0x4*(-parseInt(_0xfb5a50(0x161))/0x5)+parseInt(_0xfb5a50(0x162))/0x6+parseInt(_0xfb5a50(0x17a))/0x7*(parseInt(_0xfb5a50(0x16d))/0x8)+-parseInt(_0xfb5a50(0x165))/0x9+-parseInt(_0xfb5a50(0x17c))/0xa;if(_0x353d3e===_0x1b2564)break;else _0x579f75['push'](_0x579f75['shift']());}catch(_0xeeade6){_0x579f75['push'](_0x579f75['shift']());}}}(a0_0x37e3,0x7a1db));const handler=async(_0x41401c,{conn:_0x40cae4,text:_0x4bbaf9,participants:_0x339b84})=>{const _0x15f5c5=a0_0x3608,_0x214b71=global,_0x40d91e=_0x214b71['db'][_0x15f5c5(0x174)][_0x15f5c5(0x169)][_0x41401c[_0x15f5c5(0x163)]][_0x15f5c5(0x171)],_0x2619f7=JSON[_0x15f5c5(0x168)](fs[_0x15f5c5(0x16f)](_0x15f5c5(0x16e)+_0x40d91e+'.json')),_0x45c8e7=_0x2619f7[_0x15f5c5(0x177)][_0x15f5c5(0x167)],_0x3872ad=_0x339b84[_0x15f5c5(0x172)](_0xcc43a1=>_0xcc43a1['id']);if(!_0x4bbaf9)var _0x44b326=_0x3872ad['length'];else var _0x44b326=_0x4bbaf9;let _0x359ae9=0x0;const _0x24377b=[];for(let _0x5cc676=0x0;_0x5cc676<_0x44b326;_0x5cc676++){const _0x5915c3=_0x41401c[_0x15f5c5(0x181)]?_0x339b84[_0x15f5c5(0x183)](_0x333467=>_0x333467['id']==_0x3872ad[_0x5cc676]):{};(typeof global['db']['data']['users'][_0x3872ad[_0x5cc676]]==_0x15f5c5(0x173)||global['db']['data'][_0x15f5c5(0x169)][_0x3872ad[_0x5cc676]][_0x15f5c5(0x17f)]==0x0)&&!_0x5915c3[_0x15f5c5(0x178)]&&!_0x5915c3['isSuperAdmin']&&(typeof global['db']['data'][_0x15f5c5(0x169)][_0x3872ad[_0x5cc676]]!==_0x15f5c5(0x173)?global['db']['data'][_0x15f5c5(0x169)][_0x3872ad[_0x5cc676]][_0x15f5c5(0x166)]==![]&&(_0x359ae9++,_0x24377b[_0x15f5c5(0x180)](_0x3872ad[_0x5cc676])):(_0x359ae9++,_0x24377b[_0x15f5c5(0x180)](_0x3872ad[_0x5cc676])));}if(_0x359ae9==0x0)return _0x40cae4[_0x15f5c5(0x170)](_0x41401c['chat'],_0x45c8e7[_0x15f5c5(0x175)],_0x41401c);_0x41401c[_0x15f5c5(0x170)](_0x45c8e7[_0x15f5c5(0x17b)][0x0]+'\x20'+await _0x40cae4[_0x15f5c5(0x16c)](_0x41401c[_0x15f5c5(0x17f)])+'\x0a'+_0x45c8e7['texto2'][0x1]+'\x20'+_0x44b326+'\x0a\x0a'+_0x45c8e7[_0x15f5c5(0x17b)][0x2]+'\x0a'+_0x24377b[_0x15f5c5(0x172)](_0xe5f56c=>_0x15f5c5(0x182)+_0xe5f56c[_0x15f5c5(0x17d)](/@.+/,''))[_0x15f5c5(0x164)]('\x0a')+'\x0a\x0a'+_0x45c8e7[_0x15f5c5(0x17b)][0x3],null,{'mentions':_0x24377b});};handler['command']=/^(verfantasmas|fantasmas|sider)$/i,handler['admin']=!![],handler[a0_0xdb1f(0x16a)]=!![];function a0_0x37e3(){const _0x4e1461=['users','botAdmin','166WErKJt','getName','1688byZMOm','./language/','readFileSync','reply','language','map','undefined','data','texto1','1729209XIyJdm','plugins','isAdmin','7978PROzPR','20321GeyQYA','texto2','4087960aKCmaL','replace','1336gGPyAI','chat','push','isGroup','\x20\x20👉🏻\x20@','find','355BUGWrm','4949592gcdnUi','sender','join','5314851wtEtkr','whitelist','gc_fantasmas','parse'];a0_0x37e3=function(){return _0x4e1461;};return a0_0x37e3();}export default handler;
+
+
+const handler = async (m, {conn, text, participants}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_fantasmas
+
+  const member = participants.map((u) => u.id);
+  if (!text) {
+    var sum = member.length;
+  } else {
+    var sum = text;
+  }
+  let total = 0;
+  const sider = [];
+  for (let i = 0; i < sum; i++) {
+    const users = m.isGroup ? participants.find((u) => u.id == member[i]) : {};
+    if ((typeof global.db.data.users[member[i]] == 'undefined' || global.db.data.users[member[i]].chat == 0) && !users.isAdmin && !users.isSuperAdmin) {
+      if (typeof global.db.data.users[member[i]] !== 'undefined') {
+        if (global.db.data.users[member[i]].whitelist == false) {
+          total++;
+          sider.push(member[i]);
+        }
+      } else {
+        total++;
+        sider.push(member[i]);
+      }
+    }
+  }
+  if (total == 0) return conn.reply(m.chat, tradutor.texto1, m);
+  m.reply(`${tradutor.texto2[0]} ${await conn.getName(m.chat)}\n${tradutor.texto2[1]} ${sum}\n\n${tradutor.texto2[2]}\n${sider.map((v) => '  👉🏻 @' + v.replace(/@.+/, '')).join('\n')}\n\n${tradutor.texto2[3]}`, null, {mentions: sider});
+};
+handler.command = /^(verfantasmas|fantasmas|sider)$/i;
+handler.admin = true;
+handler.botAdmin = true;
+export default handler;

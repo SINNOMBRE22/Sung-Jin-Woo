@@ -1,1 +1,50 @@
-const a0_0x3d7db7=a0_0x24f8;function a0_0x9df6(){const _0x483745=['lastrob','help','reply','lastcoins','48QaGggd','rowner','8080812SXbPOb','lasthunt','group','tags','lastusuariov2','herolastclaim','quoted','*‣\x20Se\x20han\x20reseteado\x20los\x20tiempos\x20de\x20@','command','lastusuario','5579Mcmzkh','lastberburu','lastFishing','lastmiming','lastwork','economy','chat','lastadventure','mentionedJid','455930otnOhR','isGroup','split','4864696UseCgo','5549760CtocXo','10086318cXQMkm','1353pOGqRZ','*[❗]\x20Etiqueta\x20a\x20alguien\x20para\x20resetear\x20los\x20tiempos.*','568720VVORWS','14tjEzHY','*[❗]\x20El\x20usuario\x20no\x20se\x20encuentra\x20en\x20mi\x20base\x20de\x20datos.*','resettiempos','lastpotionclaim','users','lastmining','lastclaim','data','150WKmxxg'];a0_0x9df6=function(){return _0x483745;};return a0_0x9df6();}(function(_0x113c84,_0x4d426d){const _0xf22580=a0_0x24f8,_0x1fcf4b=_0x113c84();while(!![]){try{const _0x38e3f8=parseInt(_0xf22580(0x11a))/0x1*(-parseInt(_0xf22580(0x109))/0x2)+parseInt(_0xf22580(0x127))/0x3+-parseInt(_0xf22580(0x10e))/0x4*(-parseInt(_0xf22580(0x12b))/0x5)+parseInt(_0xf22580(0x128))/0x6+parseInt(_0xf22580(0x12c))/0x7*(parseInt(_0xf22580(0x126))/0x8)+parseInt(_0xf22580(0x110))/0x9+parseInt(_0xf22580(0x123))/0xa*(-parseInt(_0xf22580(0x129))/0xb);if(_0x38e3f8===_0x4d426d)break;else _0x1fcf4b['push'](_0x1fcf4b['shift']());}catch(_0x12b8e8){_0x1fcf4b['push'](_0x1fcf4b['shift']());}}}(a0_0x9df6,0xf021b));function a0_0x24f8(_0x2651ba,_0x3b3b2c){const _0x9df644=a0_0x9df6();return a0_0x24f8=function(_0x24f88f,_0x25bc92){_0x24f88f=_0x24f88f-0x102;let _0x354aba=_0x9df644[_0x24f88f];return _0x354aba;},a0_0x24f8(_0x2651ba,_0x3b3b2c);}const handler=async(_0x10df52,{conn:_0x41bdb4})=>{const _0x315e46=a0_0x24f8,_0x56c886=['wait',_0x315e46(0x115),_0x315e46(0x107),_0x315e46(0x10d),'lastcofre','lasthourly',_0x315e46(0x111),_0x315e46(0x121),_0x315e46(0x106),_0x315e46(0x11b),_0x315e46(0x104),_0x315e46(0x11c),_0x315e46(0x11d),_0x315e46(0x10a),'lastdiamantes','lastRouletteTime',_0x315e46(0x119),_0x315e46(0x114),_0x315e46(0x11e)];let _0x378078;_0x10df52[_0x315e46(0x124)]?_0x378078=_0x10df52['mentionedJid'][0x0]?_0x10df52[_0x315e46(0x122)][0x0]:_0x10df52[_0x315e46(0x116)]?_0x10df52[_0x315e46(0x116)]['sender']:![]:_0x378078=_0x10df52[_0x315e46(0x120)];if(!_0x378078)throw _0x315e46(0x12a);if(!(_0x378078 in global['db'][_0x315e46(0x108)]['users']))throw _0x315e46(0x102);for(const _0x1dd51b of _0x56c886){global['db'][_0x315e46(0x108)][_0x315e46(0x105)][_0x378078][_0x1dd51b]=0x0;}_0x10df52[_0x315e46(0x10c)](_0x315e46(0x117)+_0x378078[_0x315e46(0x125)]`@`[0x0]+'*',null,{'mentions':[_0x378078]});};handler[a0_0x3d7db7(0x10b)]=[a0_0x3d7db7(0x103)],handler[a0_0x3d7db7(0x113)]=[a0_0x3d7db7(0x11f)],handler[a0_0x3d7db7(0x118)]=/^(resettiempos|timereset)$/i,handler[a0_0x3d7db7(0x112)]=!![],handler[a0_0x3d7db7(0x10f)]=!![];export default handler;
+const handler = async (m, { conn }) => {
+    const variablesToReset = [
+        'wait',
+		'herolastclaim',
+        'lastclaim',
+        'lastcoins',
+        'lastcofre',
+        'lasthourly',
+        'lasthunt',
+        'lastadventure',
+        'lastmining',
+        'lastberburu',
+        'lastpotionclaim',
+        'lastFishing',
+        'lastmiming',
+        'lastrob',
+        'lastdiamantes',
+        'lastRouletteTime',
+		'lastusuario',
+		'lastusuariov2',
+        'lastwork'
+    ];
+
+    let who;
+    if (m.isGroup) {
+        who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
+    } else {
+        who = m.chat;
+    }
+
+    if (!who) {
+        throw `*[❗] Etiqueta a alguien para resetear los tiempos.*`;
+    }
+
+    if (!(who in global.db.data.users)) {
+        throw `*[❗] El usuario no se encuentra en mi base de datos.*`;
+    }
+
+    for (const variable of variablesToReset) {
+        global.db.data.users[who][variable] = 0;
+    }
+
+    m.reply(`*‣ Se han reseteado los tiempos de @${who.split`@`[0]}*`, null, { mentions: [who] });
+}
+handler.help = ['resettiempos'];
+handler.tags = ['economy'];
+handler.command = /^(resettiempos|timereset)$/i;
+handler.group = true;
+handler.rowner = true;
+export default handler;

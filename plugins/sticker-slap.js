@@ -1,1 +1,39 @@
-const a0_0x2def38=a0_0x4b8c;function a0_0x587d(){const _0x5db7b1=['sticker_slap','language','3885425BUAppE','\x20le\x20dio\x20una\x20bofetada\x20a\x20','sticker','60948gxRqaI','4231074MgFbog','help','1814656QEepcE','sendFile','3090FicGAi','isGroup','1769308ZztGmU','sender','texto1','mentionedJid','.json','446810dzdGlu','chat','Sung\x20Jin-Woo','quoted','./language/','users','texto2','parseMention','readFileSync','json','tags','getName','https://api.waifu.pics/sfw/slap','40ZcLXRx','command','\x0a◉\x20','slap','3Vqzuxp','585559BbMZiO'];a0_0x587d=function(){return _0x5db7b1;};return a0_0x587d();}(function(_0x1bfe7b,_0x418ad8){const _0x324a71=a0_0x4b8c,_0x61f575=_0x1bfe7b();while(!![]){try{const _0x3de507=-parseInt(_0x324a71(0x1e9))/0x1+parseInt(_0x324a71(0x1f6))/0x2*(parseInt(_0x324a71(0x1e8))/0x3)+parseInt(_0x324a71(0x1f2))/0x4+parseInt(_0x324a71(0x1ec))/0x5+parseInt(_0x324a71(0x1f0))/0x6+-parseInt(_0x324a71(0x1fb))/0x7*(-parseInt(_0x324a71(0x1e4))/0x8)+-parseInt(_0x324a71(0x1ef))/0x9*(parseInt(_0x324a71(0x1f4))/0xa);if(_0x3de507===_0x418ad8)break;else _0x61f575['push'](_0x61f575['shift']());}catch(_0x1d6ded){_0x61f575['push'](_0x61f575['shift']());}}}(a0_0x587d,0x70b39));function a0_0x4b8c(_0x4e8b39,_0x40e4e9){const _0x587df8=a0_0x587d();return a0_0x4b8c=function(_0x4b8c63,_0x7704bc){_0x4b8c63=_0x4b8c63-0x1d9;let _0x301e04=_0x587df8[_0x4b8c63];return _0x301e04;},a0_0x4b8c(_0x4e8b39,_0x40e4e9);}import{sticker}from'../lib/sticker.js';import a0_0x4cbfd4 from'node-fetch';const handler=async(_0x36ad01,{conn:_0x4f4977,args:_0x33fed4,usedPrefix:_0x1f1fca,command:_0x3663bf})=>{const _0x5a89d1=a0_0x4b8c,_0x4395c2=global,_0x5b9c36=_0x4395c2['db']['data'][_0x5a89d1(0x1dc)][_0x36ad01['sender']][_0x5a89d1(0x1eb)],_0x1a73ae=JSON['parse'](fs[_0x5a89d1(0x1df)](_0x5a89d1(0x1db)+_0x5b9c36+_0x5a89d1(0x1fa))),_0x1dc92f=_0x1a73ae['plugins'][_0x5a89d1(0x1ea)];let _0x368d17;_0x36ad01['isGroup']?_0x368d17=_0x36ad01[_0x5a89d1(0x1f9)][0x0]?_0x36ad01[_0x5a89d1(0x1f9)][0x0]:_0x36ad01[_0x5a89d1(0x1da)]?_0x36ad01[_0x5a89d1(0x1da)][_0x5a89d1(0x1f7)]:![]:_0x368d17=_0x36ad01[_0x5a89d1(0x1fc)];const _0x4ef3e7=_0x1dc92f[_0x5a89d1(0x1f8)]+_0x5a89d1(0x1e6)+(_0x1f1fca+_0x3663bf)+'\x20@'+global['suittag'];if(_0x368d17===_0x36ad01['chat']&&_0x36ad01[_0x5a89d1(0x1f5)]||!_0x368d17&&_0x36ad01['isGroup'])return _0x36ad01['reply'](_0x4ef3e7,_0x36ad01[_0x5a89d1(0x1fc)],{'mentions':_0x4f4977[_0x5a89d1(0x1de)](_0x4ef3e7)});try{let _0x57a93a;_0x368d17===_0x36ad01[_0x5a89d1(0x1fc)]?_0x57a93a=_0x5a89d1(0x1d9):_0x57a93a=_0x4f4977[_0x5a89d1(0x1e2)](_0x368d17);let _0xa23271=_0x4f4977[_0x5a89d1(0x1e2)](_0x36ad01[_0x5a89d1(0x1f7)]),_0x34ca00=await a0_0x4cbfd4(_0x5a89d1(0x1e3)),_0x4cbc41=await _0x34ca00[_0x5a89d1(0x1e0)](),{url:_0x44163c}=_0x4cbc41,_0x52189d=await sticker(null,_0x44163c,_0xa23271+_0x5a89d1(0x1ed)+_0x57a93a,null);_0x4f4977[_0x5a89d1(0x1f3)](_0x36ad01[_0x5a89d1(0x1fc)],_0x52189d,null,{'asSticker':!![]},_0x36ad01,!![],{'contextInfo':{'forwardingScore':0xc8,'isForwarded':!![]}},{'quoted':_0x36ad01});}catch{throw _0x1dc92f[_0x5a89d1(0x1dd)];};};handler[a0_0x2def38(0x1f1)]=[a0_0x2def38(0x1e7)],handler[a0_0x2def38(0x1e1)]=[a0_0x2def38(0x1ee)],handler[a0_0x2def38(0x1e5)]=/^(slap|bofetada)$/i;export default handler;
+import {sticker} from "../lib/sticker.js";
+import fetch from "node-fetch";
+
+
+const handler = async (m, { conn, args, usedPrefix, command }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.sticker_slap
+
+    let who;
+    if (m.isGroup) {
+      who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
+    } else { 
+      who = m.chat;
+    }
+      const textquien = `${tradutor.texto1}\n◉ ${usedPrefix + command} @${global.suittag}`;
+    if (who === m.chat && m.isGroup || !who && m.isGroup) return m.reply(textquien, m.chat, {mentions: conn.parseMention(textquien)});
+  try {
+    let name;
+    if (who === m.chat) {
+      name = "Sung Jin-Woo";
+    } else {
+      name = conn.getName(who);
+    }
+    let name2 = conn.getName(m.sender);
+    let apislap = await fetch(`https://api.waifu.pics/sfw/slap`);
+    let jkis = await apislap.json();
+    let { url } = jkis;
+    let stiker = await sticker(null, url, `${name2} le dio una bofetada a ${name}`, null);
+    conn.sendFile(m.chat, stiker, null, {asSticker: true}, m, true, {contextInfo: {forwardingScore: 200, isForwarded: true}}, {quoted: m});
+  } catch {
+    throw tradutor.texto2;
+  };
+};
+handler.help = ["slap"];
+handler.tags = ["sticker"];
+handler.command = /^(slap|bofetada)$/i;
+export default handler;

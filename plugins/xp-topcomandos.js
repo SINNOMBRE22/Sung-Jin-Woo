@@ -1,1 +1,50 @@
-const a0_0x38a86c=a0_0x4f4d;(function(_0x175556,_0x428952){const _0x175eb5=a0_0x4f4d,_0xe94a80=_0x175556();while(!![]){try{const _0x17df6d=-parseInt(_0x175eb5(0x118))/0x1*(parseInt(_0x175eb5(0x10e))/0x2)+-parseInt(_0x175eb5(0x11f))/0x3+-parseInt(_0x175eb5(0x10d))/0x4+-parseInt(_0x175eb5(0x125))/0x5+parseInt(_0x175eb5(0x11b))/0x6*(-parseInt(_0x175eb5(0x105))/0x7)+parseInt(_0x175eb5(0x111))/0x8+parseInt(_0x175eb5(0x110))/0x9;if(_0x17df6d===_0x428952)break;else _0xe94a80['push'](_0xe94a80['shift']());}catch(_0xef17e3){_0xe94a80['push'](_0xe94a80['shift']());}}}(a0_0x1156,0x95424));let handler=async(_0x309db8,{conn:_0x582947,args:_0x87c1aa,participants:_0x3c1790})=>{const _0x1f5034=a0_0x4f4d;global['db'][_0x1f5034(0x119)][_0x1f5034(0x113)][_0x309db8[_0x1f5034(0x115)]][_0x1f5034(0x114)]+=0x1;let _0x4c7feb=Object[_0x1f5034(0x11c)](global['db']['data']['users'])[_0x1f5034(0x112)](([_0x18c5b0,_0x38c2c1])=>{return{..._0x38c2c1,'jid':_0x18c5b0};}),_0x39d3de=_0x4c7feb[_0x1f5034(0x112)](toNumber(_0x1f5034(0x114)))[_0x1f5034(0x11d)](sort(_0x1f5034(0x114))),_0x5492c1=_0x39d3de[_0x1f5034(0x112)](enumGetKey),_0x281b74=_0x87c1aa[0x0]&&_0x87c1aa[0x0][_0x1f5034(0x120)]>0x0?Math[_0x1f5034(0x106)](0xa,Math[_0x1f5034(0x123)](parseInt(_0x87c1aa[0x0]),0xa)):Math[_0x1f5034(0x106)](0xa,_0x39d3de[_0x1f5034(0x120)]),_0x4c28ec=('\x0a*<\x20TOP\x20USUARIOS\x20CON\x20MÁS\x20COMANDOS\x20USADOS💻\x20/>*\x0a\x0a▢\x20*TOP\x20'+_0x281b74+'\x20USUARIOS\x20CON\x20MÁS\x20COMANDOS\x20USADOS*\x20•\x0aTú\x20:\x20*'+(_0x5492c1[_0x1f5034(0x10f)](_0x309db8[_0x1f5034(0x115)])+0x1)+'*\x20de\x20*'+_0x5492c1[_0x1f5034(0x120)]+_0x1f5034(0x104)+_0x39d3de[_0x1f5034(0x107)](0x0,_0x281b74)[_0x1f5034(0x112)](({jid:_0x4e2ab3,comandos:_0x44e0f1},_0x2a70ea)=>_0x2a70ea+0x1+'.\x20'+(_0x3c1790['some'](_0x55ca3a=>_0x4e2ab3===_0x55ca3a[_0x1f5034(0x109)])?'('+_0x582947[_0x1f5034(0x117)](_0x4e2ab3)+')\x20wa.me/':'@')+_0x4e2ab3[_0x1f5034(0x10a)]`@`[0x0]+'\x20*'+_0x44e0f1+_0x1f5034(0x10c))['join']('\x0a')+'\x0a')[_0x1f5034(0x116)]();_0x309db8[_0x1f5034(0x121)](_0x4c28ec,null,{'mentions':_0x582947[_0x1f5034(0x108)](_0x4c28ec)});};handler[a0_0x38a86c(0x122)]=['topcomandos'],handler[a0_0x38a86c(0x11a)]=['xp'],handler[a0_0x38a86c(0x124)]=[a0_0x38a86c(0x10b)],handler['fail']=null,handler[a0_0x38a86c(0x11e)]=0x0;export default handler;function a0_0x4f4d(_0x32ffd7,_0x4201e3){const _0x1156b3=a0_0x1156();return a0_0x4f4d=function(_0x4f4de8,_0x3074e1){_0x4f4de8=_0x4f4de8-0x104;let _0x2a9f5d=_0x1156b3[_0x4f4de8];return _0x2a9f5d;},a0_0x4f4d(_0x32ffd7,_0x4201e3);}function sort(_0x58ff29,_0x3e73d7=!![]){if(_0x58ff29)return(..._0x30b737)=>_0x30b737[_0x3e73d7&0x1][_0x58ff29]-_0x30b737[!_0x3e73d7&0x1][_0x58ff29];else return(..._0x585d3d)=>_0x585d3d[_0x3e73d7&0x1]-_0x585d3d[!_0x3e73d7&0x1];}function toNumber(_0x152e61,_0x163894=0x0){return _0x152e61?(_0x2d37e0,_0x318e29,_0x15ae50)=>{return{..._0x15ae50[_0x318e29],[_0x152e61]:_0x2d37e0[_0x152e61]===undefined?_0x163894:_0x2d37e0[_0x152e61]};}:_0x206462=>_0x206462===undefined?_0x163894:_0x206462;}function enumGetKey(_0xb9bed9){return _0xb9bed9['jid'];}function a0_0x1156(){const _0x5c43a9=['min','slice','parseMention','jid','split','topcomandos','\x20Comandos*','501824wqMxck','11182OseUsj','indexOf','17505765uJkdpd','3437864ApDidN','map','users','comandos','sender','trim','getName','49juGmPs','data','tags','13998NoDrLe','entries','sort','exp','951831qAAMvv','length','reply','help','max','command','4872195hacUPn','*\x0a\x0a','217WjbNPF'];a0_0x1156=function(){return _0x5c43a9;};return a0_0x1156();}
+let handler = async (m, { conn, args, participants }) => {
+  global.db.data.users[m.sender].comandos += 1;
+  let users = Object.entries(global.db.data.users).map(([key, value]) => {
+    return { ...value, jid: key };
+  });
+
+  let sortedComandos = users.map(toNumber('comandos')).sort(sort('comandos'));
+  let usersComandos = sortedComandos.map(enumGetKey);
+
+  let len = args[0] && args[0].length > 0 ? Math.min(10, Math.max(parseInt(args[0]), 10)) : Math.min(10, sortedComandos.length);
+
+  let text = `
+*< TOP USUARIOS CON MÁS COMANDOS USADOS💻 />*
+
+▢ *TOP ${len} USUARIOS CON MÁS COMANDOS USADOS* •
+Tú : *${usersComandos.indexOf(m.sender) + 1}* de *${usersComandos.length}*
+
+${sortedComandos.slice(0, len).map(({ jid, comandos }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${comandos} Comandos*`).join('\n')}
+`.trim();
+
+  m.reply(text, null, { mentions: conn.parseMention(text) });
+};
+
+handler.help = ['topcomandos'];
+handler.tags = ['xp'];
+handler.command = ['topcomandos'];
+
+handler.fail = null;
+handler.exp = 0;
+
+export default handler;
+
+function sort(property, ascending = true) {
+  if (property) return (...args) => args[ascending & 1][property] - args[!ascending & 1][property];
+  else return (...args) => args[ascending & 1] - args[!ascending & 1];
+}
+
+function toNumber(property, _default = 0) {
+  if (property) {
+    return (a, i, b) => {
+      return { ...b[i], [property]: a[property] === undefined ? _default : a[property] };
+    };
+  } else {
+    return a => a === undefined ? _default : a;
+  }
+}
+
+function enumGetKey(a) {
+  return a.jid;
+}

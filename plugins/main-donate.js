@@ -1,1 +1,29 @@
-const a0_0x3e3ca8=a0_0x5621;(function(_0x314bca,_0x593844){const _0x47836d=a0_0x5621,_0xaaed26=_0x314bca();while(!![]){try{const _0x29ae03=-parseInt(_0x47836d(0x15e))/0x1+-parseInt(_0x47836d(0x154))/0x2*(-parseInt(_0x47836d(0x150))/0x3)+-parseInt(_0x47836d(0x159))/0x4+parseInt(_0x47836d(0x151))/0x5+parseInt(_0x47836d(0x14e))/0x6*(-parseInt(_0x47836d(0x15b))/0x7)+-parseInt(_0x47836d(0x15c))/0x8+parseInt(_0x47836d(0x157))/0x9*(parseInt(_0x47836d(0x162))/0xa);if(_0x29ae03===_0x593844)break;else _0xaaed26['push'](_0xaaed26['shift']());}catch(_0x86b2ac){_0xaaed26['push'](_0xaaed26['shift']());}}}(a0_0x125d,0x255bb));let handler=async(_0x28d5c1,{conn:_0x3c5f5a,usedPrefix:_0x4f75e9,command:_0xfba344})=>{const _0x563dca=a0_0x5621;_0x28d5c1[_0x563dca(0x158)]('💰');let _0x176018=_0x563dca(0x153),_0x561303='https://i.ibb.co/37FP2bk/donate.jpg';_0x3c5f5a[_0x563dca(0x156)](_0x28d5c1[_0x563dca(0x161)],_0x561303,_0x563dca(0x164),_0x176018,_0x28d5c1);};handler[a0_0x3e3ca8(0x160)]=[a0_0x3e3ca8(0x14f)],handler[a0_0x3e3ca8(0x152)]=[a0_0x3e3ca8(0x163)],handler[a0_0x3e3ca8(0x155)]=[a0_0x3e3ca8(0x15f),a0_0x3e3ca8(0x15d),a0_0x3e3ca8(0x14f),a0_0x3e3ca8(0x15a)];function a0_0x5621(_0x1d3808,_0x326725){const _0x125d72=a0_0x125d();return a0_0x5621=function(_0x562150,_0x367e84){_0x562150=_0x562150-0x14e;let _0x29e12a=_0x125d72[_0x562150];return _0x29e12a;},a0_0x5621(_0x1d3808,_0x326725);}export default handler;function a0_0x125d(){const _0x5062cf=['4129960jbOYDN','main','donate.jpg','5502jlUhDG','donar','204231QVYduw','145840FrVJFM','tags','\x0a≡\x20*DONACION*\x0apuedes\x20donar\x20si\x20quieres\x20ayudar\x20a\x20mantener\x20el\x20bot\x20activo,\x20gracias\x20por\x20tu\x20apoyo\x20☺️.\x0a\x0a▢\x20*PayPal*\x0a•\x20*Link\x20:*\x20https://paypal.me/sinnombre395\x0a▢\x20*Transferencia\x20en\x20México\x20🇲🇽\x20vía\x20SPEI*\x0a•\x20*Cuenta\x20:*\x20646028206857414458\x20\x20💳\x20|\x20STP\x0a•\x20*Enlace:*\x20Solicitalo\x20con\x20el\x20ADM\x0a\x0a▢\x20*Donadores*\x0a•\x20+52\x20797\x20110\x202864\x0a•\x20+52\x20749\x20114\x209377\x0a•\x20+52\x20221\x20567\x208881\x0a•\x20+52\x2055\x205564\x205757\x0a','8IFywLf','command','sendFile','9tgwJAf','react','760696cueRmD','donaciones','1645vFmOYV','683352kzNCxh','donate','70365FoYZNM','apoyar','help','chat'];a0_0x125d=function(){return _0x5062cf;};return a0_0x125d();}
+
+let handler = async(m, { conn, usedPrefix, command }) => {
+m.react('💰')
+    let donat = `
+≡ *DONACION*
+puedes donar si quieres ayudar a mantener el bot activo, gracias por tu apoyo ☺️.
+
+▢ *PayPal*
+• *Link :* https://paypal.me/sinnombre395
+▢ *Transferencia en México 🇲🇽 vía SPEI*
+• *Cuenta :* 646028206857414458  💳 | STP
+• *Enlace:* Solicitalo con el ADM
+
+▢ *Donadores*
+• +52 797 110 2864
+• +52 749 114 9377
+• +52 221 567 8881
+• +52 55 5564 5757
+`
+let img = 'https://i.ibb.co/37FP2bk/donate.jpg'
+
+conn.sendFile(m.chat, img, 'donate.jpg', donat, m);
+}
+
+handler.help = ['donar']
+handler.tags = ['main']
+handler.command = ['apoyar', 'donate', 'donar', 'donaciones'] 
+
+export default handler

@@ -1,1 +1,29 @@
-const a0_0x19c874=a0_0x1ae7;function a0_0x5436(){const _0xacf979=['readFileSync','14gEQbbC','keys','.json','55488IRjcjX','texto2','1506860WFfUvx','chat','readvo','video','11MYNADI','command','939333hrxQii','48280QmOovA','message','804116wfbAHM','viewOnceMessageV2','language','herramientas_readviewonce','306jNAUcb','imageMessage','tools','error.mp4','users','tags','concat','4isWCnP','mtype','help','caption','quoted','parse','211928nmymOO','test','from','sender','image','sendFile','108130DIjIwZ'];a0_0x5436=function(){return _0xacf979;};return a0_0x5436();}function a0_0x1ae7(_0x149c58,_0x37fb8a){const _0x5436f5=a0_0x5436();return a0_0x1ae7=function(_0x1ae76c,_0x36a87f){_0x1ae76c=_0x1ae76c-0x167;let _0x3c0e49=_0x5436f5[_0x1ae76c];return _0x3c0e49;},a0_0x1ae7(_0x149c58,_0x37fb8a);}(function(_0x96e0c4,_0x10650c){const _0x377055=a0_0x1ae7,_0x3849e7=_0x96e0c4();while(!![]){try{const _0xec57ac=-parseInt(_0x377055(0x18c))/0x1*(parseInt(_0x377055(0x186))/0x2)+parseInt(_0x377055(0x178))/0x3+parseInt(_0x377055(0x17b))/0x4+parseInt(_0x377055(0x172))/0x5+parseInt(_0x377055(0x170))/0x6*(parseInt(_0x377055(0x16d))/0x7)+-parseInt(_0x377055(0x179))/0x8*(parseInt(_0x377055(0x17f))/0x9)+-parseInt(_0x377055(0x16b))/0xa*(-parseInt(_0x377055(0x176))/0xb);if(_0xec57ac===_0x10650c)break;else _0x3849e7['push'](_0x3849e7['shift']());}catch(_0x4554e4){_0x3849e7['push'](_0x3849e7['shift']());}}}(a0_0x5436,0x34adf));const {downloadContentFromMessage}=await import('@whiskeysockets/baileys'),handler=async(_0x26cad7,{conn:_0x1761c5})=>{const _0x30e85c=a0_0x1ae7,_0x41b494=global,_0x1dd2f3=_0x41b494['db']['data'][_0x30e85c(0x183)][_0x26cad7[_0x30e85c(0x168)]][_0x30e85c(0x17d)],_0x3e2f79=JSON[_0x30e85c(0x18b)](fs[_0x30e85c(0x16c)]('./language/'+_0x1dd2f3+_0x30e85c(0x16f))),_0x13833d=_0x3e2f79['plugins'][_0x30e85c(0x17e)];if(!_0x26cad7[_0x30e85c(0x18a)])throw _0x13833d['texto1'];if(_0x26cad7[_0x30e85c(0x18a)][_0x30e85c(0x187)]!==_0x30e85c(0x17c))throw _0x13833d[_0x30e85c(0x171)];const _0xf79c88=_0x26cad7[_0x30e85c(0x18a)][_0x30e85c(0x17a)],_0x18d431=Object[_0x30e85c(0x16e)](_0xf79c88)[0x0],_0xe1ea7a=await downloadContentFromMessage(_0xf79c88[_0x18d431],_0x18d431==_0x30e85c(0x180)?_0x30e85c(0x169):_0x30e85c(0x175));let _0x3071ca=Buffer[_0x30e85c(0x167)]([]);for await(const _0x498a0e of _0xe1ea7a){_0x3071ca=Buffer[_0x30e85c(0x185)]([_0x3071ca,_0x498a0e]);}if(/video/[_0x30e85c(0x18d)](_0x18d431))return _0x1761c5['sendFile'](_0x26cad7['chat'],_0x3071ca,_0x30e85c(0x182),_0xf79c88[_0x18d431][_0x30e85c(0x189)]||'',_0x26cad7);else{if(/image/[_0x30e85c(0x18d)](_0x18d431))return _0x1761c5[_0x30e85c(0x16a)](_0x26cad7[_0x30e85c(0x173)],_0x3071ca,'error.jpg',_0xf79c88[_0x18d431]['caption']||'',_0x26cad7);}};handler[a0_0x19c874(0x188)]=[a0_0x19c874(0x174)],handler[a0_0x19c874(0x184)]=[a0_0x19c874(0x181)],handler[a0_0x19c874(0x177)]=/^(readviewonce|read|revelar|readvo)$/i;export default handler;
+
+
+const {downloadContentFromMessage} = (await import('@whiskeysockets/baileys'));
+
+const handler = async (m, {conn}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.herramientas_readviewonce
+
+  if (!m.quoted) throw tradutor.texto1;
+  if (m.quoted.mtype !== 'viewOnceMessageV2') throw tradutor.texto2;
+  const msg = m.quoted.message;
+  const type = Object.keys(msg)[0];
+  const media = await downloadContentFromMessage(msg[type], type == 'imageMessage' ? 'image' : 'video');
+  let buffer = Buffer.from([]);
+  for await (const chunk of media) {
+    buffer = Buffer.concat([buffer, chunk]);
+  }
+  if (/video/.test(type)) {
+    return conn.sendFile(m.chat, buffer, 'error.mp4', msg[type].caption || '', m);
+  } else if (/image/.test(type)) {
+    return conn.sendFile(m.chat, buffer, 'error.jpg', msg[type].caption || '', m);
+  }
+};
+handler.help = ['readvo'];
+handler.tags = ['tools'];
+handler.command = /^(readviewonce|read|revelar|readvo)$/i;
+export default handler;

@@ -1,1 +1,85 @@
-const a0_0x108879=a0_0x2623;(function(_0x32e166,_0x3d2f48){const _0x31dc5c=a0_0x2623,_0x83702=_0x32e166();while(!![]){try{const _0x56135a=parseInt(_0x31dc5c(0xf8))/0x1+parseInt(_0x31dc5c(0x117))/0x2+-parseInt(_0x31dc5c(0x11b))/0x3+parseInt(_0x31dc5c(0x10a))/0x4*(-parseInt(_0x31dc5c(0x10f))/0x5)+-parseInt(_0x31dc5c(0x113))/0x6*(-parseInt(_0x31dc5c(0x10c))/0x7)+-parseInt(_0x31dc5c(0x101))/0x8*(parseInt(_0x31dc5c(0x11c))/0x9)+-parseInt(_0x31dc5c(0x11a))/0xa;if(_0x56135a===_0x3d2f48)break;else _0x83702['push'](_0x83702['shift']());}catch(_0x80a59f){_0x83702['push'](_0x83702['shift']());}}}(a0_0x320a,0x267da));function a0_0x2623(_0x6ff183,_0x5a72b1){const _0x320afb=a0_0x320a();return a0_0x2623=function(_0x26239b,_0x1025c0){_0x26239b=_0x26239b-0xf7;let _0x42229d=_0x320afb[_0x26239b];return _0x42229d;},a0_0x2623(_0x6ff183,_0x5a72b1);}import a0_0x3ed3a5 from'axios';function a0_0x320a(){const _0x1c0673=['❗\x20Error\x20al\x20procesar.\x20Asegúrate\x20de\x20usar\x20un\x20enlace\x20directo\x20a\x20un\x20pin.','html','108SpLWRj','Error\x20parsing\x20JSON:','455MzSpYT','command','trim','21215DqQTew','map','url','pint','24294oDcFPo','get','help','Mozilla/5.0\x20(Windows\x20NT\x2010.0;\x20Win64;\x20x64)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/120.0.0.0\x20Safari/537.36','342334gUyiSe','⚠️\x20[Error]\x20Proporciona\x20un\x20enlace\x20válido.\x0aEjemplo:\x20','meta[property=\x22og:image\x22]','1801170OpDPWN','97485koGhrd','12114lcAzqU','props','❗\x20No\x20se\x20encontró\x20contenido\x20multimedia.','error','reply','parse','❗\x20Enlace\x20no\x20válido\x20de\x20Pinterest.','limit','chat','pinterest.com','register','\x20https://pin.it/ejemplo','includes','82783cYKNZY','src','meta[property=\x22og:video:secure_url\x22]','orig','Imagen','Error:','responseUrl','https://www.pinterest.com/','data','192COvlei','test','✅\x20Pinterest\x20-\x20','attr','content','initialReduxState','downloader'];a0_0x320a=function(){return _0x1c0673;};return a0_0x320a();}import a0_0x5193b0 from'cheerio';let handler=async(_0x5309a5,{conn:_0x28229d,text:_0x194a65,usedPrefix:_0x5723a6,command:_0x2faff8})=>{const _0x17049c=a0_0x2623;if(!_0x194a65||!/^https?:\/\//i[_0x17049c(0x102)](_0x194a65['trim']()))throw _0x17049c(0x118)+(_0x5723a6+_0x2faff8)+_0x17049c(0x127);try{const _0x1a2cb3=await resolvePinterestLink(_0x194a65[_0x17049c(0x10e)]());if(!_0x1a2cb3[_0x17049c(0xf7)](_0x17049c(0x125)))throw _0x17049c(0x122);const {data:_0x21aee3}=await a0_0x3ed3a5[_0x17049c(0x114)](_0x1a2cb3,{'headers':{'User-Agent':_0x17049c(0x116),'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8','Referer':_0x17049c(0xff),'Cookie':'sessioninfo=...'}}),_0x4bd721=extractMediaUrl(_0x21aee3);if(!_0x4bd721)throw _0x17049c(0x11e);const _0x39429e=/\.(mp4|mov|webm)/i[_0x17049c(0x102)](_0x4bd721);await _0x28229d['sendFile'](_0x5309a5['chat'],_0x4bd721,'',_0x17049c(0x103)+(_0x39429e?'Video':_0x17049c(0xfc)),_0x5309a5,![],{'asDocument':![]});}catch(_0x35d928){console[_0x17049c(0x11f)](_0x17049c(0xfd),_0x35d928),_0x28229d[_0x17049c(0x120)](_0x5309a5[_0x17049c(0x124)],_0x17049c(0x108),_0x5309a5);}};const resolvePinterestLink=async _0x10f5a6=>{const _0x53d743=a0_0x2623;try{const {request:_0x2389d0}=await a0_0x3ed3a5[_0x53d743(0x114)](_0x10f5a6,{'maxRedirects':0x5});return _0x2389d0['res'][_0x53d743(0xfe)]||_0x10f5a6;}catch{return _0x10f5a6;}},extractMediaUrl=_0xcea9f6=>{const _0x2ee8e1=a0_0x2623,_0x438935=a0_0x5193b0['load'](_0xcea9f6),_0x118bd9=_0x438935('video\x20source')[_0x2ee8e1(0x104)](_0x2ee8e1(0xf9));if(_0x118bd9)return _0x118bd9;const _0x1ae39f=_0x438935('script[type=\x22application/json\x22]')[_0x2ee8e1(0x109)]();if(_0x1ae39f)try{const _0x3df362=JSON[_0x2ee8e1(0x121)](_0x1ae39f),_0x3e57eb=_0x3df362?.[_0x2ee8e1(0x11d)]?.['initialReduxState']?.['resources']?.[_0x2ee8e1(0x100)]?.[Object['keys'](_0x3df362['props'][_0x2ee8e1(0x106)]['resources'][_0x2ee8e1(0x100)])[0x0]]?.['images']?.[_0x2ee8e1(0xfb)]?.[_0x2ee8e1(0x111)];if(_0x3e57eb)return _0x3e57eb;}catch(_0x464325){console[_0x2ee8e1(0x11f)](_0x2ee8e1(0x10b),_0x464325);}return _0x438935(_0x2ee8e1(0xfa))[_0x2ee8e1(0x104)](_0x2ee8e1(0x105))||_0x438935(_0x2ee8e1(0x119))[_0x2ee8e1(0x104)](_0x2ee8e1(0x105));};handler[a0_0x108879(0x115)]=[a0_0x108879(0x112)][a0_0x108879(0x110)](_0x3b01c0=>_0x3b01c0+'\x20[enlace\x20pinterest]'),handler['tags']=[a0_0x108879(0x107)],handler[a0_0x108879(0x10d)]=/^(pint(erest)?|pin)$/i,handler[a0_0x108879(0x123)]=!![],handler[a0_0x108879(0x126)]=!![];export default handler;
+import axios from 'axios';
+import cheerio from 'cheerio';
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text || !/^https?:\/\//i.test(text.trim())) {
+    throw `⚠️ [Error] Proporciona un enlace válido.\nEjemplo: ${usedPrefix + command} https://pin.it/ejemplo`;
+  }
+
+  try {
+    const finalUrl = await resolvePinterestLink(text.trim());
+    if (!finalUrl.includes('pinterest.com')) throw `❗ Enlace no válido de Pinterest.`;
+
+    // Usar GET en lugar de HEAD para mejores resultados
+    const { data } = await axios.get(finalUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Referer': 'https://www.pinterest.com/',
+        'Cookie': 'sessioninfo=...' // Agrega cookies si es necesario
+      }
+    });
+
+    const mediaUrl = extractMediaUrl(data);
+    if (!mediaUrl) throw '❗ No se encontró contenido multimedia.';
+
+    // Determinar tipo de contenido correctamente
+    const isVideo = /\.(mp4|mov|webm)/i.test(mediaUrl);
+    
+    // Enviar como vista previa multimedia
+    await conn.sendFile(
+      m.chat,
+      mediaUrl,
+      '',
+      `✅ Pinterest - ${isVideo ? 'Video' : 'Imagen'}`,
+      m,
+      false,
+      { asDocument: false }
+    );
+
+  } catch (e) {
+    console.error('Error:', e);
+    conn.reply(m.chat, '❗ Error al procesar. Asegúrate de usar un enlace directo a un pin.', m);
+  }
+};
+
+const resolvePinterestLink = async (url) => {
+  try {
+    const { request } = await axios.get(url, { maxRedirects: 5 });
+    return request.res.responseUrl || url;
+  } catch {
+    return url;
+  }
+};
+
+const extractMediaUrl = (html) => {
+  const $ = cheerio.load(html);
+  
+  // Nueva forma de obtener URLs en Pinterest
+  const videoSrc = $('video source').attr('src');
+  if (videoSrc) return videoSrc;
+
+  // Buscar en scripts dinámicos
+  const scriptData = $('script[type="application/json"]').html();
+  if (scriptData) {
+    try {
+      const jsonData = JSON.parse(scriptData);
+      const resourceUrl = jsonData?.props?.initialReduxState?.resources?.data?.[Object.keys(jsonData.props.initialReduxState.resources.data)[0]]?.images?.orig?.url;
+      if (resourceUrl) return resourceUrl;
+    } catch (e) {
+      console.error('Error parsing JSON:', e);
+    }
+  }
+
+  // Último recurso: meta tags
+  return $('meta[property="og:video:secure_url"]').attr('content') 
+      || $('meta[property="og:image"]').attr('content');
+};
+
+handler.help = ['pint'].map(v => v + ' [enlace pinterest]');
+handler.tags = ['downloader'];
+handler.command = /^(pint(erest)?|pin)$/i;
+handler.limit = true;
+handler.register = true
+
+export default handler;

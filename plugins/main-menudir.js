@@ -1,1 +1,190 @@
-const a0_0x5859e1=a0_0x1f2b;(function(_0x34f2a8,_0x1d8d94){const _0x38dca4=a0_0x1f2b,_0x1d1684=_0x34f2a8();while(!![]){try{const _0x2462d7=parseInt(_0x38dca4(0x1c8))/0x1+parseInt(_0x38dca4(0x1fe))/0x2*(-parseInt(_0x38dca4(0x21a))/0x3)+parseInt(_0x38dca4(0x1fa))/0x4+-parseInt(_0x38dca4(0x1f2))/0x5*(parseInt(_0x38dca4(0x1ea))/0x6)+-parseInt(_0x38dca4(0x224))/0x7+-parseInt(_0x38dca4(0x1ef))/0x8*(parseInt(_0x38dca4(0x1e9))/0x9)+parseInt(_0x38dca4(0x1e5))/0xa*(parseInt(_0x38dca4(0x1ed))/0xb);if(_0x2462d7===_0x1d8d94)break;else _0x1d1684['push'](_0x1d1684['shift']());}catch(_0x1c408b){_0x1d1684['push'](_0x1d1684['shift']());}}}(a0_0x4faf,0x5dfe7));import{promises}from'fs';import{join}from'path';import a0_0x5279e6 from'node-fetch';import{xpRange}from'../lib/levelling.js';let tags={'main':a0_0x5859e1(0x202),'info':'INFO','game':a0_0x5859e1(0x1da),'downloader':'DESCARGAS','econ':a0_0x5859e1(0x219),'sticker':a0_0x5859e1(0x221),'audio':a0_0x5859e1(0x1e0),'search':a0_0x5859e1(0x1fb),'convertidores':'CONVERTIDORES','group':a0_0x5859e1(0x1d2),'tools':a0_0x5859e1(0x1cd),'fun':a0_0x5859e1(0x218),'database':a0_0x5859e1(0x1db),'xp':a0_0x5859e1(0x1f7),'owner':a0_0x5859e1(0x220)};const defaultMenu={'before':'\x0a\x20\x20────\x20\x20*Sung\x20Jin-Woo\x20\x20┃\x20ᴮᴼᵀ*\x20\x20────\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20*𝐌\x20\x20𝐄\x20\x20𝐍\x20\x20𝐔*\x0a\x20\x0a👋🏻\x20_Hola_\x20*%name*\x0a\x0a🧿\x20Nivel\x20:\x20*%level*\x20\x0a👥\x20Usuarios\x20:\x20%totalreg\x0a📈\x20Tiempo\x20activo\x20:\x20%muptime\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20────\x0a_https://t.me/powermx_\x0a─────────────\x0a%readmore\x0aⓅ\x20=\x20Premium\x0aⓓ\x20=\x20Diamantes\x0a-----\x20\x20-----\x20\x20-----\x20\x20-----\x20\x20-----\x0a\x20\x20≡\x20*LISTA\x20DE\x20COMANDOS*\x0a'[a0_0x5859e1(0x214)](),'header':a0_0x5859e1(0x1e3),'body':a0_0x5859e1(0x1d9),'footer':a0_0x5859e1(0x1d5),'after':'\x0a'};let handler=async(_0x18e249,{conn:_0x4341f9,usedPrefix:_0x43de07,__dirname:_0x6ed351})=>{const _0x2d51ae=a0_0x5859e1;try{let _0x7a4e9f=JSON[_0x2d51ae(0x226)](await promises[_0x2d51ae(0x21b)](join(_0x6ed351,_0x2d51ae(0x1f3)))['catch'](_0x5eef64=>({})))||{},{exp:_0x1394b1,diamond:_0x50cb4f,level:_0x269b44,role:_0x3c7a7b}=global['db'][_0x2d51ae(0x21e)][_0x2d51ae(0x1e8)][_0x18e249[_0x2d51ae(0x203)]],{min:_0x4c2de0,xp:_0x4bf556,max:_0x5ac91e}=xpRange(_0x269b44,global[_0x2d51ae(0x1fd)]),_0x199f9d=await _0x4341f9[_0x2d51ae(0x213)](_0x18e249[_0x2d51ae(0x203)]),_0x157ba0=new Date(new Date()+0x36ee80),_0x3a3894='es',_0x324ae2=['Pahing',_0x2d51ae(0x1c7),_0x2d51ae(0x1eb),_0x2d51ae(0x212),_0x2d51ae(0x207)][Math['floor'](_0x157ba0/0x50ae4c0)%0x5],_0x2f537f=_0x157ba0[_0x2d51ae(0x21d)](_0x3a3894,{'weekday':_0x2d51ae(0x1d8)}),_0x40848c=_0x157ba0[_0x2d51ae(0x21d)](_0x3a3894,{'day':_0x2d51ae(0x1dd),'month':'long','year':_0x2d51ae(0x1dd)}),_0x986e5b=Intl[_0x2d51ae(0x1e1)](_0x3a3894+_0x2d51ae(0x1ce),{'day':_0x2d51ae(0x1dd),'month':_0x2d51ae(0x1d8),'year':_0x2d51ae(0x1dd)})['format'](_0x157ba0),_0x503dec=_0x157ba0['toLocaleTimeString'](_0x3a3894,{'hour':'numeric','minute':_0x2d51ae(0x1dd),'second':_0x2d51ae(0x1dd)}),_0x4c7fbf=process[_0x2d51ae(0x208)]()*0x3e8,_0x2c244b;process[_0x2d51ae(0x1de)]&&(process[_0x2d51ae(0x1de)](_0x2d51ae(0x208)),_0x2c244b=await new Promise(_0x474b0e=>{const _0x41e2f7=_0x2d51ae;process[_0x41e2f7(0x204)](_0x41e2f7(0x223),_0x474b0e),setTimeout(_0x474b0e,0x3e8);})*0x3e8);let _0x25b611=clockString(_0x2c244b),_0x471f29=clockString(_0x4c7fbf),_0x253837=Object[_0x2d51ae(0x1cf)](global['db']['data'][_0x2d51ae(0x1e8)])[_0x2d51ae(0x1e7)],_0x44bc49=Object[_0x2d51ae(0x21c)](global['db']['data']['users'])[_0x2d51ae(0x225)](_0x15a294=>_0x15a294['registered']==!![])['length'],_0x3068a4=Object[_0x2d51ae(0x21c)](global[_0x2d51ae(0x1ff)])[_0x2d51ae(0x225)](_0x2e6665=>!_0x2e6665[_0x2d51ae(0x1cc)])[_0x2d51ae(0x216)](_0x1652f0=>{const _0x1ba0ad=_0x2d51ae;return{'help':Array[_0x1ba0ad(0x217)](_0x1652f0[_0x1ba0ad(0x210)])?_0x1652f0[_0x1ba0ad(0x20e)]:[_0x1652f0[_0x1ba0ad(0x20e)]],'tags':Array[_0x1ba0ad(0x217)](_0x1652f0[_0x1ba0ad(0x210)])?_0x1652f0[_0x1ba0ad(0x210)]:[_0x1652f0['tags']],'prefix':_0x1ba0ad(0x1e2)in _0x1652f0,'diamond':_0x1652f0[_0x1ba0ad(0x201)],'premium':_0x1652f0[_0x1ba0ad(0x1ec)],'enabled':!_0x1652f0[_0x1ba0ad(0x1cc)]};});for(let _0xd08fba of _0x3068a4)if(_0xd08fba&&_0x2d51ae(0x210)in _0xd08fba){for(let _0x19267e of _0xd08fba[_0x2d51ae(0x210)])if(!(_0x19267e in tags)&&_0x19267e)tags[_0x19267e]=_0x19267e;}_0x4341f9[_0x2d51ae(0x1f9)]=_0x4341f9['menu']?_0x4341f9['menu']:{};let _0x42f390=_0x4341f9[_0x2d51ae(0x1f9)][_0x2d51ae(0x209)]||defaultMenu['before'],_0x3f986e=_0x4341f9[_0x2d51ae(0x1f9)][_0x2d51ae(0x1d4)]||defaultMenu[_0x2d51ae(0x1d4)],_0x5d44f0=_0x4341f9[_0x2d51ae(0x1f9)][_0x2d51ae(0x1d0)]||defaultMenu[_0x2d51ae(0x1d0)],_0x3305cf=_0x4341f9[_0x2d51ae(0x1f9)][_0x2d51ae(0x20a)]||defaultMenu['footer'],_0x4b490c=_0x4341f9[_0x2d51ae(0x1f9)]['after']||(_0x4341f9[_0x2d51ae(0x1e6)][_0x2d51ae(0x21f)]==_0x4341f9[_0x2d51ae(0x1e6)][_0x2d51ae(0x21f)]?'':_0x2d51ae(0x200)+_0x4341f9[_0x2d51ae(0x1e6)]['jid'][_0x2d51ae(0x206)]`@`[0x0])+defaultMenu[_0x2d51ae(0x1dc)],_0x61c549=[_0x42f390,...Object[_0x2d51ae(0x1cf)](tags)[_0x2d51ae(0x216)](_0x29fef4=>{const _0x4815c4=_0x2d51ae;return _0x3f986e[_0x4815c4(0x1e4)](/%category/g,tags[_0x29fef4])+'\x0a'+[..._0x3068a4[_0x4815c4(0x225)](_0x30ec79=>_0x30ec79['tags']&&_0x30ec79[_0x4815c4(0x210)][_0x4815c4(0x1df)](_0x29fef4)&&_0x30ec79[_0x4815c4(0x20e)])[_0x4815c4(0x216)](_0x920dc8=>{const _0x47aeec=_0x4815c4;return _0x920dc8[_0x47aeec(0x20e)]['map'](_0x55c3ca=>{const _0x1c3850=_0x47aeec;return _0x5d44f0[_0x1c3850(0x1e4)](/%cmd/g,_0x920dc8[_0x1c3850(0x1ca)]?_0x55c3ca:'%p'+_0x55c3ca)[_0x1c3850(0x1e4)](/%isdiamond/g,_0x920dc8[_0x1c3850(0x201)]?_0x1c3850(0x222):'')[_0x1c3850(0x1e4)](/%isPremium/g,_0x920dc8['premium']?_0x1c3850(0x1f1):'')[_0x1c3850(0x1f8)]();})[_0x47aeec(0x1d3)]('\x0a');}),_0x3305cf][_0x4815c4(0x1d3)]('\x0a');}),_0x4b490c]['join']('\x0a'),_0x280576=typeof _0x4341f9[_0x2d51ae(0x1f9)]=='string'?_0x4341f9[_0x2d51ae(0x1f9)]:typeof _0x4341f9[_0x2d51ae(0x1f9)]==_0x2d51ae(0x1cb)?_0x61c549:'',_0x183583={'%':'%','p':_0x43de07,'uptime':_0x471f29,'muptime':_0x25b611,'me':_0x4341f9['getName'](_0x4341f9[_0x2d51ae(0x1e6)][_0x2d51ae(0x21f)]),'npmname':_0x7a4e9f['name'],'npmdesc':_0x7a4e9f[_0x2d51ae(0x205)],'version':_0x7a4e9f['version'],'exp':_0x1394b1-_0x4c2de0,'maxexp':_0x4bf556,'totalexp':_0x1394b1,'xp4levelup':_0x5ac91e-_0x1394b1,'github':_0x7a4e9f['homepage']?_0x7a4e9f['homepage'][_0x2d51ae(0x1f4)]||_0x7a4e9f[_0x2d51ae(0x1f5)]:_0x2d51ae(0x20d),'level':_0x269b44,'diamond':_0x50cb4f,'name':_0x199f9d,'weton':_0x324ae2,'week':_0x2f537f,'date':_0x40848c,'dateIslamic':_0x986e5b,'time':_0x503dec,'totalreg':_0x253837,'rtotalreg':_0x44bc49,'role':_0x3c7a7b,'readmore':readMore};_0x280576=_0x280576[_0x2d51ae(0x1e4)](new RegExp('%('+Object[_0x2d51ae(0x1cf)](_0x183583)['sort']((_0x1c2257,_0x370580)=>_0x370580[_0x2d51ae(0x1e7)]-_0x1c2257['length'])[_0x2d51ae(0x1d3)]`|`+')','g'),(_0x167d30,_0x2392f5)=>''+_0x183583[_0x2392f5]);let _0x1e4737='./src/nezuko.jpg';_0x4341f9[_0x2d51ae(0x215)](_0x18e249[_0x2d51ae(0x1f0)],_0x1e4737,'arcane.jpg',('\x0a\x09'+_0x280576+'\x0a')[_0x2d51ae(0x1f8)](),_0x18e249);}catch(_0x5bb710){_0x4341f9[_0x2d51ae(0x1c9)](_0x18e249['chat'],_0x2d51ae(0x1d7),_0x18e249);throw _0x5bb710;}};handler['help']=[a0_0x5859e1(0x1f9)],handler['command']=['helper',a0_0x5859e1(0x1d6),a0_0x5859e1(0x211)],handler[a0_0x5859e1(0x20b)]=![],handler[a0_0x5859e1(0x20c)]=![],handler[a0_0x5859e1(0x20f)]=0x3;export default handler;const more=String['fromCharCode'](0x200e),readMore=more[a0_0x5859e1(0x1d1)](0xfa1);function a0_0x1f2b(_0x418398,_0x548b28){const _0x4faf65=a0_0x4faf();return a0_0x1f2b=function(_0x1f2b09,_0x1b98a6){_0x1f2b09=_0x1f2b09-0x1c7;let _0x667693=_0x4faf65[_0x1f2b09];return _0x667693;},a0_0x1f2b(_0x418398,_0x548b28);}function clockString(_0x165e9e){const _0x56c94a=a0_0x5859e1;let _0x191aea=isNaN(_0x165e9e)?'--':Math['floor'](_0x165e9e/0x5265c00),_0x38a432=isNaN(_0x165e9e)?'--':Math[_0x56c94a(0x1f6)](_0x165e9e/0x36ee80)%0x18,_0x382740=isNaN(_0x165e9e)?'--':Math[_0x56c94a(0x1f6)](_0x165e9e/0xea60)%0x3c,_0x5937c0=isNaN(_0x165e9e)?'--':Math[_0x56c94a(0x1f6)](_0x165e9e/0x3e8)%0x3c;return[_0x191aea,'d\x20',_0x38a432,'h\x20',_0x382740,'m\x20'][_0x56c94a(0x216)](_0x253ca7=>_0x253ca7[_0x56c94a(0x1ee)]()[_0x56c94a(0x1fc)](0x2,0x0))['join']('');}function a0_0x4faf(){const _0x819a1e=['jid','OWNER','STICKER','(ⓓ)','message','3611356unrjPY','filter','parse','Pon','405368AiaieY','reply','prefix','object','disabled','TOOLS','-TN-u-ca-islamic','keys','body','repeat','GRUPO','join','header','└───────────\x0a','ayudita','❎\x20Lo\x20sentimos,\x20el\x20menú\x20tiene\x20un\x20error','long','▢\x20%cmd\x20%isdiamond\x20%isPremium','JUEGOS','DATABASE','after','numeric','send','includes','AUDIO','DateTimeFormat','customPrefix','┌─⊷\x20*%category*','replace','59350aqNjij','user','length','users','2023191RsEFBO','599838TlMwXc','Wage','premium','3476kDPhma','toString','8kXmUcw','chat','(Ⓟ)','35APXBDo','../package.json','url','homepage','floor','NIVEL','trim','menu','247452RUuEzy','BUSQUEDA','padStart','multiplier','3604xdrunH','plugins','Powered\x20by\x20https://wa.me/','diamond','ACERCA\x20DE','sender','once','description','split','Legi','uptime','before','footer','register','rowner','[unknown\x20github\x20url]','help','exp','tags','menusito','Kliwon','getName','trimStart','sendFile','map','isArray','FUN','ECONOMIA','861gvcHmj','readFile','values','toLocaleDateString','data'];a0_0x4faf=function(){return _0x819a1e;};return a0_0x4faf();}
+//import db from '../lib/database.js'
+import { promises } from 'fs'
+import { join } from 'path'
+import fetch from 'node-fetch'
+import { xpRange } from '../lib/levelling.js'
+//import { plugins } from '../lib/plugins.js'
+let tags = {
+  'main': 'ACERCA DE',
+  'info': 'INFO',
+  'game': 'JUEGOS',
+  'downloader':'DESCARGAS',
+  'econ': 'ECONOMIA',
+  'sticker': 'STICKER',
+  'audio': 'AUDIO',
+  'search': 'BUSQUEDA',
+  'convertidores': 'CONVERTIDORES',
+  'group': 'GRUPO',
+  'tools': 'TOOLS',
+  'fun': 'FUN',
+  'database': 'DATABASE',
+  'xp': 'NIVEL',
+  'owner': 'OWNER', 
+  //'advanced': 'AVANZADO',
+}
+const defaultMenu = {
+  before: `
+  ────  *Sung Jin-Woo  ┃ ᴮᴼᵀ*  ────
+  
+         *𝐌  𝐄  𝐍  𝐔*
+ 
+👋🏻 _Hola_ *%name*
+
+🧿 Nivel : *%level* 
+👥 Usuarios : %totalreg
+📈 Tiempo activo : %muptime
+         ────
+_https://t.me/powermx_
+─────────────
+%readmore
+Ⓟ = Premium
+ⓓ = Diamantes
+-----  -----  -----  -----  -----
+  ≡ *LISTA DE COMANDOS*
+`.trimStart(),
+  header: '┌─⊷ *%category*',
+  body: '▢ %cmd %isdiamond %isPremium',
+  footer: '└───────────\n',
+  after: `
+`,
+}
+let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
+  try {
+    let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
+    let { exp, diamond, level, role } = global.db.data.users[m.sender]
+    let { min, xp, max } = xpRange(level, global.multiplier)
+    let name = await conn.getName(m.sender)
+    let d = new Date(new Date + 3600000)
+    let locale = 'es'
+    // d.getTimeZoneOffset()
+    // Offset -420 is 18.00
+    // Offset    0 is  0.00
+    // Offset  420 is  7.00
+    let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
+    let week = d.toLocaleDateString(locale, { weekday: 'long' })
+    let date = d.toLocaleDateString(locale, {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    })
+    let dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    }).format(d)
+    let time = d.toLocaleTimeString(locale, {
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric'
+    })
+    let _uptime = process.uptime() * 1000
+    let _muptime
+    if (process.send) {
+      process.send('uptime')
+      _muptime = await new Promise(resolve => {
+        process.once('message', resolve)
+        setTimeout(resolve, 1000)
+      }) * 1000
+    }
+    let muptime = clockString(_muptime)
+    let uptime = clockString(_uptime)
+    let totalreg = Object.keys(global.db.data.users).length
+    let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
+    let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
+      return {
+        help: Array.isArray(plugin.tags) ? plugin.help : [plugin.help],
+        tags: Array.isArray(plugin.tags) ? plugin.tags : [plugin.tags],
+        prefix: 'customPrefix' in plugin,
+        diamond: plugin.diamond,
+        premium: plugin.premium,
+        enabled: !plugin.disabled,
+      }
+    })
+    for (let plugin of help)
+      if (plugin && 'tags' in plugin)
+        for (let tag of plugin.tags)
+          if (!(tag in tags) && tag) tags[tag] = tag
+    conn.menu = conn.menu ? conn.menu : {}
+    let before = conn.menu.before || defaultMenu.before
+    let header = conn.menu.header || defaultMenu.header
+    let body = conn.menu.body || defaultMenu.body
+    let footer = conn.menu.footer || defaultMenu.footer
+    let after = conn.menu.after || (conn.user.jid == conn.user.jid ? '' : `Powered by https://wa.me/${conn.user.jid.split`@`[0]}`) + defaultMenu.after
+    let _text = [
+      before,
+      ...Object.keys(tags).map(tag => {
+        return header.replace(/%category/g, tags[tag]) + '\n' + [
+          ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
+            return menu.help.map(help => {
+              return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
+                .replace(/%isdiamond/g, menu.diamond ? '(ⓓ)' : '')
+                .replace(/%isPremium/g, menu.premium ? '(Ⓟ)' : '')
+                .trim()
+            }).join('\n')
+          }),
+          footer
+        ].join('\n')
+      }),
+      after
+    ].join('\n')
+    let text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ? _text : ''
+    let replace = {
+      '%': '%',
+      p: _p, uptime, muptime,
+      me: conn.getName(conn.user.jid),
+      npmname: _package.name,
+      npmdesc: _package.description,
+      version: _package.version,
+      exp: exp - min,
+      maxexp: xp,
+      totalexp: exp,
+      xp4levelup: max - exp,
+      github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
+      level, diamond, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
+      readmore: readMore
+    }
+    text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
+    
+    let pp = './src/nezuko.jpg'
+    /*
+     conn.sendHydrated2(m.chat, text.trim(), '▢ Sung Jin-Woo  ┃ ᴮᴼᵀ\n▢ Tutoriales\nhttps://powsitos.info\n', pp, fgyt, 'YouTube', 'https://paypal.me/pwrorgmx', 'PayPal', [
+      ['ꨄ︎ Apoyar', `${_p}donate`],
+      ['⏍ Info', `${_p}botinfo`],
+      ['⌬ Grupos', `${_p}grupos`]
+    ], m)  */
+	//m.reply(m.chat, `${text}`, pp, m)
+	///////////////
+	//m.reply(`${text}
+	//`.trim())
+	///////////////
+	conn.sendFile(m.chat, pp, 'arcane.jpg', `
+	${text}
+`.trim(), m)
+    //m.reply(m.chat, text.trim(), '▢ Sung Jin-Woo  ┃ ᴮᴼᵀ\n▢ Grupo Telegram\nhttps://t.me/vpnmx\n', pp, m, rpl)
+  
+  //  m.react('📚') 
+    
+  } catch (e) {
+    conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error', m)
+    throw e
+  }
+}
+handler.help = ['menu']
+
+handler.command = ['helper', 'ayudita', 'menusito'] 
+handler.register = false
+handler.rowner = false
+handler.exp = 3
+
+export default handler
+
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
+
+function clockString(ms) {
+  let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+  return [d, 'd ', h, 'h ', m, 'm '].map(v => v.toString().padStart(2, 0)).join('')
+}

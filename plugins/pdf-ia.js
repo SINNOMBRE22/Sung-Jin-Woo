@@ -1,1 +1,52 @@
-const a0_0xe89aca=a0_0x2c20;function a0_0x1f51(){const _0x48a309=['text','1532216OcTleE','Uso:\x20.pdf\x20<texto\x20para\x20convertir>','maxWidth','resultado.pdf','bind','trim','5717000ESLslN','[PDF\x20ERROR]','1695690lizCSU','push','reply','data','font','pdf','fontSize','sendFile','justify','1817263BCcvah','271655CIIwlY','moveDown','end','92ZWkDTx','error','6631146KFoVhR','✅\x20PDF\x20generado\x20correctamente.','command','lineGap','54063ppzfxh','6lyquyD'];a0_0x1f51=function(){return _0x48a309;};return a0_0x1f51();}(function(_0x12a794,_0x377bd8){const _0x5c5eb4=a0_0x2c20,_0x214b68=_0x12a794();while(!![]){try{const _0x3133c9=parseInt(_0x5c5eb4(0x1af))/0x1+parseInt(_0x5c5eb4(0x1b2))/0x2*(-parseInt(_0x5c5eb4(0x1b8))/0x3)+parseInt(_0x5c5eb4(0x1bb))/0x4+parseInt(_0x5c5eb4(0x1a5))/0x5+-parseInt(_0x5c5eb4(0x1b9))/0x6*(-parseInt(_0x5c5eb4(0x1ae))/0x7)+-parseInt(_0x5c5eb4(0x1a3))/0x8+parseInt(_0x5c5eb4(0x1b4))/0x9;if(_0x3133c9===_0x377bd8)break;else _0x214b68['push'](_0x214b68['shift']());}catch(_0x43a1b4){_0x214b68['push'](_0x214b68['shift']());}}}(a0_0x1f51,0x6d0c3));import a0_0x23d7fb from'pdfkit';const CONFIG={'pdf':{'margins':0x32,'font':'Helvetica','fontSize':0xc,'lineGap':0x4,'maxWidth':0x1f4}};function a0_0x2c20(_0x4b0fdd,_0x2255f9){const _0x1f515b=a0_0x1f51();return a0_0x2c20=function(_0x2c20a1,_0x1d2cc9){_0x2c20a1=_0x2c20a1-0x1a0;let _0x561f69=_0x1f515b[_0x2c20a1];return _0x561f69;},a0_0x2c20(_0x4b0fdd,_0x2255f9);}async function createPDF(_0x5565b9){return new Promise((_0x346c87,_0x51e519)=>{const _0x486bc6=a0_0x2c20,_0xfe54b7=new a0_0x23d7fb({'margin':CONFIG['pdf']['margins']}),_0x551bfc=[];_0xfe54b7['on'](_0x486bc6(0x1a8),_0x551bfc[_0x486bc6(0x1a6)][_0x486bc6(0x1a1)](_0x551bfc)),_0xfe54b7['on'](_0x486bc6(0x1b1),()=>_0x346c87(Buffer['concat'](_0x551bfc))),_0xfe54b7['on'](_0x486bc6(0x1b3),_0x51e519),_0xfe54b7[_0x486bc6(0x1a9)](CONFIG['pdf'][_0x486bc6(0x1a9)])[_0x486bc6(0x1ab)](CONFIG['pdf'][_0x486bc6(0x1ab)]);const _0x37f133=_0x5565b9[_0x486bc6(0x1a2)]()['split'](/\\n{2,}/);for(let _0x173852 of _0x37f133){_0xfe54b7[_0x486bc6(0x1ba)](_0x173852,{'width':CONFIG[_0x486bc6(0x1aa)][_0x486bc6(0x1bd)],'align':_0x486bc6(0x1ad),'lineGap':CONFIG[_0x486bc6(0x1aa)][_0x486bc6(0x1b7)]})[_0x486bc6(0x1b0)]();}_0xfe54b7['end']();});}let handler=async(_0x3c8d63,{conn:_0x4d08b2,text:_0x1f8b9e})=>{const _0x17c26b=a0_0x2c20;if(!_0x1f8b9e)return _0x3c8d63[_0x17c26b(0x1a7)](_0x17c26b(0x1bc));try{const _0x35df21=await createPDF(_0x1f8b9e);await _0x4d08b2[_0x17c26b(0x1ac)](_0x3c8d63['chat'],_0x35df21,_0x17c26b(0x1a0),_0x17c26b(0x1b5),_0x3c8d63);}catch(_0x3b9a4e){console[_0x17c26b(0x1b3)](_0x17c26b(0x1a4),_0x3b9a4e),await _0x3c8d63[_0x17c26b(0x1a7)]('❌\x20Error\x20al\x20generar\x20el\x20PDF:\x20'+_0x3b9a4e['message']);}};handler[a0_0xe89aca(0x1b6)]=/^(pdf)$/i;export default handler;
+import PDFDocument from 'pdfkit'
+
+// Plugin para generar PDF limpio, sin encabezados extra y ajuste automático de texto
+// Uso: .pdf <texto>
+
+const CONFIG = {
+  pdf: {
+    margins: 50,
+    font: 'Helvetica',
+    fontSize: 12,
+    lineGap: 4,
+    maxWidth: 500 // ancho máximo de texto antes de ajuste
+  }
+}
+
+async function createPDF(content) {
+  return new Promise((resolve, reject) => {
+    const doc = new PDFDocument({ margin: CONFIG.pdf.margins })
+    const buffers = []
+    doc.on('data', buffers.push.bind(buffers))
+    doc.on('end', () => resolve(Buffer.concat(buffers)))
+    doc.on('error', reject)
+
+    doc.font(CONFIG.pdf.font).fontSize(CONFIG.pdf.fontSize)
+
+    // Ajuste automático y salto de línea
+    const paragraphs = content.trim().split(/\\n{2,}/)
+    for (let p of paragraphs) {
+      doc.text(p, {
+        width: CONFIG.pdf.maxWidth,
+        align: 'justify',
+        lineGap: CONFIG.pdf.lineGap
+      }).moveDown()
+    }
+
+    doc.end()
+  })
+}
+
+let handler = async (m, { conn, text }) => {
+  if (!text) return m.reply('Uso: .pdf <texto para convertir>')
+  try {
+    const pdfBuffer = await createPDF(text)
+    await conn.sendFile(m.chat, pdfBuffer, 'resultado.pdf', '✅ PDF generado correctamente.', m)
+  } catch (e) {
+    console.error('[PDF ERROR]', e)
+    await m.reply('❌ Error al generar el PDF: ' + e.message)
+  }
+}
+
+handler.command = /^(pdf)$/i
+export default handler

@@ -1,1 +1,58 @@
-const a0_0x48bde2=a0_0x429c;(function(_0x5f57cb,_0x152eb4){const _0x59b7e0=a0_0x429c,_0x7da17f=_0x5f57cb();while(!![]){try{const _0x172743=-parseInt(_0x59b7e0(0x164))/0x1+parseInt(_0x59b7e0(0x182))/0x2*(-parseInt(_0x59b7e0(0x178))/0x3)+parseInt(_0x59b7e0(0x171))/0x4*(-parseInt(_0x59b7e0(0x177))/0x5)+-parseInt(_0x59b7e0(0x17a))/0x6*(-parseInt(_0x59b7e0(0x165))/0x7)+parseInt(_0x59b7e0(0x168))/0x8*(-parseInt(_0x59b7e0(0x16c))/0x9)+-parseInt(_0x59b7e0(0x174))/0xa+parseInt(_0x59b7e0(0x183))/0xb;if(_0x172743===_0x152eb4)break;else _0x7da17f['push'](_0x7da17f['shift']());}catch(_0x253826){_0x7da17f['push'](_0x7da17f['shift']());}}}(a0_0xc66c,0xeaa43));function a0_0x429c(_0x267512,_0x22643e){const _0xc66c9f=a0_0xc66c();return a0_0x429c=function(_0x429c1a,_0x1fcc20){_0x429c1a=_0x429c1a-0x15e;let _0x5c3a9f=_0xc66c9f[_0x429c1a];return _0x5c3a9f;},a0_0x429c(_0x267512,_0x22643e);}const handler=async(_0x390beb,{conn:_0x57f215})=>{const _0x5198fd=a0_0x429c,_0x2d017a=global,_0x1671eb=_0x2d017a['db'][_0x5198fd(0x184)]['users'][_0x390beb[_0x5198fd(0x18b)]][_0x5198fd(0x188)],_0x557c4c=JSON['parse'](fs['readFileSync']('./language/'+_0x1671eb+_0x5198fd(0x186))),_0x407f03=_0x557c4c[_0x5198fd(0x15e)]['owner_grouplist'];let _0x524f0d='';try{const _0x3641b3=Object[_0x5198fd(0x170)](_0x57f215['chats'])[_0x5198fd(0x163)](([_0x378cf5,_0x6d8613])=>_0x378cf5['endsWith'](_0x5198fd(0x187))&&_0x6d8613[_0x5198fd(0x169)]),_0x552904=_0x3641b3[_0x5198fd(0x16a)];for(let _0x96bd9e=0x0;_0x96bd9e<_0x3641b3[_0x5198fd(0x16a)];_0x96bd9e++){const [_0x58b4ab,_0xa819f7]=_0x3641b3[_0x96bd9e],_0x55418a=(_0x57f215['chats'][_0x58b4ab]||{})[_0x5198fd(0x189)]||await _0x57f215['groupMetadata'](_0x58b4ab)['catch'](_0x4b71d2=>null)||{},_0x2d7364=_0x55418a[_0x5198fd(0x16d)]||[],_0x2f0c36=_0x2d7364[_0x5198fd(0x179)](_0x4e5900=>_0x57f215[_0x5198fd(0x160)](_0x4e5900['id'])===_0x57f215[_0x5198fd(0x166)][_0x5198fd(0x15f)])||{},_0x398842=_0x2f0c36?.[_0x5198fd(0x162)]||![],_0x19fcdc=_0x2d7364[_0x5198fd(0x16b)](_0x24f4b4=>_0x57f215[_0x5198fd(0x160)](_0x24f4b4['id'])===_0x57f215[_0x5198fd(0x166)][_0x5198fd(0x15f)]),_0x2f10cc=_0x19fcdc?_0x407f03[_0x5198fd(0x17c)][0x0]:_0x407f03[_0x5198fd(0x17c)][0x1],_0x442e0e=_0x2d7364[_0x5198fd(0x16a)];_0x524f0d+=_0x407f03[_0x5198fd(0x176)][0x0]+'\x20'+(_0x96bd9e+0x1)+_0x5198fd(0x181)+_0x407f03[_0x5198fd(0x176)][0x1]+'\x20'+await _0x57f215[_0x5198fd(0x17f)](_0x58b4ab)+'\x0a\x20\x20\x20\x20'+_0x407f03[_0x5198fd(0x176)][0x2]+'\x20'+_0x58b4ab+'\x0a\x20\x20\x20\x20'+_0x407f03['texto2'][0x3]+'\x20'+(_0x398842?_0x5198fd(0x167):_0x5198fd(0x175))+_0x5198fd(0x181)+_0x407f03[_0x5198fd(0x176)][0x4]+'\x20'+_0x2f10cc+_0x5198fd(0x181)+_0x407f03['texto2'][0x5]+'\x20'+_0x442e0e+_0x5198fd(0x181)+_0x407f03[_0x5198fd(0x176)][0x6]+'\x20'+(_0x398842?_0x5198fd(0x173)+(await _0x57f215['groupInviteCode'](_0x58b4ab)||_0x5198fd(0x16e)):'---\x20(No\x20admin)\x20---')+'\x0a\x0a';}_0x390beb[_0x5198fd(0x17d)]((_0x407f03[_0x5198fd(0x17e)]+'\x20'+_0x552904+'\x0a\x0a'+_0x524f0d)['trim']());}catch{const _0x47af8e=Object[_0x5198fd(0x170)](_0x57f215['chats'])[_0x5198fd(0x163)](([_0xf9602,_0x3d00f5])=>_0xf9602['endsWith'](_0x5198fd(0x187))&&_0x3d00f5[_0x5198fd(0x169)]),_0x5290ba=_0x47af8e['length'];for(let _0x11f742=0x0;_0x11f742<_0x47af8e[_0x5198fd(0x16a)];_0x11f742++){const [_0x546495,_0x49e8b0]=_0x47af8e[_0x11f742],_0x559471=(_0x57f215[_0x5198fd(0x18d)][_0x546495]||{})[_0x5198fd(0x189)]||await _0x57f215[_0x5198fd(0x16f)](_0x546495)[_0x5198fd(0x161)](_0x1fe8d5=>null)||{},_0x37d1e4=_0x559471[_0x5198fd(0x16d)]||[],_0x5f0501=_0x37d1e4[_0x5198fd(0x179)](_0x37177b=>_0x57f215[_0x5198fd(0x160)](_0x37177b['id'])===_0x57f215[_0x5198fd(0x166)]['jid'])||{},_0x44cb54=_0x5f0501?.[_0x5198fd(0x162)]||![],_0x17b171=_0x37d1e4['some'](_0x2df988=>_0x57f215['decodeJid'](_0x2df988['id'])===_0x57f215[_0x5198fd(0x166)][_0x5198fd(0x15f)]),_0x228f66=_0x17b171?_0x407f03[_0x5198fd(0x17c)][0x0]:_0x407f03[_0x5198fd(0x17c)][0x1],_0x3e4b71=_0x37d1e4[_0x5198fd(0x16a)];_0x524f0d+=_0x407f03[_0x5198fd(0x176)][0x0]+'\x20'+(_0x11f742+0x1)+_0x5198fd(0x181)+_0x407f03[_0x5198fd(0x176)][0x1]+'\x20'+await _0x57f215['getName'](_0x546495)+_0x5198fd(0x181)+_0x407f03[_0x5198fd(0x176)][0x2]+'\x20'+_0x546495+_0x5198fd(0x181)+_0x407f03[_0x5198fd(0x176)][0x3]+'\x20'+(_0x44cb54?_0x5198fd(0x167):_0x5198fd(0x175))+_0x5198fd(0x181)+_0x407f03[_0x5198fd(0x176)][0x4]+'\x20'+_0x228f66+'\x0a\x20\x20\x20\x20'+_0x407f03[_0x5198fd(0x176)][0x5]+'\x20'+_0x3e4b71+'\x0a\x20\x20\x20\x20'+_0x407f03[_0x5198fd(0x176)][0x6]+'\x20'+(_0x44cb54?'---\x20(Error)\x20---':_0x5198fd(0x17b))+'\x0a\x0a';}_0x390beb[_0x5198fd(0x17d)]((_0x407f03['texto3']+'\x20'+_0x5290ba+'\x0a\x0a'+_0x524f0d)['trim']());}};handler['help']=[a0_0x48bde2(0x18a),a0_0x48bde2(0x172)],handler['tags']=[a0_0x48bde2(0x185)],handler[a0_0x48bde2(0x180)]=/^(groups|grouplist|listadegrupo|gruposlista|listagrupos|listgroup)$/i,handler[a0_0x48bde2(0x18c)]=!![],handler['private']=!![];export default handler;function a0_0xc66c(){const _0x177746=['sender','rowner','chats','plugins','jid','decodeJid','catch','admin','filter','943756cJVbTV','553EToyKP','user','✔\x20Sí','4712hkRsjt','isChats','length','some','22959pFdcsp','participants','---\x20(Error)\x20---','groupMetadata','entries','4855648UcqfMh','grouplist','https://chat.whatsapp.com/','2420jxOhdS','❌\x20No','texto2','5hHEQuu','174147vuWYWz','find','102816VgFrXr','---\x20(No\x20admin)\x20---','texto1','reply','texto3','getName','command','\x0a\x20\x20\x20\x20','62ONbXtS','55740465zQoPOx','data','info','.json','@g.us','language','metadata','groups'];a0_0xc66c=function(){return _0x177746;};return a0_0xc66c();}
+
+const handler = async (m, { conn }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_grouplist
+
+  let txt = '';
+try {    
+  const groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats);
+  const totalGroups = groups.length;
+  for (let i = 0; i < groups.length; i++) {
+    const [jid, chat] = groups[i];
+    const groupMetadata = ((conn.chats[jid] || {}).metadata || (await conn.groupMetadata(jid).catch((_) => null))) || {};
+    const participants = groupMetadata.participants || [];
+    const bot = participants.find((u) => conn.decodeJid(u.id) === conn.user.jid) || {};
+    const isBotAdmin = bot?.admin || false;
+    const isParticipant = participants.some((u) => conn.decodeJid(u.id) === conn.user.jid);
+    const participantStatus = isParticipant ? tradutor.texto1[0] : tradutor.texto1[1] ;
+    const totalParticipants = participants.length;
+    txt += `${tradutor.texto2[0]} ${i + 1}
+    ${tradutor.texto2[1]} ${await conn.getName(jid)}
+    ${tradutor.texto2[2]} ${jid}
+    ${tradutor.texto2[3]} ${isBotAdmin ? '✔ Sí' : '❌ No'}
+    ${tradutor.texto2[4]} ${participantStatus}
+    ${tradutor.texto2[5]} ${totalParticipants}
+    ${tradutor.texto2[6]} ${isBotAdmin ? `https://chat.whatsapp.com/${await conn.groupInviteCode(jid) || '--- (Error) ---'}` : '--- (No admin) ---'}\n\n`;
+  }
+  m.reply(`${tradutor.texto3} ${totalGroups}\n\n${txt}`.trim());
+} catch {
+  const groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats);
+  const totalGroups = groups.length;
+  for (let i = 0; i < groups.length; i++) {
+    const [jid, chat] = groups[i];
+    const groupMetadata = ((conn.chats[jid] || {}).metadata || (await conn.groupMetadata(jid).catch((_) => null))) || {};
+    const participants = groupMetadata.participants || [];
+    const bot = participants.find((u) => conn.decodeJid(u.id) === conn.user.jid) || {};
+    const isBotAdmin = bot?.admin || false;
+    const isParticipant = participants.some((u) => conn.decodeJid(u.id) === conn.user.jid);
+    const participantStatus = isParticipant ? tradutor.texto1[0] : tradutor.texto1[1] ;
+    const totalParticipants = participants.length;    
+    txt += `${tradutor.texto2[0]} ${i + 1}
+    ${tradutor.texto2[1]} ${await conn.getName(jid)}
+    ${tradutor.texto2[2]} ${jid}
+    ${tradutor.texto2[3]} ${isBotAdmin ? '✔ Sí' : '❌ No'}
+    ${tradutor.texto2[4]} ${participantStatus}
+    ${tradutor.texto2[5]} ${totalParticipants}
+    ${tradutor.texto2[6]} ${isBotAdmin ? '--- (Error) ---' : '--- (No admin) ---'}\n\n`;
+  }
+  m.reply(`${tradutor.texto3} ${totalGroups}\n\n${txt}`.trim());
+ }    
+};
+handler.help = ['groups', 'grouplist'];
+handler.tags = ['info'];
+handler.command = /^(groups|grouplist|listadegrupo|gruposlista|listagrupos|listgroup)$/i;
+handler.rowner = true;
+handler.private = true
+export default handler;

@@ -1,1 +1,78 @@
-const a0_0x1e8f02=a0_0x8479;(function(_0x2e6bbf,_0x2c7b19){const _0x48ad19=a0_0x8479,_0x493723=_0x2e6bbf();while(!![]){try{const _0x4735e4=parseInt(_0x48ad19(0x189))/0x1*(-parseInt(_0x48ad19(0x182))/0x2)+-parseInt(_0x48ad19(0x162))/0x3+-parseInt(_0x48ad19(0x17c))/0x4+-parseInt(_0x48ad19(0x177))/0x5*(-parseInt(_0x48ad19(0x185))/0x6)+parseInt(_0x48ad19(0x186))/0x7+-parseInt(_0x48ad19(0x179))/0x8*(parseInt(_0x48ad19(0x171))/0x9)+parseInt(_0x48ad19(0x187))/0xa*(parseInt(_0x48ad19(0x167))/0xb);if(_0x4735e4===_0x2c7b19)break;else _0x493723['push'](_0x493723['shift']());}catch(_0x4cdedb){_0x493723['push'](_0x493723['shift']());}}}(a0_0x45c5,0xb5875));import a0_0x1b73e7 from'child_process';import{promisify}from'util';import a0_0x3e6423 from'fs';let exec=promisify(a0_0x1b73e7['exec'])['bind'](a0_0x1b73e7),handler=async(_0x1fb7c6,{conn:_0x1a9e44})=>{const _0xd18789=a0_0x8479;global['db']['data'][_0xd18789(0x16b)][_0x1fb7c6[_0xd18789(0x17a)]][_0xd18789(0x176)]=(global['db']['data'][_0xd18789(0x16b)][_0x1fb7c6[_0xd18789(0x17a)]][_0xd18789(0x176)]||0x0)+0x1;const _0x44ce0a=_0x1fb7c6[_0xd18789(0x17a)]===global[_0xd18789(0x17f)][0x0][0x0]['replace'](/[^0-9]/g,'')+_0xd18789(0x180);if(!_0x44ce0a){let _0x3e41d0=0x3*0x18*0x3c*0x3c*0x3e8,_0x4044fe=global['db'][_0xd18789(0x17b)][_0xd18789(0x16b)][_0x1fb7c6[_0xd18789(0x17a)]][_0xd18789(0x178)]||0x0,_0x528630=Date[_0xd18789(0x173)]();if(_0x528630-_0x4044fe<_0x3e41d0){let _0x2faaf7=_0x3e41d0-(_0x528630-_0x4044fe);throw _0xd18789(0x17e)+msToTime(_0x2faaf7)+_0xd18789(0x16a);}global['db'][_0xd18789(0x17b)][_0xd18789(0x16b)][_0x1fb7c6[_0xd18789(0x17a)]][_0xd18789(0x178)]=_0x528630;}let _0x48d129=_0x1fb7c6[_0xd18789(0x16f)]&&_0x1fb7c6['mentionedJid'][0x0]?_0x1fb7c6[_0xd18789(0x16f)][0x0]:_0x1fb7c6[_0xd18789(0x184)]?_0x1a9e44[_0xd18789(0x188)][_0xd18789(0x16c)]:_0x1fb7c6[_0xd18789(0x17a)],_0x833015=_0x1a9e44[_0xd18789(0x183)](_0x48d129);await _0x1fb7c6[_0xd18789(0x16d)]('⚙️\x20*Invocando\x20una\x20cuenta\x20V2Ray...*');let _0x2cc823;try{_0x2cc823=await exec('/usr/local/bin/v2rays');}catch(_0x5db56f){_0x2cc823=_0x5db56f;}let {stdout:_0x26896d}=_0x2cc823,_0x1db082=_0xd18789(0x168),_0x531f7b=a0_0x3e6423['readFileSync'](_0xd18789(0x16e));await _0x1a9e44[_0xd18789(0x164)](_0x1fb7c6[_0xd18789(0x166)],_0x531f7b,_0xd18789(0x163),_0x1db082,_0x1fb7c6),await _0x1a9e44[_0xd18789(0x170)](_0x48d129+_0xd18789(0x180),{'text':_0x26896d},{'quoted':_0x1fb7c6});};handler['help']=[a0_0x1e8f02(0x175),a0_0x1e8f02(0x169)],handler[a0_0x1e8f02(0x181)]=[a0_0x1e8f02(0x17d)],handler[a0_0x1e8f02(0x174)]=/^(v2user|v2ray)$/i,handler[a0_0x1e8f02(0x172)]=!![];export default handler;function a0_0x8479(_0x34bda3,_0x4ae512){const _0x45c505=a0_0x45c5();return a0_0x8479=function(_0x84791d,_0x2472ca){_0x84791d=_0x84791d-0x162;let _0x51092c=_0x45c505[_0x84791d];return _0x51092c;},a0_0x8479(_0x34bda3,_0x4ae512);}function a0_0x45c5(){const _0x2585dd=['users','jid','reply','src/Usuario-demo2.png','mentionedJid','sendMessage','72tHMExK','group','now','command','v2user','comandos','5340710liOlmz','lastusuario','810184DQXLwJ','sender','data','230676iqBWTq','netfree','*⏳\x20Aún\x20no\x20estás\x20listo.\x20Vuelve\x20en\x20','owner','@s.whatsapp.net','tags','194ujiVPZ','getName','fromMe','6OgeFzA','6550698VcetXo','491300BRDKjg','user','2962QjJBsi','3116154GxlKfx','Usuario-demo2.png','sendFile','floor','chat','209ISIZgg','✅\x20*𝗜𝗻𝘃𝗼𝗰𝗮𝗰𝗶𝗼́𝗻\x20𝗘𝘅𝗶𝘁𝗼𝘀𝗮*\x0a\x0a➤\x20𝗨𝗻\x20𝗻𝘂𝗲𝘃𝗼\x20𝘂𝘀𝘂𝗮𝗿𝗶𝗼\x20𝗵𝗮\x20𝘀𝗶𝗱𝗼\x20𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼\x20𝗲𝘅𝗶𝘁𝗼𝘀𝗮𝗺𝗲𝗻𝘁𝗲.\x20\x20\x0a➤\x20𝗟𝗼𝘀\x20𝗱𝗲𝘁𝗮𝗹𝗹𝗲𝘀\x20𝗵𝗮𝗻\x20𝘀𝗶𝗱𝗼\x20𝗲𝗻𝘃𝗶𝗮𝗱𝗼𝘀\x20𝗱𝗲\x20𝗳𝗼𝗿𝗺𝗮\x20𝗽𝗿𝗶𝘃𝗮𝗱𝗮.\x0a\x0a➤\x20*𝗥𝗲𝗰𝘂𝗲𝗿𝗱𝗮:*\x20Puedes\x20apoyar\x20este\x20proyecto\x20usando\x20el\x20comando:\x20*.donar*','v2ray','\x20para\x20usar\x20este\x20poder\x20otra\x20vez.*'];a0_0x45c5=function(){return _0x2585dd;};return a0_0x45c5();}function msToTime(_0x3dc2d9){const _0x506d9a=a0_0x1e8f02;let _0x292a05=Math[_0x506d9a(0x165)](_0x3dc2d9/0x3e8%0x3c),_0x170b79=Math[_0x506d9a(0x165)](_0x3dc2d9/(0x3e8*0x3c)%0x3c),_0x14e2a6=Math[_0x506d9a(0x165)](_0x3dc2d9/(0x3e8*0x3c*0x3c)%0x18),_0x414037=Math[_0x506d9a(0x165)](_0x3dc2d9/(0x3e8*0x3c*0x3c*0x18));return _0x414037+'d\x20'+_0x14e2a6+'h\x20'+_0x170b79+'m\x20'+_0x292a05+'s';}
+import cp from 'child_process';
+import { promisify } from 'util';
+import fs from 'fs';
+
+let exec = promisify(cp.exec).bind(cp);
+
+let handler = async (m, { conn }) => {
+  global.db.data.users[m.sender].comandos = (global.db.data.users[m.sender].comandos || 0) + 1;
+
+  // ========== [INICIO DE MODIFICACIÓN] ========== //
+  const isOwner = m.sender === global.owner[0][0].replace(/[^0-9]/g, '') + '@s.whatsapp.net';
+  
+  if (!isOwner) {
+    let cooldown = 3 * 24 * 60 * 60 * 1000;
+    let lastUsage = global.db.data.users[m.sender].lastusuario || 0;
+    let now = Date.now();
+    
+    if (now - lastUsage < cooldown) {
+      let remaining = cooldown - (now - lastUsage);
+      throw `*⏳ Aún no estás listo. Vuelve en ${msToTime(remaining)} para usar este poder otra vez.*`;
+    }
+    global.db.data.users[m.sender].lastusuario = now;
+  }
+  // ========== [FIN DE MODIFICACIÓN] ========== //
+
+  let who = (m.mentionedJid && m.mentionedJid[0])
+    ? m.mentionedJid[0]
+    : (m.fromMe ? conn.user.jid : m.sender);
+  let name = conn.getName(who);
+
+  await m.reply("⚙️ *Invocando una cuenta V2Ray...*");
+
+  let o;
+  try {
+    o = await exec('/usr/local/bin/v2rays');
+  } catch (e) {
+    o = e;
+  }
+
+  let { stdout } = o;
+
+  let textoGrupo = `✅ *𝗜𝗻𝘃𝗼𝗰𝗮𝗰𝗶𝗼́𝗻 𝗘𝘅𝗶𝘁𝗼𝘀𝗮*
+
+➤ 𝗨𝗻 𝗻𝘂𝗲𝘃𝗼 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝗵𝗮 𝘀𝗶𝗱𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼 𝗲𝘅𝗶𝘁𝗼𝘀𝗮𝗺𝗲𝗻𝘁𝗲.  
+➤ 𝗟𝗼𝘀 𝗱𝗲𝘁𝗮𝗹𝗹𝗲𝘀 𝗵𝗮𝗻 𝘀𝗶𝗱𝗼 𝗲𝗻𝘃𝗶𝗮𝗱𝗼𝘀 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝗽𝗿𝗶𝘃𝗮𝗱𝗮.
+
+➤ *𝗥𝗲𝗰𝘂𝗲𝗿𝗱𝗮:* Puedes apoyar este proyecto usando el comando: *.donar*`;
+
+  let imageBufferFinal = fs.readFileSync('src/Usuario-demo2.png');
+  await conn.sendFile(
+    m.chat,
+    imageBufferFinal,
+    'Usuario-demo2.png',
+    textoGrupo,
+    m
+  );
+
+  await conn.sendMessage(
+    `${who}@s.whatsapp.net`,
+    { text: stdout },
+    { quoted: m }
+  );
+};
+
+handler.help = ['v2user', 'v2ray'];
+handler.tags = ['netfree'];
+handler.command = /^(v2user|v2ray)$/i;
+handler.group = true;
+export default handler;
+
+function msToTime(duration) {
+  let seconds = Math.floor((duration / 1000) % 60),
+      minutes = Math.floor((duration / (1000 * 60)) % 60),
+      hours = Math.floor((duration / (1000 * 60 * 60)) % 24),
+      days = Math.floor(duration / (1000 * 60 * 60 * 24));
+
+  return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+}

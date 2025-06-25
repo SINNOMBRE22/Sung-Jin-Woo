@@ -1,1 +1,47 @@
-const a0_0x34b713=a0_0x10fe;(function(_0x44085b,_0x1ca97f){const _0x22e0b0=a0_0x10fe,_0x3dad56=_0x44085b();while(!![]){try{const _0x5a3a96=-parseInt(_0x22e0b0(0xff))/0x1*(parseInt(_0x22e0b0(0x11d))/0x2)+parseInt(_0x22e0b0(0x10c))/0x3+-parseInt(_0x22e0b0(0x110))/0x4*(-parseInt(_0x22e0b0(0x109))/0x5)+-parseInt(_0x22e0b0(0x102))/0x6*(-parseInt(_0x22e0b0(0x118))/0x7)+-parseInt(_0x22e0b0(0x119))/0x8+-parseInt(_0x22e0b0(0x115))/0x9*(parseInt(_0x22e0b0(0x123))/0xa)+parseInt(_0x22e0b0(0x122))/0xb;if(_0x5a3a96===_0x1ca97f)break;else _0x3dad56['push'](_0x3dad56['shift']());}catch(_0x498c98){_0x3dad56['push'](_0x3dad56['shift']());}}}(a0_0x55ab,0xf1bde));function a0_0x10fe(_0x417c0e,_0x3fc7d4){const _0x55ab6b=a0_0x55ab();return a0_0x10fe=function(_0x10fe0a,_0x608b9a){_0x10fe0a=_0x10fe0a-0xfe;let _0x2cf34d=_0x55ab6b[_0x10fe0a];return _0x2cf34d;},a0_0x10fe(_0x417c0e,_0x3fc7d4);}import{generateWAMessageFromContent}from'@whiskeysockets/baileys';function a0_0x55ab(){const _0x1a82b4=['10OuBHpS','test','video/mp4','24fGooii','quoted','jid','command','sendMessage','decodeJid','audio/mpeg','5jodbXY','chat','mtype','3654891Hqebgb','imageMessage','text','download','3099540MXGohn','repeat','sender','owner','https://github.com/BrunoSobrino/TheMystic-Bot-MD','27MexaFb','getQuotedObj','Hidetag.mp3','508893ORQGPM','11599592BnRnDT','message','user','msg','162632yLxRCn','stickerMessage','admin','relayMessage','map','18597799ZdvSbO','2404680QAWYbH','key','videoMessage','mimetype'];a0_0x55ab=function(){return _0x1a82b4;};return a0_0x55ab();}import*as a0_0x5d525e from'fs';const handler=async(_0xaf71a4,{conn:_0x2bf3e1,text:_0xe55c4e,participants:_0x5d62a5,isOwner:_0x38d0ec,isAdmin:_0x4da20f})=>{const _0x554937=a0_0x10fe;try{const _0x3b7cfc=_0x5d62a5[_0x554937(0x121)](_0x1bb7e1=>_0x2bf3e1[_0x554937(0x107)](_0x1bb7e1['id'])),_0x5d9447=_0xaf71a4[_0x554937(0x103)]?_0xaf71a4[_0x554937(0x103)]:_0xaf71a4||_0xaf71a4[_0x554937(0x10e)]||_0xaf71a4[_0x554937(0x112)],_0x53b5b5=_0xaf71a4[_0x554937(0x103)]?await _0xaf71a4[_0x554937(0x116)]():_0xaf71a4[_0x554937(0x11c)]||_0xaf71a4[_0x554937(0x10e)]||_0xaf71a4[_0x554937(0x112)],_0x5186f0=_0x2bf3e1['cMod'](_0xaf71a4[_0x554937(0x10a)],generateWAMessageFromContent(_0xaf71a4[_0x554937(0x10a)],{[_0xaf71a4[_0x554937(0x103)]?_0x5d9447[_0x554937(0x10b)]:'extendedTextMessage']:_0xaf71a4[_0x554937(0x103)]?_0x53b5b5[_0x554937(0x11a)][_0x5d9447['mtype']]:{'text':''||_0x53b5b5}},{'quoted':_0xaf71a4,'userJid':_0x2bf3e1[_0x554937(0x11b)]['id']}),_0xe55c4e||_0x5d9447[_0x554937(0x10e)],_0x2bf3e1[_0x554937(0x11b)][_0x554937(0x104)],{'mentions':_0x3b7cfc});await _0x2bf3e1['relayMessage'](_0xaf71a4[_0x554937(0x10a)],_0x5186f0['message'],{'messageId':_0x5186f0[_0x554937(0x124)]['id']});}catch{const _0x455696=_0x5d62a5[_0x554937(0x121)](_0x537cc1=>_0x2bf3e1[_0x554937(0x107)](_0x537cc1['id'])),_0x2c3ba6=_0xaf71a4[_0x554937(0x103)]?_0xaf71a4[_0x554937(0x103)]:_0xaf71a4,_0x17b4da=(_0x2c3ba6[_0x554937(0x11c)]||_0x2c3ba6)[_0x554937(0xfe)]||'',_0x477a86=/image|video|sticker|audio/[_0x554937(0x100)](_0x17b4da),_0x5cf0e4=String['fromCharCode'](0x200e),_0x45ad4d=_0x5cf0e4[_0x554937(0x111)](0x352),_0x496292=''+(_0xe55c4e?_0xe55c4e:'*Hola\x20:D*');if(_0x477a86&&_0x2c3ba6[_0x554937(0x10b)]===_0x554937(0x10d)&&_0x496292){var _0x532f39=await _0x2c3ba6[_0x554937(0x10f)]?.();_0x2bf3e1['sendMessage'](_0xaf71a4[_0x554937(0x10a)],{'image':_0x532f39,'mentions':_0x455696,'caption':_0x496292,'mentions':_0x455696},{'quoted':_0xaf71a4});}else{if(_0x477a86&&_0x2c3ba6[_0x554937(0x10b)]===_0x554937(0x125)&&_0x496292){var _0x532f39=await _0x2c3ba6[_0x554937(0x10f)]?.();_0x2bf3e1['sendMessage'](_0xaf71a4[_0x554937(0x10a)],{'video':_0x532f39,'mentions':_0x455696,'mimetype':_0x554937(0x101),'caption':_0x496292},{'quoted':_0xaf71a4});}else{if(_0x477a86&&_0x2c3ba6['mtype']==='audioMessage'&&_0x496292){var _0x532f39=await _0x2c3ba6[_0x554937(0x10f)]?.();_0x2bf3e1[_0x554937(0x106)](_0xaf71a4[_0x554937(0x10a)],{'audio':_0x532f39,'mentions':_0x455696,'mimetype':_0x554937(0x108),'fileName':_0x554937(0x117)},{'quoted':_0xaf71a4});}else{if(_0x477a86&&_0x2c3ba6[_0x554937(0x10b)]===_0x554937(0x11e)&&_0x496292){var _0x532f39=await _0x2c3ba6['download']?.();_0x2bf3e1[_0x554937(0x106)](_0xaf71a4[_0x554937(0x10a)],{'sticker':_0x532f39,'mentions':_0x455696},{'quoted':_0xaf71a4});}else await _0x2bf3e1[_0x554937(0x120)](_0xaf71a4['chat'],{'extendedTextMessage':{'text':_0x45ad4d+'\x0a'+_0x496292+'\x0a',...{'contextInfo':{'mentionedJid':_0x455696,'externalAdReply':{'thumbnail':imagen1,'sourceUrl':_0x554937(0x114)}}}}},{});}}}}};handler[a0_0x34b713(0x105)]=/^(@|notify)$/i,handler['group']=!![],handler[a0_0x34b713(0x11f)]=!![],handler[a0_0x34b713(0x113)]=!![];export default handler;
+import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
+import * as fs from 'fs';
+// Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+// Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+// To set the language, in the root of the project, modify the config.json file.
+
+const handler = async (m, {conn, text, participants, isOwner, isAdmin}) => {
+  try {
+    const users = participants.map((u) => conn.decodeJid(u.id));
+    const q = m.quoted ? m.quoted : m || m.text || m.sender;
+    const c = m.quoted ? await m.getQuotedObj() : m.msg || m.text || m.sender;
+    const msg = conn.cMod(m.chat, generateWAMessageFromContent(m.chat, {[m.quoted ? q.mtype : 'extendedTextMessage']: m.quoted ? c.message[q.mtype] : {text: '' || c}}, {quoted: m, userJid: conn.user.id}), text || q.text, conn.user.jid, {mentions: users});
+    await conn.relayMessage(m.chat, msg.message, {messageId: msg.key.id});
+  } catch {
+    /**
+[ By @NeKosmic || https://github.com/NeKosmic/ ]
+**/
+
+    const users = participants.map((u) => conn.decodeJid(u.id));
+    const quoted = m.quoted ? m.quoted : m;
+    const mime = (quoted.msg || quoted).mimetype || '';
+    const isMedia = /image|video|sticker|audio/.test(mime);
+    const more = String.fromCharCode(8206);
+    const masss = more.repeat(850);
+    const htextos = `${text ? text : '*Hola :D*'}`;
+    if ((isMedia && quoted.mtype === 'imageMessage') && htextos) {
+      var mediax = await quoted.download?.();
+      conn.sendMessage(m.chat, {image: mediax, mentions: users, caption: htextos, mentions: users}, {quoted: m});
+    } else if ((isMedia && quoted.mtype === 'videoMessage') && htextos) {
+      var mediax = await quoted.download?.();
+      conn.sendMessage(m.chat, {video: mediax, mentions: users, mimetype: 'video/mp4', caption: htextos}, {quoted: m});
+    } else if ((isMedia && quoted.mtype === 'audioMessage') && htextos) {
+      var mediax = await quoted.download?.();
+      conn.sendMessage(m.chat, {audio: mediax, mentions: users, mimetype: 'audio/mpeg', fileName: `Hidetag.mp3`}, {quoted: m});
+    } else if ((isMedia && quoted.mtype === 'stickerMessage') && htextos) {
+      var mediax = await quoted.download?.();
+      conn.sendMessage(m.chat, {sticker: mediax, mentions: users}, {quoted: m});
+    } else {
+      await conn.relayMessage(m.chat, {extendedTextMessage: {text: `${masss}\n${htextos}\n`, ...{contextInfo: {mentionedJid: users, externalAdReply: {thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'}}}}}, {});
+    }
+  }
+};
+handler.command = /^(@|notify)$/i;
+handler.group = true;
+handler.admin = true;
+handler.owner = true;
+export default handler;

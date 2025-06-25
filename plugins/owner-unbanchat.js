@@ -1,1 +1,15 @@
-const a0_0x3cf94a=a0_0x2141;function a0_0x2141(_0x1b4ae7,_0x1aa24d){const _0x2c9a7c=a0_0x2c9a();return a0_0x2141=function(_0x21417a,_0x4402a7){_0x21417a=_0x21417a-0x6a;let _0x1189d1=_0x2c9a7c[_0x21417a];return _0x1189d1;},a0_0x2141(_0x1b4ae7,_0x1aa24d);}(function(_0x5dd7bc,_0x5cd9ec){const _0xbc4960=a0_0x2141,_0x3c4fd0=_0x5dd7bc();while(!![]){try{const _0x4dd083=-parseInt(_0xbc4960(0x7d))/0x1+parseInt(_0xbc4960(0x77))/0x2+parseInt(_0xbc4960(0x6f))/0x3+parseInt(_0xbc4960(0x70))/0x4+parseInt(_0xbc4960(0x7f))/0x5+parseInt(_0xbc4960(0x7a))/0x6*(parseInt(_0xbc4960(0x6d))/0x7)+-parseInt(_0xbc4960(0x80))/0x8;if(_0x4dd083===_0x5cd9ec)break;else _0x3c4fd0['push'](_0x3c4fd0['shift']());}catch(_0x1116dd){_0x3c4fd0['push'](_0x3c4fd0['shift']());}}}(a0_0x2c9a,0x94ba6));function a0_0x2c9a(){const _0x204480=['5946685neZLwm','25104848aUnrcN','users','owner','plugins','3262fktylf','owner_unbanchat','3029190DpRYJx','1521724WhLENz','isBanned','sender','readFileSync','tags','language','help','355864BEoaPF','data','chats','13458eoTFLW','./language/','command','55372NcCFXS','unbanchat'];a0_0x2c9a=function(){return _0x204480;};return a0_0x2c9a();}const handler=async _0x5b2e1b=>{const _0x433ea7=a0_0x2141,_0x3f6fd0=global,_0x145794=_0x3f6fd0['db'][_0x433ea7(0x78)][_0x433ea7(0x6a)][_0x5b2e1b[_0x433ea7(0x72)]][_0x433ea7(0x75)],_0x32c5df=JSON['parse'](fs[_0x433ea7(0x73)](_0x433ea7(0x7b)+_0x145794+'.json')),_0xa4d8d5=_0x32c5df[_0x433ea7(0x6c)][_0x433ea7(0x6e)];global['db'][_0x433ea7(0x78)][_0x433ea7(0x79)][_0x5b2e1b['chat']][_0x433ea7(0x71)]=![],_0x5b2e1b['reply'](_0xa4d8d5['texto1']);};handler[a0_0x3cf94a(0x76)]=[a0_0x3cf94a(0x7e)],handler[a0_0x3cf94a(0x74)]=[a0_0x3cf94a(0x6b)],handler[a0_0x3cf94a(0x7c)]=/^unbanchat$/i,handler['rowner']=!![];export default handler;
+
+const handler = async (m) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_unbanchat
+
+  global.db.data.chats[m.chat].isBanned = false;
+  m.reply(tradutor.texto1);
+};
+handler.help = ['unbanchat'];
+handler.tags = ['owner'];
+handler.command = /^unbanchat$/i;
+handler.rowner = true;
+export default handler;

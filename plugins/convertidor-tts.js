@@ -1,1 +1,52 @@
-const a0_0xbd2641=a0_0x2e67;function a0_0x2e67(_0x41283e,_0x32d105){const _0xa84d2b=a0_0xa84d();return a0_0x2e67=function(_0x2e6798,_0x15a6da){_0x2e6798=_0x2e6798-0xb8;let _0x390673=_0xa84d2b[_0x2e6798];return _0x390673;},a0_0x2e67(_0x41283e,_0x32d105);}(function(_0x3e68c5,_0x25f707){const _0x58f971=a0_0x2e67,_0x11a6b6=_0x3e68c5();while(!![]){try{const _0x48cca3=-parseInt(_0x58f971(0xc5))/0x1*(parseInt(_0x58f971(0xd6))/0x2)+-parseInt(_0x58f971(0xbb))/0x3*(-parseInt(_0x58f971(0xcd))/0x4)+-parseInt(_0x58f971(0xba))/0x5*(-parseInt(_0x58f971(0xc9))/0x6)+parseInt(_0x58f971(0xdc))/0x7+parseInt(_0x58f971(0xd1))/0x8*(parseInt(_0x58f971(0xc1))/0x9)+-parseInt(_0x58f971(0xd7))/0xa+parseInt(_0x58f971(0xc4))/0xb*(parseInt(_0x58f971(0xc7))/0xc);if(_0x48cca3===_0x25f707)break;else _0x11a6b6['push'](_0x11a6b6['shift']());}catch(_0xfad59a){_0x11a6b6['push'](_0x11a6b6['shift']());}}}(a0_0xa84d,0xde989));import*as a0_0x4c23fe from'@sefinek/google-tts-api';import{readFileSync,unlinkSync}from'fs';import{join}from'path';const defaultLang='es',handler=async(_0x116195,{conn:_0x1b4479,args:_0x24e397,usedPrefix:_0x36c421,command:_0x27b691})=>{const _0x24ec8f=a0_0x2e67,_0x779110=global,_0x91a971=_0x779110['db'][_0x24ec8f(0xcb)][_0x24ec8f(0xbd)][_0x116195['sender']][_0x24ec8f(0xd9)],_0x2d2034=JSON[_0x24ec8f(0xbe)](fs[_0x24ec8f(0xd3)](_0x24ec8f(0xc0)+_0x91a971+_0x24ec8f(0xc8))),_0x277676=_0x2d2034[_0x24ec8f(0xe0)]['convertidor_tts'];let _0x19341e=_0x24e397[0x0],_0x243721=_0x24e397[_0x24ec8f(0xdf)](0x1)['join']('\x20');(_0x24e397[0x0]||'')[_0x24ec8f(0xce)]!==0x2&&(_0x19341e=defaultLang,_0x243721=_0x24e397[_0x24ec8f(0xc6)]('\x20'));if(!_0x243721&&_0x116195[_0x24ec8f(0xda)]?.[_0x24ec8f(0xd0)])_0x243721=_0x116195[_0x24ec8f(0xda)]['text'];let _0x4ce9a5;try{_0x4ce9a5=a0_0x4c23fe[_0x24ec8f(0xbf)](_0x243721,{'lang':_0x19341e||'es','slow':![],'host':'https://translate.google.com'});}catch(_0x58c17c){_0x116195[_0x24ec8f(0xde)](_0x58c17c+''),_0x243721=_0x24e397[_0x24ec8f(0xc6)]('\x20');if(!_0x243721)throw'*'+_0x277676[_0x24ec8f(0xc3)][0x0]+'\x20'+(_0x36c421+_0x27b691)+'\x20'+_0x277676[_0x24ec8f(0xc3)][0x1]+'*';_0x4ce9a5=await tts(_0x243721,defaultLang);}finally{_0x4ce9a5&&(_0x1b4479[_0x24ec8f(0xdd)](_0x24ec8f(0xd8),_0x116195[_0x24ec8f(0xca)]),_0x1b4479[_0x24ec8f(0xd5)](_0x116195[_0x24ec8f(0xca)],{'audio':{'url':_0x4ce9a5},'fileName':_0x24ec8f(0xd4),'mimetype':'audio/mpeg','ptt':!![]},{'quoted':_0x116195}));}};handler[a0_0xbd2641(0xbc)]=[a0_0xbd2641(0xc2)],handler[a0_0xbd2641(0xcf)]=[a0_0xbd2641(0xdb)],handler[a0_0xbd2641(0xcc)]=/^voz$/i;export default handler;function a0_0xa84d(){const _0x561646=['sendMessage','937956NTIBtK','7047160hRZlcX','recording','language','quoted','convertidores','6062623IJnPEg','sendPresenceUpdate','reply','slice','plugins','save','.wav','552095YTklSt','363vLMGFZ','help','users','parse','getAudioUrl','./language/','2341620CvKIEt','voz\x20<idioma>\x20<texto>','texto1','188507ZwjvLg','1kpEFQx','join','12gpMcwX','.json','24ngfUCm','chat','data','command','7940mjOVyG','length','tags','text','16kuptSd','url','readFileSync','tts.mp3'];a0_0xa84d=function(){return _0x561646;};return a0_0xa84d();}function tts(_0x18a3f3,_0xe2b894='es'){return new Promise((_0x40ff50,_0xce6eb1)=>{const _0x1b4982=a0_0x2e67;try{const _0x229489=gtts(_0xe2b894),_0x531784=join(global['__dirname'](import.meta[_0x1b4982(0xd2)]),'../tmp',0x1*new Date()+_0x1b4982(0xb9));_0x229489[_0x1b4982(0xb8)](_0x531784,_0x18a3f3,()=>{_0x40ff50(readFileSync(_0x531784)),unlinkSync(_0x531784);});}catch(_0x36a6f2){_0xce6eb1(_0x36a6f2);}});}
+import * as googleTTS from '@sefinek/google-tts-api'
+import {readFileSync, unlinkSync} from 'fs';
+import {join} from 'path';
+const defaultLang = 'es';
+
+const handler = async (m, {conn, args, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.convertidor_tts
+
+  let lang = args[0];
+  let text = args.slice(1).join(' ');
+  if ((args[0] || '').length !== 2) {
+    lang = defaultLang;
+    text = args.join(' ');
+  }
+  if (!text && m.quoted?.text) text = m.quoted.text;
+  let res;
+  try {
+    res = googleTTS.getAudioUrl(text, { lang: lang || 'es', slow: false, host: 'https://translate.google.com' });
+  } catch (e) {
+    m.reply(e + '');
+    text = args.join(' ');
+    if (!text) throw `*${tradutor.texto1[0]} ${usedPrefix + command} ${tradutor.texto1[1]}*`;
+    res = await tts(text, defaultLang);
+  } finally {
+    if (res) {
+        conn.sendPresenceUpdate('recording', m.chat);
+        conn.sendMessage(m.chat, {audio: {url: res}, fileName: 'tts.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+    }
+  }
+};
+handler.help = ['voz <idioma> <texto>'];
+handler.tags = ['convertidores'];
+handler.command = /^voz$/i;
+export default handler;
+
+function tts(text, lang = 'es') {
+  return new Promise((resolve, reject) => {
+    try {
+      const tts = gtts(lang);
+      const filePath = join(global.__dirname(import.meta.url), '../tmp', (1 * new Date) + '.wav');
+      tts.save(filePath, text, () => {
+        resolve(readFileSync(filePath));
+        unlinkSync(filePath);
+      });
+    } catch (e) {
+      reject(e);
+    }
+  });
+}

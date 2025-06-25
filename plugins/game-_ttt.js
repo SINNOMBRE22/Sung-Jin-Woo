@@ -1,1 +1,101 @@
-function a0_0xa8e5(_0x511b80,_0x5868d2){const _0x3275a6=a0_0x3275();return a0_0xa8e5=function(_0xa8e52a,_0x34b490){_0xa8e52a=_0xa8e52a-0x14e;let _0x51b555=_0x3275a6[_0xa8e52a];return _0x51b555;},a0_0xa8e5(_0x511b80,_0x5868d2);}(function(_0x4d1f98,_0x495208){const _0x41d33f=a0_0xa8e5,_0x25a2d6=_0x4d1f98();while(!![]){try{const _0x336c1f=parseInt(_0x41d33f(0x164))/0x1*(-parseInt(_0x41d33f(0x168))/0x2)+parseInt(_0x41d33f(0x184))/0x3+-parseInt(_0x41d33f(0x14e))/0x4+parseInt(_0x41d33f(0x165))/0x5*(parseInt(_0x41d33f(0x16e))/0x6)+-parseInt(_0x41d33f(0x174))/0x7+parseInt(_0x41d33f(0x15b))/0x8+parseInt(_0x41d33f(0x14f))/0x9*(parseInt(_0x41d33f(0x173))/0xa);if(_0x336c1f===_0x495208)break;else _0x25a2d6['push'](_0x25a2d6['shift']());}catch(_0x41e86c){_0x25a2d6['push'](_0x25a2d6['shift']());}}}(a0_0x3275,0x7db66));import{format}from'util';const debugMode=!0x1,winScore=0x1387,playScore=0x63;export async function before(_0x42edcd){const _0x23e070=a0_0xa8e5,_0x3f8743=global,_0xa5296a=_0x3f8743['db'][_0x23e070(0x172)][_0x23e070(0x17b)][_0x42edcd[_0x23e070(0x18a)]][_0x23e070(0x175)],_0x28d5ae=JSON[_0x23e070(0x161)](fs[_0x23e070(0x16b)]('./language/'+_0xa5296a+_0x23e070(0x15c))),_0xce10c6=_0x28d5ae[_0x23e070(0x169)][_0x23e070(0x156)];let _0x397810,_0x4b92bb=!0x1,_0x349183=!0x1,_0xc3f365=!0x1;this['game']=this['game']?this['game']:{};const _0x9f7b5d=Object[_0x23e070(0x180)](this[_0x23e070(0x176)])[_0x23e070(0x15e)](_0x15ab93=>_0x15ab93['id']&&_0x15ab93['game']&&_0x15ab93[_0x23e070(0x17e)]&&_0x15ab93['id'][_0x23e070(0x179)]('tictactoe')&&[_0x15ab93[_0x23e070(0x176)][_0x23e070(0x153)],_0x15ab93[_0x23e070(0x176)][_0x23e070(0x157)]]['includes'](_0x42edcd[_0x23e070(0x18a)])&&_0x15ab93['state']==_0x23e070(0x182));if(_0x9f7b5d){if(!/^([1-9]|(me)?nyerah|\rendirse\|rendirse|RENDIRSE|surr?ender)$/i['test'](_0x42edcd['text']))return!0x0;_0xc3f365=!/^[1-9]$/['test'](_0x42edcd[_0x23e070(0x188)]);if(_0x42edcd['sender']!==_0x9f7b5d[_0x23e070(0x176)][_0x23e070(0x171)]){if(!_0xc3f365)return!0x0;}debugMode&&_0x42edcd[_0x23e070(0x17f)](_0x23e070(0x17d)+require('util')[_0x23e070(0x162)]({'isSurrender':_0xc3f365,'text':_0x42edcd[_0x23e070(0x188)]}));if(!_0xc3f365&&0x1>(_0x397810=_0x9f7b5d[_0x23e070(0x176)][_0x23e070(0x170)](_0x42edcd[_0x23e070(0x18a)]===_0x9f7b5d[_0x23e070(0x176)][_0x23e070(0x157)],parseInt(_0x42edcd[_0x23e070(0x188)])-0x1)))return _0x42edcd['reply']({'-3':_0xce10c6[_0x23e070(0x185)][0x0],'-2':_0xce10c6[_0x23e070(0x185)][0x1],'-1':_0xce10c6[_0x23e070(0x185)][0x2],'0':_0xce10c6[_0x23e070(0x185)][0x3]}[_0x397810]),!0x0;if(_0x42edcd[_0x23e070(0x18a)]===_0x9f7b5d['game'][_0x23e070(0x16f)])_0x4b92bb=!![];else _0x9f7b5d[_0x23e070(0x176)][_0x23e070(0x181)]===0x1ff&&(_0x349183=!![]);const _0x28da2a=_0x9f7b5d['game'][_0x23e070(0x17a)]()[_0x23e070(0x163)](_0x17f550=>{const _0x37e082=_0x23e070;return{'X':'❎','O':'⭕',0x1:_0x37e082(0x189),0x2:_0x37e082(0x154),0x3:_0x37e082(0x18b),0x4:_0x37e082(0x151),0x5:_0x37e082(0x16d),0x6:_0x37e082(0x160),0x7:'7️⃣',0x8:_0x37e082(0x183),0x9:_0x37e082(0x166)}[_0x17f550];});_0xc3f365&&(_0x9f7b5d[_0x23e070(0x176)]['_currentTurn']=_0x42edcd[_0x23e070(0x18a)]===_0x9f7b5d['game'][_0x23e070(0x153)],_0x4b92bb=!![]);const _0x21991c=_0xc3f365?_0x9f7b5d[_0x23e070(0x176)]['currentTurn']:_0x9f7b5d['game'][_0x23e070(0x16f)],_0x68e178=(_0x23e070(0x150)+_0xce10c6[_0x23e070(0x16c)]+'\x20🎮\x0a\x0a❎\x20=\x20@'+_0x9f7b5d['game']['playerX']['split']('@')[0x0]+_0x23e070(0x16a)+_0x9f7b5d[_0x23e070(0x176)][_0x23e070(0x157)][_0x23e070(0x187)]('@')[0x0]+_0x23e070(0x177)+_0x28da2a[_0x23e070(0x158)](0x0,0x3)[_0x23e070(0x186)]('')+_0x23e070(0x155)+_0x28da2a[_0x23e070(0x158)](0x3,0x6)[_0x23e070(0x186)]('')+_0x23e070(0x155)+_0x28da2a['slice'](0x6)[_0x23e070(0x186)]('')+'\x0a\x0a'+(_0x4b92bb?'@'+(_0xc3f365?_0x9f7b5d['game']['currentTurn']:_0x9f7b5d[_0x23e070(0x176)][_0x23e070(0x16f)])[_0x23e070(0x187)]('@')[0x0]+'\x20'+_0xce10c6['texto3']:_0x349183?_0xce10c6[_0x23e070(0x15f)]:_0xce10c6[_0x23e070(0x17c)]+'\x20@'+_0x9f7b5d['game'][_0x23e070(0x171)]['split']('@')[0x0])+'\x0a')[_0x23e070(0x15a)](),_0x5c20bf=global['db']['data'][_0x23e070(0x17b)];(_0x9f7b5d['game']['_currentTurn']^_0xc3f365?_0x9f7b5d['x']:_0x9f7b5d['o'])!==_0x42edcd[_0x23e070(0x15d)]&&(_0x9f7b5d[_0x9f7b5d[_0x23e070(0x176)][_0x23e070(0x178)]^_0xc3f365?'x':'o']=_0x42edcd[_0x23e070(0x15d)]),_0x9f7b5d['x']!==_0x9f7b5d['o']&&await this[_0x23e070(0x167)](_0x9f7b5d['x'],{'text':_0x68e178,'mentions':this[_0x23e070(0x159)](_0x68e178)},{'quoted':_0x42edcd}),await this[_0x23e070(0x167)](_0x9f7b5d['o'],{'text':_0x68e178,'mentions':this['parseMention'](_0x68e178)},{'quoted':_0x42edcd}),(_0x349183||_0x4b92bb)&&(_0x5c20bf[_0x9f7b5d[_0x23e070(0x176)][_0x23e070(0x153)]][_0x23e070(0x152)]+=playScore,_0x5c20bf[_0x9f7b5d[_0x23e070(0x176)][_0x23e070(0x157)]][_0x23e070(0x152)]+=playScore,_0x4b92bb&&(_0x5c20bf[_0x21991c][_0x23e070(0x152)]+=winScore-playScore),debugMode&&_0x42edcd[_0x23e070(0x17f)]('[DEBUG]\x0a'+format(_0x9f7b5d)),delete this['game'][_0x9f7b5d['id']]);}return!0x0;}function a0_0x3275(){const _0x43cf16=['3316016ImZZpw','63126MRZLQI','\x0a🎮\x20','4️⃣','exp','playerX','2️⃣','\x0a\x20\x20\x20\x20\x20\x20\x20\x20','game__ttt','playerO','slice','parseMention','trim','7180792arKSme','.json','chat','find','texto4','6️⃣','parse','format','map','379993OvEIsH','2370215tqzPIS','9️⃣','sendMessage','4tveFXv','plugins','\x0a⭕\x20=\x20@','readFileSync','texto2','5️⃣','6bnmtlG','winner','turn','currentTurn','data','1860zxMDnc','5669643mvhMLO','language','game','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20','_currentTurn','startsWith','render','users','texto5','[DEBUG]\x0a','state','reply','values','board','PLAYING','8️⃣','712833uASEAG','texto1','join','split','text','1️⃣','sender','3️⃣'];a0_0x3275=function(){return _0x43cf16;};return a0_0x3275();}
+import {format} from 'util';
+
+
+const debugMode = !1;
+const winScore = 4999;
+const playScore = 99;
+export async function before(m) {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.game__ttt
+
+  let ok;
+  let isWin = !1;
+  let isTie = !1;
+  let isSurrender = !1;
+  this.game = this.game ? this.game : {};
+  const room = Object.values(this.game).find((room) => room.id && room.game && room.state && room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender) && room.state == 'PLAYING');
+  if (room) {
+    if (!/^([1-9]|(me)?nyerah|\rendirse\|rendirse|RENDIRSE|surr?ender)$/i.test(m.text)) {
+      return !0;
+    }
+    isSurrender = !/^[1-9]$/.test(m.text);
+    if (m.sender !== room.game.currentTurn) {
+      if (!isSurrender) {
+        return !0;
+      }
+    }
+    if (debugMode) {
+      m.reply('[DEBUG]\n' + require('util').format({
+        isSurrender,
+        text: m.text}));
+    }
+    if (!isSurrender && 1 > (ok = room.game.turn(m.sender === room.game.playerO, parseInt(m.text) - 1))) {
+      m.reply({
+        '-3': tradutor.texto1[0],
+        '-2': tradutor.texto1[1],
+        '-1': tradutor.texto1[2],
+        '0': tradutor.texto1[3],
+      }[ok]);
+      return !0;
+    }
+    if (m.sender === room.game.winner) {
+      isWin = true;
+    } else if (room.game.board === 511) {
+      isTie = true;
+    }
+    const arr = room.game.render().map((v) => {
+      return {
+        X: '❎',
+        O: '⭕',
+        1: '1️⃣',
+        2: '2️⃣',
+        3: '3️⃣',
+        4: '4️⃣',
+        5: '5️⃣',
+        6: '6️⃣',
+        7: '7️⃣',
+        8: '8️⃣',
+        9: '9️⃣',
+      }[v];
+    });
+    if (isSurrender) {
+      room.game._currentTurn = m.sender === room.game.playerX;
+      isWin = true;
+    }
+    const winner = isSurrender ? room.game.currentTurn : room.game.winner;
+    const str = `
+🎮 ${tradutor.texto2} 🎮
+
+❎ = @${room.game.playerX.split('@')[0]}
+⭕ = @${room.game.playerO.split('@')[0]}
+
+        ${arr.slice(0, 3).join('')}
+        ${arr.slice(3, 6).join('')}
+        ${arr.slice(6).join('')}
+
+${isWin ? `@${(isSurrender ? room.game.currentTurn : room.game.winner).split('@')[0]} ${tradutor.texto3}` : isTie ? tradutor.texto4 : `${tradutor.texto5} @${room.game.currentTurn.split('@')[0]}`}
+`.trim();
+    const users = global.db.data.users;
+    if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat) {
+      room[room.game._currentTurn ^ isSurrender ? 'x' : 'o'] = m.chat;
+    }
+    if (room.x !== room.o) {
+      await this.sendMessage(room.x, {text: str, mentions: this.parseMention(str)}, {quoted: m});
+    }
+    await this.sendMessage(room.o, {text: str, mentions: this.parseMention(str)}, {quoted: m});
+    if (isTie || isWin) {
+      users[room.game.playerX].exp += playScore;
+      users[room.game.playerO].exp += playScore;
+      if (isWin) {
+        users[winner].exp += winScore - playScore;
+      }
+      if (debugMode) {
+        m.reply('[DEBUG]\n' + format(room));
+      }
+      delete this.game[room.id];
+    }
+  }
+  return !0;
+}

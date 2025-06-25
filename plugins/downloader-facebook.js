@@ -1,1 +1,113 @@
-const a0_0x580d6e=a0_0x130e;(function(_0x59cd3e,_0x186b83){const _0xdada3c=a0_0x130e,_0x460124=_0x59cd3e();while(!![]){try{const _0x5c75b5=-parseInt(_0xdada3c(0xeb))/0x1*(parseInt(_0xdada3c(0xc4))/0x2)+-parseInt(_0xdada3c(0xf3))/0x3+parseInt(_0xdada3c(0xc6))/0x4*(-parseInt(_0xdada3c(0xce))/0x5)+parseInt(_0xdada3c(0xda))/0x6+parseInt(_0xdada3c(0xf4))/0x7*(parseInt(_0xdada3c(0xc9))/0x8)+-parseInt(_0xdada3c(0xc3))/0x9+parseInt(_0xdada3c(0xf2))/0xa;if(_0x5c75b5===_0x186b83)break;else _0x460124['push'](_0x460124['shift']());}catch(_0x333a9e){_0x460124['push'](_0x460124['shift']());}}}(a0_0x2b11,0x445c3));import{igdl}from'ruhend-scraper';async function showProgress(_0x7893e3,_0x130c8c,_0x2088df,_0x13b301=0x9){const _0x45e23a=a0_0x130e,_0x1e722c=['🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙'],_0x3b5c95=[_0x45e23a(0xc1),_0x45e23a(0xd1),_0x45e23a(0xe1),'▰▰▰▰▱▱▱▱▱\x2040%',_0x45e23a(0xe4),_0x45e23a(0xec),_0x45e23a(0xcf),_0x45e23a(0xc2),_0x45e23a(0xe8),_0x45e23a(0xd9)];for(let _0x87b591=0x0;_0x87b591<=_0x13b301;_0x87b591++){await new Promise(_0x390c30=>setTimeout(_0x390c30,0x5dc));const _0xd12853=_0x1e722c[_0x87b591%_0x1e722c[_0x45e23a(0xdb)]]+'\x20'+_0x3b5c95[_0x87b591];await _0x7893e3['sendMessage'](_0x130c8c['chat'],{'text':_0x45e23a(0xd5)+_0xd12853,'edit':_0x2088df[_0x45e23a(0xe5)],'mentions':_0x7893e3[_0x45e23a(0xef)](_0x130c8c[_0x45e23a(0xcc)])});}}const handler=async(_0xca7a72,{text:_0x40f812,conn:_0x4a6cd6,args:_0x482c33,usedPrefix:_0x4c4c0d,command:_0x458d7f})=>{const _0x16a6b2=a0_0x130e;try{if(!_0x482c33[0x0]){await _0x4a6cd6[_0x16a6b2(0xe3)](_0xca7a72['chat'],{'text':_0x16a6b2(0xe6),'mentions':_0x4a6cd6[_0x16a6b2(0xef)](_0xca7a72[_0x16a6b2(0xcc)])},{'quoted':_0xca7a72});return;}if(!/https?:\/\/(www\.)?(facebook|fb)\.com\/.*/i[_0x16a6b2(0xca)](_0x482c33[0x0])){await _0x4a6cd6[_0x16a6b2(0xe3)](_0xca7a72[_0x16a6b2(0xee)],{'text':_0x16a6b2(0xe7),'mentions':_0x4a6cd6[_0x16a6b2(0xef)](_0xca7a72[_0x16a6b2(0xcc)])},{'quoted':_0xca7a72});return;}await _0xca7a72['react']('⏳');const _0x4672f6=Date[_0x16a6b2(0xde)](),_0x5e98f4=await _0x4a6cd6[_0x16a6b2(0xe3)](_0xca7a72[_0x16a6b2(0xee)],{'text':'╭──\x20Progreso\x20de\x20descarga\x20──╮\x0a➫\x20▱▱▱▱▱▱▱▱▱\x200%','mentions':_0x4a6cd6[_0x16a6b2(0xef)](_0xca7a72[_0x16a6b2(0xcc)])},{'quoted':_0xca7a72}),_0x5694ad=await igdl(_0x482c33[0x0]);if(!_0x5694ad?.[_0x16a6b2(0xc0)]?.['length'])throw new Error(_0x16a6b2(0xea));const _0x51d9d8=[_0x16a6b2(0xdd),_0x16a6b2(0xe9),_0x16a6b2(0xf0),'HD','SD'],_0x3af409=_0x51d9d8['map'](_0x4ea78f=>_0x5694ad['data'][_0x16a6b2(0xd8)](_0x391eae=>_0x391eae[_0x16a6b2(0xd2)][_0x16a6b2(0xc5)](_0x4ea78f)))[_0x16a6b2(0xd8)](Boolean);if(!_0x3af409?.['url'])throw new Error(_0x16a6b2(0xd6));await showProgress(_0x4a6cd6,_0xca7a72,_0x5e98f4),await _0x4a6cd6[_0x16a6b2(0xe3)](_0xca7a72['chat'],{'delete':_0x5e98f4[_0x16a6b2(0xe5)]}),await _0x4a6cd6[_0x16a6b2(0xe3)](_0xca7a72[_0x16a6b2(0xee)],{'video':{'url':_0x3af409[_0x16a6b2(0xc7)]},'caption':_0x16a6b2(0xd4)+_0x3af409[_0x16a6b2(0xd2)]+_0x16a6b2(0xed)+_0x3af409[_0x16a6b2(0xdc)]+_0x16a6b2(0xf5)+((Date['now']()-_0x4672f6)/0x3e8)[_0x16a6b2(0xcd)](0x1)+'s\x0a╰────────────────','fileName':_0x16a6b2(0xf1),'mentions':_0x4a6cd6[_0x16a6b2(0xef)](_0xca7a72[_0x16a6b2(0xcc)])}),await _0xca7a72[_0x16a6b2(0xcb)]('✅');}catch(_0x5d6f71){console[_0x16a6b2(0xd3)](_0x16a6b2(0xe0),_0x5d6f71),await _0x4a6cd6[_0x16a6b2(0xe3)](_0xca7a72['chat'],{'text':_0x16a6b2(0xdf)+(_0x5d6f71[_0x16a6b2(0xf7)]||_0x16a6b2(0xd0))+'\x0a╰────────────────','mentions':_0x4a6cd6[_0x16a6b2(0xef)](_0xca7a72['sender'])},{'quoted':_0xca7a72}),await _0xca7a72['react']('❌');}};handler[a0_0x580d6e(0xc8)]=['fb'],handler[a0_0x580d6e(0xd7)]=[a0_0x580d6e(0xf6)],handler[a0_0x580d6e(0xe2)]=/^(fb|facebook)$/i,handler['group']=!![];function a0_0x130e(_0x2365d1,_0x2bf423){const _0x2b11ea=a0_0x2b11();return a0_0x130e=function(_0x130e2e,_0x3664ba){_0x130e2e=_0x130e2e-0xc0;let _0x8648cf=_0x2b11ea[_0x130e2e];return _0x8648cf;},a0_0x130e(_0x2365d1,_0x2bf423);}export default handler;function a0_0x2b11(){const _0x3d9f2a=['24KgmvjD','url','help','304QOfdwO','test','react','sender','toFixed','149355GcmLHp','▰▰▰▰▰▰▰▱▱\x2070%','Ocurrió\x20un\x20error\x20inesperado','▰▰▱▱▱▱▱▱▱\x2020%','resolution','error','╭────────────────\x0a├◉\x20*¡Extracción\x20completada!*\x0a├◉\x20*Resolución:*\x20','╭──\x20Progreso\x20de\x20descarga\x20──╮\x0a➫\x20','No\x20se\x20encontró\x20versión\x20descargable','tags','find','▰▰▰▰▰▰▰▰▰▰\x20100%','147042AVzJWk','length','size','720p\x20(HD)','now','╭────────────────\x0a├◉\x20*Error:*\x20','Error:','▰▰▰▱▱▱▱▱▱\x2030%','command','sendMessage','▰▰▰▰▰▱▱▱▱\x2050%','key','╭────────────────\x0a├◉\x20*Error:*\x20Debes\x20proporcionar\x20un\x20enlace\x20de\x20Facebook.\x0a╰────────────────','╭────────────────\x0a├◉\x20*Enlace\x20inválido:*\x20Solo\x20se\x20aceptan\x20enlaces\x20de\x20Facebook.\x0a╰────────────────','▰▰▰▰▰▰▰▰▰\x2090%','480p\x20(SD)','No\x20se\x20encontró\x20contenido','460hBYMXa','▰▰▰▰▰▰▱▱▱\x2060%','\x0a├◉\x20*Tamaño:*\x20','chat','parseMention','360p\x20(SD)','facebook_video.mp4','6994190xxYdcc','841752gsKSAX','69489jHImgh','\x0a├◉\x20*Tiempo:*\x20','downloader','message','data','▰▱▱▱▱▱▱▱▱\x2010%','▰▰▰▰▰▰▰▰▱\x2080%','482391mAGkjT','1338mdrIbJ','includes'];a0_0x2b11=function(){return _0x3d9f2a;};return a0_0x2b11();}
+import { igdl } from 'ruhend-scraper';
+
+// Creado por SinNombre - 5629885039
+
+async function showProgress(conn, m, msg, totalSteps = 9) {
+    const clockAnimation = ['🕐', '🕑', '🕒', '🕓', '🕔', '🕕', '🕖', '🕗', '🕘', '🕙'];
+    const progress = [
+        "▰▱▱▱▱▱▱▱▱ 10%",
+        "▰▰▱▱▱▱▱▱▱ 20%",
+        "▰▰▰▱▱▱▱▱▱ 30%",
+        "▰▰▰▰▱▱▱▱▱ 40%",
+        "▰▰▰▰▰▱▱▱▱ 50%",
+        "▰▰▰▰▰▰▱▱▱ 60%",
+        "▰▰▰▰▰▰▰▱▱ 70%",
+        "▰▰▰▰▰▰▰▰▱ 80%",
+        "▰▰▰▰▰▰▰▰▰ 90%",
+        "▰▰▰▰▰▰▰▰▰▰ 100%"
+    ];
+
+    for (let i = 0; i <= totalSteps; i++) {
+        await new Promise(resolve => setTimeout(resolve, 1500));
+        const frame = `${clockAnimation[i % clockAnimation.length]} ${progress[i]}`;
+
+        await conn.sendMessage(m.chat, {
+            text:
+`╭── Progreso de descarga ──╮
+➫ ${frame}`,
+            edit: msg.key,
+            mentions: conn.parseMention(m.sender)
+        });
+    }
+}
+
+const handler = async (m, { text, conn, args, usedPrefix, command }) => {
+    try {
+        if (!args[0]) {
+            await conn.sendMessage(m.chat, {
+                text:
+`╭────────────────
+├◉ *Error:* Debes proporcionar un enlace de Facebook.
+╰────────────────`,
+                mentions: conn.parseMention(m.sender)
+            }, { quoted: m });
+            return;
+        }
+
+        if (!/https?:\/\/(www\.)?(facebook|fb)\.com\/.*/i.test(args[0])) {
+            await conn.sendMessage(m.chat, {
+                text:
+`╭────────────────
+├◉ *Enlace inválido:* Solo se aceptan enlaces de Facebook.
+╰────────────────`,
+                mentions: conn.parseMention(m.sender)
+            }, { quoted: m });
+            return;
+        }
+
+        await m.react('⏳');
+        const startTime = Date.now();
+
+        const msg = await conn.sendMessage(m.chat, {
+            text:
+`╭── Progreso de descarga ──╮
+➫ ▱▱▱▱▱▱▱▱▱ 0%`,
+            mentions: conn.parseMention(m.sender)
+        }, { quoted: m });
+
+        const res = await igdl(args[0]);
+        if (!res?.data?.length) throw new Error('No se encontró contenido');
+
+        const resolutions = ['720p (HD)', '480p (SD)', '360p (SD)', 'HD', 'SD'];
+        const data = resolutions.map(r => res.data.find(i => i.resolution.includes(r))).find(Boolean);
+
+        if (!data?.url) throw new Error('No se encontró versión descargable');
+
+        await showProgress(conn, m, msg);
+
+        await conn.sendMessage(m.chat, { delete: msg.key });
+
+        await conn.sendMessage(m.chat, {
+            video: { url: data.url },
+            caption:
+`╭────────────────
+├◉ *¡Extracción completada!*
+├◉ *Resolución:* ${data.resolution}
+├◉ *Tamaño:* ${data.size}
+├◉ *Tiempo:* ${((Date.now() - startTime) / 1000).toFixed(1)}s
+╰────────────────`,
+            fileName: 'facebook_video.mp4',
+            mentions: conn.parseMention(m.sender)
+        });
+
+        await m.react('✅');
+
+    } catch (error) {
+        console.error('Error:', error);
+        await conn.sendMessage(m.chat, {
+            text:
+`╭────────────────
+├◉ *Error:* ${error.message || 'Ocurrió un error inesperado'}
+╰────────────────`,
+            mentions: conn.parseMention(m.sender)
+        }, { quoted: m });
+        await m.react('❌');
+    }
+};
+
+handler.help = ['fb'];
+handler.tags = ['downloader'];
+handler.command = /^(fb|facebook)$/i;
+handler.group = true;
+
+export default handler;

@@ -1,1 +1,46 @@
-const a0_0x468346=a0_0xfdca;(function(_0x358663,_0x2eba93){const _0x57ffad=a0_0xfdca,_0xff0b97=_0x358663();while(!![]){try{const _0x4a62a0=-parseInt(_0x57ffad(0x17b))/0x1+parseInt(_0x57ffad(0x17f))/0x2+parseInt(_0x57ffad(0x168))/0x3+-parseInt(_0x57ffad(0x183))/0x4*(-parseInt(_0x57ffad(0x174))/0x5)+parseInt(_0x57ffad(0x175))/0x6*(-parseInt(_0x57ffad(0x17e))/0x7)+parseInt(_0x57ffad(0x176))/0x8+parseInt(_0x57ffad(0x16a))/0x9;if(_0x4a62a0===_0x2eba93)break;else _0xff0b97['push'](_0xff0b97['shift']());}catch(_0x334781){_0xff0b97['push'](_0xff0b97['shift']());}}}(a0_0x1c2a,0x94e53));import{canLevelUp,xpRange}from'../lib/levelling.js';import{levelup}from'../lib/canvas.js';const handler=async(_0xef60fd,{conn:_0x237c02})=>{const _0x183062=a0_0xfdca;global['db'][_0x183062(0x17a)]['users'][_0xef60fd[_0x183062(0x165)]][_0x183062(0x178)]+=0x1;const _0x47eeb7=_0x237c02[_0x183062(0x16e)](_0xef60fd[_0x183062(0x165)]),_0x4a2abc=global['db']['data'][_0x183062(0x162)][_0xef60fd[_0x183062(0x165)]];if(!canLevelUp(_0x4a2abc[_0x183062(0x169)],_0x4a2abc['exp'],global[_0x183062(0x180)])){const {min:_0x5535bd,xp:_0x22e04f,max:_0x3904ea}=xpRange(_0x4a2abc[_0x183062(0x169)],global[_0x183062(0x180)]);throw(_0x183062(0x184)+_0x47eeb7+_0x183062(0x164)+_0x4a2abc['level']+_0x183062(0x170)+(_0x4a2abc[_0x183062(0x16c)]-_0x5535bd)+'/'+_0x22e04f+_0x183062(0x16d)+(_0x3904ea-_0x4a2abc[_0x183062(0x16c)])+_0x183062(0x179))[_0x183062(0x163)]();}const _0x4682ff=_0x4a2abc[_0x183062(0x169)]*0x1;while(canLevelUp(_0x4a2abc[_0x183062(0x169)],_0x4a2abc[_0x183062(0x16c)],global[_0x183062(0x180)]))_0x4a2abc[_0x183062(0x169)]++;if(_0x4682ff!==_0x4a2abc['level']){const _0x5f4336=_0x183062(0x166),_0x128d38=(_0x183062(0x177)+_0x4682ff+'*\x0a▢\x20Nivel\x20actual\x20:\x20*'+_0x4a2abc[_0x183062(0x169)]+_0x183062(0x171))[_0x183062(0x163)]();try{const _0x26ea83=await levelup(_0x5f4336,_0x4a2abc[_0x183062(0x169)]);_0x237c02[_0x183062(0x167)](_0xef60fd[_0x183062(0x16f)],_0x26ea83,_0x183062(0x17d),_0x128d38,_0xef60fd);}catch(_0x1e8996){_0xef60fd[_0x183062(0x173)](_0x128d38);}}};function a0_0x1c2a(){const _0x38f089=['users','trim','*\x0a▢\x20Nivel\x20:\x20*','sender','Nuevo\x20Nivel:','sendFile','571989XINzUh','level','12186468GrNusO','command','exp','*\x0a└──────────────\x0a\x0aTe\x20falta\x20*','getName','chat','*\x0a▢\x20XP\x20:\x20*','*\x0a└──────────────\x0a\x0a*_Cuanto\x20más\x20interactúes\x20con\x20los\x20bots,\x20mayor\x20será\x20tu\x20nivel_*\x0a','levelup','reply','10aLmHGE','6032562FBKBip','121680zuWrCq','\x0a┌─⊷\x20*LEVEL\x20UP*\x0a▢\x20Nivel\x20anterior\x20:\x20*','comandos','*\x20de\x20*XP*\x20para\x20subir\x20de\x20nivel\x0a','data','978666rDsjYj','tags','level.jpg','7zjKGgv','896222YQcopV','multiplier','nivel','lvl','1171864VjnLyp','\x0a┌───⊷\x20*NIVEL*\x0a▢\x20Nombre\x20:\x20*'];a0_0x1c2a=function(){return _0x38f089;};return a0_0x1c2a();}handler['help']=[a0_0x468346(0x172)],handler[a0_0x468346(0x17c)]=['xp'],handler[a0_0x468346(0x16b)]=[a0_0x468346(0x181),a0_0x468346(0x182),'levelup',a0_0x468346(0x169)];function a0_0xfdca(_0x4967e6,_0x23a0e2){const _0x1c2a15=a0_0x1c2a();return a0_0xfdca=function(_0xfdca99,_0x23a7f8){_0xfdca99=_0xfdca99-0x162;let _0x648186=_0x1c2a15[_0xfdca99];return _0x648186;},a0_0xfdca(_0x4967e6,_0x23a0e2);}export default handler;
+import {canLevelUp, xpRange} from '../lib/levelling.js';
+import {levelup} from '../lib/canvas.js';
+
+const handler = async (m, {conn}) => {
+	global.db.data.users[m.sender].comandos += 1;
+  const name = conn.getName(m.sender);
+  const user = global.db.data.users[m.sender];
+  if (!canLevelUp(user.level, user.exp, global.multiplier)) {
+    const {min, xp, max} = xpRange(user.level, global.multiplier);
+    throw `
+┌───⊷ *NIVEL*
+▢ Nombre : *${name}*
+▢ Nivel : *${user.level}*
+▢ XP : *${user.exp - min}/${xp}*
+└──────────────
+
+Te falta *${max - user.exp}* de *XP* para subir de nivel
+`.trim();
+  }
+  const before = user.level * 1;
+  while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++;
+  if (before !== user.level) {
+    const teks = `Nuevo Nivel:`;
+    const str = `
+┌─⊷ *LEVEL UP*
+▢ Nivel anterior : *${before}*
+▢ Nivel actual : *${user.level}*
+└──────────────
+
+*_Cuanto más interactúes con los bots, mayor será tu nivel_*
+`.trim();
+    try {
+      const img = await levelup(teks, user.level);
+      conn.sendFile(m.chat, img, 'level.jpg', str, m);
+    } catch (e) {
+      m.reply(str);
+    }
+  }
+};
+
+handler.help = ['levelup'];
+handler.tags = ['xp']
+
+handler.command = ['nivel', 'lvl', 'levelup', 'level'];
+
+export default handler;

@@ -1,1 +1,17 @@
-const a0_0x3a0221=a0_0x2ce9;function a0_0x2e61(){const _0x5f43e8=['chats','50553MMMyta','1822437dMfYhk','sBye','data','2567910IDoNzy','setbye\x20<text>','plugins','admin','gc_setbye','users','6GzDazr','tags','command','readFileSync','16871121DVwPDn','6268664eLXEHO','3635261ydgYmz','5009312dggKcU','language','2oxzAOA','reply','sender'];a0_0x2e61=function(){return _0x5f43e8;};return a0_0x2e61();}(function(_0x451b04,_0x55fffd){const _0x3c29d5=a0_0x2ce9,_0x32cc95=_0x451b04();while(!![]){try{const _0x56568f=-parseInt(_0x3c29d5(0xfd))/0x1+-parseInt(_0x3c29d5(0xf9))/0x2*(-parseInt(_0x3c29d5(0xfe))/0x3)+parseInt(_0x3c29d5(0xf7))/0x4+parseInt(_0x3c29d5(0x101))/0x5*(parseInt(_0x3c29d5(0x107))/0x6)+-parseInt(_0x3c29d5(0x10d))/0x7+parseInt(_0x3c29d5(0x10c))/0x8+-parseInt(_0x3c29d5(0x10b))/0x9;if(_0x56568f===_0x55fffd)break;else _0x32cc95['push'](_0x32cc95['shift']());}catch(_0x43adc8){_0x32cc95['push'](_0x32cc95['shift']());}}}(a0_0x2e61,0xadf4f));const handler=async(_0x539273,{conn:_0x438a95,text:_0x4a9b4d,isROwner:_0xd6085,isOwner:_0x21b5cc})=>{const _0x120f62=a0_0x2ce9,_0x35f91f=global,_0xad3853=_0x35f91f['db']['data'][_0x120f62(0x106)][_0x539273[_0x120f62(0xfb)]][_0x120f62(0xf8)],_0xf34118=JSON['parse'](fs[_0x120f62(0x10a)]('./language/'+_0xad3853+'.json')),_0x562504=_0xf34118[_0x120f62(0x103)][_0x120f62(0x105)];if(_0x4a9b4d)global['db'][_0x120f62(0x100)][_0x120f62(0xfc)][_0x539273['chat']][_0x120f62(0xff)]=_0x4a9b4d,_0x539273[_0x120f62(0xfa)](_0x562504['texto1']);else throw _0x562504['texto2']+'\x0a*-\x20@user\x20'+_0x562504['texto3'];};handler['help']=[a0_0x3a0221(0x102)],handler[a0_0x3a0221(0x108)]=['group'],handler[a0_0x3a0221(0x109)]=['setbye'],handler[a0_0x3a0221(0x104)]=!![];function a0_0x2ce9(_0x40385,_0x324111){const _0x2e61c5=a0_0x2e61();return a0_0x2ce9=function(_0x2ce93a,_0xb56b56){_0x2ce93a=_0x2ce93a-0xf7;let _0x2f9268=_0x2e61c5[_0x2ce93a];return _0x2f9268;},a0_0x2ce9(_0x40385,_0x324111);}export default handler;
+
+const handler = async (m, {conn, text, isROwner, isOwner}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_setbye
+
+  if (text) {
+    global.db.data.chats[m.chat].sBye = text;
+    m.reply(tradutor.texto1);
+  } else throw `${tradutor.texto2}\n*- @user ${tradutor.texto3}`;
+};
+handler.help = ['setbye <text>'];
+handler.tags = ['group'];
+handler.command = ['setbye'];
+handler.admin = true;
+export default handler;

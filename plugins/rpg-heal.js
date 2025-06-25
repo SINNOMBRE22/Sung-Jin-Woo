@@ -1,1 +1,48 @@
-const a0_0x1acf91=a0_0x50df;(function(_0x4ffb9d,_0x5b6313){const _0x55a563=a0_0x50df,_0x5d892b=_0x4ffb9d();while(!![]){try{const _0x576845=parseInt(_0x55a563(0x1a4))/0x1+parseInt(_0x55a563(0x183))/0x2*(parseInt(_0x55a563(0x18f))/0x3)+-parseInt(_0x55a563(0x1a5))/0x4*(-parseInt(_0x55a563(0x187))/0x5)+-parseInt(_0x55a563(0x199))/0x6*(parseInt(_0x55a563(0x185))/0x7)+-parseInt(_0x55a563(0x192))/0x8+-parseInt(_0x55a563(0x1a6))/0x9+-parseInt(_0x55a563(0x197))/0xa;if(_0x576845===_0x5b6313)break;else _0x5d892b['push'](_0x5d892b['shift']());}catch(_0x1d9297){_0x5d892b['push'](_0x5d892b['shift']());}}}(a0_0x5026,0xd5e70));import{join}from'path';import{promises}from'fs';const handler=async(_0x5a0383,{conn:_0x5e5ece,args:_0xdf4f50,usedPrefix:_0x3143fd,__dirname:_0x2a64ce})=>{const _0x2f2878=a0_0x50df,_0x343c90=global,_0x52ae8f=_0x343c90['db'][_0x2f2878(0x198)][_0x2f2878(0x188)][_0x5a0383['sender']][_0x2f2878(0x194)],_0x542f1a=JSON[_0x2f2878(0x1a0)](fs['readFileSync'](_0x2f2878(0x190)+_0x52ae8f+_0x2f2878(0x19d))),_0x2c26a9=_0x542f1a['plugins'][_0x2f2878(0x18e)],_0x41d7e6=flaaa[_0x2f2878(0x19e)](),_0x32dccb=JSON[_0x2f2878(0x1a0)](await promises[_0x2f2878(0x193)](join(_0x2a64ce,_0x2f2878(0x18c)))[_0x2f2878(0x180)](_0x2f81b3=>({})))||{},_0x5d7a4b=global['db'][_0x2f2878(0x198)][_0x2f2878(0x188)][_0x5a0383[_0x2f2878(0x18a)]];if(_0x5d7a4b[_0x2f2878(0x19b)]>=0x64)return _0x5e5ece['reply'](_0x5a0383[_0x2f2878(0x19c)],_0x2c26a9[_0x2f2878(0x1a3)]+'\x20'+_0x5d7a4b[_0x2f2878(0x19b)],_0x5a0383);const _0x32a9ad=0x28+_0x5d7a4b[_0x2f2878(0x186)]*0x4,_0x10447e=Math[_0x2f2878(0x196)](0x1,Math[_0x2f2878(0x19a)](Number['MAX_SAFE_INTEGER'],isNumber(_0xdf4f50[0x0])&&parseInt(_0xdf4f50[0x0])||Math[_0x2f2878(0x181)]((0x5a-_0x5d7a4b[_0x2f2878(0x19b)])/_0x32a9ad)))*0x1;if(_0x5d7a4b[_0x2f2878(0x18d)]<_0x10447e)return _0x5e5ece[_0x2f2878(0x19f)](_0x5a0383[_0x2f2878(0x19c)],'*'+htki+'\x20'+_0x2c26a9[_0x2f2878(0x1a2)][0x0]+'\x20'+htka+_0x2c26a9[_0x2f2878(0x1a2)][0x1]+'\x20\x20'+(_0x10447e-_0x5d7a4b[_0x2f2878(0x18d)])+'\x20'+_0x2c26a9[_0x2f2878(0x1a2)][0x2]+'\x20\x0a'+_0x2c26a9[_0x2f2878(0x1a2)][0x3]+'\x20\x20'+_0x5d7a4b[_0x2f2878(0x19b)]+_0x2f2878(0x184)+_0x2c26a9[_0x2f2878(0x1a2)][0x4]+'\x20\x20'+_0x5d7a4b[_0x2f2878(0x18d)]+_0x2f2878(0x191)+_0x2c26a9['texto2'][0x5]+'\x20',_0x5a0383);_0x5d7a4b[_0x2f2878(0x18d)]-=_0x10447e*0x1,_0x5d7a4b[_0x2f2878(0x19b)]+=_0x32a9ad*_0x10447e,_0x5e5ece[_0x2f2878(0x19f)](_0x5a0383[_0x2f2878(0x19c)],_0x2c26a9['texto3'][0x0]+'\x20'+_0x10447e+'\x20'+_0x2c26a9[_0x2f2878(0x1a1)][0x1]+'\x20'+_0x5d7a4b[_0x2f2878(0x19b)]+'\x20'+_0x2c26a9['texto3'][0x2],_0x5a0383);};function a0_0x50df(_0x3d83e9,_0x73de87){const _0x502644=a0_0x5026();return a0_0x50df=function(_0x50df56,_0x4e0a71){_0x50df56=_0x50df56-0x180;let _0x447485=_0x502644[_0x50df56];return _0x447485;},a0_0x50df(_0x3d83e9,_0x73de87);}function a0_0x5026(){const _0x53d0fe=['./language/','\x20🥤\x0a','2995312ZZoROq','readFile','language','command','max','2193180DLvTYB','data','284316QeUmcN','min','health','chat','.json','getRandom','reply','parse','texto3','texto2','texto1','1702823LlDTOp','2132hzQRAn','3244554JttUAC','catch','round','econ','7496NOVTSK','\x20❤️\x0a','217hcYtRE','cat','5765PrEZVH','users','number','sender','heal','../package.json','potion','rpg_heal','786IfHVha'];a0_0x5026=function(){return _0x53d0fe;};return a0_0x5026();}handler['help']=[a0_0x1acf91(0x18b)],handler['tags']=[a0_0x1acf91(0x182)],handler[a0_0x1acf91(0x195)]=/^(heal|curar)$/i;export default handler;function isNumber(_0x5db388){const _0x2a3da3=a0_0x1acf91;if(!_0x5db388)return _0x5db388;return _0x5db388=parseInt(_0x5db388),typeof _0x5db388==_0x2a3da3(0x189)&&!isNaN(_0x5db388);}
+import {join} from 'path';
+import {promises} from 'fs';
+
+
+const handler = async (m, {conn, args, usedPrefix, __dirname}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_heal
+
+  const imgr = flaaa.getRandom();
+  const _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch((_) => ({}))) || {};
+  const user = global.db.data.users[m.sender];
+  if (user.health >= 100) return conn.reply(m.chat, `${tradutor.texto1} ${user.health}`, m);
+  /* conn.sendButton(m.chat, `𝚃𝚄 𝚂𝙰𝙻𝚄𝙳 𝙴𝚂𝚃𝙰 𝙻𝙻𝙴𝙽𝙰 ❤️`, wm, imgr + `SALUD: ${user.health}`, [
+[`🏕️ 𝙰𝚅𝙴𝙽𝚃𝚄𝚁𝙰𝚁`, `${usedPrefix}adventure`]], m)*/
+  const heal = 40 + (user.cat * 4);
+  const count = Math.max(1, Math.min(Number.MAX_SAFE_INTEGER, (isNumber(args[0]) && parseInt(args[0]) || Math.round((90 - user.health) / heal)))) * 1;
+  if (user.potion < count) {
+    return conn.reply(m.chat, `*${htki} ${tradutor.texto2[0]} ${htka}${tradutor.texto2[1]}  ${count - user.potion} ${tradutor.texto2[2]} 
+${tradutor.texto2[3]}  ${user.health} ❤️
+${tradutor.texto2[4]}  ${user.potion} 🥤
+${tradutor.texto2[5]} `, m);
+  }
+  /* conn.sendButton(m.chat,`${htki} 𝚂𝙸𝙽 𝙿𝙾𝙲𝙸𝙾𝙽𝙴𝚂 ${htka}`,
+`𝙽𝙴𝙲𝙴𝚂𝙸𝚃𝙰𝚂 ${count - user.potion} 𝙿𝙾𝙲𝙸𝙾𝙽 🥤 𝙿𝙰𝚁𝙰 𝙲𝚄𝚁𝙰𝚁𝚃𝙴
+𝚂𝙰𝙻𝚄𝙳 » ${user.health} ❤️
+𝙿𝙾𝙲𝙸𝙾𝙽 » ${user.potion} 🥤
+𝙲𝙾𝙼𝙿𝚁𝙰 𝙿𝙾𝙲𝙸𝙾𝙽 𝙾 𝙿𝙸𝙳𝙴𝙻𝙴 𝙰 𝙰𝙻𝙶𝚄𝙸𝙴𝙽 𝚀𝚄𝙴 𝚃𝙴 𝚃𝚁𝙰𝙽𝚂𝙵𝙸𝙴𝚁𝙰`.trim(), imgr + 'POCION BAJA', [
+[`𝙲𝙾𝙼𝙿𝚁𝙰𝚁 𝙿𝙾𝙲𝙸𝙾𝙽 🥤`, `${usedPrefix}buy potion ${count - user.potion}`],
+[`𝙿𝙴𝙳𝙸𝚁 𝙰𝚈𝚄𝙳𝙰 📣`, `${usedPrefix}pedirayuda *Por Favor alguien ayudeme con ${count - user.potion} de POCION* 🥤
+*» AYUDA TRANSFIRIENDO:*
+*${usedPrefix}transfer potion ${count - user.potion}* @${conn.getName(m.sender)}`]], m)*/
+  user.potion -= count * 1; // 1 potion = count (1)
+  user.health += heal * count;
+  conn.reply(m.chat, `${tradutor.texto3[0]} ${count} ${tradutor.texto3[1]} ${user.health} ${tradutor.texto3[2]}`, m);
+};
+/* conn.sendButton(m.chat, `*━┈━《 ✅ 𝚂𝙰𝙻𝚄𝙳 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙰 》━┈━*`, `𝙴𝚇𝙸𝚃𝙾𝚂𝙰𝙼𝙴𝙽𝚃𝙴 𝚄𝚂𝙾 ${count} 𝙳𝙴 𝙿𝙾𝙲𝙸𝙾𝙽 🥤 𝙿𝙰𝚁𝙰 𝚁𝙴𝙲𝚄𝙿𝙴𝚁𝙰𝚁 𝚂𝚄 𝚂𝙰𝙻𝚄𝙳\n\𝚗𝚂𝙰𝙻𝚄𝙳 » ${user.health} ❤️`, imgr + 'SALUD COMPLETADA', [
+[`𝙰𝚅𝙴𝙽𝚃𝚄𝚁𝙰𝚁 🏕️`, `${usedPrefix}adventure`]], m)*/
+handler.help = ['heal'];
+handler.tags = ['econ'];
+handler.command = /^(heal|curar)$/i;
+export default handler;
+function isNumber(number) {
+  if (!number) return number;
+  number = parseInt(number);
+  return typeof number == 'number' && !isNaN(number);
+}

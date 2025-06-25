@@ -1,1 +1,31 @@
-const a0_0x14cd57=a0_0x1011;function a0_0x59a8(){const _0x4ffbba=['\x20MB','icon','chat','312xjkPIs','2449683VOBHBt','apk\x20(nombre)','205294BLuIgs','\x0a📦\x20Paquete:\x20','\x0a📂\x20Tamaño:\x20','\x0a🕐\x20Última\x20actualización:\x20','command','lastup','8928BbJaiM','992BUfrdI','includes','1429554FpvkRr','tags','📱\x20Nombre:\x20','dllink','name','78191oGzhhI','No\x20se\x20pudo\x20encontrar\x20o\x20descargar\x20la\x20aplicación.','42390eYHXlk','application/vnd.android.package-archive','.apk','651nRUfxC','sendMessage','size','package','693IfgRQA','El\x20archivo\x20es\x20demasiado\x20grande\x20para\x20enviar.','5hLagYn'];a0_0x59a8=function(){return _0x4ffbba;};return a0_0x59a8();}(function(_0xaf5e89,_0x3217b9){const _0x68b66d=a0_0x1011,_0x44b6a5=_0xaf5e89();while(!![]){try{const _0x584814=parseInt(_0x68b66d(0x12c))/0x1+-parseInt(_0x68b66d(0x11e))/0x2+parseInt(_0x68b66d(0x11b))/0x3*(-parseInt(_0x68b66d(0x125))/0x4)+parseInt(_0x68b66d(0x117))/0x5*(parseInt(_0x68b66d(0x127))/0x6)+-parseInt(_0x68b66d(0x111))/0x7*(-parseInt(_0x68b66d(0x124))/0x8)+parseInt(_0x68b66d(0x11c))/0x9+-parseInt(_0x68b66d(0x10e))/0xa*(parseInt(_0x68b66d(0x115))/0xb);if(_0x584814===_0x3217b9)break;else _0x44b6a5['push'](_0x44b6a5['shift']());}catch(_0x2cd36f){_0x44b6a5['push'](_0x44b6a5['shift']());}}}(a0_0x59a8,0x487e1));import{search,download}from'aptoide-scraper';const handler=async(_0xa7c00,{conn:_0x15381f,text:_0x22be6c})=>{const _0x132458=a0_0x1011;if(!_0x22be6c)throw'Por\x20favor,\x20escribe\x20el\x20nombre\x20de\x20la\x20aplicación\x20que\x20deseas\x20buscar.';try{const _0x2042ae=await search(_0x22be6c),_0x546e5=await download(_0x2042ae[0x0]['id']);let _0x40e5a0=_0x132458(0x129)+_0x546e5[_0x132458(0x12b)]+_0x132458(0x11f)+_0x546e5[_0x132458(0x114)]+_0x132458(0x121)+_0x546e5[_0x132458(0x123)]+_0x132458(0x120)+_0x546e5[_0x132458(0x113)];await _0x15381f[_0x132458(0x112)](_0xa7c00[_0x132458(0x11a)],{'image':{'url':_0x546e5[_0x132458(0x119)]},'caption':_0x40e5a0},{'quoted':_0xa7c00});if(_0x546e5['size'][_0x132458(0x126)]('GB')||parseFloat(_0x546e5[_0x132458(0x113)]['replace'](_0x132458(0x118),''))>0x3e7)return await _0x15381f[_0x132458(0x112)](_0xa7c00[_0x132458(0x11a)],{'text':_0x132458(0x116)},{'quoted':_0xa7c00});await _0x15381f[_0x132458(0x112)](_0xa7c00['chat'],{'document':{'url':_0x546e5[_0x132458(0x12a)]},'mimetype':_0x132458(0x10f),'fileName':_0x546e5[_0x132458(0x12b)]+_0x132458(0x110)},{'quoted':_0xa7c00});}catch{throw _0x132458(0x10d);}};function a0_0x1011(_0x4ca465,_0x1c1c5e){const _0x59a8ee=a0_0x59a8();return a0_0x1011=function(_0x101161,_0x5d0591){_0x101161=_0x101161-0x10d;let _0x36b0ca=_0x59a8ee[_0x101161];return _0x36b0ca;},a0_0x1011(_0x4ca465,_0x1c1c5e);}handler['help']=[a0_0x14cd57(0x11d)],handler[a0_0x14cd57(0x128)]=['downloader'],handler[a0_0x14cd57(0x122)]=/^apk$/i;export default handler;
+import { search, download } from 'aptoide-scraper';
+
+const handler = async (m, { conn, text }) => {
+  if (!text) throw 'Por favor, escribe el nombre de la aplicación que deseas buscar.';
+
+  try {
+    const searchA = await search(text);
+    const data5 = await download(searchA[0].id);
+
+    let response = `📱 Nombre: ${data5.name}\n📦 Paquete: ${data5.package}\n🕐 Última actualización: ${data5.lastup}\n📂 Tamaño: ${data5.size}`;
+    await conn.sendMessage(m.chat, { image: { url: data5.icon }, caption: response }, { quoted: m });
+
+    if (data5.size.includes('GB') || parseFloat(data5.size.replace(' MB', '')) > 999) {
+      return await conn.sendMessage(m.chat, { text: 'El archivo es demasiado grande para enviar.' }, { quoted: m });
+    }
+
+    await conn.sendMessage(m.chat, {
+      document: { url: data5.dllink },
+      mimetype: 'application/vnd.android.package-archive',
+      fileName: data5.name + '.apk',
+    }, { quoted: m });
+
+  } catch {
+    throw 'No se pudo encontrar o descargar la aplicación.';
+  }
+};
+
+handler.help = ['apk (nombre)'];
+handler.tags = ['downloader'];
+handler.command = /^apk$/i;
+export default handler;

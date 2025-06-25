@@ -1,1 +1,22 @@
-function a0_0x5488(_0x5d9d8a,_0x1a8786){const _0x1bc79b=a0_0x1bc7();return a0_0x5488=function(_0x548852,_0x4d5cd4){_0x548852=_0x548852-0xfa;let _0x3c75a4=_0x1bc79b[_0x548852];return _0x3c75a4;},a0_0x5488(_0x5d9d8a,_0x1a8786);}const a0_0x2d66e2=a0_0x5488;(function(_0x2a7fd3,_0x5ddee8){const _0x369930=a0_0x5488,_0x7a4e19=_0x2a7fd3();while(!![]){try{const _0x5c7746=parseInt(_0x369930(0x116))/0x1*(parseInt(_0x369930(0x10d))/0x2)+-parseInt(_0x369930(0x10b))/0x3*(parseInt(_0x369930(0x105))/0x4)+parseInt(_0x369930(0x112))/0x5+-parseInt(_0x369930(0x117))/0x6+parseInt(_0x369930(0xfb))/0x7*(-parseInt(_0x369930(0x113))/0x8)+parseInt(_0x369930(0x107))/0x9*(parseInt(_0x369930(0xfe))/0xa)+parseInt(_0x369930(0x104))/0xb*(parseInt(_0x369930(0x101))/0xc);if(_0x5c7746===_0x5ddee8)break;else _0x7a4e19['push'](_0x7a4e19['shift']());}catch(_0x386599){_0x7a4e19['push'](_0x7a4e19['shift']());}}}(a0_0x1bc7,0xa2f03));function a0_0x1bc7(){const _0x25881d=['7272BefAdY','money','fail','limit','2170446GYkRDT','owner_chetar','2DiQRYO','chetar','sender','tags','data','4646815XLUMYa','40SuWwEM','users','exp','1199326DptrhW','7196094WELjlJ','./language/','566783lZWWPc','language','readFileSync','940qQFCBj','texto1','parse','120XiMYaU','rowner','level','869473WccoZF','4EXxida','chat'];a0_0x1bc7=function(){return _0x25881d;};return a0_0x1bc7();}const handler=async(_0x4fb6af,{conn:_0xc0f305})=>{const _0x172377=a0_0x5488,_0x46a1ad=global,_0x45c799=_0x46a1ad['db'][_0x172377(0x111)]['users'][_0x4fb6af[_0x172377(0x10f)]][_0x172377(0xfc)],_0x11569a=JSON[_0x172377(0x100)](fs[_0x172377(0xfd)](_0x172377(0xfa)+_0x45c799+'.json')),_0x23d08=_0x11569a['plugins'][_0x172377(0x10c)],_0x1d73a2=global['db'][_0x172377(0x111)][_0x172377(0x114)][_0x4fb6af[_0x172377(0x10f)]];_0xc0f305['sendMessage'](_0x4fb6af[_0x172377(0x106)],{'text':'*[❗]\x20@'+_0x4fb6af[_0x172377(0x10f)]['split']('@')[0x0]+'\x20'+_0x23d08[_0x172377(0xff)],'mentions':[_0x4fb6af[_0x172377(0x10f)]]},{'quoted':_0x4fb6af}),global['db']['data'][_0x172377(0x114)][_0x4fb6af[_0x172377(0x10f)]][_0x172377(0x108)]=Infinity,global['db'][_0x172377(0x111)][_0x172377(0x114)][_0x4fb6af['sender']][_0x172377(0x10a)]=Infinity,global['db'][_0x172377(0x111)]['users'][_0x4fb6af[_0x172377(0x10f)]][_0x172377(0x103)]=Infinity,global['db']['data']['users'][_0x4fb6af['sender']][_0x172377(0x115)]=Infinity;};handler['help']=[a0_0x2d66e2(0x10e)],handler[a0_0x2d66e2(0x110)]=['owner'],handler['command']=/^(ilimitado|infiniy|chetar)$/i,handler[a0_0x2d66e2(0x102)]=!![],handler[a0_0x2d66e2(0x109)]=null;export default handler;
+
+
+
+const handler = async (m, { conn }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_chetar
+
+    const user = global.db.data.users[m.sender];
+        conn.sendMessage(m.chat, {text: `*[❗] @${m.sender.split('@')[0]} ${tradutor.texto1}`, mentions: [m.sender]}, {quoted: m});
+      global.db.data.users[m.sender].money = Infinity;
+    global.db.data.users[m.sender].limit = Infinity;
+  global.db.data.users[m.sender].level = Infinity;
+ global.db.data.users[m.sender].exp = Infinity;
+};
+handler.help = ['chetar'];
+handler.tags = ['owner'];
+handler.command = /^(ilimitado|infiniy|chetar)$/i;
+handler.rowner = true;
+handler.fail = null;
+export default handler;

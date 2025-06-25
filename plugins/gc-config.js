@@ -1,1 +1,33 @@
-const a0_0x43d0f9=a0_0x40ac;function a0_0x35ab(){const _0x41ff2f=['parse','700aaFLEe','66rYhNBE','242234UzcmRJ','\x20cerrar*\x0a','1164650nsIAci','\x0a*┠┉↯\x20','language','botAdmin','tags','sender','group\x20open\x20/\x20close','43095xIAbsi','readFileSync','3xIiHCW','930GzNNLq','\x20abrir*\x0a*┠┉↯\x20','announcement','plugins','groupSettingUpdate','texto1','5110650PbbwAM','data','not_announcement','273368NCHaCV','admin','35344okfTQR','group','1018547szrSyz','.json','users'];a0_0x35ab=function(){return _0x41ff2f;};return a0_0x35ab();}(function(_0x169160,_0x4f373f){const _0x54d986=a0_0x40ac,_0x24ceb2=_0x169160();while(!![]){try{const _0xfedbdc=parseInt(_0x54d986(0x12b))/0x1+parseInt(_0x54d986(0x112))/0x2+-parseInt(_0x54d986(0x11d))/0x3*(parseInt(_0x54d986(0x127))/0x4)+-parseInt(_0x54d986(0x11b))/0x5*(-parseInt(_0x54d986(0x11e))/0x6)+parseInt(_0x54d986(0x110))/0x7*(-parseInt(_0x54d986(0x129))/0x8)+-parseInt(_0x54d986(0x124))/0x9+parseInt(_0x54d986(0x114))/0xa*(-parseInt(_0x54d986(0x111))/0xb);if(_0xfedbdc===_0x4f373f)break;else _0x24ceb2['push'](_0x24ceb2['shift']());}catch(_0x26d642){_0x24ceb2['push'](_0x24ceb2['shift']());}}}(a0_0x35ab,0xaa9cb));const handler=async(_0x6289b2,{conn:_0x37fd93,args:_0x523cbd,usedPrefix:_0x14c4d3,command:_0x55a7f2})=>{const _0x23d250=a0_0x40ac,_0x2eb2d2=global,_0x21b7d8=_0x2eb2d2['db'][_0x23d250(0x125)][_0x23d250(0x12d)][_0x6289b2[_0x23d250(0x119)]][_0x23d250(0x116)],_0x9254a2=JSON[_0x23d250(0x12e)](fs[_0x23d250(0x11c)]('./language/'+_0x21b7d8+_0x23d250(0x12c))),_0x19a0b1=_0x9254a2[_0x23d250(0x121)]['gc_config'],_0x41f45d={'open':_0x23d250(0x126),'close':_0x23d250(0x120),'abierto':_0x23d250(0x126),'cerrado':_0x23d250(0x120),'abrir':_0x23d250(0x126),'cerrar':'announcement'}[_0x523cbd[0x0]||''];if(_0x41f45d===undefined)throw('\x0a'+_0x19a0b1[_0x23d250(0x123)][0x0]+'\x0a\x0a'+_0x19a0b1['texto1'][0x1]+_0x23d250(0x115)+(_0x14c4d3+_0x55a7f2)+_0x23d250(0x11f)+(_0x14c4d3+_0x55a7f2)+_0x23d250(0x113))['trim']();await _0x37fd93[_0x23d250(0x122)](_0x6289b2['chat'],_0x41f45d);{_0x6289b2['reply'](''+_0x19a0b1['texto1'][0x0]);}};handler['help']=[a0_0x43d0f9(0x11a),'grupo\x20abrir\x20/\x20cerrar'],handler[a0_0x43d0f9(0x118)]=[a0_0x43d0f9(0x12a)],handler['command']=/^(group|grupo)$/i,handler[a0_0x43d0f9(0x128)]=!![],handler[a0_0x43d0f9(0x117)]=!![];function a0_0x40ac(_0x5c27ce,_0x54b619){const _0x35ab28=a0_0x35ab();return a0_0x40ac=function(_0x40ac57,_0x21f189){_0x40ac57=_0x40ac57-0x110;let _0x167a1e=_0x35ab28[_0x40ac57];return _0x167a1e;},a0_0x40ac(_0x5c27ce,_0x54b619);}export default handler;
+
+const handler = async (m, {conn, args, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_config
+
+  const isClose = { // Switch Case Like :v
+    'open': 'not_announcement',
+    'close': 'announcement',
+    'abierto': 'not_announcement',
+    'cerrado': 'announcement',
+    'abrir': 'not_announcement',
+    'cerrar': 'announcement',
+  }[(args[0] || '')];
+  if (isClose === undefined) {
+    throw `
+${tradutor.texto1[0]}
+
+${tradutor.texto1[1]}
+*┠┉↯ ${usedPrefix + command} abrir*
+*┠┉↯ ${usedPrefix + command} cerrar*
+`.trim();
+  }
+  await conn.groupSettingUpdate(m.chat, isClose);
+  {m.reply(`${tradutor.texto1[0]}`);}
+};
+handler.help = ['group open / close', 'grupo abrir / cerrar'];
+handler.tags = ['group'];
+handler.command = /^(group|grupo)$/i;
+handler.admin = true;
+handler.botAdmin = true;
+export default handler;

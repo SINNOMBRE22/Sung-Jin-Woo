@@ -1,1 +1,26 @@
-const a0_0x44145e=a0_0x1c5d;(function(_0x525602,_0x2743d7){const _0x2fb8e0=a0_0x1c5d,_0x43d54f=_0x525602();while(!![]){try{const _0x3a5ed4=parseInt(_0x2fb8e0(0xed))/0x1+-parseInt(_0x2fb8e0(0xdc))/0x2*(-parseInt(_0x2fb8e0(0xec))/0x3)+-parseInt(_0x2fb8e0(0xde))/0x4+parseInt(_0x2fb8e0(0xd7))/0x5+parseInt(_0x2fb8e0(0xe2))/0x6*(parseInt(_0x2fb8e0(0xe8))/0x7)+parseInt(_0x2fb8e0(0xe3))/0x8+-parseInt(_0x2fb8e0(0xe7))/0x9*(parseInt(_0x2fb8e0(0xf2))/0xa);if(_0x3a5ed4===_0x2743d7)break;else _0x43d54f['push'](_0x43d54f['shift']());}catch(_0x545ee4){_0x43d54f['push'](_0x43d54f['shift']());}}}(a0_0x27b8,0x376f7));function a0_0x27b8(){const _0x2c2120=['2683488muLBNG','command','.json','texto1','9pIXzjC','61558uOTKeY','parse','groupUpdateSubject','texto2','708aPBSEY','237002nMnonY','data','join','sender','gc_setname','7034630MECZSs','admin','1017790VxALde','readFileSync','chat','language','plugins','308WfMubI','group','19720mQCUjG','setname\x20<text>','help','tags','84lePDCI'];a0_0x27b8=function(){return _0x2c2120;};return a0_0x27b8();}import a0_0x5dddb9 from'@whiskeysockets/baileys';function a0_0x1c5d(_0x1078e1,_0x1ba7d1){const _0x27b8bb=a0_0x27b8();return a0_0x1c5d=function(_0x1c5d69,_0x3dd216){_0x1c5d69=_0x1c5d69-0xd7;let _0x57e474=_0x27b8bb[_0x1c5d69];return _0x57e474;},a0_0x1c5d(_0x1078e1,_0x1ba7d1);}const handler=async(_0x113d96,{conn:_0xf7f8a2,args:_0x58e518,text:_0x426cea})=>{const _0x5d0fd4=a0_0x1c5d,_0x4b545f=global,_0x4de066=_0x4b545f['db'][_0x5d0fd4(0xee)]['users'][_0x113d96[_0x5d0fd4(0xf0)]][_0x5d0fd4(0xda)],_0x58f46=JSON[_0x5d0fd4(0xe9)](fs[_0x5d0fd4(0xd8)]('./language/'+_0x4de066+_0x5d0fd4(0xe5))),_0x1b679e=_0x58f46[_0x5d0fd4(0xdb)][_0x5d0fd4(0xf1)];if(!_0x426cea)throw _0x1b679e[_0x5d0fd4(0xe6)];try{const _0x3b3dce=_0x58e518[_0x5d0fd4(0xef)]` `;if(!_0x58e518||!_0x58e518[0x0]){}else _0xf7f8a2[_0x5d0fd4(0xea)](_0x113d96[_0x5d0fd4(0xd9)],_0x3b3dce);}catch(_0x3f7173){throw _0x1b679e[_0x5d0fd4(0xeb)];}};handler[a0_0x44145e(0xe0)]=[a0_0x44145e(0xdf)],handler[a0_0x44145e(0xe1)]=[a0_0x44145e(0xdd)],handler[a0_0x44145e(0xe4)]=/^(setname)$/i,handler[a0_0x44145e(0xdd)]=!![],handler[a0_0x44145e(0xf3)]=!![];export default handler;
+import Presence from '@whiskeysockets/baileys';
+
+
+const handler = async (m, {conn, args, text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_setname
+
+  if (!text) throw tradutor.texto1;
+  try {
+    const text = args.join` `;
+    if (!args || !args[0]) {
+    } else {
+      conn.groupUpdateSubject(m.chat, text);
+    }
+  } catch (e) {
+    throw tradutor.texto2;
+  }
+};
+handler.help = ['setname <text>'];
+handler.tags = ['group'];
+handler.command = /^(setname)$/i;
+handler.group = true;
+handler.admin = true;
+export default handler;

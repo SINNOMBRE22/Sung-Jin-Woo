@@ -1,1 +1,59 @@
-const a0_0x4d2391=a0_0xf5e0;(function(_0x4869d5,_0x20606e){const _0x4cea1e=a0_0xf5e0,_0x5b14e5=_0x4869d5();while(!![]){try{const _0x2aaffb=parseInt(_0x4cea1e(0xea))/0x1*(-parseInt(_0x4cea1e(0xec))/0x2)+-parseInt(_0x4cea1e(0xf7))/0x3+parseInt(_0x4cea1e(0x105))/0x4*(-parseInt(_0x4cea1e(0x108))/0x5)+-parseInt(_0x4cea1e(0x104))/0x6*(parseInt(_0x4cea1e(0xf8))/0x7)+-parseInt(_0x4cea1e(0xef))/0x8*(-parseInt(_0x4cea1e(0xf9))/0x9)+-parseInt(_0x4cea1e(0x100))/0xa+parseInt(_0x4cea1e(0x110))/0xb*(parseInt(_0x4cea1e(0xf2))/0xc);if(_0x2aaffb===_0x20606e)break;else _0x5b14e5['push'](_0x5b14e5['shift']());}catch(_0x2165eb){_0x5b14e5['push'](_0x5b14e5['shift']());}}}(a0_0x1f1e,0x679c5));let handler=async(_0x4ffdf9,{conn:_0xdf943c,args:_0x10434c,participants:_0x39448a})=>{const _0x2bc345=a0_0xf5e0;global['db'][_0x2bc345(0x10a)][_0x2bc345(0xe8)][_0x4ffdf9[_0x2bc345(0xeb)]][_0x2bc345(0xff)]+=0x1;let _0x5c4850=Object['entries'](global['db']['data'][_0x2bc345(0xe8)])[_0x2bc345(0x107)](([_0x2f4ad0,_0x4e9f62])=>{return{..._0x4e9f62,'jid':_0x2f4ad0};}),_0x50530d=_0x5c4850[_0x2bc345(0x107)](toNumber('exp'))['sort'](sort(_0x2bc345(0x115))),_0x2884f7=_0x5c4850[_0x2bc345(0x107)](toNumber(_0x2bc345(0xfe)))['sort'](sort('limit')),_0x5f11e8=_0x5c4850[_0x2bc345(0x107)](toNumber(_0x2bc345(0xfb)))[_0x2bc345(0xe7)](sort(_0x2bc345(0xfb))),_0x41778f=_0x50530d[_0x2bc345(0x107)](enumGetKey),_0x370450=_0x2884f7['map'](enumGetKey),_0x2524a5=_0x5f11e8[_0x2bc345(0x107)](enumGetKey),_0x30dad3=_0x10434c[0x0]&&_0x10434c[0x0]['length']>0x0?Math[_0x2bc345(0x106)](0x64,Math['max'](parseInt(_0x10434c[0x0]),0x5)):Math[_0x2bc345(0x106)](0x5,_0x50530d['length']),_0xc5018e=(_0x2bc345(0xf3)+_0x30dad3+_0x2bc345(0xf5)+(_0x41778f['indexOf'](_0x4ffdf9[_0x2bc345(0xeb)])+0x1)+_0x2bc345(0x10d)+_0x41778f[_0x2bc345(0x10c)]+_0x2bc345(0xfa)+_0x50530d['slice'](0x0,_0x30dad3)[_0x2bc345(0x107)](({jid:_0x21a3ec,exp:_0x36c268},_0x29b03c)=>_0x29b03c+0x1+'.\x20'+(_0x39448a[_0x2bc345(0x102)](_0x3d7735=>_0x21a3ec===_0x3d7735[_0x2bc345(0x101)])?'('+_0xdf943c[_0x2bc345(0xf0)](_0x21a3ec)+_0x2bc345(0x10e):'@')+_0x21a3ec[_0x2bc345(0xfc)]`@`[0x0]+'\x20*'+_0x36c268+_0x2bc345(0xf6))[_0x2bc345(0x103)]`\n`+_0x2bc345(0xf1)+_0x30dad3+'\x20DIAMANTES💎*\x20•\x0aTú\x20:\x20*'+(_0x370450['indexOf'](_0x4ffdf9[_0x2bc345(0xeb)])+0x1)+_0x2bc345(0x10d)+_0x370450[_0x2bc345(0x10c)]+_0x2bc345(0xfa)+_0x2884f7[_0x2bc345(0x109)](0x0,_0x30dad3)[_0x2bc345(0x107)](({jid:_0x484e84,limit:_0xe5ee3e},_0x4a8b56)=>_0x4a8b56+0x1+'.\x20'+(_0x39448a[_0x2bc345(0x102)](_0x25fdaf=>_0x484e84===_0x25fdaf[_0x2bc345(0x101)])?'('+_0xdf943c[_0x2bc345(0xf0)](_0x484e84)+_0x2bc345(0x10e):'@')+_0x484e84[_0x2bc345(0xfc)]`@`[0x0]+'\x20*'+_0xe5ee3e+_0x2bc345(0x113))[_0x2bc345(0x103)]`\n`+_0x2bc345(0xf1)+_0x30dad3+_0x2bc345(0x114)+(_0x2524a5[_0x2bc345(0x112)](_0x4ffdf9[_0x2bc345(0xeb)])+0x1)+_0x2bc345(0x10d)+_0x2524a5['length']+'*\x0a\x0a'+_0x5f11e8[_0x2bc345(0x109)](0x0,_0x30dad3)['map'](({jid:_0x169989,level:_0x20f710},_0x269d43)=>_0x269d43+0x1+'.\x20'+(_0x39448a[_0x2bc345(0x102)](_0x39770e=>_0x169989===_0x39770e['jid'])?'('+_0xdf943c[_0x2bc345(0xf0)](_0x169989)+_0x2bc345(0x10e):'@')+_0x169989[_0x2bc345(0xfc)]`@`[0x0]+_0x2bc345(0xee)+_0x20f710+'*')[_0x2bc345(0x103)]`\n`+'\x0a\x0a')['trim']();_0x4ffdf9['reply'](_0xc5018e,null,{'mentions':_0xdf943c[_0x2bc345(0x10f)](_0xc5018e)});};handler[a0_0x4d2391(0x111)]=[a0_0x4d2391(0x10b)],handler[a0_0x4d2391(0xe9)]=['xp'],handler[a0_0x4d2391(0xfd)]=[a0_0x4d2391(0xed),'lb',a0_0x4d2391(0x10b)],handler[a0_0x4d2391(0xf4)]=null,handler[a0_0x4d2391(0x115)]=0x0;function a0_0xf5e0(_0x500545,_0x441865){const _0x1f1ef1=a0_0x1f1e();return a0_0xf5e0=function(_0xf5e0e0,_0xa1421b){_0xf5e0e0=_0xf5e0e0-0xe7;let _0x2b2a08=_0x1f1ef1[_0xf5e0e0];return _0x2b2a08;},a0_0xf5e0(_0x500545,_0x441865);}export default handler;function a0_0x1f1e(){const _0x30697b=['sort','users','tags','3wVZaGk','sender','67054npAjuq','leaderboard','\x20*Nivel\x20','33432pMYvaA','getName','\x0a\x0a▢\x20*TOP\x20','612rslduB','\x0a*<\x20TABLA\x20DE\x20CLASIFICACION\x20/>*\x0a\x20\x20\x20\x20\x0a▢\x20*TOP\x20','fail','\x20XP*\x20•\x0aTú\x20:\x20*','\x20Exp*','2264583HZOWeH','21xZGJVM','675LCHTqm','*\x0a\x0a','level','split','command','limit','comandos','1828290cADaGC','jid','some','join','1082454plIaAd','412iniGCc','min','map','25675mvklTA','slice','data','top','length','*\x20de\x20*',')\x20wa.me/','parseMention','478687MgyCQy','help','indexOf','\x20Diamantes*','\x20NIVEL*\x20•\x20\x0aTú\x20:\x20*','exp'];a0_0x1f1e=function(){return _0x30697b;};return a0_0x1f1e();}function sort(_0x730b02,_0x33c4b4=!![]){if(_0x730b02)return(..._0x54547b)=>_0x54547b[_0x33c4b4&0x1][_0x730b02]-_0x54547b[!_0x33c4b4&0x1][_0x730b02];else return(..._0x3fc282)=>_0x3fc282[_0x33c4b4&0x1]-_0x3fc282[!_0x33c4b4&0x1];}function toNumber(_0x287506,_0x2da01e=0x0){if(_0x287506)return(_0x18212e,_0x2e9552,_0x4e2254)=>{return{..._0x4e2254[_0x2e9552],[_0x287506]:_0x18212e[_0x287506]===undefined?_0x2da01e:_0x18212e[_0x287506]};};else return _0x28067c=>_0x28067c===undefined?_0x2da01e:_0x28067c;}function enumGetKey(_0xd3b2f3){const _0x5f2f38=a0_0x4d2391;return _0xd3b2f3[_0x5f2f38(0x101)];}
+let handler = async (m, { conn, args, participants }) => {
+	global.db.data.users[m.sender].comandos += 1;
+let users = Object.entries(global.db.data.users).map(([key, value]) => {
+return {...value, jid: key}})
+let sortedExp = users.map(toNumber('exp')).sort(sort('exp'))
+let sortedLim = users.map(toNumber('limit')).sort(sort('limit'))
+let sortedLevel = users.map(toNumber('level')).sort(sort('level'))
+let usersExp = sortedExp.map(enumGetKey)
+let usersLim = sortedLim.map(enumGetKey)
+let usersLevel = sortedLevel.map(enumGetKey)
+let len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 5)) : Math.min(5, sortedExp.length)
+let text = `
+*< TABLA DE CLASIFICACION />*
+    
+▢ *TOP ${len} XP* •
+Tú : *${usersExp.indexOf(m.sender) + 1}* de *${usersExp.length}*
+
+${sortedExp.slice(0, len).map(({ jid, exp }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${exp} Exp*`).join`\n`}
+
+▢ *TOP ${len} DIAMANTES💎* •
+Tú : *${usersLim.indexOf(m.sender) + 1}* de *${usersLim.length}*
+
+${sortedLim.slice(0, len).map(({ jid, limit }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${limit} Diamantes*`).join`\n`}
+
+▢ *TOP ${len} NIVEL* • 
+Tú : *${usersLevel.indexOf(m.sender) + 1}* de *${usersLevel.length}*
+
+${sortedLevel.slice(0, len).map(({ jid, level }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *Nivel ${level}*`).join`\n`}
+
+`.trim()
+  m.reply(text, null, { mentions: conn.parseMention(text) })
+
+}
+handler.help = ['top']
+handler.tags = ['xp']
+handler.command = ['leaderboard', 'lb', 'top'] 
+
+
+
+handler.fail = null
+handler.exp = 0
+
+export default handler
+
+function sort(property, ascending = true) {
+  if (property) return (...args) => args[ascending & 1][property] - args[!ascending & 1][property]
+  else return (...args) => args[ascending & 1] - args[!ascending & 1]
+}
+
+function toNumber(property, _default = 0) {
+  if (property) return (a, i, b) => {
+    return {...b[i], [property]: a[property] === undefined ? _default : a[property]}
+  }
+  else return a => a === undefined ? _default : a
+}
+
+function enumGetKey(a) {
+  return a.jid
+}

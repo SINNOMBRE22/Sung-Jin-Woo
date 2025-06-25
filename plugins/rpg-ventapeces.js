@@ -1,1 +1,49 @@
-function a0_0x57ca(_0x1c6426,_0x3010fb){const _0x166b79=a0_0x166b();return a0_0x57ca=function(_0x57ca68,_0x2bdc88){_0x57ca68=_0x57ca68-0x1e1;let _0x392e65=_0x166b79[_0x57ca68];return _0x392e65;},a0_0x57ca(_0x1c6426,_0x3010fb);}const a0_0x15986f=a0_0x57ca;(function(_0x49c870,_0xb0384f){const _0x3e5586=a0_0x57ca,_0x50daca=_0x49c870();while(!![]){try{const _0x1c52ad=parseInt(_0x3e5586(0x1fb))/0x1+parseInt(_0x3e5586(0x205))/0x2*(parseInt(_0x3e5586(0x1f2))/0x3)+parseInt(_0x3e5586(0x1e3))/0x4*(-parseInt(_0x3e5586(0x1ed))/0x5)+-parseInt(_0x3e5586(0x204))/0x6*(-parseInt(_0x3e5586(0x1eb))/0x7)+-parseInt(_0x3e5586(0x1f3))/0x8+-parseInt(_0x3e5586(0x1f7))/0x9+-parseInt(_0x3e5586(0x1f5))/0xa;if(_0x1c52ad===_0xb0384f)break;else _0x50daca['push'](_0x50daca['shift']());}catch(_0x59bbb3){_0x50daca['push'](_0x50daca['shift']());}}}(a0_0x166b,0xcfe3e));function a0_0x166b(){const _0x530e28=['lele','udang','\x20peces\x20🐟\x20y\x20ganaste\x20','1169270zgChRY','sendFile','econ','kepiting','venderpeces','\x20puntos\x20de\x20experiencia.⭐\x20\x0a\x0aTu\x20experiencia\x20total\x20ahora\x20es:\x20','users','bawal','react','12iWbfIu','2488muiWax','🤑Vendiste\x20','./pescados.jpg','44tZlSiZ','totalventa','group','sender','🥺\x20No\x20tienes\x20peces\x20para\x20vender.\x20🐠,\x20recuerda\x20usar\x20el\x20comando\x20/pescar\x20frecuentemente.','buntal','nila','ikan','5743759zlLEky','paus','132135tEubds','comandos','data','command','tags','972DxLJBr','743824XzLbQM','chat','12153970kSRBRl','help','6865290IGphMv'];a0_0x166b=function(){return _0x530e28;};return a0_0x166b();}const handler=async(_0x1d7742,{conn:_0xcf90fd})=>{const _0x6139ae=a0_0x57ca;global['db']['data']['users'][_0x1d7742[_0x6139ae(0x1e6)]][_0x6139ae(0x1ee)]+=0x1;const _0x4b4b44=global['db'][_0x6139ae(0x1ef)][_0x6139ae(0x201)][_0x1d7742[_0x6139ae(0x1e6)]],_0xf7a51c=_0x4b4b44[_0x6139ae(0x1ea)]||0x0,_0x48b786=_0x4b4b44[_0x6139ae(0x1f8)]||0x0,_0x1e2da4=_0x4b4b44['nila']||0x0,_0xf5e29e=_0x4b4b44[_0x6139ae(0x202)]||0x0,_0x383109=_0x4b4b44[_0x6139ae(0x1e8)]||0x0,_0x3cb168=_0x4b4b44[_0x6139ae(0x1f9)]||0x0,_0x51b6bc=_0x4b4b44[_0x6139ae(0x1ec)]||0x0,_0x1caa0a=_0x4b4b44[_0x6139ae(0x1fe)]||0x0;let _0x51d588=_0x4b4b44['exp']||0x0,_0x1956d9=_0x4b4b44[_0x6139ae(0x1e4)]||0x0;const _0x139c1e=_0xf7a51c+_0x48b786+_0x1e2da4+_0xf5e29e+_0x383109+_0x3cb168+_0x51b6bc+_0x1caa0a,_0x2b709b=0xc8,_0x36c384=_0x139c1e*_0x2b709b;if(_0x139c1e>0x0){_0x1956d9+=_0x36c384,_0x51d588+=_0x36c384,_0x4b4b44[_0x6139ae(0x1ea)]=0x0,_0x4b4b44[_0x6139ae(0x1f8)]=0x0,_0x4b4b44[_0x6139ae(0x1e9)]=0x0,_0x4b4b44['bawal']=0x0,_0x4b4b44[_0x6139ae(0x1e8)]=0x0,_0x4b4b44[_0x6139ae(0x1f9)]=0x0,_0x4b4b44[_0x6139ae(0x1ec)]=0x0,_0x4b4b44[_0x6139ae(0x1fe)]=0x0,_0x4b4b44['exp']=_0x51d588,_0x4b4b44[_0x6139ae(0x1e4)]=_0x1956d9;const _0x36b17b=_0x6139ae(0x1e2),_0x208d5b=_0x6139ae(0x1e1)+_0x139c1e+_0x6139ae(0x1fa)+_0x36c384+_0x6139ae(0x200)+_0x51d588;await _0xcf90fd[_0x6139ae(0x1fc)](_0x1d7742[_0x6139ae(0x1f4)],_0x36b17b,'peces.png',_0x208d5b,_0x1d7742),_0x1d7742[_0x6139ae(0x203)]('🎄');}else await _0xcf90fd['reply'](_0x1d7742[_0x6139ae(0x1f4)],_0x6139ae(0x1e7),_0x1d7742);};handler[a0_0x15986f(0x1f6)]=[a0_0x15986f(0x1ff)],handler[a0_0x15986f(0x1f1)]=[a0_0x15986f(0x1fd)],handler[a0_0x15986f(0x1f0)]=/^(venderpeces|venderpescado)$/i,handler[a0_0x15986f(0x1e5)]=!![];export default handler;
+const handler = async (m, { conn }) => {
+	global.db.data.users[m.sender].comandos += 1;
+  const user = global.db.data.users[m.sender];
+
+  const ikan = user.ikan || 0;
+  const lele = user.lele || 0;
+  const nila = user.nila || 0;
+  const bawal = user.bawal || 0;
+  const buntal = user.buntal || 0;
+  const udang = user.udang || 0;
+  const paus = user.paus || 0;
+  const kepiting = user.kepiting || 0;
+  let exp = user.exp || 0;
+  let totalventa = user.totalventa || 0; // Agregar el campo totalventa
+
+  const totalPeces = ikan + lele + nila + bawal + buntal + udang + paus + kepiting;
+  const puntosExpPorPez = 200;
+  const expGanada = totalPeces * puntosExpPorPez;
+
+  if (totalPeces > 0) {
+    totalventa += expGanada; // Suma la experiencia ganada al campo totalventa
+    exp += expGanada;
+    user.ikan = 0;
+    user.lele = 0;
+    user.nila = 0;
+    user.bawal = 0;
+    user.buntal = 0;
+    user.udang = 0;
+    user.paus = 0;
+    user.kepiting = 0;
+    user.exp = exp;
+    user.totalventa = totalventa; // Actualiza el campo totalventa
+
+    const img = './pescados.jpg';
+    const text = `🤑Vendiste ${totalPeces} peces 🐟 y ganaste ${expGanada} puntos de experiencia.⭐ \n\nTu experiencia total ahora es: ${exp}`;
+
+    await conn.sendFile(m.chat, img, 'peces.png', text, m);
+	m.react('🎄')
+  } else {
+    await conn.reply(m.chat, '🥺 No tienes peces para vender. 🐠, recuerda usar el comando /pescar frecuentemente.', m);
+  }
+};
+
+handler.help = ['venderpeces'];
+handler.tags = ['econ'];
+handler.command = /^(venderpeces|venderpescado)$/i;
+handler.group = true;
+
+export default handler;

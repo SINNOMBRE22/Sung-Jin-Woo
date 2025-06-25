@@ -1,1 +1,27 @@
-function a0_0x1c24(){const _0x567eed=['data','reply','isBanned','trim','command','chats','\x0a├\x20Total\x20:\x20','4545888XGIPqo','2mkGPXr','join','plugins','readFileSync','parseMention','banned','\x0a└────\x0a\x0a┌','entries','parse','5033020vsyjVn','\x0a├\x20','./language/','rowner','2702703UPnAyQ','21raZord','owner_banlist','users','2368712wMfSho','1297954PgYFAk','.json','filter','split','4265523eFzgqO','10kwlepz','language','texto1','length','1332680yyHflN','texto2'];a0_0x1c24=function(){return _0x567eed;};return a0_0x1c24();}const a0_0x3fcbf6=a0_0x71d8;(function(_0x49f7cd,_0x33071c){const _0x13c8f1=a0_0x71d8,_0x5b22d7=_0x49f7cd();while(!![]){try{const _0x1b2150=parseInt(_0x13c8f1(0x12d))/0x1+parseInt(_0x13c8f1(0x140))/0x2*(parseInt(_0x13c8f1(0x128))/0x3)+-parseInt(_0x13c8f1(0x136))/0x4*(parseInt(_0x13c8f1(0x132))/0x5)+-parseInt(_0x13c8f1(0x13f))/0x6+-parseInt(_0x13c8f1(0x129))/0x7*(parseInt(_0x13c8f1(0x12c))/0x8)+parseInt(_0x13c8f1(0x131))/0x9+parseInt(_0x13c8f1(0x149))/0xa;if(_0x1b2150===_0x33071c)break;else _0x5b22d7['push'](_0x5b22d7['shift']());}catch(_0x18ccf1){_0x5b22d7['push'](_0x5b22d7['shift']());}}}(a0_0x1c24,0xd2e69));function a0_0x71d8(_0x4cb2cf,_0x22a6fc){const _0x1c2439=a0_0x1c24();return a0_0x71d8=function(_0x71d851,_0x48adca){_0x71d851=_0x71d851-0x126;let _0x581026=_0x1c2439[_0x71d851];return _0x581026;},a0_0x71d8(_0x4cb2cf,_0x22a6fc);}const handler=async(_0x458ea2,{conn:_0x304489,isOwner:_0x16333f})=>{const _0x2a458b=a0_0x71d8,_0x2f00a2=global,_0x153b6e=_0x2f00a2['db'][_0x2a458b(0x138)][_0x2a458b(0x12b)][_0x458ea2['sender']][_0x2a458b(0x133)],_0x462f16=JSON[_0x2a458b(0x148)](fs[_0x2a458b(0x143)](_0x2a458b(0x126)+_0x153b6e+_0x2a458b(0x12e))),_0x5c4220=_0x462f16[_0x2a458b(0x142)][_0x2a458b(0x12a)],_0x292e0e=Object[_0x2a458b(0x147)](global['db'][_0x2a458b(0x138)][_0x2a458b(0x13d)])[_0x2a458b(0x12f)](_0x240e87=>_0x240e87[0x1][_0x2a458b(0x13a)]),_0x4bf701=Object[_0x2a458b(0x147)](global['db'][_0x2a458b(0x138)][_0x2a458b(0x12b)])['filter'](_0x1dbbf6=>_0x1dbbf6[0x1][_0x2a458b(0x145)]),_0x250d30=('\x0a┌'+_0x5c4220[_0x2a458b(0x134)]+'\x0a├\x20Total\x20:\x20'+_0x4bf701[_0x2a458b(0x135)]+'\x20'+(_0x4bf701?'\x0a'+_0x4bf701['map'](([_0x4535a3],_0x2b1a80)=>(_0x2a458b(0x14a)+(_0x16333f?'@'+_0x4535a3[_0x2a458b(0x130)]`@`[0x0]:_0x4535a3))[_0x2a458b(0x13b)]())[_0x2a458b(0x141)]('\x0a'):'├')+_0x2a458b(0x146)+_0x5c4220[_0x2a458b(0x137)]+_0x2a458b(0x13e)+_0x292e0e[_0x2a458b(0x135)]+'\x20'+(_0x292e0e?'\x0a'+_0x292e0e['map'](([_0x1d754f],_0x10e899)=>(_0x2a458b(0x14a)+(_0x16333f?'@'+_0x1d754f[_0x2a458b(0x130)]`@`[0x0]:_0x1d754f))[_0x2a458b(0x13b)]())['join']('\x0a'):'├')+'\x0a└────\x0a')[_0x2a458b(0x13b)]();_0x458ea2[_0x2a458b(0x139)](_0x250d30,null,{'mentions':_0x304489[_0x2a458b(0x144)](_0x250d30)});};handler[a0_0x3fcbf6(0x13c)]=/^banlist(ned)?|ban(ned)?list|daftarban(ned)?$/i,handler[a0_0x3fcbf6(0x127)]=!![];export default handler;
+
+
+const handler = async (m, {conn, isOwner}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_banlist
+
+
+  const chats = Object.entries(global.db.data.chats).filter((chat) => chat[1].isBanned);
+  const users = Object.entries(global.db.data.users).filter((user) => user[1].banned);
+  const caption = `
+┌${tradutor.texto1}
+├ Total : ${users.length} ${users ? '\n' + users.map(([jid], i) => `
+├ ${isOwner ? '@' + jid.split`@`[0] : jid}`.trim()).join('\n') : '├'}
+└────
+
+┌${tradutor.texto2}
+├ Total : ${chats.length} ${chats ? '\n' + chats.map(([jid], i) => `
+├ ${isOwner ? '@' + jid.split`@`[0] : jid}`.trim()).join('\n') : '├'}
+└────
+`.trim();
+  m.reply(caption, null, {mentions: conn.parseMention(caption)});
+};
+handler.command = /^banlist(ned)?|ban(ned)?list|daftarban(ned)?$/i;
+handler.rowner = true;
+export default handler;

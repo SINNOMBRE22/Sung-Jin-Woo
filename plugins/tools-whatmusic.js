@@ -1,1 +1,83 @@
-function a0_0x2c22(_0x142fc1,_0x473af9){const _0x3d48c4=a0_0x3d48();return a0_0x2c22=function(_0x2c22bb,_0x352c1a){_0x2c22bb=_0x2c22bb-0x190;let _0x4f579=_0x3d48c4[_0x2c22bb];return _0x4f579;},a0_0x2c22(_0x142fc1,_0x473af9);}const a0_0x308719=a0_0x2c22;(function(_0x265714,_0x3392aa){const _0x1cc68a=a0_0x2c22,_0x455dbe=_0x265714();while(!![]){try{const _0xc4d0f8=-parseInt(_0x1cc68a(0x199))/0x1*(-parseInt(_0x1cc68a(0x19f))/0x2)+parseInt(_0x1cc68a(0x1a4))/0x3+parseInt(_0x1cc68a(0x1b1))/0x4*(parseInt(_0x1cc68a(0x197))/0x5)+-parseInt(_0x1cc68a(0x1a5))/0x6*(-parseInt(_0x1cc68a(0x1a7))/0x7)+-parseInt(_0x1cc68a(0x1b6))/0x8*(-parseInt(_0x1cc68a(0x1be))/0x9)+-parseInt(_0x1cc68a(0x19a))/0xa+-parseInt(_0x1cc68a(0x1b4))/0xb;if(_0xc4d0f8===_0x3392aa)break;else _0x455dbe['push'](_0x455dbe['shift']());}catch(_0x521a6b){_0x455dbe['push'](_0x455dbe['shift']());}}}(a0_0x3d48,0x42b9a));import a0_0x587360 from'fs';import a0_0x471eb3 from'acrcloud';import a0_0x5e5f97 from'axios';function a0_0x3d48(){const _0x3c2ecc=['base64','status','298956UtlfZw','post','\x0a•\x20📆\x20𝙵𝙴𝙲𝙷𝙰\x20𝙳𝙴\x20𝙻𝙰𝙽𝚉𝙰𝙼𝙸𝙴𝙽𝚃𝙾:\x20','5838360MfIVph','8de872d0emshb893427c1833d64p10138jsn93f00555f','1368TqyrjD','No\x20encontrado','\x0a𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂\x20𝚂𝙷𝙰𝚉𝙰𝙼\x0a\x0a•\x20📌\x20𝚃𝙸𝚃𝚄𝙻𝙾:\x20','No\x20se\x20pudo\x20identificar\x20la\x20canción\x20con\x20ACRCloud\x20ni\x20con\x20Shazam.','seconds','url','No\x20disponible','c33c767d683f78bd17d4bd4991955d81','5832qnBYss','mimetype','name','./tmp/','data','https://shazam.p.rapidapi.com/songs/detect','reply','test','bvgaIAEtADBTbLwiPGYlxupWqkNGIjT7J9Ag2vIu','\x0a•\x20🌐\x20𝙶𝙴𝙽𝙴𝚁𝙾:\x20','msg','metadata','\x0a•\x20💾\x20𝙰𝙻𝙱𝚄𝙼:\x20','identify','\x0a•\x20👨‍🎤\x20𝙰𝚁𝚃𝙸𝚂𝚃𝙰:\x20','30Rircec','No\x20se\x20encontró\x20resultado\x20con\x20Shazam.','1bWsFAt','4603570tgCina','readFileSync','primary','genres','shazam.p.rapidapi.com','343370kYbjsg','join','trim','*[❗𝐈𝐍𝐅𝐎❗]\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰\x20𝙰\x20𝚄𝙽\x20𝙰𝚄𝙳𝙸𝙾*','toString','1013961ZJnuqC','6078SKUDVz','quoted','1351LoBnTd','error','command','map','split','subtitle','identify-eu-west-1.acrcloud.com','application/json'];a0_0x3d48=function(){return _0x3c2ecc;};return a0_0x3d48();}let acr=new a0_0x471eb3({'host':a0_0x308719(0x1ad),'access_key':a0_0x308719(0x1bd),'access_secret':a0_0x308719(0x190)}),handler=async _0x57a1ce=>{const _0x3d585a=a0_0x308719;let _0x399c14=_0x57a1ce['quoted']?_0x57a1ce[_0x3d585a(0x1a6)]:_0x57a1ce,_0x50ac35=(_0x399c14[_0x3d585a(0x192)]||_0x399c14)[_0x3d585a(0x1bf)]||'';if(/audio|video/[_0x3d585a(0x1c5)](_0x50ac35)){if((_0x399c14[_0x3d585a(0x192)]||_0x399c14)[_0x3d585a(0x1ba)]>0x14)return _0x57a1ce[_0x3d585a(0x1c4)]('[❗𝐈𝐍𝐅𝐎❗]\x0a\x0aEl\x20archivo\x20es\x20muy\x20grande,\x20recorta\x20a\x2010-20\x20segundos.');let _0x5985f0=await _0x399c14['download'](),_0x34d54f=_0x50ac35[_0x3d585a(0x1ab)]('/')[0x1],_0x5b8eec=_0x3d585a(0x1c1)+_0x57a1ce['sender']+'.'+_0x34d54f;a0_0x587360['writeFileSync'](_0x5b8eec,_0x5985f0);try{let _0x1e64a4=await acr[_0x3d585a(0x195)](a0_0x587360['readFileSync'](_0x5b8eec)),{code:_0x49521d,msg:_0xc8944a}=_0x1e64a4[_0x3d585a(0x1b0)];if(_0x49521d!==0x0)throw _0xc8944a;let {title:_0x2918a3,artists:_0x384cdd,album:_0x55a8ec,genres:_0xe6ba11,release_date:_0x73bdc}=_0x1e64a4[_0x3d585a(0x193)]['music'][0x0],_0x352ad8=('\x0a𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂\x20𝙳𝙴\x20𝙻𝙰\x20𝙱𝚄𝚂𝚀𝚄𝙴𝙳𝙰\x20(ACRCloud)\x0a\x0a•\x20📌\x20𝚃𝙸𝚃𝚄𝙻𝙾:\x20'+_0x2918a3+_0x3d585a(0x196)+(_0x384cdd?.['map'](_0x39b5a3=>_0x39b5a3[_0x3d585a(0x1c0)])[_0x3d585a(0x1a0)](',\x20')||_0x3d585a(0x1b7))+_0x3d585a(0x194)+(_0x55a8ec?.[_0x3d585a(0x1c0)]||_0x3d585a(0x1b7))+_0x3d585a(0x191)+(_0xe6ba11?.[_0x3d585a(0x1aa)](_0x51a813=>_0x51a813['name'])[_0x3d585a(0x1a0)](',\x20')||'No\x20encontrado')+_0x3d585a(0x1b3)+(_0x73bdc||_0x3d585a(0x1b7))+'\x0a')[_0x3d585a(0x1a1)]();_0x57a1ce['reply'](_0x352ad8);}catch(_0x93bc4d){_0x57a1ce[_0x3d585a(0x1c4)]('[❗𝐈𝐍𝐅𝐎❗]\x0aNo\x20se\x20pudo\x20identificar\x20con\x20ACRCloud,\x20intentando\x20con\x20Shazam...');try{const _0x4d52de=a0_0x587360[_0x3d585a(0x19b)](_0x5b8eec),_0x1d922b=_0x4d52de[_0x3d585a(0x1a3)](_0x3d585a(0x1af));let _0x142322=await a0_0x5e5f97[_0x3d585a(0x1b2)](_0x3d585a(0x1c3),{'audio':_0x1d922b},{'headers':{'Content-Type':_0x3d585a(0x1ae),'X-RapidAPI-Key':_0x3d585a(0x1b5),'X-RapidAPI-Host':_0x3d585a(0x19e)}}),_0x4828a2=_0x142322[_0x3d585a(0x1c2)]['track'];if(!_0x4828a2)throw _0x3d585a(0x198);let _0x1ffa45=(_0x3d585a(0x1b8)+_0x4828a2['title']+_0x3d585a(0x196)+(_0x4828a2[_0x3d585a(0x1ac)]||_0x3d585a(0x1b7))+'\x0a•\x20💿\x20𝙶𝙴𝙽𝙴𝚁𝙾:\x20'+(_0x4828a2[_0x3d585a(0x19d)]?.[_0x3d585a(0x19c)]||_0x3d585a(0x1b7))+'\x0a•\x20🔗\x20𝙴𝙽𝙻𝙰𝙲𝙴:\x20'+(_0x4828a2[_0x3d585a(0x1bb)]||_0x3d585a(0x1bc))+'\x0a')[_0x3d585a(0x1a1)]();_0x57a1ce[_0x3d585a(0x1c4)](_0x1ffa45);}catch(_0x1ec2c5){console[_0x3d585a(0x1a8)](_0x1ec2c5),_0x57a1ce[_0x3d585a(0x1c4)](_0x3d585a(0x1b9));}}finally{a0_0x587360['unlinkSync'](_0x5b8eec);}}else throw _0x3d585a(0x1a2);};handler[a0_0x308719(0x1a9)]=/^quemusica|quemusicaes|whatmusic$/i;export default handler;
+import fs from 'fs'
+import acrcloud from 'acrcloud'
+import axios from 'axios'
+
+let acr = new acrcloud({
+  host: 'identify-eu-west-1.acrcloud.com',
+  access_key: 'c33c767d683f78bd17d4bd4991955d81',
+  access_secret: 'bvgaIAEtADBTbLwiPGYlxupWqkNGIjT7J9Ag2vIu'
+})
+
+let handler = async (m) => {
+  let q = m.quoted ? m.quoted : m
+  let mime = (q.msg || q).mimetype || ''
+  if (/audio|video/.test(mime)) {
+    if ((q.msg || q).seconds > 20) return m.reply('[❗𝐈𝐍𝐅𝐎❗]\n\nEl archivo es muy grande, recorta a 10-20 segundos.')
+
+    let media = await q.download()
+    let ext = mime.split('/')[1]
+    let filename = `./tmp/${m.sender}.${ext}`
+    fs.writeFileSync(filename, media)
+
+    try {
+      let res = await acr.identify(fs.readFileSync(filename))
+      let { code, msg } = res.status
+      if (code !== 0) throw msg
+
+      let { title, artists, album, genres, release_date } = res.metadata.music[0]
+      let txt = `
+𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 𝙳𝙴 𝙻𝙰 𝙱𝚄𝚂𝚀𝚄𝙴𝙳𝙰 (ACRCloud)
+
+• 📌 𝚃𝙸𝚃𝚄𝙻𝙾: ${title}
+• 👨‍🎤 𝙰𝚁𝚃𝙸𝚂𝚃𝙰: ${artists?.map(v => v.name).join(', ') || 'No encontrado'}
+• 💾 𝙰𝙻𝙱𝚄𝙼: ${album?.name || 'No encontrado'}
+• 🌐 𝙶𝙴𝙽𝙴𝚁𝙾: ${genres?.map(v => v.name).join(', ') || 'No encontrado'}
+• 📆 𝙵𝙴𝙲𝙷𝙰 𝙳𝙴 𝙻𝙰𝙽𝚉𝙰𝙼𝙸𝙴𝙽𝚃𝙾: ${release_date || 'No encontrado'}
+`.trim()
+
+      m.reply(txt)
+    } catch (e) {
+      // Fallback a Shazam si falla ACRCloud
+      m.reply('[❗𝐈𝐍𝐅𝐎❗]\nNo se pudo identificar con ACRCloud, intentando con Shazam...')
+
+      try {
+        const audioBuffer = fs.readFileSync(filename)
+        const base64Audio = audioBuffer.toString('base64')
+
+        let shazamRes = await axios.post(
+          'https://shazam.p.rapidapi.com/songs/detect',
+          { audio: base64Audio },
+          {
+            headers: {
+              'Content-Type': 'application/json',
+              'X-RapidAPI-Key': '8de872d0emshb893427c1833d64p10138jsn93f00555f',
+              'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
+            }
+          }
+        )
+
+        let track = shazamRes.data.track
+        if (!track) throw 'No se encontró resultado con Shazam.'
+
+        let txt = `
+𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 𝚂𝙷𝙰𝚉𝙰𝙼
+
+• 📌 𝚃𝙸𝚃𝚄𝙻𝙾: ${track.title}
+• 👨‍🎤 𝙰𝚁𝚃𝙸𝚂𝚃𝙰: ${track.subtitle || 'No encontrado'}
+• 💿 𝙶𝙴𝙽𝙴𝚁𝙾: ${track.genres?.primary || 'No encontrado'}
+• 🔗 𝙴𝙽𝙻𝙰𝙲𝙴: ${track.url || 'No disponible'}
+`.trim()
+
+        m.reply(txt)
+      } catch (err) {
+        console.error(err)
+        m.reply('No se pudo identificar la canción con ACRCloud ni con Shazam.')
+      }
+    } finally {
+      fs.unlinkSync(filename)
+    }
+
+  } else throw '*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝚄𝙽 𝙰𝚄𝙳𝙸𝙾*'
+}
+handler.command = /^quemusica|quemusicaes|whatmusic$/i
+export default handler

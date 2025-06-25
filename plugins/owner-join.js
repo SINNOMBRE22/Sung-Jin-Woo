@@ -1,1 +1,37 @@
-const a0_0x81addc=a0_0x4c70;(function(_0x1aaa0f,_0x150671){const _0x2bf0eb=a0_0x4c70,_0x19c26d=_0x1aaa0f();while(!![]){try{const _0x301a60=parseInt(_0x2bf0eb(0x181))/0x1*(parseInt(_0x2bf0eb(0x182))/0x2)+parseInt(_0x2bf0eb(0x17d))/0x3*(-parseInt(_0x2bf0eb(0x186))/0x4)+-parseInt(_0x2bf0eb(0x184))/0x5*(parseInt(_0x2bf0eb(0x180))/0x6)+-parseInt(_0x2bf0eb(0x18b))/0x7*(-parseInt(_0x2bf0eb(0x171))/0x8)+-parseInt(_0x2bf0eb(0x193))/0x9*(parseInt(_0x2bf0eb(0x191))/0xa)+-parseInt(_0x2bf0eb(0x178))/0xb+parseInt(_0x2bf0eb(0x176))/0xc;if(_0x301a60===_0x150671)break;else _0x19c26d['push'](_0x19c26d['shift']());}catch(_0x2683be){_0x19c26d['push'](_0x19c26d['shift']());}}}(a0_0x2c5c,0xb3a61));function a0_0x4c70(_0x42e193,_0x435993){const _0x2c5c83=a0_0x2c5c();return a0_0x4c70=function(_0x4c7026,_0x166793){_0x4c7026=_0x4c7026-0x171;let _0x3037cd=_0x2c5c83[_0x4c7026];return _0x3037cd;},a0_0x4c70(_0x42e193,_0x435993);}const linkRegex=/chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i;let enviando;const handler=async(_0x34367e,{conn:_0x3665ce,text:_0x10264a,isMods:_0x4710bb,isOwner:_0x4652e3,isPrems:_0x3ebe60})=>{const _0x3c54e7=a0_0x4c70,_0x5a9cde=global,_0x5c570d=_0x5a9cde['db'][_0x3c54e7(0x192)]['users'][_0x34367e[_0x3c54e7(0x174)]][_0x3c54e7(0x175)],_0x40266c=JSON[_0x3c54e7(0x17a)](fs[_0x3c54e7(0x179)](_0x3c54e7(0x17e)+_0x5c570d+'.json')),_0x3615ae=_0x40266c[_0x3c54e7(0x177)][_0x3c54e7(0x18c)];if(enviando)return;enviando=!![];try{const _0x13476b=_0x10264a;if(!_0x13476b||!_0x13476b[_0x3c54e7(0x18f)](linkRegex))throw _0x3615ae[_0x3c54e7(0x185)];const [_0xebb98b,_0x480a98]=_0x13476b[_0x3c54e7(0x18f)](linkRegex)||[];if(_0x3ebe60||_0x4710bb||_0x4652e3||_0x34367e['fromMe']){const _0x84acb2=await _0x3665ce[_0x3c54e7(0x17f)](_0x480a98);await _0x3665ce[_0x3c54e7(0x187)](_0x34367e['chat'],{'text':_0x3615ae[_0x3c54e7(0x183)]},{'quoted':_0x34367e}),enviando=![];}else{_0x3665ce['sendMessage'](_0x34367e['chat'],{'text':_0x3615ae['texto3']},{'quoted':_0x34367e});const _0x3bf74f=global[_0x3c54e7(0x18a)][_0x3c54e7(0x189)](([_0x38c38c])=>_0x38c38c)[0x0],_0x1cce5b=Array[_0x3c54e7(0x17b)](_0x3bf74f)?_0x3bf74f:[_0x3bf74f];for(const _0x2ba78d of _0x1cce5b)await _0x3665ce[_0x3c54e7(0x187)](_0x2ba78d+'@s.whatsapp.net',{'text':_0x3615ae['texto4']+'@'+_0x34367e['sender'][_0x3c54e7(0x17c)]('@')[0x0]+_0x3c54e7(0x173)+_0x13476b,'mentions':[_0x34367e[_0x3c54e7(0x174)]],'contextInfo':{'forwardingScore':0x98967f,'isForwarded':!![],'mentionedJid':[_0x34367e['sender']],'externalAdReply':{'showAdAttribution':!![],'containsAutoReply':!![],'renderLargerThumbnail':!![],'title':global['titulowm2'],'containsAutoReply':!![],'mediaType':0x1,'thumbnail':imagen6,'mediaUrl':''+_0x13476b,'sourceUrl':''+_0x13476b}}},{'quoted':_0x34367e});enviando=![];}}catch{enviando=![];throw _0x3615ae[_0x3c54e7(0x190)];}};handler[a0_0x81addc(0x172)]=[a0_0x81addc(0x188)],handler[a0_0x81addc(0x18d)]=[a0_0x81addc(0x18a)],handler[a0_0x81addc(0x18e)]=/^join|nuevogrupo$/i,handler['private']=!![];function a0_0x2c5c(){const _0x2030b8=['command','match','texto5','388730CXaMaG','data','180tRFJDA','4122392VUSizL','help','\x0a*—◉\x20Link\x20del\x20grupo:*\x20','sender','language','36257244SjCWyK','plugins','13777225ZAAtHU','readFileSync','parse','isArray','split','907791PzlMVV','./language/','groupAcceptInvite','78mXqPeN','155559EXXhmb','2dmkTDN','texto2','205395QSfqjU','texto1','12ZSbCRl','sendMessage','join\x20[chat.whatsapp.com]','filter','owner','14iuzsmk','owner_join','tags'];a0_0x2c5c=function(){return _0x2030b8;};return a0_0x2c5c();}export default handler;
+
+
+const linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i;
+let enviando;
+const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_join
+
+ if (enviando) return;
+     enviando = true 
+  try {
+    const link = text //(m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text;
+    if (!link || !link.match(linkRegex)) throw tradutor.texto1;
+    const [_, code] = link.match(linkRegex) || [];
+    if ( isPrems || isMods || isOwner || m.fromMe) {
+      const res = await conn.groupAcceptInvite(code);
+      await conn.sendMessage(m.chat, {text: tradutor.texto2}, {quoted: m})
+      enviando = false 
+    } else {
+      conn.sendMessage(m.chat, {text: tradutor.texto3}, {quoted: m});
+      const data = global.owner.filter(([id]) => id)[0];
+      const dataArray = Array.isArray(data) ? data : [data];
+      for (const entry of dataArray) await conn.sendMessage(entry + '@s.whatsapp.net', {text: tradutor.texto4 + '@' + m.sender.split('@')[0] + '\n*—◉ Link del grupo:* ' + link, mentions: [m.sender], contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": `${link}`, "sourceUrl": `${link}`}}}, {quoted: m});
+      enviando = false 
+    }
+  } catch {
+    enviando = false 
+    throw tradutor.texto5;
+  }
+};
+handler.help = ['join [chat.whatsapp.com]'];
+handler.tags = ['owner'];
+handler.command = /^join|nuevogrupo$/i;
+handler.private = true;
+export default handler;

@@ -1,1 +1,76 @@
-const a0_0x597183=a0_0x5d40;(function(_0x6bc00a,_0x43f1de){const _0x497802=a0_0x5d40,_0x2a0b0b=_0x6bc00a();while(!![]){try{const _0x51e431=parseInt(_0x497802(0x1c9))/0x1*(-parseInt(_0x497802(0x1af))/0x2)+-parseInt(_0x497802(0x1a0))/0x3*(-parseInt(_0x497802(0x1b7))/0x4)+-parseInt(_0x497802(0x1c1))/0x5*(parseInt(_0x497802(0x1a7))/0x6)+parseInt(_0x497802(0x1aa))/0x7+-parseInt(_0x497802(0x1b6))/0x8+-parseInt(_0x497802(0x19f))/0x9*(parseInt(_0x497802(0x19d))/0xa)+-parseInt(_0x497802(0x19c))/0xb*(-parseInt(_0x497802(0x1a9))/0xc);if(_0x51e431===_0x43f1de)break;else _0x2a0b0b['push'](_0x2a0b0b['shift']());}catch(_0x28fba1){_0x2a0b0b['push'](_0x2a0b0b['shift']());}}}(a0_0xec7c,0x22874));const handler=async(_0x1dd720,{conn:_0x47c3e0,text:_0x4de91f,command:_0x57ba72,usedPrefix:_0x3666df,args:_0x52d736})=>{const _0xeaf480=a0_0x5d40,_0x112e97=global,_0x254f63=_0x112e97['db'][_0xeaf480(0x1b5)]['users'][_0x1dd720[_0xeaf480(0x1c4)]][_0xeaf480(0x1a4)],_0x22bfac=JSON['parse'](fs[_0xeaf480(0x1a1)]('./language/'+_0x254f63+_0xeaf480(0x1c3))),_0x24506d=_0x22bfac[_0xeaf480(0x1bb)][_0xeaf480(0x1b2)],_0x3ab74d=_0xeaf480(0x1a6),_0x4f8b04=global['db'][_0xeaf480(0x1b5)]['users'][_0x1dd720['sender']][_0xeaf480(0x1b4)]+0x2710;if(new Date()-global['db'][_0xeaf480(0x1b5)][_0xeaf480(0x1ac)][_0x1dd720[_0xeaf480(0x1c4)]][_0xeaf480(0x1b4)]<0x2710)throw _0x24506d[_0xeaf480(0x1ba)]+'\x20'+Math[_0xeaf480(0x1a8)]((_0x4f8b04-new Date())/0x3e8)+'\x20'+_0x24506d[_0xeaf480(0x1c6)];if(!_0x52d736[0x0])return _0x47c3e0['reply'](_0x1dd720[_0xeaf480(0x1ae)],_0x24506d['texto3'][0x0]+'\x20'+(_0x3666df+_0x57ba72)+_0xeaf480(0x1c5)+(_0x3666df+_0x57ba72)+_0xeaf480(0x1a2)+(_0x3666df+_0x57ba72)+_0xeaf480(0x19b),_0x1dd720);let _0x3d671f=Math[_0xeaf480(0x1a5)]();if(_0x3d671f<0.34)_0x3d671f='piedra';else _0x3d671f>0.34&&_0x3d671f<0.67?_0x3d671f='tijera':_0x3d671f=_0xeaf480(0x1ab);const _0x570947=_0x4de91f['toLowerCase']();if(_0x570947==_0x3d671f)global['db'][_0xeaf480(0x1b5)][_0xeaf480(0x1ac)][_0x1dd720[_0xeaf480(0x1c4)]][_0xeaf480(0x1cb)]+=0x1f4,_0x1dd720[_0xeaf480(0x1b0)](_0x24506d['texto4'][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d['texto4'][0x1]+'\x20'+_0x3d671f+'*\x0a'+_0x24506d[_0xeaf480(0x1bc)][0x2]);else{if(_0x4de91f=='papel')_0x3d671f=='piedra'?(global['db']['data'][_0xeaf480(0x1ac)][_0x1dd720[_0xeaf480(0x1c4)]][_0xeaf480(0x1cb)]+=0x3e8,_0x1dd720[_0xeaf480(0x1b0)](_0x24506d[_0xeaf480(0x1be)][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d[_0xeaf480(0x1be)][0x1]+'\x20'+_0x3d671f+'*\x0a'+_0x24506d[_0xeaf480(0x1be)][0x2])):(global['db']['data'][_0xeaf480(0x1ac)][_0x1dd720['sender']]['exp']-=0x12c,_0x1dd720[_0xeaf480(0x1b0)](_0x24506d[_0xeaf480(0x1bd)][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d[_0xeaf480(0x1bd)][0x1]+'\x20\x20'+_0x3d671f+'*\x0a'+_0x24506d[_0xeaf480(0x1bd)][0x2]+'\x20'));else{if(_0x4de91f==_0xeaf480(0x1c0))_0x3d671f==_0xeaf480(0x1ab)?(global['db']['data'][_0xeaf480(0x1ac)][_0x1dd720['sender']][_0xeaf480(0x1cb)]+=0x3e8,_0x1dd720[_0xeaf480(0x1b0)](_0x24506d[_0xeaf480(0x1b1)][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d[_0xeaf480(0x1b1)][0x1]+'\x20'+_0x3d671f+'*\x0a'+_0x24506d[_0xeaf480(0x1b1)][0x2])):(global['db'][_0xeaf480(0x1b5)][_0xeaf480(0x1ac)][_0x1dd720[_0xeaf480(0x1c4)]]['exp']-=0x12c,_0x1dd720[_0xeaf480(0x1b0)](_0x24506d[_0xeaf480(0x1a3)][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d['texto8'][0x1]+'\x20'+_0x3d671f+'*\x0a'+_0x24506d[_0xeaf480(0x1a3)][0x2]));else{if(_0x570947==_0xeaf480(0x1c0))_0x3d671f==_0xeaf480(0x1ab)?(global['db']['data'][_0xeaf480(0x1ac)][_0x1dd720[_0xeaf480(0x1c4)]][_0xeaf480(0x1cb)]+=0x3e8,_0x1dd720['reply'](_0x24506d[_0xeaf480(0x1c8)][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d[_0xeaf480(0x1c8)][0x1]+'\x20'+_0x3d671f+'*\x0a'+_0x24506d[_0xeaf480(0x1c8)][0x2])):(global['db'][_0xeaf480(0x1b5)]['users'][_0x1dd720[_0xeaf480(0x1c4)]][_0xeaf480(0x1cb)]-=0x12c,_0x1dd720['reply'](_0x24506d[_0xeaf480(0x1b8)][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d[_0xeaf480(0x1b8)][0x1]+'\x20'+_0x3d671f+'*\x0a'+_0x24506d[_0xeaf480(0x1b8)][0x2]));else{if(_0x570947==_0xeaf480(0x1ab))_0x3d671f==_0xeaf480(0x1bf)?(global['db']['data'][_0xeaf480(0x1ac)][_0x1dd720[_0xeaf480(0x1c4)]]['exp']+=0x3e8,_0x1dd720[_0xeaf480(0x1b0)](_0x24506d[_0xeaf480(0x1ca)][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d['texto11'][0x1]+'\x20'+_0x3d671f+'*\x0a'+_0x24506d['texto11'][0x2])):(global['db'][_0xeaf480(0x1b5)][_0xeaf480(0x1ac)][_0x1dd720[_0xeaf480(0x1c4)]][_0xeaf480(0x1cb)]-=0x12c,_0x1dd720[_0xeaf480(0x1b0)](_0x24506d[_0xeaf480(0x1c7)][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d['texto12'][0x1]+'\x20'+_0x3d671f+'*\x0a'+_0x24506d[_0xeaf480(0x1c7)][0x2]));else _0x570947==_0xeaf480(0x1bf)&&(_0x3d671f==_0xeaf480(0x1c0)?(global['db'][_0xeaf480(0x1b5)]['users'][_0x1dd720[_0xeaf480(0x1c4)]][_0xeaf480(0x1cb)]+=0x3e8,_0x1dd720['reply'](_0x24506d['texto13'][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d[_0xeaf480(0x1b9)][0x1]+'\x20'+_0x3d671f+'*\x0a'+_0x24506d[_0xeaf480(0x1b9)][0x2])):(global['db']['data']['users'][_0x1dd720[_0xeaf480(0x1c4)]][_0xeaf480(0x1cb)]-=0x12c,_0x1dd720['reply'](_0x24506d[_0xeaf480(0x19e)][0x0]+'\x20'+_0x570947+'*\x0a'+_0x24506d['texto14'][0x1]+'\x20'+_0x3d671f+'*\x0a'+_0x24506d[_0xeaf480(0x19e)][0x2])));}}}}global['db'][_0xeaf480(0x1b5)]['users'][_0x1dd720[_0xeaf480(0x1c4)]]['wait']=new Date()*0x1;};handler[a0_0x597183(0x1c2)]=['ppt'],handler['tags']=[a0_0x597183(0x1b3)],handler[a0_0x597183(0x1ad)]=/^(ppt)$/i;function a0_0x5d40(_0x399577,_0x4935ba){const _0xec7c69=a0_0xec7c();return a0_0x5d40=function(_0x5d4066,_0x3f49f9){_0x5d4066=_0x5d4066-0x19b;let _0xde5ed5=_0xec7c69[_0x5d4066];return _0xde5ed5;},a0_0x5d40(_0x399577,_0x4935ba);}function a0_0xec7c(){const _0x22ec79=['\x20tijera*','1403413Wurrgn','70LAzrqN','texto14','190908IlBItf','105816LZnrjq','readFileSync','\x20papel*\x0a*◉\x20','texto8','language','random','https://telegra.ph/file/c7924bf0e0d839290cc51.jpg','120Hdijtw','floor','60RlhCmx','408086hVqZyL','papel','users','command','chat','2DbnmSB','reply','texto7','game_ppt','game','wait','data','1287928XtDAPb','4bIXNuP','texto10','texto13','texto1','plugins','texto4','texto6','texto5','piedra','tijera','8585odVHTL','help','.json','sender','\x20piedra*\x0a*◉\x20','texto2','texto12','texto9','246242iQquEi','texto11','exp'];a0_0xec7c=function(){return _0x22ec79;};return a0_0xec7c();}export default handler;
+
+
+const handler = async (m, {conn, text, command, usedPrefix, args}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.game_ppt
+
+// let pp = 'https://www.bighero6challenge.com/images/thumbs/Piedra,-papel-o-tijera-0003318_1584.jpeg'
+  const pp = 'https://telegra.ph/file/c7924bf0e0d839290cc51.jpg';
+
+  // 60000 = 1 minuto // 30000 = 30 segundos // 15000 = 15 segundos // 10000 = 10 segundos
+  const time = global.db.data.users[m.sender].wait + 10000;
+  if (new Date - global.db.data.users[m.sender].wait < 10000) throw `${tradutor.texto1} ${Math.floor((time - new Date()) / 1000)} ${tradutor.texto2}`;
+
+  if (!args[0]) return conn.reply(m.chat, `${tradutor.texto3[0]} ${usedPrefix + command} piedra*\n*◉ ${usedPrefix + command} papel*\n*◉ ${usedPrefix + command} tijera*`, m);
+  // conn.sendButton(m.chat, `*𝐏𝐢𝐞𝐝𝐫𝐚 🗿, 𝐏𝐚𝐩𝐞𝐥 📄 𝐨 𝐓𝐢𝐣𝐞𝐫𝐚 ✂️*\n\n*—◉  𝙿𝚎𝚍𝚎𝚜 𝚞𝚜𝚊𝚛 𝚕𝚘𝚜 𝚋𝚘𝚝𝚘𝚗𝚎𝚜 𝚙𝚊𝚛𝚊 𝚓𝚞𝚐𝚊𝚛 𝚘 𝚝𝚊𝚖𝚋𝚒𝚎𝚗 𝚙𝚞𝚎𝚍𝚎𝚜 𝚞𝚜𝚊𝚛 𝚎𝚜𝚝𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜:*\n*◉ ${usedPrefix + command} piedra*\n*◉ ${usedPrefix + command} papel*\n*◉ ${usedPrefix + command} tijera*`, wm, pp, [['Piedra 🗿', `${usedPrefix + command} piedra`], ['Papel 📄', `${usedPrefix + command} papel`], ['Tijera ✂️', `${usedPrefix + command} tijera`]], m)
+  let astro = Math.random();
+  if (astro < 0.34) {
+    astro = 'piedra';
+  } else if (astro > 0.34 && astro < 0.67) {
+    astro = 'tijera';
+  } else {
+    astro = 'papel';
+  }
+  const textm = text.toLowerCase();
+  if (textm == astro) {
+    global.db.data.users[m.sender].exp += 500;
+    m.reply(`${tradutor.texto4[0]} ${textm}*\n${tradutor.texto4[1]} ${astro}*\n${tradutor.texto4[2]}`);
+  } else if (text == 'papel') {
+    if (astro == 'piedra') {
+      global.db.data.users[m.sender].exp += 1000;
+      m.reply(`${tradutor.texto5[0]} ${textm}*\n${tradutor.texto5[1]} ${astro}*\n${tradutor.texto5[2]}`);
+    } else {
+      global.db.data.users[m.sender].exp -= 300;
+      m.reply(`${tradutor.texto6[0]} ${textm}*\n${tradutor.texto6[1]}  ${astro}*\n${tradutor.texto6[2]} `);
+    }
+  } else if (text == 'tijera') {
+    if (astro == 'papel') {
+      global.db.data.users[m.sender].exp += 1000;
+      m.reply(`${tradutor.texto7[0]} ${textm}*\n${tradutor.texto7[1]} ${astro}*\n${tradutor.texto7[2]}`);
+    } else {
+      global.db.data.users[m.sender].exp -= 300;
+      m.reply(`${tradutor.texto8[0]} ${textm}*\n${tradutor.texto8[1]} ${astro}*\n${tradutor.texto8[2]}`);
+    }
+  } else if (textm == 'tijera') {
+    if (astro == 'papel') {
+      global.db.data.users[m.sender].exp += 1000;
+      m.reply(`${tradutor.texto9[0]} ${textm}*\n${tradutor.texto9[1]} ${astro}*\n${tradutor.texto9[2]}`);
+    } else {
+      global.db.data.users[m.sender].exp -= 300;
+      m.reply(`${tradutor.texto10[0]} ${textm}*\n${tradutor.texto10[1]} ${astro}*\n${tradutor.texto10[2]}`);
+    }
+  } else if (textm == 'papel') {
+    if (astro == 'piedra') {
+      global.db.data.users[m.sender].exp += 1000;
+      m.reply(`${tradutor.texto11[0]} ${textm}*\n${tradutor.texto11[1]} ${astro}*\n${tradutor.texto11[2]}`);
+    } else {
+      global.db.data.users[m.sender].exp -= 300;
+      m.reply(`${tradutor.texto12[0]} ${textm}*\n${tradutor.texto12[1]} ${astro}*\n${tradutor.texto12[2]}`);
+    }
+  } else if (textm == 'piedra') {
+    if (astro == 'tijera') {
+      global.db.data.users[m.sender].exp += 1000;
+      m.reply(`${tradutor.texto13[0]} ${textm}*\n${tradutor.texto13[1]} ${astro}*\n${tradutor.texto13[2]}`);
+    } else {
+      global.db.data.users[m.sender].exp -= 300;
+      m.reply(`${tradutor.texto14[0]} ${textm}*\n${tradutor.texto14[1]} ${astro}*\n${tradutor.texto14[2]}`);
+    }
+  }
+  global.db.data.users[m.sender].wait = new Date * 1;
+};
+handler.help = ['ppt'];
+handler.tags = ['game'];
+handler.command = /^(ppt)$/i;
+export default handler;

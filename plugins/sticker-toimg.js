@@ -1,1 +1,38 @@
-function a0_0x2099(){const _0x5cfe50=['1400433PJDaMd','1638jGPpNn','toimg\x20(reply)','6713548kbpZKA','command','3933590auzoCZ','download','sendMessage','1540664enoOiN','Sticker\x20*','289624DUakGs','alloc','88330IQndvN','1117674EnveNU','7Yqxngw','quoted','tags','toimg','sticker','*DONE*','help','2VXGPzY'];a0_0x2099=function(){return _0x5cfe50;};return a0_0x2099();}const a0_0x35e6c5=a0_0xa5c5;(function(_0x1b6a7c,_0x4bc5c4){const _0xa24e93=a0_0xa5c5,_0xc12a3c=_0x1b6a7c();while(!![]){try{const _0x3bd19a=-parseInt(_0xa24e93(0x142))/0x1*(-parseInt(_0xa24e93(0x14b))/0x2)+parseInt(_0xa24e93(0x143))/0x3+-parseInt(_0xa24e93(0x146))/0x4+-parseInt(_0xa24e93(0x148))/0x5+-parseInt(_0xa24e93(0x150))/0x6+parseInt(_0xa24e93(0x151))/0x7*(-parseInt(_0xa24e93(0x14d))/0x8)+parseInt(_0xa24e93(0x144))/0x9*(parseInt(_0xa24e93(0x14f))/0xa);if(_0x3bd19a===_0x4bc5c4)break;else _0xc12a3c['push'](_0xc12a3c['shift']());}catch(_0x243a72){_0xc12a3c['push'](_0xc12a3c['shift']());}}}(a0_0x2099,0xe2706));function a0_0xa5c5(_0x206443,_0x242953){const _0x20995e=a0_0x2099();return a0_0xa5c5=function(_0xa5c5bc,_0x1728e4){_0xa5c5bc=_0xa5c5bc-0x13e;let _0x1c5b79=_0x20995e[_0xa5c5bc];return _0x1c5b79;},a0_0xa5c5(_0x206443,_0x242953);}import a0_0x28cddf from'../lib/uploadFile.js';let handler=async(_0x50e283,{conn:_0x1d9e34,usedPrefix:_0x2397d0,command:_0x27f34e})=>{const _0xeb4def=a0_0xa5c5;if(!_0x50e283['quoted'])throw'Sticker\x20*'+(_0x2397d0+_0x27f34e)+'*';let _0x3f2562=_0x50e283['quoted']['mimetype']||'';if(!/webp/['test'](_0x3f2562))throw _0xeb4def(0x14c)+(_0x2397d0+_0x27f34e)+'*';let _0x5255db=await _0x50e283[_0xeb4def(0x152)][_0xeb4def(0x149)](),_0x282860=Buffer[_0xeb4def(0x14e)](0x0);/webp/['test'](_0x3f2562)&&(_0x282860=await uploadImage(_0x5255db)),await _0x1d9e34[_0xeb4def(0x14a)](_0x50e283['chat'],{'image':{'url':_0x282860},'caption':_0xeb4def(0x140)},{'quoted':_0x50e283});};handler[a0_0x35e6c5(0x141)]=[a0_0x35e6c5(0x145)],handler[a0_0x35e6c5(0x153)]=[a0_0x35e6c5(0x13f)],handler[a0_0x35e6c5(0x147)]=[a0_0x35e6c5(0x13e)];export default handler;
+/* import { webp2png } from '../lib/webp2mp4.js'
+
+let handler = async (m, { conn, usedPrefix, command }) => {
+	global.db.data.users[m.sender].comandos += 1;
+	m.react('😎')
+    const notStickerMessage = `✳️ Responde a un sticker con :\n\n *${usedPrefix + command}*`
+    if (!m.quoted) throw notStickerMessage
+    const q = m.quoted || m
+    let mime = q.mediaType || ''
+    if (!/sticker/.test(mime)) throw notStickerMessage
+    let media = await q.download()
+    let out = await webp2png(media).catch(_ => null) || Buffer.alloc(0)
+    await conn.sendFile(m.chat, out, 'out.png', '*✅ Aquí tienes*', m)
+}
+handler.help = ['toimg <sticker>']
+handler.tags = ['sticker']
+handler.command = ['toimg', 'jpg', 'aimg'] 
+handler.diamond = true
+export default handler */
+import uploadFile from '../lib/uploadFile.js';
+
+let handler = async (m, { conn, usedPrefix, command }) => {
+  if (!m.quoted) throw `Sticker *${usedPrefix + command}*`;
+  let mime = m.quoted.mimetype || '';
+  if (!/webp/.test(mime)) throw `Sticker *${usedPrefix + command}*`;
+  let media = await m.quoted.download();
+  let out = Buffer.alloc(0);
+  if (/webp/.test(mime)) {
+    out = await uploadImage(media);
+  }
+  await conn.sendMessage(m.chat, { image: { url: out }, caption: '*DONE*' }, { quoted: m });
+}
+
+handler.help = ['toimg (reply)'];
+handler.tags = ['sticker'];
+handler.command = ['toimg'];
+
+export default handler;

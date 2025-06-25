@@ -1,1 +1,32 @@
-function a0_0x58b2(_0x7edc47,_0x50f03f){const _0x5c6682=a0_0x5c66();return a0_0x58b2=function(_0x58b2c8,_0x554ffa){_0x58b2c8=_0x58b2c8-0x120;let _0x4773dd=_0x5c6682[_0x58b2c8];return _0x4773dd;},a0_0x58b2(_0x7edc47,_0x50f03f);}function a0_0x5c66(){const _0x4b57f2=['sender','.json','3FAWGpj','catch','command','trim','users','719652XPJQva','admins\x20[mensaje\x20sin\x20prefijo]','data','error.jpg','33186Kjepio','owner','934302vGBAoE','3467330QbEswZ','plugins','map','find','469binPly','superadmin','15KpiuKY','filter','split','readFileSync','join','.\x20@','chat','texto1','admin','group','image','help','328sRCsbw','5377339ipApzX','gc_admins','./language/','tags','135279BsCzPw','language','sendFile','571038sXIUfx'];a0_0x5c66=function(){return _0x4b57f2;};return a0_0x5c66();}const a0_0x3c33ed=a0_0x58b2;(function(_0x48b292,_0xcec533){const _0x4b6867=a0_0x58b2,_0x38a1cd=_0x48b292();while(!![]){try{const _0x134147=-parseInt(_0x4b6867(0x13f))/0x1+parseInt(_0x4b6867(0x124))/0x2*(-parseInt(_0x4b6867(0x142))/0x3)+-parseInt(_0x4b6867(0x147))/0x4*(-parseInt(_0x4b6867(0x12b))/0x5)+-parseInt(_0x4b6867(0x122))/0x6*(-parseInt(_0x4b6867(0x129))/0x7)+-parseInt(_0x4b6867(0x137))/0x8*(-parseInt(_0x4b6867(0x13c))/0x9)+parseInt(_0x4b6867(0x125))/0xa+-parseInt(_0x4b6867(0x138))/0xb;if(_0x134147===_0xcec533)break;else _0x38a1cd['push'](_0x38a1cd['shift']());}catch(_0xd0cf68){_0x38a1cd['push'](_0x38a1cd['shift']());}}}(a0_0x5c66,0x548aa));const handler=async(_0x2f59fa,{conn:_0x3e982b,participants:_0x270756,groupMetadata:_0x19618c,args:_0x1e4846})=>{const _0x325225=a0_0x58b2,_0x24fd02=global,_0x5a9a4d=_0x24fd02['db'][_0x325225(0x120)][_0x325225(0x146)][_0x2f59fa[_0x325225(0x140)]][_0x325225(0x13d)],_0x2a3375=JSON['parse'](fs[_0x325225(0x12e)](_0x325225(0x13a)+_0x5a9a4d+_0x325225(0x141))),_0x4d4ce9=_0x2a3375[_0x325225(0x126)][_0x325225(0x139)],_0x49c712=await _0x3e982b['profilePictureUrl'](_0x2f59fa[_0x325225(0x131)],_0x325225(0x135))[_0x325225(0x143)](_0x5e432a=>null)||'./src/admins.jpg',_0x3c06b6=_0x270756[_0x325225(0x12c)](_0x4bb39f=>_0x4bb39f[_0x325225(0x133)]),_0x371968=_0x3c06b6[_0x325225(0x127)]((_0x367cb2,_0x3d56da)=>_0x3d56da+0x1+_0x325225(0x130)+_0x367cb2['id']['split']('@')[0x0])[_0x325225(0x12f)]('\x0a'),_0x3f07df=_0x19618c[_0x325225(0x123)]||_0x3c06b6[_0x325225(0x128)](_0x3e2a89=>_0x3e2a89[_0x325225(0x133)]===_0x325225(0x12a))?.['id']||_0x2f59fa[_0x325225(0x131)][_0x325225(0x12d)]`-`[0x0]+'@s.whatsapp.net',_0x24a53b=_0x1e4846[_0x325225(0x12f)]` `,_0x3a786b=_0x4d4ce9[_0x325225(0x132)][0x3]+'\x20'+_0x24a53b,_0xa36b86=(_0x4d4ce9[_0x325225(0x132)][0x0]+'\x0a\x0a'+_0x3a786b+'\x0a\x0a'+_0x4d4ce9[_0x325225(0x132)][0x1]+'\x0a'+_0x371968+'\x0a\x0a'+_0x4d4ce9[_0x325225(0x132)][0x2])[_0x325225(0x145)]();_0x3e982b[_0x325225(0x13e)](_0x2f59fa[_0x325225(0x131)],_0x49c712,_0x325225(0x121),_0xa36b86,_0x2f59fa,![],{'mentions':[..._0x3c06b6[_0x325225(0x127)](_0x4dc28f=>_0x4dc28f['id']),_0x3f07df]});};handler[a0_0x3c33ed(0x136)]=[a0_0x3c33ed(0x148)],handler[a0_0x3c33ed(0x13b)]=['group'],handler['customPrefix']=/a|@/i,handler[a0_0x3c33ed(0x144)]=/^(admins|@admins|dmins)$/i,handler[a0_0x3c33ed(0x134)]=!![];export default handler;
+
+
+
+const handler = async (m, {conn, participants, groupMetadata, args}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_admins
+
+  const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || './src/admins.jpg';
+  const groupAdmins = participants.filter((p) => p.admin);
+  const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n');
+  const owner = groupMetadata.owner || groupAdmins.find((p) => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net';
+  const pesan = args.join` `;
+  const oi = `${tradutor.texto1[3]} ${pesan}`;
+  const text = `${tradutor.texto1[0]}
+
+${oi}
+
+${tradutor.texto1[1]}
+${listAdmin}
+
+${tradutor.texto1[2]}`.trim();
+  conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, {mentions: [...groupAdmins.map((v) => v.id), owner]});
+};
+handler.help = ['admins [mensaje sin prefijo]'];
+handler.tags = ['group'];
+// regex detect A word without case sensitive
+handler.customPrefix = /a|@/i;
+handler.command = /^(admins|@admins|dmins)$/i;
+handler.group = true;
+export default handler;

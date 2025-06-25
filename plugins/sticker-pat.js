@@ -1,1 +1,23 @@
-function a0_0x373a(_0x3b8380,_0x275dd8){const _0x5d3ca1=a0_0x5d3c();return a0_0x373a=function(_0x373aef,_0xce3f3b){_0x373aef=_0x373aef-0x165;let _0x315477=_0x5d3ca1[_0x373aef];return _0x315477;},a0_0x373a(_0x3b8380,_0x275dd8);}(function(_0x1019a0,_0x25c534){const _0x192d94=a0_0x373a,_0x4547ff=_0x1019a0();while(!![]){try{const _0x3a2ba2=parseInt(_0x192d94(0x17b))/0x1*(-parseInt(_0x192d94(0x16c))/0x2)+-parseInt(_0x192d94(0x17f))/0x3+parseInt(_0x192d94(0x169))/0x4+-parseInt(_0x192d94(0x166))/0x5+parseInt(_0x192d94(0x17e))/0x6*(-parseInt(_0x192d94(0x172))/0x7)+-parseInt(_0x192d94(0x16e))/0x8*(parseInt(_0x192d94(0x175))/0x9)+-parseInt(_0x192d94(0x17a))/0xa*(-parseInt(_0x192d94(0x170))/0xb);if(_0x3a2ba2===_0x25c534)break;else _0x4547ff['push'](_0x4547ff['shift']());}catch(_0x235f06){_0x4547ff['push'](_0x4547ff['shift']());}}}(a0_0x5d3c,0xd03c1));import{sticker}from'../lib/sticker.js';import a0_0x16b5f9 from'node-fetch';import a0_0x3b566f from'@whiskeysockets/baileys';const handler=async(_0x24628d,{conn:_0x3f41b2})=>{const _0x41ca96=a0_0x373a,_0x4884f2=global,_0x3fe3aa=_0x4884f2['db'][_0x41ca96(0x165)][_0x41ca96(0x178)][_0x24628d[_0x41ca96(0x16b)]][_0x41ca96(0x179)],_0x1594ff=JSON['parse'](fs['readFileSync'](_0x41ca96(0x180)+_0x3fe3aa+_0x41ca96(0x16f))),_0x136daa=_0x1594ff[_0x41ca96(0x176)][_0x41ca96(0x167)];try{if(_0x24628d[_0x41ca96(0x16d)]?.[_0x41ca96(0x16b)])_0x24628d[_0x41ca96(0x174)][_0x41ca96(0x17d)](_0x24628d[_0x41ca96(0x16d)][_0x41ca96(0x16b)]);if(!_0x24628d[_0x41ca96(0x174)][_0x41ca96(0x17c)])_0x24628d[_0x41ca96(0x174)][_0x41ca96(0x17d)](_0x24628d[_0x41ca96(0x16b)]);const _0x3dab8a=await a0_0x16b5f9('https://api.waifu.pics/sfw/pat'),_0x33b4a5=await _0x3dab8a[_0x41ca96(0x16a)](),{url:_0xfd13ea}=_0x33b4a5,_0x521fe3=await sticker(null,_0xfd13ea,'+'+_0x24628d[_0x41ca96(0x16b)][_0x41ca96(0x173)]('@')[0x0]+'\x20'+_0x136daa['texto1'][0x0]+'\x20'+_0x24628d[_0x41ca96(0x174)][_0x41ca96(0x171)](_0x223258=>_0x223258===_0x24628d[_0x41ca96(0x16b)]?_0x136daa[_0x41ca96(0x168)][0x1]:'+'+_0x223258[_0x41ca96(0x173)]('@')[0x0])[_0x41ca96(0x177)](',\x20'));_0x3f41b2['sendFile'](_0x24628d['chat'],_0x521fe3,null,{'asSticker':!![]});}catch(_0x3bd7a0){}};function a0_0x5d3c(){const _0x5bb4b6=['2712188qBbOQW','json','sender','62QSgjzX','quoted','255880PNcPBk','.json','1859apdMNq','map','158788xVMaxj','split','mentionedJid','459kbomIv','plugins','join','users','language','312670iVYvHO','14331ZkPqtF','length','push','48rBLgdP','4681191GNisog','./language/','data','6459380SzWLHO','sticker_pat','texto1'];a0_0x5d3c=function(){return _0x5bb4b6;};return a0_0x5d3c();}handler['command']=/^(pat|palmaditas|cariños|mimos|patt)$/i;export default handler;
+import {sticker} from '../lib/sticker.js';
+import fetch from 'node-fetch';
+import MessageType from '@whiskeysockets/baileys';
+
+
+const handler = async (m, {conn}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.sticker_pat
+
+  try {
+    if (m.quoted?.sender) m.mentionedJid.push(m.quoted.sender);
+    if (!m.mentionedJid.length) m.mentionedJid.push(m.sender);
+    const res = await fetch('https://api.waifu.pics/sfw/pat');
+    const json = await res.json();
+    const {url} = json;
+    const stiker = await sticker(null, url, `+${m.sender.split('@')[0]} ${tradutor.texto1[0]} ${m.mentionedJid.map((user)=>(user === m.sender)? tradutor.texto1[1]: `+${user.split('@')[0]}`).join(', ')}`);
+    conn.sendFile(m.chat, stiker, null, {asSticker: true});
+  } catch (e) { }
+};
+handler.command = /^(pat|palmaditas|cariños|mimos|patt)$/i;
+export default handler;

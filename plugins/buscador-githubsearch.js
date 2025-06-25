@@ -1,1 +1,42 @@
-const a0_0x197145=a0_0x5b64;(function(_0x374847,_0x19b6b0){const _0x40880c=a0_0x5b64,_0x231c53=_0x374847();while(!![]){try{const _0x55f526=-parseInt(_0x40880c(0x12e))/0x1*(-parseInt(_0x40880c(0x14e))/0x2)+parseInt(_0x40880c(0x14c))/0x3+-parseInt(_0x40880c(0x13c))/0x4*(-parseInt(_0x40880c(0x151))/0x5)+-parseInt(_0x40880c(0x135))/0x6+parseInt(_0x40880c(0x147))/0x7*(-parseInt(_0x40880c(0x137))/0x8)+-parseInt(_0x40880c(0x14a))/0x9*(-parseInt(_0x40880c(0x148))/0xa)+-parseInt(_0x40880c(0x132))/0xb;if(_0x55f526===_0x19b6b0)break;else _0x231c53['push'](_0x231c53['shift']());}catch(_0x5cf964){_0x231c53['push'](_0x231c53['shift']());}}}(a0_0x106c,0xb63d6));import a0_0x596402 from'node-fetch';const handler=async(_0x2b0e0b,{conn:_0x265884,text:_0x4efa79,usedPrefix:_0x5dea70,command:_0x181803})=>{const _0x445b74=a0_0x5b64,_0x3e12f2=global,_0x5d9a38=_0x3e12f2['db'][_0x445b74(0x133)][_0x445b74(0x14d)][_0x2b0e0b[_0x445b74(0x13e)]]['language'],_0x1a513f=JSON[_0x445b74(0x150)](fs['readFileSync'](_0x445b74(0x13f)+_0x5d9a38+_0x445b74(0x149))),_0x4c8231=_0x1a513f[_0x445b74(0x12a)][_0x445b74(0x13d)];if(!_0x4efa79)throw _0x445b74(0x14f)+(_0x5dea70+_0x181803)+_0x445b74(0x12d);const _0x1df596=await a0_0x596402(global[_0x445b74(0x127)](_0x445b74(0x131),'/search/repositories',{'q':_0x4efa79})),_0x27cd92=await _0x1df596[_0x445b74(0x143)]();if(_0x1df596[_0x445b74(0x145)]!==0xc8)throw _0x27cd92;const _0x499fb7=_0x27cd92[_0x445b74(0x141)]['map']((_0x185b6d,_0x579c81)=>{const _0x28c2f9=_0x445b74;return('\x0a*'+(0x1+_0x579c81)+'.\x20'+_0x185b6d[_0x28c2f9(0x12c)]+(_0x185b6d['fork']?'\x20(fork)':'')+'*\x0a'+_0x4c8231[_0x28c2f9(0x129)][0x0]+'\x20'+_0x185b6d['html_url']+'\x0a'+_0x4c8231['texto1'][0x1]+'\x20'+formatDate(_0x185b6d['created_at'])+'\x0a'+_0x4c8231[_0x28c2f9(0x129)][0x2]+'\x20'+formatDate(_0x185b6d['updated_at'])+'\x0a'+_0x4c8231[_0x28c2f9(0x129)][0x3]+'\x20'+_0x185b6d['clone_url']+_0x28c2f9(0x130)+_0x185b6d[_0x28c2f9(0x12b)]+_0x28c2f9(0x126)+_0x185b6d[_0x28c2f9(0x13b)]+'\x20◉\x20⭐\x20'+_0x185b6d[_0x28c2f9(0x13a)]+_0x28c2f9(0x146)+(_0x185b6d[_0x28c2f9(0x144)]?_0x28c2f9(0x139)+_0x4c8231['texto1'][0x4]+'\x0a'+_0x185b6d[_0x28c2f9(0x144)]:'')+'\x0a')[_0x28c2f9(0x136)]();})['join'](_0x445b74(0x140));_0x265884['sendMessage'](_0x2b0e0b[_0x445b74(0x125)],{'text':_0x499fb7[_0x445b74(0x136)]()},{'quoted':_0x2b0e0b});};function a0_0x5b64(_0x5ba284,_0x47609c){const _0x106c91=a0_0x106c();return a0_0x5b64=function(_0x5b640e,_0x519064){_0x5b640e=_0x5b640e-0x125;let _0x384499=_0x106c91[_0x5b640e];return _0x384499;},a0_0x5b64(_0x5ba284,_0x47609c);}handler[a0_0x197145(0x14b)]=[a0_0x197145(0x152)],handler[a0_0x197145(0x142)]=[a0_0x197145(0x12f)],handler['command']=/^(ghs|githubs|githubs|githubsearch|gits|gitsearch)$/i;export default handler;function a0_0x106c(){const _0x5752fe=['1349955qDSEYF','users','2nChrFA','*[❗]\x20Ingresa\x20un\x20texto\x20para\x20buscar,\x20ejemplo:\x20','parse','2945KikdoD','gitsearch','chat','\x20◉\x20🍴\x20','API','numeric','texto1','plugins','watchers','full_name','\x20TheMystic-Bot-MD*','138701tzjWVq','search','\x0a👁\x20','https://api.github.com','3776047JBMqfD','data','long','1907598OlqmMA','trim','24HCmHmp','toLocaleDateString','📝\x20','stargazers_count','forks','9332xARhkq','buscador_githubsearch','sender','./language/','\x0a\x0a◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\x0a\x0a','items','tags','json','description','status','\x20◉\x20❓\x20\x0a','2187661CgnHpl','60EisrXk','.json','573615dvmWkM','help'];a0_0x106c=function(){return _0x5752fe;};return a0_0x106c();}function formatDate(_0x371606,_0x4ce915='es'){const _0x30f713=a0_0x197145,_0x4df996=new Date(_0x371606);return _0x4df996[_0x30f713(0x138)](_0x4ce915,{'weekday':_0x30f713(0x134),'day':_0x30f713(0x128),'month':_0x30f713(0x134),'year':_0x30f713(0x128),'hour':_0x30f713(0x128),'minute':_0x30f713(0x128),'second':_0x30f713(0x128)});}
+import fetch from 'node-fetch';
+
+ // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+  
+
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.buscador_githubsearch
+
+  if (!text) throw `*[❗] Ingresa un texto para buscar, ejemplo: ${usedPrefix + command} TheMystic-Bot-MD*`;
+  const res = await fetch(global.API('https://api.github.com', '/search/repositories', {
+    q: text,
+  }));
+  const json = await res.json();
+  if (res.status !== 200) throw json;
+  //const imagen = await conn.getFile(json.items[0].owner.avatar_url).data
+  const str = json.items.map((repo, index) => {
+  return `
+*${1 + index}. ${repo.full_name}${repo.fork ? ' (fork)' : ''}*
+${tradutor.texto1[0]} ${repo.html_url}
+${tradutor.texto1[1]} ${formatDate(repo.created_at)}
+${tradutor.texto1[2]} ${formatDate(repo.updated_at)}
+${tradutor.texto1[3]} ${repo.clone_url}
+👁 ${repo.watchers} ◉ 🍴 ${repo.forks} ◉ ⭐ ${repo.stargazers_count} ◉ ❓ 
+${repo.description ? `📝 ${tradutor.texto1[4]}\n${repo.description}` : ''}
+`.trim()}).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n');
+  conn.sendMessage(m.chat, {text: str.trim()}, {quoted: m})
+//conn.sendMessage(m.chat, {text: str.trim(), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen, "mediaUrl": `https://www.atom.bio/theshadowbrokers-team`, "sourceUrl": `https://www.atom.bio/theshadowbrokers-team`}}}, {quoted: m});  
+};
+handler.help = ['gitsearch'];
+handler.tags = ['search'];
+handler.command = /^(ghs|githubs|githubs|githubsearch|gits|gitsearch)$/i;
+export default handler;
+
+function formatDate(n, locale = 'es') {
+  const d = new Date(n);
+  return d.toLocaleDateString(locale, {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric'});
+}

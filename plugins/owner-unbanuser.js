@@ -1,1 +1,28 @@
-const a0_0x5222e2=a0_0x42fd;(function(_0x381f6c,_0x15ef89){const _0xdc2f1b=a0_0x42fd,_0x1d4dc9=_0x381f6c();while(!![]){try{const _0x107902=parseInt(_0xdc2f1b(0xcb))/0x1+-parseInt(_0xdc2f1b(0xdd))/0x2*(-parseInt(_0xdc2f1b(0xd4))/0x3)+-parseInt(_0xdc2f1b(0xdc))/0x4*(parseInt(_0xdc2f1b(0xce))/0x5)+parseInt(_0xdc2f1b(0xcc))/0x6*(-parseInt(_0xdc2f1b(0xde))/0x7)+parseInt(_0xdc2f1b(0xd6))/0x8+-parseInt(_0xdc2f1b(0xd5))/0x9*(parseInt(_0xdc2f1b(0xdf))/0xa)+parseInt(_0xdc2f1b(0xd7))/0xb*(-parseInt(_0xdc2f1b(0xd3))/0xc);if(_0x107902===_0x15ef89)break;else _0x1d4dc9['push'](_0x1d4dc9['shift']());}catch(_0x520cf4){_0x1d4dc9['push'](_0x1d4dc9['shift']());}}}(a0_0x2de2,0xcefea));let handler=async(_0x253ac0,{conn:_0x2299b2,text:_0x3c3644})=>{const _0x2b76e8=a0_0x42fd;if(!_0x3c3644)throw'*[❗𝐈𝐍𝐅𝐎❗]\x20𝙸𝙽𝙶𝚁𝙴𝚂𝙰\x20𝙴𝙻\x20@𝚝𝚊𝚐\x20𝙳𝙴\x20𝙰𝙻𝙶𝚄𝙽\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾*';let _0x4809e6;if(_0x253ac0[_0x2b76e8(0xca)])_0x4809e6=_0x253ac0[_0x2b76e8(0xd1)][0x0];else _0x4809e6=_0x253ac0['chat'];if(!_0x4809e6)throw _0x2b76e8(0xe0);let _0x3de00a=global['db']['data'][_0x2b76e8(0xd0)];!_0x3de00a[_0x4809e6]&&(_0x3de00a[_0x4809e6]={}),_0x3de00a[_0x4809e6]['banned']=![],_0x2299b2[_0x2b76e8(0xd2)](_0x253ac0[_0x2b76e8(0xda)],_0x2b76e8(0xcf),_0x253ac0);};handler[a0_0x5222e2(0xd8)]=[a0_0x5222e2(0xd9)],handler['tags']=['owner'],handler[a0_0x5222e2(0xdb)]=/^unbanuser$/i,handler[a0_0x5222e2(0xcd)]=!![];function a0_0x2de2(){const _0x1de9c7=['command','6668gOAkRY','130UtTLeE','25627OQnAkl','10fevyuA','*[❗𝐈𝐍𝐅𝐎❗]\x20𝙸𝙽𝙶𝚁𝙴𝚂𝙰\x20𝙴𝙻\x20@𝚝𝚊𝚐\x20𝙳𝙴\x20𝙰𝙻𝙶𝚄𝙽\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾*','isGroup','1671609zBNDlz','948fIFNEK','rowner','4435wzJVgc','*[❗𝐈𝐍𝐅𝐎❗]\x20𝙴𝙻\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝙵𝚄𝙴\x20𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾\x20𝙲𝙾𝙽\x20𝙴𝚇𝙸𝚃𝙾*\x0a*—◉\x20𝙴𝙻\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝚈𝙰\x20𝙿𝚄𝙴𝙳𝙴\x20𝚄𝚂𝙰𝚁\x20𝙴𝙻\x20𝙱𝙾𝚃*','users','mentionedJid','reply','1299468MFhNJz','57849VPsGzs','4701465sGwacH','4884696vmrwrc','11eAEArZ','help','unbanuser','chat'];a0_0x2de2=function(){return _0x1de9c7;};return a0_0x2de2();}function a0_0x42fd(_0xb865d,_0x49f861){const _0x2de2fe=a0_0x2de2();return a0_0x42fd=function(_0x42fd1e,_0x173b6e){_0x42fd1e=_0x42fd1e-0xca;let _0x3f998a=_0x2de2fe[_0x42fd1e];return _0x3f998a;},a0_0x42fd(_0xb865d,_0x49f861);}export default handler;
+let handler = async (m, { conn, text }) => {
+  if (!text) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 @𝚝𝚊𝚐 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾*';
+  
+  let who;
+  if (m.isGroup) who = m.mentionedJid[0];
+  else who = m.chat;
+  
+  if (!who) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 @𝚝𝚊𝚐 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾*';
+  
+  let users = global.db.data.users;
+  
+  // Verifica si el usuario existe en la base de datos, si no, inicialízalo
+  if (!users[who]) {
+    users[who] = {};
+  }
+  
+  // Establece la propiedad banned en false
+  users[who].banned = false;
+  
+  conn.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙵𝚄𝙴 𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾*\n*—◉ 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝚈𝙰 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙱𝙾𝚃*`, m);
+};
+
+handler.help = ['unbanuser'];
+handler.tags = ['owner'];
+handler.command = /^unbanuser$/i;
+handler.rowner = true;
+
+export default handler;

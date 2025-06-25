@@ -1,1 +1,60 @@
-const a0_0x41071c=a0_0x583b;(function(_0x44a2c9,_0x296d48){const _0x57e297=a0_0x583b,_0x27fe58=_0x44a2c9();while(!![]){try{const _0x77b532=parseInt(_0x57e297(0x78))/0x1*(-parseInt(_0x57e297(0x99))/0x2)+parseInt(_0x57e297(0x83))/0x3*(-parseInt(_0x57e297(0x7f))/0x4)+parseInt(_0x57e297(0x95))/0x5+parseInt(_0x57e297(0x77))/0x6*(parseInt(_0x57e297(0x96))/0x7)+-parseInt(_0x57e297(0x92))/0x8+parseInt(_0x57e297(0x7d))/0x9+parseInt(_0x57e297(0x76))/0xa*(parseInt(_0x57e297(0x8e))/0xb);if(_0x77b532===_0x296d48)break;else _0x27fe58['push'](_0x27fe58['shift']());}catch(_0x3a8767){_0x27fe58['push'](_0x27fe58['shift']());}}}(a0_0x530f,0xe66cd));function a0_0x583b(_0x230f5f,_0x5e6ef6){const _0x530f31=a0_0x530f();return a0_0x583b=function(_0x583bf3,_0x4840f2){_0x583bf3=_0x583bf3-0x75;let _0x4bf022=_0x530f31[_0x583bf3];return _0x4bf022;},a0_0x583b(_0x230f5f,_0x5e6ef6);}function a0_0x530f(){const _0x50c876=['1avBVSq','game','floor','te\x20has\x20pegado\x20un\x20tiro\x20en\x20la\x20lonja\x20🐷🔫','te\x20has\x20pegado\x20un\x20tiro\x20en\x20la\x20oreja\x20👂🔫','13474413tNNqDU','lastRouletteTime','4QWCrbZ','data','te\x20has\x20pegado\x20un\x20tiro\x20en\x20la\x20nalga\x20🍑🔫','length','2247801XDSQZd','command','fail','users','sender','se\x20te\x20ha\x20salido\x20un\x20tiro\x20y\x20le\x20has\x20pegado\x20a\x20tu\x20ex\x20🧌🔫','tags','\x20m\x20y\x20','random','dispara','ruleta','121udLiOa','te\x20has\x20disparado\x20en\x20la\x20pierna\x20🦵🔫','reply','exp','14478000ZTtIGN','te\x20has\x20pegado\x20un\x20tiro\x20en\x20el\x20asterisco\x20😣🔫','comandos','7117685IgnIHG','4483738dbrJyd','getTime','help','889684GreJpn','group','*[\x20💥\x20]\x20','351320tqjEaF','6qoKqNH'];a0_0x530f=function(){return _0x50c876;};return a0_0x530f();}let handler=async(_0x1b46e8,{conn:_0x359e75})=>{const _0x590b2a=a0_0x583b;global['db'][_0x590b2a(0x80)][_0x590b2a(0x86)][_0x1b46e8[_0x590b2a(0x87)]][_0x590b2a(0x94)]+=0x1;let _0x466c7a=new Date()[_0x590b2a(0x97)](),_0x5c09c1=global['db'][_0x590b2a(0x80)][_0x590b2a(0x86)][_0x1b46e8[_0x590b2a(0x87)]]['lastRouletteTime']||0x0,_0x4ab397=0x2*0x3c*0x7d0;if(_0x466c7a-_0x5c09c1<_0x4ab397){let _0x59981e=_0x4ab397-(_0x466c7a-_0x5c09c1),_0x29bbd6=msToTime(_0x59981e);throw'*[\x20⏲️\x20]\x20Debes\x20esperar\x20'+_0x29bbd6+'\x20antes\x20de\x20jugar\x20de\x20nuevo.*';}let _0x57de1b=Math[_0x590b2a(0x8b)]();if(_0x57de1b<0.3)global['db'][_0x590b2a(0x80)][_0x590b2a(0x86)][_0x1b46e8[_0x590b2a(0x87)]][_0x590b2a(0x91)]+=0x3e8,_0x1b46e8[_0x590b2a(0x90)]('*[\x20🍀\x20]\x20Te\x20has\x20salvado.\x20Ganas\x201000\x20puntos\x20de\x20experiencia.*');else{let _0x18f4ae=[_0x590b2a(0x8f),_0x590b2a(0x81),'te\x20has\x20pegado\x20un\x20tiro\x20en\x20la\x20mano\x20👋🔫',_0x590b2a(0x93),_0x590b2a(0x7b),_0x590b2a(0x7c),_0x590b2a(0x88)],_0x4318eb=Math[_0x590b2a(0x7a)](Math[_0x590b2a(0x8b)]()*_0x18f4ae[_0x590b2a(0x82)]),_0x1cc415=_0x18f4ae[_0x4318eb];global['db'][_0x590b2a(0x80)][_0x590b2a(0x86)][_0x1b46e8[_0x590b2a(0x87)]]['exp']-=0x2710,_0x1b46e8[_0x590b2a(0x90)](_0x590b2a(0x75)+_0x1cc415+'.\x20Pierdes\x201000\x20puntos\x20de\x20experiencia.*');}global['db'][_0x590b2a(0x80)][_0x590b2a(0x86)][_0x1b46e8['sender']][_0x590b2a(0x7e)]=_0x466c7a;};handler[a0_0x41071c(0x98)]=[a0_0x41071c(0x8d)],handler[a0_0x41071c(0x89)]=[a0_0x41071c(0x79)],handler[a0_0x41071c(0x84)]=[a0_0x41071c(0x8d),a0_0x41071c(0x8c)],handler[a0_0x41071c(0x9a)]=!![],handler[a0_0x41071c(0x85)]=null,handler[a0_0x41071c(0x91)]=0x0;function msToTime(_0x1dfc3c){const _0x5d7551=a0_0x41071c;var _0x350639=parseInt(_0x1dfc3c%0x3e8/0x64),_0x376f7d=Math[_0x5d7551(0x7a)](_0x1dfc3c/0x3e8%0x3c),_0x3e8536=Math[_0x5d7551(0x7a)](_0x1dfc3c/(0x3e8*0x3c)%0x3c),_0x4cc755=Math[_0x5d7551(0x7a)](_0x1dfc3c/(0x3e8*0x3c*0x3c)%0x18);return _0x4cc755=_0x4cc755<0xa?'0'+_0x4cc755:_0x4cc755,_0x3e8536=_0x3e8536<0xa?'0'+_0x3e8536:_0x3e8536,_0x376f7d=_0x376f7d<0xa?'0'+_0x376f7d:_0x376f7d,_0x3e8536+_0x5d7551(0x8a)+_0x376f7d+'\x20s\x20';}export default handler;
+let handler = async (m, { conn }) => {
+global.db.data.users[m.sender].comandos += 1;
+    let currentTime = new Date().getTime();
+    let lastPlayTime = global.db.data.users[m.sender].lastRouletteTime || 0;
+    let cooldownDuration = 2 * 60 * 2000; 
+    
+    if (currentTime - lastPlayTime < cooldownDuration) {
+        let remainingTime = cooldownDuration - (currentTime - lastPlayTime);
+        let remainingTimeString = msToTime(remainingTime);
+        throw `*[ ⏲️ ] Debes esperar ${remainingTimeString} antes de jugar de nuevo.*`;
+    }
+    
+    let chance = Math.random(); 
+    
+    if (chance < 0.3) { 
+        global.db.data.users[m.sender].exp += 1000; 
+        m.reply('*[ 🍀 ] Te has salvado. Ganas 1000 puntos de experiencia.*');
+    } else {
+        let losingMessages = [
+            'te has disparado en la pierna 🦵🔫',
+            'te has pegado un tiro en la nalga 🍑🔫',
+            'te has pegado un tiro en la mano 👋🔫',
+            'te has pegado un tiro en el asterisco 😣🔫',
+            'te has pegado un tiro en la lonja 🐷🔫',
+            'te has pegado un tiro en la oreja 👂🔫',
+            'se te ha salido un tiro y le has pegado a tu ex 🧌🔫'
+        ];
+        
+        let randomIndex = Math.floor(Math.random() * losingMessages.length);
+        let losingMessage = losingMessages[randomIndex];
+        
+        global.db.data.users[m.sender].exp -= 10000; 
+        m.reply(`*[ 💥 ] ${losingMessage}. Pierdes 1000 puntos de experiencia.*`);
+    }
+    
+    global.db.data.users[m.sender].lastRouletteTime = currentTime;
+
+
+}
+handler.help = ['ruleta'];
+handler.tags = ['game']
+handler.command = ['ruleta', 'dispara'];
+handler.group = true
+handler.fail = null;
+handler.exp = 0;
+
+function msToTime(duration) {
+    var milliseconds = parseInt((duration % 1000) / 100),
+        seconds = Math.floor((duration / 1000) % 60),
+        minutes = Math.floor((duration / (1000 * 60)) % 60),
+        hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+    return minutes + " m y " + seconds + " s ";
+}
+
+export default handler;

@@ -1,1 +1,52 @@
-function a0_0x3184(_0x2c969b,_0x4df97a){const _0x44d4e5=a0_0x44d4();return a0_0x3184=function(_0x318416,_0x580b73){_0x318416=_0x318416-0x7b;let _0x260695=_0x44d4e5[_0x318416];return _0x260695;},a0_0x3184(_0x2c969b,_0x4df97a);}(function(_0xb23be4,_0x17b703){const _0x3b25f5=a0_0x3184,_0x5ebdd9=_0xb23be4();while(!![]){try{const _0x59c5f6=parseInt(_0x3b25f5(0x80))/0x1*(parseInt(_0x3b25f5(0x7d))/0x2)+-parseInt(_0x3b25f5(0x7b))/0x3*(parseInt(_0x3b25f5(0x81))/0x4)+-parseInt(_0x3b25f5(0x88))/0x5+parseInt(_0x3b25f5(0x86))/0x6+-parseInt(_0x3b25f5(0x89))/0x7*(-parseInt(_0x3b25f5(0x7c))/0x8)+-parseInt(_0x3b25f5(0x85))/0x9+parseInt(_0x3b25f5(0x83))/0xa;if(_0x59c5f6===_0x17b703)break;else _0x5ebdd9['push'](_0x5ebdd9['shift']());}catch(_0x5ac391){_0x5ebdd9['push'](_0x5ebdd9['shift']());}}}(a0_0x44d4,0x5b582));function a0_0x44d4(){const _0x542dcd=['5499153iHEfaD','2125284FtxmnY','sender','3021365tFmOuP','126SCQKsy','48933vvdUBY','256MVSfBf','12ktPxdJ','data','lastUpdate','44564wUOOqk','44FWmJir','chatgpt','11466830lWMAAu','users'];a0_0x44d4=function(){return _0x542dcd;};return a0_0x44d4();}const INACTIVITY_TIMEOUT_MS=0x1e*0x3c*0x3e8;async function deleteInactiveUserData(_0x156f36){const _0x4f111f=a0_0x3184,_0xd388a0=global[_0x4f111f(0x82)]['data']['users'][_0x156f36[_0x4f111f(0x87)]];if(!_0xd388a0)return;const _0x57401f=_0xd388a0[_0x4f111f(0x7f)]||0x0,_0x310df6=new Date()['getTime']();_0x310df6-_0x57401f>INACTIVITY_TIMEOUT_MS&&delete global[_0x4f111f(0x82)][_0x4f111f(0x7e)]['users'][_0x156f36[_0x4f111f(0x87)]];}export async function all(_0x4aa4d7){const _0x229719=a0_0x3184,_0x2262ec=global[_0x229719(0x82)][_0x229719(0x7e)]['users'][_0x4aa4d7[_0x229719(0x87)]];if(_0x2262ec)_0x2262ec[_0x229719(0x7f)]=new Date()['getTime'](),global[_0x229719(0x82)][_0x229719(0x7e)][_0x229719(0x84)][_0x4aa4d7[_0x229719(0x87)]]=_0x2262ec;else return;setTimeout(()=>deleteInactiveUserData(_0x4aa4d7),INACTIVITY_TIMEOUT_MS);}
+const INACTIVITY_TIMEOUT_MS = 30 * 60 * 1000;
+
+async function deleteInactiveUserData(m) {
+  const user = global.chatgpt.data.users[m.sender];
+  if (!user) return; // Si no existe el usuario, no hace nada
+
+  const lastUpdateTime = user.lastUpdate || 0;
+  const currentTime = new Date().getTime();
+
+  if (currentTime - lastUpdateTime > INACTIVITY_TIMEOUT_MS) {
+    delete global.chatgpt.data.users[m.sender];
+    // console.log(`Datos del usuario ${m.sender} eliminados después de ${INACTIVITY_TIMEOUT_MS / 1000 / 60} minutos de inactividad.`);
+  }
+}
+
+export async function all(m) {
+  const user = global.chatgpt.data.users[m.sender];
+
+  if (user) {
+    user.lastUpdate = new Date().getTime();
+    global.chatgpt.data.users[m.sender] = user;
+  } else {
+    return; // Si no existe el usuario, no hace nada
+  }
+
+  setTimeout(() => deleteInactiveUserData(m), INACTIVITY_TIMEOUT_MS);
+}
+
+/* const INACTIVITY_TIMEOUT_MS = 30 * 60 * 1000;
+
+async function deleteInactiveUserData(m) {
+  const user = global.chatgpt.data.users[m.sender];
+  const lastUpdateTime = user?.lastUpdate || 0;
+  const currentTime = new Date().getTime();
+
+  if (currentTime - lastUpdateTime > INACTIVITY_TIMEOUT_MS) {
+    delete global.chatgpt.data.users[m.sender];
+    //console.log(`Datos del usuario ${m.sender} eliminados después de ${INACTIVITY_TIMEOUT_MS / 1000 / 60} minutos de inactividad.`);
+  }
+}
+
+export async function all(m) {
+  let user = global.chatgpt.data.users[m.sender];
+
+  if (user) {
+    user.lastUpdate = new Date().getTime();
+    global.chatgpt.data.users[m.sender] = user;
+  }
+
+  setTimeout(() => deleteInactiveUserData(m), INACTIVITY_TIMEOUT_MS);
+
+}*/

@@ -1,1 +1,27 @@
-function a0_0x23ce(){const _0x14a6b5=['3873879VwPAva','./language/','8VeNkFr','trim','owner_exec2','.json','680pLNgku','404095ZKefYb','data','parse','bind','sender','jid','reply','1227GfcUPN','17069556ZjLCls','plugins','2367570zxQJmC','27yXlXmW','657858xeuBer','90526ELrUlk','56tudizw','conn','22niqarl','user'];a0_0x23ce=function(){return _0x14a6b5;};return a0_0x23ce();}const a0_0x5191c9=a0_0x3667;(function(_0x3db1ed,_0x34b19b){const _0x1d0228=a0_0x3667,_0x15483f=_0x3db1ed();while(!![]){try{const _0x46e646=-parseInt(_0x1d0228(0x14e))/0x1*(-parseInt(_0x1d0228(0x150))/0x2)+-parseInt(_0x1d0228(0x14a))/0x3*(parseInt(_0x1d0228(0x142))/0x4)+-parseInt(_0x1d0228(0x143))/0x5+-parseInt(_0x1d0228(0x14f))/0x6*(parseInt(_0x1d0228(0x151))/0x7)+parseInt(_0x1d0228(0x13e))/0x8*(-parseInt(_0x1d0228(0x13c))/0x9)+parseInt(_0x1d0228(0x14d))/0xa*(-parseInt(_0x1d0228(0x13a))/0xb)+parseInt(_0x1d0228(0x14b))/0xc;if(_0x46e646===_0x34b19b)break;else _0x15483f['push'](_0x15483f['shift']());}catch(_0x174579){_0x15483f['push'](_0x15483f['shift']());}}}(a0_0x23ce,0xae1a6));import a0_0x3a4c1b,{exec as a0_0x380acf}from'child_process';import{promisify}from'util';function a0_0x3667(_0xf1bbf7,_0x4f8eef){const _0x23ce64=a0_0x23ce();return a0_0x3667=function(_0x366759,_0x235ca2){_0x366759=_0x366759-0x139;let _0x4af95c=_0x23ce64[_0x366759];return _0x4af95c;},a0_0x3667(_0xf1bbf7,_0x4f8eef);}const exec=promisify(a0_0x380acf)[a0_0x5191c9(0x146)](a0_0x3a4c1b),handler=async(_0x663634,{conn:_0x31abd3,isOwner:_0x203782,command:_0x1e7772,text:_0x434d4b,usedPrefix:_0x1dc261,args:_0x158a6e,isROwner:_0x28d665})=>{const _0x517f97=a0_0x5191c9,_0x3e54fd=global,_0x5db16a=_0x3e54fd['db'][_0x517f97(0x144)]['users'][_0x663634[_0x517f97(0x147)]]['language'],_0x1c0db5=JSON[_0x517f97(0x145)](fs['readFileSync'](_0x517f97(0x13d)+_0x5db16a+_0x517f97(0x141))),_0x5cfe11=_0x1c0db5[_0x517f97(0x14c)][_0x517f97(0x140)];if(!_0x28d665)return;if(global[_0x517f97(0x139)][_0x517f97(0x13b)][_0x517f97(0x148)]!=_0x31abd3[_0x517f97(0x13b)][_0x517f97(0x148)])return;_0x663634[_0x517f97(0x149)](_0x5cfe11['texto1']);let _0x1bc589;try{_0x1bc589=await exec(_0x1e7772['trimStart']()+'\x20'+_0x434d4b['trimEnd']());}catch(_0x5ccbad){_0x1bc589=_0x5ccbad;}finally{const {stdout:_0x3f2a3a,stderr:_0x2f8cf8}=_0x1bc589;if(_0x3f2a3a[_0x517f97(0x13f)]())_0x663634[_0x517f97(0x149)](_0x3f2a3a);if(_0x2f8cf8['trim']())_0x663634[_0x517f97(0x149)](_0x2f8cf8);}};handler['customPrefix']=/^[$]/,handler['command']=new RegExp();export default handler;
+import cp, {exec as _exec} from 'child_process';
+import {promisify} from 'util';
+
+const exec = promisify(_exec).bind(cp);
+const handler = async (m, {conn, isOwner, command, text, usedPrefix, args, isROwner}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_exec2
+
+  if (!isROwner) return;
+  if (global.conn.user.jid != conn.user.jid) return;
+  m.reply(tradutor.texto1);
+  let o;
+  try {
+    o = await exec(command.trimStart() + ' ' + text.trimEnd());
+  } catch (e) {
+    o = e;
+  } finally {
+    const {stdout, stderr} = o;
+    if (stdout.trim()) m.reply(stdout);
+    if (stderr.trim()) m.reply(stderr);
+  }
+};
+handler.customPrefix = /^[$]/;
+handler.command = new RegExp;
+export default handler;

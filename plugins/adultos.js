@@ -1,1 +1,185 @@
-const a0_0x1fe6c5=a0_0x88cd;function a0_0x88cd(_0x1c87b4,_0x1d5720){const _0x194478=a0_0x1944();return a0_0x88cd=function(_0x88cd06,_0x130d1c){_0x88cd06=_0x88cd06-0xbc;let _0x45d0cf=_0x194478[_0x88cd06];return _0x45d0cf;},a0_0x88cd(_0x1c87b4,_0x1d5720);}(function(_0xff261b,_0x1d326e){const _0x3bb0e2=a0_0x88cd,_0x3ce4d4=_0xff261b();while(!![]){try{const _0x2675c2=parseInt(_0x3bb0e2(0xef))/0x1*(-parseInt(_0x3bb0e2(0xde))/0x2)+-parseInt(_0x3bb0e2(0xc2))/0x3+parseInt(_0x3bb0e2(0xe5))/0x4*(parseInt(_0x3bb0e2(0xe9))/0x5)+parseInt(_0x3bb0e2(0xfe))/0x6*(-parseInt(_0x3bb0e2(0xd8))/0x7)+-parseInt(_0x3bb0e2(0xda))/0x8*(parseInt(_0x3bb0e2(0xdd))/0x9)+parseInt(_0x3bb0e2(0xe7))/0xa+-parseInt(_0x3bb0e2(0xeb))/0xb*(-parseInt(_0x3bb0e2(0xc4))/0xc);if(_0x2675c2===_0x1d326e)break;else _0x3ce4d4['push'](_0x3ce4d4['shift']());}catch(_0x4f7e22){_0x3ce4d4['push'](_0x3ce4d4['shift']());}}}(a0_0x1944,0x9deb0));function a0_0x1944(){const _0x46ada7=['699692Tiuqqa','https://api-fgmods.ddns.net/api/nsfw/ass?apikey=fg-dylux','136gCCDfv','/api/nsfw/nsfwcum&apikey=','https://purrbot.site/api/img/nsfw/yaoi/gif','531459TnFvpV','10iGkcXW','yaoi','nsfwloli','nsfwcum','trapito','nsfwfemdom','❌\x20El\x20modo\x20NSFW\x20está\x20desactivado\x20en\x20este\x20chat.\x20Usa\x20*#enable\x20nsfw*\x20para\x20activarlo.','10948GOBZKH','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwglass.json','10240730pKxTBK','https://api-fgmods.ddns.net/api/nsfw/boobs?apikey=fg-dylux','60aFIgmL','tags','11OJdTPf','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/furro.json','yaoi2','booty','156527kexdKM','message','chat','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/porno.json','nsfwglass','furro','randomxxx','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/yuri.json','pechos','nsfworgy','isGroup','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/pechos.json','data','url','nsfwero','30SaBoLR','yuri2','json','hentai','https://purrbot.site/api/img/nsfw/yuri/gif','ecchi','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/booty.json','link','panties','https://api.waifu.pics/nsfw/trap','length','nsfw','modohorny','nsfwass','1166211RGcOvV','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwfoot.json','27179208SsgAuU','pene','MyApiRestApikey','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwero.json','random','yuri','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/panties.json','floor','imagenlesbians','https://api-fgmods.ddns.net/api/nsfw/lesbian?apikey=fg-dylux','tetas','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwloli.json','get','MyApiRestBaseUrl','porno','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/ecchi.json','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwfemdom.json','nsfwbdsm','/api/adult/pene?apikey=','https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwass.json'];a0_0x1944=function(){return _0x46ada7;};return a0_0x1944();}import a0_0x189c5c from'axios';import a0_0x46f6f9 from'node-fetch';const handler=async(_0x2b4655,{command:_0x1a582c,conn:_0xeb8a8e})=>{const _0x1b2a66=a0_0x88cd;if(!db[_0x1b2a66(0xfb)]['chats'][_0x2b4655['chat']][_0x1b2a66(0xc0)]&&_0x2b4655[_0x1b2a66(0xf9)])throw _0x1b2a66(0xe4);let _0x409344,_0x30362e,_0x571f62;switch(_0x1a582c){case'nsfwloli':_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)](_0x1b2a66(0xcf)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math['floor'](Math['random']()*_0x571f62[_0x1b2a66(0xbe)])];break;case'nsfwfoot':_0x571f62=(await a0_0x189c5c['get'](_0x1b2a66(0xc3)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math['floor'](Math['random']()*_0x571f62['length'])];break;case _0x1b2a66(0xc1):_0x571f62=(await a0_0x189c5c['get'](_0x1b2a66(0xd7)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math['floor'](Math[_0x1b2a66(0xc8)]()*_0x571f62[_0x1b2a66(0xbe)])];break;case _0x1b2a66(0xd5):_0x571f62=(await a0_0x189c5c['get']('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwbdsm.json'))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62[_0x1b2a66(0xbe)])];break;case _0x1b2a66(0xe1):_0x30362e=global[_0x1b2a66(0xd1)]+_0x1b2a66(0xdb)+global[_0x1b2a66(0xc6)];break;case _0x1b2a66(0xfd):_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)](_0x1b2a66(0xc7)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62['length'])];break;case'nsfwfemdom':_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)](_0x1b2a66(0xd4)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62[_0x1b2a66(0xbe)])];break;case'nsfwglass':_0x571f62=(await a0_0x189c5c['get'](_0x1b2a66(0xe6)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62[_0x1b2a66(0xbe)])];break;case'nsfworgy':_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)]('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfworgy.json'))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math['floor'](Math[_0x1b2a66(0xc8)]()*_0x571f62[_0x1b2a66(0xbe)])];break;case _0x1b2a66(0x101):_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)]('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/hentai.json'))['data'],_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62['length'])];break;case _0x1b2a66(0xce):_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)]('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/tetas.json'))['data'];try{_0x409344=await _0xeb8a8e['getFile'](_0x1b2a66(0xe8)),_0x30362e=_0x409344[_0x1b2a66(0xfb)]||_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62['length'])];}catch{_0x30362e=_0x571f62[Math['floor'](Math['random']()*_0x571f62[_0x1b2a66(0xbe)])];}break;case _0x1b2a66(0xee):_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)](_0x1b2a66(0x104)))[_0x1b2a66(0xfb)];try{_0x409344=await _0xeb8a8e['getFile'](_0x1b2a66(0xd9)),_0x30362e=_0x409344[_0x1b2a66(0xfb)]||_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62['length'])];}catch{_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62['length'])];}break;case _0x1b2a66(0x103):_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)](_0x1b2a66(0xd3)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62[_0x1b2a66(0xbe)])];break;case _0x1b2a66(0xf4):_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)](_0x1b2a66(0xec)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62[_0x1b2a66(0xbe)])];break;case'trapito':_0x409344=await a0_0x46f6f9(_0x1b2a66(0xbd)),_0x30362e=(await _0x409344[_0x1b2a66(0x100)]())[_0x1b2a66(0xfc)];break;case _0x1b2a66(0xcc):_0x571f62=(await a0_0x189c5c['get']('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/imagenlesbians.json'))['data'];try{_0x409344=await _0xeb8a8e['getFile'](_0x1b2a66(0xcd)),_0x30362e=_0x409344[_0x1b2a66(0xfb)]||_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62['length'])];}catch{_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math['random']()*_0x571f62[_0x1b2a66(0xbe)])];}break;case _0x1b2a66(0xbc):_0x571f62=(await a0_0x189c5c['get'](_0x1b2a66(0xca)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62[_0x1b2a66(0xbe)])];break;case _0x1b2a66(0xc5):_0x30362e=global[_0x1b2a66(0xd1)]+_0x1b2a66(0xd6)+global[_0x1b2a66(0xc6)];break;case _0x1b2a66(0xd2):_0x571f62=(await a0_0x189c5c['get'](_0x1b2a66(0xf2)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math['floor'](Math[_0x1b2a66(0xc8)]()*_0x571f62['length'])];break;case _0x1b2a66(0xf5):{const _0x2e8793=[_0x1b2a66(0xce),_0x1b2a66(0xee),_0x1b2a66(0xcc),_0x1b2a66(0xbc),_0x1b2a66(0xd2)],_0x175def=_0x2e8793[Math[_0x1b2a66(0xcb)](Math['random']()*_0x2e8793[_0x1b2a66(0xbe)])];return handler(_0x2b4655,{'command':_0x175def,'conn':_0xeb8a8e});}case'pechos':_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)](_0x1b2a66(0xfa)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62[_0x1b2a66(0xbe)])];break;case _0x1b2a66(0xdf):_0x409344=await a0_0x46f6f9('https://nekobot.xyz/api/image?type=yaoi'),_0x30362e=(await _0x409344['json']())[_0x1b2a66(0xf0)];break;case _0x1b2a66(0xed):_0x409344=await a0_0x46f6f9(_0x1b2a66(0xdc)),_0x30362e=(await _0x409344['json']())[_0x1b2a66(0x105)];break;case'yuri':_0x571f62=(await a0_0x189c5c['get'](_0x1b2a66(0xf6)))[_0x1b2a66(0xfb)],_0x30362e=_0x571f62[Math[_0x1b2a66(0xcb)](Math[_0x1b2a66(0xc8)]()*_0x571f62[_0x1b2a66(0xbe)])];break;case _0x1b2a66(0xff):_0x571f62=(await a0_0x189c5c[_0x1b2a66(0xd0)]('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/yuri.json'))['data'],_0x409344=await a0_0x46f6f9(_0x1b2a66(0x102)),_0x30362e=(await _0x409344[_0x1b2a66(0x100)]())[_0x1b2a66(0x105)]||_0x571f62[Math[_0x1b2a66(0xcb)](Math['random']()*_0x571f62[_0x1b2a66(0xbe)])];break;default:return;}_0xeb8a8e['sendMessage'](_0x2b4655[_0x1b2a66(0xf1)],{'image':{'url':_0x30362e},'caption':'_'+_0x1a582c+'_'},{'quoted':_0x2b4655});};handler['help']=[a0_0x1fe6c5(0xe0),'nsfwfoot',a0_0x1fe6c5(0xc1),a0_0x1fe6c5(0xd5),a0_0x1fe6c5(0xe1),a0_0x1fe6c5(0xfd),a0_0x1fe6c5(0xe3),a0_0x1fe6c5(0xf3),a0_0x1fe6c5(0xf8),'hentai',a0_0x1fe6c5(0xce),a0_0x1fe6c5(0xee),a0_0x1fe6c5(0x103),a0_0x1fe6c5(0xf4),a0_0x1fe6c5(0xe2),a0_0x1fe6c5(0xcc),a0_0x1fe6c5(0xbc),a0_0x1fe6c5(0xc5),'porno',a0_0x1fe6c5(0xf5),a0_0x1fe6c5(0xf7),'yaoi','yaoi2',a0_0x1fe6c5(0xc9),a0_0x1fe6c5(0xff)],handler[a0_0x1fe6c5(0xea)]=[a0_0x1fe6c5(0xbf)],handler['command']=['nsfwloli','nsfwfoot','nsfwass',a0_0x1fe6c5(0xd5),a0_0x1fe6c5(0xe1),a0_0x1fe6c5(0xfd),'nsfwfemdom',a0_0x1fe6c5(0xf3),a0_0x1fe6c5(0xf8),a0_0x1fe6c5(0x101),'tetas','booty',a0_0x1fe6c5(0x103),a0_0x1fe6c5(0xf4),'trapito','imagenlesbians','panties',a0_0x1fe6c5(0xc5),a0_0x1fe6c5(0xd2),a0_0x1fe6c5(0xf5),a0_0x1fe6c5(0xf7),'yaoi',a0_0x1fe6c5(0xed),'yuri',a0_0x1fe6c5(0xff)];export default handler;
+// plugins/nsfw.js
+import axios from 'axios'
+import fetch from 'node-fetch'
+
+/**
+ * Plugin independiente que muestra imágenes NSFW sin dependencias de idioma.
+ */
+const handler = async (m, { command, conn }) => {
+  // Sólo en grupos con modo NSFW activado
+  if (!db.data.chats[m.chat].modohorny && m.isGroup) 
+    throw '❌ El modo NSFW está desactivado en este chat. Usa *#enable nsfw* para activarlo.'
+
+  let res, url, arr
+
+  switch (command) {
+    case 'nsfwloli':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwloli.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'nsfwfoot':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwfoot.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'nsfwass':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwass.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'nsfwbdsm':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwbdsm.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'nsfwcum':
+      url = `${global.MyApiRestBaseUrl}/api/nsfw/nsfwcum&apikey=${global.MyApiRestApikey}`
+      break
+
+    case 'nsfwero':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwero.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'nsfwfemdom':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwfemdom.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'nsfwglass':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwglass.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'nsfworgy':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfworgy.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'hentai':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/hentai.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'tetas':
+      // Usa API externa, si falla recurre al JSON
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/tetas.json')).data
+      try {
+        res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/boobs?apikey=fg-dylux`)
+        url = res.data || arr[Math.floor(Math.random() * arr.length)]
+      } catch {
+        url = arr[Math.floor(Math.random() * arr.length)]
+      }
+      break
+
+    case 'booty':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/booty.json')).data
+      try {
+        res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/ass?apikey=fg-dylux`)
+        url = res.data || arr[Math.floor(Math.random() * arr.length)]
+      } catch {
+        url = arr[Math.floor(Math.random() * arr.length)]
+      }
+      break
+
+    case 'ecchi':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/ecchi.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'furro':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/furro.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'trapito':
+      res = await fetch('https://api.waifu.pics/nsfw/trap')
+      url = (await res.json()).url
+      break
+
+    case 'imagenlesbians':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/imagenlesbians.json')).data
+      try {
+        res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/lesbian?apikey=fg-dylux`)
+        url = res.data || arr[Math.floor(Math.random() * arr.length)]
+      } catch {
+        url = arr[Math.floor(Math.random() * arr.length)]
+      }
+      break
+
+    case 'panties':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/panties.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'pene':
+      url = `${global.MyApiRestBaseUrl}/api/adult/pene?apikey=${global.MyApiRestApikey}`
+      break
+
+    case 'porno':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/porno.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'randomxxx':
+      {
+        const sources = [
+          'tetas', 'booty', 'imagenlesbians', 'panties', 'porno'
+        ]
+        const choice = sources[Math.floor(Math.random() * sources.length)]
+        return handler(m, { command: choice, conn })
+      }
+
+    case 'pechos':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/pechos.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'yaoi':
+      res = await fetch('https://nekobot.xyz/api/image?type=yaoi')
+      url = (await res.json()).message
+      break
+
+    case 'yaoi2':
+      res = await fetch('https://purrbot.site/api/img/nsfw/yaoi/gif')
+      url = (await res.json()).link
+      break
+
+    case 'yuri':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/yuri.json')).data
+      url = arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    case 'yuri2':
+      arr = (await axios.get('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/yuri.json')).data
+      res = await fetch('https://purrbot.site/api/img/nsfw/yuri/gif')
+      url = (await res.json()).link || arr[Math.floor(Math.random() * arr.length)]
+      break
+
+    default:
+      return
+  }
+
+  // Envía la imagen
+  conn.sendMessage(
+    m.chat,
+    { image: { url }, caption: `_${command}_` },
+    { quoted: m }
+  )
+}
+
+handler.help = [
+  'nsfwloli', 'nsfwfoot', 'nsfwass', 'nsfwbdsm', 'nsfwcum', 'nsfwero', 'nsfwfemdom',
+  'nsfwglass', 'nsfworgy', 'hentai', 'tetas', 'booty', 'ecchi', 'furro', 'trapito',
+  'imagenlesbians', 'panties', 'pene', 'porno', 'randomxxx', 'pechos', 'yaoi', 'yaoi2',
+  'yuri', 'yuri2'
+]
+handler.tags = ['adultos']
+handler.command = [
+  'nsfwloli', 'nsfwfoot', 'nsfwass', 'nsfwbdsm', 'nsfwcum', 'nsfwero', 'nsfwfemdom',
+  'nsfwglass', 'nsfworgy', 'hentai', 'tetas', 'booty', 'ecchi', 'furro', 'trapito',
+  'imagenlesbians', 'panties', 'pene', 'porno', 'randomxxx', 'pechos', 'yaoi', 'yaoi2',
+  'yuri', 'yuri2'
+]
+export default handler

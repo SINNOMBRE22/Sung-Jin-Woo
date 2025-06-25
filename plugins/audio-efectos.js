@@ -1,1 +1,130 @@
-const a0_0x1fb4f9=a0_0x42f4;(function(_0x1d3cf6,_0x5ef58e){const _0x3dc5c9=a0_0x42f4,_0x26f1b0=_0x1d3cf6();while(!![]){try{const _0x42933f=-parseInt(_0x3dc5c9(0x19f))/0x1*(-parseInt(_0x3dc5c9(0x179))/0x2)+-parseInt(_0x3dc5c9(0x19a))/0x3*(-parseInt(_0x3dc5c9(0x197))/0x4)+-parseInt(_0x3dc5c9(0x181))/0x5*(-parseInt(_0x3dc5c9(0x19d))/0x6)+parseInt(_0x3dc5c9(0x196))/0x7*(-parseInt(_0x3dc5c9(0x193))/0x8)+-parseInt(_0x3dc5c9(0x195))/0x9+-parseInt(_0x3dc5c9(0x18c))/0xa*(-parseInt(_0x3dc5c9(0x1a0))/0xb)+-parseInt(_0x3dc5c9(0x18a))/0xc*(-parseInt(_0x3dc5c9(0x17f))/0xd);if(_0x42933f===_0x5ef58e)break;else _0x26f1b0['push'](_0x26f1b0['shift']());}catch(_0x4edd05){_0x26f1b0['push'](_0x26f1b0['shift']());}}}(a0_0x9008,0xa2a6e));import{unlinkSync,existsSync,writeFileSync,readFileSync,mkdirSync}from'fs';function a0_0x42f4(_0x9ee4cb,_0x38b0e9){const _0x9008d7=a0_0x9008();return a0_0x42f4=function(_0x42f418,_0x342bc4){_0x42f418=_0x42f418-0x16c;let _0x9bd6b0=_0x9008d7[_0x42f418];return _0x9bd6b0;},a0_0x42f4(_0x9ee4cb,_0x38b0e9);}import{join,dirname}from'path';import{fileURLToPath}from'url';import{exec}from'child_process';const __filename=fileURLToPath(import.meta['url']),__dirname=dirname(__filename),tmpDir=join(__dirname,a0_0x1fb4f9(0x17d));!existsSync(tmpDir)&&mkdirSync(tmpDir,{'recursive':!![]});function a0_0x9008(){const _0x504596=['fast','-af\x20volume=12','\x20-c:a\x20libopus\x20-b:a\x2064k\x20-vbr\x20on\x20-y\x20\x22','squirrel','ogg','Error\x20en\x20FFmpeg:','audio','132TAUOkc','tupai','nightcore','-filter:a\x20atempo=0.5,asetrate=65100','../tmp/','earrape','10831834DQJwKB','react','3955205BhnpQU','startsWith','robot','-filter_complex\x20\x22afftfilt=real=\x27hypot(re,im)*sin(0)\x27:imag=\x27hypot(re,im)*cos(0)\x27:win_size=512:overlap=0.75\x22','mimetype','audio/','mp3','*Error:\x20No\x20se\x20generó\x20el\x20archivo\x20de\x20audio.*','fat','12wywBSH','reply','330WUSjFN','_input.','-af\x20atempo=4/4,asetrate=44500*2/3','-filter:a\x20atempo=1.63,asetrate=44100','-filter:a\x20atempo=1.6,asetrate=22100','chipmunk','*Error\x20crítico:*\x0a','128888uHgebj','-af\x20acrusher=.1:1:64:0:log','3060009mRjmaD','413EeggSM','8xrYcIB','tags','-af\x20equalizer=f=94:width_type=o:width=2:g=30','271416lHSXIg','now','chat','6ybdgSR','blown','1202OdSmIa','24079LuzLco','map','audio/ogg;\x20codecs=opus','includes','reverse','⚠️\x20Filtro\x20no\x20reconocido','Error\x20al\x20procesar\x20el\x20audio','bass','_output.ogg','sendMessage','message'];a0_0x9008=function(){return _0x504596;};return a0_0x9008();}let handler=async(_0x469c9f,{conn:_0xfd94d4,usedPrefix:_0x52285e,command:_0x309f89})=>{const _0x6e9cb4=a0_0x1fb4f9;try{await _0x469c9f[_0x6e9cb4(0x180)]('⏳');const _0x1a88c5=_0x469c9f['quoted']||_0x469c9f,_0x4ee742=(_0x1a88c5['msg']||_0x1a88c5)[_0x6e9cb4(0x185)]||'';if(!_0x4ee742[_0x6e9cb4(0x182)](_0x6e9cb4(0x186)))return await _0x469c9f['react']('❌'),_0xfd94d4[_0x6e9cb4(0x18b)](_0x469c9f[_0x6e9cb4(0x19c)],'*🚩\x20Responde\x20a\x20un\x20audio\x20o\x20nota\x20de\x20voz.*\x0a\x0aEjemplo:\x20*'+(_0x52285e+_0x309f89)+'*',_0x469c9f);let _0x3a2914='';switch(_0x309f89['toLowerCase']()){case _0x6e9cb4(0x16e):_0x3a2914=_0x6e9cb4(0x199);break;case _0x6e9cb4(0x19e):_0x3a2914=_0x6e9cb4(0x194);break;case'deep':_0x3a2914=_0x6e9cb4(0x18e);break;case'earrape':_0x3a2914=_0x6e9cb4(0x173);break;case _0x6e9cb4(0x172):_0x3a2914=_0x6e9cb4(0x18f);break;case _0x6e9cb4(0x189):_0x3a2914=_0x6e9cb4(0x190);break;case _0x6e9cb4(0x17b):_0x3a2914='-filter:a\x20atempo=1.06,asetrate=44100*1.25';break;case'reverse':_0x3a2914='-filter_complex\x20areverse';break;case _0x6e9cb4(0x183):_0x3a2914=_0x6e9cb4(0x184);break;case'slow':_0x3a2914='-filter:a\x20atempo=0.7,asetrate=44100';break;case _0x6e9cb4(0x17a):case _0x6e9cb4(0x175):case _0x6e9cb4(0x191):_0x3a2914=_0x6e9cb4(0x17c);break;default:await _0x469c9f[_0x6e9cb4(0x180)]('❌');return _0xfd94d4[_0x6e9cb4(0x18b)](_0x469c9f[_0x6e9cb4(0x19c)],_0x6e9cb4(0x16c),_0x469c9f);}const _0x1b61ee=Date[_0x6e9cb4(0x19b)](),_0x392ac4=_0x4ee742[_0x6e9cb4(0x1a3)](_0x6e9cb4(0x176))?_0x6e9cb4(0x176):_0x6e9cb4(0x187),_0x1ec1e8=join(tmpDir,_0x1b61ee+_0x6e9cb4(0x18d)+_0x392ac4),_0x1fbe85=join(tmpDir,_0x1b61ee+_0x6e9cb4(0x16f)),_0x31cadc=await _0x1a88c5['download']();writeFileSync(_0x1ec1e8,_0x31cadc);const _0x26a499='ffmpeg\x20-i\x20\x22'+_0x1ec1e8+'\x22\x20'+_0x3a2914+_0x6e9cb4(0x174)+_0x1fbe85+'\x22';await new Promise((_0x3cfa98,_0x241a3e)=>{exec(_0x26a499,(_0x48cf1e,_0x1e6b02,_0x24a23d)=>{const _0x3a053a=a0_0x42f4;if(existsSync(_0x1ec1e8))unlinkSync(_0x1ec1e8);if(_0x48cf1e)return console['error'](_0x3a053a(0x177),_0x24a23d),_0x469c9f['react']('❌')['catch'](()=>{}),_0x241a3e(new Error(_0x3a053a(0x16d)));_0x3cfa98();});});if(!existsSync(_0x1fbe85))return await _0x469c9f['react']('❌'),_0xfd94d4['reply'](_0x469c9f[_0x6e9cb4(0x19c)],_0x6e9cb4(0x188),_0x469c9f);const _0x50db52=readFileSync(_0x1fbe85);unlinkSync(_0x1fbe85),await _0xfd94d4[_0x6e9cb4(0x170)](_0x469c9f['chat'],{'audio':_0x50db52,'mimetype':_0x6e9cb4(0x1a2),'ptt':!![]},{'quoted':_0x469c9f}),await _0x469c9f[_0x6e9cb4(0x180)]('✅');}catch(_0x34722a){console['error'](_0x34722a),await _0x469c9f[_0x6e9cb4(0x180)]('❌'),_0xfd94d4[_0x6e9cb4(0x18b)](_0x469c9f[_0x6e9cb4(0x19c)],_0x6e9cb4(0x192)+_0x34722a[_0x6e9cb4(0x171)],_0x469c9f);}};handler['help']=['bass',a0_0x1fb4f9(0x19e),'deep',a0_0x1fb4f9(0x17e),'fast','fat',a0_0x1fb4f9(0x17b),a0_0x1fb4f9(0x1a4),a0_0x1fb4f9(0x183),'slow',a0_0x1fb4f9(0x17a)][a0_0x1fb4f9(0x1a1)](_0x4c2625=>_0x4c2625+'\x20<audio>'),handler[a0_0x1fb4f9(0x198)]=[a0_0x1fb4f9(0x178)],handler['command']=/^(bass|blown|deep|earrape|fas?t|nightcore|reverse|robot|slow|tupai|squirrel|chipmunk)$/i;export default handler;
+//creado por sinnombre +5215629885039
+import { unlinkSync, existsSync, writeFileSync, readFileSync, mkdirSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+import { exec } from 'child_process';
+
+// Corrige __dirname para ES Modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Asegura el directorio temporal
+const tmpDir = join(__dirname, '../tmp/');
+if (!existsSync(tmpDir)) {
+  mkdirSync(tmpDir, { recursive: true });
+}
+
+let handler = async (m, { conn, usedPrefix, command }) => {
+  try {
+    await m.react('⏳');
+
+    // Se Obtén el mensaje citado o el actual
+    const q = m.quoted || m;
+    const mime = (q.msg || q).mimetype || '';
+    if (!mime.startsWith('audio/')) {
+      await m.react('❌');
+      return conn.reply(
+        m.chat,
+        `*🚩 Responde a un audio o nota de voz.*\n\nEjemplo: *${usedPrefix + command}*`,
+        m
+      );
+    }
+
+    // Aqui Se define el filtro de audio según el comando
+    let filter = '';
+    switch (command.toLowerCase()) {
+      case 'bass':
+        filter = '-af equalizer=f=94:width_type=o:width=2:g=30';
+        break;
+      case 'blown':
+        filter = '-af acrusher=.1:1:64:0:log';
+        break;
+      case 'deep':
+        filter = '-af atempo=4/4,asetrate=44500*2/3';
+        break;
+      case 'earrape':
+        filter = '-af volume=12';
+        break;
+      case 'fast':
+        filter = '-filter:a atempo=1.63,asetrate=44100';
+        break;
+      case 'fat':
+        filter = '-filter:a atempo=1.6,asetrate=22100';
+        break;
+      case 'nightcore':
+        filter = '-filter:a atempo=1.06,asetrate=44100*1.25';
+        break;
+      case 'reverse':
+        filter = '-filter_complex areverse';
+        break;
+      case 'robot':
+        filter = '-filter_complex "afftfilt=real=\'hypot(re,im)*sin(0)\':imag=\'hypot(re,im)*cos(0)\':win_size=512:overlap=0.75"';
+        break;
+      case 'slow':
+        filter = '-filter:a atempo=0.7,asetrate=44100';
+        break;
+      case 'tupai':
+      case 'squirrel':
+      case 'chipmunk':
+        filter = '-filter:a atempo=0.5,asetrate=65100';
+        break;
+      default:
+        await m.react('❌');
+        return conn.reply(m.chat, '⚠️ Filtro no reconocido', m);
+    }
+
+    // Nombres de archivo usando un timestamp
+    const timestamp = Date.now();
+    const inputExt = mime.includes('ogg') ? 'ogg' : 'mp3';
+    const inputPath = join(tmpDir, `${timestamp}_input.${inputExt}`);
+    // Forzamos la salida a ogg (voice note)
+    const outputPath = join(tmpDir, `${timestamp}_output.ogg`);
+
+    // Descarga y guarda el audio recibido
+    const buffer = await q.download();
+    writeFileSync(inputPath, buffer);
+
+    // Ejecuta FFmpeg para aplicar el filtro y convertir a ogg con libopus
+    const ffmpegCmd = `ffmpeg -i "${inputPath}" ${filter} -c:a libopus -b:a 64k -vbr on -y "${outputPath}"`;
+    await new Promise((resolve, reject) => {
+      exec(ffmpegCmd, (err, stdout, stderr) => {
+        // Elimina el archivo de entrada
+        if (existsSync(inputPath)) unlinkSync(inputPath);
+        if (err) {
+          console.error('Error en FFmpeg:', stderr);
+          m.react('❌').catch(() => {});
+          return reject(new Error('Error al procesar el audio'));
+        }
+        resolve();
+      });
+    });
+
+    // Verifica que se haya generado el archivo de salida
+    if (!existsSync(outputPath)) {
+      await m.react('❌');
+      return conn.reply(m.chat, '*Error: No se generó el archivo de audio.*', m);
+    }
+
+    // Lee el archivo procesado y elimínalo
+    const outputBuffer = readFileSync(outputPath);
+    unlinkSync(outputPath);
+
+    // Envía el audio usando el método sendMessage actualizado
+    await conn.sendMessage(
+      m.chat,
+      { audio: outputBuffer, mimetype: 'audio/ogg; codecs=opus', ptt: true },
+      { quoted: m }
+    );
+    await m.react('✅');
+  } catch (error) {
+    console.error(error);
+    await m.react('❌');
+    conn.reply(m.chat, `*Error crítico:*\n${error.message}`, m);
+  }
+};
+
+handler.help = ['bass', 'blown', 'deep', 'earrape', 'fast', 'fat', 'nightcore', 'reverse', 'robot', 'slow', 'tupai'].map(v => v + ' <audio>');
+handler.tags = ['audio'];
+handler.command = /^(bass|blown|deep|earrape|fas?t|nightcore|reverse|robot|slow|tupai|squirrel|chipmunk)$/i;
+export default handler;
+

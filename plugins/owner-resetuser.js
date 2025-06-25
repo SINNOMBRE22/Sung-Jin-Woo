@@ -1,1 +1,40 @@
-const a0_0x25ae84=a0_0x19df;function a0_0x19df(_0x91420a,_0x3a9350){const _0x2a5d28=a0_0x2a5d();return a0_0x19df=function(_0x19df0f,_0x3e2dcd){_0x19df0f=_0x19df0f-0x1d9;let _0x464dd0=_0x2a5d28[_0x19df0f];return _0x464dd0;},a0_0x19df(_0x91420a,_0x3a9350);}(function(_0x5bde8c,_0x4d7319){const _0x523d79=a0_0x19df,_0x56fa37=_0x5bde8c();while(!![]){try{const _0x5bd558=-parseInt(_0x523d79(0x1e8))/0x1+parseInt(_0x523d79(0x1e5))/0x2+-parseInt(_0x523d79(0x1e6))/0x3*(-parseInt(_0x523d79(0x1df))/0x4)+-parseInt(_0x523d79(0x1e4))/0x5*(parseInt(_0x523d79(0x1ed))/0x6)+-parseInt(_0x523d79(0x1da))/0x7*(-parseInt(_0x523d79(0x1f7))/0x8)+parseInt(_0x523d79(0x1dc))/0x9+-parseInt(_0x523d79(0x1d9))/0xa;if(_0x5bd558===_0x4d7319)break;else _0x56fa37['push'](_0x56fa37['shift']());}catch(_0x27b51e){_0x56fa37['push'](_0x56fa37['shift']());}}}(a0_0x2a5d,0x74e67));function a0_0x2a5d(){const _0x319e69=['6999540bDCggr','7nBGctv','parse','2987856GwrPZi','join','split','188Glohgc','rowner','users','readFileSync','global','395yrOoOf','1322798GlcQCo','24462prjOqK','owner_resetuser','672908izfImh','data','sender','texto3','texto2','32664gJtpsn','participants','isGroup','texto4','language','match','groupMetadata','sendMessage','find','.json','7241120zFICKG','chat','quoted','tags'];a0_0x2a5d=function(){return _0x319e69;};return a0_0x2a5d();}const handler=async(_0x54157c,{conn:_0x429bcf,text:_0x2c5fca})=>{const _0x45e48f=a0_0x19df,_0x568dd6=global,_0x2115f2=_0x568dd6['db'][_0x45e48f(0x1e9)][_0x45e48f(0x1e1)][_0x54157c[_0x45e48f(0x1ea)]][_0x45e48f(0x1f1)],_0x3517f1=JSON[_0x45e48f(0x1db)](fs[_0x45e48f(0x1e2)]('./language/'+_0x2115f2+_0x45e48f(0x1f6))),_0x5e3e55=_0x3517f1['plugins'][_0x45e48f(0x1e7)],_0x50dc25=/\d+/g;let _0x232088='';const _0x2b3864=_0x2c5fca[_0x45e48f(0x1f2)](_0x50dc25);if(_0x2b3864){const _0x5a444d=_0x2b3864['join']('');_0x232088=_0x5a444d+'@s.whatsapp.net';}else{if(_0x54157c[_0x45e48f(0x1f9)]&&_0x54157c[_0x45e48f(0x1f9)][_0x45e48f(0x1ea)]){const _0x3f5847=_0x54157c[_0x45e48f(0x1f9)][_0x45e48f(0x1ea)]['match'](_0x50dc25);if(_0x3f5847){const _0x239ec9=_0x3f5847[_0x45e48f(0x1dd)]('');_0x232088=_0x239ec9+'@s.whatsapp.net';}else return _0x429bcf[_0x45e48f(0x1f4)](_0x54157c[_0x45e48f(0x1f8)],{'text':_0x5e3e55['texto1']},{'quoted':_0x54157c});}else return _0x429bcf[_0x45e48f(0x1f4)](_0x54157c[_0x45e48f(0x1f8)],{'text':_0x5e3e55[_0x45e48f(0x1ec)]},{'quoted':_0x54157c});}const _0xed6f28=_0x54157c[_0x45e48f(0x1ef)]?await _0x429bcf[_0x45e48f(0x1f3)](_0x54157c[_0x45e48f(0x1f8)]):{},_0x552a53=_0x54157c[_0x45e48f(0x1ef)]?_0xed6f28[_0x45e48f(0x1ee)]:[],_0x384b20=_0x54157c['isGroup']?_0x552a53[_0x45e48f(0x1f5)](_0x2f2e71=>_0x2f2e71['jid']==_0x232088):{},_0x246078=_0x232088[_0x45e48f(0x1de)]('@')[0x0];if(!global[_0x45e48f(0x1e3)]['db']['data']['users'][_0x232088]||global[_0x45e48f(0x1e3)]['db'][_0x45e48f(0x1e9)][_0x45e48f(0x1e1)][_0x232088]=='')return _0x429bcf[_0x45e48f(0x1f4)](_0x54157c[_0x45e48f(0x1f8)],{'text':_0x5e3e55[_0x45e48f(0x1eb)][0x0]+'\x20@'+_0x246078+'\x20'+_0x5e3e55[_0x45e48f(0x1eb)][0x1],'mentions':[_0x232088]},{'quoted':_0x54157c});delete global[_0x45e48f(0x1e3)]['db'][_0x45e48f(0x1e9)]['users'][_0x232088],_0x429bcf[_0x45e48f(0x1f4)](_0x54157c[_0x45e48f(0x1f8)],{'text':_0x5e3e55['texto4'][0x0]+'\x20@'+_0x246078+'\x20'+_0x5e3e55[_0x45e48f(0x1f0)][0x1],'mentions':[_0x232088]},{'quoted':_0x54157c});};handler[a0_0x25ae84(0x1fa)]=['owner'],handler['command']=/(restablecerdatos|deletedatauser|resetuser)$/i,handler[a0_0x25ae84(0x1e0)]=!![];export default handler;
+
+
+const handler = async (m, { conn, text }) => {
+    const datas = global
+    const idioma = datas.db.data.users[m.sender].language
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const tradutor = _translate.plugins.owner_resetuser
+
+
+    const numberPattern = /\d+/g;
+    let user = '';
+    const numberMatches = text.match(numberPattern);
+    if (numberMatches) {
+        const number = numberMatches.join('');
+        user = number + '@s.whatsapp.net';
+    } else if (m.quoted && m.quoted.sender) {
+        const quotedNumberMatches = m.quoted.sender.match(numberPattern);
+        if (quotedNumberMatches) {
+            const number = quotedNumberMatches.join('');
+            user = number + '@s.whatsapp.net';
+        } else {
+            return conn.sendMessage(m.chat, { text: tradutor.texto1 }, { quoted: m });
+        }
+    } else {
+        return conn.sendMessage(m.chat, { text: tradutor.texto2 }, { quoted: m });
+    }
+    const groupMetadata = m.isGroup ? await conn.groupMetadata(m.chat) : {};
+    const participants = m.isGroup ? groupMetadata.participants : [];
+    const users = m.isGroup ? participants.find(u => u.jid == user) : {};
+    const userNumber = user.split('@')[0];
+    if (!global.global.db.data.users[user] || global.global.db.data.users[user] == '') {
+        return conn.sendMessage(m.chat, { text: `${tradutor.texto3[0]} @${userNumber} ${tradutor.texto3[1]}`, mentions: [user] }, { quoted: m });
+    }
+    delete global.global.db.data.users[user];
+    conn.sendMessage(m.chat, { text: `${tradutor.texto4[0]} @${userNumber} ${tradutor.texto4[1]}`, mentions: [user] }, { quoted: m });
+};
+handler.tags = ['owner'];
+handler.command = /(restablecerdatos|deletedatauser|resetuser)$/i;
+handler.rowner = true;
+export default handler;

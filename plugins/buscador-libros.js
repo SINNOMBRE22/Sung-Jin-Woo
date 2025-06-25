@@ -1,1 +1,92 @@
-const a0_0x295361=a0_0x3965;(function(_0x53dade,_0x1a50ca){const _0x428e04=a0_0x3965,_0x38033c=_0x53dade();while(!![]){try{const _0x1e9d27=parseInt(_0x428e04(0x109))/0x1*(parseInt(_0x428e04(0x107))/0x2)+parseInt(_0x428e04(0x130))/0x3*(parseInt(_0x428e04(0x10e))/0x4)+parseInt(_0x428e04(0x134))/0x5+parseInt(_0x428e04(0x111))/0x6+-parseInt(_0x428e04(0x12c))/0x7*(parseInt(_0x428e04(0x11f))/0x8)+-parseInt(_0x428e04(0x122))/0x9+-parseInt(_0x428e04(0x118))/0xa;if(_0x1e9d27===_0x1a50ca)break;else _0x38033c['push'](_0x38033c['shift']());}catch(_0x3176ec){_0x38033c['push'](_0x38033c['shift']());}}}(a0_0x511b,0xbed57));import a0_0x57fd01 from'cheerio';function a0_0x3965(_0x39074e,_0x295ee3){const _0x511b25=a0_0x511b();return a0_0x3965=function(_0x396515,_0x4a3d2f){_0x396515=_0x396515-0x107;let _0x5f00ff=_0x511b25[_0x396515];return _0x5f00ff;},a0_0x3965(_0x39074e,_0x295ee3);}let handler=async(_0x3bee8a,{text:_0x54a673,conn:_0x508eac})=>{const _0x30ece7=a0_0x3965;if(!_0x54a673)return _0x3bee8a['reply'](_0x30ece7(0x11a));let _0x257206=_0x54a673,_0x50ad10=_0x30ece7(0x11b)+encodeURIComponent(_0x257206);try{let _0x4c64f2=await fetch(_0x50ad10,{'headers':{'User-Agent':_0x30ece7(0x124)}});if(!_0x4c64f2['ok'])return _0x3bee8a[_0x30ece7(0x11c)](_0x30ece7(0x114)+_0x4c64f2['statusText']);let _0x288007=await _0x4c64f2[_0x30ece7(0x125)](),_0x1d467a=a0_0x57fd01[_0x30ece7(0x116)](_0x288007),_0x4e8d01=[];_0x1d467a('li.booklink')['each']((_0x368076,_0x183e38)=>{const _0x28c063=_0x30ece7;let _0x1067e0=_0x1d467a(_0x183e38)[_0x28c063(0x132)](_0x28c063(0x12f))[_0x28c063(0x125)]()[_0x28c063(0x119)](),_0x21b684=_0x1d467a(_0x183e38)[_0x28c063(0x132)](_0x28c063(0x113))[_0x28c063(0x125)]()[_0x28c063(0x119)](),_0x220183=_0x28c063(0x108)+_0x1d467a(_0x183e38)['find']('a')[_0x28c063(0x12e)](_0x28c063(0x121));_0x4e8d01[_0x28c063(0x115)]({'title':_0x1067e0,'author':_0x21b684,'link':_0x220183});});if(_0x4e8d01[_0x30ece7(0x128)]===0x0)return _0x3bee8a['reply'](_0x30ece7(0x10d));let _0xae35b8=_0x4e8d01[0x0];_0x3bee8a['reply'](_0x30ece7(0x126)+_0xae35b8[_0x30ece7(0x110)]+(_0xae35b8[_0x30ece7(0x131)]?'\x20-\x20'+_0xae35b8['author']:'')+'\x0aDescargando...');let _0x336f98=await fetch(_0xae35b8[_0x30ece7(0x10f)],{'headers':{'User-Agent':_0x30ece7(0x124)}});if(!_0x336f98['ok'])return _0x3bee8a[_0x30ece7(0x11c)]('Error\x20al\x20obtener\x20la\x20página\x20del\x20libro:\x20'+_0x336f98[_0x30ece7(0x123)]);let _0x11a269=await _0x336f98[_0x30ece7(0x125)](),_0x3fdf98=a0_0x57fd01['load'](_0x11a269),_0x231384=_0x3fdf98(_0x30ece7(0x129))[_0x30ece7(0x12e)](_0x30ece7(0x121));!_0x231384&&(_0x231384=_0x3fdf98(_0x30ece7(0x12d))['attr'](_0x30ece7(0x121)));if(!_0x231384)return _0x3bee8a[_0x30ece7(0x11c)](_0x30ece7(0x133));_0x231384[_0x30ece7(0x112)]('/')&&(_0x231384=_0x30ece7(0x108)+_0x231384);let _0x40c1d7=await fetch(_0x231384,{'headers':{'User-Agent':_0x30ece7(0x124)}});if(!_0x40c1d7['ok'])return _0x3bee8a[_0x30ece7(0x11c)](_0x30ece7(0x120)+_0x40c1d7['statusText']);let _0x330304=await _0x40c1d7[_0x30ece7(0x11d)](),_0x1c15d0=Buffer['from'](_0x330304);await _0x508eac['sendFile'](_0x3bee8a[_0x30ece7(0x10c)],_0x1c15d0,_0xae35b8[_0x30ece7(0x110)]+'.txt','Aquí\x20tienes\x20el\x20libro:\x20'+_0xae35b8['title'],_0x3bee8a);}catch(_0x40815a){console[_0x30ece7(0x12a)](_0x40815a),_0x3bee8a[_0x30ece7(0x11c)](_0x30ece7(0x12b));}};handler[a0_0x295361(0x10a)]=[a0_0x295361(0x117)],handler[a0_0x295361(0x11e)]=[a0_0x295361(0x127)],handler[a0_0x295361(0x10b)]=/^libro$/i;function a0_0x511b(){const _0x167233=['a[href$=\x22.txt\x22]','attr','span.title','3642FQIPDn','author','find','No\x20se\x20encontró\x20una\x20versión\x20en\x20texto\x20plano\x20para\x20descargar.','7811800BACjIR','137582bSNFtd','https://www.gutenberg.org','11EcobWu','help','command','chat','No\x20se\x20encontraron\x20libros\x20para\x20esa\x20búsqueda.','632gfLvWt','link','title','3024552PuIsAH','startsWith','span.subtitle','Error\x20en\x20la\x20búsqueda:\x20','push','load','libro\x20<título>','11135750eTGMoG','trim','Por\x20favor,\x20ingresa\x20el\x20título\x20o\x20tema\x20del\x20libro\x20a\x20buscar.','https://www.gutenberg.org/ebooks/search/?query=','reply','arrayBuffer','tags','2312MUzjAr','Error\x20al\x20descargar\x20el\x20libro:\x20','href','3156354NuVzjX','statusText','Mozilla/5.0\x20(Windows\x20NT\x2010.0;\x20Win64;\x20x64)','text','Encontrado:\x20','buscador','length','a[type=\x22text/plain\x22]','error','Ocurrió\x20un\x20error\x20al\x20buscar\x20o\x20descargar\x20el\x20libro.\x20Intenta\x20nuevamente.','18627RDtQoP'];a0_0x511b=function(){return _0x167233;};return a0_0x511b();}export default handler;
+import cheerio from 'cheerio'
+
+let handler = async (m, { text, conn }) => {
+  if (!text) return m.reply('Por favor, ingresa el título o tema del libro a buscar.')
+
+  let query = text
+  let searchUrl = `https://www.gutenberg.org/ebooks/search/?query=${encodeURIComponent(query)}`
+
+  try {
+    // Buscar el libro en Project Gutenberg
+    let res = await fetch(searchUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+      }
+    })
+
+    if (!res.ok) {
+      return m.reply(`Error en la búsqueda: ${res.statusText}`)
+    }
+
+    let html = await res.text()
+    let $ = cheerio.load(html)
+    let results = []
+
+    $('li.booklink').each((i, el) => {
+      let title = $(el).find('span.title').text().trim()
+      let author = $(el).find('span.subtitle').text().trim()
+      let link = 'https://www.gutenberg.org' + $(el).find('a').attr('href')
+      results.push({ title, author, link })
+    })
+
+    if (results.length === 0) {
+      return m.reply('No se encontraron libros para esa búsqueda.')
+    }
+
+    // Seleccionar el primer resultado encontrado
+    let book = results[0]
+    m.reply(`Encontrado: ${book.title}${book.author ? ' - ' + book.author : ''}\nDescargando...`)
+
+    // Obtener la página del libro
+    let bookRes = await fetch(book.link, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+      }
+    })
+    if (!bookRes.ok) {
+      return m.reply(`Error al obtener la página del libro: ${bookRes.statusText}`)
+    }
+    let bookHtml = await bookRes.text()
+    let $$ = cheerio.load(bookHtml)
+
+    // Intentar encontrar un enlace a la versión en texto plano
+    let downloadLink = $$('a[type="text/plain"]').attr('href')
+    if (!downloadLink) {
+      downloadLink = $$('a[href$=".txt"]').attr('href')
+    }
+
+    if (!downloadLink) {
+      return m.reply('No se encontró una versión en texto plano para descargar.')
+    }
+
+    // Asegurar que el enlace sea absoluto
+    if (downloadLink.startsWith('/')) {
+      downloadLink = 'https://www.gutenberg.org' + downloadLink
+    }
+
+    // Descargar el archivo de texto
+    let fileRes = await fetch(downloadLink, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+      }
+    })
+    if (!fileRes.ok) {
+      return m.reply(`Error al descargar el libro: ${fileRes.statusText}`)
+    }
+
+    let buffer = await fileRes.arrayBuffer()
+    let fileBuffer = Buffer.from(buffer)
+
+    // Enviar el archivo al chat (se asume que conn.sendFile existe)
+    await conn.sendFile(m.chat, fileBuffer, `${book.title}.txt`, `Aquí tienes el libro: ${book.title}`, m)
+  } catch (e) {
+    console.error(e)
+    m.reply('Ocurrió un error al buscar o descargar el libro. Intenta nuevamente.')
+  }
+}
+
+handler.help = ['libro <título>']
+handler.tags = ['buscador']
+handler.command = /^libro$/i
+
+export default handler

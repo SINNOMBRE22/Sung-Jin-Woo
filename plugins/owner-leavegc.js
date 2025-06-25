@@ -1,1 +1,16 @@
-function a0_0x49ac(){const _0x505b39=['.json','263660mMKBMk','plugins','93863lyWfzz','2204656KbnUIh','6MWFTwh','3uzOozP','9zmVPZw','groupLeave','readFileSync','948252wuwUBZ','group','696104oSAhtV','language','texto1','./language/','3788260YKpSfN','374149DiYvPQ','owner_leavegc','parse','sender'];a0_0x49ac=function(){return _0x505b39;};return a0_0x49ac();}function a0_0x1914(_0x13fd8c,_0x321bdc){const _0x49accb=a0_0x49ac();return a0_0x1914=function(_0x19146d,_0x491a57){_0x19146d=_0x19146d-0x96;let _0x671d0a=_0x49accb[_0x19146d];return _0x671d0a;},a0_0x1914(_0x13fd8c,_0x321bdc);}const a0_0x200b9a=a0_0x1914;(function(_0x3a2491,_0x108672){const _0x17fd26=a0_0x1914,_0x132f24=_0x3a2491();while(!![]){try{const _0x1d0073=parseInt(_0x17fd26(0xa8))/0x1+parseInt(_0x17fd26(0xa3))/0x2+-parseInt(_0x17fd26(0x9d))/0x3*(parseInt(_0x17fd26(0xa1))/0x4)+parseInt(_0x17fd26(0x98))/0x5*(-parseInt(_0x17fd26(0x9c))/0x6)+-parseInt(_0x17fd26(0x9a))/0x7+parseInt(_0x17fd26(0x9b))/0x8*(parseInt(_0x17fd26(0x9e))/0x9)+-parseInt(_0x17fd26(0xa7))/0xa;if(_0x1d0073===_0x108672)break;else _0x132f24['push'](_0x132f24['shift']());}catch(_0x4b44c9){_0x132f24['push'](_0x132f24['shift']());}}}(a0_0x49ac,0x4d169));const handler=async(_0x447846,{conn:_0x4bc1e1,text:_0x4a57d8,command:_0x5b7d4e})=>{const _0x3eef4d=a0_0x1914,_0x1457de=global,_0x711224=_0x1457de['db']['data']['users'][_0x447846[_0x3eef4d(0x96)]][_0x3eef4d(0xa4)],_0x4caf03=JSON[_0x3eef4d(0xaa)](fs[_0x3eef4d(0xa0)](_0x3eef4d(0xa6)+_0x711224+_0x3eef4d(0x97))),_0x2fc62e=_0x4caf03[_0x3eef4d(0x99)][_0x3eef4d(0xa9)],_0x1459b1=_0x4a57d8?_0x4a57d8:_0x447846['chat'];await _0x4bc1e1['reply'](_0x1459b1,_0x2fc62e[_0x3eef4d(0xa5)]),await _0x4bc1e1[_0x3eef4d(0x9f)](_0x1459b1);};handler['command']=/^(out|leavegc|leave|salirdelgrupo)$/i,handler[a0_0x200b9a(0xa2)]=!![],handler['rowner']=!![];export default handler;
+
+
+const handler = async (m, {conn, text, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_leavegc
+
+  const id = text ? text : m.chat;
+  await conn.reply(id, tradutor.texto1);
+  await conn.groupLeave(id);
+};
+handler.command = /^(out|leavegc|leave|salirdelgrupo)$/i;
+handler.group = true;
+handler.rowner = true;
+export default handler;

@@ -1,1 +1,38 @@
-function a0_0x46fe(){const _0x387b65=['users','24TbdZXV','language','865880OzRnBN','27186NIuWgz','premiumTime','parse','readFileSync','.json','values','data','32073xSCkIV','keys','10484570LpDmaw','texto1','find','./language/','218sWNvhO','7508893scMaEo','2278576sbySAU','65eOmoYS','plugins','_premium','premium','532314jirjnA'];a0_0x46fe=function(){return _0x387b65;};return a0_0x46fe();}(function(_0x6d1b95,_0x188bbe){const _0x3244a8=a0_0x3a39,_0x19503d=_0x6d1b95();while(!![]){try{const _0x3e59dd=-parseInt(_0x3244a8(0xd9))/0x1+parseInt(_0x3244a8(0xe7))/0x2*(parseInt(_0x3244a8(0xe1))/0x3)+parseInt(_0x3244a8(0xe9))/0x4+parseInt(_0x3244a8(0xea))/0x5*(-parseInt(_0x3244a8(0xda))/0x6)+-parseInt(_0x3244a8(0xe8))/0x7+parseInt(_0x3244a8(0xf0))/0x8*(-parseInt(_0x3244a8(0xee))/0x9)+parseInt(_0x3244a8(0xe3))/0xa;if(_0x3e59dd===_0x188bbe)break;else _0x19503d['push'](_0x19503d['shift']());}catch(_0x1dccc2){_0x19503d['push'](_0x19503d['shift']());}}}(a0_0x46fe,0x948f4));const handler=_0x4558d9=>_0x4558d9;function a0_0x3a39(_0x4577f5,_0x41af33){const _0x46fea3=a0_0x46fe();return a0_0x3a39=function(_0x3a3900,_0x29508c){_0x3a3900=_0x3a3900-0xd9;let _0x3a2a21=_0x46fea3[_0x3a3900];return _0x3a2a21;},a0_0x3a39(_0x4577f5,_0x41af33);}export async function all(_0x3768b4){const _0x26aa91=a0_0x3a39,_0x587ad5=global,_0x1aabb6=_0x587ad5['db']['data'][_0x26aa91(0xef)][_0x3768b4['sender']][_0x26aa91(0xf1)],_0x2bbd9f=JSON[_0x26aa91(0xdc)](fs[_0x26aa91(0xdd)](_0x26aa91(0xe6)+_0x1aabb6+_0x26aa91(0xde))),_0x29decb=_0x2bbd9f[_0x26aa91(0xeb)][_0x26aa91(0xec)];for(const _0x2c3c23 of Object[_0x26aa91(0xdf)](global['db']['data'][_0x26aa91(0xef)])){if(_0x2c3c23['premiumTime']!=0x0&&_0x2c3c23[_0x26aa91(0xed)]){if(new Date()*0x1>=_0x2c3c23['premiumTime']){_0x2c3c23[_0x26aa91(0xdb)]=0x0,_0x2c3c23[_0x26aa91(0xed)]=![];const _0x18601d=Object[_0x26aa91(0xe2)](global['db'][_0x26aa91(0xe0)]['users'])[_0x26aa91(0xe5)](_0x59a2dc=>global['db'][_0x26aa91(0xe0)]['users'][_0x59a2dc]===_0x2c3c23),_0x1c2f7e=_0x18601d['split']`@`[0x0],_0x329c63='*[❗]\x20@'+_0x1c2f7e+'\x20'+_0x29decb[_0x26aa91(0xe4)];await this['sendMessage'](_0x18601d,{'text':_0x329c63,'mentions':[_0x18601d]},{'quoted':''});}}}}
+
+  
+
+const handler = (m) => m;
+
+export async function all(m) {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins._premium
+
+  for (const user of Object.values(global.db.data.users)) {
+    if (user.premiumTime != 0 && user.premium) {
+      if (new Date() * 1 >= user.premiumTime) {
+        user.premiumTime = 0;
+        user.premium = false;
+        const JID = Object.keys(global.db.data.users).find((key) => global.db.data.users[key] === user);
+        const usuarioJid = JID.split`@`[0];
+        const textoo = `*[❗] @${usuarioJid} ${tradutor.texto1}`;
+        await this.sendMessage(JID, {text: textoo, mentions: [JID]}, {quoted: ''});
+      }
+    }
+  }
+}
+
+/* let handler = m => m
+
+export async function all(m) {
+  let user = global.db.data.users[m.sender]
+  if (m.chat.endsWith('broadcast')) return
+
+  if (user.premiumTime != 0 && user.premium && new Date() * 1 >= user.premiumTime) {
+    user.premiumTime = 0
+    user.premium = false
+
+    await m.reply(`*[❗] @${m.sender.split`@`[0]} 𝚃𝚄 𝚃𝙸𝙴𝙼𝙿𝙾 𝙲𝙾𝙼𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 𝙷𝙰 𝙴𝚇𝙿𝙸𝚁𝙰𝙳𝙾, 𝚈𝙰 𝙽𝙾 𝙴𝚁𝙴𝚂 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼*`, m.sender, { mentions: [m.sender] })
+  }
+}*/

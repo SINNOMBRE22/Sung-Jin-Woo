@@ -1,1 +1,153 @@
-const a0_0x25d0ee=a0_0x197e;(function(_0x584468,_0x2fbd7a){const _0x23879a=a0_0x197e,_0x5f0834=_0x584468();while(!![]){try{const _0x33aa8d=-parseInt(_0x23879a(0x12b))/0x1+parseInt(_0x23879a(0x127))/0x2*(parseInt(_0x23879a(0x122))/0x3)+-parseInt(_0x23879a(0x13f))/0x4*(-parseInt(_0x23879a(0x11b))/0x5)+-parseInt(_0x23879a(0x12e))/0x6*(-parseInt(_0x23879a(0x14b))/0x7)+parseInt(_0x23879a(0x137))/0x8*(-parseInt(_0x23879a(0x12f))/0x9)+parseInt(_0x23879a(0x11e))/0xa+-parseInt(_0x23879a(0x128))/0xb;if(_0x33aa8d===_0x2fbd7a)break;else _0x5f0834['push'](_0x5f0834['shift']());}catch(_0x28b842){_0x5f0834['push'](_0x5f0834['shift']());}}}(a0_0x1398,0x339e8));import a0_0x4be20d from'node-fetch';function a0_0x197e(_0x58021f,_0x372de9){const _0x139893=a0_0x1398();return a0_0x197e=function(_0x197e90,_0x294f7c){_0x197e90=_0x197e90-0x115;let _0x3b3199=_0x139893[_0x197e90];return _0x3b3199;},a0_0x197e(_0x58021f,_0x372de9);}import a0_0x5d37f7 from'axios';import a0_0x463a8c from'yt-search';import{ogmp3}from'../src/libraries/youtubedl.js';import{createRequire}from'module';const require=createRequire(import.meta[a0_0x25d0ee(0x132)]),{ytmp3,ytmp4}=require(a0_0x25d0ee(0x14d)),PROGRESS_FRAMES=[a0_0x25d0ee(0x147),a0_0x25d0ee(0x125),'▰▰▱▱▱▱▱▱▱▱\x2020%',a0_0x25d0ee(0x124),'▰▰▰▰▱▱▱▱▱▱\x2040%','▰▰▰▰▰▱▱▱▱▱\x2050%',a0_0x25d0ee(0x14f),a0_0x25d0ee(0x13b),a0_0x25d0ee(0x144),a0_0x25d0ee(0x13c),a0_0x25d0ee(0x150)];function milesNumber(_0xfad61a){const _0x34474b=a0_0x25d0ee;return _0xfad61a[_0x34474b(0x119)]()[_0x34474b(0x126)](/\B(?=(\d{3})+(?!\d))/g,'.');}function secondString(_0x458091){const _0x542746=a0_0x25d0ee;_0x458091=Number(_0x458091);const _0x1388c2=Math[_0x542746(0x140)](_0x458091/0xe10),_0x521f32=Math[_0x542746(0x140)](_0x458091%0xe10/0x3c),_0xed0d38=_0x458091%0x3c;return''+(_0x1388c2?_0x1388c2+'h\x20':'')+(_0x521f32?_0x521f32+'m\x20':'')+_0xed0d38+'s';}function a0_0x1398(){const _0x2088fa=['13628RedIwe','2047991UDkfMA','├◉\x20*Autor:*\x20','\x0a╭──\x20Progreso\x20de\x20descarga\x20──╮\x0a➫\x20','177449qKRRfN','data','play','354pktkxZ','1859337AuPmUq','react','video/mp4','url','join','group','╭────────────────','key','8xEQtnK','download','name','audio/mpeg','▰▰▰▰▰▰▰▱▱▱\x2070%','▰▰▰▰▰▰▰▰▰▱\x2090%','thumbnail','title','4ptKpBK','floor','yt\x20(texto)','├◉\x20*Publicado:*\x20','seconds','▰▰▰▰▰▰▰▰▱▱\x2080%','command','Uso:\x20','▱▱▱▱▱▱▱▱▱▱\x200%','get','https://api.akuari.my.id/downloader/youtube?link=','sendMessage','18347KfgbXx','ago','@hiudyy/ytdl','length','▰▰▰▰▰▰▱▱▱▱\x2060%','▰▰▰▰▰▰▰▰▰▰\x20100%','author','api.music.sinnombre.ovh','Comando\x20no\x20reconocido.','├◉\x20*Duración:*\x20','toString','chat','1962845pfpMPb','downloader','result','1594930uSuIaS','╰────────────────','help','mp4','33BARLQr','duration','▰▰▰▱▱▱▱▱▱▱\x2030%','▰▱▱▱▱▱▱▱▱▱\x2010%','replace'];a0_0x1398=function(){return _0x2088fa;};return a0_0x1398();}async function searchYouTube(_0x3fc1c3){const _0x4b2d6a=await a0_0x463a8c({'query':_0x3fc1c3,'hl':'es','gl':'ES'});return _0x4b2d6a['videos'];}const delay=_0x5874e4=>new Promise(_0x5798ea=>setTimeout(_0x5798ea,_0x5874e4));let handler=async(_0x74134b,{conn:_0x5cfa0f,text:_0x3e41b7,usedPrefix:_0x3cd9cd,command:_0x45b6fe})=>{const _0x25ca2c=a0_0x25d0ee;if(!_0x3e41b7)throw _0x25ca2c(0x146)+(_0x3cd9cd+_0x45b6fe)+'\x20<título\x20o\x20enlace\x20de\x20youtube>';const _0x1e9d39=await searchYouTube(_0x3e41b7);if(!_0x1e9d39[_0x25ca2c(0x14e)])throw'No\x20se\x20encontró\x20ningún\x20resultado.';const _0x51953a=_0x1e9d39[0x0],_0x57c5a1=[_0x25ca2c(0x135),'├◉\x20*Título:*\x20'+_0x51953a[_0x25ca2c(0x13e)],'├────────────────',_0x25ca2c(0x129)+_0x51953a[_0x25ca2c(0x115)][_0x25ca2c(0x139)],_0x25ca2c(0x142)+_0x51953a[_0x25ca2c(0x14c)],_0x25ca2c(0x118)+secondString(_0x51953a[_0x25ca2c(0x123)][_0x25ca2c(0x143)]),'├◉\x20*Vistas:*\x20'+milesNumber(_0x51953a['views']),_0x25ca2c(0x11f)][_0x25ca2c(0x133)]('\x0a'),_0x2aafc8=await _0x5cfa0f['sendMessage'](_0x74134b[_0x25ca2c(0x11a)],{'text':_0x57c5a1+_0x25ca2c(0x12a)+PROGRESS_FRAMES[0x0]},{'quoted':_0x74134b});await _0x74134b[_0x25ca2c(0x130)]('🕐');const _0x146e25={'externalAdReply':{'title':_0x51953a['title'],'body':_0x51953a[_0x25ca2c(0x115)][_0x25ca2c(0x139)],'thumbnailUrl':_0x51953a[_0x25ca2c(0x13d)],'sourceUrl':_0x51953a[_0x25ca2c(0x132)][_0x25ca2c(0x126)]('youtube.com',_0x25ca2c(0x116)),'mediaType':0x2,'showAdAttribution':![]}},_0x100ac6=async _0x51681e=>{const _0xeb7fe2=_0x25ca2c;await _0x5cfa0f[_0xeb7fe2(0x14a)](_0x74134b[_0xeb7fe2(0x11a)],{'text':_0x57c5a1+_0xeb7fe2(0x12a)+_0x51681e,'edit':_0x2aafc8[_0xeb7fe2(0x136)]});};if(_0x45b6fe===_0x25ca2c(0x12d)){const _0x448666=async()=>{const _0x21bd3d=_0x25ca2c;try{return await ytmp3(_0x51953a[_0x21bd3d(0x132)]);}catch{const _0x30c9bd=await ogmp3[_0x21bd3d(0x138)](_0x51953a[_0x21bd3d(0x132)],'320','audio');return{'url':_0x30c9bd[_0x21bd3d(0x11d)][_0x21bd3d(0x138)]};}},_0x1ea723=await _0x448666();for(let _0x5d368b=0x1;_0x5d368b<PROGRESS_FRAMES['length'];_0x5d368b++){await delay(0x1f4),await _0x100ac6(PROGRESS_FRAMES[_0x5d368b]);}await _0x5cfa0f['sendMessage'](_0x74134b[_0x25ca2c(0x11a)],{'audio':_0x1ea723[_0x25ca2c(0x132)]?{'url':_0x1ea723['url']}:_0x1ea723,'mimetype':_0x25ca2c(0x13a),'fileName':_0x51953a['title']+'.mp3','caption':_0x57c5a1,'contextInfo':_0x146e25},{'quoted':_0x74134b}),await _0x74134b[_0x25ca2c(0x130)]('✅');}else{if(_0x45b6fe==='yt'){let _0x7e14de;try{_0x7e14de=await ytmp4(_0x51953a[_0x25ca2c(0x132)]);}catch(_0x5ee51c){const _0x129eaa=await a0_0x5d37f7[_0x25ca2c(0x148)](_0x25ca2c(0x149)+encodeURIComponent(_0x51953a['url']));_0x7e14de={'url':_0x129eaa[_0x25ca2c(0x12c)][_0x25ca2c(0x121)][_0x25ca2c(0x132)]};}for(let _0x367ceb=0x1;_0x367ceb<PROGRESS_FRAMES[_0x25ca2c(0x14e)];_0x367ceb++){await delay(0x1f4),await _0x100ac6(PROGRESS_FRAMES[_0x367ceb]);}const _0x202099=_0x7e14de[_0x25ca2c(0x132)]?{'video':{'url':_0x7e14de[_0x25ca2c(0x132)]}}:{'video':_0x7e14de};await _0x5cfa0f['sendMessage'](_0x74134b['chat'],{..._0x202099,'fileName':_0x51953a[_0x25ca2c(0x13e)]+'.mp4','mimetype':_0x25ca2c(0x131),'caption':_0x51953a[_0x25ca2c(0x13e)],'contextInfo':_0x146e25},{'quoted':_0x74134b}),await _0x74134b[_0x25ca2c(0x130)]('✅');}else throw _0x25ca2c(0x117);}};handler[a0_0x25d0ee(0x120)]=['play\x20(texto)',a0_0x25d0ee(0x141)],handler['tags']=[a0_0x25d0ee(0x11c)],handler[a0_0x25d0ee(0x145)]=[a0_0x25d0ee(0x12d),'yt'],handler[a0_0x25d0ee(0x134)]=![];export default handler;
+import fetch from 'node-fetch';
+import axios from 'axios';
+import yts from 'yt-search';
+import { ogmp3 } from '../src/libraries/youtubedl.js';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const { ytmp3, ytmp4 } = require('@hiudyy/ytdl');
+
+// Frames de animación (barra de progreso)
+const PROGRESS_FRAMES = [
+  '▱▱▱▱▱▱▱▱▱▱ 0%',
+  '▰▱▱▱▱▱▱▱▱▱ 10%',
+  '▰▰▱▱▱▱▱▱▱▱ 20%',
+  '▰▰▰▱▱▱▱▱▱▱ 30%',
+  '▰▰▰▰▱▱▱▱▱▱ 40%',
+  '▰▰▰▰▰▱▱▱▱▱ 50%',
+  '▰▰▰▰▰▰▱▱▱▱ 60%',
+  '▰▰▰▰▰▰▰▱▱▱ 70%',
+  '▰▰▰▰▰▰▰▰▱▱ 80%',
+  '▰▰▰▰▰▰▰▰▰▱ 90%',
+  '▰▰▰▰▰▰▰▰▰▰ 100%'
+];
+
+function milesNumber(n) {
+  return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+}
+
+function secondString(sec) {
+  sec = Number(sec);
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  const s = sec % 60;
+  return `${h ? h + 'h ' : ''}${m ? m + 'm ' : ''}${s}s`;
+}
+
+async function searchYouTube(query) {
+  const r = await yts({ query, hl: 'es', gl: 'ES' });
+  return r.videos;
+}
+
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `Uso: ${usedPrefix + command} <título o enlace de youtube>`;
+
+  // Buscar vídeo
+  const videos = await searchYouTube(text);
+  if (!videos.length) throw 'No se encontró ningún resultado.';
+  const info = videos[0];
+
+  // Formato de información según especificación del usuario
+  const infoBlock = [
+    '╭────────────────',
+    `├◉ *Título:* ${info.title}`,
+    '├────────────────',
+    `├◉ *Autor:* ${info.author.name}`,
+    `├◉ *Publicado:* ${info.ago}`,
+    `├◉ *Duración:* ${secondString(info.duration.seconds)}`,
+    `├◉ *Vistas:* ${milesNumber(info.views)}`,
+    '╰────────────────'
+  ].join('\n');
+
+  // Enviar mensaje inicial con detalles y 0%
+  const animMsg = await conn.sendMessage(m.chat, {
+    text: `${infoBlock}\n╭── Progreso de descarga ──╮\n➫ ${PROGRESS_FRAMES[0]}`
+  }, { quoted: m });
+  await m.react('🕐');
+
+  const contextInfo = {
+    externalAdReply: {
+      title: info.title,
+      body: info.author.name,
+      thumbnailUrl: info.thumbnail,
+      sourceUrl: info.url.replace('youtube.com', 'api.music.sinnombre.ovh'),
+      mediaType: 2,
+      showAdAttribution: false
+    }
+  };
+
+  // Función para actualizar la barra de progreso
+  const updateProgress = async (frame) => {
+    await conn.sendMessage(m.chat, {
+      text: `${infoBlock}\n╭── Progreso de descarga ──╮\n➫ ${frame}`,
+      edit: animMsg.key
+    });
+  };
+
+  if (command === 'play') {
+    // Descarga de audio (ytmp3 o ogmp3)
+    const downloadAudio = async () => {
+      try {
+        return await ytmp3(info.url);
+      } catch {
+        const r = await ogmp3.download(info.url, '320', 'audio');
+        return { url: r.result.download };
+      }
+    };
+    const data = await downloadAudio();
+
+    // Barra de progreso animada
+    for (let i = 1; i < PROGRESS_FRAMES.length; i++) {
+      await delay(500);
+      await updateProgress(PROGRESS_FRAMES[i]);
+    }
+
+    // Enviar audio
+    await conn.sendMessage(m.chat, {
+      audio: data.url ? { url: data.url } : data,
+      mimetype: 'audio/mpeg',
+      fileName: `${info.title}.mp3`,
+      caption: infoBlock,
+      contextInfo
+    }, { quoted: m });
+    await m.react('✅');
+
+  } else if (command === 'yt') {
+    // Descarga de vídeo con fallback
+    let data;
+    try {
+      data = await ytmp4(info.url);
+    } catch (error) {
+      const res = await axios.get(`https://api.akuari.my.id/downloader/youtube?link=${encodeURIComponent(info.url)}`);
+      data = { url: res.data.mp4.url };
+    }
+
+    // Barra de progreso animada
+    for (let i = 1; i < PROGRESS_FRAMES.length; i++) {
+      await delay(500);
+      await updateProgress(PROGRESS_FRAMES[i]);
+    }
+
+    // Enviar vídeo
+    const videoPayload = data.url ? { video: { url: data.url } } : { video: data };
+    await conn.sendMessage(m.chat, {
+      ...videoPayload,
+      fileName: `${info.title}.mp4`,
+      mimetype: 'video/mp4',
+      caption: info.title,
+      contextInfo
+    }, { quoted: m });
+    await m.react('✅');
+
+  } else {
+    throw 'Comando no reconocido.';
+  }
+};
+
+handler.help = ['play (texto)', 'yt (texto)'];
+handler.tags = ['downloader'];
+handler.command = ['play', 'yt'];
+handler.group = true;
+
+export default handler;

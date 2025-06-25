@@ -1,1 +1,110 @@
-function a0_0xbe9b(){const _0x3351b7=['join','121fgJeKY','666jMCSWV','config.json','padEnd','clone','help','2082owDwGk','reply','update','key','29235nPWRcl','rmSync','704VNIHas','readFileSync','startsWith','createHash','./.tmp_update','3646dJtpVj','20910jKkUHa','╭──\x20*Actualización\x20completada*\x20✅\x0a├◉\x20*Archivos\x20actualizados:*\x20','actualizar','1414280apIDNp','settings.json','command','1268407FUraVt','mkdirSync','length','chat','push','register','proyectos/','some','https://github.com/usuario/repositorio.git','owner','repeat','plugins/custom/','isDirectory','readdirSync','⚠️\x20Error\x20durante\x20la\x20actualización:\x0a','26470eqvyhm','digest','message','sendMessage','round','sha1','\x0a├◉\x20*Ignorados:*\x20'];a0_0xbe9b=function(){return _0x3351b7;};return a0_0xbe9b();}const a0_0x13344f=a0_0x1163;(function(_0x1daf25,_0x2ecbd){const _0x19957a=a0_0x1163,_0x454904=_0x1daf25();while(!![]){try{const _0x34eb49=-parseInt(_0x19957a(0x100))/0x1*(-parseInt(_0x19957a(0x111))/0x2)+parseInt(_0x19957a(0x106))/0x3*(parseInt(_0x19957a(0x10c))/0x4)+-parseInt(_0x19957a(0x10a))/0x5+-parseInt(_0x19957a(0x112))/0x6+-parseInt(_0x19957a(0xe9))/0x7+parseInt(_0x19957a(0xe6))/0x8+-parseInt(_0x19957a(0x101))/0x9*(parseInt(_0x19957a(0xf8))/0xa);if(_0x34eb49===_0x2ecbd)break;else _0x454904['push'](_0x454904['shift']());}catch(_0x788192){_0x454904['push'](_0x454904['shift']());}}}(a0_0xbe9b,0x207ed));import a0_0x4cf26d from'fs';import a0_0x43929a from'path';import a0_0x4568b5 from'simple-git';import a0_0x12ac14 from'crypto';const git=a0_0x4568b5();let handler=async(_0x32d35c,{conn:_0x481df1})=>{const _0x512610=a0_0x1163,_0x8c2600=_0x512610(0xf1),_0x66e7c0=_0x512610(0x110),_0x4760a0=[_0x512610(0x102),_0x512610(0xe7),_0x512610(0xef),_0x512610(0xf4)],_0x29f3d0=_0x5d9b89=>{const _0x591f82=_0x512610;try{const _0x128536=a0_0x4cf26d[_0x591f82(0x10d)](_0x5d9b89);return a0_0x12ac14[_0x591f82(0x10f)](_0x591f82(0xfd))[_0x591f82(0x108)](_0x128536)[_0x591f82(0xf9)]('hex');}catch{return null;}},_0x53d5a0=(_0x1915ee,_0x223a5d)=>{const _0x562328=[],_0x11b31c=[],_0x183848=(_0x53db73,_0x59f238)=>{const _0x5c8b40=a0_0x1163;a0_0x4cf26d[_0x5c8b40(0xf6)](_0x53db73)['forEach'](_0x592106=>{const _0x10fbd9=_0x5c8b40,_0x266e76=a0_0x43929a[_0x10fbd9(0xff)](_0x53db73,_0x592106),_0x24ef10=a0_0x43929a[_0x10fbd9(0xff)](_0x59f238,_0x592106),_0x2dbe61=_0x24ef10['replace']('./',''),_0x25b4a6=_0x4760a0[_0x10fbd9(0xf0)](_0x59ea2d=>_0x2dbe61[_0x10fbd9(0x10e)](_0x59ea2d));if(_0x25b4a6)return;if(a0_0x4cf26d['statSync'](_0x266e76)[_0x10fbd9(0xf5)]()){if(!a0_0x4cf26d['existsSync'](_0x24ef10))a0_0x4cf26d[_0x10fbd9(0xea)](_0x24ef10);_0x183848(_0x266e76,_0x24ef10);}else{_0x11b31c['push'](_0x2dbe61);const _0x4dac77=_0x29f3d0(_0x266e76),_0x458752=_0x29f3d0(_0x24ef10);_0x4dac77!==_0x458752&&(a0_0x4cf26d['copyFileSync'](_0x266e76,_0x24ef10),_0x562328[_0x10fbd9(0xed)](_0x2dbe61));}});};return _0x183848(_0x1915ee,_0x223a5d),{'changedFiles':_0x562328,'totalFiles':_0x11b31c};},_0x704eb1=_0x3bfb26=>new Promise(_0x5708ca=>setTimeout(_0x5708ca,_0x3bfb26)),_0x4c1a61=_0x3905c9=>{const _0xf450e0=_0x512610,_0x3773eb=Math[_0xf450e0(0xfc)](_0x3905c9/0xa);return'➫\x20'+'▰'[_0xf450e0(0xf3)](_0x3773eb)[_0xf450e0(0x103)](0xa,'▱')+('\x20'+_0x3905c9+'%');};let _0x43cfc2=await _0x481df1[_0x512610(0x107)](_0x32d35c[_0x512610(0xec)],'╭──\x20*Actualización\x20disponible*\x20♾️\x0a├◉\x20*Versión\x20actual:*\x201.2.0\x0a├◉\x20*Nueva\x20versión:*\x201.3.0\x0a╰────────────────',_0x32d35c);try{await git[_0x512610(0x104)](_0x8c2600,_0x66e7c0);const {changedFiles:_0x8b6d43,totalFiles:_0x54d9cf}=_0x53d5a0(_0x66e7c0,'./');for(let _0x4518a5=0x1;_0x4518a5<=0xa;_0x4518a5++){await _0x704eb1(0x12c),await _0x481df1['sendMessage'](_0x32d35c[_0x512610(0xec)],{'edit':_0x43cfc2[_0x512610(0x109)],'text':'╭──\x20*Actualizando...*\x20♾️\x0a├◉\x20*Versión\x20actual:*\x201.2.0\x0a├◉\x20*Nueva\x20versión:*\x201.3.0\x0a╰────────────────\x0a╭──\x20Progreso\x20de\x20actualización\x20──╮\x0a'+_0x4c1a61(_0x4518a5*0xa)});}a0_0x4cf26d[_0x512610(0x10b)](_0x66e7c0,{'recursive':!![],'force':!![]}),await _0x481df1[_0x512610(0xfb)](_0x32d35c[_0x512610(0xec)],{'edit':_0x43cfc2['key'],'text':_0x512610(0xe4)+_0x8b6d43['length']+_0x512610(0xfe)+(_0x54d9cf[_0x512610(0xeb)]-_0x8b6d43[_0x512610(0xeb)])+'\x0a╰────────────────'});}catch(_0x393fd5){await _0x481df1[_0x512610(0xfb)](_0x32d35c[_0x512610(0xec)],{'edit':_0x43cfc2[_0x512610(0x109)],'text':_0x512610(0xf7)+_0x393fd5[_0x512610(0xfa)]});}};function a0_0x1163(_0x11d19b,_0x4a9c79){const _0xbe9bd4=a0_0xbe9b();return a0_0x1163=function(_0x116301,_0x3118b6){_0x116301=_0x116301-0xe4;let _0x17d022=_0xbe9bd4[_0x116301];return _0x17d022;},a0_0x1163(_0x11d19b,_0x4a9c79);}handler[a0_0x13344f(0x105)]=[a0_0x13344f(0xe5)],handler['tags']=[a0_0x13344f(0xf2)],handler[a0_0x13344f(0xe8)]=/^actualizar$/i,handler[a0_0x13344f(0xee)]=![];export default handler;
+import fs from 'fs'
+import path from 'path'
+import simpleGit from 'simple-git'
+import crypto from 'crypto'
+
+const git = simpleGit()
+
+let handler = async (m, { conn }) => {
+  const repoUrl = 'https://github.com/usuario/repositorio.git' // <- Reemplaza por tu repo
+  const tmpFolder = './.tmp_update'
+  const excludedPaths = ['config.json', 'settings.json', 'proyectos/', 'plugins/custom/']
+
+  const hashFile = file => {
+    try {
+      const content = fs.readFileSync(file)
+      return crypto.createHash('sha1').update(content).digest('hex')
+    } catch {
+      return null
+    }
+  }
+
+  const copyRecursive = (src, dest) => {
+    const changedFiles = []
+    const totalFiles = []
+
+    const walk = (srcDir, destDir) => {
+      fs.readdirSync(srcDir).forEach(file => {
+        const srcFile = path.join(srcDir, file)
+        const destFile = path.join(destDir, file)
+        const relative = destFile.replace('./', '')
+
+        const shouldSkip = excludedPaths.some(ex => relative.startsWith(ex))
+        if (shouldSkip) return
+
+        if (fs.statSync(srcFile).isDirectory()) {
+          if (!fs.existsSync(destFile)) fs.mkdirSync(destFile)
+          walk(srcFile, destFile)
+        } else {
+          totalFiles.push(relative)
+
+          const srcHash = hashFile(srcFile)
+          const destHash = hashFile(destFile)
+
+          if (srcHash !== destHash) {
+            fs.copyFileSync(srcFile, destFile)
+            changedFiles.push(relative)
+          }
+        }
+      })
+    }
+
+    walk(src, dest)
+    return { changedFiles, totalFiles }
+  }
+
+  const sleep = ms => new Promise(res => setTimeout(res, ms))
+  const progressBar = percent => {
+    const blocks = Math.round(percent / 10)
+    return '➫ ' + '▰'.repeat(blocks).padEnd(10, '▱') + ` ${percent}%`
+  }
+
+  let msg = await conn.reply(m.chat,
+`╭── *Actualización disponible* ♾️
+├◉ *Versión actual:* 1.2.0
+├◉ *Nueva versión:* 1.3.0
+╰────────────────`, m)
+
+  try {
+    await git.clone(repoUrl, tmpFolder)
+
+    const { changedFiles, totalFiles } = copyRecursive(tmpFolder, './')
+
+    for (let i = 1; i <= 10; i++) {
+      await sleep(300)
+      await conn.sendMessage(m.chat, {
+        edit: msg.key,
+        text:
+`╭── *Actualizando...* ♾️
+├◉ *Versión actual:* 1.2.0
+├◉ *Nueva versión:* 1.3.0
+╰────────────────
+╭── Progreso de actualización ──╮
+${progressBar(i * 10)}`
+      })
+    }
+
+    fs.rmSync(tmpFolder, { recursive: true, force: true })
+
+    await conn.sendMessage(m.chat, {
+      edit: msg.key,
+      text:
+`╭── *Actualización completada* ✅
+├◉ *Archivos actualizados:* ${changedFiles.length}
+├◉ *Ignorados:* ${totalFiles.length - changedFiles.length}
+╰────────────────`
+    })
+  } catch (err) {
+    await conn.sendMessage(m.chat, {
+      edit: msg.key,
+      text: `⚠️ Error durante la actualización:\n${err.message}`
+    })
+  }
+}
+
+handler.help = ['actualizar']
+handler.tags = ['owner']
+handler.command = /^actualizar$/i
+handler.register = false
+
+export default handler

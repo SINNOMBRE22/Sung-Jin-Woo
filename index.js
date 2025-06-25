@@ -1,1 +1,82 @@
-const a0_0x21b0f4=a0_0x3bfc;(function(_0x1ac45f,_0x90e8f5){const _0x19a691=a0_0x3bfc,_0xa0ea1f=_0x1ac45f();while(!![]){try{const _0x5521db=-parseInt(_0x19a691(0xa6))/0x1+parseInt(_0x19a691(0x79))/0x2+-parseInt(_0x19a691(0x83))/0x3+-parseInt(_0x19a691(0x97))/0x4*(parseInt(_0x19a691(0x7e))/0x5)+-parseInt(_0x19a691(0x9e))/0x6+-parseInt(_0x19a691(0x6e))/0x7+parseInt(_0x19a691(0x88))/0x8;if(_0x5521db===_0x90e8f5)break;else _0xa0ea1f['push'](_0xa0ea1f['shift']());}catch(_0xc869e){_0xa0ea1f['push'](_0xa0ea1f['shift']());}}}(a0_0x589e,0xe16f5),console[a0_0x21b0f4(0x8b)]('[\x20ℹ️\x20]\x20Iniciando...'));import{join,dirname}from'path';import{createRequire}from'module';import{fileURLToPath}from'url';import{setupMaster,fork}from'cluster';function a0_0x589e(){const _0xcd95ed=['apply','[\x20ℹ️\x20]\x20Verificando\x20validez\x20de\x20la\x20key\x20(automática)...','log','[\x20ℹ️\x20]\x20No\x20se\x20encontró\x20el\x20archivo\x20key.txt.\x20Por\x20favor,\x20ingresa\x20tu\x20clave:','[RECIBIDO]','now','yellow','blue','toISOString','[\x20✅\x20]\x20Key\x20válida.\x20Próxima\x20verificación:\x20','[\x20ℹ️\x20]\x20Archivo\x20key.txt\x20encontrado.\x20Usando\x20clave\x20registrada.','process','utf-8','green','50972xeeyjN','[\x20OK\x20]\x20Clave\x20guardada\x20correctamente\x20en\x20key.txt.','Sun\x20Jin-Woo','env','exit','send','POST','155886daNVzf','application/json','slice','./package.json','argv','uptime','kill','message','1530276rhequU','Mariana\x0abot','cyan','./keys.json','emit','6859573WTvPRt','[\x20OK\x20]\x20Key\x20válida.','parse','error','[\x20ERROR\x20]\x20No\x20se\x20pudo\x20conectar\x20con\x20el\x20servidor\x20de\x20licencias.','magenta','[\x20ERROR\x20]\x20No\x20se\x20pudo\x20conectar\x20al\x20servidor\x20para\x20la\x20verificación\x20periódica.','json','trim','center','Introduce\x20tu\x20KEY:\x20','390310OPvUFk','url','stringify','stdin','red','50AhCmvM','stdout','[\x20❌\x20]\x20Clave\x20inválida\x20o\x20expirada:\x20','line','http://sinnombre.ovh:3000/validate','5207292uVDaLx','test','./key.txt','[\x20❌\x20]\x20La\x20clave\x20guardada\x20no\x20es\x20válida.\x20Abortando...','chrome','41020928SFMvEC'];a0_0x589e=function(){return _0xcd95ed;};return a0_0x589e();}import{watchFile,unwatchFile,existsSync,writeFileSync,readFileSync}from'fs';import a0_0x5d6906 from'cfonts';import{createInterface}from'readline';import a0_0x35d2e4 from'yargs';import a0_0x24f61a from'node-fetch';import a0_0x4e06a5 from'chalk';import{v4 as a0_0x10c30a}from'uuid';const __dirname=dirname(fileURLToPath(import.meta[a0_0x21b0f4(0x7a)])),require=createRequire(__dirname),{name,author}=require(join(__dirname,a0_0x21b0f4(0xa1))),{say}=a0_0x5d6906,rl=createInterface(process[a0_0x21b0f4(0x7c)],process[a0_0x21b0f4(0x7f)]);say(a0_0x21b0f4(0xa7),{'font':a0_0x21b0f4(0x87),'align':'center','gradient':[a0_0x21b0f4(0x7d),'magenta']}),say(a0_0x21b0f4(0x99),{'font':'console','align':a0_0x21b0f4(0x77),'gradient':[a0_0x21b0f4(0x7d),a0_0x21b0f4(0x73)]});const KEY_FILE=a0_0x21b0f4(0x85),DB_PATH=a0_0x21b0f4(0xa9);async function validarKey(_0x3bdd87){const _0x527f05=a0_0x21b0f4;try{const _0x4480c0=await a0_0x24f61a(_0x527f05(0x82),{'method':_0x527f05(0x9d),'headers':{'Content-Type':_0x527f05(0x9f)},'body':JSON[_0x527f05(0x7b)]({'key':_0x3bdd87})});if(!_0x4480c0['ok']){const {reason:_0x475aa9}=await _0x4480c0[_0x527f05(0x75)]();return console[_0x527f05(0x8b)](a0_0x4e06a5[_0x527f05(0x7d)]('[\x20ERROR\x20]\x20Key\x20inválida:\x20'+_0x475aa9)),![];}else return console['log'](a0_0x4e06a5['green'](_0x527f05(0x6f))),!![];}catch(_0x9b3a98){return console['error'](a0_0x4e06a5[_0x527f05(0x7d)](_0x527f05(0x72))),![];}}async function verificarYGenerarArchivos(){const _0x1423aa=a0_0x21b0f4;if(!existsSync(DB_PATH)){console['log'](a0_0x4e06a5['yellow']('[\x20ℹ️\x20]\x20No\x20se\x20encontró\x20el\x20archivo\x20keys.json.\x20Generando\x20uno\x20nuevo...'));const _0x263642=a0_0x10c30a(),_0x3a620f=new Date(Date[_0x1423aa(0x8e)]()+0x1e*0x18*0x3c*0x3c*0x3e8)[_0x1423aa(0x91)](),_0x334c85=[{'key':_0x263642,'expires':_0x3a620f}];writeFileSync(DB_PATH,JSON['stringify'](_0x334c85,null,0x2)),console[_0x1423aa(0x8b)](a0_0x4e06a5[_0x1423aa(0x96)]('[\x20OK\x20]\x20Archivo\x20keys.json\x20generado\x20con\x20la\x20clave:\x20'+_0x263642));}!existsSync(KEY_FILE)?(console['log'](a0_0x4e06a5[_0x1423aa(0x8f)](_0x1423aa(0x8c))),await new Promise(_0x316c6a=>{const _0x3e51b4=_0x1423aa;rl['question'](a0_0x4e06a5[_0x3e51b4(0xa8)](_0x3e51b4(0x78)),async _0x927ed1=>{const _0x18b3dd=_0x3e51b4,_0x58e291=_0x927ed1[_0x18b3dd(0x76)](),_0x36ae7a=await validarKey(_0x58e291);_0x36ae7a?(writeFileSync(KEY_FILE,_0x58e291),console[_0x18b3dd(0x8b)](a0_0x4e06a5['green'](_0x18b3dd(0x98)))):(console[_0x18b3dd(0x8b)](a0_0x4e06a5['red']('[\x20❌\x20]\x20Clave\x20no\x20válida.\x20Abortando...')),process[_0x18b3dd(0x9b)](0x1)),_0x316c6a();});})):console[_0x1423aa(0x8b)](a0_0x4e06a5[_0x1423aa(0x96)](_0x1423aa(0x93)));}function a0_0x3bfc(_0x3068f8,_0x55c444){const _0x589ee1=a0_0x589e();return a0_0x3bfc=function(_0x3bfc26,_0x10ad37){_0x3bfc26=_0x3bfc26-0x6e;let _0x3e359b=_0x589ee1[_0x3bfc26];return _0x3e359b;},a0_0x3bfc(_0x3068f8,_0x55c444);}await verificarYGenerarArchivos();const keyActual=readFileSync(KEY_FILE,a0_0x21b0f4(0x95))[a0_0x21b0f4(0x76)](),esValida=await validarKey(keyActual);!esValida&&(console[a0_0x21b0f4(0x8b)](a0_0x4e06a5[a0_0x21b0f4(0x7d)](a0_0x21b0f4(0x86))),process[a0_0x21b0f4(0x9b)](0x1));let isRunning=![];function start(_0x273acb){const _0xa22a18=a0_0x21b0f4;if(isRunning)return;isRunning=!![];const _0x12b1cb=[join(__dirname,_0x273acb),...process[_0xa22a18(0xa2)][_0xa22a18(0xa0)](0x2)];setupMaster({'exec':_0x12b1cb[0x0],'args':_0x12b1cb[_0xa22a18(0xa0)](0x1)});const _0x202556=fork();_0x202556['on'](_0xa22a18(0xa5),_0x157326=>{const _0x3670c1=_0xa22a18;console[_0x3670c1(0x8b)](a0_0x4e06a5[_0x3670c1(0x90)](_0x3670c1(0x8d),_0x157326));switch(_0x157326){case'reset':_0x202556[_0x3670c1(0x94)][_0x3670c1(0xa4)](),isRunning=![],start[_0x3670c1(0x89)](this,arguments);break;case _0x3670c1(0xa3):_0x202556[_0x3670c1(0x9c)](process[_0x3670c1(0xa3)]());break;}}),_0x202556['on'](_0xa22a18(0x9b),(_0x38ef1a,_0x29138f)=>{const _0x34212f=_0xa22a18;isRunning=![],console[_0x34212f(0x71)](a0_0x4e06a5[_0x34212f(0x7d)]('[\x20ℹ️\x20]\x20Ocurrió\x20un\x20error\x20inesperado:',_0x29138f)),_0x202556['process'][_0x34212f(0xa4)](),isRunning=![],start[_0x34212f(0x89)](this,arguments),process[_0x34212f(0x9a)]['pm_id']?process['exit'](0x1):process['exit']();});const _0x54b35c=new Object(a0_0x35d2e4(process['argv'][_0xa22a18(0xa0)](0x2))['exitProcess'](![])[_0xa22a18(0x70)]());!_0x54b35c[_0xa22a18(0x84)]&&(!rl['listenerCount']()&&rl['on'](_0xa22a18(0x81),_0x9654b8=>{const _0x1d6211=_0xa22a18;_0x202556[_0x1d6211(0xaa)]('message',_0x9654b8['trim']());}));}start('main.js'),setInterval(async()=>{const _0x57852b=a0_0x21b0f4;console[_0x57852b(0x8b)](a0_0x4e06a5[_0x57852b(0x8f)](_0x57852b(0x8a)));const _0x568cfb=readFileSync(KEY_FILE,_0x57852b(0x95))[_0x57852b(0x76)](),_0x244180=new Date(Date['now']()+0x18*0x3c*0x3c*0x3e8)['toLocaleString']();try{const _0x1b31d3=await a0_0x24f61a(_0x57852b(0x82),{'method':_0x57852b(0x9d),'headers':{'Content-Type':_0x57852b(0x9f)},'body':JSON['stringify']({'key':_0x568cfb})});if(!_0x1b31d3['ok']){const {reason:_0x6e5b93}=await _0x1b31d3[_0x57852b(0x75)]();console[_0x57852b(0x8b)](a0_0x4e06a5[_0x57852b(0x7d)](_0x57852b(0x80)+_0x6e5b93)),console[_0x57852b(0x8b)](a0_0x4e06a5['red']('[\x20⚠️\x20]\x20Cerrando\x20el\x20bot\x20automáticamente...')),process[_0x57852b(0x9b)](0x1);}else console[_0x57852b(0x8b)](a0_0x4e06a5['green'](_0x57852b(0x92)+_0x244180));}catch(_0x129355){console[_0x57852b(0x71)](a0_0x4e06a5['red'](_0x57852b(0x74)));}},0x18*0x3c*0x3c*0x3e8);
+console.log('[ ℹ️ ] Iniciando...');
+
+import { join, dirname } from 'path';
+import { createRequire } from 'module';
+import { fileURLToPath } from 'url';
+import { setupMaster, fork } from 'cluster';
+import { watchFile, unwatchFile, existsSync, writeFileSync, readFileSync } from 'fs';
+import cfonts from 'cfonts';
+import { createInterface } from 'readline';
+import yargs from 'yargs';
+import fetch from 'node-fetch';
+import chalk from 'chalk';
+import { v4 as uuidv4 } from 'uuid';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const require = createRequire(__dirname);
+const { name, author } = require(join(__dirname, './package.json'));
+const { say } = cfonts;
+const rl = createInterface(process.stdin, process.stdout);
+
+// Mensaje de bienvenida
+say('Mariana\nbot', {
+  font: 'chrome',
+  align: 'center',
+  gradient: ['red', 'magenta']
+});
+say(`Sun Jin-Woo`, {
+  font: 'console',
+  align: 'center',
+  gradient: ['red', 'magenta']
+});
+
+let isRunning = false;
+function start(file) {
+  if (isRunning) return;
+  isRunning = true;
+  const args = [join(__dirname, file), ...process.argv.slice(2)];
+
+  setupMaster({ exec: args[0], args: args.slice(1) });
+  const p = fork();
+
+  p.on('message', (data) => {
+    console.log(chalk.blue('[RECIBIDO]', data));
+    switch (data) {
+      case 'reset':
+        p.process.kill();
+        isRunning = false;
+        start.apply(this, arguments);
+        break;
+      case 'uptime':
+        p.send(process.uptime());
+        break;
+    }
+  });
+
+  p.on('exit', (_, code) => {
+    isRunning = false;
+    console.error(chalk.red('[ ℹ️ ] Ocurrió un error inesperado:', code));
+    p.process.kill();
+    isRunning = false;
+    start.apply(this, arguments);
+
+    if (process.env.pm_id) {
+      process.exit(1);
+    } else {
+      process.exit();
+    }
+  });
+
+  const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
+  if (!opts['test']) {
+    if (!rl.listenerCount()) {
+      rl.on('line', (line) => {
+        p.emit('message', line.trim());
+      });
+    }
+  }
+}
+
+// Inicia el bot sin verificación de keys
+start('main.js');
+

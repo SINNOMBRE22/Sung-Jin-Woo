@@ -1,1 +1,24 @@
-function a0_0x99ef(_0xb088cd,_0x3edb61){const _0x27fe1a=a0_0x27fe();return a0_0x99ef=function(_0x99ef5e,_0x3bc762){_0x99ef5e=_0x99ef5e-0xa3;let _0xc91994=_0x27fe1a[_0x99ef5e];return _0xc91994;},a0_0x99ef(_0xb088cd,_0x3edb61);}const a0_0x1e4efc=a0_0x99ef;(function(_0xd0f557,_0x26ac3c){const _0x457103=a0_0x99ef,_0xdeac48=_0xd0f557();while(!![]){try{const _0x39b9b8=parseInt(_0x457103(0xbe))/0x1*(-parseInt(_0x457103(0xaa))/0x2)+-parseInt(_0x457103(0xb2))/0x3+-parseInt(_0x457103(0xa3))/0x4+-parseInt(_0x457103(0xb8))/0x5*(-parseInt(_0x457103(0xa7))/0x6)+-parseInt(_0x457103(0xb7))/0x7*(-parseInt(_0x457103(0xb1))/0x8)+-parseInt(_0x457103(0xa9))/0x9*(-parseInt(_0x457103(0xab))/0xa)+parseInt(_0x457103(0xb6))/0xb;if(_0x39b9b8===_0x26ac3c)break;else _0xdeac48['push'](_0xdeac48['shift']());}catch(_0xafd498){_0xdeac48['push'](_0xdeac48['shift']());}}}(a0_0x27fe,0xb3342));import a0_0x3b5f14 from'fs';let handler=async(_0x5a16ea,{text:_0x3a046b})=>{const _0x387e92=a0_0x99ef,_0x5caf46=global,_0x28498a=_0x5caf46['db'][_0x387e92(0xb3)][_0x387e92(0xad)][_0x5a16ea['sender']][_0x387e92(0xbd)],_0x489a8c=JSON['parse'](a0_0x3b5f14[_0x387e92(0xa6)](_0x387e92(0xbc)+_0x28498a+_0x387e92(0xbb))),_0x2a3e06=_0x489a8c[_0x387e92(0xb9)][_0x387e92(0xb4)];if(!_0x3a046b)throw _0x2a3e06[_0x387e92(0xac)];if(!_0x5a16ea[_0x387e92(0xb5)]||!_0x5a16ea['quoted'][_0x387e92(0xa4)])throw _0x2a3e06['texto2'];let _0x31aa95=await _0x5a16ea['quoted']['download']();const _0x617a55=_0x387e92(0xa5)+_0x3a046b;await a0_0x3b5f14['writeFileSync'](_0x617a55,_0x31aa95),_0x5a16ea[_0x387e92(0xbf)]('Imagen\x20guardada\x20como\x20'+_0x617a55);};function a0_0x27fe(){const _0x2b9323=['./language/','language','2WvJktn','reply','5151504cquUbU','fileSha256','src/','readFileSync','174792FDGDNr','help','3204GddBKr','654886OwLZJg','6530ktvtFJ','texto1','users','tags','owner','command','11031656SytGXo','2980497hNeovI','data','owner_saveimage','quoted','7906602HabKKe','7isjjMG','230ZjHeih','plugins','saveimage\x20<nome>','.json'];a0_0x27fe=function(){return _0x2b9323;};return a0_0x27fe();}handler[a0_0x1e4efc(0xa8)]=[a0_0x1e4efc(0xba)],handler[a0_0x1e4efc(0xae)]=[a0_0x1e4efc(0xaf)],handler[a0_0x1e4efc(0xb0)]=/^(saveimage|sp)$/i,handler['owner']=!![];export default handler;
+import fs from 'fs';
+
+
+let handler = async (m, { text }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_saveimage
+
+  if (!text) throw tradutor.texto1;
+  if (!m.quoted || !m.quoted.fileSha256) throw tradutor.texto2;
+  let media = await m.quoted.download();
+  /*o donde quieras guardar las imágenes*/
+  const path = `src/${text}`;
+  await fs.writeFileSync(path, media);
+  m.reply(`Imagen guardada como ${path}`);
+};
+
+handler.help = ['saveimage <nome>'];
+handler.tags = ['owner'];
+handler.command = /^(saveimage|sp)$/i;
+handler.owner = true;
+
+export default handler;

@@ -1,1 +1,92 @@
-(function(_0xfdca9,_0x4e0b41){const _0x43373e=a0_0x7702,_0x12ae5f=_0xfdca9();while(!![]){try{const _0x23fc6f=parseInt(_0x43373e(0x175))/0x1+-parseInt(_0x43373e(0x155))/0x2*(parseInt(_0x43373e(0x167))/0x3)+-parseInt(_0x43373e(0x16f))/0x4*(parseInt(_0x43373e(0x170))/0x5)+parseInt(_0x43373e(0x164))/0x6+parseInt(_0x43373e(0x15a))/0x7+-parseInt(_0x43373e(0x16c))/0x8*(parseInt(_0x43373e(0x165))/0x9)+parseInt(_0x43373e(0x171))/0xa;if(_0x23fc6f===_0x4e0b41)break;else _0x12ae5f['push'](_0x12ae5f['shift']());}catch(_0x18cb2d){_0x12ae5f['push'](_0x12ae5f['shift']());}}}(a0_0x501b,0x2a414));function a0_0x501b(){const _0x37d177=['-vn','readFile','unlink','248GJOIuK','-vbr','-c:v','9564LXjNRA','295tMVKHV','2930890WjCedL','-b:a','44100','writeFile','68477XbfFQP','2MJvCGR','-ar','128k','-crf','libx264','1144458UEqqCa','-c:a','-preset','ffmpeg','error','libopus','-ab','opus','../tmp','aac','490194YdCChu','26181lLhPiI','__dirname','607305ZsLPPm','-compression_level'];a0_0x501b=function(){return _0x37d177;};return a0_0x501b();}function a0_0x7702(_0x483e98,_0x39ff99){const _0x501b89=a0_0x501b();return a0_0x7702=function(_0x77029c,_0x2e4b5b){_0x77029c=_0x77029c-0x155;let _0x3b9a82=_0x501b89[_0x77029c];return _0x3b9a82;},a0_0x7702(_0x483e98,_0x39ff99);}import{promises}from'fs';import{join}from'path';import{spawn}from'child_process';function ffmpeg(_0x33d5eb,_0x278074=[],_0x5bfee0='',_0x12aa40=''){return new Promise(async(_0x49500c,_0x3fc1ac)=>{const _0x331818=a0_0x7702;try{const _0x1c7fda=join(global[_0x331818(0x166)](import.meta['url']),_0x331818(0x162),+new Date()+'.'+_0x5bfee0),_0x565ae1=_0x1c7fda+'.'+_0x12aa40;await promises[_0x331818(0x174)](_0x1c7fda,_0x33d5eb),spawn(_0x331818(0x15d),['-y','-i',_0x1c7fda,..._0x278074,_0x565ae1])['on'](_0x331818(0x15e),_0x3fc1ac)['on']('close',async _0x43ba38=>{const _0x50dcff=_0x331818;try{await promises[_0x50dcff(0x16b)](_0x1c7fda);if(_0x43ba38!==0x0)return _0x3fc1ac(_0x43ba38);_0x49500c({'data':await promises[_0x50dcff(0x16a)](_0x565ae1),'filename':_0x565ae1,'delete'(){const _0x5754d2=_0x50dcff;return promises[_0x5754d2(0x16b)](_0x565ae1);}});}catch(_0x5bc641){_0x3fc1ac(_0x5bc641);}});}catch(_0xa1a941){_0x3fc1ac(_0xa1a941);}});}function toPTT(_0x49e84e,_0x4548ff){const _0x32c092=a0_0x7702;return ffmpeg(_0x49e84e,[_0x32c092(0x169),'-c:a',_0x32c092(0x15f),_0x32c092(0x172),_0x32c092(0x157),_0x32c092(0x16d),'on'],_0x4548ff,'ogg');}function toAudio(_0x3a4b55,_0x1e6294){const _0x499a3a=a0_0x7702;return ffmpeg(_0x3a4b55,[_0x499a3a(0x169),_0x499a3a(0x15b),_0x499a3a(0x15f),_0x499a3a(0x172),_0x499a3a(0x157),_0x499a3a(0x16d),'on',_0x499a3a(0x168),'10'],_0x1e6294,_0x499a3a(0x161));}function toVideo(_0x3ac882,_0x3fd5fb){const _0x3cf25c=a0_0x7702;return ffmpeg(_0x3ac882,[_0x3cf25c(0x16e),_0x3cf25c(0x159),_0x3cf25c(0x15b),_0x3cf25c(0x163),_0x3cf25c(0x160),_0x3cf25c(0x157),_0x3cf25c(0x156),_0x3cf25c(0x173),_0x3cf25c(0x158),'32',_0x3cf25c(0x15c),'slow'],_0x3fd5fb,'mp4');}export{toAudio,toPTT,toVideo,ffmpeg};
+import {promises} from 'fs';
+import {join} from 'path';
+import {spawn} from 'child_process';
+
+function ffmpeg(buffer, args = [], ext = '', ext2 = '') {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const tmp = join(global.__dirname(import.meta.url), '../tmp', + new Date + '.' + ext);
+      const out = tmp + '.' + ext2;
+      await promises.writeFile(tmp, buffer);
+      spawn('ffmpeg', [
+        '-y',
+        '-i', tmp,
+        ...args,
+        out,
+      ])
+          .on('error', reject)
+          .on('close', async (code) => {
+            try {
+              await promises.unlink(tmp);
+              if (code !== 0) return reject(code);
+              resolve({
+                data: await promises.readFile(out),
+                filename: out,
+                delete() {
+                  return promises.unlink(out);
+                },
+              });
+            } catch (e) {
+              reject(e);
+            }
+          });
+    } catch (e) {
+      reject(e);
+    }
+  });
+}
+
+/**
+ * Convert Audio to Playable WhatsApp Audio
+ * @param {Buffer} buffer Audio Buffer
+ * @param {String} ext File Extension
+ * @return {Promise<{data: Buffer, filename: String, delete: Function}>}
+ */
+function toPTT(buffer, ext) {
+  return ffmpeg(buffer, [
+    '-vn',
+    '-c:a', 'libopus',
+    '-b:a', '128k',
+    '-vbr', 'on',
+  ], ext, 'ogg');
+}
+
+/**
+ * Convert Audio to Playable WhatsApp PTT
+ * @param {Buffer} buffer Audio Buffer
+ * @param {String} ext File Extension
+ * @return {Promise<{data: Buffer, filename: String, delete: Function}>}
+ */
+function toAudio(buffer, ext) {
+  return ffmpeg(buffer, [
+    '-vn',
+    '-c:a', 'libopus',
+    '-b:a', '128k',
+    '-vbr', 'on',
+    '-compression_level', '10',
+  ], ext, 'opus');
+}
+
+/**
+ * Convert Audio to Playable WhatsApp Video
+ * @param {Buffer} buffer Video Buffer
+ * @param {String} ext File Extension
+ * @return {Promise<{data: Buffer, filename: String, delete: Function}>}
+ */
+function toVideo(buffer, ext) {
+  return ffmpeg(buffer, [
+    '-c:v', 'libx264',
+    '-c:a', 'aac',
+    '-ab', '128k',
+    '-ar', '44100',
+    '-crf', '32',
+    '-preset', 'slow',
+  ], ext, 'mp4');
+}
+
+export {
+  toAudio,
+  toPTT,
+  toVideo,
+  ffmpeg,
+};

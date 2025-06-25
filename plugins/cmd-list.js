@@ -1,1 +1,17 @@
-const a0_0x21decb=a0_0x33d1;function a0_0x33d1(_0x838ab5,_0xe35b19){const _0x250a3a=a0_0x250a();return a0_0x33d1=function(_0x33d1f9,_0x473106){_0x33d1f9=_0x33d1f9-0x104;let _0x37f33a=_0x250a3a[_0x33d1f9];return _0x37f33a;},a0_0x33d1(_0x838ab5,_0xe35b19);}(function(_0x57597f,_0x4bb789){const _0x5be1c4=a0_0x33d1,_0x370984=_0x57597f();while(!![]){try{const _0x391565=parseInt(_0x5be1c4(0x118))/0x1+parseInt(_0x5be1c4(0x120))/0x2*(-parseInt(_0x5be1c4(0x11e))/0x3)+parseInt(_0x5be1c4(0x115))/0x4*(parseInt(_0x5be1c4(0x109))/0x5)+parseInt(_0x5be1c4(0x106))/0x6+-parseInt(_0x5be1c4(0x108))/0x7*(parseInt(_0x5be1c4(0x11b))/0x8)+parseInt(_0x5be1c4(0x117))/0x9+parseInt(_0x5be1c4(0x10b))/0xa;if(_0x391565===_0x4bb789)break;else _0x370984['push'](_0x370984['shift']());}catch(_0x26430e){_0x370984['push'](_0x370984['shift']());}}}(a0_0x250a,0x9aeef));const handler=async(_0x312842,{conn:_0x292f5f})=>{const _0x2ad731=a0_0x33d1,_0x1c9dd5=global,_0x428210=_0x1c9dd5['db'][_0x2ad731(0x10c)][_0x2ad731(0x11c)][_0x312842[_0x2ad731(0x104)]][_0x2ad731(0x107)],_0x28547f=JSON[_0x2ad731(0x110)](fs[_0x2ad731(0x124)](_0x2ad731(0x10f)+_0x428210+_0x2ad731(0x11a))),_0x362e0d=_0x28547f['plugins']['cmd_list'];_0x292f5f['reply'](_0x312842[_0x2ad731(0x119)],('\x0a*'+_0x362e0d[_0x2ad731(0x11f)]+_0x2ad731(0x10a)+Object['entries'](global['db'][_0x2ad731(0x10c)]['sticker'])[_0x2ad731(0x122)](([_0x57c23a,_0x3910fd],_0x571a3c)=>'*'+(_0x571a3c+0x1)+_0x2ad731(0x11d)+(_0x3910fd[_0x2ad731(0x111)]?_0x2ad731(0x10d)+_0x57c23a:_0x57c23a)+_0x2ad731(0x105)+_0x3910fd[_0x2ad731(0x112)])[_0x2ad731(0x114)]('\x0a\x0a')+'\x0a')[_0x2ad731(0x121)](),null,{'mentions':Object['values'](global['db'][_0x2ad731(0x10c)][_0x2ad731(0x113)])[_0x2ad731(0x122)](_0x172d69=>_0x172d69[_0x2ad731(0x123)])[_0x2ad731(0x116)]((_0x3613c5,_0x35e529)=>[..._0x3613c5,..._0x35e529],[])});};handler['command']=[a0_0x21decb(0x125),'cmdlist'],handler[a0_0x21decb(0x10e)]=!![];function a0_0x250a(){const _0x31bb8b=['data','*(𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘)*\x20','rowner','./language/','parse','locked','text','sticker','join','32952acJmKL','reduce','1999863fPMSaj','169917sLEQCn','chat','.json','9141488LBYpBH','users','.-*\x0a*𝙲𝙾𝙳𝙸𝙶𝙾:*\x20','117wTwhIh','texto1','54158YnJyJj','trim','map','mentionedJid','readFileSync','listcmd','sender','\x0a*𝙲𝙾𝙼𝙰𝙽𝙳𝙾/𝚃𝙴𝚇𝚃𝙾*\x20','2446422YHgFOk','language','7BRbiDr','615FGYKkB','*\x0a\x0a','10202390GrIKJH'];a0_0x250a=function(){return _0x31bb8b;};return a0_0x250a();}export default handler;
+
+
+const handler = async (m, {conn}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.cmd_list
+
+  conn.reply(m.chat, `
+*${tradutor.texto1}*
+
+${Object.entries(global.db.data.sticker).map(([key, value], index) => `*${index + 1}.-*\n*𝙲𝙾𝙳𝙸𝙶𝙾:* ${value.locked ? `*(𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘)* ${key}` : key}\n*𝙲𝙾𝙼𝙰𝙽𝙳𝙾/𝚃𝙴𝚇𝚃𝙾* ${value.text}`).join('\n\n')}
+`.trim(), null, {mentions: Object.values(global.db.data.sticker).map((x) => x.mentionedJid).reduce((a, b) => [...a, ...b], [])});
+};
+handler.command = ['listcmd', 'cmdlist'];
+handler.rowner = true;
+export default handler;

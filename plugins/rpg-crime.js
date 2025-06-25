@@ -1,1 +1,61 @@
-const a0_0x57949b=a0_0x5ef2;(function(_0x5df294,_0x564658){const _0x140a81=a0_0x5ef2,_0x3455dd=_0x5df294();while(!![]){try{const _0x5f16b2=-parseInt(_0x140a81(0x1d8))/0x1+parseInt(_0x140a81(0x1d1))/0x2*(-parseInt(_0x140a81(0x1c9))/0x3)+-parseInt(_0x140a81(0x1d9))/0x4*(parseInt(_0x140a81(0x1de))/0x5)+-parseInt(_0x140a81(0x1d4))/0x6+-parseInt(_0x140a81(0x1df))/0x7*(parseInt(_0x140a81(0x1cb))/0x8)+parseInt(_0x140a81(0x1ce))/0x9*(parseInt(_0x140a81(0x1d6))/0xa)+parseInt(_0x140a81(0x1bc))/0xb;if(_0x5f16b2===_0x564658)break;else _0x3455dd['push'](_0x3455dd['shift']());}catch(_0x305bc3){_0x3455dd['push'](_0x3455dd['shift']());}}}(a0_0x1030,0xc1237));let crime=0x1f4,diamante=0xa;function a0_0x1030(){const _0xa10f04=['money','1436610DbHUzG','《💰》','1850CjbUDo','crime','1254172AHLocn','1058636addgRD','random','reply','《🚓》','participants','10GGagRp','7290381NyBKCp','mentionedJid','texto1','floor','data','users','\x20XP','log','text','texto2','map','《💰》*','sender','language','text4','rpg_crime','*\x0a\x0a','plugins','quoted','getRandom','36359015Bltnrw','text5','length','register','texto3','command','\x20Hora(s)\x20','exp','help','catch','tags','robmal','text3','3gPgfuG','chat','8jogrhE','group','split','31725OMIpPS','text2','limit','203974fomLCq','readFileSync'];a0_0x1030=function(){return _0xa10f04;};return a0_0x1030();}const handler=async(_0x299746,{conn:_0x22ad21,usedPrefix:_0x5b9184,command:_0x567253,groupMetadata:_0x5d9f6a,participants:_0x1f41a8,isPrems:_0x5b4a61})=>{const _0x4fb341=a0_0x5ef2,_0x5bf064=global,_0x4f6096=_0x5bf064['db'][_0x4fb341(0x1e3)][_0x4fb341(0x1e4)][_0x299746[_0x4fb341(0x1eb)]][_0x4fb341(0x1ec)],_0xb4cda1=JSON['parse'](fs[_0x4fb341(0x1d2)]('./language/'+_0x4f6096+'.json')),_0x1f8f19=_0xb4cda1[_0x4fb341(0x1b9)][_0x4fb341(0x1ee)];global['robar']=_0x1f8f19['texto4'],global[_0x4fb341(0x1c7)]=_0x1f8f19['texto5'];const _0x1d99b5=global['db'][_0x4fb341(0x1e3)][_0x4fb341(0x1e4)][_0x299746[_0x4fb341(0x1eb)]][_0x4fb341(0x1d7)]+0x36ee80;if(new Date()-global['db'][_0x4fb341(0x1e3)][_0x4fb341(0x1e4)][_0x299746['sender']][_0x4fb341(0x1d7)]<0x36ee80)return _0x299746[_0x4fb341(0x1db)](_0x1f8f19[_0x4fb341(0x1e1)]+'\x20'+msToTime(_0x1d99b5-new Date()));let _0xaaaa9e;if(_0x299746['isGroup'])_0xaaaa9e=_0x299746['mentionedJid'][0x0]?_0x299746[_0x4fb341(0x1e0)][0x0]:_0x299746[_0x4fb341(0x1ba)]?_0x299746[_0x4fb341(0x1ba)][_0x4fb341(0x1eb)]:![];else _0xaaaa9e=_0x299746[_0x4fb341(0x1ca)];try{let _0x4e36e2=_0x5d9f6a[_0x4fb341(0x1dd)][_0x4fb341(0x1e9)](_0x1a4903=>_0x1a4903['id']),_0x1cfddd=_0x4e36e2[_0x4fb341(0x1bb)](),_0x52a739=global['db']['data'][_0x4fb341(0x1e4)][_0x1cfddd];const _0x3dcfe9=Math[_0x4fb341(0x1e2)](Math[_0x4fb341(0x1da)]()*0x2328),_0x3feafa=Math[_0x4fb341(0x1e2)](Math[_0x4fb341(0x1da)]()*0x96),_0x3526bd=Math[_0x4fb341(0x1e2)](Math[_0x4fb341(0x1da)]()*0x2328);let _0x50f038=[_0x4fb341(0x1e7),_0x4fb341(0x1cf),'text3',_0x4fb341(0x1ed),_0x4fb341(0x1bd)],_0x48d42a=_0x50f038[Math['floor'](Math[_0x4fb341(0x1da)]()*0x4)];global['db'][_0x4fb341(0x1e3)][_0x4fb341(0x1e4)][_0x299746[_0x4fb341(0x1eb)]][_0x4fb341(0x1d7)]=new Date()*0x1;if(_0x48d42a===_0x4fb341(0x1e7))return _0x299746[_0x4fb341(0x1db)](_0x4fb341(0x1d5)+pickRandom(global['robar'])+'\x20'+_0x3dcfe9+_0x4fb341(0x1e5))[_0x4fb341(0x1c5)](global['db']['data']['users'][_0x299746[_0x4fb341(0x1eb)]]['exp']+=_0x3dcfe9);if(_0x48d42a===_0x4fb341(0x1cf))return _0x299746['reply'](_0x4fb341(0x1dc)+pickRandom(global[_0x4fb341(0x1c7)])+'\x20'+_0x3dcfe9+_0x4fb341(0x1e5))['catch'](global['db']['data'][_0x4fb341(0x1e4)][_0x299746[_0x4fb341(0x1eb)]][_0x4fb341(0x1c3)]-=crime);if(_0x48d42a===_0x4fb341(0x1c8))return _0x299746['reply'](_0x4fb341(0x1ea)+pickRandom(global['robar'])+_0x4fb341(0x1ef)+_0x3feafa+'\x20'+_0x1f8f19[_0x4fb341(0x1e8)][0x0]+'\x0a'+_0x3526bd+'\x20'+_0x1f8f19[_0x4fb341(0x1e8)][0x1])['catch'](global['db']['data'][_0x4fb341(0x1e4)][_0x299746[_0x4fb341(0x1eb)]][_0x4fb341(0x1d0)]+=_0x3feafa)[_0x4fb341(0x1c5)](global['db'][_0x4fb341(0x1e3)][_0x4fb341(0x1e4)][_0x299746[_0x4fb341(0x1eb)]][_0x4fb341(0x1d3)]+=_0x3526bd);if(_0x48d42a===_0x4fb341(0x1ed))return _0x299746[_0x4fb341(0x1db)](_0x4fb341(0x1dc)+pickRandom(global[_0x4fb341(0x1c7)])+'\x0a\x0a'+_0x3feafa+'\x20'+_0x1f8f19['texto2'][0x0]+'n'+_0x3526bd+'\x20'+_0x1f8f19[_0x4fb341(0x1e8)][0x1])['catch'](global['db'][_0x4fb341(0x1e3)][_0x4fb341(0x1e4)][_0x299746['sender']][_0x4fb341(0x1d0)]-=diamante)[_0x4fb341(0x1c5)](global['db']['data'][_0x4fb341(0x1e4)][_0x299746[_0x4fb341(0x1eb)]]['money']-=crime);if(_0x48d42a===_0x4fb341(0x1bd))return _0x22ad21[_0x4fb341(0x1db)](_0x299746[_0x4fb341(0x1ca)],_0x1f8f19[_0x4fb341(0x1c0)][0x0]+'\x20@'+_0x1cfddd[_0x4fb341(0x1cd)]`@`[0x0]+'\x20'+_0x1f8f19[_0x4fb341(0x1c0)][0x1]+'\x20'+_0x3dcfe9+_0x4fb341(0x1e5),_0x299746,{'contextInfo':{'mentionedJid':[_0x1cfddd]}})[_0x4fb341(0x1c5)](global['db'][_0x4fb341(0x1e3)][_0x4fb341(0x1e4)][_0x299746[_0x4fb341(0x1eb)]][_0x4fb341(0x1c3)]+=_0x3dcfe9)[_0x4fb341(0x1c5)](global['db'][_0x4fb341(0x1e3)][_0x4fb341(0x1e4)][_0x1cfddd][_0x4fb341(0x1c3)]-=crime);}catch(_0x31331a){console[_0x4fb341(0x1e6)](_0x31331a);}};handler[a0_0x57949b(0x1c4)]=[a0_0x57949b(0x1d7)],handler[a0_0x57949b(0x1c6)]=['xp'],handler[a0_0x57949b(0x1c1)]=/^(crime|Crime)$/i,handler[a0_0x57949b(0x1bf)]=!![],handler[a0_0x57949b(0x1cc)]=!![];export default handler;function a0_0x5ef2(_0x1b5d43,_0x31d3a3){const _0x103006=a0_0x1030();return a0_0x5ef2=function(_0x5ef2a6,_0x2abc22){_0x5ef2a6=_0x5ef2a6-0x1b9;let _0x21cf62=_0x103006[_0x5ef2a6];return _0x21cf62;},a0_0x5ef2(_0x1b5d43,_0x31d3a3);}function msToTime(_0x7f8421){const _0x29b601=a0_0x57949b;var _0x480b87=parseInt(_0x7f8421%0x3e8/0x64),_0x39ec62=Math['floor'](_0x7f8421/0x3e8%0x3c),_0x3bcd37=Math[_0x29b601(0x1e2)](_0x7f8421/(0x3e8*0x3c)%0x3c),_0x1917d2=Math[_0x29b601(0x1e2)](_0x7f8421/(0x3e8*0x3c*0x3c)%0x18);return _0x1917d2=_0x1917d2<0xa?'0'+_0x1917d2:_0x1917d2,_0x3bcd37=_0x3bcd37<0xa?'0'+_0x3bcd37:_0x3bcd37,_0x39ec62=_0x39ec62<0xa?'0'+_0x39ec62:_0x39ec62,_0x1917d2+_0x29b601(0x1c2)+_0x3bcd37+'\x20Minuto(s)';}function pickRandom(_0x4e1be9){const _0x40da80=a0_0x57949b;return _0x4e1be9[Math[_0x40da80(0x1e2)](_0x4e1be9[_0x40da80(0x1be)]*Math['random']())];}
+//CÓDIGO CREADO POR elrebelde21 : https://github.com/elrebelde21
+
+
+let crime = 500
+let diamante = 10
+const handler = async (m, { conn, usedPrefix, command, groupMetadata, participants, isPrems }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_crime
+
+  global.robar = tradutor.texto4;
+  global.robmal = tradutor.texto5;
+
+
+  const date = global.db.data.users[m.sender].crime + 3600000; //3600000 = 1 hs
+  if (new Date - global.db.data.users[m.sender].crime < 3600000) return m.reply(`${tradutor.texto1} ${msToTime(date - new Date())}`)
+  let randow
+  if (m.isGroup) randow = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
+  else randow = m.chat
+  try {
+    let ps = groupMetadata.participants.map(v => v.id)
+    let randow = ps.getRandom()
+    let users = global.db.data.users[randow]
+    const exp = Math.floor(Math.random() * 9000)
+    const diamond = Math.floor(Math.random() * 150)
+    const money = Math.floor(Math.random() * 9000)
+    let or = ['text', 'text2', 'text3', 'text4', 'text5'];
+    let media = or[Math.floor(Math.random() * 4)]
+    global.db.data.users[m.sender].crime = new Date * 1;
+    if (media === 'text') return m.reply(`《💰》${pickRandom(global.robar)} ${exp} XP`).catch(global.db.data.users[m.sender].exp += exp)
+    if (media === 'text2') return m.reply(`《🚓》${pickRandom(global.robmal)} ${exp} XP`).catch(global.db.data.users[m.sender].exp -= crime)
+    if (media === 'text3') return m.reply(`《💰》*${pickRandom(global.robar)}*\n\n${diamond} ${tradutor.texto2[0]}\n${money} ${tradutor.texto2[1]}`).catch(global.db.data.users[m.sender].limit += diamond).catch(global.db.data.users[m.sender].money += money)
+    if (media === 'text4') return m.reply(`《🚓》${pickRandom(global.robmal)}\n\n${diamond} ${tradutor.texto2[0]}n${money} ${tradutor.texto2[1]}`).catch(global.db.data.users[m.sender].limit -= diamante).catch(global.db.data.users[m.sender].money -= crime)
+    if (media === 'text5') return conn.reply(m.chat, `${tradutor.texto3[0]} @${randow.split`@`[0]} ${tradutor.texto3[1]} ${exp} XP`, m, { contextInfo: { mentionedJid: [randow] } }).catch(global.db.data.users[m.sender].exp += exp).catch(global.db.data.users[randow].exp -= crime)
+  } catch (e) {
+    console.log(e)
+  }
+}
+handler.help = ['crime'];
+handler.tags = ['xp'];
+handler.command = /^(crime|Crime)$/i
+handler.register = true
+handler.group = true
+export default handler;
+
+function msToTime(duration) {
+  var milliseconds = parseInt((duration % 1000) / 100),
+    seconds = Math.floor((duration / 1000) % 60),
+    minutes = Math.floor((duration / (1000 * 60)) % 60),
+    hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
+  hours = (hours < 10) ? "0" + hours : hours
+  minutes = (minutes < 10) ? "0" + minutes : minutes
+  seconds = (seconds < 10) ? "0" + seconds : seconds
+  return hours + " Hora(s) " + minutes + " Minuto(s)"
+}
+
+function pickRandom(list) {
+  return list[Math.floor(list.length * Math.random())];
+}
+

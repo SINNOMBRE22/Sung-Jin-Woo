@@ -1,1 +1,90 @@
-const a0_0x44b248=a0_0x5791;(function(_0x163d42,_0xacac87){const _0x23535b=a0_0x5791,_0x149750=_0x163d42();while(!![]){try{const _0x5a6adc=parseInt(_0x23535b(0x13c))/0x1+parseInt(_0x23535b(0x13f))/0x2*(parseInt(_0x23535b(0x13a))/0x3)+parseInt(_0x23535b(0x113))/0x4*(-parseInt(_0x23535b(0x10c))/0x5)+parseInt(_0x23535b(0x11e))/0x6*(parseInt(_0x23535b(0x12a))/0x7)+-parseInt(_0x23535b(0x12d))/0x8+parseInt(_0x23535b(0x11c))/0x9*(-parseInt(_0x23535b(0x140))/0xa)+-parseInt(_0x23535b(0x112))/0xb*(parseInt(_0x23535b(0x129))/0xc);if(_0x5a6adc===_0xacac87)break;else _0x149750['push'](_0x149750['shift']());}catch(_0x372f59){_0x149750['push'](_0x149750['shift']());}}}(a0_0x5d12,0x288bc));import{performance}from'perf_hooks';import a0_0x2d3eaa from'node-os-utils';let handler=async(_0x14fa1c,{conn:_0x24a6f9,command:_0x147d1c,usedPrefix:_0x201321,DevMode:_0x1354fe})=>{const _0x34eefe=a0_0x5791;global['db']['data']['users'][_0x14fa1c[_0x34eefe(0x138)]][_0x34eefe(0x141)]+=0x1;try{let _0x32094c=_0x34eefe(0x11a),_0x260831=performance[_0x34eefe(0x134)](),_0x3541de=a0_0x2d3eaa['cpu'],_0x1ea030=_0x3541de[_0x34eefe(0x135)](),_0x54423d=a0_0x2d3eaa[_0x34eefe(0x144)],_0x31071f=a0_0x2d3eaa['mem'],_0x5c8834=a0_0x2d3eaa[_0x34eefe(0x12b)],_0x482727=a0_0x2d3eaa['os']['platform'](),_0x3ccbbe=_0x3541de['model'](),_0x21fa2c,_0x12c533=_0x3541de[_0x34eefe(0x11f)]()[_0x34eefe(0x142)](_0x4e9554=>{_0x21fa2c=_0x4e9554;})[_0x34eefe(0x118)](()=>{_0x21fa2c=_0x32094c;}),_0x2bf09f,_0x507857,_0x48839f,_0x381285=_0x54423d[_0x34eefe(0x115)]()[_0x34eefe(0x142)](_0x50f037=>{const _0x14f6a5=_0x34eefe;_0x2bf09f=_0x50f037[_0x14f6a5(0x13e)]+'\x20GB',_0x507857=_0x50f037[_0x14f6a5(0x136)],_0x48839f=_0x50f037[_0x14f6a5(0x119)]+'%';})[_0x34eefe(0x118)](()=>{_0x2bf09f=_0x32094c,_0x507857=_0x32094c,_0x48839f=_0x32094c;}),_0x5c29db,_0x2f9104,_0x5de85d=_0x31071f[_0x34eefe(0x115)]()['then'](_0x4cc515=>{const _0x9f9cfc=_0x34eefe;_0x5c29db=_0x4cc515[_0x9f9cfc(0x128)],_0x2f9104=_0x4cc515[_0x9f9cfc(0x12e)];})['catch'](()=>{_0x5c29db=_0x32094c,_0x2f9104=_0x32094c;}),_0x2d8ee7,_0x351274,_0x6b88f6=_0x5c8834[_0x34eefe(0x121)]()[_0x34eefe(0x142)](_0x327acb=>{const _0xdcb121=_0x34eefe;_0x2d8ee7=_0x327acb[_0xdcb121(0x148)][_0xdcb121(0x147)]+_0xdcb121(0x10e),_0x351274=_0x327acb[_0xdcb121(0x148)][_0xdcb121(0x132)]+_0xdcb121(0x10e);})[_0x34eefe(0x118)](()=>{_0x2d8ee7=_0x32094c,_0x351274=_0x32094c;});await Promise[_0x34eefe(0x12f)]([_0x12c533,_0x381285,_0x5de85d,_0x6b88f6]);let _0x391cfa=_0x5c29db+_0x34eefe(0x10e),_0x44ae4a=performance[_0x34eefe(0x134)]();var _0x3ee448=_0x34eefe(0x110)+_0x482727+_0x34eefe(0x13d)+_0x3ccbbe+_0x34eefe(0x11d)+_0x1ea030+_0x34eefe(0x12c)+_0x21fa2c+'%*\x0aRam\x20:\x20*'+_0x2f9104+_0x34eefe(0x143)+_0x391cfa+'('+(/[0-9.+/]/g[_0x34eefe(0x14d)](_0x2f9104)&&/[0-9.+/]/g[_0x34eefe(0x14d)](_0x5c29db)?Math[_0x34eefe(0x124)](0x64*(_0x2f9104/_0x5c29db))+'%':_0x32094c)+_0x34eefe(0x139)+_0x507857+_0x34eefe(0x143)+_0x2bf09f+'\x20('+_0x48839f+_0x34eefe(0x133)+Math[_0x34eefe(0x124)](_0x44ae4a-_0x260831)+_0x34eefe(0x14a);_0x24a6f9[_0x34eefe(0x10f)](_0x14fa1c[_0x34eefe(0x145)],{'image':{'url':'https://telegra.ph/file/ec8cf04e3a2890d3dce9c.jpg'},'caption':_0x3ee448},{'quoted':_0x14fa1c}),console[_0x34eefe(0x111)](_0x482727);}catch(_0x4b1722){console['log'](_0x4b1722),_0x24a6f9[_0x34eefe(0x146)](_0x14fa1c[_0x34eefe(0x145)],eror,_0x14fa1c);if(_0x1354fe)for(let _0xd40251 of global[_0x34eefe(0x120)][_0x34eefe(0x10d)](_0x20c221=>_0x20c221[_0x34eefe(0x114)](/[^0-9]/g,'')+_0x34eefe(0x137))[_0x34eefe(0x13b)](_0x50e1d4=>_0x50e1d4!=_0x24a6f9['user'][_0x34eefe(0x126)])){_0x24a6f9[_0x34eefe(0x146)](_0xd40251,_0x34eefe(0x127)+_0x14fa1c[_0x34eefe(0x138)]['split']`@`[0x0]+_0x34eefe(0x130)+_0x14fa1c[_0x34eefe(0x123)]+_0x34eefe(0x11b)+_0x4b1722+'*',_0x14fa1c);}}};function a0_0x5d12(){const _0x5ebeaa=['cpu','jid','Status.js\x20error\x0aNo:\x20*','totalMemMb','60qEoPHu','697382HJtBob','netstat','\x20Core*\x0aCPU\x20:\x20*','277280RYnluL','usedMemMb','all','*\x0aCommand:\x20*','tags','outputMb',')*\x0aPing\x20:\x20*','now','count','usedGb','@s.whatsapp.net','sender',')*\x0aDisco\x20:\x20*','6hthAIZ','filter','281153cAgjGS','*\x0aCPU\x20Model\x20:\x20*','totalGb','315868uiUkPa','3860VArYyB','comandos','then','\x20/\x20','drive','chat','reply','inputMb','total','join','\x20ms*\x0a','help','rowner','test','300tzMrgu','map','\x20MB','sendMessage','\x0a*「\x20Status\x20」*\x0aOS\x20:\x20*','log','697257aiyxRK','8100guDJav','replace','info','floor','toString','catch','usedPercentage','Not\x20Detect','*\x0a\x0a*','3663JCgjHj','*\x0aCPU\x20Core\x20:\x20*','12KUZtTr','usage','owner','inOut','padStart','text','round'];a0_0x5d12=function(){return _0x5ebeaa;};return a0_0x5d12();}function a0_0x5791(_0x24541e,_0x1f34b8){const _0x5d12e9=a0_0x5d12();return a0_0x5791=function(_0x5791b5,_0x4abddb){_0x5791b5=_0x5791b5-0x10c;let _0x5820fe=_0x5d12e9[_0x5791b5];return _0x5820fe;},a0_0x5791(_0x24541e,_0x1f34b8);}handler[a0_0x44b248(0x14b)]=[a0_0x44b248(0x125)],handler[a0_0x44b248(0x131)]=[a0_0x44b248(0x115)],handler['command']=/^(cpu)$/i,handler[a0_0x44b248(0x14c)]=!![];export default handler;function clockString(_0x4bee3b){const _0xa54321=a0_0x44b248;let _0x31b4ff=Math[_0xa54321(0x116)](_0x4bee3b/0x36ee80),_0x1be134=Math[_0xa54321(0x116)](_0x4bee3b/0xea60)%0x3c,_0x5293a8=Math[_0xa54321(0x116)](_0x4bee3b/0x3e8)%0x3c;return console[_0xa54321(0x111)]({'ms':_0x4bee3b,'h':_0x31b4ff,'m':_0x1be134,'s':_0x5293a8}),[_0x31b4ff,_0x1be134,_0x5293a8][_0xa54321(0x10d)](_0x45a4d6=>_0x45a4d6[_0xa54321(0x117)]()[_0xa54321(0x122)](0x2,0x0))[_0xa54321(0x149)](':');}
+import { performance } from 'perf_hooks'
+import osu from 'node-os-utils'
+
+let handler = async(m, { conn, command, usedPrefix, DevMode }) => {
+	global.db.data.users[m.sender].comandos += 1;
+    try {
+        let NotDetect = 'Not Detect'
+        let old = performance.now()
+        let cpu = osu.cpu
+        let cpuCore = cpu.count()
+        let drive = osu.drive
+        let mem = osu.mem
+        let netstat = osu.netstat
+        let OS = osu.os.platform()
+        let cpuModel = cpu.model()
+        let cpuPer
+        let p1 = cpu.usage().then(cpuPercentage => {
+            cpuPer = cpuPercentage
+        }).catch(() => {
+            cpuPer = NotDetect
+        })
+        let driveTotal, driveUsed, drivePer
+        let p2 = drive.info().then(info => {
+            driveTotal = (info.totalGb + ' GB'),
+                driveUsed = info.usedGb,
+                drivePer = (info.usedPercentage + '%')
+        }).catch(() => {
+            driveTotal = NotDetect,
+                driveUsed = NotDetect,
+                drivePer = NotDetect
+        })
+        let ramTotal, ramUsed
+        let p3 = mem.info().then(info => {
+            ramTotal = info.totalMemMb,
+                ramUsed = info.usedMemMb
+        }).catch(() => {
+            ramTotal = NotDetect,
+                ramUsed = NotDetect
+        })
+        let netsIn, netsOut
+        let p4 = netstat.inOut().then(info => {
+            netsIn = (info.total.inputMb + ' MB'),
+                netsOut = (info.total.outputMb + ' MB')
+        }).catch(() => {
+            netsIn = NotDetect,
+                netsOut = NotDetect
+        })
+        await Promise.all([p1, p2, p3, p4])
+        let _ramTotal = (ramTotal + ' MB')
+        let neww = performance.now()
+        
+
+var txt = `
+*「 Status 」*
+OS : *${OS}*
+CPU Model : *${cpuModel}*
+CPU Core : *${cpuCore} Core*
+CPU : *${cpuPer}%*
+Ram : *${ramUsed} / ${_ramTotal}(${/[0-9.+/]/g.test(ramUsed) &&  /[0-9.+/]/g.test(ramTotal) ? Math.round(100 * (ramUsed / ramTotal)) + '%' : NotDetect})*
+Disco : *${driveUsed} / ${driveTotal} (${drivePer})*
+Ping : *${Math.round(neww - old)} ms*
+`
+
+conn.sendMessage(m.chat,{ image :{ url : "https://telegra.ph/file/ec8cf04e3a2890d3dce9c.jpg" } , caption : txt }, { quoted: m })
+        console.log(OS)
+    } catch (e) {
+        console.log(e)
+        conn.reply(m.chat, eror, m)
+        if (DevMode) {
+            for (let jid of global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != conn.user.jid)) {
+                conn.reply(jid, 'Status.js error\nNo: *' + m.sender.split `@` [0] + '*\nCommand: *' + m.text + '*\n\n*' + e + '*', m)
+            }
+        }
+    }
+}
+
+handler.help = ['cpu']
+handler.tags = ['info']
+handler.command = /^(cpu)$/i
+handler.rowner = true
+
+export default handler
+
+function clockString(ms) {
+    let h = Math.floor(ms / 3600000)
+    let m = Math.floor(ms / 60000) % 60
+    let s = Math.floor(ms / 1000) % 60
+    console.log({ ms, h, m, s })
+    return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
+}

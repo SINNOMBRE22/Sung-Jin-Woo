@@ -1,1 +1,26 @@
-const a0_0x1232e9=a0_0x45ff;(function(_0x2bc7d1,_0x49a270){const _0x9b6143=a0_0x45ff,_0x17d558=_0x2bc7d1();while(!![]){try{const _0x5e793e=-parseInt(_0x9b6143(0x173))/0x1+-parseInt(_0x9b6143(0x176))/0x2*(-parseInt(_0x9b6143(0x175))/0x3)+-parseInt(_0x9b6143(0x183))/0x4+-parseInt(_0x9b6143(0x172))/0x5*(parseInt(_0x9b6143(0x17a))/0x6)+-parseInt(_0x9b6143(0x16a))/0x7+parseInt(_0x9b6143(0x16c))/0x8+parseInt(_0x9b6143(0x16b))/0x9*(parseInt(_0x9b6143(0x182))/0xa);if(_0x5e793e===_0x49a270)break;else _0x17d558['push'](_0x17d558['shift']());}catch(_0x9a1d57){_0x17d558['push'](_0x17d558['shift']());}}}(a0_0x4bdb,0xe08bf));import a0_0x2b71fe from'axios';function a0_0x45ff(_0x326e55,_0x1c247f){const _0x4bdbfa=a0_0x4bdb();return a0_0x45ff=function(_0x45ff85,_0x3d145e){_0x45ff85=_0x45ff85-0x16a;let _0x2bb2ef=_0x4bdbfa[_0x45ff85];return _0x2bb2ef;},a0_0x45ff(_0x326e55,_0x1c247f);}let handler=async(_0x12de61,{conn:_0x46ae82,args:_0x29fe85,text:_0x1c0c32,command:_0x25e41c,usedPrefix:_0x23c8b5})=>{const _0x4a6b4a=a0_0x45ff;global['db'][_0x4a6b4a(0x179)][_0x4a6b4a(0x170)][_0x12de61[_0x4a6b4a(0x16d)]][_0x4a6b4a(0x178)]+=0x1;if(!_0x1c0c32)throw'Formato:\x20'+_0x23c8b5+_0x25e41c+_0x4a6b4a(0x181);_0x12de61['reply'](_0x4a6b4a(0x17c));try{let _0x380eb5=await a0_0x2b71fe['get'](_0x4a6b4a(0x177)+encodeURIComponent(_0x1c0c32),{'responseType':_0x4a6b4a(0x16f)}),_0x1a70ae=_0x380eb5['data'];await _0x46ae82[_0x4a6b4a(0x17b)](_0x12de61[_0x4a6b4a(0x17e)],_0x1a70ae,'texto.webp','✅\x20TEXTO',_0x12de61);}catch(_0x2ed593){console[_0x4a6b4a(0x184)](_0x2ed593),_0x12de61[_0x4a6b4a(0x17f)](_0x4a6b4a(0x171));}};handler['help']=[a0_0x1232e9(0x16e)],handler[a0_0x1232e9(0x17d)]=[a0_0x1232e9(0x174)],handler[a0_0x1232e9(0x180)]=['ttp'],handler['group']=!![];export default handler;function a0_0x4bdb(){const _0x342ab1=['123195jVqYEZ','834442MvzbNw','sticker','1664217HrHCBI','6ukRQmL','https://api.lolhuman.xyz/api/attp?apikey=b77e9bc815d5515582a15a2a&text=','comandos','data','198gJJXIL','sendFile','Generado,\x20Espere...\x20⏳','tags','chat','reply','command','\x20<texto>','150oAOaHl','2267404MybHDw','error','7779765rGWYuG','1359657DpeXoK','2521648PnwCCe','sender','ttp','arraybuffer','users','❌\x20Ocurrió\x20un\x20error\x20al\x20generar\x20la\x20imagen.'];a0_0x4bdb=function(){return _0x342ab1;};return a0_0x4bdb();}
+import axios from 'axios'
+
+let handler = async (m, { conn, args, text, command, usedPrefix }) => {
+  global.db.data.users[m.sender].comandos += 1;
+
+  if (!text) throw `Formato: ${usedPrefix}${command} <texto>`;
+
+  m.reply('Generado, Espere... ⏳');
+
+  try {
+    let url = await axios.get(`https://api.lolhuman.xyz/api/attp?apikey=b77e9bc815d5515582a15a2a&text=${encodeURIComponent(text)}`, { responseType: 'arraybuffer' });
+    let data = url.data;
+
+    await conn.sendFile(m.chat, data, 'texto.webp', '✅ TEXTO', m);
+  } catch (error) {
+    console.error(error);
+    m.reply('❌ Ocurrió un error al generar la imagen.');
+  }
+}
+
+handler.help = ['ttp'];
+handler.tags = ['sticker'];
+handler.command = ['ttp'];
+handler.group = true;
+
+export default handler;

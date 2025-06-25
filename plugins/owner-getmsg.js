@@ -1,1 +1,20 @@
-const a0_0x48cb7d=a0_0x15aa;function a0_0x15aa(_0x5d7bb4,_0x5954ad){const _0xfb30a8=a0_0xfb30();return a0_0x15aa=function(_0x15aa01,_0x3a90ae){_0x15aa01=_0x15aa01-0x15d;let _0x219272=_0xfb30a8[_0x15aa01];return _0x219272;},a0_0x15aa(_0x5d7bb4,_0x5954ad);}(function(_0x210cb3,_0x2d0dc2){const _0x2460f4=a0_0x15aa,_0x48ee6b=_0x210cb3();while(!![]){try{const _0x938243=-parseInt(_0x2460f4(0x164))/0x1*(parseInt(_0x2460f4(0x176))/0x2)+parseInt(_0x2460f4(0x172))/0x3*(-parseInt(_0x2460f4(0x175))/0x4)+-parseInt(_0x2460f4(0x17e))/0x5+-parseInt(_0x2460f4(0x16d))/0x6*(-parseInt(_0x2460f4(0x160))/0x7)+parseInt(_0x2460f4(0x177))/0x8+parseInt(_0x2460f4(0x17a))/0x9+-parseInt(_0x2460f4(0x162))/0xa*(-parseInt(_0x2460f4(0x163))/0xb);if(_0x938243===_0x2d0dc2)break;else _0x48ee6b['push'](_0x48ee6b['shift']());}catch(_0x362ff7){_0x48ee6b['push'](_0x48ee6b['shift']());}}}(a0_0xfb30,0xba9ec));const handler=async(_0x843354,{conn:_0xb466c0,command:_0x5cc81a,usedPrefix:_0x5671f3,text:_0x202f46})=>{const _0x5dd1a7=a0_0x15aa,_0x2dc748=global,_0x57505f=_0x2dc748['db'][_0x5dd1a7(0x174)][_0x5dd1a7(0x179)][_0x843354['sender']][_0x5dd1a7(0x17d)],_0x58bcb2=JSON[_0x5dd1a7(0x17c)](fs['readFileSync'](_0x5dd1a7(0x15f)+_0x57505f+_0x5dd1a7(0x161))),_0x60023d=_0x58bcb2[_0x5dd1a7(0x167)][_0x5dd1a7(0x16c)],_0x102842=_0x5cc81a[_0x5dd1a7(0x15e)](/ver/i,'');if(!_0x202f46)throw _0x60023d[_0x5dd1a7(0x170)][0x0]+'\x20*'+_0x5671f3+'list'+_0x102842+'*\x20'+_0x60023d['texto1'][0x1];const _0x21c16e=global['db']['data']['msgs'];if(!_0x202f46 in _0x21c16e)throw'*[❗𝐈𝐍𝐅𝐎❗]\x20\x27'+_0x202f46+'\x27\x20'+_0x60023d[_0x5dd1a7(0x16a)];const _0x3b79c3=await _0xb466c0[_0x5dd1a7(0x15d)](_0x21c16e[_0x202f46]);await _0x3b79c3[_0x5dd1a7(0x173)](_0x843354[_0x5dd1a7(0x171)],!![]);};function a0_0xfb30(){const _0x1c4d6e=['texto2','rowner','owner_getmsg','24YksQJn','get','audio','texto1','chat','1146300KblZfW','copyNForward','data','8tXSJJp','525034rLQtfi','370336FNHgvd','database','users','7636257KQssFJ','command','parse','language','1150330geESAp','help','serializeM','replace','./language/','1141679NjkDGe','.json','3430BxowrN','15202MyXWty','1PdPTxs','\x20<text>','msg','plugins','foto','tags'];a0_0xfb30=function(){return _0x1c4d6e;};return a0_0xfb30();}handler[a0_0x48cb7d(0x17f)]=['vn',a0_0x48cb7d(0x166),'video',a0_0x48cb7d(0x16f),a0_0x48cb7d(0x168),'sticker']['map'](_0x157844=>a0_0x48cb7d(0x16e)+_0x157844+a0_0x48cb7d(0x165)),handler[a0_0x48cb7d(0x169)]=[a0_0x48cb7d(0x178)],handler[a0_0x48cb7d(0x17b)]=/^ver(vn|msg|video|audio|foto|sticker)$/,handler[a0_0x48cb7d(0x16b)]=!![];export default handler;
+
+
+const handler = async (m, {conn, command, usedPrefix, text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_getmsg
+
+  const which = command.replace(/ver/i, '');
+  if (!text) throw `${tradutor.texto1[0]} *${usedPrefix}list${which}* ${tradutor.texto1[1]}`;
+  const msgs = global.db.data.msgs;
+  if (!text in msgs) throw `*[❗𝐈𝐍𝐅𝐎❗] '${text}' ${tradutor.texto2}`;
+  const _m = await conn.serializeM(msgs[text]);
+  await _m.copyNForward(m.chat, true);
+};
+handler.help = ['vn', 'msg', 'video', 'audio', 'foto', 'sticker'].map((v) => 'get' + v + ' <text>');
+handler.tags = ['database'];
+handler.command = /^ver(vn|msg|video|audio|foto|sticker)$/;
+handler.rowner = true;
+export default handler;

@@ -1,1 +1,48 @@
-function a0_0x46d6(_0x27e42b,_0x10bd7f){const _0x3fa9b4=a0_0x3fa9();return a0_0x46d6=function(_0x46d6ca,_0x13ab71){_0x46d6ca=_0x46d6ca-0x1a6;let _0xcfeadc=_0x3fa9b4[_0x46d6ca];return _0xcfeadc;},a0_0x46d6(_0x27e42b,_0x10bd7f);}const a0_0x458d7e=a0_0x46d6;(function(_0x55128e,_0x592cc6){const _0x440cd3=a0_0x46d6,_0x30b7c0=_0x55128e();while(!![]){try{const _0x1a4036=-parseInt(_0x440cd3(0x1b3))/0x1*(parseInt(_0x440cd3(0x1b6))/0x2)+parseInt(_0x440cd3(0x1a7))/0x3*(parseInt(_0x440cd3(0x1bf))/0x4)+-parseInt(_0x440cd3(0x1ad))/0x5+parseInt(_0x440cd3(0x1cc))/0x6*(parseInt(_0x440cd3(0x1ae))/0x7)+parseInt(_0x440cd3(0x1a9))/0x8+parseInt(_0x440cd3(0x1cd))/0x9+-parseInt(_0x440cd3(0x1bc))/0xa;if(_0x1a4036===_0x592cc6)break;else _0x30b7c0['push'](_0x30b7c0['shift']());}catch(_0x9dcff3){_0x30b7c0['push'](_0x30b7c0['shift']());}}}(a0_0x3fa9,0x6abe9));let handler=async(_0x18bca1,{conn:_0x4d30f1,args:_0x1c99f8,participants:_0x59fe1e})=>{const _0x4ee4a8=a0_0x46d6;let _0x4c5813=Object[_0x4ee4a8(0x1ba)](global['db'][_0x4ee4a8(0x1b5)][_0x4ee4a8(0x1bd)])[_0x4ee4a8(0x1be)](([_0x38aa21,_0x1f9a9e])=>{return{..._0x1f9a9e,'jid':_0x38aa21};}),_0x443ab4=_0x4c5813[_0x4ee4a8(0x1be)](toNumber(_0x4ee4a8(0x1c7)))[_0x4ee4a8(0x1ab)](sort(_0x4ee4a8(0x1c7))),_0x1ba5ca=_0x443ab4['map'](enumGetKey),_0x1f2d26=_0x1c99f8[0x0]&&_0x1c99f8[0x0][_0x4ee4a8(0x1af)]>0x0?Math[_0x4ee4a8(0x1b4)](0xa,Math[_0x4ee4a8(0x1c9)](parseInt(_0x1c99f8[0x0]),0xa)):Math[_0x4ee4a8(0x1b4)](0xa,_0x443ab4[_0x4ee4a8(0x1af)]),_0x306ba5=('\x0a*<\x20TABLA\x20DE\x20CLASIFICACION\x20-\x20TOP\x20RATEROS\x20🐭\x20/>*\x0a\x20\x20\x20\x20\x0a▢\x20*TOP\x20'+_0x1f2d26+'\x20ROBOS*\x20•\x0aTú\x20:\x20*'+(_0x1ba5ca[_0x4ee4a8(0x1c4)](_0x18bca1[_0x4ee4a8(0x1c2)])+0x1)+_0x4ee4a8(0x1c5)+_0x1ba5ca[_0x4ee4a8(0x1af)]+_0x4ee4a8(0x1c3)+_0x443ab4[_0x4ee4a8(0x1aa)](0x0,_0x1f2d26)[_0x4ee4a8(0x1be)](({jid:_0x29af84,robo:_0x6290e8},_0x55fe95)=>_0x55fe95+0x1+'.\x20'+(_0x59fe1e[_0x4ee4a8(0x1b0)](_0x42bebd=>_0x29af84===_0x42bebd[_0x4ee4a8(0x1c6)])?'('+_0x4d30f1['getName'](_0x29af84)+_0x4ee4a8(0x1cb):'@')+_0x29af84[_0x4ee4a8(0x1bb)]`@`[0x0]+'\x20*'+_0x6290e8+_0x4ee4a8(0x1b2))[_0x4ee4a8(0x1c1)]('\x0a')+'\x0a')[_0x4ee4a8(0x1b9)]();_0x18bca1[_0x4ee4a8(0x1ac)](_0x306ba5,null,{'mentions':_0x4d30f1[_0x4ee4a8(0x1a8)](_0x306ba5)});};handler[a0_0x458d7e(0x1a6)]=[a0_0x458d7e(0x1c8)],handler[a0_0x458d7e(0x1c0)]=['xp'],handler[a0_0x458d7e(0x1b8)]=[a0_0x458d7e(0x1b7)],handler[a0_0x458d7e(0x1ca)]=null,handler[a0_0x458d7e(0x1b1)]=0x0;export default handler;function sort(_0x32a22e,_0x1fe0bb=!![]){if(_0x32a22e)return(..._0x397c64)=>_0x397c64[_0x1fe0bb&0x1][_0x32a22e]-_0x397c64[!_0x1fe0bb&0x1][_0x32a22e];else return(..._0x4ab11c)=>_0x4ab11c[_0x1fe0bb&0x1]-_0x4ab11c[!_0x1fe0bb&0x1];}function toNumber(_0x203398,_0x144e56=0x0){if(_0x203398)return(_0x30741c,_0x244018,_0x15231e)=>{return{..._0x15231e[_0x244018],[_0x203398]:_0x30741c[_0x203398]===undefined?_0x144e56:_0x30741c[_0x203398]};};else return _0x532133=>_0x532133===undefined?_0x144e56:_0x532133;}function a0_0x3fa9(){const _0xf10b7f=['3733560NjWUts','help','1739847EXzXit','parseMention','5150592ZpnIIg','slice','sort','reply','2924785WFvvHP','28VyXNFo','length','some','exp','\x20Robos*','32644uqFVCq','min','data','6jgBGUp','rateros','command','trim','entries','split','13124310szckOC','users','map','4CWhCUB','tags','join','sender','*\x0a\x0a','indexOf','*\x20de\x20*','jid','robo','toprobos','max','fail',')\x20wa.me/','1190898CSHjXn'];a0_0x3fa9=function(){return _0xf10b7f;};return a0_0x3fa9();}function enumGetKey(_0x3b74de){const _0x1b5cb0=a0_0x458d7e;return _0x3b74de[_0x1b5cb0(0x1c6)];}
+let handler = async (m, { conn, args, participants }) => {
+  let users = Object.entries(global.db.data.users).map(([key, value]) => {
+	  
+    return {...value, jid: key}
+  });
+
+  let sortedRobos = users.map(toNumber('robo')).sort(sort('robo'));
+  let usersRobos = sortedRobos.map(enumGetKey);
+
+  let len = args[0] && args[0].length > 0 ? Math.min(10, Math.max(parseInt(args[0]), 10)) : Math.min(10, sortedRobos.length);
+
+  let text = `
+*< TABLA DE CLASIFICACION - TOP RATEROS 🐭 />*
+    
+▢ *TOP ${len} ROBOS* •
+Tú : *${usersRobos.indexOf(m.sender) + 1}* de *${usersRobos.length}*
+
+${sortedRobos.slice(0, len).map(({ jid, robo }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${robo} Robos*`).join('\n')}
+`.trim();
+
+  m.reply(text, null, { mentions: conn.parseMention(text) });
+
+};
+
+handler.help = ['toprobos'];
+handler.tags = ['xp']
+handler.command = ['rateros'];
+
+handler.fail = null;
+handler.exp = 0;
+
+export default handler;
+
+function sort(property, ascending = true) {
+  if (property) return (...args) => args[ascending & 1][property] - args[!ascending & 1][property];
+  else return (...args) => args[ascending & 1] - args[!ascending & 1];
+}
+
+function toNumber(property, _default = 0) {
+  if (property) return (a, i, b) => {
+    return {...b[i], [property]: a[property] === undefined ? _default : a[property]};
+  }
+  else return a => a === undefined ? _default : a;
+}
+
+function enumGetKey(a) {
+  return a.jid;
+}

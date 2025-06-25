@@ -1,1 +1,28 @@
-const a0_0x3190da=a0_0x3fca;(function(_0x453a93,_0x1f1f6e){const _0x3b6a75=a0_0x3fca,_0x4d50b4=_0x453a93();while(!![]){try{const _0x40b582=-parseInt(_0x3b6a75(0x137))/0x1*(-parseInt(_0x3b6a75(0x138))/0x2)+-parseInt(_0x3b6a75(0x148))/0x3+-parseInt(_0x3b6a75(0x13d))/0x4+parseInt(_0x3b6a75(0x14f))/0x5+parseInt(_0x3b6a75(0x14c))/0x6*(parseInt(_0x3b6a75(0x14b))/0x7)+-parseInt(_0x3b6a75(0x149))/0x8*(parseInt(_0x3b6a75(0x155))/0x9)+parseInt(_0x3b6a75(0x136))/0xa;if(_0x40b582===_0x1f1f6e)break;else _0x4d50b4['push'](_0x4d50b4['shift']());}catch(_0x598df6){_0x4d50b4['push'](_0x4d50b4['shift']());}}}(a0_0x212e,0x9d651));function a0_0x3fca(_0x5a0ef5,_0x212b98){const _0x212eff=a0_0x212e();return a0_0x3fca=function(_0x3fca93,_0x16e0b7){_0x3fca93=_0x3fca93-0x135;let _0xfc26d2=_0x212eff[_0x3fca93];return _0xfc26d2;},a0_0x3fca(_0x5a0ef5,_0x212b98);}import a0_0x5c6a5b from'@whiskeysockets/baileys';let pajak=0x0,handler=async(_0x5d0e48,{conn:_0x2a7481,text:_0xb7a26a})=>{const _0x7c02b=a0_0x3fca;let _0x57ac95;if(_0x5d0e48[_0x7c02b(0x142)])_0x57ac95=_0x5d0e48[_0x7c02b(0x141)][0x0];else _0x57ac95=_0x5d0e48[_0x7c02b(0x13c)];if(!_0x57ac95)throw ag+'𝘿𝙀𝘽𝙀\x20𝘿𝙀\x20𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙍\x20𝘼𝙇\x20𝙐𝙎𝙐𝘼𝙍𝙄𝙊\x20*@tag*\x0a\x0a𝙔𝙊𝙐\x20𝙈𝙐𝙎𝙏\x20𝙏𝘼𝙂\x20𝙏𝙃𝙀\x20𝙐𝙎𝙀𝙍\x20*@tag*';let _0x4485d9=_0xb7a26a[_0x7c02b(0x146)]('@'+_0x57ac95[_0x7c02b(0x14e)]`@`[0x0],'')[_0x7c02b(0x152)]();if(!_0x4485d9)throw ag+_0x7c02b(0x13b);if(isNaN(_0x4485d9))throw mg+_0x7c02b(0x13f);let _0x336d9f=parseInt(_0x4485d9),_0x426048=_0x336d9f,_0x106af3=Math[_0x7c02b(0x145)](_0x336d9f*pajak);_0x426048-=_0x106af3;if(_0x426048<0x1)throw mg+_0x7c02b(0x150);let _0x562b54=global['db'][_0x7c02b(0x156)][_0x7c02b(0x140)];_0x562b54[_0x57ac95][_0x7c02b(0x13e)]-=_0x336d9f,_0x5d0e48[_0x7c02b(0x144)](_0x7c02b(0x157)+_0xb7a26a+_0x7c02b(0x151)+_0x336d9f+_0x7c02b(0x139));};handler[a0_0x3190da(0x153)]=[a0_0x3190da(0x14a)],handler[a0_0x3190da(0x154)]=['xp'],handler[a0_0x3190da(0x135)]=[a0_0x3190da(0x143),a0_0x3190da(0x147),a0_0x3190da(0x13a),a0_0x3190da(0x158)],handler['group']=!![],handler[a0_0x3190da(0x14d)]=!![];function a0_0x212e(){const _0x4fe60b=['command','26071080vdCngX','1391DuWQFW','484YwTULL','\x20DIAMANTES*\x20⚡\x0a┃\x0a╰━━━━━━━━━━━━━━⬣','deldiamantes','𝙄𝙉𝙂𝙍𝙀𝙎𝙀\x20𝙇𝘼\x20𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿\x0a\x0a𝙀𝙉𝙏𝙀𝙍\x20𝙏𝙃𝙀\x20𝙉𝙐𝙈𝘽𝙀𝙍\x20𝙊𝙁\x20𝘿𝙄𝘼𝙈𝙊𝙉𝘿𝙎','chat','3528748CyrQFI','limit','𝙎𝙄𝙉\x20𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎,\x20𝙎𝙊𝙇𝙊\x20𝙄𝙉𝙂𝙍𝙀𝙎𝙀\x20𝙉𝙐𝙈𝙀𝙍𝙊𝙎\x0a\x0a𝙉𝙊\x20𝙎𝙔𝙈𝘽𝙊𝙇𝙎,\x20𝙅𝙐𝙎𝙏\x20𝙀𝙉𝙏𝙀𝙍\x20𝙉𝙐𝙈𝘽𝙀𝙍𝙎','users','mentionedJid','isGroup','eliminardiamantes','reply','ceil','replace','eliminardi','3685314lrofSB','8ICJrnE','addxp\x20<@user>','7qpRMeI','2697222fchwBo','rowner','split','576810bEjtJS','𝙀𝙇\x20𝙉𝙐𝙈𝙀𝙍𝙊\x20𝙈𝙄𝙉𝙄𝙈𝙊\x20𝘿𝙀\x20𝑫𝑰𝑨𝑴𝑨𝑵𝑻𝑬𝑺\x20(DIAMANTES)\x20𝙀𝙎\x20*1*\x0a\x0a𝙏𝙃𝙀\x20𝙈𝙄𝙉𝙄𝙈𝙐𝙈\x20𝙉𝙐𝙈𝘽𝙀𝙍\x20(DIAMANTES)\x20𝙄𝙎\x20*1*','*\x0a┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a┃ღ\x20*SE\x20ELIMINÓ\x20|\x20WAS\x20REMOVED*\x0a┃ღ\x20*','trim','help','tags','6779835bUTpBN','data','╭━[\x20𝑫𝑰𝑨𝑴𝑨𝑵𝑻𝑬𝑺\x20⚡]━⬣\x0a┃\x0a┃ღ\x20*PARA\x20|\x20FOR:*\x0a┃ღ\x20*','quitardiamantes'];a0_0x212e=function(){return _0x4fe60b;};return a0_0x212e();}export default handler;
+import MessageType from '@whiskeysockets/baileys'
+let pajak = 0
+let handler = async (m, { conn, text }) => {
+let who
+if (m.isGroup) who = m.mentionedJid[0]
+else who = m.chat
+if (!who) throw `${ag}𝘿𝙀𝘽𝙀 𝘿𝙀 𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙍 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 *@tag*\n\n𝙔𝙊𝙐 𝙈𝙐𝙎𝙏 𝙏𝘼𝙂 𝙏𝙃𝙀 𝙐𝙎𝙀𝙍 *@tag*`
+let txt = text.replace('@' + who.split`@`[0], '').trim()
+if (!txt) throw `${ag}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙇𝘼 𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿\n\n𝙀𝙉𝙏𝙀𝙍 𝙏𝙃𝙀 𝙉𝙐𝙈𝘽𝙀𝙍 𝙊𝙁 𝘿𝙄𝘼𝙈𝙊𝙉𝘿𝙎`
+if (isNaN(txt)) throw `${mg}𝙎𝙄𝙉 𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎, 𝙎𝙊𝙇𝙊 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙉𝙐𝙈𝙀𝙍𝙊𝙎\n\n𝙉𝙊 𝙎𝙔𝙈𝘽𝙊𝙇𝙎, 𝙅𝙐𝙎𝙏 𝙀𝙉𝙏𝙀𝙍 𝙉𝙐𝙈𝘽𝙀𝙍𝙎`
+let xp = parseInt(txt)
+let exp = xp
+let pjk = Math.ceil(xp * pajak)
+exp -= pjk
+if (exp < 1) throw `${mg}𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝙈𝙄𝙉𝙄𝙈𝙊 𝘿𝙀 𝑫𝑰𝑨𝑴𝑨𝑵𝑻𝑬𝑺 (DIAMANTES) 𝙀𝙎 *1*\n\n𝙏𝙃𝙀 𝙈𝙄𝙉𝙄𝙈𝙐𝙈 𝙉𝙐𝙈𝘽𝙀𝙍 (DIAMANTES) 𝙄𝙎 *1*`
+let users = global.db.data.users
+users[who].limit -= xp
+m.reply(`╭━[ 𝑫𝑰𝑨𝑴𝑨𝑵𝑻𝑬𝑺 ⚡]━⬣\n┃\n┃ღ *PARA | FOR:*\n┃ღ *${text}*\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ *SE ELIMINÓ | WAS REMOVED*\n┃ღ *${xp} DIAMANTES* ⚡\n┃\n╰━━━━━━━━━━━━━━⬣`)}
+/*conn.sendHydrated(m.chat, `╭━[ 𝑫𝑰𝑨𝑴𝑨𝑵𝑻𝑬𝑺 | 𝙀𝙓𝙋 ⚡]━⬣\n┃\n┃ღ *PARA | FOR:*\n┃ღ *${text}*\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ *SE ELIMINÓ | WAS REMOVED*\n┃ღ *${xp} EXP* ⚡\n┃\n╰━━━━━━━━━━━━━━⬣`, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
+['💗 𝙈𝙚𝙣𝙪 𝘼𝙫𝙚𝙣𝙩𝙪𝙧𝙖 | 𝙍𝙋𝙂 💗', '.rpgmenu'],
+['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], m)
+}*/
+handler.help = ['addxp <@user>']
+handler.tags = ['xp']
+handler.command = ['eliminardiamantes', 'eliminardi', 'deldiamantes', 'quitardiamantes'] 
+handler.group = true
+handler.rowner = true
+export default handler

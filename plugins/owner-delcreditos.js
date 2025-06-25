@@ -1,1 +1,24 @@
-const a0_0x1fe7d7=a0_0x35d0;(function(_0x65f43,_0x4b977e){const _0x40a9cf=a0_0x35d0,_0x5b76c4=_0x65f43();while(!![]){try{const _0x215812=-parseInt(_0x40a9cf(0x111))/0x1*(-parseInt(_0x40a9cf(0x10c))/0x2)+parseInt(_0x40a9cf(0xf8))/0x3*(-parseInt(_0x40a9cf(0x10a))/0x4)+parseInt(_0x40a9cf(0xfe))/0x5*(-parseInt(_0x40a9cf(0x103))/0x6)+parseInt(_0x40a9cf(0x10d))/0x7*(-parseInt(_0x40a9cf(0xf9))/0x8)+-parseInt(_0x40a9cf(0x11a))/0x9*(parseInt(_0x40a9cf(0x10b))/0xa)+-parseInt(_0x40a9cf(0xff))/0xb*(-parseInt(_0x40a9cf(0xfa))/0xc)+-parseInt(_0x40a9cf(0x104))/0xd*(-parseInt(_0x40a9cf(0x10e))/0xe);if(_0x215812===_0x4b977e)break;else _0x5b76c4['push'](_0x5b76c4['shift']());}catch(_0x1180b8){_0x5b76c4['push'](_0x5b76c4['shift']());}}}(a0_0x159a,0x86656));import a0_0xf53357 from'@whiskeysockets/baileys';function a0_0x159a(){const _0x1f45ce=['isGroup','tags','1yXCyMA','𝙎𝙄𝙉\x20𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎,\x20𝙎𝙊𝙇𝙊\x20𝙄𝙉𝙂𝙍𝙀𝙎𝙀\x20𝙉𝙐𝙈𝙀𝙍𝙊𝙎','gems','adddi\x20<@user>','ceil','𝘿𝙀𝘽𝙀\x20𝘿𝙀\x20𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙍\x20𝘼𝙇\x20𝙐𝙎𝙐𝘼𝙍𝙄𝙊\x20*@tag*\x0a\x0a𝙔𝙊𝙐\x20𝙈𝙐𝙎𝙏\x20𝙏𝘼𝙂\x20𝙏𝙃𝙀\x20𝙐𝙎𝙀𝙍\x20*@tag*','reply','replace','𝙀𝙇\x20𝙉𝙐𝙈𝙀𝙍𝙊\x20𝙈𝙄𝙉𝙄𝙈𝙊\x20𝙋𝘼𝙍𝘼\x20CREDITOS\x20𝙀𝙎\x20*1*','8783559fqvNUm','954dMREyC','253320gvuVwY','12zkaMyc','delcreditos','*\x0a┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a┃ღ\x20*REMOVIDOS*\x0a┃ღ\x20*','mentionedJid','1757830EolhkH','3491939kUZRab','owner','╭[\x20CREDITOS\x20🪙\x20]⬣\x0a┃\x0a┃ღ\x20*PARA:*\x0a┃ღ\x20*','trim','12BQORds','286gqnxHp','command','rowner','\x20Creditos(s)*\x20🪙\x0a┃\x0a╰━━━━━━━━━━━━━━⬣','split','𝙄𝙉𝙂𝙍𝙀𝙎𝙀\x20𝙇𝘼\x20𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿\x20𝘿𝙀\x20CREDITOS','8688YNRtDG','10tLarlz','1681630IDJbCv','133BeCGHs','1504132AdHEar'];a0_0x159a=function(){return _0x1f45ce;};return a0_0x159a();}function a0_0x35d0(_0x227bf5,_0x4b8a72){const _0x159ad4=a0_0x159a();return a0_0x35d0=function(_0x35d035,_0x27af9d){_0x35d035=_0x35d035-0xf8;let _0x5c7520=_0x159ad4[_0x35d035];return _0x5c7520;},a0_0x35d0(_0x227bf5,_0x4b8a72);}let pajak=0x0,handler=async(_0x5da0f3,{conn:_0x58c143,text:_0x251035})=>{const _0x7be437=a0_0x35d0;let _0x182682;if(_0x5da0f3[_0x7be437(0x10f)])_0x182682=_0x5da0f3[_0x7be437(0xfd)][0x0];else _0x182682=_0x5da0f3['chat'];if(!_0x182682)throw ag+_0x7be437(0x116);let _0x5b9fc6=_0x251035[_0x7be437(0x118)]('@'+_0x182682[_0x7be437(0x108)]`@`[0x0],'')[_0x7be437(0x102)]();if(!_0x5b9fc6)throw ag+_0x7be437(0x109);if(isNaN(_0x5b9fc6))throw mg+_0x7be437(0x112);let _0x58d7e0=parseInt(_0x5b9fc6),_0x5757cb=_0x58d7e0,_0xc73a39=Math[_0x7be437(0x115)](_0x58d7e0*pajak);_0x5757cb-=_0xc73a39;if(_0x5757cb<0x1)throw mg+_0x7be437(0x119);let _0x33066c=global['db']['data']['users'];_0x33066c[_0x182682][_0x7be437(0x113)]-=_0x58d7e0,_0x5da0f3[_0x7be437(0x117)](_0x7be437(0x101)+_0x251035+_0x7be437(0xfc)+_0x58d7e0+_0x7be437(0x107));};handler['help']=[a0_0x1fe7d7(0x114)],handler[a0_0x1fe7d7(0x110)]=[a0_0x1fe7d7(0x100)],handler[a0_0x1fe7d7(0x105)]=[a0_0x1fe7d7(0xfb)],handler['group']=!![],handler[a0_0x1fe7d7(0x106)]=!![];export default handler;
+import MessageType from '@whiskeysockets/baileys'
+let pajak = 0
+let handler = async (m, { conn, text }) => {
+let who
+if (m.isGroup) who = m.mentionedJid[0]
+else who = m.chat
+if (!who) throw `${ag}𝘿𝙀𝘽𝙀 𝘿𝙀 𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙍 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 *@tag*\n\n𝙔𝙊𝙐 𝙈𝙐𝙎𝙏 𝙏𝘼𝙂 𝙏𝙃𝙀 𝙐𝙎𝙀𝙍 *@tag*`
+let txt = text.replace('@' + who.split`@`[0], '').trim()
+if (!txt) throw `${ag}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙇𝘼 𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿 𝘿𝙀 CREDITOS`
+if (isNaN(txt)) throw `${mg}𝙎𝙄𝙉 𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎, 𝙎𝙊𝙇𝙊 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙉𝙐𝙈𝙀𝙍𝙊𝙎`
+let dmt = parseInt(txt)
+let gems = dmt
+let pjk = Math.ceil(dmt * pajak)
+gems -= pjk
+if (gems < 1) throw `${mg}𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝙈𝙄𝙉𝙄𝙈𝙊 𝙋𝘼𝙍𝘼 CREDITOS 𝙀𝙎 *1*`
+let users = global.db.data.users
+users[who].gems -= dmt
+m.reply(`╭[ CREDITOS 🪙 ]⬣\n┃\n┃ღ *PARA:*\n┃ღ *${text}*\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ *REMOVIDOS*\n┃ღ *${dmt} Creditos(s)* 🪙\n┃\n╰━━━━━━━━━━━━━━⬣`)}
+handler.help = ['adddi <@user>']
+handler.tags = ['owner']
+handler.command = ['delcreditos'] 
+handler.group = true
+handler.rowner = true
+export default handler 

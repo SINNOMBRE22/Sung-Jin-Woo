@@ -1,1 +1,41 @@
-(function(_0x5698fa,_0x4cca96){const _0x6e6538=a0_0x16ff,_0x1592b8=_0x5698fa();while(!![]){try{const _0x1ae20f=parseInt(_0x6e6538(0x1a3))/0x1+-parseInt(_0x6e6538(0x1b6))/0x2*(-parseInt(_0x6e6538(0x1a2))/0x3)+parseInt(_0x6e6538(0x1b7))/0x4*(-parseInt(_0x6e6538(0x1ae))/0x5)+parseInt(_0x6e6538(0x1af))/0x6+parseInt(_0x6e6538(0x1b8))/0x7*(-parseInt(_0x6e6538(0x1a1))/0x8)+-parseInt(_0x6e6538(0x196))/0x9*(parseInt(_0x6e6538(0x1b1))/0xa)+-parseInt(_0x6e6538(0x1ab))/0xb*(parseInt(_0x6e6538(0x1b3))/0xc);if(_0x1ae20f===_0x4cca96)break;else _0x1592b8['push'](_0x1592b8['shift']());}catch(_0x39d61e){_0x1592b8['push'](_0x1592b8['shift']());}}}(a0_0x4a7e,0x9d4d4));const linkRegex=/https:/i;function a0_0x16ff(_0x4b9f6e,_0x50f5db){const _0x4a7e1e=a0_0x4a7e();return a0_0x16ff=function(_0x16ff19,_0x43409e){_0x16ff19=_0x16ff19-0x194;let _0x2ebd65=_0x4a7e1e[_0x16ff19];return _0x2ebd65;},a0_0x16ff(_0x4b9f6e,_0x50f5db);}export async function before(_0x73ba6d,{conn:_0x423641,isAdmin:_0x4eba12,isBotAdmin:_0xfafa6,text:_0x45ceca}){const _0x3b692e=a0_0x16ff,_0x1f30f1=global,_0x5901bf=_0x1f30f1['db'][_0x3b692e(0x19c)]['users'][_0x73ba6d[_0x3b692e(0x19d)]][_0x3b692e(0x1a9)],_0x22c8b0=JSON[_0x3b692e(0x1ad)](fs[_0x3b692e(0x1aa)]('./language/'+_0x5901bf+_0x3b692e(0x1b9))),_0x35ad59=_0x22c8b0[_0x3b692e(0x1b4)][_0x3b692e(0x1bc)];if(_0x73ba6d['isBaileys']&&_0x73ba6d[_0x3b692e(0x1bb)])return!0x0;if(!_0x73ba6d[_0x3b692e(0x19e)])return!0x1;const _0x2c20b1=global['db'][_0x3b692e(0x19c)]['chats'][_0x73ba6d[_0x3b692e(0x1b5)]],_0xd3f572=_0x73ba6d[_0x3b692e(0x19a)][_0x3b692e(0x199)],_0x460a8b=_0x73ba6d[_0x3b692e(0x19a)]['id'],_0x5999f2=global['db']['data']['settings'][this['user'][_0x3b692e(0x1a6)]]||{},_0x5a3925='@'+_0x73ba6d[_0x3b692e(0x19d)]['split']`@`[0x0],_0x1a020c=linkRegex['exec'](_0x73ba6d[_0x3b692e(0x19b)]);if(_0x2c20b1[_0x3b692e(0x1a0)]&&_0x1a020c&&!_0x4eba12){if(_0xfafa6){const _0x230840=_0x3b692e(0x1ac)+await this[_0x3b692e(0x1a7)](_0x73ba6d[_0x3b692e(0x1b5)]),_0x220615='https://www.youtube.com/',_0x679f59='https://youtu.be/';if(_0x73ba6d[_0x3b692e(0x19b)][_0x3b692e(0x1ba)](_0x230840))return!0x0;if(_0x73ba6d[_0x3b692e(0x19b)][_0x3b692e(0x1ba)](_0x220615))return!0x0;if(_0x73ba6d[_0x3b692e(0x19b)][_0x3b692e(0x1ba)](_0x679f59))return!0x0;}await this[_0x3b692e(0x1a5)](_0x73ba6d['chat'],{'text':_0x35ad59[_0x3b692e(0x19f)],'mentions':[_0x73ba6d[_0x3b692e(0x19d)]]},{'quoted':_0x73ba6d});if(!_0xfafa6)return _0x73ba6d[_0x3b692e(0x197)](_0x35ad59[_0x3b692e(0x198)]);if(_0xfafa6&&_0x5999f2[_0x3b692e(0x1b0)]){await _0x423641['sendMessage'](_0x73ba6d[_0x3b692e(0x1b5)],{'delete':{'remoteJid':_0x73ba6d['chat'],'fromMe':![],'id':_0x460a8b,'participant':_0xd3f572}});const _0x12a42d=await _0x423641[_0x3b692e(0x195)](_0x73ba6d[_0x3b692e(0x1b5)],[_0x73ba6d[_0x3b692e(0x19d)]],_0x3b692e(0x1a8));if(_0x12a42d[0x0][_0x3b692e(0x194)]===_0x3b692e(0x1b2))return;}else{if(!_0x5999f2['restrict'])return _0x73ba6d['reply'](_0x35ad59[_0x3b692e(0x1a4)]);}}return!0x0;}function a0_0x4a7e(){const _0x241950=['parse','34550mhvDiO','6769392IdxOcF','restrict','2020yyBENQ','404','255864fnSyWg','plugins','chat','2wVvCnX','420gTVuwn','469FBdbMB','.json','includes','fromMe','_antilink2','status','groupParticipantsUpdate','28971KzrXyU','reply','texto2','participant','key','text','data','sender','isGroup','texto1','antiLink2','93712cyZANQ','3793539sVtTQs','561443LlTWrp','texto3','sendMessage','jid','groupInviteCode','remove','language','readFileSync','77abucig','https://chat.whatsapp.com/'];a0_0x4a7e=function(){return _0x241950;};return a0_0x4a7e();}
+
+ // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+
+const linkRegex = /https:/i;
+export async function before(m, {conn, isAdmin, isBotAdmin, text}) {
+    const datas = global
+    const idioma = datas.db.data.users[m.sender].language
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const tradutor = _translate.plugins._antilink2
+
+  if (m.isBaileys && m.fromMe) {
+    return !0;
+  }
+  if (!m.isGroup) return !1;
+  const chat = global.db.data.chats[m.chat];
+  const delet = m.key.participant;
+  const bang = m.key.id;
+  const bot = global.db.data.settings[this.user.jid] || {};
+  const user = `@${m.sender.split`@`[0]}`;
+  const isGroupLink = linkRegex.exec(m.text);
+  if (chat.antiLink2 && isGroupLink && !isAdmin) {
+    if (isBotAdmin) {
+      const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`;
+      const linkThisGroup2 = `https://www.youtube.com/`;
+      const linkThisGroup3 = `https://youtu.be/`;
+      if (m.text.includes(linkThisGroup)) return !0;
+      if (m.text.includes(linkThisGroup2)) return !0;
+      if (m.text.includes(linkThisGroup3)) return !0;
+    }
+    await this.sendMessage(m.chat, {text: tradutor.texto1, mentions: [m.sender]}, {quoted: m});
+    if (!isBotAdmin) return m.reply(tradutor.texto2);
+    if (isBotAdmin && bot.restrict) {
+      await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
+      const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
+      if (responseb[0].status === '404') return;
+    } else if (!bot.restrict) return m.reply(tradutor.texto3);
+  }
+  return !0;
+}

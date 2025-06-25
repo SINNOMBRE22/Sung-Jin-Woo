@@ -1,1 +1,314 @@
-const a0_0x59e947=a0_0x5cd8;function a0_0x5cd8(_0x594665,_0x26d5a5){const _0x473eac=a0_0x473e();return a0_0x5cd8=function(_0x5cd81a,_0x3da35a){_0x5cd81a=_0x5cd81a-0x1e0;let _0x518a22=_0x473eac[_0x5cd81a];return _0x518a22;},a0_0x5cd8(_0x594665,_0x26d5a5);}(function(_0x4c9db9,_0x3c66e7){const _0x3c08b2=a0_0x5cd8,_0x8c87f2=_0x4c9db9();while(!![]){try{const _0x9a0bf7=parseInt(_0x3c08b2(0x202))/0x1*(-parseInt(_0x3c08b2(0x21a))/0x2)+-parseInt(_0x3c08b2(0x1f1))/0x3*(-parseInt(_0x3c08b2(0x1ea))/0x4)+parseInt(_0x3c08b2(0x213))/0x5+parseInt(_0x3c08b2(0x212))/0x6*(-parseInt(_0x3c08b2(0x1e5))/0x7)+-parseInt(_0x3c08b2(0x21e))/0x8*(parseInt(_0x3c08b2(0x1ff))/0x9)+parseInt(_0x3c08b2(0x22d))/0xa*(parseInt(_0x3c08b2(0x21b))/0xb)+-parseInt(_0x3c08b2(0x1fd))/0xc;if(_0x9a0bf7===_0x3c66e7)break;else _0x8c87f2['push'](_0x8c87f2['shift']());}catch(_0x43d107){_0x8c87f2['push'](_0x8c87f2['shift']());}}}(a0_0x473e,0xed3d6));function a0_0x473e(){const _0x5e9199=['9BkbXEj','toString','headers','1GxVafq','random','360','/init/','-480','hostname','has','match','Formato\x20','enc_url','message','application/json','256','push','audio','128','22980MCSlnu','3317920iXZaGf','¿Que\x20es\x20lo\x20que\x20descarga?\x20ingresa\x20en\x20link\x20idiota','https://api5.apiapi.lat','getRandomValues','status','data','Ese\x20link\x20es\x20invalido\x20pon\x20en\x20link\x20de\x20un\x20video\x20de\x20youtube\x20valido\x20idiotas\x20🗿','1112018cSOhpC','17829746pDOVLV','https://ogmp3.cc','split','1083744pzFgLC','api','El\x20video\x20no\x20existe,\x20idiota.\x20No\x20sé\x20si\x20fue\x20eliminado\x20o\x20si\x20YouTube\x20lo\x20restringió...\x20no\x20tengo\x20idea\x20🤷🏻','formats','length','Estoy\x20exhausto,\x20idiota...\x20Ya\x20intenté\x20hacer\x20la\x20solicitud\x20varias\x20veces\x20y\x20sigue\x20sin\x20funcionar,\x20así\x20que\x20dejaré\x20la\x20solicitud\x20para\x20más\x20tarde,\x20¡hasta\x20luego!\x20😂','fromCharCode','isUrl','join','-540','hash','default_fmt','playlist','from','encoded','10OFfkIm','Elejir\x20video\x20o\x20audio?','Postify/1.0.0','base','video','720','-330','320','charCodeAt','1232oIuifH','1080','https://i.ytimg.com/vi/','invalid','floor','8GVnbPz','Donde\x20pito\x20esta\x20la\x20ID\x20del\x20video?\x20no\x20puedo\x20extraerlo\x20hdp','https://ogmp3.lat','test','utils','startsWith','checkProgress','1508853MWeKuP',')\x20alcanzados,\x20intente\x20de\x20nuevo\x20mas\x20tardes.','\x20no\x20es\x20valido\x20para\x20','\x20pero\x20puedes\x20elegir\x20unos\x20de\x20estos:\x20','192','/status/','request','endpoints','Limite\x20de\x20descargas\x20diarias\x20(','getTimezoneOffset','reverse','https://api3.apiapi.lat','11436972AMckMd','/maxresdefault.jpg'];a0_0x473e=function(){return _0x5e9199;};return a0_0x473e();}import a0_0x41e018 from'axios';import a0_0x3b7710 from'crypto';const ogmp3={'api':{'base':a0_0x59e947(0x1fc),'endpoints':{'a':a0_0x59e947(0x215),'b':'https://api.apiapi.lat','c':a0_0x59e947(0x1fc)}},'headers':{'authority':'api.apiapi.lat','content-type':a0_0x59e947(0x20d),'origin':a0_0x59e947(0x1ec),'referer':'https://ogmp3.lat/','user-agent':a0_0x59e947(0x22f)},'formats':{'video':['240',a0_0x59e947(0x204),'480',a0_0x59e947(0x1e1),a0_0x59e947(0x1e6)],'audio':['64','96',a0_0x59e947(0x211),a0_0x59e947(0x1f5),a0_0x59e947(0x20e),a0_0x59e947(0x1e3)]},'default_fmt':{'video':'720','audio':a0_0x59e947(0x1e3)},'restrictedTimezones':new Set([a0_0x59e947(0x1e2),'-420',a0_0x59e947(0x206),a0_0x59e947(0x227)]),'utils':{'hash':()=>{const _0x30637c=a0_0x59e947,_0x428601=new Uint8Array(0x10);return a0_0x3b7710[_0x30637c(0x216)](_0x428601),Array[_0x30637c(0x22b)](_0x428601,_0x3dce26=>_0x3dce26['toString'](0x10)['padStart'](0x2,'0'))['join']('');},'encoded':_0x349265=>{const _0x5ac19b=a0_0x59e947;let _0xce875f='';for(let _0x34f5c7=0x0;_0x34f5c7<_0x349265['length'];_0x34f5c7++){_0xce875f+=String[_0x5ac19b(0x224)](_0x349265['charCodeAt'](_0x34f5c7)^0x1);}return _0xce875f;},'enc_url':(_0x50ae31,_0xf91690=',')=>{const _0x274573=a0_0x59e947,_0x4cbbcc=[];for(let _0x21fcd2=0x0;_0x21fcd2<_0x50ae31[_0x274573(0x222)];_0x21fcd2++){_0x4cbbcc[_0x274573(0x20f)](_0x50ae31[_0x274573(0x1e4)](_0x21fcd2));}return _0x4cbbcc[_0x274573(0x226)](_0xf91690)[_0x274573(0x21d)](_0xf91690)[_0x274573(0x1fb)]()[_0x274573(0x226)](_0xf91690);}},'isUrl':_0xbb673c=>{const _0x36da49=a0_0x59e947;try{const _0x3cb589=new URL(_0xbb673c),_0x369782=_0x3cb589[_0x36da49(0x207)]['toLowerCase'](),_0x4e86eb=[/^(.+\.)?youtube\.com$/,/^(.+\.)?youtube-nocookie\.com$/,/^youtu\.be$/];return _0x4e86eb['some'](_0x508618=>_0x508618[_0x36da49(0x1ed)](_0x369782))&&!_0x3cb589['searchParams'][_0x36da49(0x208)](_0x36da49(0x22a));}catch(_0x2c25dd){return![];}},'youtube':_0x33c6e9=>{const _0x46e8e2=a0_0x59e947;if(!_0x33c6e9)return null;const _0x58f772=[/youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})/,/youtube\.com\/embed\/([a-zA-Z0-9_-]{11})/,/youtube\.com\/v\/([a-zA-Z0-9_-]{11})/,/youtube\.com\/shorts\/([a-zA-Z0-9_-]{11})/,/youtu\.be\/([a-zA-Z0-9_-]{11})/];for(let _0x4d9e18 of _0x58f772){if(_0x4d9e18[_0x46e8e2(0x1ed)](_0x33c6e9))return _0x33c6e9[_0x46e8e2(0x209)](_0x4d9e18)[0x1];}return null;},'request':async(_0x3fe92e,_0xf356e2={},_0x24b70e='post')=>{const _0x2f4ff5=a0_0x59e947;try{const _0x503516=Object['values'](ogmp3[_0x2f4ff5(0x21f)][_0x2f4ff5(0x1f8)]),_0x3c8022=_0x503516[Math[_0x2f4ff5(0x1e9)](Math[_0x2f4ff5(0x203)]()*_0x503516[_0x2f4ff5(0x222)])],_0xdddbeb=_0x3fe92e[_0x2f4ff5(0x1ef)]('http')?_0x3fe92e:''+_0x3c8022+_0x3fe92e,{data:_0x54cf5d}=await a0_0x41e018({'method':_0x24b70e,'url':_0xdddbeb,'data':_0x24b70e==='post'?_0xf356e2:undefined,'headers':ogmp3[_0x2f4ff5(0x201)]});return{'status':!![],'code':0xc8,'data':_0x54cf5d};}catch(_0x5dd72a){return{'status':![],'code':_0x5dd72a['response']?.['status']||0x1f4,'error':_0x5dd72a[_0x2f4ff5(0x20c)]};}},async 'checkStatus'(_0x51b936){const _0x1eb5c7=a0_0x59e947;try{const _0x37c567=this[_0x1eb5c7(0x1ee)]['hash'](),_0xad1181=this[_0x1eb5c7(0x1ee)]['hash'](),_0x3121c8='/'+_0x37c567+_0x1eb5c7(0x1f6)+this[_0x1eb5c7(0x1ee)][_0x1eb5c7(0x22c)](_0x51b936)+'/'+_0xad1181+'/',_0x32eb96=await this[_0x1eb5c7(0x1f7)](_0x3121c8,{'data':_0x51b936});return _0x32eb96;}catch(_0x269395){return{'status':![],'code':0x1f4,'error':_0x269395[_0x1eb5c7(0x20c)]};}},async 'checkProgress'(_0x276f86){const _0x190d11=a0_0x59e947;try{let _0x230ad3=0x0,_0x104ffb=0x12c;while(_0x230ad3<_0x104ffb){_0x230ad3++;const _0x4e3080=await this['checkStatus'](_0x276f86['i']);if(!_0x4e3080[_0x190d11(0x217)]){await new Promise(_0x2d3ee1=>setTimeout(_0x2d3ee1,0x7d0));continue;}const _0x53d197=_0x4e3080[_0x190d11(0x218)];if(_0x53d197['s']==='C')return _0x53d197;if(_0x53d197['s']==='P'){await new Promise(_0x390ca0=>setTimeout(_0x390ca0,0x7d0));continue;}return null;}return null;}catch(_0x38d985){return null;}},'download':async(_0x3f81b8,_0x133042,_0x5ab0e8='video')=>{const _0x714872=a0_0x59e947;if(!_0x3f81b8)return{'status':![],'code':0x190,'error':_0x714872(0x214)};if(!ogmp3[_0x714872(0x225)](_0x3f81b8))return{'status':![],'code':0x190,'error':_0x714872(0x219)};if(_0x5ab0e8!=='video'&&_0x5ab0e8!==_0x714872(0x210))return{'status':![],'code':0x190,'error':_0x714872(0x22e)};!_0x133042&&(_0x133042=_0x5ab0e8===_0x714872(0x210)?ogmp3['default_fmt'][_0x714872(0x210)]:ogmp3[_0x714872(0x229)][_0x714872(0x1e0)]);const _0x33f478=_0x5ab0e8===_0x714872(0x210)?ogmp3[_0x714872(0x221)][_0x714872(0x210)]:ogmp3[_0x714872(0x221)]['video'];if(!_0x33f478['includes'](_0x133042))return{'status':![],'code':0x190,'error':_0x714872(0x20a)+_0x133042+_0x714872(0x1f3)+_0x5ab0e8+_0x714872(0x1f4)+_0x33f478[_0x714872(0x226)](',\x20')};const _0x547420=ogmp3['youtube'](_0x3f81b8);if(!_0x547420)return{'status':![],'code':0x190,'error':_0x714872(0x1eb)};try{let _0x54eaa8=0x0;const _0x598562=0x14;while(_0x54eaa8<_0x598562){_0x54eaa8++;const _0x5a108e=ogmp3[_0x714872(0x1ee)]['hash'](),_0x8521fb=ogmp3['utils'][_0x714872(0x228)](),_0x3c3645={'data':ogmp3[_0x714872(0x1ee)][_0x714872(0x22c)](_0x3f81b8),'format':_0x5ab0e8==='audio'?'0':'1','referer':_0x714872(0x21c),'mp3Quality':_0x5ab0e8===_0x714872(0x210)?_0x133042:null,'mp4Quality':_0x5ab0e8===_0x714872(0x1e0)?_0x133042:null,'userTimeZone':new Date()[_0x714872(0x1fa)]()[_0x714872(0x200)]()},_0xb439da=await ogmp3['request']('/'+_0x5a108e+_0x714872(0x205)+ogmp3['utils'][_0x714872(0x20b)](_0x3f81b8)+'/'+_0x8521fb+'/',_0x3c3645);if(!_0xb439da['status']){if(_0x54eaa8===_0x598562)return _0xb439da;continue;}const _0x29f4da=_0xb439da[_0x714872(0x218)];if(_0x29f4da['le'])return{'status':![],'code':0x190,'error':'La\x20duración\x20del\x20video\x20es\x20demasiado\x20larga,\x20amigo.\x20El\x20máximo\x20es\x20de\x203\x20horas,\x20no\x20puedes\x20superar\x20eso,\x20¿entendido?\x20👍🏻'};if(_0x29f4da['i']==='blacklisted'){const _0x377f04=ogmp3['restrictedTimezones'][_0x714872(0x208)](new Date()[_0x714872(0x1fa)]()[_0x714872(0x200)]())?0x5:0x64;return{'status':![],'code':0x1ad,'error':_0x714872(0x1f9)+_0x377f04+_0x714872(0x1f2)};}if(_0x29f4da['e']||_0x29f4da['i']===_0x714872(0x1e8))return{'status':![],'code':0x190,'error':_0x714872(0x220)};if(_0x29f4da['s']==='C')return{'status':!![],'code':0xc8,'result':{'title':_0x29f4da['t']||'Kagak\x20tau','type':_0x5ab0e8,'format':_0x133042,'thumbnail':_0x714872(0x1e7)+_0x547420+_0x714872(0x1fe),'download':ogmp3['api']['base']+'/'+ogmp3[_0x714872(0x1ee)][_0x714872(0x228)]()+'/download/'+ogmp3[_0x714872(0x1ee)]['encoded'](_0x29f4da['i'])+'/'+ogmp3['utils']['hash']()+'/','id':_0x547420,'quality':_0x133042}};const _0x2a257d=await ogmp3[_0x714872(0x1f0)](_0x29f4da);if(_0x2a257d&&_0x2a257d['s']==='C')return{'status':!![],'code':0xc8,'result':{'title':_0x2a257d['t']||'Kagak\x20tau','type':_0x5ab0e8,'format':_0x133042,'thumbnail':_0x714872(0x1e7)+_0x547420+_0x714872(0x1fe),'download':ogmp3[_0x714872(0x21f)][_0x714872(0x230)]+'/'+ogmp3[_0x714872(0x1ee)]['hash']()+'/download/'+ogmp3['utils']['encoded'](_0x2a257d['i'])+'/'+ogmp3[_0x714872(0x1ee)][_0x714872(0x228)]()+'/','id':_0x547420,'quality':_0x133042}};}return{'status':![],'code':0x1f4,'error':_0x714872(0x223)};}catch(_0x1b1328){return{'status':![],'code':0x1f4,'error':_0x1b1328[_0x714872(0x20c)]};}}};export{ogmp3};
+import axios from 'axios';
+import crypto from 'crypto';
+
+const ogmp3 = {
+  api: {
+    base: "https://api3.apiapi.lat",
+    endpoints: {
+      a: "https://api5.apiapi.lat",
+      b: "https://api.apiapi.lat",
+      c: "https://api3.apiapi.lat"
+    }
+  },
+
+  headers: {
+    'authority': 'api.apiapi.lat',
+    'content-type': 'application/json',
+    'origin': 'https://ogmp3.lat',
+    'referer': 'https://ogmp3.lat/',
+    'user-agent': 'Postify/1.0.0'
+  },
+
+  formats: {
+    video: ['240', '360', '480', '720', '1080'],
+    audio: ['64', '96', '128', '192', '256', '320']
+  },
+
+  default_fmt: {
+    video: '720',
+    audio: '320'
+  },
+
+  restrictedTimezones: new Set(["-330", "-420", "-480", "-540"]),
+
+  utils: {
+    hash: () => {
+      const array = new Uint8Array(16);
+      crypto.getRandomValues(array);
+      return Array.from(array, byte => byte.toString(16).padStart(2, "0")).join("");
+    },
+
+    encoded: (str) => {
+      let result = "";
+      for (let i = 0; i < str.length; i++) {
+        result += String.fromCharCode(str.charCodeAt(i) ^ 1);
+      }
+      return result;
+    },
+
+    enc_url: (url, separator = ",") => {
+      const codes = [];
+      for (let i = 0; i < url.length; i++) {
+        codes.push(url.charCodeAt(i));
+      }
+      return codes.join(separator).split(separator).reverse().join(separator);
+    }
+  },
+
+  isUrl: str => {
+    try {
+      const url = new URL(str);
+      const hostname = url.hostname.toLowerCase();
+      const b = [/^(.+\.)?youtube\.com$/, /^(.+\.)?youtube-nocookie\.com$/, /^youtu\.be$/];
+      return b.some(a => a.test(hostname)) && !url.searchParams.has("playlist");
+    } catch (_) {
+      return false;
+    }
+  },
+
+  youtube: url => {
+    if (!url) return null;
+    const b = [
+      /youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})/,
+      /youtube\.com\/embed\/([a-zA-Z0-9_-]{11})/,
+      /youtube\.com\/v\/([a-zA-Z0-9_-]{11})/,
+      /youtube\.com\/shorts\/([a-zA-Z0-9_-]{11})/,
+      /youtu\.be\/([a-zA-Z0-9_-]{11})/
+    ];
+    for (let a of b) {
+      if (a.test(url)) return url.match(a)[1];
+    }
+    return null;
+  },
+
+  request: async (endpoint, data = {}, method = 'post') => {
+    try {
+      const ae = Object.values(ogmp3.api.endpoints);
+      const be = ae[Math.floor(Math.random() * ae.length)];
+
+      const fe = endpoint.startsWith('http') ? endpoint : `${be}${endpoint}`;
+
+      const { data: response } = await axios({
+        method,
+        url: fe,
+        data: method === 'post' ? data : undefined,
+        headers: ogmp3.headers
+      });
+      return {
+        status: true,
+        code: 200,
+        data: response
+      };
+    } catch (error) {
+      return {
+        status: false,
+        code: error.response?.status || 500,
+        error: error.message
+      };
+    }
+  },
+
+  async checkStatus(id) {
+    try {
+      const c = this.utils.hash();
+      const d = this.utils.hash();
+      const endpoint = `/${c}/status/${this.utils.encoded(id)}/${d}/`;
+
+      const response = await this.request(endpoint, {
+        data: id
+      });
+
+      return response;
+    } catch (error) {
+      return {
+        status: false,
+        code: 500,
+        error: error.message
+      };
+    }
+  },
+
+  async checkProgress(data) {
+    try {
+      let attempts = 0;
+      let maxAttempts = 300;
+
+      while (attempts < maxAttempts) {
+        attempts++;
+
+        const res = await this.checkStatus(data.i);
+        if (!res.status) {
+          await new Promise(resolve => setTimeout(resolve, 2000));
+          continue;
+        }
+
+        const stat = res.data;
+        if (stat.s === "C") {
+          return stat;
+        }
+
+        if (stat.s === "P") {
+          await new Promise(resolve => setTimeout(resolve, 2000));
+          continue;
+        }
+
+        return null;
+      }
+
+      return null;
+    } catch (error) {
+      return null;
+    }
+  },
+
+  download: async (link, format, type = 'video') => {
+    if (!link) {
+      return {
+        status: false,
+        code: 400,
+        error: "¿Que es lo que descarga? ingresa en link idiota"
+      };
+    }
+
+    if (!ogmp3.isUrl(link)) {
+      return {
+        status: false,
+        code: 400,
+        error: "Ese link es invalido pon en link de un video de youtube valido idiotas 🗿"
+      };
+    }
+
+    if (type !== 'video' && type !== 'audio') {
+      return {
+        status: false,
+        code: 400,
+        error: "Elejir video o audio?"
+      };
+    }
+
+    if (!format) {
+      format = type === 'audio' ? ogmp3.default_fmt.audio : ogmp3.default_fmt.video;
+    }
+
+    const valid_fmt = type === 'audio' ? ogmp3.formats.audio : ogmp3.formats.video;
+    if (!valid_fmt.includes(format)) {
+      return {
+        status: false,
+        code: 400,
+        error: `Formato ${format} no es valido para ${type} pero puedes elegir unos de estos: ${valid_fmt.join(', ')}`
+      };
+    }
+
+    const id = ogmp3.youtube(link);
+    if (!id) {
+      return {
+        status: false,
+        code: 400,
+        error: "Donde pito esta la ID del video? no puedo extraerlo hdp"
+      };
+    }
+
+    try {
+      let retries = 0;
+      const maxRetries = 20;
+
+      while (retries < maxRetries) {
+        retries++;
+        const c = ogmp3.utils.hash();
+        const d = ogmp3.utils.hash();
+        const req = {
+          data: ogmp3.utils.encoded(link),
+          format: type === 'audio' ? "0" : "1",
+          referer: "https://ogmp3.cc",
+          mp3Quality: type === 'audio' ? format : null,
+          mp4Quality: type === 'video' ? format : null,
+          userTimeZone: new Date().getTimezoneOffset().toString()
+        };
+
+        const resx = await ogmp3.request(
+          `/${c}/init/${ogmp3.utils.enc_url(link)}/${d}/`,
+          req
+        );
+
+        if (!resx.status) {
+          if (retries === maxRetries) return resx;
+          continue;
+        }
+
+        const data = resx.data;
+        if (data.le) {
+          return {
+            status: false,
+            code: 400,
+            error: "La duración del video es demasiado larga, amigo. El máximo es de 3 horas, no puedes superar eso, ¿entendido? 👍🏻"
+          };
+        }
+
+        if (data.i === "blacklisted") {
+          const limit = ogmp3.restrictedTimezones.has(new Date().getTimezoneOffset().toString()) ? 5 : 100;
+          return {
+            status: false,
+            code: 429,
+            error: `Limite de descargas diarias (${limit}) alcanzados, intente de nuevo mas tardes.`
+          };
+        }
+
+        if (data.e || data.i === "invalid") {
+          return {
+            status: false,
+            code: 400,
+            error: "El video no existe, idiota. No sé si fue eliminado o si YouTube lo restringió... no tengo idea 🤷🏻"
+          };
+        }
+
+        if (data.s === "C") {
+          return {
+            status: true,
+            code: 200,
+            result: {
+              title: data.t || "Kagak tau",
+              type: type,
+              format: format,
+              thumbnail: `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`,
+              download: `${ogmp3.api.base}/${ogmp3.utils.hash()}/download/${ogmp3.utils.encoded(data.i)}/${ogmp3.utils.hash()}/`,
+              id: id,
+              quality: format
+            }
+          };
+        }
+
+        const prod = await ogmp3.checkProgress(data);
+        if (prod && prod.s === "C") {
+          return {
+            status: true,
+            code: 200,
+            result: {
+              title: prod.t || "Kagak tau",
+              type: type,
+              format: format,
+              thumbnail: `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`,
+              download: `${ogmp3.api.base}/${ogmp3.utils.hash()}/download/${ogmp3.utils.encoded(prod.i)}/${ogmp3.utils.hash()}/`,
+              id: id,
+              quality: format
+            }
+          };
+        }
+      }
+
+      return {
+        status: false,
+        code: 500,
+        error: "Estoy exhausto, idiota... Ya intenté hacer la solicitud varias veces y sigue sin funcionar, así que dejaré la solicitud para más tarde, ¡hasta luego! 😂"
+      };
+
+    } catch (error) {
+      return {
+        status: false,
+        code: 500,
+        error: error.message
+      };
+    }
+  }
+};
+
+export { ogmp3 };

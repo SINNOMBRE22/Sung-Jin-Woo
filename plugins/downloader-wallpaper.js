@@ -1,1 +1,35 @@
-const a0_0x3fae26=a0_0x4c79;(function(_0xd14b52,_0x541162){const _0x5e1459=a0_0x4c79,_0x5e2d8f=_0xd14b52();while(!![]){try{const _0x43e078=-parseInt(_0x5e1459(0x1bd))/0x1*(-parseInt(_0x5e1459(0x1ce))/0x2)+parseInt(_0x5e1459(0x1b1))/0x3*(-parseInt(_0x5e1459(0x1d0))/0x4)+parseInt(_0x5e1459(0x1bf))/0x5*(-parseInt(_0x5e1459(0x1be))/0x6)+-parseInt(_0x5e1459(0x1b3))/0x7*(-parseInt(_0x5e1459(0x1b6))/0x8)+parseInt(_0x5e1459(0x1cf))/0x9+-parseInt(_0x5e1459(0x1c8))/0xa*(parseInt(_0x5e1459(0x1ba))/0xb)+parseInt(_0x5e1459(0x1c1))/0xc;if(_0x43e078===_0x541162)break;else _0x5e2d8f['push'](_0x5e2d8f['shift']());}catch(_0x4595a1){_0x5e2d8f['push'](_0x5e2d8f['shift']());}}}(a0_0x3034,0x9acfb));import{wallpaper}from'@bochilteam/scraper';function a0_0x4c79(_0x4f74eb,_0x3def67){const _0x30348a=a0_0x3034();return a0_0x4c79=function(_0x4c79c5,_0x5adb14){_0x4c79c5=_0x4c79c5-0x1b0;let _0x1c2f4e=_0x30348a[_0x4c79c5];return _0x1c2f4e;},a0_0x4c79(_0x4f74eb,_0x3def67);}import a0_0xe585db from'fs';const handler=async(_0x59d124,{conn:_0x3d3917,text:_0x5d269f,usedPrefix:_0x18eaf7,command:_0xccbdf3})=>{const _0xedd577=a0_0x4c79,_0x1c6d62=global,_0x284f8d=_0x1c6d62['db'][_0xedd577(0x1c4)]['users'][_0x59d124[_0xedd577(0x1cb)]][_0xedd577(0x1d3)],_0x53c5ee=JSON['parse'](a0_0xe585db[_0xedd577(0x1c7)](_0xedd577(0x1c5)+_0x284f8d+_0xedd577(0x1b5))),_0x365b07=_0x53c5ee[_0xedd577(0x1c2)][_0xedd577(0x1cd)];if(!_0x5d269f)throw _0x365b07[_0xedd577(0x1b0)]+'\x20'+(_0x18eaf7+_0xccbdf3)+'\x20Minecraft';!_0x5d269f[_0xedd577(0x1b7)]()['includes'](_0xedd577(0x1c6))&&(_0x5d269f=_0x5d269f+_0xedd577(0x1b9));const _0x1d2d1d=await wallpaper(_0x5d269f);if(!_0x1d2d1d||_0x1d2d1d[_0xedd577(0x1d2)]===0x0)throw _0xedd577(0x1c9);const _0x2a2e35=_0x1d2d1d[0x0],_0x37673b=_0x2a2e35[_0xedd577(0x1bc)]||_0x2a2e35,_0x310a47=_0x37673b[_0xedd577(0x1b2)]('/')[_0xedd577(0x1ca)]()[_0xedd577(0x1b2)]('?')[0x0];_0x3d3917[_0xedd577(0x1bb)](_0x59d124['chat'],_0x37673b,_0x310a47,_0x365b07[_0xedd577(0x1d1)]+'\x20'+_0x5d269f+'*',_0x59d124);};handler[a0_0x3fae26(0x1c0)]=[a0_0x3fae26(0x1c3)],handler[a0_0x3fae26(0x1b8)]=[a0_0x3fae26(0x1b4)],handler[a0_0x3fae26(0x1cc)]=/^(wallpaper)$/i;function a0_0x3034(){const _0x31e10b=['70ujfmfx','No\x20se\x20encontraron\x20wallpapers\x20para\x20esa\x20búsqueda.','pop','sender','command','downloader_wallpaper','2ZqrcZw','2131713SAcbCT','4EPUzee','texto2','length','language','texto1','1758177OyxQnu','split','7AqemmS','downloader','.json','2548168FwZAva','toLowerCase','tags','\x20wallpaper','276331jHIApT','sendFile','url','23472yOAxLH','12NhxmMP','2864105LQqHPa','help','23553660WelZdI','plugins','wallpaper\x20<query>','data','./language/','wallpaper','readFileSync'];a0_0x3034=function(){return _0x31e10b;};return a0_0x3034();}export default handler;
+import { wallpaper } from '@bochilteam/scraper';
+import fs from 'fs';
+
+const handler = async (m, { conn, text, usedPrefix, command }) => {
+  const globalData = global;
+  const idioma = globalData.db.data.users[m.sender].language;
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`));
+  const tradutor = _translate.plugins.downloader_wallpaper;
+
+  if (!text) throw `${tradutor.texto1} ${usedPrefix + command} Minecraft`;
+
+  // Si la consulta no incluye "wallpaper", se añade para mejorar la búsqueda
+  if (!text.toLowerCase().includes("wallpaper")) {
+    text = `${text} wallpaper`;
+  }
+
+  const results = await wallpaper(text);
+  if (!results || results.length === 0) {
+    throw "No se encontraron wallpapers para esa búsqueda.";
+  }
+
+  // Selecciona el primer resultado, suponiendo que es el más relevante
+  const selected = results[0];
+  const imageUrl = selected.url || selected;
+
+  // Extrae el nombre del archivo de la URL para que tenga un nombre representativo
+  const fileName = imageUrl.split('/').pop().split('?')[0];
+
+  conn.sendFile(m.chat, imageUrl, fileName, `${tradutor.texto2} ${text}*`, m);
+};
+
+handler.help = ['wallpaper <query>'];
+handler.tags = ['downloader'];
+handler.command = /^(wallpaper)$/i;
+export default handler;

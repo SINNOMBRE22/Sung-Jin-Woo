@@ -1,1 +1,44 @@
-const a0_0x2a354d=a0_0x41e7;function a0_0x41e7(_0x48f44d,_0x43b1fb){const _0x41dab5=a0_0x41da();return a0_0x41e7=function(_0x41e749,_0x2912be){_0x41e749=_0x41e749-0x1f2;let _0x29807e=_0x41dab5[_0x41e749];return _0x29807e;},a0_0x41e7(_0x48f44d,_0x43b1fb);}(function(_0x1a7665,_0x23e651){const _0x19af91=a0_0x41e7,_0x48b686=_0x1a7665();while(!![]){try{const _0x337bce=parseInt(_0x19af91(0x1f7))/0x1+-parseInt(_0x19af91(0x1f8))/0x2+-parseInt(_0x19af91(0x202))/0x3+parseInt(_0x19af91(0x1fd))/0x4+parseInt(_0x19af91(0x1f4))/0x5+-parseInt(_0x19af91(0x1f6))/0x6+parseInt(_0x19af91(0x1fb))/0x7;if(_0x337bce===_0x23e651)break;else _0x48b686['push'](_0x48b686['shift']());}catch(_0x3bfcf8){_0x48b686['push'](_0x48b686['shift']());}}}(a0_0x41da,0xa3d26));const handler=async(_0x2d1755,{conn:_0x202b4b,isPrems:_0x55d0aa})=>{const _0x21874f=a0_0x41e7,_0x3fc507=global,_0x33bff8=_0x3fc507['db'][_0x21874f(0x206)][_0x21874f(0x20d)][_0x2d1755['sender']][_0x21874f(0x203)],_0x4e2ef2=JSON[_0x21874f(0x1f9)](fs['readFileSync'](_0x21874f(0x1f2)+_0x33bff8+_0x21874f(0x20c))),_0x313184=_0x4e2ef2[_0x21874f(0x208)][_0x21874f(0x204)];global[_0x21874f(0x20f)]=_0x313184['texto1'];let _0x2a1f71;if(_0x2a1f71)return;_0x2a1f71=!![];const _0x31c39d=Math['floor'](Math['random']()*0x7530),_0x371e7b=global['db'][_0x21874f(0x206)]['users'][_0x2d1755[_0x21874f(0x201)]][_0x21874f(0x20e)]+0x927c0;if(new Date()-global['db'][_0x21874f(0x206)][_0x21874f(0x20d)][_0x2d1755['sender']][_0x21874f(0x20e)]<0x927c0)throw _0x21874f(0x209)+msToTime(_0x371e7b-new Date())+_0x21874f(0x1f3);_0x202b4b['sendMessage'](_0x2d1755[_0x21874f(0x207)],{'text':_0x21874f(0x1fa)+pickRandom(global['work'])+'*\x0a\x0a*¡Ganaste\x20'+_0x31c39d+_0x21874f(0x20a)},{'quoted':_0x2d1755}),global['db'][_0x21874f(0x206)][_0x21874f(0x20d)][_0x2d1755[_0x21874f(0x201)]]['exp']+=_0x31c39d,global['db']['data'][_0x21874f(0x20d)][_0x2d1755[_0x21874f(0x201)]][_0x21874f(0x20e)]=new Date()*0x1,_0x2a1f71=![];};handler[a0_0x2a354d(0x210)]=[a0_0x2a354d(0x20f)],handler[a0_0x2a354d(0x1fe)]=[a0_0x2a354d(0x205)],handler[a0_0x2a354d(0x211)]=/^(work|trabajar|chambear)$/i,handler[a0_0x2a354d(0x1f5)]=null;export default handler;function a0_0x41da(){const _0x241620=['64858YnaBeF','1559640gzuNHd','parse','🏞️\x20*Te\x20embarcas\x20en\x20una\x20emocionante\x20aventura:*\x0a\x0a🛠️\x20*','18189255trPuVi','\x20minutos\x20','665536AmCemC','tags','length','floor','sender','284994YbMWBk','language','rpg_work','econ','data','chat','plugins','⚔️\x20*¡Espera\x20un\x20momento\x20pequeño\x20aventurero!*\x20⚔️\x0a\x0a*—◉\x20Regresa\x20a\x20la\x20travesía\x20en\x20','\x20exp\x20por\x20tu\x20valentía!*','\x20segundos\x20','.json','users','lastwork','work','help','command','./language/','\x20⏳*','228315ojtmFO','fail','7977228WDpWAD'];a0_0x41da=function(){return _0x241620;};return a0_0x41da();}function msToTime(_0x360f80){const _0x303132=a0_0x2a354d,_0x54651f=parseInt(_0x360f80%0x3e8/0x64);let _0x351a6c=Math[_0x303132(0x200)](_0x360f80/0x3e8%0x3c),_0x5db67a=Math[_0x303132(0x200)](_0x360f80/(0x3e8*0x3c)%0x3c),_0x3218a3=Math['floor'](_0x360f80/(0x3e8*0x3c*0x3c)%0x18);return _0x3218a3=_0x3218a3<0xa?'0'+_0x3218a3:_0x3218a3,_0x5db67a=_0x5db67a<0xa?'0'+_0x5db67a:_0x5db67a,_0x351a6c=_0x351a6c<0xa?'0'+_0x351a6c:_0x351a6c,_0x5db67a+_0x303132(0x1fc)+_0x351a6c+_0x303132(0x20b);}function pickRandom(_0xd4a7ff){const _0x31fc9d=a0_0x2a354d;return _0xd4a7ff[Math[_0x31fc9d(0x200)](_0xd4a7ff[_0x31fc9d(0x1ff)]*Math['random']())];}
+
+
+const handler = async (m, { conn, isPrems }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_work
+
+  global.work = tradutor.texto1;
+
+
+  let enviando;
+  if (enviando) return
+  enviando = true
+  const hasil = Math.floor(Math.random() * 30000);
+  const time = global.db.data.users[m.sender].lastwork + 600000;
+  if (new Date - global.db.data.users[m.sender].lastwork < 600000) throw `⚔️ *¡Espera un momento pequeño aventurero!* ⚔️\n\n*—◉ Regresa a la travesía en ${msToTime(time - new Date())} ⏳*`;
+  conn.sendMessage(m.chat, { text: `🏞️ *Te embarcas en una emocionante aventura:*\n\n🛠️ *${pickRandom(global.work)}*\n\n*¡Ganaste ${hasil} exp por tu valentía!*` }, { quoted: m });
+  global.db.data.users[m.sender].exp += hasil;
+  global.db.data.users[m.sender].lastwork = new Date() * 1;
+  enviando = false
+};
+handler.help = ['work'];
+handler.tags = ['econ'];
+handler.command = /^(work|trabajar|chambear)$/i
+handler.fail = null;
+export default handler;
+
+function msToTime(duration) {
+  const milliseconds = parseInt((duration % 1000) / 100);
+  let seconds = Math.floor((duration / 1000) % 60);
+  let minutes = Math.floor((duration / (1000 * 60)) % 60);
+  let hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+  hours = (hours < 10) ? '0' + hours : hours;
+  minutes = (minutes < 10) ? '0' + minutes : minutes;
+  seconds = (seconds < 10) ? '0' + seconds : seconds;
+  return minutes + ' minutos ' + seconds + ' segundos ';
+}
+
+function pickRandom(list) {
+  return list[Math.floor(list.length * Math.random())];
+}
+
+

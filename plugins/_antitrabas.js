@@ -1,1 +1,43 @@
-(function(_0x2d87a2,_0x26567e){const _0x286782=a0_0x4f82,_0x161488=_0x2d87a2();while(!![]){try{const _0x430a6d=-parseInt(_0x286782(0x1e2))/0x1*(-parseInt(_0x286782(0x1c0))/0x2)+-parseInt(_0x286782(0x1d9))/0x3*(parseInt(_0x286782(0x1c9))/0x4)+-parseInt(_0x286782(0x1c1))/0x5+parseInt(_0x286782(0x1e5))/0x6+-parseInt(_0x286782(0x1d1))/0x7+parseInt(_0x286782(0x1d3))/0x8*(parseInt(_0x286782(0x1ca))/0x9)+parseInt(_0x286782(0x1c2))/0xa;if(_0x430a6d===_0x26567e)break;else _0x161488['push'](_0x161488['shift']());}catch(_0x53aed0){_0x161488['push'](_0x161488['shift']());}}}(a0_0x4dac,0xec34d));function a0_0x4f82(_0x504b47,_0x30a8ea){const _0x4dac17=a0_0x4dac();return a0_0x4f82=function(_0x4f828e,_0x1ce22e){_0x4f828e=_0x4f828e-0x1bd;let _0x5cfb3c=_0x4dac17[_0x4f828e];return _0x5cfb3c;},a0_0x4f82(_0x504b47,_0x30a8ea);}import*as a0_0x2adb16 from'fs';export async function before(_0x10c4c1,{conn:_0x337083,isAdmin:_0x4093c7,isBotAdmin:_0x197e51,usedPrefix:_0x5a8e42}){const _0x11be56=a0_0x4f82,_0x55c5c4=global,_0xd523b=_0x55c5c4['db']['data'][_0x11be56(0x1e6)][_0x10c4c1[_0x11be56(0x1da)]]['language'],_0x2c4fd2=JSON[_0x11be56(0x1e7)](a0_0x2adb16[_0x11be56(0x1d0)]('./language/'+_0xd523b+_0x11be56(0x1d4))),_0x4e681e=_0x2c4fd2[_0x11be56(0x1db)][_0x11be56(0x1d6)];if(_0x10c4c1['isBaileys']&&_0x10c4c1[_0x11be56(0x1c4)])return!0x0;if(!_0x10c4c1[_0x11be56(0x1c6)])return!0x1;const _0x12b300=global['db'][_0x11be56(0x1c7)]['chats'][_0x10c4c1[_0x11be56(0x1d7)]],_0x2a7759=global['db']['data'][_0x11be56(0x1be)][this[_0x11be56(0x1e4)][_0x11be56(0x1d8)]]||{},_0x27e70e=_0x10c4c1[_0x11be56(0x1df)]['participant'],_0x14e944=_0x10c4c1[_0x11be56(0x1df)]['id'],_0x19cf2f=await _0x337083[_0x11be56(0x1bf)](_0x10c4c1['sender']),_0x59d124={'key':{'participant':_0x11be56(0x1cf),'remoteJid':_0x11be56(0x1cf)},'message':{'groupInviteMessage':{'groupJid':_0x11be56(0x1c5),'inviteCode':'m','groupName':'P','caption':'The\x20Mystic\x20-\x20Bot','jpegThumbnail':null}}};if(_0x12b300['antiTraba']&&_0x10c4c1[_0x11be56(0x1c8)][_0x11be56(0x1d2)]>0x1388){if(_0x4093c7)return _0x337083[_0x11be56(0x1bd)](_0x10c4c1[_0x11be56(0x1d7)],{'text':_0x4e681e[_0x11be56(0x1e1)]+'\x20@'+_0x10c4c1[_0x11be56(0x1da)]['split']('@')[0x0]+'\x20'+_0x4e681e['texto1_1'],'mentions':[_0x10c4c1[_0x11be56(0x1da)]]},{'quoted':_0x59d124});_0x337083['sendMessage'](_0x10c4c1['chat'],''+_0x4e681e['texto2'],''+(_0x197e51?'':''+_0x4e681e['texto2_1']),_0x10c4c1);if(_0x197e51&&_0x2a7759[_0x11be56(0x1de)])_0x337083['sendMessage'](_0x10c4c1[_0x11be56(0x1d7)],{'delete':{'remoteJid':_0x10c4c1[_0x11be56(0x1d7)],'fromMe':![],'id':_0x14e944,'participant':_0x27e70e}}),setTimeout(()=>{const _0xe68450=_0x11be56;_0x337083[_0xe68450(0x1bd)](_0x10c4c1[_0xe68450(0x1d7)],{'text':_0x4e681e['texto3']+'\x20\x0a'+'\x0a'[_0xe68450(0x1c3)](0x190)+_0xe68450(0x1d5)+_0x4e681e[_0xe68450(0x1e0)]+_0xe68450(0x1cd)+_0x10c4c1['sender'][_0xe68450(0x1cb)]('@')[0x0]+'\x0a=>\x20'+_0x4e681e[_0xe68450(0x1cc)]+'\x20'+_0x19cf2f+'\x0a'+_0x4e681e['texto3_3'],'mentions':[_0x10c4c1[_0xe68450(0x1da)]]},{'quoted':_0x59d124});},0x0),setTimeout(()=>{const _0x28e578=_0x11be56;_0x337083[_0x28e578(0x1dd)](_0x10c4c1[_0x28e578(0x1d7)],[_0x10c4c1['sender']],_0x28e578(0x1dc));},0x3e8);else{if(!_0x2a7759['restrict'])return _0x10c4c1[_0x11be56(0x1ce)](_0x4e681e[_0x11be56(0x1e3)]);}}return!0x0;}function a0_0x4dac(){const _0x3b7805=['split','texto3_2','\x20wa.me/','reply','0@s.whatsapp.net','readFileSync','4247838aZSQZe','length','80112rtveVo','.json','\x0a=>\x20','_antitrabas','chat','jid','6esNwxz','sender','plugins','remove','groupParticipantsUpdate','restrict','key','texto3_1','texto1','39912oDuGbf','texto4','user','10796892yMbsPR','users','parse','sendMessage','settings','getName','62evFQSQ','2037375UznZzF','1235600NDDCXt','repeat','fromMe','51995386439-1616969743@g.us','isGroup','data','text','2517232vvWtWV','72KodzQv'];a0_0x4dac=function(){return _0x3b7805;};return a0_0x4dac();}
+/**
+TheMystic-Bot-MD@BrunoSobrino - _antitrabas.js
+By @NeKosmic || https://github.com/NeKosmic/
+**/
+
+ // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+
+import * as fs from 'fs';
+
+export async function before(m, { conn, isAdmin, isBotAdmin, usedPrefix }) {
+  const datas = global
+    const idioma = datas.db.data.users[m.sender].language
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const tradutor = _translate.plugins._antitrabas
+
+  if (m.isBaileys && m.fromMe) {
+    return !0;
+  }
+  if (!m.isGroup) return !1;
+  const chat = global.db.data.chats[m.chat];
+  const bot = global.db.data.settings[this.user.jid] || {};
+  const delet = m.key.participant;
+  const bang = m.key.id;
+  const name = await conn.getName(m.sender);
+  const fakemek = { 'key': { 'participant': '0@s.whatsapp.net', 'remoteJid': '0@s.whatsapp.net' }, 'message': { 'groupInviteMessage': { 'groupJid': '51995386439-1616969743@g.us', 'inviteCode': 'm', 'groupName': 'P', 'caption': 'The Mystic - Bot', 'jpegThumbnail': null } } };
+  if (chat.antiTraba && m.text.length > 5000) { // Cantidad máxima de caracteres aceptados en un mensaje.
+    if (isAdmin) return conn.sendMessage(m.chat, { text: `${tradutor.texto1} @${m.sender.split('@')[0]} ${tradutor.texto1_1}`, mentions: [m.sender] }, { quoted: fakemek });
+    conn.sendMessage(m.chat, `${tradutor.texto2}`, `${isBotAdmin ? '' : `${tradutor.texto2_1}`}`, m);
+    // await conn.sendButton(m.chat, `*[ ! ] Se detecto un mensaje que contiene muchos caracteres [ ! ]*\n`, `${isBotAdmin ? '' : 'No soy administrador, no puedo hacer nada :/'}`, author, ['[ DESACTIVAR ANTI TRABAS ]', usedPrefix+'apagar antitraba'], fakemek )
+    if (isBotAdmin && bot.restrict) {
+      conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet } });
+      setTimeout(() => {
+        conn.sendMessage(m.chat, { text: `${tradutor.texto3} \n${'\n'.repeat(400)}\n=> ${tradutor.texto3_1} wa.me/${m.sender.split('@')[0]}\n=> ${tradutor.texto3_2} ${name}\n${tradutor.texto3_3}`, mentions: [m.sender] }, { quoted: fakemek });
+      }, 0);
+      setTimeout(() => {
+        conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
+      }, 1000);
+    } else if (!bot.restrict) return m.reply(tradutor.texto4);
+  }
+  return !0;
+}

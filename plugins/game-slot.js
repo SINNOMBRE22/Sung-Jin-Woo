@@ -1,1 +1,87 @@
-const a0_0x57b513=a0_0x5d89;(function(_0x580f70,_0x2b934e){const _0x153cf5=a0_0x5d89,_0x527cce=_0x580f70();while(!![]){try{const _0x439d4b=-parseInt(_0x153cf5(0x105))/0x1+parseInt(_0x153cf5(0x10a))/0x2+parseInt(_0x153cf5(0x117))/0x3+-parseInt(_0x153cf5(0x112))/0x4+-parseInt(_0x153cf5(0xf4))/0x5*(parseInt(_0x153cf5(0x107))/0x6)+parseInt(_0x153cf5(0xf8))/0x7*(parseInt(_0x153cf5(0xfa))/0x8)+parseInt(_0x153cf5(0x110))/0x9*(parseInt(_0x153cf5(0x10f))/0xa);if(_0x439d4b===_0x2b934e)break;else _0x527cce['push'](_0x527cce['shift']());}catch(_0x4a3399){_0x527cce['push'](_0x527cce['shift']());}}}(a0_0x5cca,0xd7158));const handler=async(_0x4a904d,{args:_0x76bb9d,usedPrefix:_0x5d0a6f,command:_0x2d4127})=>{const _0x4f42eb=a0_0x5d89,_0x998e90=global,_0x362efe=_0x998e90['db']['data'][_0x4f42eb(0x116)][_0x4a904d['sender']][_0x4f42eb(0xf7)],_0x266b2e=JSON[_0x4f42eb(0xfe)](fs['readFileSync'](_0x4f42eb(0x10b)+_0x362efe+_0x4f42eb(0x118))),_0x3ef000=_0x266b2e[_0x4f42eb(0xf2)][_0x4f42eb(0x103)],_0x8e5e2b=('\x0a'+_0x3ef000[_0x4f42eb(0xf6)]+_0x4f42eb(0xf5)+_0x3ef000[_0x4f42eb(0x10e)]+_0x4f42eb(0x102)+(_0x5d0a6f+_0x2d4127)+_0x4f42eb(0xff))['trim']();if(!_0x76bb9d[0x0])throw _0x8e5e2b;if(isNaN(_0x76bb9d[0x0]))throw _0x8e5e2b;const _0x57a6f1=parseInt(_0x76bb9d[0x0]),_0x14bc39=global['db'][_0x4f42eb(0x119)][_0x4f42eb(0x116)][_0x4a904d[_0x4f42eb(0x115)]],_0x34a12a=_0x14bc39['lastslot']+0x2710;if(new Date()-_0x14bc39['lastslot']<0x2710)throw _0x3ef000[_0x4f42eb(0xfc)][0x0]+'\x20'+msToTime(_0x34a12a-new Date())+'\x20'+_0x3ef000['texto3'][0x1];if(_0x57a6f1<0x64)throw _0x3ef000[_0x4f42eb(0x101)];if(_0x14bc39[_0x4f42eb(0x109)]<_0x57a6f1)throw _0x3ef000[_0x4f42eb(0x100)];const _0x3c9f6a=['🐋','🐉',_0x4f42eb(0x113)];let _0x478000=Math[_0x4f42eb(0x111)](Math['random']()*_0x3c9f6a[_0x4f42eb(0x11b)]),_0x578ebf=Math[_0x4f42eb(0x111)](Math['random']()*_0x3c9f6a[_0x4f42eb(0x11b)]),_0xfc915e=Math['floor'](Math['random']()*_0x3c9f6a[_0x4f42eb(0x11b)]);const _0x5c3483=[],_0x5b8ab5=[],_0x508d34=[];for(let _0x35ac11=0x0;_0x35ac11<0x3;_0x35ac11++){_0x5c3483[_0x35ac11]=_0x3c9f6a[_0x478000],_0x478000++;if(_0x478000==_0x3c9f6a['length'])_0x478000=0x0;}for(let _0x34f7de=0x0;_0x34f7de<0x3;_0x34f7de++){_0x5b8ab5[_0x34f7de]=_0x3c9f6a[_0x578ebf],_0x578ebf++;if(_0x578ebf==_0x3c9f6a[_0x4f42eb(0x11b)])_0x578ebf=0x0;}for(let _0x4838db=0x0;_0x4838db<0x3;_0x4838db++){_0x508d34[_0x4838db]=_0x3c9f6a[_0xfc915e],_0xfc915e++;if(_0xfc915e==_0x3c9f6a[_0x4f42eb(0x11b)])_0xfc915e=0x0;}let _0x3803cc;if(_0x478000==_0x578ebf&&_0x578ebf==_0xfc915e)_0x3803cc=_0x3ef000[_0x4f42eb(0xfd)]+'\x20+'+(_0x57a6f1+_0x57a6f1)+'\x20𝚇𝙿*',_0x14bc39[_0x4f42eb(0x109)]+=_0x57a6f1;else _0x478000==_0x578ebf||_0x478000==_0xfc915e||_0x578ebf==_0xfc915e?(_0x3803cc=''+_0x3ef000[_0x4f42eb(0x11a)],_0x14bc39['exp']+=0xa):(_0x3803cc=_0x3ef000[_0x4f42eb(0x108)]+'\x20-'+_0x57a6f1+_0x4f42eb(0x10d),_0x14bc39[_0x4f42eb(0x109)]-=_0x57a6f1);return _0x14bc39[_0x4f42eb(0xfb)]=new Date()*0x1,await _0x4a904d[_0x4f42eb(0x11c)]('\x0a🎰\x20|\x20*SLOTS*\x20\x0a────────\x0a'+_0x5c3483[0x0]+_0x4f42eb(0xf3)+_0x5b8ab5[0x0]+_0x4f42eb(0xf3)+_0x508d34[0x0]+'\x0a'+_0x5c3483[0x1]+_0x4f42eb(0xf3)+_0x5b8ab5[0x1]+_0x4f42eb(0xf3)+_0x508d34[0x1]+'\x0a'+_0x5c3483[0x2]+_0x4f42eb(0xf3)+_0x5b8ab5[0x2]+_0x4f42eb(0xf3)+_0x508d34[0x2]+_0x4f42eb(0x10c)+_0x3803cc);};handler['help']=[a0_0x57b513(0xf9)],handler['tags']=['game'],handler[a0_0x57b513(0x114)]=[a0_0x57b513(0x104)];export default handler;function a0_0x5d89(_0x109566,_0x3dfc4e){const _0x5cca80=a0_0x5cca();return a0_0x5d89=function(_0x5d895f,_0x475606){_0x5d895f=_0x5d895f-0xf2;let _0x3c7aab=_0x5cca80[_0x5d895f];return _0x3c7aab;},a0_0x5d89(_0x109566,_0x3dfc4e);}function msToTime(_0x2de6b7){const _0x183021=a0_0x57b513,_0x405e71=parseInt(_0x2de6b7%0x3e8/0x64);let _0x351db2=Math[_0x183021(0x111)](_0x2de6b7/0x3e8%0x3c),_0x11bac4=Math[_0x183021(0x111)](_0x2de6b7/(0x3e8*0x3c)%0x3c),_0x110131=Math[_0x183021(0x111)](_0x2de6b7/(0x3e8*0x3c*0x3c)%0x18);return _0x110131=_0x110131<0xa?'0'+_0x110131:_0x110131,_0x11bac4=_0x11bac4<0xa?'0'+_0x11bac4:_0x11bac4,_0x351db2=_0x351db2<0xa?'0'+_0x351db2:_0x351db2,_0x11bac4+_0x183021(0x106)+_0x351db2+'\x20s\x20';}function a0_0x5cca(){const _0x50ea56=['data','texto7','length','reply','plugins','\x20:\x20','1956580RPaHES','\x20\x0a\x0a','texto1','language','10395917zxSbYz','slot\x20<apuesta>','8TWGxkm','lastslot','texto3','texto6','parse','\x20100*','texto5','texto4','\x20\x0a*','game_slot','slot','459414rfgKPH','\x20m\x20','12cPMgGu','texto8','exp','1511698sYZLUF','./language/','\x0a────────\x0a🎰\x20|\x20','\x20𝚇𝙿*','texto2','1626790jXZpOe','27FGWhCN','floor','4196456twUdxb','🕊️','command','sender','users','1329381luEjPQ','.json'];a0_0x5cca=function(){return _0x50ea56;};return a0_0x5cca();}
+/* CREDITOS A https://github.com/FG98F */
+
+
+
+const handler = async (m, {args, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.game_slot
+
+  const fa = `
+${tradutor.texto1} 
+
+${tradutor.texto2} 
+*${usedPrefix + command} 100*`.trim();
+  if (!args[0]) throw fa;
+  if (isNaN(args[0])) throw fa;
+  const apuesta = parseInt(args[0]);
+  const users = global.db.data.users[m.sender];
+  const time = users.lastslot + 10000;
+  if (new Date - users.lastslot < 10000) throw `${tradutor.texto3[0]} ${msToTime(time - new Date())} ${tradutor.texto3[1]}`;
+  if (apuesta < 100) throw tradutor.texto4;
+  if (users.exp < apuesta) {
+    throw tradutor.texto5;
+  }
+  const emojis = ['🐋', '🐉', '🕊️'];
+  let a = Math.floor(Math.random() * emojis.length);
+  let b = Math.floor(Math.random() * emojis.length);
+  let c = Math.floor(Math.random() * emojis.length);
+  const x = [];
+  const y = [];
+  const z = [];
+  for (let i = 0; i < 3; i++) {
+    x[i] = emojis[a];
+    a++;
+    if (a == emojis.length) a = 0;
+  }
+  for (let i = 0; i < 3; i++) {
+    y[i] = emojis[b];
+    b++;
+    if (b == emojis.length) b = 0;
+  }
+  for (let i = 0; i < 3; i++) {
+    z[i] = emojis[c];
+    c++;
+    if (c == emojis.length) c = 0;
+  }
+  let end;
+  if (a == b && b == c) {
+    end = `${tradutor.texto6} +${apuesta + apuesta} 𝚇𝙿*`;
+    users.exp += apuesta;
+  } else if (a == b || a == c || b == c) {
+    end = `${tradutor.texto7}`;
+    users.exp += 10;
+  } else {
+    end = `${tradutor.texto8} -${apuesta} 𝚇𝙿*`;
+    users.exp -= apuesta;
+  }
+  users.lastslot = new Date * 1;
+  return await m.reply(
+      `
+🎰 | *SLOTS* 
+────────
+${x[0]} : ${y[0]} : ${z[0]}
+${x[1]} : ${y[1]} : ${z[1]}
+${x[2]} : ${y[2]} : ${z[2]}
+────────
+🎰 | ${end}`);
+};
+handler.help = ['slot <apuesta>'];
+handler.tags = ['game'];
+handler.command = ['slot'];
+export default handler;
+
+function msToTime(duration) {
+  const milliseconds = parseInt((duration % 1000) / 100);
+  let seconds = Math.floor((duration / 1000) % 60);
+  let minutes = Math.floor((duration / (1000 * 60)) % 60);
+  let hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+
+  hours = (hours < 10) ? '0' + hours : hours;
+  minutes = (minutes < 10) ? '0' + minutes : minutes;
+  seconds = (seconds < 10) ? '0' + seconds : seconds;
+
+  return minutes + ' m ' + seconds + ' s ';
+}
+

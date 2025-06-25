@@ -1,1 +1,23 @@
-const a0_0x428e4d=a0_0x5313;(function(_0x449fd5,_0x4d9294){const _0x4f26cc=a0_0x5313,_0x58ebbf=_0x449fd5();while(!![]){try{const _0x5893eb=parseInt(_0x4f26cc(0x8a))/0x1*(parseInt(_0x4f26cc(0x6d))/0x2)+parseInt(_0x4f26cc(0x84))/0x3*(-parseInt(_0x4f26cc(0x80))/0x4)+-parseInt(_0x4f26cc(0x74))/0x5*(parseInt(_0x4f26cc(0x6e))/0x6)+parseInt(_0x4f26cc(0x82))/0x7*(-parseInt(_0x4f26cc(0x88))/0x8)+-parseInt(_0x4f26cc(0x79))/0x9*(parseInt(_0x4f26cc(0x6b))/0xa)+-parseInt(_0x4f26cc(0x70))/0xb+parseInt(_0x4f26cc(0x78))/0xc*(parseInt(_0x4f26cc(0x7c))/0xd);if(_0x5893eb===_0x4d9294)break;else _0x58ebbf['push'](_0x58ebbf['shift']());}catch(_0x328639){_0x58ebbf['push'](_0x58ebbf['shift']());}}}(a0_0x1734,0xdd8ab));import{webp2png}from'../lib/webp2mp4.js';function a0_0x5313(_0x22c0a4,_0xced4d8){const _0x173412=a0_0x1734();return a0_0x5313=function(_0x531324,_0x5c458b){_0x531324=_0x531324-0x6b;let _0xaadf6e=_0x173412[_0x531324];return _0xaadf6e;},a0_0x5313(_0x22c0a4,_0xced4d8);}const handler=async(_0x4c89e1,{conn:_0x15981c,usedPrefix:_0x3640f5,command:_0x3f4e09})=>{const _0x568946=a0_0x5313,_0x354cef=global,_0x392d51=_0x354cef['db'][_0x568946(0x87)][_0x568946(0x77)][_0x4c89e1[_0x568946(0x89)]]['language'],_0x2647b6=JSON[_0x568946(0x7a)](fs['readFileSync'](_0x568946(0x7b)+_0x392d51+_0x568946(0x85))),_0x4ead41=_0x2647b6['plugins']['convertidor_toimg'],_0x4dfcfd='*'+_0x4ead41[_0x568946(0x81)]+'\x20'+(_0x3640f5+_0x3f4e09)+'*';if(!_0x4c89e1[_0x568946(0x86)])throw _0x4dfcfd;const _0x33477c=_0x4c89e1[_0x568946(0x86)]||_0x4c89e1,_0xc9096e=_0x33477c[_0x568946(0x7f)]||'';if(!/sticker/[_0x568946(0x73)](_0xc9096e))throw _0x4dfcfd;const _0x5c3f6c=await _0x33477c['download'](),_0xe31013=await webp2png(_0x5c3f6c)[_0x568946(0x83)](_0x5ddac7=>null)||Buffer[_0x568946(0x76)](0x0);await _0x15981c[_0x568946(0x75)](_0x4c89e1[_0x568946(0x6f)],_0xe31013,_0x568946(0x72),null,_0x4c89e1);};handler[a0_0x428e4d(0x6c)]=['toimg'],handler['tags']=[a0_0x428e4d(0x7d)],handler[a0_0x428e4d(0x71)]=['toimg',a0_0x428e4d(0x7e),'img'];function a0_0x1734(){const _0x202694=['3AMQpaH','.json','quoted','data','56TLGvVC','sender','855667OUtPql','700OGhDzQ','help','2TDnClt','6wrmTvx','chat','12335433EbveUK','command','error.png','test','4855670lbfcJu','sendFile','alloc','users','3490044xifPLz','128241dAJSVj','parse','./language/','221nWqNdi','convertidores','jpg','mediaType','3637820AtRdVY','texto1','893039ulKana','catch'];a0_0x1734=function(){return _0x202694;};return a0_0x1734();}export default handler;
+import {webp2png} from '../lib/webp2mp4.js';
+
+
+const handler = async (m, {conn, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.convertidor_toimg
+
+
+  const notStickerMessage = `*${tradutor.texto1} ${usedPrefix + command}*`;
+  if (!m.quoted) throw notStickerMessage;
+  const q = m.quoted || m;
+  const mime = q.mediaType || '';
+  if (!/sticker/.test(mime)) throw notStickerMessage;
+  const media = await q.download();
+  const out = await webp2png(media).catch((_) => null) || Buffer.alloc(0);
+  await conn.sendFile(m.chat, out, 'error.png', null, m);
+};
+handler.help = ['toimg'];
+handler.tags = ['convertidores'];
+handler.command = ['toimg', 'jpg', 'img'];
+export default handler;

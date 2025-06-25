@@ -1,1 +1,47 @@
-(function(_0x42fd23,_0x42684a){const _0x79309b=a0_0x712c,_0x1dcae4=_0x42fd23();while(!![]){try{const _0x293db9=-parseInt(_0x79309b(0x16a))/0x1*(-parseInt(_0x79309b(0x16b))/0x2)+-parseInt(_0x79309b(0x164))/0x3+parseInt(_0x79309b(0x15d))/0x4*(parseInt(_0x79309b(0x16d))/0x5)+parseInt(_0x79309b(0x158))/0x6*(parseInt(_0x79309b(0x16f))/0x7)+-parseInt(_0x79309b(0x15a))/0x8+parseInt(_0x79309b(0x16e))/0x9*(-parseInt(_0x79309b(0x166))/0xa)+parseInt(_0x79309b(0x153))/0xb;if(_0x293db9===_0x42684a)break;else _0x1dcae4['push'](_0x1dcae4['shift']());}catch(_0x57945b){_0x1dcae4['push'](_0x1dcae4['shift']());}}}(a0_0x2a95,0x71727));function a0_0x712c(_0xd5c5a6,_0x1d3f8c){const _0x2a9506=a0_0x2a95();return a0_0x712c=function(_0x712c0a,_0x1b0eb8){_0x712c0a=_0x712c0a-0x153;let _0x402832=_0x2a9506[_0x712c0a];return _0x402832;},a0_0x712c(_0xd5c5a6,_0x1d3f8c);}const linkRegex=/chat\.whatsapp\.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i;function a0_0x2a95(){const _0x3e573d=['133VlqhlD','antiLink',',\x20está\x20prohibido\x20enviar\x20enlaces\x20de\x20grupos.*\x0a━━━━━━✦❘༻༺❘✦━━━━━━','9269854yBLCMt','chat','groupInviteCode','key','sendMessage','50676XTtDqK','jid','1669224EvyczR','fromMe','remove','21332GJHNIA','split','user','━━━━━━✦❘༻༺❘✦━━━━━━\x0a⚠️\x20*','participant','isGroup','chats','234429bgrPBp','test','46280Aqrtgw','settings','text','sender','45uDSYqJ','15570qTGrUz','restrict','30pWZNGf','1233hWhMgk'];a0_0x2a95=function(){return _0x3e573d;};return a0_0x2a95();}export async function before(_0x8a0486,{conn:_0x589ec9,isAdmin:_0x3d1e9c,isBotAdmin:_0x14f5c3}){const _0x2a68d2=a0_0x712c;if(_0x8a0486[_0x2a68d2(0x15b)])return!![];if(!_0x8a0486[_0x2a68d2(0x162)])return![];const _0x559c31=global['db']['data'][_0x2a68d2(0x163)][_0x8a0486['chat']],_0x58533c=global['db']['data'][_0x2a68d2(0x167)][this[_0x2a68d2(0x15f)][_0x2a68d2(0x159)]]||{},_0x2f06a4='@'+_0x8a0486[_0x2a68d2(0x169)][_0x2a68d2(0x15e)]`@`[0x0],_0x2b93b1=linkRegex[_0x2a68d2(0x165)](_0x8a0486[_0x2a68d2(0x168)]);if(_0x3d1e9c||!_0x559c31[_0x2a68d2(0x170)])return!![];const _0x12f1a1=_0x2a68d2(0x160)+_0x2f06a4+_0x2a68d2(0x171);if(_0x2b93b1){if(_0x14f5c3){const _0x563722='https://chat.whatsapp.com/'+await _0x589ec9[_0x2a68d2(0x155)](_0x8a0486[_0x2a68d2(0x154)]);if(_0x8a0486[_0x2a68d2(0x168)]['includes'](_0x563722))return!![];}await _0x589ec9[_0x2a68d2(0x157)](_0x8a0486[_0x2a68d2(0x154)],{'delete':{'remoteJid':_0x8a0486['chat'],'fromMe':![],'id':_0x8a0486['key']['id'],'participant':_0x8a0486[_0x2a68d2(0x156)][_0x2a68d2(0x161)]}}),await _0x589ec9[_0x2a68d2(0x157)](_0x8a0486[_0x2a68d2(0x154)],{'text':_0x12f1a1,'mentions':[_0x8a0486[_0x2a68d2(0x169)]]},{'quoted':_0x8a0486}),_0x14f5c3&&_0x58533c[_0x2a68d2(0x16c)]&&await _0x589ec9['groupParticipantsUpdate'](_0x8a0486[_0x2a68d2(0x154)],[_0x8a0486[_0x2a68d2(0x169)]],_0x2a68d2(0x15c));}return!![];}
+const linkRegex = /chat\.whatsapp\.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i;
+
+export async function before(m, { conn, isAdmin, isBotAdmin }) {
+  // Ignorar mensajes del bot y mensajes que no son de grupos
+  if (m.fromMe) return true;
+  if (!m.isGroup) return false;
+
+  const chat = global.db.data.chats[m.chat];
+  const bot = global.db.data.settings[this.user.jid] || {};
+  const user = `@${m.sender.split`@`[0]}`;
+  const isGroupLink = linkRegex.test(m.text);
+  
+  // Verificar si es administrador o el antiLink está desactivado
+  if (isAdmin || !chat.antiLink) return true;
+
+  const warningMsg = `━━━━━━✦❘༻༺❘✦━━━━━━\n⚠️ *${user}, está prohibido enviar enlaces de grupos.*\n━━━━━━✦❘༻༺❘✦━━━━━━`;
+
+  if (isGroupLink) {
+    // Verificar si es enlace del grupo actual
+    if (isBotAdmin) {
+      const linkThisGroup = `https://chat.whatsapp.com/${await conn.groupInviteCode(m.chat)}`;
+      if (m.text.includes(linkThisGroup)) return true;
+    }
+
+    // Eliminar mensaje primero
+    await conn.sendMessage(m.chat, { 
+      delete: { 
+        remoteJid: m.chat, 
+        fromMe: false, 
+        id: m.key.id, 
+        participant: m.key.participant 
+      }
+    });
+
+    // Enviar advertencia
+    await conn.sendMessage(m.chat, { 
+      text: warningMsg, 
+      mentions: [m.sender] 
+    }, { quoted: m });
+
+    // Eliminar del grupo si está activada la restricción
+    if (isBotAdmin && bot.restrict) {
+      await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
+    }
+  }
+  return true;
+}

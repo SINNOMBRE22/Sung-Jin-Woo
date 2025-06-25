@@ -1,1 +1,91 @@
-const a0_0x18dfd5=a0_0x35d3;(function(_0x26240f,_0x2d991d){const _0xec93fb=a0_0x35d3,_0x32d423=_0x26240f();while(!![]){try{const _0x1abde9=parseInt(_0xec93fb(0x182))/0x1*(-parseInt(_0xec93fb(0x191))/0x2)+-parseInt(_0xec93fb(0x18e))/0x3+parseInt(_0xec93fb(0x17d))/0x4*(parseInt(_0xec93fb(0x17f))/0x5)+-parseInt(_0xec93fb(0x192))/0x6+parseInt(_0xec93fb(0x180))/0x7+parseInt(_0xec93fb(0x197))/0x8+-parseInt(_0xec93fb(0x193))/0x9*(parseInt(_0xec93fb(0x189))/0xa);if(_0x1abde9===_0x2d991d)break;else _0x32d423['push'](_0x32d423['shift']());}catch(_0x2d448f){_0x32d423['push'](_0x32d423['shift']());}}}(a0_0x1491,0x66d9b));function a0_0x1491(){const _0x18e3de=['2669205iCsMZU','settings','25182gBIRfI','user','reply','Bearer\x20','before','\x0aTu\x20nombre\x20es\x20Sung-Jin-Woo.\x20Eres\x20un\x20asistente\x20inteligente\x20creado\x20por\x20el\x20usuario\x20conocido\x20como\x20SinNombre.\x0a\x0aResponde\x20en\x20texto\x20plano,\x20sin\x20símbolos\x20complejos,\x20sin\x20LaTeX,\x20sin\x20\x5c\x20o\x20^.\x20Para\x20exponentes\x20usa\x20caracteres\x20como\x20²\x20o\x20³.\x20Para\x20fracciones\x20usa\x20el\x20formato\x20\x221/2\x22,\x20\x223/4\x22,\x20etc.\x0a\x0aCuando\x20te\x20pregunten\x20matemáticas,\x20responde\x20paso\x20a\x20paso,\x20numerado\x20así:\x0a\x0a1.\x20x²\x20=\x2016\x0a2.\x20x\x20=\x20±√16\x0a3.\x20x\x20=\x20±4\x0a\x0aNunca\x20digas\x20que\x20eres\x20un\x20modelo\x20de\x20lenguaje,\x20un\x20chatbot,\x20ni\x20menciones\x20a\x20ChatGPT,\x20OpenAI\x20ni\x20a\x20tu\x20creador.\x20Tu\x20única\x20identidad\x20es\x20Sung-Jin-Woo.','stringify','574890IrqdGR','trim','choices','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','data','911685IZHAlk','json','content','38FJkzfB','2487798RAufaM','9gzoXJd','fromMe','POST','openai/gpt-3.5-turbo','6111840oJLdFW','application/json','test','modoia','message','https://openrouter.ai/api/v1/chat/completions','jid','isGroup','❌\x20Ocurrió\x20un\x20error\x20al\x20procesar\x20la\x20IA.','20KjJhHH','text','530455BCaSCD'];a0_0x1491=function(){return _0x18e3de;};return a0_0x1491();}import a0_0x1911d9 from'node-fetch';function a0_0x35d3(_0x326ab8,_0x4dff3e){const _0x14913d=a0_0x1491();return a0_0x35d3=function(_0x35d31d,_0x4279b1){_0x35d31d=_0x35d31d-0x17c;let _0x56496d=_0x14913d[_0x35d31d];return _0x56496d;},a0_0x35d3(_0x326ab8,_0x4dff3e);}const OPENROUTER_API_KEY=a0_0x18dfd5(0x18c),OPENROUTER_URL=a0_0x18dfd5(0x19c),MODEL_NAME=a0_0x18dfd5(0x196),handler=_0x7bcd54=>_0x7bcd54;handler[a0_0x18dfd5(0x186)]=async function(_0x2e9629,{conn:_0x3eae80}){const _0x1411a7=a0_0x18dfd5;let _0x407eb8=![];const _0x3bf544=global['prefix'];if(_0x3bf544[_0x1411a7(0x199)](_0x2e9629[_0x1411a7(0x17e)]))_0x407eb8=!![];global['db'][_0x1411a7(0x18d)][_0x1411a7(0x181)]=global['db'][_0x1411a7(0x18d)][_0x1411a7(0x181)]||{};const _0x1d6fe1=global['db'][_0x1411a7(0x18d)][_0x1411a7(0x181)][_0x3eae80['user'][_0x1411a7(0x19d)]]||{};if(_0x1d6fe1[_0x1411a7(0x19a)]&&!_0x2e9629[_0x1411a7(0x19e)]&&!_0x407eb8&&!_0x2e9629[_0x1411a7(0x194)]&&_0x2e9629[_0x1411a7(0x17e)]&&_0x2e9629[_0x1411a7(0x17e)][_0x1411a7(0x18a)]()!==''){if(/false|disnable|(turn)?off|0/i[_0x1411a7(0x199)](_0x2e9629[_0x1411a7(0x17e)]))return!![];try{const _0xeb8641=_0x1411a7(0x187),_0x240c8d=await callIA([{'role':'system','content':_0xeb8641},{'role':_0x1411a7(0x183),'content':_0x2e9629['text']}]);await _0x2e9629[_0x1411a7(0x184)](_0x240c8d);}catch(_0x4d0e1c){console['error'](_0x4d0e1c),await _0x2e9629[_0x1411a7(0x184)](_0x1411a7(0x17c));}return![];}return!![];};async function callIA(_0x9ea645){const _0x5ec8f9=a0_0x18dfd5,_0x439f10=await a0_0x1911d9(OPENROUTER_URL,{'method':_0x5ec8f9(0x195),'headers':{'Authorization':_0x5ec8f9(0x185)+OPENROUTER_API_KEY,'Content-Type':_0x5ec8f9(0x198)},'body':JSON[_0x5ec8f9(0x188)]({'model':MODEL_NAME,'messages':_0x9ea645})}),_0x35f163=await _0x439f10[_0x5ec8f9(0x18f)]();return _0x35f163[_0x5ec8f9(0x18b)]?.[0x0]?.[_0x5ec8f9(0x19b)]?.[_0x5ec8f9(0x190)]||'No\x20pude\x20responder.';}export default handler;
+/**
+ * plugin_modoia_debug.js
+ * Categoría: tools
+ * Comando: modoia (hook before)
+ * 
+ * Plugin revisado con debugging detallado de errores de OpenAI.
+ */
+import fetch from 'node-fetch'
+
+// ——— Configuración de la IA ———
+const OPENAI_API_KEY = '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'
+const OPENAI_URL     = 'https://api.openai.com/v1/chat/completions'
+const MODEL_NAME     = 'gpt-3.5-turbo'
+
+const handler = m => m
+
+handler.before = async function (m, { conn }) {
+  // Evita grupos, mensajes del bot y texto vacío
+  if (m.isGroup || m.fromMe || !m.text?.trim()) return true
+
+  // Carga configuración y comprueba modo IA
+  global.db.data.settings = global.db.data.settings || {}
+  const botSettings = global.db.data.settings[conn.user.jid] || {}
+  if (!botSettings.modoia) return true
+
+  // Informa debug en consola
+  console.log('[modoia] Mensaje entrante:', m.chat, m.text)
+
+  try {
+    // Prompt de sistema
+    const systemPrompt = `
+Tu nombre es Sung-Jin-Woo. Eres un asistente inteligente creado por el usuario conocido como SinNombre.
+
+Responde en texto plano, sin símbolos complejos, sin LaTeX, sin \\ o ^. Para exponentes usa caracteres como ² o ³. Para fracciones usa "1/2", "3/4", etc.
+
+Cuando te pregunten matemáticas, responde paso a paso, numerado así:
+
+1. x² = 16
+2. x = ±√16
+3. x = ±4
+
+Nunca digas que eres un modelo de lenguaje, un chatbot, ni menciones a ChatGPT, OpenAI ni a tu creador.`.trim()
+
+    // Llamada a la API
+    console.log('[modoia] Llamando a OpenAI...')
+    const iaResponse = await callOpenAI([
+      { role: 'system', content: systemPrompt },
+      { role: 'user',   content: m.text.trim() }
+    ])
+    console.log('[modoia] Respuesta IA:', iaResponse)
+
+    // Envía la respuesta
+    await conn.sendMessage(m.chat, { text: iaResponse })
+  } catch (err) {
+    // Log completo de error
+    console.error('[modoia] Error en IA ➟', err)
+    // Intenta obtener detalle de error HTTP
+    let detail = err.message
+    try {
+      const jsonError = JSON.parse(err.message.split(':').slice(-1)[0])
+      detail = jsonError.error?.message || detail
+    } catch {}
+    // Envía al usuario el detalle (transparencia para debugging)
+    await conn.sendMessage(m.chat, { text: `❌ Error IA: ${detail}` })
+  }
+
+  // Detén el flujo normal
+  return false
+}
+
+async function callOpenAI(messages) {
+  const res = await fetch(OPENAI_URL, {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${OPENAI_API_KEY}`,
+      'Content-Type':  'application/json'
+    },
+    body: JSON.stringify({ model: MODEL_NAME, messages })
+  })
+  const text = await res.text()
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status} ${res.statusText}: ${text}`)
+  }
+  let json
+  try { json = JSON.parse(text) } catch {
+    throw new Error(`JSON parse error: ${text}`)
+  }
+  return json.choices?.[0]?.message?.content.trim() || 'No pude responder.'
+}
+
+export default handler

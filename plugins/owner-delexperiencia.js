@@ -1,1 +1,24 @@
-const a0_0xd8dd61=a0_0x4034;function a0_0x4034(_0x4d3a4e,_0x450bc8){const _0x1b7e02=a0_0x1b7e();return a0_0x4034=function(_0x4034c9,_0x179bb8){_0x4034c9=_0x4034c9-0xce;let _0x21fdb8=_0x1b7e02[_0x4034c9];return _0x21fdb8;},a0_0x4034(_0x4d3a4e,_0x450bc8);}(function(_0x20de07,_0x359142){const _0x5da4e2=a0_0x4034,_0x4badd5=_0x20de07();while(!![]){try{const _0x408661=-parseInt(_0x5da4e2(0xe9))/0x1+parseInt(_0x5da4e2(0xce))/0x2+parseInt(_0x5da4e2(0xcf))/0x3+-parseInt(_0x5da4e2(0xe4))/0x4*(parseInt(_0x5da4e2(0xd3))/0x5)+parseInt(_0x5da4e2(0xe6))/0x6+parseInt(_0x5da4e2(0xe7))/0x7+-parseInt(_0x5da4e2(0xd7))/0x8*(parseInt(_0x5da4e2(0xdb))/0x9);if(_0x408661===_0x359142)break;else _0x4badd5['push'](_0x4badd5['shift']());}catch(_0xcb9e18){_0x4badd5['push'](_0x4badd5['shift']());}}}(a0_0x1b7e,0x481e3));import a0_0x51fb32 from'@whiskeysockets/baileys';let pajak=0x0,handler=async(_0x395483,{conn:_0x31d2ec,text:_0x3a1885})=>{const _0x3f06c6=a0_0x4034;let _0x45eae2;if(_0x395483[_0x3f06c6(0xe0)])_0x45eae2=_0x395483[_0x3f06c6(0xdd)][0x0];else _0x45eae2=_0x395483[_0x3f06c6(0xda)];if(!_0x45eae2)throw ag+_0x3f06c6(0xe2);let _0x5d4aae=_0x3a1885[_0x3f06c6(0xd0)]('@'+_0x45eae2[_0x3f06c6(0xe5)]`@`[0x0],'')['trim']();if(!_0x5d4aae)throw ag+_0x3f06c6(0xd4);if(isNaN(_0x5d4aae))throw mg+_0x3f06c6(0xd5);let _0x3f4b64=parseInt(_0x5d4aae),_0x36e941=_0x3f4b64,_0x4be2c2=Math[_0x3f06c6(0xd1)](_0x3f4b64*pajak);_0x36e941-=_0x4be2c2;if(_0x36e941<0x1)throw mg+'𝙀𝙇\x20𝙉𝙐𝙈𝙀𝙍𝙊\x20𝙈𝙄𝙉𝙄𝙈𝙊\x20𝙋𝘼𝙍𝘼\x20EXPERIENCIA\x20𝙀𝙎\x20*1*';let _0x3bb594=global['db'][_0x3f06c6(0xd8)]['users'];_0x3bb594[_0x45eae2]['gems']-=_0x3f4b64,_0x395483[_0x3f06c6(0xea)](_0x3f06c6(0xd6)+_0x3a1885+'*\x0a┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a┃ღ\x20*REMOVIDA*\x0a┃ღ\x20*'+_0x3f4b64+_0x3f06c6(0xde));};handler[a0_0xd8dd61(0xe8)]=[a0_0xd8dd61(0xd9)],handler[a0_0xd8dd61(0xdc)]=[a0_0xd8dd61(0xe1)],handler[a0_0xd8dd61(0xd2)]=['delexperiencia'],handler[a0_0xd8dd61(0xe3)]=!![],handler[a0_0xd8dd61(0xdf)]=!![];export default handler;function a0_0x1b7e(){const _0x527d07=['isGroup','owner','𝘿𝙀𝘽𝙀\x20𝘿𝙀\x20𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙍\x20𝘼𝙇\x20𝙐𝙎𝙐𝘼𝙍𝙄𝙊\x20*@tag*\x0a\x0a𝙔𝙊𝙐\x20𝙈𝙐𝙎𝙏\x20𝙏𝘼𝙂\x20𝙏𝙃𝙀\x20𝙐𝙎𝙀𝙍\x20*@tag*','group','4jWmYco','split','1700718XECnnh','1073380QnwvtQ','help','195107mdpgGP','reply','339760RyYkan','1274661GlifnS','replace','ceil','command','115745JzkkQz','𝙄𝙉𝙂𝙍𝙀𝙎𝙀\x20𝙇𝘼\x20𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿\x20𝘿𝙀\x20EXPERIENCIA','𝙎𝙄𝙉\x20𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎,\x20𝙎𝙊𝙇𝙊\x20𝙄𝙉𝙂𝙍𝙀𝙎𝙀\x20𝙉𝙐𝙈𝙀𝙍𝙊𝙎','╭[\x20EXPERIENCIA\x20🪙\x20]⬣\x0a┃\x0a┃ღ\x20*PARA:*\x0a┃ღ\x20*','56EAjium','data','delexperiencia\x20<@user>','chat','665883fMzHwE','tags','mentionedJid','\x20EXP(s)*\x20🪙\x0a┃\x0a╰━━━━━━━━━━━━━━⬣','rowner'];a0_0x1b7e=function(){return _0x527d07;};return a0_0x1b7e();}
+import MessageType from '@whiskeysockets/baileys'
+let pajak = 0
+let handler = async (m, { conn, text }) => {
+let who
+if (m.isGroup) who = m.mentionedJid[0]
+else who = m.chat
+if (!who) throw `${ag}𝘿𝙀𝘽𝙀 𝘿𝙀 𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙍 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 *@tag*\n\n𝙔𝙊𝙐 𝙈𝙐𝙎𝙏 𝙏𝘼𝙂 𝙏𝙃𝙀 𝙐𝙎𝙀𝙍 *@tag*`
+let txt = text.replace('@' + who.split`@`[0], '').trim()
+if (!txt) throw `${ag}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙇𝘼 𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿 𝘿𝙀 EXPERIENCIA`
+if (isNaN(txt)) throw `${mg}𝙎𝙄𝙉 𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎, 𝙎𝙊𝙇𝙊 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙉𝙐𝙈𝙀𝙍𝙊𝙎`
+let dmt = parseInt(txt)
+let gems = dmt
+let pjk = Math.ceil(dmt * pajak)
+gems -= pjk
+if (gems < 1) throw `${mg}𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝙈𝙄𝙉𝙄𝙈𝙊 𝙋𝘼𝙍𝘼 EXPERIENCIA 𝙀𝙎 *1*`
+let users = global.db.data.users
+users[who].gems -= dmt
+m.reply(`╭[ EXPERIENCIA 🪙 ]⬣\n┃\n┃ღ *PARA:*\n┃ღ *${text}*\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ *REMOVIDA*\n┃ღ *${dmt} EXP(s)* 🪙\n┃\n╰━━━━━━━━━━━━━━⬣`)}
+handler.help = ['delexperiencia <@user>']
+handler.tags = ['owner']
+handler.command = ['delexperiencia'] 
+handler.group = true
+handler.rowner = true
+export default handler 

@@ -1,1 +1,39 @@
-const a0_0x12e506=a0_0x2f93;(function(_0x7b3bf1,_0x27bfc5){const _0x4dec05=a0_0x2f93,_0x138338=_0x7b3bf1();while(!![]){try{const _0x5089b8=parseInt(_0x4dec05(0x178))/0x1*(parseInt(_0x4dec05(0x162))/0x2)+-parseInt(_0x4dec05(0x169))/0x3+-parseInt(_0x4dec05(0x16a))/0x4*(-parseInt(_0x4dec05(0x17a))/0x5)+parseInt(_0x4dec05(0x170))/0x6+parseInt(_0x4dec05(0x177))/0x7+-parseInt(_0x4dec05(0x16e))/0x8*(-parseInt(_0x4dec05(0x180))/0x9)+parseInt(_0x4dec05(0x15a))/0xa*(-parseInt(_0x4dec05(0x15d))/0xb);if(_0x5089b8===_0x27bfc5)break;else _0x138338['push'](_0x138338['shift']());}catch(_0xdf42f){_0x138338['push'](_0x138338['shift']());}}}(a0_0xf3fe,0x42b30));function a0_0xf3fe(){const _0xf9e5b=['exp','😔\x20@','780568lbFhBt','quoted','3249114UkqhtI','robar','sender','readFileSync','random','command','rpg_rob','1264431CpDZNu','2639hRWYNy','parse','70765zVYRpc','plugins','users','.json','chat','help','18BlcZMt','230PPXuwy','split','lastrob','467071XVfphu','texto5','reply','data','texto1','358ffuDEK','./language/','mentionedJid','tags','language','\x20Minuto(s)','floor','674370omOyRB','24eeZIyD','texto3'];a0_0xf3fe=function(){return _0xf9e5b;};return a0_0xf3fe();}const ro=0x7530,handler=async(_0x4a28bf,{conn:_0xa234b,usedPrefix:_0x26c7cb,command:_0x277a86})=>{const _0xfe8ce5=a0_0x2f93,_0x58849c=global,_0x223e8c=_0x58849c['db'][_0xfe8ce5(0x160)][_0xfe8ce5(0x17c)][_0x4a28bf[_0xfe8ce5(0x172)]][_0xfe8ce5(0x166)],_0x348129=JSON[_0xfe8ce5(0x179)](fs[_0xfe8ce5(0x173)](_0xfe8ce5(0x163)+_0x223e8c+_0xfe8ce5(0x17d))),_0x19d63e=_0x348129[_0xfe8ce5(0x17b)][_0xfe8ce5(0x176)],_0x516d49=global['db'][_0xfe8ce5(0x160)][_0xfe8ce5(0x17c)][_0x4a28bf[_0xfe8ce5(0x172)]][_0xfe8ce5(0x15c)]+0x6ddd00;if(new Date()-global['db'][_0xfe8ce5(0x160)][_0xfe8ce5(0x17c)][_0x4a28bf[_0xfe8ce5(0x172)]][_0xfe8ce5(0x15c)]<0x6ddd00)throw _0x19d63e['texto1'][0x0]+'\x20'+msToTime(_0x516d49-new Date())+'\x20'+_0x19d63e[_0xfe8ce5(0x161)][0x1];let _0x590f9f;if(_0x4a28bf['isGroup'])_0x590f9f=_0x4a28bf['mentionedJid'][0x0]?_0x4a28bf[_0xfe8ce5(0x164)][0x0]:_0x4a28bf[_0xfe8ce5(0x16f)]?_0x4a28bf[_0xfe8ce5(0x16f)]['sender']:![];else _0x590f9f=_0x4a28bf[_0xfe8ce5(0x17e)];if(!_0x590f9f)throw _0x19d63e['texto2'];if(!(_0x590f9f in global['db'][_0xfe8ce5(0x160)][_0xfe8ce5(0x17c)]))throw _0x19d63e[_0xfe8ce5(0x16b)];const _0x2ed36c=global['db'][_0xfe8ce5(0x160)][_0xfe8ce5(0x17c)][_0x590f9f],_0x77b616=Math['floor'](Math[_0xfe8ce5(0x174)]()*ro);if(_0x2ed36c[_0xfe8ce5(0x16c)]<_0x77b616)return _0x4a28bf[_0xfe8ce5(0x15f)](_0xfe8ce5(0x16d)+_0x590f9f['split']`@`[0x0]+'\x20'+_0x19d63e['texto4'][0x0]+'\x20*'+ro+'\x20'+_0x19d63e['texto4'][0x1]+'\x22:',null,{'mentions':[_0x590f9f]});global['db'][_0xfe8ce5(0x160)][_0xfe8ce5(0x17c)][_0x4a28bf[_0xfe8ce5(0x172)]][_0xfe8ce5(0x16c)]+=_0x77b616,global['db'][_0xfe8ce5(0x160)][_0xfe8ce5(0x17c)][_0x590f9f][_0xfe8ce5(0x16c)]-=_0x77b616,_0x4a28bf[_0xfe8ce5(0x15f)](_0x19d63e[_0xfe8ce5(0x15e)][0x0]+'\x20'+_0x77b616+'\x20'+_0x19d63e[_0xfe8ce5(0x15e)][0x1]+'\x20@'+_0x590f9f[_0xfe8ce5(0x15b)]`@`[0x0]+'*',null,{'mentions':[_0x590f9f]}),global['db'][_0xfe8ce5(0x160)][_0xfe8ce5(0x17c)][_0x4a28bf[_0xfe8ce5(0x172)]][_0xfe8ce5(0x15c)]=new Date()*0x1;};handler[a0_0x12e506(0x17f)]=['robar'],handler[a0_0x12e506(0x165)]=['econ'],handler[a0_0x12e506(0x175)]=[a0_0x12e506(0x171)];export default handler;function a0_0x2f93(_0x15649b,_0x71531e){const _0xf3fe6f=a0_0xf3fe();return a0_0x2f93=function(_0x2f93e1,_0x5de7b9){_0x2f93e1=_0x2f93e1-0x15a;let _0x223cdd=_0xf3fe6f[_0x2f93e1];return _0x223cdd;},a0_0x2f93(_0x15649b,_0x71531e);}function msToTime(_0x16bd30){const _0x1872c5=a0_0x12e506,_0x125e72=parseInt(_0x16bd30%0x3e8/0x64);let _0x5b4845=Math[_0x1872c5(0x168)](_0x16bd30/0x3e8%0x3c),_0x387b98=Math[_0x1872c5(0x168)](_0x16bd30/(0x3e8*0x3c)%0x3c),_0x1d2c1c=Math[_0x1872c5(0x168)](_0x16bd30/(0x3e8*0x3c*0x3c)%0x18);return _0x1d2c1c=_0x1d2c1c<0xa?'0'+_0x1d2c1c:_0x1d2c1c,_0x387b98=_0x387b98<0xa?'0'+_0x387b98:_0x387b98,_0x5b4845=_0x5b4845<0xa?'0'+_0x5b4845:_0x5b4845,_0x1d2c1c+'\x20Hora(s)\x20'+_0x387b98+_0x1872c5(0x167);}
+
+
+const ro = 30000;
+const handler = async (m, {conn, usedPrefix, command}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_rob
+
+
+  const time = global.db.data.users[m.sender].lastrob + 7200000;
+  if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `${tradutor.texto1[0]} ${msToTime(time - new Date())} ${tradutor.texto1[1]}`;
+  let who;
+  if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
+  else who = m.chat;
+  if (!who) throw tradutor.texto2;
+  if (!(who in global.db.data.users)) throw tradutor.texto3;
+  const users = global.db.data.users[who];
+  const rob = Math.floor(Math.random() * ro);
+  if (users.exp < rob) return m.reply(`😔 @${who.split`@`[0]} ${tradutor.texto4[0]} *${ro} ${tradutor.texto4[1]}":`, null, {mentions: [who]});
+  global.db.data.users[m.sender].exp += rob;
+  global.db.data.users[who].exp -= rob;
+  m.reply(`${tradutor.texto5[0]} ${rob} ${tradutor.texto5[1]} @${who.split`@`[0]}*`, null, {mentions: [who]});
+  global.db.data.users[m.sender].lastrob = new Date * 1;
+};
+handler.help = ['robar'];
+handler.tags = ['econ'];
+handler.command = ['robar'];
+export default handler;
+function msToTime(duration) {
+  const milliseconds = parseInt((duration % 1000) / 100);
+  let seconds = Math.floor((duration / 1000) % 60);
+  let minutes = Math.floor((duration / (1000 * 60)) % 60);
+  let hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+  hours = (hours < 10) ? '0' + hours : hours;
+  minutes = (minutes < 10) ? '0' + minutes : minutes;
+  seconds = (seconds < 10) ? '0' + seconds : seconds;
+  return hours + ' Hora(s) ' + minutes + ' Minuto(s)';
+}

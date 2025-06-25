@@ -1,1 +1,34 @@
-const a0_0x1f7abb=a0_0x1be3;(function(_0x5a81c5,_0x35d465){const _0x2d36d5=a0_0x1be3,_0x31412a=_0x5a81c5();while(!![]){try{const _0x5d7b4e=parseInt(_0x2d36d5(0xbb))/0x1*(-parseInt(_0x2d36d5(0xcf))/0x2)+parseInt(_0x2d36d5(0xcb))/0x3+-parseInt(_0x2d36d5(0xd0))/0x4+-parseInt(_0x2d36d5(0xba))/0x5*(parseInt(_0x2d36d5(0xbd))/0x6)+-parseInt(_0x2d36d5(0xbe))/0x7+parseInt(_0x2d36d5(0xbf))/0x8*(-parseInt(_0x2d36d5(0xcd))/0x9)+-parseInt(_0x2d36d5(0xc2))/0xa*(-parseInt(_0x2d36d5(0xb5))/0xb);if(_0x5d7b4e===_0x35d465)break;else _0x31412a['push'](_0x31412a['shift']());}catch(_0x49a6a7){_0x31412a['push'](_0x31412a['shift']());}}}(a0_0x434f,0xe06c2));function a0_0x1be3(_0x504298,_0x424e4b){const _0x434f39=a0_0x434f();return a0_0x1be3=function(_0x1be3ad,_0x3a72d1){_0x1be3ad=_0x1be3ad-0xb5;let _0x1f6cf8=_0x434f39[_0x1be3ad];return _0x1f6cf8;},a0_0x1be3(_0x504298,_0x424e4b);}const handler=async(_0x458758,{conn:_0x5521c9})=>{const _0x3e96a1=a0_0x1be3;global['db'][_0x3e96a1(0xbc)][_0x3e96a1(0xc3)][_0x458758['sender']][_0x3e96a1(0xce)]+=0x1;const _0x280887=global['db'][_0x3e96a1(0xbc)][_0x3e96a1(0xc3)][_0x458758['sender']],_0x3f9b93=0x6,_0x363a7c=0x1388;if(_0x280887['pancing']>=_0x3f9b93)return _0x5521c9['reply'](_0x458758['chat'],_0x3e96a1(0xc1)+_0x3f9b93+').\x20\x0a\x0a¡No\x20puedes\x20comprar\x20más!',_0x458758);const _0x23741b=_0x363a7c*(_0x280887[_0x3e96a1(0xb7)]+0x1);if(_0x280887[_0x3e96a1(0xc5)]<0x0||_0x280887[_0x3e96a1(0xc5)]<_0x23741b)return _0x5521c9[_0x3e96a1(0xc9)](_0x458758[_0x3e96a1(0xc6)],'No\x20tienes\x20suficiente\x20experiencia\x20para\x20comprar\x20un\x20nivel\x20de\x20caña\x20de\x20pescar.\x20Necesitas\x20'+_0x23741b+'\x20puntos\x20de\x20experiencia.',_0x458758);global['db'][_0x3e96a1(0xbc)][_0x3e96a1(0xc3)][_0x458758[_0x3e96a1(0xb6)]][_0x3e96a1(0xb7)]=(_0x280887[_0x3e96a1(0xb7)]||0x0)+0x1,global['db']['data'][_0x3e96a1(0xc3)][_0x458758[_0x3e96a1(0xb6)]]['exp']-=_0x23741b,_0x5521c9[_0x3e96a1(0xc9)](_0x458758[_0x3e96a1(0xc6)],_0x3e96a1(0xc0)+(_0x280887[_0x3e96a1(0xb7)]+0x1)+'/'+_0x3f9b93+_0x3e96a1(0xca)+_0x23741b+_0x3e96a1(0xc7),_0x458758);};handler['help']=['comprarcana'],handler[a0_0x1f7abb(0xc4)]=[a0_0x1f7abb(0xb8)],handler[a0_0x1f7abb(0xd2)]=/^(cana|buyfishingrod|caña)$/i,handler[a0_0x1f7abb(0xd1)]=!![],handler[a0_0x1f7abb(0xcc)]=![],handler[a0_0x1f7abb(0xb9)]=![],handler['exp']=0x0,handler[a0_0x1f7abb(0xc8)]=![];function a0_0x434f(){const _0x5ad71b=['70fZEzQS','users','tags','exp','chat','\x20puntos\x20de\x20experiencia.','premium','reply','\x20niveles\x20de\x20caña\x20de\x20pescar.\x20\x0a\x0aGastaste\x20','133146BgcIqi','admin','17892LwWMKy','comandos','26882LXyidq','4526196cuLJVA','group','command','9002543qDwONq','sender','pancing','econ','botAdmin','925vvZSeN','90vORUrf','data','15078JYFXeI','2993725VitWSj','6520nSfpJn','🎣\x20Has\x20comprado\x20un\x20nivel\x20de\x20caña\x20de\x20pescar.\x20\x0a\x0aAhora\x20tienes\x20','🎣\x20Ya\x20tienes\x20el\x20nivel\x20máximo\x20de\x20caña\x20de\x20pescar\x20('];a0_0x434f=function(){return _0x5ad71b;};return a0_0x434f();}export default handler;
+// rpg-cana.js
+
+const handler = async (m, { conn }) => {
+  global.db.data.users[m.sender].comandos += 1;
+  const user = global.db.data.users[m.sender];
+
+  const maxCanaDePescar = 6;
+  const baseCostPerLevel = 5000;
+
+  if (user.pancing >= maxCanaDePescar) {
+    return conn.reply(m.chat, `🎣 Ya tienes el nivel máximo de caña de pescar (${maxCanaDePescar}). \n\n¡No puedes comprar más!`, m);
+  }
+
+  const costPerLevel = baseCostPerLevel * (user.pancing + 1);
+
+  if (user.exp < 0 || user.exp < costPerLevel) {
+    return conn.reply(m.chat, `No tienes suficiente experiencia para comprar un nivel de caña de pescar. Necesitas ${costPerLevel} puntos de experiencia.`, m);
+  }
+
+  global.db.data.users[m.sender].pancing = (user.pancing || 0) + 1;
+  global.db.data.users[m.sender].exp -= costPerLevel;
+
+  conn.reply(m.chat, `🎣 Has comprado un nivel de caña de pescar. \n\nAhora tienes ${user.pancing + 1}/${maxCanaDePescar} niveles de caña de pescar. \n\nGastaste ${costPerLevel} puntos de experiencia.`, m);
+};
+
+handler.help = ['comprarcana'];
+handler.tags = ['econ'];
+handler.command = /^(cana|buyfishingrod|caña)$/i;
+handler.group = true;
+handler.admin = false;
+handler.botAdmin = false;
+handler.exp = 0;
+handler.premium = false;
+export default handler;

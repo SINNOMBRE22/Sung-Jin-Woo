@@ -1,1 +1,34 @@
-const a0_0x4bacf2=a0_0x3bd6;(function(_0x250b14,_0x133a8b){const _0x5a1f85=a0_0x3bd6,_0xefb4c3=_0x250b14();while(!![]){try{const _0x4cdd2e=parseInt(_0x5a1f85(0x13d))/0x1+-parseInt(_0x5a1f85(0x12a))/0x2*(parseInt(_0x5a1f85(0x139))/0x3)+-parseInt(_0x5a1f85(0x13e))/0x4*(parseInt(_0x5a1f85(0x134))/0x5)+-parseInt(_0x5a1f85(0x130))/0x6*(-parseInt(_0x5a1f85(0x14e))/0x7)+-parseInt(_0x5a1f85(0x129))/0x8+-parseInt(_0x5a1f85(0x132))/0x9+parseInt(_0x5a1f85(0x128))/0xa*(parseInt(_0x5a1f85(0x135))/0xb);if(_0x4cdd2e===_0x133a8b)break;else _0xefb4c3['push'](_0xefb4c3['shift']());}catch(_0x4d6b3f){_0xefb4c3['push'](_0xefb4c3['shift']());}}}(a0_0x1679,0x56031));import a0_0x334359 from'node-fetch';const handler=async(_0x1b3513,{conn:_0x46014c,text:_0x24d857})=>{const _0x4bc973=a0_0x3bd6,_0x226680=global,_0x5882b7=_0x226680['db'][_0x4bc973(0x149)]['users'][_0x1b3513['sender']][_0x4bc973(0x13a)],_0x19737b=JSON[_0x4bc973(0x12e)](fs['readFileSync'](_0x4bc973(0x142)+_0x5882b7+'.json')),_0x436a64=_0x19737b['plugins'][_0x4bc973(0x14d)];if(!_0x24d857)return _0x46014c[_0x4bc973(0x127)](_0x1b3513[_0x4bc973(0x143)],_0x436a64[_0x4bc973(0x141)],_0x1b3513);try{const _0x373a94=await a0_0x334359(_0x4bc973(0x12b)+_0x24d857+'?apikey='+lolkeysapi),_0x58611e=_0x4bc973(0x136)+_0x24d857+'?apikey='+lolkeysapi,_0x39f142=await _0x373a94[_0x4bc973(0x14b)]();if(_0x373a94['status']!==0xc8)throw await _0x373a94[_0x4bc973(0x146)]();if(!_0x39f142['status'])throw _0x39f142;const _0x257b0f=await(await a0_0x334359(_0x39f142[_0x4bc973(0x131)]['user_picture']))[_0x4bc973(0x13c)](),_0x1c1ab5=('\x0a'+_0x436a64[_0x4bc973(0x147)][0x0]+'\x20'+_0x39f142[_0x4bc973(0x131)][_0x4bc973(0x137)]+'\x0a'+_0x436a64[_0x4bc973(0x147)][0x1]+'\x20\x20'+_0x39f142[_0x4bc973(0x131)]['nickname']+'\x0a'+_0x436a64[_0x4bc973(0x147)][0x2]+'\x20\x20'+_0x39f142['result'][_0x4bc973(0x14c)]+'\x0a'+_0x436a64[_0x4bc973(0x147)][0x3]+'\x20\x20'+_0x39f142[_0x4bc973(0x131)]['followings']+'\x0a'+_0x436a64[_0x4bc973(0x147)][0x4]+'\x20\x20'+_0x39f142[_0x4bc973(0x131)][_0x4bc973(0x13f)]+'\x0a'+_0x436a64['texto2'][0x5]+'\x20\x20'+_0x39f142[_0x4bc973(0x131)][_0x4bc973(0x14a)]+'\x0a'+_0x436a64['texto2'][0x6]+'\x20\x20'+_0x39f142[_0x4bc973(0x131)][_0x4bc973(0x140)]+'\x0a')[_0x4bc973(0x148)]();_0x46014c[_0x4bc973(0x138)](_0x1b3513[_0x4bc973(0x143)],_0x58611e,_0x4bc973(0x12d),_0x1c1ab5,_0x1b3513,![]);}catch(_0x50ae05){throw _0x436a64[_0x4bc973(0x144)];}};function a0_0x1679(){const _0x4a6bf6=['language','\x20<username>','buffer','228018nwBgip','304oEJCnB','likes','bio','texto1','./language/','chat','texto3','tiktokstalk','text','texto2','trim','data','video','json','followers','downloader_tiktokstalk','11746HLpPYg','reply','20HmLFsR','1723360ndEwGc','269174pmzpzC','https://api.lolhuman.xyz/api/stalktiktok/','map','error.jpg','parse','command','24TsfjEg','result','1316151GHZVsg','help','1690tEsGKx','4257528xapjlS','https://api.lolhuman.xyz/api/pptiktok/','username','sendFile','6bLqBbw'];a0_0x1679=function(){return _0x4a6bf6;};return a0_0x1679();}function a0_0x3bd6(_0x3f02aa,_0x58d2e5){const _0x167908=a0_0x1679();return a0_0x3bd6=function(_0x3bd662,_0x43241f){_0x3bd662=_0x3bd662-0x127;let _0x5ab44f=_0x167908[_0x3bd662];return _0x5ab44f;},a0_0x3bd6(_0x3f02aa,_0x58d2e5);}handler[a0_0x4bacf2(0x133)]=[a0_0x4bacf2(0x145)][a0_0x4bacf2(0x12c)](_0x143859=>_0x143859+a0_0x4bacf2(0x13b)),handler['tags']=['downloader'],handler[a0_0x4bacf2(0x12f)]=/^(tiktokstalk|ttstalk)$/i;export default handler;
+import fetch from 'node-fetch';
+
+const handler = async (m, { conn, text }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.downloader_tiktokstalk
+
+  if (!text) return conn.reply(m.chat, tradutor.texto1, m);
+  try {
+    const res = await fetch(`https://api.lolhuman.xyz/api/stalktiktok/${text}?apikey=${lolkeysapi}`);
+    const res2 = `https://api.lolhuman.xyz/api/pptiktok/${text}?apikey=${lolkeysapi}`;
+    const json = await res.json();
+    if (res.status !== 200) throw await res.text();
+    if (!json.status) throw json;
+    const thumb = await (await fetch(json.result.user_picture)).buffer();
+    const Mystic = `
+${tradutor.texto2[0]} ${json.result.username}
+${tradutor.texto2[1]}  ${json.result.nickname}
+${tradutor.texto2[2]}  ${json.result.followers}
+${tradutor.texto2[3]}  ${json.result.followings}
+${tradutor.texto2[4]}  ${json.result.likes}
+${tradutor.texto2[5]}  ${json.result.video}
+${tradutor.texto2[6]}  ${json.result.bio}
+`.trim();
+    conn.sendFile(m.chat, res2, 'error.jpg', Mystic, m, false);
+  } catch (e) {
+    throw tradutor.texto3;
+  }
+};
+handler.help = ['tiktokstalk'].map((v) => v + ' <username>');
+handler.tags = ['downloader'];
+handler.command = /^(tiktokstalk|ttstalk)$/i;
+export default handler;

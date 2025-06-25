@@ -1,1 +1,29 @@
-const a0_0x3fab5b=a0_0x53c8;(function(_0x173f27,_0x6d7932){const _0x5e9427=a0_0x53c8,_0x448d7f=_0x173f27();while(!![]){try{const _0x5ec3a8=-parseInt(_0x5e9427(0x1ca))/0x1+-parseInt(_0x5e9427(0x1cd))/0x2*(-parseInt(_0x5e9427(0x1d3))/0x3)+-parseInt(_0x5e9427(0x1d4))/0x4+parseInt(_0x5e9427(0x1ce))/0x5+-parseInt(_0x5e9427(0x1dd))/0x6+-parseInt(_0x5e9427(0x1c5))/0x7+parseInt(_0x5e9427(0x1da))/0x8;if(_0x5ec3a8===_0x6d7932)break;else _0x448d7f['push'](_0x448d7f['shift']());}catch(_0x30638e){_0x448d7f['push'](_0x448d7f['shift']());}}}(a0_0x3413,0xe9298));const {proto,generateWAMessage,areJidsSameUser}=(await import(a0_0x3fab5b(0x1cc)))[a0_0x3fab5b(0x1dc)];export async function all(_0x47e724,_0x13b1ca){const _0x1c9a9b=a0_0x3fab5b;if(_0x47e724['isBaileys'])return;if(!_0x47e724['message'])return;if(!_0x47e724['msg'][_0x1c9a9b(0x1d0)])return;if(!(Buffer[_0x1c9a9b(0x1d5)](_0x47e724[_0x1c9a9b(0x1c8)]['fileSha256'])[_0x1c9a9b(0x1c6)]('base64')in global['db']['data'][_0x1c9a9b(0x1e0)]))return;const _0x45c7ba=global['db'][_0x1c9a9b(0x1df)][_0x1c9a9b(0x1e0)][Buffer[_0x1c9a9b(0x1d5)](_0x47e724[_0x1c9a9b(0x1c8)][_0x1c9a9b(0x1d0)])[_0x1c9a9b(0x1c6)](_0x1c9a9b(0x1cb))],{text:_0x58d7c3,mentionedJid:_0x1661e6}=_0x45c7ba,_0x54149d=await generateWAMessage(_0x47e724[_0x1c9a9b(0x1d8)],{'text':_0x58d7c3,'mentions':_0x1661e6},{'userJid':this[_0x1c9a9b(0x1d1)]['id'],'quoted':_0x47e724[_0x1c9a9b(0x1c9)]&&_0x47e724[_0x1c9a9b(0x1c9)][_0x1c9a9b(0x1cf)]});_0x54149d[_0x1c9a9b(0x1d2)]['fromMe']=areJidsSameUser(_0x47e724[_0x1c9a9b(0x1d9)],this[_0x1c9a9b(0x1d1)]['id']),_0x54149d[_0x1c9a9b(0x1d2)]['id']=_0x47e724[_0x1c9a9b(0x1d2)]['id'],_0x54149d[_0x1c9a9b(0x1db)]=_0x47e724[_0x1c9a9b(0x1db)];if(_0x47e724[_0x1c9a9b(0x1de)])_0x54149d[_0x1c9a9b(0x1d7)]=_0x47e724[_0x1c9a9b(0x1d9)];const _0x1c6a25={..._0x13b1ca,'messages':[proto[_0x1c9a9b(0x1c7)]['fromObject'](_0x54149d)],'type':'append'};this['ev']['emit'](_0x1c9a9b(0x1d6),_0x1c6a25);}function a0_0x53c8(_0x153fb7,_0x4b5a48){const _0x341378=a0_0x3413();return a0_0x53c8=function(_0x53c8d3,_0x5b2c77){_0x53c8d3=_0x53c8d3-0x1c5;let _0x580c6c=_0x341378[_0x53c8d3];return _0x580c6c;},a0_0x53c8(_0x153fb7,_0x4b5a48);}function a0_0x3413(){const _0x58d3f9=['1063140EdMLYl','6583744GMTvjo','from','messages.upsert','participant','chat','sender','26973272yxPfps','pushName','default','9608742xYeTKf','isGroup','data','sticker','10705772VKQDuQ','toString','WebMessageInfo','msg','quoted','270586ZhWpaC','base64','@whiskeysockets/baileys','6uuwITS','7838040AZwfbn','fakeObj','fileSha256','user','key'];a0_0x3413=function(){return _0x58d3f9;};return a0_0x3413();}
+const {
+  proto,
+  generateWAMessage,
+  areJidsSameUser,
+} = (await import('@whiskeysockets/baileys')).default;
+
+export async function all(m, chatUpdate) {
+  if (m.isBaileys) return;
+  if (!m.message) return;
+  if (!m.msg.fileSha256) return;
+  if (!(Buffer.from(m.msg.fileSha256).toString('base64') in global.db.data.sticker)) return;
+
+  const hash = global.db.data.sticker[Buffer.from(m.msg.fileSha256).toString('base64')];
+  const {text, mentionedJid} = hash;
+  const messages = await generateWAMessage(m.chat, {text: text, mentions: mentionedJid}, {
+    userJid: this.user.id,
+    quoted: m.quoted && m.quoted.fakeObj,
+  });
+  messages.key.fromMe = areJidsSameUser(m.sender, this.user.id);
+  messages.key.id = m.key.id;
+  messages.pushName = m.pushName;
+  if (m.isGroup) messages.participant = m.sender;
+  const msg = {
+    ...chatUpdate,
+    messages: [proto.WebMessageInfo.fromObject(messages)],
+    type: 'append',
+  };
+  this.ev.emit('messages.upsert', msg);
+}

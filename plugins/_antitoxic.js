@@ -1,1 +1,40 @@
-(function(_0x3fb0c1,_0x2ff292){const _0xe99099=a0_0x882d,_0x2580b1=_0x3fb0c1();while(!![]){try{const _0x4006c2=parseInt(_0xe99099(0xc7))/0x1*(-parseInt(_0xe99099(0xd2))/0x2)+-parseInt(_0xe99099(0xcc))/0x3+-parseInt(_0xe99099(0xb3))/0x4+-parseInt(_0xe99099(0xb6))/0x5+-parseInt(_0xe99099(0xb9))/0x6*(-parseInt(_0xe99099(0xb4))/0x7)+-parseInt(_0xe99099(0xb5))/0x8*(parseInt(_0xe99099(0xc4))/0x9)+-parseInt(_0xe99099(0xba))/0xa*(-parseInt(_0xe99099(0xd5))/0xb);if(_0x4006c2===_0x2ff292)break;else _0x2580b1['push'](_0x2580b1['shift']());}catch(_0x39a3b3){_0x2580b1['push'](_0x2580b1['shift']());}}}(a0_0x12c0,0xd939e));function a0_0x882d(_0x267fd2,_0xf4f6aa){const _0x12c00b=a0_0x12c0();return a0_0x882d=function(_0x882d15,_0x30fa5b){_0x882d15=_0x882d15-0xb3;let _0x10fb66=_0x12c00b[_0x882d15];return _0x10fb66;},a0_0x882d(_0x267fd2,_0xf4f6aa);}const toxicRegex=/puto|puta|rata|estupido|imbecil|rctmre|mrd|verga|vrga|maricon/i;function a0_0x12c0(){const _0x312f08=['warn','fromMe','antiToxic','isBaileys','15039JDxmfX','chat','texto1_1','1502437emrtdZ','sender','readFileSync','reply','remove','4171650KkaCSv','jid','banned','split','texto2_1','conn','2kmtLuk','chats','data','11kNeoCF','user','language','5618304XWOrLM','62902mQuXrx','5872AJSGqW','8074815YCQLLY','texto1','./language/','1038PpRHVv','64742200aktrAs','groupParticipantsUpdate','texto2','texto1_2','text','users'];a0_0x12c0=function(){return _0x312f08;};return a0_0x12c0();}export async function before(_0x59a771,{isAdmin:_0x4cebd1,isBotAdmin:_0x2ca4fc,isOwner:_0x1167ba}){const _0x59dd16=a0_0x882d,_0x545503=global,_0x5ca3fb=_0x545503['db'][_0x59dd16(0xd4)][_0x59dd16(0xbf)][_0x59a771[_0x59dd16(0xc8)]][_0x59dd16(0xd7)],_0x484c87=JSON['parse'](fs[_0x59dd16(0xc9)](_0x59dd16(0xb8)+_0x5ca3fb+'.json')),_0x1c86d3=_0x484c87['plugins']['_antitoxic'];if(_0x59a771[_0x59dd16(0xc3)]&&_0x59a771[_0x59dd16(0xc1)])return!0x0;if(!_0x59a771['isGroup'])return!0x1;const _0x47a49e=global['db'][_0x59dd16(0xd4)][_0x59dd16(0xbf)][_0x59a771[_0x59dd16(0xc8)]],_0x59be5f=global['db'][_0x59dd16(0xd4)][_0x59dd16(0xd3)][_0x59a771[_0x59dd16(0xc5)]],_0xd9f05e=global['db']['data']['settings'][mconn['conn'][_0x59dd16(0xd6)][_0x59dd16(0xcd)]]||{},_0x5180be=toxicRegex['exec'](_0x59a771[_0x59dd16(0xbe)]);if(_0x5180be&&_0x59be5f[_0x59dd16(0xc2)]&&!_0x1167ba&&!_0x4cebd1){_0x47a49e[_0x59dd16(0xc0)]+=0x1;if(!(_0x47a49e[_0x59dd16(0xc0)]>=0x5))await _0x59a771[_0x59dd16(0xca)](''+_0x1c86d3[_0x59dd16(0xb7)]+((_0x47a49e[_0x59dd16(0xc0)]==0x1?'@'+_0x59a771[_0x59dd16(0xc8)][_0x59dd16(0xcf)]`@`[0x0]:'@'+_0x59a771['sender']['split']`@`[0x0])+',\x20'+_0x1c86d3[_0x59dd16(0xc6)]+'\x22'+_0x5180be+'\x22\x20'+_0x1c86d3[_0x59dd16(0xbd)]+'\x20'+_0x47a49e[_0x59dd16(0xc0)]+'/5')+'*',![],{'mentions':[_0x59a771[_0x59dd16(0xc8)]]});}return _0x47a49e['warn']>=0x5&&(_0x47a49e[_0x59dd16(0xc0)]=0x0,await _0x59a771[_0x59dd16(0xca)](_0x1c86d3[_0x59dd16(0xbc)]+'\x20@'+_0x59a771['sender'][_0x59dd16(0xcf)]('@')[0x0]+',\x20'+_0x1c86d3[_0x59dd16(0xd0)],![],{'mentions':[_0x59a771[_0x59dd16(0xc8)]]}),_0x47a49e[_0x59dd16(0xce)]=!![],await mconn[_0x59dd16(0xd1)][_0x59dd16(0xbb)](_0x59a771['chat'],[_0x59a771[_0x59dd16(0xc8)]],_0x59dd16(0xcb))),!0x1;}
+// TheMystic-Bot-MD@BrunoSobrino - _antitoxic.js
+
+ // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
+  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
+  // To set the language, in the root of the project, modify the config.json file.
+
+
+const toxicRegex = /puto|puta|rata|estupido|imbecil|rctmre|mrd|verga|vrga|maricon/i;
+
+export async function before(m, {isAdmin, isBotAdmin, isOwner}) {
+  const datas = global
+    const idioma = datas.db.data.users[m.sender].language
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const tradutor = _translate.plugins._antitoxic
+
+  if (m.isBaileys && m.fromMe) {
+    return !0;
+  }
+  if (!m.isGroup) {
+    return !1;
+  }
+  const user = global.db.data.users[m.sender];
+  const chat = global.db.data.chats[m.chat];
+  const bot = global.db.data.settings[mconn.conn.user.jid] || {};
+  const isToxic = toxicRegex.exec(m.text);
+
+  if (isToxic && chat.antiToxic && !isOwner && !isAdmin) {
+    user.warn += 1;
+    if (!(user.warn >= 5)) await m.reply(`${tradutor.texto1}` + `${user.warn == 1 ? `@${m.sender.split`@`[0]}` : `@${m.sender.split`@`[0]}`}, ${tradutor.texto1_1}"${isToxic}" ${tradutor.texto1_2} ${user.warn}/5` + '*', false, {mentions: [m.sender]});
+  }
+
+  if (user.warn >= 5) {
+    user.warn = 0;
+    await m.reply(`${tradutor.texto2} @${m.sender.split('@')[0]}, ${tradutor.texto2_1}`, false, {mentions: [m.sender]});
+    user.banned = true;
+    await mconn.conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
+    // await this.updateBlockStatus(m.sender, 'block')
+  }
+  return !1;
+}

@@ -1,1 +1,21 @@
-const a0_0x5d2711=a0_0xca33;(function(_0x2d09c0,_0x1f9e52){const _0x1646bd=a0_0xca33,_0x17f9e2=_0x2d09c0();while(!![]){try{const _0x2f2bc1=-parseInt(_0x1646bd(0x1a0))/0x1*(parseInt(_0x1646bd(0x1ab))/0x2)+parseInt(_0x1646bd(0x1a4))/0x3*(-parseInt(_0x1646bd(0x193))/0x4)+-parseInt(_0x1646bd(0x192))/0x5+-parseInt(_0x1646bd(0x19b))/0x6*(parseInt(_0x1646bd(0x1a2))/0x7)+-parseInt(_0x1646bd(0x190))/0x8+-parseInt(_0x1646bd(0x1a8))/0x9+parseInt(_0x1646bd(0x199))/0xa;if(_0x2f2bc1===_0x1f9e52)break;else _0x17f9e2['push'](_0x17f9e2['shift']());}catch(_0x313f1a){_0x17f9e2['push'](_0x17f9e2['shift']());}}}(a0_0x4024,0x6d6f3));import{createHash}from'crypto';const handler=async function(_0xe7bf50,{args:_0x5aed93}){const _0x476cee=a0_0xca33,_0x46a989=global,_0x5a55e6=_0x46a989['db'][_0x476cee(0x1a1)][_0x476cee(0x19a)][_0xe7bf50[_0x476cee(0x19e)]]['language'],_0x212526=JSON[_0x476cee(0x198)](fs['readFileSync'](_0x476cee(0x1a3)+_0x5a55e6+_0x476cee(0x19d))),_0x15bcd5=_0x212526['plugins'][_0x476cee(0x1ac)];if(!_0x5aed93[0x0])throw _0x15bcd5['texto1'];const _0x75eef9=global['db'][_0x476cee(0x1a1)][_0x476cee(0x19a)][_0xe7bf50[_0x476cee(0x19e)]],_0x59121e=createHash(_0x476cee(0x196))['update'](_0xe7bf50[_0x476cee(0x19e)])['digest'](_0x476cee(0x1a9));if(_0x5aed93[0x0]!==_0x59121e)throw _0x15bcd5[_0x476cee(0x197)];_0x75eef9[_0x476cee(0x19f)]=![],_0xe7bf50[_0x476cee(0x1a7)](_0x15bcd5[_0x476cee(0x1a5)]);};handler[a0_0x5d2711(0x1a6)]=['',a0_0x5d2711(0x191)][a0_0x5d2711(0x19c)](_0x543b94=>a0_0x5d2711(0x1aa)+_0x543b94+a0_0x5d2711(0x195)),handler[a0_0x5d2711(0x1ad)]=['main'],handler[a0_0x5d2711(0x194)]=/^unreg(ister)?$/i,handler[a0_0x5d2711(0x18f)]=!![];function a0_0xca33(_0x3378ed,_0x197302){const _0x40249e=a0_0x4024();return a0_0xca33=function(_0xca338c,_0x29924b){_0xca338c=_0xca338c-0x18f;let _0x22ddc8=_0x40249e[_0xca338c];return _0x22ddc8;},a0_0xca33(_0x3378ed,_0x197302);}export default handler;function a0_0x4024(){const _0x5d27b5=['459024biFCHL','map','.json','sender','registered','31LCYBWg','data','14Jjcukf','./language/','1349082RLQbOw','texto3','help','reply','368667KqZHKv','hex','unreg','52664EeGhTf','rpg_unreg','tags','register','6029152YgHyhf','ister','446410jwMZnq','4NlGRSO','command','\x20<numero\x20de\x20serie>','md5','texto2','parse','27511260DSqHgZ','users'];a0_0x4024=function(){return _0x5d27b5;};return a0_0x4024();}
+import {createHash} from 'crypto';
+
+
+const handler = async function(m, {args}) {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_unreg
+
+  if (!args[0]) throw tradutor.texto1;
+  const user = global.db.data.users[m.sender];
+  const sn = createHash('md5').update(m.sender).digest('hex');
+  if (args[0] !== sn) throw tradutor.texto2;
+  user.registered = false;
+  m.reply(tradutor.texto3);
+};
+handler.help = ['', 'ister'].map((v) => 'unreg' + v + ' <numero de serie>');
+handler.tags = ['main'];
+handler.command = /^unreg(ister)?$/i;
+handler.register = true;
+export default handler;

@@ -1,1 +1,85 @@
-const a0_0xe91959=a0_0x27e1;function a0_0x27e1(_0x5110a4,_0x3ac4c2){const _0x469fa3=a0_0x469f();return a0_0x27e1=function(_0x27e170,_0x1ad037){_0x27e170=_0x27e170-0x19e;let _0x286852=_0x469fa3[_0x27e170];return _0x286852;},a0_0x27e1(_0x5110a4,_0x3ac4c2);}(function(_0x3fe32d,_0x453665){const _0x44ffef=a0_0x27e1,_0x14a56b=_0x3fe32d();while(!![]){try{const _0x2d0a76=-parseInt(_0x44ffef(0x19f))/0x1+-parseInt(_0x44ffef(0x1ae))/0x2+-parseInt(_0x44ffef(0x1be))/0x3*(-parseInt(_0x44ffef(0x1b8))/0x4)+-parseInt(_0x44ffef(0x1b1))/0x5+-parseInt(_0x44ffef(0x19e))/0x6*(parseInt(_0x44ffef(0x1b2))/0x7)+parseInt(_0x44ffef(0x1b3))/0x8+parseInt(_0x44ffef(0x1c4))/0x9;if(_0x2d0a76===_0x453665)break;else _0x14a56b['push'](_0x14a56b['shift']());}catch(_0x55ddb2){_0x14a56b['push'](_0x14a56b['shift']());}}}(a0_0x469f,0xa8708));import a0_0x2461ff from'node-fetch';function a0_0x469f(){const _0x1ea2b4=['16pBlXiG','reclamo','rpgshop','help','\x0a\x20\x20','parse','51936taFcFa','lastclaim','./language/','./Menu.png','sendFile','Halo','33452685JhBnjp','*\x0a┃\x20','command','texto1','keys','readFileSync','random','regalo','reclamar','daily','6YOTLJb','1084974rIHWOt','BEGIN:VCARD\x0aVERSION:3.0\x0aN:Sy;Bot;;;\x0aFN:y\x0aitem1.TEL;waid=','floor','status@broadcast','premium','\x0a┃\x20','data','language','rpg_daily','split','tags','.json','mystic.jpg','\x0a┃\x20*','plugins','601964OTbDja','0@s.whatsapp.net','emoticon','2576050pnZUvP','8629033SMsgWf','300800BSeIjX','texto3','sender','reply','length'];a0_0x469f=function(){return _0x1ea2b4;};return a0_0x469f();}const handler=async(_0x20c71d,{isPrems:_0x14b0fa,conn:_0x314398})=>{const _0x1c08b1=a0_0x27e1,_0x4e2f7f=global,_0x58a118=_0x4e2f7f['db']['data']['users'][_0x20c71d[_0x1c08b1(0x1b5)]][_0x1c08b1(0x1a6)],_0x426819=JSON[_0x1c08b1(0x1bd)](fs[_0x1c08b1(0x1c9)](_0x1c08b1(0x1c0)+_0x58a118+_0x1c08b1(0x1aa))),_0x3918b1=_0x426819[_0x1c08b1(0x1ad)][_0x1c08b1(0x1a7)],_0x39ddfa={'key':{'participants':_0x1c08b1(0x1af),'remoteJid':_0x1c08b1(0x1a2),'fromMe':![],'id':_0x1c08b1(0x1c3)},'message':{'contactMessage':{'vcard':_0x1c08b1(0x1a0)+_0x20c71d['sender'][_0x1c08b1(0x1a8)]('@')[0x0]+':'+_0x20c71d[_0x1c08b1(0x1b5)]['split']('@')[0x0]+'\x0aitem1.X-ABLabel:Ponsel\x0aEND:VCARD'}},'participant':_0x1c08b1(0x1af)},_0x327e6b='./Menu2.jpg',_0x521028=[md],_0x1eba09=global['db'][_0x1c08b1(0x1a5)]['users'][_0x20c71d[_0x1c08b1(0x1b5)]],_0x502373=_0x1eba09[_0x1c08b1(0x1a3)],_0xbc4be6=(''+pickRandom([0x1f4,0x258,0x2bc,0x320,0x384,0x3e7,0x3e8,0x514,0x5dc,0x708]))*0x1,_0x2b95cf=(''+pickRandom([0x3e8,0x5dc,0x708,0x834,0x9c4,0xb54,0xce4,0xe10,0xfa0,0x1194]))*0x1,_0x3fd608=(''+pickRandom([0x12c,0x1f4,0x2bc,0x384,0x1f4,0x320,0x384,0x44c,0x546,0x5dc]))*0x1,_0x4e21f9=(''+pickRandom([0x320,0x514,0x640,0x76c,0x898,0x9c4,0xa8c,0xbb8,0xce4,0xdac]))*0x1,_0x1f95df=(''+pickRandom([0x1,0x2,0x3,0x4,0x5]))*0x1,_0x1e1c8d=(''+pickRandom([0x2,0x4,0x6,0x9,0xc]))*0x1,_0x1002a0=(''+pickRandom([0x1,0x0,0x0,0x2,0x0]))*0x1,_0xa9a069=(''+pickRandom([0x2,0x1,0x1,0x3,0x4]))*0x1,_0x10eb26=(''+pickRandom([0x1,0x1,0x1,0x3,0x1,0x2,0x2,0x1,0x5,0x8]))*0x1,_0x53fdec=(''+pickRandom([0x3,0x3,0x5,0x3,0x8,0x3,0x4,0x4,0xa,0x7]))*0x1,_0x5e3939=(''+pickRandom([0xa,0x14,0x1e,0x28,0x32,0x3c,0x46,0x50,0x5a,0x64]))*0x1,_0x1dc3cd=(''+pickRandom([0x1e,0x3c,0x5a,0x78,0x96,0xb4,0xd2,0xf0,0x10e,0x12c]))*0x1,_0x23c84f={'exp':_0x502373?_0x2b95cf:_0xbc4be6,'money':_0x502373?_0x4e21f9:_0x3fd608,'potion':_0x502373?_0x1e1c8d:_0x1f95df,'tiketcoin':_0x502373?_0xa9a069:_0x1002a0,'eleksirb':_0x502373?_0x53fdec:_0x10eb26,'umpan':_0x502373?_0x1dc3cd:_0x5e3939},_0x4d5af8=_0x1eba09['lastclaim']+0x6ddd00;if(new Date()-_0x1eba09[_0x1c08b1(0x1bf)]<0x6ddd00)return await _0x314398[_0x1c08b1(0x1b6)](_0x20c71d['chat'],_0x3918b1[_0x1c08b1(0x1c7)][0x0]+'\x20*'+msToTime(_0x4d5af8-new Date())+'*\x20'+_0x3918b1[_0x1c08b1(0x1c7)][0x1],_0x39ddfa,_0x20c71d);let _0x7455a4='';for(const _0x78d3b6 of Object[_0x1c08b1(0x1c8)](_0x23c84f)){if(!(_0x78d3b6 in _0x1eba09))continue;_0x1eba09[_0x78d3b6]+=_0x23c84f[_0x78d3b6],_0x7455a4+='*+'+_0x23c84f[_0x78d3b6]+'*\x20'+global[_0x1c08b1(0x1ba)][_0x1c08b1(0x1b0)](_0x78d3b6)+_0x1c08b1(0x1a4);}const _0x3cbb8f=_0x3918b1[_0x1c08b1(0x1b4)][0x0]+_0x1c08b1(0x1bc)+_0x3918b1[_0x1c08b1(0x1b4)][0x1]+_0x1c08b1(0x1ac)+(_0x502373?_0x3918b1[_0x1c08b1(0x1b4)][0x2]:_0x3918b1[_0x1c08b1(0x1b4)][0x3])+_0x1c08b1(0x1c5)+_0x7455a4+'\x0a'+_0x3918b1['texto3'][0x4]+'\x20'+(_0x502373?'✅':'❌')+'\x0a'+wm,_0x3dc3c8=_0x1c08b1(0x1c1);await _0x314398[_0x1c08b1(0x1c2)](_0x20c71d['chat'],_0x3dc3c8,_0x1c08b1(0x1ab),_0x3cbb8f,_0x39ddfa),_0x1eba09[_0x1c08b1(0x1bf)]=new Date()*0x1;};handler[a0_0xe91959(0x1bb)]=[a0_0xe91959(0x1cd)],handler[a0_0xe91959(0x1a9)]=['xp'],handler[a0_0xe91959(0x1c6)]=[a0_0xe91959(0x1cd),a0_0xe91959(0x1cc),a0_0xe91959(0x1b9),a0_0xe91959(0x1cb),'claim'];export default handler;function pickRandom(_0x205fed){const _0x36db16=a0_0xe91959;return _0x205fed[Math[_0x36db16(0x1a1)](Math[_0x36db16(0x1ca)]()*_0x205fed[_0x36db16(0x1b7)])];}function msToTime(_0x15e9a2){const _0x52426e=a0_0xe91959,_0x1169fb=parseInt(_0x15e9a2%0x3e8/0x64);let _0x466e49=Math[_0x52426e(0x1a1)](_0x15e9a2/0x3e8%0x3c),_0x2b66aa=Math[_0x52426e(0x1a1)](_0x15e9a2/(0x3e8*0x3c)%0x3c),_0x193b85=Math[_0x52426e(0x1a1)](_0x15e9a2/(0x3e8*0x3c*0x3c)%0x18);return _0x193b85=_0x193b85<0xa?'0'+_0x193b85:_0x193b85,_0x2b66aa=_0x2b66aa<0xa?'0'+_0x2b66aa:_0x2b66aa,_0x466e49=_0x466e49<0xa?'0'+_0x466e49:_0x466e49,_0x193b85+'\x20Horas\x20'+_0x2b66aa+'\x20Minutos';}
+import fetch from 'node-fetch';
+
+
+const handler = async (m, {isPrems, conn}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_daily
+
+  const fkontak = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net',
+  };
+  const mystic = './Menu2.jpg';
+  const dos = [md];
+  const user = global.db.data.users[m.sender];
+  const premium = user.premium;
+
+  const exp = `${pickRandom([500, 600, 700, 800, 900, 999, 1000, 1300, 1500, 1800])}` * 1;
+  const exppremium = `${pickRandom([1000, 1500, 1800, 2100, 2500, 2900, 3300, 3600, 4000, 4500])}` * 1;
+
+  const money = `${pickRandom([300, 500, 700, 900, 500, 800, 900, 1100, 1350, 1500])}` * 1;
+  const moneypremium = `${pickRandom([800, 1300, 1600, 1900, 2200, 2500, 2700, 3000, 3300, 3500])}` * 1;
+
+  const potion = `${pickRandom([1, 2, 3, 4, 5])}` * 1;
+  const potionpremium = `${pickRandom([2, 4, 6, 9, 12])}` * 1;
+
+  const tiketcoin = `${pickRandom([1, 0, 0, 2, 0])}` * 1;
+  const tiketcoinpremium = `${pickRandom([2, 1, 1, 3, 4])}` * 1;
+
+  const eleksirb = `${pickRandom([1, 1, 1, 3, 1, 2, 2, 1, 5, 8])}` * 1;
+  const eleksirbpremium = `${pickRandom([3, 3, 5, 3, 8, 3, 4, 4, 10, 7])}` * 1;
+
+  const umpan = `${pickRandom([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])}` * 1;
+  const umpanpremium = `${pickRandom([30, 60, 90, 120, 150, 180, 210, 240, 270, 300])}` * 1;
+
+  // let gata = Math.floor(Math.random() * 2000)
+
+  const recompensas = {
+    exp: premium ? exppremium : exp,
+    money: premium ? moneypremium : money,
+    potion: premium ? potionpremium : potion,
+    tiketcoin: premium ? tiketcoinpremium : tiketcoin,
+    eleksirb: premium ? eleksirbpremium : eleksirb,
+    umpan: premium ? umpanpremium : umpan,
+  };
+
+  const time = user.lastclaim + 7200000; // 2 Horas 7200000
+  if (new Date - user.lastclaim < 7200000) return await conn.reply(m.chat, `${tradutor.texto1[0]} *${msToTime(time - new Date())}* ${tradutor.texto1[1]}`, fkontak, m);
+  // await conn.sendButton(m.chat, `𝙔𝘼 𝙍𝙀𝘾𝙇𝘼𝙈𝘼𝙎𝙏𝙀 𝙏𝙐 𝙍𝙀𝙂𝘼𝙇𝙊 🎁\n𝙑𝙐𝙀𝙇𝙑𝙀 𝙀𝙉 *${msToTime(time - new Date())}* 𝙋𝘼𝙍𝘼 𝙑𝙊𝙇𝙑𝙀𝙍 𝘼 𝙍𝙀𝘾𝙇𝘼𝙈𝘼𝙍`, wm, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)
+  let texto = '';
+  for (const reward of Object.keys(recompensas)) {
+    if (!(reward in user)) continue;
+    user[reward] += recompensas[reward];
+    texto += `*+${recompensas[reward]}* ${global.rpgshop.emoticon(reward)}\n┃ `;
+  }
+  const text = `${tradutor.texto3[0]}
+  ${tradutor.texto3[1]}
+┃ *${premium ? tradutor.texto3[2] : tradutor.texto3[3]}*
+┃ ${texto}
+${tradutor.texto3[4]} ${premium ? '✅' : '❌'}\n${wm}`;
+  const img = './Menu.png';
+  await conn.sendFile(m.chat, img, 'mystic.jpg', text, fkontak);
+  // await conn.sendButton(m.chat, text, texto + `\n\n🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`, img, [['⛰️ 𝘼𝘽𝙍𝙄𝙍 𝘾𝙊𝙁𝙍𝙀 | 𝘾𝙊𝙁𝙁𝙀𝙍 ⛰️', '/cofre'], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], m, dos.getRandom())
+  user.lastclaim = new Date * 1;
+};
+handler.help = ['daily'];
+handler.tags = ['xp'];
+handler.command = ['daily', 'reclamar', 'reclamo', 'regalo', 'claim'];
+export default handler;
+
+function pickRandom(list) {
+  return list[Math.floor(Math.random() * list.length)];
+}
+
+function msToTime(duration) {
+  const milliseconds = parseInt((duration % 1000) / 100);
+  let seconds = Math.floor((duration / 1000) % 60);
+  let minutes = Math.floor((duration / (1000 * 60)) % 60);
+  let hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+
+  hours = (hours < 10) ? '0' + hours : hours;
+  minutes = (minutes < 10) ? '0' + minutes : minutes;
+  seconds = (seconds < 10) ? '0' + seconds : seconds;
+
+  return hours + ' Horas ' + minutes + ' Minutos';
+}

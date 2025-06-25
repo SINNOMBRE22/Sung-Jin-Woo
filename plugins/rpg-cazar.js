@@ -1,1 +1,123 @@
-function a0_0x53bf(_0x136f55,_0x33990c){const _0x5ab2d0=a0_0x5ab2();return a0_0x53bf=function(_0x53bf71,_0x5e2a6a){_0x53bf71=_0x53bf71-0x1be;let _0x198db5=_0x5ab2d0[_0x53bf71];return _0x198db5;},a0_0x53bf(_0x136f55,_0x33990c);}const a0_0x2bf5b9=a0_0x53bf;(function(_0x32113f,_0x205ade){const _0x527a95=a0_0x53bf,_0x402121=_0x32113f();while(!![]){try{const _0x3b64cf=parseInt(_0x527a95(0x1f0))/0x1*(parseInt(_0x527a95(0x1f8))/0x2)+parseInt(_0x527a95(0x1be))/0x3*(parseInt(_0x527a95(0x1cc))/0x4)+-parseInt(_0x527a95(0x1f3))/0x5*(parseInt(_0x527a95(0x1e3))/0x6)+-parseInt(_0x527a95(0x1cd))/0x7+parseInt(_0x527a95(0x1f4))/0x8+parseInt(_0x527a95(0x1d8))/0x9*(-parseInt(_0x527a95(0x1e9))/0xa)+-parseInt(_0x527a95(0x1e5))/0xb*(parseInt(_0x527a95(0x1c5))/0xc);if(_0x3b64cf===_0x205ade)break;else _0x402121['push'](_0x402121['shift']());}catch(_0x40ce4b){_0x402121['push'](_0x402121['shift']());}}}(a0_0x5ab2,0xc9f19));function a0_0x5ab2(){const _0x346bb5=['11755efgyrm','10223928Hljwyr','group','command','getRandom','10vZMpOA','tags','data','*\x0a\x20*🐊\x20','137253VOFtTc','texto1','ayam','@s.whatsapp.net','split','econ','lastberburu','36iHaitP','help','kambing','\x20✧*\x0a\x0a\x20*🐂\x20','mentionedJid','sender','getName','116cTezbU','104125jZDpYP','chat','\x0a*✧\x20Resultados\x20de\x20la\x20caza\x20','gajah','padStart','🗡️','*\x09\x09\x09\x20*🐖\x20','join','*\x09\x09\x09\x20*🐮\x20','*\x09\x09\x09\x20*🐃\x20','*\x0a\x20*🐅\x20','2065464lmRFrA','buaya','texto3','users','texto2','*\x0a\x20*🐐\x20','*\x0a\x20*🐘\x20','log','*\x0a\x20*🐼\x20','banteng','texto4','726lfpWbE','random','1533532XCNYLP','./language/','cazar','reply','70vfmrIQ','*\x09\x09\x09\x20*🐗\x20','trim','floor','parse','plugins','language','109289BXipkg','toString','panda'];a0_0x5ab2=function(){return _0x346bb5;};return a0_0x5ab2();}const handler=async(_0x2889fb,{conn:_0x4ab679})=>{const _0x4d8e57=a0_0x53bf,_0x3702d6=global,_0x10324d=_0x3702d6['db']['data'][_0x4d8e57(0x1db)][_0x2889fb[_0x4d8e57(0x1ca)]][_0x4d8e57(0x1ef)],_0x1670e5=JSON[_0x4d8e57(0x1ed)](fs['readFileSync'](_0x4d8e57(0x1e6)+_0x10324d+'.json')),_0x26ee34=_0x1670e5[_0x4d8e57(0x1ee)]['rpg_berburu_casar'],_0x285945=global['db'][_0x4d8e57(0x1fa)]['users'][_0x2889fb['sender']],_0x518529=''+Math[_0x4d8e57(0x1ec)](Math[_0x4d8e57(0x1e4)]()*0x5),_0x131a35=''+Math['floor'](Math['random']()*0x5),_0x3cb659=''+Math[_0x4d8e57(0x1ec)](Math[_0x4d8e57(0x1e4)]()*0x5),_0x472f3a=''+Math[_0x4d8e57(0x1ec)](Math['random']()*0x5),_0x4b2091=''+Math['floor'](Math['random']()*0x5),_0x4203b3=''+Math[_0x4d8e57(0x1ec)](Math[_0x4d8e57(0x1e4)]()*0x5),_0x11b43c=''+Math[_0x4d8e57(0x1ec)](Math[_0x4d8e57(0x1e4)]()*0x5),_0x51bbb7=''+Math[_0x4d8e57(0x1ec)](Math[_0x4d8e57(0x1e4)]()*0x5),_0x5e594f=''+Math[_0x4d8e57(0x1ec)](Math['random']()*0x5),_0x25d2c9=''+Math[_0x4d8e57(0x1ec)](Math[_0x4d8e57(0x1e4)]()*0x5),_0xc8a45f=''+Math[_0x4d8e57(0x1ec)](Math[_0x4d8e57(0x1e4)]()*0x5),_0x3899d2=(''+Math[_0x4d8e57(0x1ec)](Math[_0x4d8e57(0x1e4)]()*0x5))[_0x4d8e57(0x1eb)](),_0x2b7bdd=_0x518529*0x1,_0x4c01d5=_0x131a35*0x1,_0x574034=_0x472f3a*0x1,_0x232a97=_0x3cb659*0x1,_0x5277b0=_0x4b2091*0x1,_0x2d0874=_0x4203b3*0x1,_0x23cd1d=_0x11b43c*0x1,_0x321cf6=_0x51bbb7*0x1,_0x1c52d8=_0x5e594f*0x1,_0xde9b99=_0x25d2c9*0x1,_0x224597=_0xc8a45f*0x1,_0x529a49=_0x3899d2*0x1,_0x578b37=''+_0x2b7bdd,_0x3699b9=''+_0x4c01d5,_0x44dadd=''+_0x574034,_0x13e9ce=''+_0x232a97,_0x534746=''+_0x5277b0,_0x255aef=''+_0x2d0874,_0x29ac3a=''+_0x23cd1d,_0x3c4dd0=''+_0x321cf6,_0x14866a=''+_0x1c52d8,_0x38d9ab=''+_0xde9b99,_0x41d490=''+_0x224597,_0x45e9ad=''+_0x529a49,_0x4c3139=''+['🪚','⛏️','🧨','💣','🔫','🔪','🗡️','🏹','🦾','🥊','🧹','🔨','🛻'][_0x4d8e57(0x1f7)](),_0x1bfba5=''+['🪚','⛏️','🧨','💣','🔫','🔪','🗡️','🏹','🦾','🥊','🧹','🔨','🛻'][_0x4d8e57(0x1f7)](),_0x4956c1=''+['🪚','⛏️','🧨','💣','🔫','🔪',_0x4d8e57(0x1d2),'🏹','🦾','🥊','🧹','🔨','🛻'][_0x4d8e57(0x1f7)](),_0xd13bbb=''+['🪚','⛏️','🧨','💣','🔫','🔪',_0x4d8e57(0x1d2),'🏹','🦾','🥊','🧹','🔨','🛻']['getRandom'](),_0xf6fbc5=''+['🪚','⛏️','🧨','💣','🔫','🔪',_0x4d8e57(0x1d2),'🏹','🦾','🥊','🧹','🔨','🛻'][_0x4d8e57(0x1f7)](),_0x7755a8=''+['🪚','⛏️','🧨','💣','🔫','🔪',_0x4d8e57(0x1d2),'🏹','🦾','🥊','🧹','🔨','🛻'][_0x4d8e57(0x1f7)](),_0x296403=''+['🪚','⛏️','🧨','💣','🔫','🔪','🗡️','🏹','🦾','🥊','🧹','🔨','🛻'][_0x4d8e57(0x1f7)](),_0x2b10a5=''+['🪚','⛏️','🧨','💣','🔫','🔪',_0x4d8e57(0x1d2),'🏹','🦾','🥊','🧹','🔨','🛻']['getRandom'](),_0x72c7a3=''+['🪚','⛏️','🧨','💣','🔫','🔪','🗡️','🏹','🦾','🥊','🧹','🔨','🛻'][_0x4d8e57(0x1f7)](),_0x37d4b3=''+['🪚','⛏️','🧨','💣','🔫','🔪',_0x4d8e57(0x1d2),'🏹','🦾','🥊','🧹','🔨','🛻'][_0x4d8e57(0x1f7)](),_0x462fcb=''+['🪚','⛏️','🧨','💣','🔫','🔪',_0x4d8e57(0x1d2),'🏹','🦾','🥊','🧹','🔨','🛻'][_0x4d8e57(0x1f7)](),_0x20309c=''+['🪚','⛏️','🧨','💣','🔫','🔪',_0x4d8e57(0x1d2),'🏹','🦾','🥊','🧹','🔨','🛻'][_0x4d8e57(0x1f7)](),_0xb13a57=(_0x4d8e57(0x1cf)+_0x4ab679[_0x4d8e57(0x1cb)](_0x2889fb['sender'])+_0x4d8e57(0x1c8)+_0x4c3139+'\x20'+_0x578b37+_0x4d8e57(0x1d6)+_0x296403+'\x20'+_0x29ac3a+_0x4d8e57(0x1d7)+_0x1bfba5+'\x20'+_0x3699b9+_0x4d8e57(0x1d5)+_0x2b10a5+'\x20'+_0x3c4dd0+_0x4d8e57(0x1de)+_0x4956c1+'\x20'+_0x44dadd+'*\x09\x09\x09\x20*🐒\x20'+_0x72c7a3+'\x20'+_0x14866a+_0x4d8e57(0x1dd)+_0xd13bbb+'\x20'+_0x13e9ce+_0x4d8e57(0x1ea)+_0x37d4b3+'\x20'+_0x38d9ab+_0x4d8e57(0x1e0)+_0xf6fbc5+'\x20'+_0x534746+_0x4d8e57(0x1d3)+_0x462fcb+'\x20'+_0x41d490+_0x4d8e57(0x1fb)+_0x7755a8+'\x20'+_0x255aef+'*\x09\x09\x20\x20\x20\x20*🐓\x20'+_0x20309c+'\x20'+_0x45e9ad+'*')['trim']();global['db'][_0x4d8e57(0x1fa)]['users'][_0x2889fb[_0x4d8e57(0x1ca)]][_0x4d8e57(0x1e1)]+=_0x2b7bdd,global['db'][_0x4d8e57(0x1fa)][_0x4d8e57(0x1db)][_0x2889fb[_0x4d8e57(0x1ca)]]['harimau']+=_0x4c01d5,global['db'][_0x4d8e57(0x1fa)][_0x4d8e57(0x1db)][_0x2889fb[_0x4d8e57(0x1ca)]][_0x4d8e57(0x1d0)]+=_0x574034,global['db'][_0x4d8e57(0x1fa)]['users'][_0x2889fb[_0x4d8e57(0x1ca)]][_0x4d8e57(0x1c7)]+=_0x232a97,global['db'][_0x4d8e57(0x1fa)][_0x4d8e57(0x1db)][_0x2889fb[_0x4d8e57(0x1ca)]][_0x4d8e57(0x1f2)]+=_0x5277b0,global['db'][_0x4d8e57(0x1fa)][_0x4d8e57(0x1db)][_0x2889fb[_0x4d8e57(0x1ca)]][_0x4d8e57(0x1d9)]+=_0x2d0874,global['db'][_0x4d8e57(0x1fa)][_0x4d8e57(0x1db)][_0x2889fb['sender']]['kerbau']+=_0x23cd1d,global['db'][_0x4d8e57(0x1fa)][_0x4d8e57(0x1db)][_0x2889fb[_0x4d8e57(0x1ca)]]['sapi']+=_0x321cf6,global['db'][_0x4d8e57(0x1fa)]['users'][_0x2889fb[_0x4d8e57(0x1ca)]]['monyet']+=_0x1c52d8,global['db']['data'][_0x4d8e57(0x1db)][_0x2889fb[_0x4d8e57(0x1ca)]]['babihutan']+=_0xde9b99,global['db'][_0x4d8e57(0x1fa)][_0x4d8e57(0x1db)][_0x2889fb[_0x4d8e57(0x1ca)]]['babi']+=_0x224597,global['db']['data']['users'][_0x2889fb[_0x4d8e57(0x1ca)]][_0x4d8e57(0x1c0)]+=_0x529a49;const _0x1e6fa2=global['db']['data'][_0x4d8e57(0x1db)][_0x2889fb[_0x4d8e57(0x1ca)]][_0x4d8e57(0x1c4)]+0x2932e0;if(new Date()-global['db'][_0x4d8e57(0x1fa)]['users'][_0x2889fb[_0x4d8e57(0x1ca)]][_0x4d8e57(0x1c4)]<0x2932e0)return _0x4ab679[_0x4d8e57(0x1e8)](_0x2889fb[_0x4d8e57(0x1ce)],_0x26ee34[_0x4d8e57(0x1bf)]+'\x20'+clockString(_0x1e6fa2-new Date())+'\x0a'+wm,_0x2889fb);setTimeout(()=>{const _0x23562f=_0x4d8e57;_0x4ab679[_0x23562f(0x1e8)](_0x2889fb[_0x23562f(0x1ce)],_0xb13a57,_0x2889fb);},0x4e20),setTimeout(()=>{const _0x4641fe=_0x4d8e57;_0x4ab679[_0x4641fe(0x1e8)](_0x2889fb['chat'],'@'+_0x2889fb[_0x4641fe(0x1ca)]['split'](_0x4641fe(0x1c1))[0x0]+'\x20*'+[_0x26ee34[_0x4641fe(0x1dc)][0x0],_0x26ee34[_0x4641fe(0x1dc)][0x1],_0x26ee34['texto2'][0x2],_0x26ee34[_0x4641fe(0x1dc)][0x3]][_0x4641fe(0x1f7)]()+'*',null,{'mentions':[_0x2889fb['sender']]});},0x4650),setTimeout(()=>{const _0x1f6e98=_0x4d8e57;_0x4ab679[_0x1f6e98(0x1e8)](_0x2889fb[_0x1f6e98(0x1ce)],'@'+_0x2889fb[_0x1f6e98(0x1ca)][_0x1f6e98(0x1c2)](_0x1f6e98(0x1c1))[0x0]+'\x20*'+[_0x26ee34['texto3'][0x0],_0x26ee34[_0x1f6e98(0x1da)][0x1],_0x26ee34[_0x1f6e98(0x1da)][0x2],_0x26ee34['texto3'][0x3]][_0x1f6e98(0x1f7)]()+'*',null,{'mentions':[_0x2889fb[_0x1f6e98(0x1ca)]]});},0x3a98),setTimeout(()=>{const _0x3de74f=_0x4d8e57;_0x4ab679['reply'](_0x2889fb['chat'],'@'+_0x2889fb[_0x3de74f(0x1ca)][_0x3de74f(0x1c2)](_0x3de74f(0x1c1))[0x0]+'\x20*'+[_0x26ee34[_0x3de74f(0x1e2)][0x0],_0x26ee34[_0x3de74f(0x1e2)][0x1],_0x26ee34[_0x3de74f(0x1e2)][0x2],_0x26ee34['texto4'][0x3]]['getRandom']()+'*',_0x2889fb,_0x2889fb[_0x3de74f(0x1c9)]?{'mentions':[_0x2889fb[_0x3de74f(0x1ca)]]}:{});},0x0),_0x285945['lastberburu']=new Date()*0x1;};handler[a0_0x2bf5b9(0x1c6)]=[a0_0x2bf5b9(0x1e7)],handler[a0_0x2bf5b9(0x1f9)]=[a0_0x2bf5b9(0x1c3)],handler[a0_0x2bf5b9(0x1f6)]=/^(hunt|berburu|caza(r)?)$/i,handler[a0_0x2bf5b9(0x1f5)]=!![];export default handler;function clockString(_0x409182){const _0x51334f=a0_0x2bf5b9,_0x5158c1=Math[_0x51334f(0x1ec)](_0x409182/0x36ee80),_0x2911e2=Math['floor'](_0x409182/0xea60)%0x3c,_0x174144=Math[_0x51334f(0x1ec)](_0x409182/0x3e8)%0x3c;return console[_0x51334f(0x1df)]({'ms':_0x409182,'h':_0x5158c1,'m':_0x2911e2,'s':_0x174144}),[_0x5158c1,_0x2911e2,_0x174144]['map'](_0x333e66=>_0x333e66[_0x51334f(0x1f1)]()[_0x51334f(0x1d1)](0x2,0x0))[_0x51334f(0x1d4)](':');}
+
+
+const handler = async (m, {conn}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.rpg_berburu_casar
+
+  const user = global.db.data.users[m.sender];
+  const randomaku1 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku2 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku4 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku3 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku5 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku6 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku7 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku8 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku9 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku10 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku11 = `${Math.floor(Math.random() * 5)}`;
+  const randomaku12 = `${Math.floor(Math.random() * 5)}`.trim();
+  const rbrb1 = (randomaku1 * 1);
+  const rbrb2 = (randomaku2 * 1);
+  const rbrb3 = (randomaku3 * 1);
+  const rbrb4 = (randomaku4 * 1);
+  const rbrb5 = (randomaku5 * 1);
+  const rbrb6 = (randomaku6 * 1);
+  const rbrb7 = (randomaku7 * 1);
+  const rbrb8 = (randomaku8 * 1);
+  const rbrb9 = (randomaku9 * 1);
+  const rbrb10 = (randomaku10 * 1);
+  const rbrb11 = (randomaku11 * 1);
+  const rbrb12 = (randomaku12 * 1);
+  const anti1 = `${rbrb1}`;
+  const anti2 = `${rbrb2}`;
+  const anti3 = `${rbrb3}`;
+  const anti4 = `${rbrb4}`;
+  const anti5 = `${rbrb5}`;
+  const anti6 = `${rbrb6}`;
+  const anti7 = `${rbrb7}`;
+  const anti8 = `${rbrb8}`;
+  const anti9 = `${rbrb9}`;
+  const anti10 = `${rbrb10}`;
+  const anti11 = `${rbrb11}`;
+  const anti12 = `${rbrb12}`;
+  const ar1 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar2 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar3 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar4 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar5 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar6 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar7 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar8 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar9 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar10 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar11 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const ar12 = `${['🪚', '⛏️', '🧨', '💣', '🔫', '🔪', '🗡️', '🏹', '🦾', '🥊', '🧹', '🔨', '🛻'].getRandom()}`;
+  const hsl = `
+*✧ Resultados de la caza ${conn.getName(m.sender)} ✧*
+
+ *🐂 ${ar1} ${anti1}*			 *🐃 ${ar7} ${anti7}*
+ *🐅 ${ar2} ${anti2}*			 *🐮 ${ar8} ${anti8}*
+ *🐘 ${ar3} ${anti3}*			 *🐒 ${ar9} ${anti9}*
+ *🐐 ${ar4} ${anti4}*			 *🐗 ${ar10} ${anti10}*
+ *🐼 ${ar5} ${anti5}*			 *🐖 ${ar11} ${anti11}*
+ *🐊 ${ar6} ${anti6}*		    *🐓 ${ar12} ${anti12}*`.trim();
+  global.db.data.users[m.sender].banteng += rbrb1;
+  global.db.data.users[m.sender].harimau += rbrb2;
+  global.db.data.users[m.sender].gajah += rbrb3;
+  global.db.data.users[m.sender].kambing += rbrb4;
+  global.db.data.users[m.sender].panda += rbrb5;
+  global.db.data.users[m.sender].buaya += rbrb6;
+  global.db.data.users[m.sender].kerbau += rbrb7;
+  global.db.data.users[m.sender].sapi += rbrb8;
+  global.db.data.users[m.sender].monyet += rbrb9;
+  global.db.data.users[m.sender].babihutan += rbrb10;
+  global.db.data.users[m.sender].babi += rbrb11;
+  global.db.data.users[m.sender].ayam += rbrb12;
+
+  const time = global.db.data.users[m.sender].lastberburu + 2700000; // 45 Minutos
+  if (new Date - global.db.data.users[m.sender].lastberburu < 2700000) return conn.reply(m.chat, `${tradutor.texto1} ${clockString(time - new Date())}\n${wm}`, m);
+  // conn.sendButton(m.chat, `𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙳𝙴𝚂𝙲𝙰𝙽𝚂𝙰 𝚄𝙽 𝙼𝙾𝙼𝙴𝙽𝚃𝙾 𝙿𝙰𝚁𝙰 𝚂𝙴𝙶𝚄𝙸𝚁 𝙲𝙰𝚉𝙰𝙽𝙳𝙾`, `⫹⫺ 𝚃𝙸𝙴𝙼𝙿𝙾 ${clockString(time - new Date())}\n${wm}`, null, [['🏞️ 𝙰𝙽𝙸𝙼𝙰𝙻𝙴𝚂 𝙲𝙰𝙿𝚃𝚄𝚁𝙰𝙳𝙾𝚂 ', '.kandang'],[`🎒 𝙸𝙽𝚅𝙴𝙽𝚃𝙰𝙴𝚁𝙸𝙾`, `.inventario`]], m)
+
+  setTimeout(() => {
+    conn.reply(m.chat, hsl, m);
+    // conn.sendButton(m.chat, hsl, wm, null, [['🔗 𝙶𝙸𝚃𝙷𝚄𝙱 🔗', '#script']], null)
+    /* conn.sendHydrated(m.chat, hsl, wm, null, md, `𝙶𝙸𝚃𝙷𝚄𝙱`, null, null, [
+[null, null]], null)*/
+  }, 20000);
+
+  setTimeout(() => {
+    conn.reply(m.chat, `@${m.sender.split('@s.whatsapp.net')[0]} *${[tradutor.texto2[0], tradutor.texto2[1], tradutor.texto2[2], tradutor.texto2[3]].getRandom()}*`, null, {mentions: [m.sender]});
+  }, 18000);
+  // conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['OBJETIVO FIJADO`${conn.getName(m.sender)} *${['OBJETIVO FIJADO 🎯','Carnada en Marcha 🍫 🍇 🍖','ANIMALES DETECTADOS!! 🐂 🐅 🐘 🐼','ANIMALES DETECTADOS!! 🐖 🐃 🐮 🐒'].getRandom()}*` 🎯','Carnada en Marcha 🍫 🍇 🍖','ANIMALES DETECTADOS!! 🐂 🐅 🐘 🐼','ANIMALES DETECTADOS!! 🐖 🐃 🐮 🐒'].getRandom()}*`, wm, null, null, null, null, null, [
+  // [null, null]], null)}, 18000)
+
+  setTimeout(() => {
+    conn.reply(m.chat, `@${m.sender.split('@s.whatsapp.net')[0]} *${[tradutor.texto3[0], tradutor.texto3[1], tradutor.texto3[2], tradutor.texto3[3]].getRandom()}*`, null, {mentions: [m.sender]});
+  }, 15000);
+  // conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['Armas lista para la Caza!!','Probando Armas 🔫 💣 🪓 🏹','CARROS PARA LA CAZA!! 🚗 🏍️ 🚜','TIEMPO BUENO PARA LA CAZA 🧤'].getRandom()}*`, wm, null, null, null, null, null, [
+  // [null, null]], null)}, 15000)
+
+  setTimeout(() => {
+    conn.reply(m.chat, `@${m.sender.split('@s.whatsapp.net')[0]} *${[tradutor.texto4[0], tradutor.texto4[1], tradutor.texto4[2], tradutor.texto4[3]].getRandom()}*`, m, m.mentionedJid ? {mentions: [m.sender]} : {});
+  }, 0);
+  // conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['Buscando implementos de caza...','Alistando todo para la caza!!','Estableciendo Lugar de la Caza...','PREPARANDO LUGAR DE CAZA!!'].getRandom()}*`, wm, null, null, null, null, null, [
+  // [null, null]], null)}, 0)
+  user.lastberburu = new Date * 1;
+};
+handler.help = ['cazar'];
+handler.tags = ['econ'];
+handler.command = /^(hunt|berburu|caza(r)?)$/i;
+handler.group = true;
+export default handler;
+
+function clockString(ms) {
+  const h = Math.floor(ms / 3600000);
+  const m = Math.floor(ms / 60000) % 60;
+  const s = Math.floor(ms / 1000) % 60;
+  console.log({ms, h, m, s});
+  return [h, m, s].map((v) => v.toString().padStart(2, 0) ).join(':');
+}
+

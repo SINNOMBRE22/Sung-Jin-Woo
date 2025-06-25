@@ -1,1 +1,19 @@
-const a0_0x37196b=a0_0x4e42;(function(_0x5984e9,_0x25b521){const _0x4df45f=a0_0x4e42,_0x137c2e=_0x5984e9();while(!![]){try{const _0x59e503=-parseInt(_0x4df45f(0x188))/0x1*(parseInt(_0x4df45f(0x18d))/0x2)+parseInt(_0x4df45f(0x18b))/0x3+parseInt(_0x4df45f(0x181))/0x4+parseInt(_0x4df45f(0x191))/0x5*(parseInt(_0x4df45f(0x17f))/0x6)+-parseInt(_0x4df45f(0x18c))/0x7*(parseInt(_0x4df45f(0x195))/0x8)+parseInt(_0x4df45f(0x18a))/0x9+-parseInt(_0x4df45f(0x18e))/0xa*(parseInt(_0x4df45f(0x185))/0xb);if(_0x59e503===_0x25b521)break;else _0x137c2e['push'](_0x137c2e['shift']());}catch(_0x1a5d20){_0x137c2e['push'](_0x137c2e['shift']());}}}(a0_0x141c,0xb4c3d));const handler=async(_0x26e6af,{conn:_0x3679fd})=>{const _0x368ac8=a0_0x4e42,_0x1ff5cf=global,_0x529665=_0x1ff5cf['db'][_0x368ac8(0x184)]['users'][_0x26e6af[_0x368ac8(0x182)]][_0x368ac8(0x17d)],_0x46bf61=JSON[_0x368ac8(0x186)](fs['readFileSync'](_0x368ac8(0x183)+_0x529665+_0x368ac8(0x198))),_0x571eaa=_0x46bf61[_0x368ac8(0x196)][_0x368ac8(0x187)];global[_0x368ac8(0x192)]=new RegExp('^['+(opts['prefix']||_0x368ac8(0x190))[_0x368ac8(0x193)](/[|\\{}()[\]^$+*?.\-\^]/g,_0x368ac8(0x18f))+']'),await _0x26e6af[_0x368ac8(0x17c)](_0x571eaa[_0x368ac8(0x189)]);};function a0_0x141c(){const _0x2119cd=['rowner','354IZGOkp','tags','5601344ozbeTV','sender','./language/','data','7645FuHPIG','parse','owner_resetprefix','235507vGdBSX','texto1','582129CwrrKr','2138535OTSckR','14nwGENc','2Calevi','32020plFOtI','\x5c$&','‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\x5c-','97260Dvvjrs','prefix','replace','help','496880ylrJFc','plugins','resetprefix','.json','reply','language'];a0_0x141c=function(){return _0x2119cd;};return a0_0x141c();}function a0_0x4e42(_0x2e7cc4,_0x3022ba){const _0x141c3d=a0_0x141c();return a0_0x4e42=function(_0x4e4243,_0x122260){_0x4e4243=_0x4e4243-0x17c;let _0x90873d=_0x141c3d[_0x4e4243];return _0x90873d;},a0_0x4e42(_0x2e7cc4,_0x3022ba);}handler[a0_0x37196b(0x194)]=[a0_0x37196b(0x197)],handler[a0_0x37196b(0x180)]=['owner'],handler['command']=/^(resetprefix)$/i,handler[a0_0x37196b(0x17e)]=!![];export default handler;
+
+
+const handler = async (m, {conn}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_resetprefix
+
+  global.prefix = new RegExp('^[' + (opts['prefix'] || '‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']');
+  await m.reply(tradutor.texto1);
+  // conn.fakeReply(m.chat, '[❗𝐈𝐍𝐅𝐎❗] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 𝚁𝙴𝚂𝚃𝙰𝙱𝙻𝙴𝙲𝙸𝙳𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾', '0@s.whatsapp.net', 'Reset Prefix')
+};
+handler.help = ['resetprefix'];
+handler.tags = ['owner'];
+handler.command = /^(resetprefix)$/i;
+handler.rowner = true;
+
+
+export default handler;

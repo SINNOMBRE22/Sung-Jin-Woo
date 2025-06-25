@@ -1,1 +1,84 @@
-const a0_0xd3c258=a0_0x14ee;(function(_0x34ef20,_0x2fdc3c){const _0x2894da=a0_0x14ee,_0x289ad1=_0x34ef20();while(!![]){try{const _0x4c27e8=-parseInt(_0x2894da(0x15b))/0x1*(parseInt(_0x2894da(0x16d))/0x2)+parseInt(_0x2894da(0x148))/0x3+-parseInt(_0x2894da(0x157))/0x4+-parseInt(_0x2894da(0x162))/0x5*(-parseInt(_0x2894da(0x140))/0x6)+-parseInt(_0x2894da(0x13f))/0x7*(parseInt(_0x2894da(0x134))/0x8)+parseInt(_0x2894da(0x165))/0x9*(parseInt(_0x2894da(0x141))/0xa)+parseInt(_0x2894da(0x16a))/0xb;if(_0x4c27e8===_0x2fdc3c)break;else _0x289ad1['push'](_0x289ad1['shift']());}catch(_0xf29c96){_0x289ad1['push'](_0x289ad1['shift']());}}}(a0_0x4cb0,0x22051));function a0_0x14ee(_0x393523,_0x29c76c){const _0x4cb024=a0_0x4cb0();return a0_0x14ee=function(_0x14ee18,_0x468cce){_0x14ee18=_0x14ee18-0x134;let _0x374a7a=_0x4cb024[_0x14ee18];return _0x374a7a;},a0_0x14ee(_0x393523,_0x29c76c);}import a0_0x15a2f8 from'axios';import a0_0x30085f from'fs';const API_KEY=process[a0_0xd3c258(0x13b)]['OPENWEATHER_API_KEY']||a0_0xd3c258(0x150);function getFlagEmoji(_0x551cdf){const _0x419b67=a0_0xd3c258;return _0x551cdf['toUpperCase']()['split']('')[_0x419b67(0x164)](_0x4c4a9e=>String['fromCodePoint'](0x1f1a5+_0x4c4a9e[_0x419b67(0x14e)]()))[_0x419b67(0x153)]('');}const handler=async(_0x32d6f6,{args:_0x5d748c})=>{const _0xc0ed29=a0_0xd3c258,_0x306bc2=global,_0x5963ee=_0x306bc2['db']['data'][_0xc0ed29(0x15c)][_0x32d6f6[_0xc0ed29(0x161)]][_0xc0ed29(0x14b)],_0x395d1a=JSON['parse'](a0_0x30085f[_0xc0ed29(0x143)](_0xc0ed29(0x15e)+_0x5963ee+_0xc0ed29(0x16b))),_0x235d27=_0x395d1a['plugins']['herramientas_clima'];if(!_0x5d748c[0x0])throw _0x235d27[_0xc0ed29(0x13e)]||_0xc0ed29(0x142);try{const _0x468807=await a0_0x15a2f8['get'](_0xc0ed29(0x166),{'params':{'q':_0x5d748c[_0xc0ed29(0x153)]('\x20'),'units':_0xc0ed29(0x151),'appid':API_KEY,'lang':_0x5963ee}}),_0x13bc35=_0x468807['data'],_0x5c8e4f=_0x13bc35['name'],_0x167f72=_0x13bc35['sys']['country'],_0x1fb7ee=getFlagEmoji(_0x167f72),_0x2be717=_0x13bc35[_0xc0ed29(0x136)][0x0][_0xc0ed29(0x159)],_0x489e6c=_0x13bc35[_0xc0ed29(0x154)]['temp']+'°C',_0x29666c=_0x13bc35[_0xc0ed29(0x154)][_0xc0ed29(0x146)]+'°C',_0x18fb50=_0x13bc35['main'][_0xc0ed29(0x155)]+'°C',_0x20269a=_0x13bc35[_0xc0ed29(0x154)]['temp_max']+'°C',_0x5c21f9=_0x13bc35[_0xc0ed29(0x154)][_0xc0ed29(0x15d)]+'%',_0x3e6c1e=_0x13bc35[_0xc0ed29(0x154)][_0xc0ed29(0x139)]+_0xc0ed29(0x13a),_0x1042c7=_0x13bc35['wind'][_0xc0ed29(0x16c)]+'\x20km/h',_0x324aaf=new Date(_0x13bc35[_0xc0ed29(0x149)][_0xc0ed29(0x168)]*0x3e8)[_0xc0ed29(0x138)](_0xc0ed29(0x158),{'timeStyle':_0xc0ed29(0x13c)}),_0x402095=new Date(_0x13bc35['sys'][_0xc0ed29(0x144)]*0x3e8)[_0xc0ed29(0x138)](_0xc0ed29(0x158),{'timeStyle':_0xc0ed29(0x13c)}),_0x55fd30=_0xc0ed29(0x14d)+(_0x235d27[_0xc0ed29(0x152)]||_0xc0ed29(0x145))+_0xc0ed29(0x156)+_0x5c8e4f+_0xc0ed29(0x15a)+_0x1fb7ee+'\x20'+_0x167f72+_0xc0ed29(0x14f)+_0x2be717+_0xc0ed29(0x167)+_0x489e6c+_0xc0ed29(0x13d)+_0x29666c+'\x0a├────────────────────\x0a├◉\x20*Mínima:*\x20'+_0x18fb50+_0xc0ed29(0x135)+_0x20269a+_0xc0ed29(0x16f)+_0x5c21f9+_0xc0ed29(0x169)+(_0x235d27['presion']?_0xc0ed29(0x15f)+_0x3e6c1e+_0xc0ed29(0x169):'')+_0xc0ed29(0x14c)+_0x1042c7+_0xc0ed29(0x16e)+_0x324aaf+'\x0a├────────────────────\x0a├◉\x20*Atardecer:*\x20'+_0x402095+'\x0a╰────────────────────';_0x32d6f6[_0xc0ed29(0x171)](_0x55fd30);}catch(_0x520cdd){console['error'](_0x520cdd);throw _0x235d27[_0xc0ed29(0x147)]||_0xc0ed29(0x137);}};handler[a0_0xd3c258(0x14a)]=[a0_0xd3c258(0x163)],handler[a0_0xd3c258(0x170)]=[a0_0xd3c258(0x160)],handler['command']=/^(clima|tiempo)$/i;function a0_0x4cb0(){const _0x272809=['tags','reply','193064xMQvPN','\x0a├────────────────────\x0a├◉\x20*Máxima:*\x20','weather','No\x20se\x20pudo\x20obtener\x20la\x20información\x20del\x20clima.\x20Verifica\x20el\x20nombre\x20de\x20la\x20ciudad\x20o\x20país.','toLocaleTimeString','pressure','\x20hPa','env','short','\x0a├────────────────────\x0a├◉\x20*Sensación\x20térmica:*\x20','errorNoCiudad','63AHNyau','6eizaam','542690SkEWYW','Por\x20favor\x20ingresa\x20el\x20nombre\x20de\x20una\x20ciudad\x20o\x20país.','readFileSync','sunset','CLIMA\x20ACTUAL','feels_like','errorBusqueda','655236YOQhhk','sys','help','language','├◉\x20*Viento:*\x20','╭────────────────────\x0a├◉\x20*','charCodeAt','\x0a├────────────────────\x0a├◉\x20*Condición:*\x20','060a6bcfa19809c2cd4d97a212b19273','metric','titulo','join','main','temp_min','*\x0a├────────────────────\x0a├◉\x20*Ciudad:*\x20','892704WnqHde','es-ES','description','\x0a├────────────────────\x0a├◉\x20*País:*\x20','8966iyESXx','users','humidity','./language/','├◉\x20*Presión:*\x20','tools','sender','1171485UxwVtO','clima\x20*<ciudad/país>*','map','9NyqBMZ','https://api.openweathermap.org/data/2.5/weather','\x0a├────────────────────\x0a├◉\x20*Temperatura:*\x20','sunrise','\x0a├────────────────────\x0a','2082278FkuFwT','.json','speed','26rLgGqF','\x0a├────────────────────\x0a├◉\x20*Amanecer:*\x20','\x0a├────────────────────\x0a├◉\x20*Humedad:*\x20'];a0_0x4cb0=function(){return _0x272809;};return a0_0x4cb0();}export default handler;
+import axios from 'axios';
+import fs from 'fs';
+
+const API_KEY = process.env.OPENWEATHER_API_KEY || '060a6bcfa19809c2cd4d97a212b19273';
+
+function getFlagEmoji(countryCode) {
+  return countryCode
+    .toUpperCase()
+    .split('')
+    .map(letter => String.fromCodePoint(127397 + letter.charCodeAt()))
+    .join('');
+}
+
+const handler = async (m, { args }) => {
+  const datas = global;
+  const idioma = datas.db.data.users[m.sender].language;
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`));
+  const tradutor = _translate.plugins.herramientas_clima;
+
+  if (!args[0]) throw tradutor.errorNoCiudad || 'Por favor ingresa el nombre de una ciudad o país.';
+
+  try {
+    const response = await axios.get('https://api.openweathermap.org/data/2.5/weather', {
+      params: {
+        q: args.join(' '),
+        units: 'metric',
+        appid: API_KEY,
+        lang: idioma
+      }
+    });
+    const res = response.data;
+
+    const name = res.name;
+    const country = res.sys.country;
+    const flagEmoji = getFlagEmoji(country);
+    const weatherDesc = res.weather[0].description;
+    const temperature = res.main.temp + '°C';
+    const feelsLike = res.main.feels_like + '°C';
+    const tempMin = res.main.temp_min + '°C';
+    const tempMax = res.main.temp_max + '°C';
+    const humidity = res.main.humidity + '%';
+    const pressure = res.main.pressure + ' hPa';
+    const wind = res.wind.speed + ' km/h';
+    const sunrise = new Date(res.sys.sunrise * 1000).toLocaleTimeString('es-ES', { timeStyle: 'short' });
+    const sunset = new Date(res.sys.sunset * 1000).toLocaleTimeString('es-ES', { timeStyle: 'short' });
+
+    const message = 
+`╭────────────────────
+├◉ *${tradutor.titulo || 'CLIMA ACTUAL'}*
+├────────────────────
+├◉ *Ciudad:* ${name}
+├────────────────────
+├◉ *País:* ${flagEmoji} ${country}
+├────────────────────
+├◉ *Condición:* ${weatherDesc}
+├────────────────────
+├◉ *Temperatura:* ${temperature}
+├────────────────────
+├◉ *Sensación térmica:* ${feelsLike}
+├────────────────────
+├◉ *Mínima:* ${tempMin}
+├────────────────────
+├◉ *Máxima:* ${tempMax}
+├────────────────────
+├◉ *Humedad:* ${humidity}
+├────────────────────
+${tradutor.presion ? `├◉ *Presión:* ${pressure}\n├────────────────────\n` : ''}├◉ *Viento:* ${wind}
+├────────────────────
+├◉ *Amanecer:* ${sunrise}
+├────────────────────
+├◉ *Atardecer:* ${sunset}
+╰────────────────────`;
+
+    m.reply(message);
+  } catch (error) {
+    console.error(error);
+    throw tradutor.errorBusqueda || 'No se pudo obtener la información del clima. Verifica el nombre de la ciudad o país.';
+  }
+};
+
+handler.help = ['clima *<ciudad/país>*'];
+handler.tags = ['tools'];
+handler.command = /^(clima|tiempo)$/i;
+export default handler;

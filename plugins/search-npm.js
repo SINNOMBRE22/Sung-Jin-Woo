@@ -1,1 +1,42 @@
-function a0_0x2cca(_0x29502a,_0x4404a9){const _0x2ca0a4=a0_0x2ca0();return a0_0x2cca=function(_0x2cca0f,_0x76c500){_0x2cca0f=_0x2cca0f-0x155;let _0x221b5e=_0x2ca0a4[_0x2cca0f];return _0x221b5e;},a0_0x2cca(_0x29502a,_0x4404a9);}const a0_0x4544e0=a0_0x2cca;(function(_0x3f92fa,_0x4734ba){const _0x429fb7=a0_0x2cca,_0x3c3b6d=_0x3f92fa();while(!![]){try{const _0x547ba4=-parseInt(_0x429fb7(0x16b))/0x1+parseInt(_0x429fb7(0x177))/0x2*(-parseInt(_0x429fb7(0x179))/0x3)+-parseInt(_0x429fb7(0x160))/0x4*(-parseInt(_0x429fb7(0x16f))/0x5)+-parseInt(_0x429fb7(0x159))/0x6*(-parseInt(_0x429fb7(0x175))/0x7)+-parseInt(_0x429fb7(0x16d))/0x8+parseInt(_0x429fb7(0x173))/0x9+parseInt(_0x429fb7(0x15b))/0xa*(parseInt(_0x429fb7(0x155))/0xb);if(_0x547ba4===_0x4734ba)break;else _0x3c3b6d['push'](_0x3c3b6d['shift']());}catch(_0xfbe923){_0x3c3b6d['push'](_0x3c3b6d['shift']());}}}(a0_0x2ca0,0xac349));import a0_0x3f5873 from'node-fetch';let handler=async(_0x64dc9c,{text:_0x4c5186,conn:_0x1ac8b0,usedPrefix:_0x1493e0,command:_0x5773b2})=>{const _0x140bfc=a0_0x2cca;if(!_0x4c5186)return _0x64dc9c[_0x140bfc(0x158)](_0x140bfc(0x167)+(_0x1493e0+_0x5773b2)+_0x140bfc(0x170));try{let _0x3dc716=await a0_0x3f5873(_0x140bfc(0x15e)+encodeURIComponent(_0x4c5186)+_0x140bfc(0x157)),_0x4e97cc=await _0x3dc716[_0x140bfc(0x164)](),{objects:_0x2d33f7}=_0x4e97cc;if(!_0x2d33f7[_0x140bfc(0x15c)])return _0x64dc9c[_0x140bfc(0x158)](_0x140bfc(0x16e)+_0x4c5186+'\x22');let _0xee12fe='./src/npm.png',_0x55d148=_0x140bfc(0x168);for(let {package:_0x16f51a}of _0x2d33f7){_0x55d148+=_0x140bfc(0x163)+_0x16f51a[_0x140bfc(0x161)]+'\x0a',_0x55d148+=_0x140bfc(0x169)+(_0x16f51a[_0x140bfc(0x15f)]||'Desconocida')+'\x0a',_0x55d148+=_0x140bfc(0x178)+(_0x16f51a[_0x140bfc(0x16c)]||_0x140bfc(0x176))+'\x0a',_0x55d148+=_0x140bfc(0x166)+_0x16f51a['links'][_0x140bfc(0x15d)]+'\x0a',_0x55d148+=_0x140bfc(0x16a);}await _0x1ac8b0[_0x140bfc(0x162)](_0x64dc9c['chat'],{'image':{'url':_0xee12fe},'caption':_0x55d148},{'quoted':_0x64dc9c});}catch(_0x40cc21){console[_0x140bfc(0x172)](_0x40cc21),_0x64dc9c[_0x140bfc(0x158)]('[❗]\x20Ocurrió\x20un\x20error\x20al\x20buscar\x20en\x20NPMJS.\x20Inténtalo\x20más\x20tarde.');}};function a0_0x2ca0(){const _0x584ef7=['🔹\x20*Nombre:*\x20','json','tags','🔹\x20*Enlace:*\x20','*[❗]\x20INGRESA\x20EL\x20TÍTULO\x20DE\x20UN\x20MÓDULO\x20O\x20COMPLEMENTO\x20DE\x20LA\x20PLATAFORMA\x20NPMJS*\x0a\x0a*Ejemplo:*\x0a','*[\x20📦\x20Resultados\x20de\x20búsqueda\x20en\x20NPMJS\x20]*\x0a\x0a','🔹\x20*Versión:*\x20','────────────────────\x0a','737515UvsRwi','description','8774232MzhCqf','*[❗]\x20No\x20se\x20encontraron\x20resultados\x20para:*\x20\x22','1135xyqCdg','\x20axios','search','error','3466260lulDzE','command','2548xXzfHw','Sin\x20información','163746bmOPQZ','🔹\x20*Descripción:*\x20','15DBhboj','5753ECmWlK','help','&size=5','reply','8202sFqHkN','npmjs\x20<paquete>','21370tOZJzH','length','npm','https://registry.npmjs.com/-/v1/search?text=','version','16716Veeqal','name','sendMessage'];a0_0x2ca0=function(){return _0x584ef7;};return a0_0x2ca0();}handler[a0_0x4544e0(0x156)]=[a0_0x4544e0(0x15a)],handler[a0_0x4544e0(0x165)]=[a0_0x4544e0(0x171)],handler[a0_0x4544e0(0x174)]=/^npmjs$/i;export default handler;
+// Código mejorado por: CrisCode
+
+import fetch from 'node-fetch';
+
+let handler = async (m, { text, conn, usedPrefix, command }) => {
+  if (!text) {
+    return m.reply(`*[❗] INGRESA EL TÍTULO DE UN MÓDULO O COMPLEMENTO DE LA PLATAFORMA NPMJS*\n\n*Ejemplo:*\n${usedPrefix + command} axios`);
+  }
+
+  try {
+    let res = await fetch(`https://registry.npmjs.com/-/v1/search?text=${encodeURIComponent(text)}&size=5`);
+    let json = await res.json();
+    let { objects } = json;
+
+    if (!objects.length) {
+      return m.reply(`*[❗] No se encontraron resultados para:* "${text}"`);
+    }
+
+    let npmpp = './src/npm.png'; // Ruta local de tu imagen
+    let resultText = `*[ 📦 Resultados de búsqueda en NPMJS ]*\n\n`;
+
+    for (let { package: pkg } of objects) {
+      resultText += `🔹 *Nombre:* ${pkg.name}\n`;
+      resultText += `🔹 *Versión:* ${pkg.version || 'Desconocida'}\n`;
+      resultText += `🔹 *Descripción:* ${pkg.description || 'Sin información'}\n`;
+      resultText += `🔹 *Enlace:* ${pkg.links.npm}\n`;
+      resultText += `────────────────────\n`;
+    }
+
+    await conn.sendMessage(m.chat, { image: { url: npmpp }, caption: resultText }, { quoted: m });
+
+  } catch (e) {
+    console.error(e);
+    m.reply('[❗] Ocurrió un error al buscar en NPMJS. Inténtalo más tarde.');
+  }
+};
+
+handler.help = ['npmjs <paquete>'];
+handler.tags = ['search'];
+handler.command = /^npmjs$/i;
+
+export default handler;

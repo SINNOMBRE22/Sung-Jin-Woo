@@ -1,1 +1,53 @@
-const a0_0x5ed59c=a0_0x5883;function a0_0x103b(){const _0x10b5d6=['includes','61376HmLQQM','groupMetadata','admin','3510366jerXyc','@s.whatsapp.net','8119881mjwNtp','sender','owner','340462StRubA','endsWith','⚠️\x20*¡Este\x20comando\x20solo\x20funciona\x20en\x20grupos!*','groupParticipantsUpdate','2792985NoBNUE','8472728HQJkOi','⚠️\x20*¡YA\x20ERES\x20ADMINISTRADOR\x20AQUÍ!*','2JAYiwl','chat','command','user','botAdmin','group','promote','Error\x20en\x20comando\x20monarca:','sendMessage','❌\x20*ERROR:*\x20','Falló\x20la\x20promoción.\x20Revisa\x20los\x20logs.','6669306vuVpBk','jid','find','❌\x20*¡SOLO\x20MI\x20CREADOR\x20PUEDE\x20USAR\x20ESTE\x20COMANDO!*','monarca','participants','✅\x20*¡LISTO,\x20EL\x20ARQUITECTO!\x20AHORA\x20ERES\x20ADMINISTRADOR.*'];a0_0x103b=function(){return _0x10b5d6;};return a0_0x103b();}function a0_0x5883(_0x3ef03f,_0x23ef73){const _0x103b3b=a0_0x103b();return a0_0x5883=function(_0x5883c9,_0x577134){_0x5883c9=_0x5883c9-0x10b;let _0x187e4d=_0x103b3b[_0x5883c9];return _0x187e4d;},a0_0x5883(_0x3ef03f,_0x23ef73);}(function(_0x49d125,_0x2cb6b4){const _0xa2aac2=a0_0x5883,_0x4c7fa0=_0x49d125();while(!![]){try{const _0x4f0465=parseInt(_0xa2aac2(0x10d))/0x1+-parseInt(_0xa2aac2(0x114))/0x2*(-parseInt(_0xa2aac2(0x12a))/0x3)+parseInt(_0xa2aac2(0x127))/0x4+parseInt(_0xa2aac2(0x111))/0x5+-parseInt(_0xa2aac2(0x11f))/0x6+-parseInt(_0xa2aac2(0x12c))/0x7+parseInt(_0xa2aac2(0x112))/0x8;if(_0x4f0465===_0x2cb6b4)break;else _0x4c7fa0['push'](_0x4c7fa0['shift']());}catch(_0x48ec89){_0x4c7fa0['push'](_0x4c7fa0['shift']());}}}(a0_0x103b,0xd4e92));const handler=async(_0x322f3f,{conn:_0x39492d})=>{const _0x87cd70=a0_0x5883,_0x33c4a9=_0x26149d=>_0x26149d[_0x87cd70(0x10e)](_0x87cd70(0x12b))?_0x26149d:_0x26149d+_0x87cd70(0x12b);try{if(!_0x322f3f['isGroup'])return _0x39492d[_0x87cd70(0x11c)](_0x322f3f[_0x87cd70(0x115)],{'text':_0x87cd70(0x10f)},{'quoted':_0x322f3f});const _0x6c3c45=_0x33c4a9(_0x322f3f[_0x87cd70(0x10b)]),_0x4fede2=global[_0x87cd70(0x10c)]['map'](([_0x34c0c1])=>_0x33c4a9(_0x34c0c1)),_0x2f239f=_0x4fede2[_0x87cd70(0x126)](_0x6c3c45);if(!_0x2f239f)return _0x39492d[_0x87cd70(0x11c)](_0x322f3f[_0x87cd70(0x115)],{'text':_0x87cd70(0x122)},{'quoted':_0x322f3f});const _0x3f95ff=await _0x39492d[_0x87cd70(0x128)](_0x322f3f[_0x87cd70(0x115)]),_0x3bfe11=_0x3f95ff[_0x87cd70(0x124)][_0x87cd70(0x121)](_0x8436b=>_0x8436b['id']===_0x39492d[_0x87cd70(0x117)][_0x87cd70(0x120)])?.[_0x87cd70(0x129)];if(!_0x3bfe11)return _0x39492d[_0x87cd70(0x11c)](_0x322f3f[_0x87cd70(0x115)],{'text':'⚠️\x20*¡PRIMERO\x20DEBO\x20SER\x20ADMINISTRADOR\x20DEL\x20GRUPO!'},{'quoted':_0x322f3f});const _0x1dbb11=_0x3f95ff['participants'][_0x87cd70(0x121)](_0x1d5612=>_0x1d5612['id']===_0x6c3c45)?.['admin'];if(_0x1dbb11)return _0x39492d[_0x87cd70(0x11c)](_0x322f3f['chat'],{'text':_0x87cd70(0x113)},{'quoted':_0x322f3f});await _0x39492d[_0x87cd70(0x110)](_0x322f3f['chat'],[_0x6c3c45],_0x87cd70(0x11a)),_0x39492d[_0x87cd70(0x11c)](_0x322f3f[_0x87cd70(0x115)],{'text':_0x87cd70(0x125)},{'quoted':_0x322f3f});}catch(_0xef8e31){console['error'](_0x87cd70(0x11b),_0xef8e31),_0x39492d[_0x87cd70(0x11c)](_0x322f3f[_0x87cd70(0x115)],{'text':_0x87cd70(0x11d)+(_0xef8e31['message']||_0x87cd70(0x11e))},{'quoted':_0x322f3f});}};handler[a0_0x5ed59c(0x116)]=['hazmeadmin',a0_0x5ed59c(0x123)],handler[a0_0x5ed59c(0x119)]=!![],handler[a0_0x5ed59c(0x118)]=!![],handler[a0_0x5ed59c(0x10c)]=!![];export default handler;
+// plugins/hazmeadmin.js
+const handler = async (m, { conn }) => {
+  // Función para validar JID
+  const formatJID = (num) => num.endsWith('@s.whatsapp.net') ? num : num + '@s.whatsapp.net';
+
+  try {
+    // Validar si el comando se usa en grupo
+    if (!m.isGroup) {
+      return conn.sendMessage(m.chat, { text: '⚠️ *¡Este comando solo funciona en grupos!*' }, { quoted: m });
+    }
+
+    // Obtener JID del remitente y owners
+    const senderJID = formatJID(m.sender);
+    const owners = global.owner.map(([num]) => formatJID(num));
+    const isOwner = owners.includes(senderJID);
+
+    // Si no es owner, rechazar
+    if (!isOwner) {
+      return conn.sendMessage(m.chat, { text: '❌ *¡SOLO MI CREADOR PUEDE USAR ESTE COMANDO!*' }, { quoted: m });
+    }
+
+    // Verificar si el bot es admin
+    const groupData = await conn.groupMetadata(m.chat);
+    const botAdmin = groupData.participants.find(p => p.id === conn.user.jid)?.admin;
+    if (!botAdmin) {
+      return conn.sendMessage(m.chat, { text: '⚠️ *¡PRIMERO DEBO SER ADMINISTRADOR DEL GRUPO!' }, { quoted: m });
+    }
+
+    // Verificar si el usuario ya es admin
+    const userAdmin = groupData.participants.find(p => p.id === senderJID)?.admin;
+    if (userAdmin) {
+      return conn.sendMessage(m.chat, { text: '⚠️ *¡YA ERES ADMINISTRADOR AQUÍ!*' }, { quoted: m });
+    }
+
+    // Promover a admin
+    await conn.groupParticipantsUpdate(m.chat, [senderJID], 'promote');
+    conn.sendMessage(m.chat, { text: '✅ *¡LISTO, EL ARQUITECTO! AHORA ERES ADMINISTRADOR.*' }, { quoted: m });
+
+  } catch (e) {
+    console.error('Error en comando monarca:', e);
+    conn.sendMessage(m.chat, { 
+      text: `❌ *ERROR:* ${e.message || 'Falló la promoción. Revisa los logs.'}` 
+    }, { quoted: m });
+  }
+};
+
+// Configuración
+handler.command = ['hazmeadmin', 'monarca'];
+handler.group = true;
+handler.botAdmin = true;
+handler.owner = true;
+
+export default handler;

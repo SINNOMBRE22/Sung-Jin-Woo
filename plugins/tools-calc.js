@@ -1,1 +1,44 @@
-const a0_0xf3e798=a0_0x1c81;function a0_0x1915(){const _0x4a7e63=['replace','3BFfMDA','herramientas_calc','tools','6qzakmp','1197402Nhsilv','texto2','9360870ThWqTc','tags','exp','return\x20','texto3','command','math','parse','./language/','Math.E','21QayjZY','users','2438312VIfbIZ','80455DMKAfI','data','texto1','.json','reply','sender','454876EAomwl','calc\x20<expression>','9560844eIgiIj','2780664cQahyM'];a0_0x1915=function(){return _0x4a7e63;};return a0_0x1915();}(function(_0x479480,_0x5a4f5f){const _0xbf5338=a0_0x1c81,_0x3e7d74=_0x479480();while(!![]){try{const _0x3c407b=parseInt(_0xbf5338(0x161))/0x1+-parseInt(_0xbf5338(0x16a))/0x2*(-parseInt(_0xbf5338(0x166))/0x3)+parseInt(_0xbf5338(0x164))/0x4+-parseInt(_0xbf5338(0x179))/0x5*(-parseInt(_0xbf5338(0x169))/0x6)+parseInt(_0xbf5338(0x176))/0x7*(-parseInt(_0xbf5338(0x178))/0x8)+-parseInt(_0xbf5338(0x163))/0x9+parseInt(_0xbf5338(0x16c))/0xa;if(_0x3c407b===_0x5a4f5f)break;else _0x3e7d74['push'](_0x3e7d74['shift']());}catch(_0x5db098){_0x3e7d74['push'](_0x3e7d74['shift']());}}}(a0_0x1915,0xb0d0e));const handler=async(_0x5905a0,{conn:_0x4b2d8f,text:_0x58f341})=>{const _0x3cafcb=a0_0x1c81,_0x5c1da5=global,_0x38f0c5=_0x5c1da5['db'][_0x3cafcb(0x15c)][_0x3cafcb(0x177)][_0x5905a0[_0x3cafcb(0x160)]]['language'],_0x3f2133=JSON[_0x3cafcb(0x173)](fs['readFileSync'](_0x3cafcb(0x174)+_0x38f0c5+_0x3cafcb(0x15e))),_0x384cb0=_0x3f2133['plugins'][_0x3cafcb(0x167)],_0x17b2b5=_0x5905a0['chat'];_0x4b2d8f[_0x3cafcb(0x172)]=_0x4b2d8f[_0x3cafcb(0x172)]?_0x4b2d8f['math']:{};_0x17b2b5 in _0x4b2d8f['math']&&(clearTimeout(_0x4b2d8f[_0x3cafcb(0x172)][_0x17b2b5][0x3]),delete _0x4b2d8f[_0x3cafcb(0x172)][_0x17b2b5],_0x5905a0[_0x3cafcb(0x15f)](_0x384cb0[_0x3cafcb(0x16b)]));const _0x57d4fd=_0x58f341['replace'](/[^0-9\-\/+*×÷πEe()piPI/]/g,'')[_0x3cafcb(0x165)](/×/g,'*')[_0x3cafcb(0x165)](/÷/g,'/')[_0x3cafcb(0x165)](/π|pi/gi,'Math.PI')['replace'](/e/gi,_0x3cafcb(0x175))[_0x3cafcb(0x165)](/\/+/g,'/')[_0x3cafcb(0x165)](/\++/g,'+')['replace'](/-+/g,'-'),_0x29957e=_0x57d4fd[_0x3cafcb(0x165)](/Math\.PI/g,'π')[_0x3cafcb(0x165)](/Math\.E/g,'e')[_0x3cafcb(0x165)](/\//g,'÷')[_0x3cafcb(0x165)](/\*×/g,'×');try{console['log'](_0x57d4fd);const _0xcfeeda=new Function(_0x3cafcb(0x16f)+_0x57d4fd)();if(!_0xcfeeda)throw _0xcfeeda;_0x5905a0[_0x3cafcb(0x15f)]('*'+_0x29957e+'*\x20=\x20_'+_0xcfeeda+'_');}catch(_0x1492be){if(_0x1492be==undefined)throw _0x384cb0[_0x3cafcb(0x15d)];throw _0x384cb0[_0x3cafcb(0x170)];}};function a0_0x1c81(_0x2c2a28,_0x4f64c2){const _0x19159a=a0_0x1915();return a0_0x1c81=function(_0x1c813e,_0x27b421){_0x1c813e=_0x1c813e-0x15c;let _0x53b3ca=_0x19159a[_0x1c813e];return _0x53b3ca;},a0_0x1c81(_0x2c2a28,_0x4f64c2);}handler['help']=[a0_0xf3e798(0x162)],handler[a0_0xf3e798(0x16d)]=[a0_0xf3e798(0x168)],handler[a0_0xf3e798(0x171)]=/^(calc(ulat(e|or))?|kalk(ulator)?)$/i,handler[a0_0xf3e798(0x16e)]=0x5;export default handler;
+
+
+const handler = async (m, {conn, text}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.herramientas_calc
+
+  const id = m.chat;
+  conn.math = conn.math ? conn.math : {};
+  if (id in conn.math) {
+    clearTimeout(conn.math[id][3]);
+    delete conn.math[id];
+    m.reply(tradutor.texto2);
+  }
+  const val = text
+      .replace(/[^0-9\-\/+*×÷πEe()piPI/]/g, '')
+      .replace(/×/g, '*')
+      .replace(/÷/g, '/')
+      .replace(/π|pi/gi, 'Math.PI')
+      .replace(/e/gi, 'Math.E')
+      .replace(/\/+/g, '/')
+      .replace(/\++/g, '+')
+      .replace(/-+/g, '-');
+  const format = val
+      .replace(/Math\.PI/g, 'π')
+      .replace(/Math\.E/g, 'e')
+      .replace(/\//g, '÷')
+      .replace(/\*×/g, '×');
+  try {
+    console.log(val);
+    const result = (new Function('return ' + val))();
+    if (!result) throw result;
+    m.reply(`*${format}* = _${result}_`);
+  } catch (e) {
+    if (e == undefined) throw tradutor.texto1;
+    throw tradutor.texto3;
+  }
+};
+handler.help = ['calc <expression>'];
+handler.tags = ['tools'];
+handler.command = /^(calc(ulat(e|or))?|kalk(ulator)?)$/i;
+handler.exp = 5;
+export default handler;

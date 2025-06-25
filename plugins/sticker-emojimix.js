@@ -1,1 +1,34 @@
-const a0_0x12fa71=a0_0x151e;(function(_0x444330,_0x3faa48){const _0x5af499=a0_0x151e,_0x26c38d=_0x444330();while(!![]){try{const _0x1ca507=-parseInt(_0x5af499(0xee))/0x1+-parseInt(_0x5af499(0xdd))/0x2*(-parseInt(_0x5af499(0xf1))/0x3)+-parseInt(_0x5af499(0xe1))/0x4*(parseInt(_0x5af499(0xd9))/0x5)+-parseInt(_0x5af499(0xe3))/0x6*(parseInt(_0x5af499(0xfa))/0x7)+-parseInt(_0x5af499(0xe4))/0x8*(-parseInt(_0x5af499(0xf4))/0x9)+parseInt(_0x5af499(0xf6))/0xa*(-parseInt(_0x5af499(0xe7))/0xb)+-parseInt(_0x5af499(0xe2))/0xc*(-parseInt(_0x5af499(0xe8))/0xd);if(_0x1ca507===_0x3faa48)break;else _0x26c38d['push'](_0x26c38d['shift']());}catch(_0x32d485){_0x26c38d['push'](_0x26c38d['shift']());}}}(a0_0x5735,0xef1fe));import{sticker}from'../lib/sticker.js';import a0_0x248f4c from'@whiskeysockets/baileys';import a0_0x3657bf from'node-fetch';function a0_0x5735(){const _0x367f3f=['324nFPGVX','6YpliCw','5232536bggiCA','help','chat','561HOXZTT','1627353LxMGAR','fun','users','sender','readFileSync','\x20emot1|emot2>','85565edqaRl','sticker_emojimix','results','17385pvcwXw','catch','command','9joZIzr','tags','305250SSPpjr','texto1','./language/','emojimix','4489786GWtaQy','json','then','2515wBvKSy','map','author','parse','160KVwofs','plugins','data','packname','9816QJBgEc'];a0_0x5735=function(){return _0x367f3f;};return a0_0x5735();}import a0_0x563d9a from'fs';function a0_0x151e(_0x41319b,_0x145bac){const _0x5735aa=a0_0x5735();return a0_0x151e=function(_0x151e23,_0x1af9c5){_0x151e23=_0x151e23-0xd7;let _0x4c329b=_0x5735aa[_0x151e23];return _0x4c329b;},a0_0x151e(_0x41319b,_0x145bac);}const handler=async(_0x2b97ff,{conn:_0x3213cb,text:_0x58fa0a,args:_0xeb9502})=>{const _0x71c624=a0_0x151e,_0x35cdf5=global,_0xd54467=_0x35cdf5['db'][_0x71c624(0xdf)][_0x71c624(0xea)][_0x2b97ff[_0x71c624(0xeb)]]['language'],_0x28b064=JSON[_0x71c624(0xdc)](a0_0x563d9a[_0x71c624(0xec)](_0x71c624(0xf8)+_0xd54467+'.json')),_0x141e95=_0x28b064[_0x71c624(0xde)][_0x71c624(0xef)];if(!_0xeb9502[0x0])throw _0x141e95[_0x71c624(0xf7)];const [_0x222ab0,_0x14b294]=_0x58fa0a['split']`&`,_0x4794b8=await fetchJson('https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q='+encodeURIComponent(_0x222ab0)+'_'+encodeURIComponent(_0x14b294));for(const _0x10a4f4 of _0x4794b8[_0x71c624(0xf0)]){const _0x467b40=await sticker(![],_0x10a4f4['url'],global[_0x71c624(0xe0)],global[_0x71c624(0xdb)]);_0x3213cb['sendFile'](_0x2b97ff[_0x71c624(0xe6)],_0x467b40,null,{'asSticker':!![]});}};handler[a0_0x12fa71(0xe5)]=[a0_0x12fa71(0xf9)][a0_0x12fa71(0xda)](_0x3a2a58=>_0x3a2a58+a0_0x12fa71(0xed)),handler[a0_0x12fa71(0xf5)]=[a0_0x12fa71(0xe9)],handler[a0_0x12fa71(0xf3)]=/^(emojimix)$/i;export default handler;const fetchJson=(_0x3a9eb9,_0x21e022)=>new Promise(async(_0x46267d,_0x54434a)=>{const _0x4dfe8a=a0_0x12fa71;a0_0x3657bf(_0x3a9eb9,_0x21e022)[_0x4dfe8a(0xd8)](_0x1312ec=>_0x1312ec[_0x4dfe8a(0xd7)]())['then'](_0x42546d=>{_0x46267d(_0x42546d);})[_0x4dfe8a(0xf2)](_0x2b7471=>{_0x54434a(_0x2b7471);});});
+import {sticker} from '../lib/sticker.js';
+import MessageType from '@whiskeysockets/baileys';
+import fetch from 'node-fetch';
+import fs from 'fs';
+
+
+const handler = async (m, {conn, text, args}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.sticker_emojimix
+
+  if (!args[0]) throw tradutor.texto1;
+  const [emoji1, emoji2] = text.split`&`;
+  const anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`);
+  for (const res of anu.results) {
+    const stiker = await sticker(false, res.url, global.packname, global.author);
+    conn.sendFile(m.chat, stiker, null, {asSticker: true});
+  }
+};
+handler.help = ['emojimix'].map((v) => v + ' emot1|emot2>');
+handler.tags = ['fun'];
+handler.command = /^(emojimix)$/i;
+export default handler;
+const fetchJson = (url, options) => new Promise(async (resolve, reject) => {
+  fetch(url, options)
+      .then((response) => response.json())
+      .then((json) => {
+        resolve(json);
+      })
+      .catch((err) => {
+        reject(err);
+      });
+});

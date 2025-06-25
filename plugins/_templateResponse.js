@@ -1,1 +1,211 @@
-function a0_0x3f43(_0x1f7d37,_0x4eea16){const _0xb5dd2b=a0_0xb5dd();return a0_0x3f43=function(_0x3f4325,_0x2b1d79){_0x3f4325=_0x3f4325-0x1e4;let _0x31dd4a=_0xb5dd2b[_0x3f4325];return _0x31dd4a;},a0_0x3f43(_0x1f7d37,_0x4eea16);}const a0_0x52eb4c=a0_0x3f43;function a0_0xb5dd(){const _0x2c05fd=['messages.upsert','parse','some','2903zmVPtr','selectedId','isBaileys','paramsJson','singleSelectReply','plugins','disabled','test','templateButtonReplyMessage','interactiveResponseMessage','nativeFlowResponseMessage','prefix','function','\x5c$&','map','key','fakeObj','29634IcACMX','5283279RqXnMf','trim','includes','split','14SSpvCd','toLowerCase','40393080wmfclR','message','selectedButtonId','find','append','WebMessageInfo','command','filter','buttonsResponseMessage','customPrefix','isArray','tags','400WFwKtR','5881200qsnFkm','5067976dPuKBe','title','selectedDisplayText','string','quoted','listResponseMessage','fromMe','emit','default','275FWbCZg','@whiskeysockets/baileys','conn','user','exec','participant','replace','1321245RQnzFE','chat','fromObject'];a0_0xb5dd=function(){return _0x2c05fd;};return a0_0xb5dd();}(function(_0x4195fd,_0x460a98){const _0x484ad5=a0_0x3f43,_0x26e71b=_0x4195fd();while(!![]){try{const _0x11d239=-parseInt(_0x484ad5(0x1fc))/0x1*(-parseInt(_0x484ad5(0x1e4))/0x2)+parseInt(_0x484ad5(0x20e))/0x3+parseInt(_0x484ad5(0x1e5))/0x4+-parseInt(_0x484ad5(0x1ef))/0x5*(parseInt(_0x484ad5(0x20d))/0x6)+-parseInt(_0x484ad5(0x212))/0x7*(-parseInt(_0x484ad5(0x1e6))/0x8)+parseInt(_0x484ad5(0x1f6))/0x9+-parseInt(_0x484ad5(0x214))/0xa;if(_0x11d239===_0x460a98)break;else _0x26e71b['push'](_0x26e71b['shift']());}catch(_0x341657){_0x26e71b['push'](_0x26e71b['shift']());}}}(a0_0xb5dd,0xdf597));const {proto,generateWAMessage,areJidsSameUser,decryptPollVote}=(await import(a0_0x52eb4c(0x1f0)))[a0_0x52eb4c(0x1ee)];export async function all(_0x129ca7,_0x3de4b4){const _0x195961=a0_0x52eb4c;if(_0x129ca7[_0x195961(0x1fe)])return;if(!_0x129ca7[_0x195961(0x215)])return;if(!(_0x129ca7[_0x195961(0x215)]['buttonsResponseMessage']||_0x129ca7[_0x195961(0x215)][_0x195961(0x204)]||_0x129ca7[_0x195961(0x215)]['listResponseMessage']||_0x129ca7[_0x195961(0x215)][_0x195961(0x205)]))return;let _0x459958;if(_0x129ca7[_0x195961(0x215)][_0x195961(0x21c)])_0x459958=_0x129ca7[_0x195961(0x215)][_0x195961(0x21c)][_0x195961(0x216)];else{if(_0x129ca7[_0x195961(0x215)]['templateButtonReplyMessage'])_0x459958=_0x129ca7[_0x195961(0x215)]['templateButtonReplyMessage'][_0x195961(0x1fd)];else{if(_0x129ca7[_0x195961(0x215)][_0x195961(0x1eb)])_0x459958=_0x129ca7['message'][_0x195961(0x1eb)][_0x195961(0x200)]?.['selectedRowId'];else _0x129ca7[_0x195961(0x215)][_0x195961(0x205)]&&(_0x459958=JSON[_0x195961(0x1fa)](_0x129ca7['message']['interactiveResponseMessage'][_0x195961(0x206)][_0x195961(0x1ff)])['id']);}}const _0x3eb196=_0x129ca7[_0x195961(0x215)]['buttonsResponseMessage']?.[_0x195961(0x1e8)]||_0x129ca7['message']['templateButtonReplyMessage']?.[_0x195961(0x1e8)]||_0x129ca7[_0x195961(0x215)]['listResponseMessage']?.[_0x195961(0x1e7)];let _0x5c91eb=![],_0x3a79a9;for(const _0xeea2c2 in global[_0x195961(0x201)]){const _0x12bd2f=global[_0x195961(0x201)][_0xeea2c2];if(!_0x12bd2f)continue;if(_0x12bd2f[_0x195961(0x202)])continue;if(!opts['restrict']){if(_0x12bd2f[_0x195961(0x21f)]&&_0x12bd2f[_0x195961(0x21f)][_0x195961(0x210)]('admin'))continue;}if(typeof _0x12bd2f!==_0x195961(0x208))continue;if(!_0x12bd2f['command'])continue;const _0x3670fd=_0x830cd8=>_0x830cd8[_0x195961(0x1f5)](/[|\\{}()[\]^$+*?.]/g,_0x195961(0x209)),_0x3de811=_0x12bd2f[_0x195961(0x21d)]?_0x12bd2f[_0x195961(0x21d)]:this['prefix']?this[_0x195961(0x207)]:global[_0x195961(0x207)],_0x2b555f=(_0x3de811 instanceof RegExp?[[_0x3de811['exec'](_0x459958),_0x3de811]]:Array[_0x195961(0x21e)](_0x3de811)?_0x3de811[_0x195961(0x20a)](_0x5da53c=>{const _0x2cb5e5=_0x195961,_0x5401d5=_0x5da53c instanceof RegExp?_0x5da53c:new RegExp(_0x3670fd(_0x5da53c));return[_0x5401d5[_0x2cb5e5(0x1f3)](_0x459958),_0x5401d5];}):typeof _0x3de811==='string'?[[new RegExp(_0x3670fd(_0x3de811))[_0x195961(0x1f3)](_0x459958),new RegExp(_0x3670fd(_0x3de811))]]:[[[],new RegExp()]])[_0x195961(0x217)](_0x41c92d=>_0x41c92d[0x1]);if(_0x3a79a9=(_0x2b555f[0x0]||'')[0x0]){const _0x117ba9=_0x459958[_0x195961(0x1f5)](_0x3a79a9,'');let [_0x163f91]=_0x117ba9[_0x195961(0x20f)]()[_0x195961(0x211)]` `[_0x195961(0x21b)](_0x3c3a34=>_0x3c3a34);_0x163f91=(_0x163f91||'')[_0x195961(0x213)]();const _0x37be7b=_0x12bd2f[_0x195961(0x21a)]instanceof RegExp?_0x12bd2f[_0x195961(0x21a)][_0x195961(0x203)](_0x163f91):Array['isArray'](_0x12bd2f['command'])?_0x12bd2f[_0x195961(0x21a)][_0x195961(0x1fb)](_0x1fe731=>_0x1fe731 instanceof RegExp?_0x1fe731['test'](_0x163f91):_0x1fe731===_0x163f91):typeof _0x12bd2f[_0x195961(0x21a)]===_0x195961(0x1e9)?_0x12bd2f['command']===_0x163f91:![];if(!_0x37be7b)continue;_0x5c91eb=!![];}}const _0x589914=await generateWAMessage(_0x129ca7[_0x195961(0x1f7)],{'text':_0x5c91eb?_0x459958:_0x3eb196,'mentions':_0x129ca7['mentionedJid']},{'userJid':this[_0x195961(0x1f2)]['id'],'quoted':_0x129ca7[_0x195961(0x1ea)]&&_0x129ca7['quoted'][_0x195961(0x20c)]});_0x589914[_0x195961(0x20b)][_0x195961(0x1ec)]=areJidsSameUser(_0x129ca7['sender'],this[_0x195961(0x1f2)]['id']),_0x589914[_0x195961(0x20b)]['id']=_0x129ca7[_0x195961(0x20b)]['id'],_0x589914['pushName']=_0x129ca7['name'];_0x129ca7['isGroup']&&(_0x589914[_0x195961(0x20b)][_0x195961(0x1f4)]=_0x589914[_0x195961(0x1f4)]=_0x129ca7['sender']);const _0xb8ec60={..._0x3de4b4,'messages':[proto[_0x195961(0x219)][_0x195961(0x1f8)](_0x589914)][_0x195961(0x20a)](_0x1544c7=>(_0x1544c7[_0x195961(0x1f1)]=this,_0x1544c7)),'type':_0x195961(0x218)};this['ev'][_0x195961(0x1ed)](_0x195961(0x1f9),_0xb8ec60);}
+/**
+ * @type {import('@whiskeysockets/baileys')}
+ */
+const {
+  proto,
+  generateWAMessage,
+  areJidsSameUser,
+  decryptPollVote,
+} = (await import('@whiskeysockets/baileys')).default;
+
+export async function all(m, chatUpdate) {
+  /* if (m.message.pollUpdateMessage) {
+    console.log(m.message.pollUpdateMessage)
+    console.log(m.message.pollUpdateMessage.pollCreationMessageKey)
+    let authcode = "eed1zxI49cxiovBTUFLIEWi1shD9HgIOghONuqPDGTk="
+    let xds = decryptPollVote({
+      encPayload: m.message.pollUpdateMessage.vote.encPayload,
+      encIv: m.message.pollUpdateMessage.vote.encIv,
+    }, {
+      pollCreatorJid: m.message.pollUpdateMessage.pollCreationMessageKey.participant,
+      pollMsgId: m.message.pollUpdateMessage.pollCreationMessageKey.id,
+      pollEncKey: authcode, //Uint8Array.from(authcode.split('').map(letter => letter.charCodeAt(0))),
+      voterJid: m.sender,
+    })
+    console.log(xds)
+}*/
+  if (m.isBaileys) {
+    return;
+  }
+  if (!m.message) {
+    return;
+  }
+  if (!(m.message.buttonsResponseMessage || m.message.templateButtonReplyMessage || m.message.listResponseMessage || m.message.interactiveResponseMessage)) {
+    return;
+  }
+  let id;
+  if (m.message.buttonsResponseMessage) {
+    id = m.message.buttonsResponseMessage.selectedButtonId;
+  } else if (m.message.templateButtonReplyMessage) {
+    id = m.message.templateButtonReplyMessage.selectedId;
+  } else if (m.message.listResponseMessage) {
+    id = m.message.listResponseMessage.singleSelectReply?.selectedRowId;
+  } else if (m.message.interactiveResponseMessage) {
+    id = JSON.parse(m.message.interactiveResponseMessage.nativeFlowResponseMessage.paramsJson).id;
+  }
+  const text = m.message.buttonsResponseMessage?.selectedDisplayText || m.message.templateButtonReplyMessage?.selectedDisplayText || m.message.listResponseMessage?.title;
+  let isIdMessage = false; 
+  let usedPrefix;
+  for (const name in global.plugins) {
+    const plugin = global.plugins[name];
+    if (!plugin) {
+      continue;
+    }
+    if (plugin.disabled) {
+      continue;
+    }
+    if (!opts['restrict']) {
+      if (plugin.tags && plugin.tags.includes('admin')) {
+        continue;
+      }
+    }
+    if (typeof plugin !== 'function') {
+      continue;
+    }
+    if (!plugin.command) {
+      continue;
+    }
+    const str2Regex = (str) => str.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
+    const _prefix = plugin.customPrefix ? plugin.customPrefix : this.prefix ? this.prefix : global.prefix;
+    const match = (_prefix instanceof RegExp ?
+      [[_prefix.exec(id), _prefix]] :
+      Array.isArray(_prefix) ?
+        _prefix.map((p) => {
+          const re = p instanceof RegExp ?
+            p :
+            new RegExp(str2Regex(p));
+          return [re.exec(id), re];
+        }) :
+        typeof _prefix === 'string' ?
+          [[new RegExp(str2Regex(_prefix)).exec(id), new RegExp(str2Regex(_prefix))]] :
+          [[[], new RegExp]]
+    ).find((p) => p[1]);
+    if ((usedPrefix = (match[0] || '')[0])) {
+      const noPrefix = id.replace(usedPrefix, '');
+      let [command] = noPrefix.trim().split` `.filter((v) => v);
+      command = (command || '').toLowerCase();
+      const isId = plugin.command instanceof RegExp ?
+        plugin.command.test(command) :
+        Array.isArray(plugin.command) ?
+          plugin.command.some((cmd) => cmd instanceof RegExp ?
+            cmd.test(command) :
+            cmd === command,
+          ) :
+          typeof plugin.command === 'string' ?
+            plugin.command === command :
+            false;
+      if (!isId) {
+        continue;
+      }
+      isIdMessage = true;
+    }
+  }
+  const messages = await generateWAMessage(m.chat, {text: isIdMessage ? id : text, mentions: m.mentionedJid}, {
+    userJid: this.user.id,
+    quoted: m.quoted && m.quoted.fakeObj,
+  });
+  messages.key.fromMe = areJidsSameUser(m.sender, this.user.id);
+  messages.key.id = m.key.id;
+  messages.pushName = m.name;
+  if (m.isGroup) {
+    messages.key.participant = messages.participant = m.sender;
+  }
+  const msg = {
+    ...chatUpdate,
+    messages: [proto.WebMessageInfo.fromObject(messages)].map((v) => (v.conn = this, v)),
+    type: 'append',
+  };
+  this.ev.emit('messages.upsert', msg);
+}
+
+/*const {
+  proto,
+  generateWAMessage,
+  areJidsSameUser,
+  decryptPollVote,
+} = (await import('@whiskeysockets/baileys')).default;
+
+export async function all(m, chatUpdate) {
+  if (m.isBaileys) {
+    return;
+  }
+  if (!m.message) {
+    return;
+  }
+  if (!(m.message.buttonsResponseMessage || m.message.templateButtonReplyMessage || m.message.listResponseMessage)) {
+    return;
+  }
+  const id = m.message.buttonsResponseMessage?.selectedButtonId || m.message.templateButtonReplyMessage?.selectedId || m.message.listResponseMessage?.singleSelectReply?.selectedRowId;
+  const text = m.message.buttonsResponseMessage?.selectedDisplayText || m.message.templateButtonReplyMessage?.selectedDisplayText || m.message.listResponseMessage?.title;
+  let isIdMessage = false; let usedPrefix;
+  for (const name in global.plugins) {
+    const plugin = global.plugins[name];
+    if (!plugin) {
+      continue;
+    }
+    if (plugin.disabled) {
+      continue;
+    }
+    if (!opts['restrict']) {
+      if (plugin.tags && plugin.tags.includes('admin')) {
+        continue;
+      }
+    }
+    if (typeof plugin !== 'function') {
+      continue;
+    }
+    if (!plugin.command) {
+      continue;
+    }
+    const str2Regex = (str) => str.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
+    const _prefix = plugin.customPrefix ? plugin.customPrefix : this.prefix ? this.prefix : global.prefix;
+    const match = (_prefix instanceof RegExp ? // RegExp Mode?
+            [[_prefix.exec(id), _prefix]] :
+            Array.isArray(_prefix) ? // Array?
+                _prefix.map((p) => {
+                  const re = p instanceof RegExp ? // RegExp in Array?
+                        p :
+                        new RegExp(str2Regex(p));
+                  return [re.exec(id), re];
+                }) :
+                typeof _prefix === 'string' ? // String?
+                    [[new RegExp(str2Regex(_prefix)).exec(id), new RegExp(str2Regex(_prefix))]] :
+                    [[[], new RegExp]]
+    ).find((p) => p[1]);
+    if ((usedPrefix = (match[0] || '')[0])) {
+      const noPrefix = id.replace(usedPrefix, '');
+      let [command] = noPrefix.trim().split` `.filter((v) => v);
+      command = (command || '').toLowerCase();
+      const isId = plugin.command instanceof RegExp ? // RegExp Mode?
+                plugin.command.test(command) :
+                Array.isArray(plugin.command) ? // Array?
+                    plugin.command.some((cmd) => cmd instanceof RegExp ? // RegExp in Array?
+                        cmd.test(command) :
+                        cmd === command,
+                    ) :
+                    typeof plugin.command === 'string' ? // String?
+                        plugin.command === command :
+                        false;
+      if (!isId) {
+        continue;
+      }
+      isIdMessage = true;
+    }
+  }
+  const messages = await generateWAMessage(m.chat, {text: isIdMessage ? id : text, mentions: m.mentionedJid}, {
+    userJid: this.user.id,
+    quoted: m.quoted && m.quoted.fakeObj,
+  });
+  messages.key.fromMe = areJidsSameUser(m.sender, this.user.id);
+  messages.key.id = m.key.id;
+  messages.pushName = m.name;
+  if (m.isGroup) {
+    messages.key.participant = messages.participant = m.sender;
+  }
+  const msg = {
+    ...chatUpdate,
+    messages: [proto.WebMessageInfo.fromObject(messages)].map((v) => (v.conn = this, v)),
+    type: 'append',
+  };
+  this.ev.emit('messages.upsert', msg);
+}*/

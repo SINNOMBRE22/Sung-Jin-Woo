@@ -1,1 +1,23 @@
-const a0_0x197cd9=a0_0x1baa;(function(_0x858f6e,_0x4ccec9){const _0x2130d5=a0_0x1baa,_0x44c5e3=_0x858f6e();while(!![]){try{const _0x53071b=parseInt(_0x2130d5(0xf9))/0x1+parseInt(_0x2130d5(0xfd))/0x2*(-parseInt(_0x2130d5(0x102))/0x3)+parseInt(_0x2130d5(0xec))/0x4*(parseInt(_0x2130d5(0xf6))/0x5)+-parseInt(_0x2130d5(0xfb))/0x6+-parseInt(_0x2130d5(0x100))/0x7+-parseInt(_0x2130d5(0xfc))/0x8+parseInt(_0x2130d5(0xe9))/0x9;if(_0x53071b===_0x4ccec9)break;else _0x44c5e3['push'](_0x44c5e3['shift']());}catch(_0x397520){_0x44c5e3['push'](_0x44c5e3['shift']());}}}(a0_0xff33,0x38e58));function a0_0x1baa(_0x58c256,_0x52ec3d){const _0xff33bc=a0_0xff33();return a0_0x1baa=function(_0x1baad9,_0x375a63){_0x1baad9=_0x1baad9-0xe7;let _0x378902=_0xff33bc[_0x1baad9];return _0x378902;},a0_0x1baa(_0x58c256,_0x52ec3d);}import a0_0x2dd342 from'../lib/uploadFile.js';import a0_0x3d223c from'../lib/uploadImage.js';const handler=async _0x558e89=>{const _0xc1f665=a0_0x1baa,_0x47022e=global,_0x49f776=_0x47022e['db'][_0xc1f665(0xff)][_0xc1f665(0xf5)][_0x558e89[_0xc1f665(0xe8)]][_0xc1f665(0xea)],_0x3dfa5e=JSON[_0xc1f665(0xf0)](fs[_0xc1f665(0xef)](_0xc1f665(0xfe)+_0x49f776+_0xc1f665(0x101))),_0x2b1d2f=_0x3dfa5e[_0xc1f665(0xf3)][_0xc1f665(0xf7)],_0x1b39d5=_0x558e89[_0xc1f665(0xf2)]?_0x558e89[_0xc1f665(0xf2)]:_0x558e89,_0x1759b0=(_0x1b39d5[_0xc1f665(0xf1)]||_0x1b39d5)['mimetype']||'';if(!_0x1759b0)throw'*'+_0x2b1d2f[_0xc1f665(0xfa)]+'*';const _0x40cee5=await _0x1b39d5[_0xc1f665(0x103)](),_0x5d676b=/image\/(png|jpe?g|gif)|video\/mp4/[_0xc1f665(0xf8)](_0x1759b0),_0x3ac094=await(_0x5d676b?a0_0x3d223c:a0_0x2dd342)(_0x40cee5);_0x558e89['reply']('*'+_0x2b1d2f[_0xc1f665(0xee)]+'*\x20'+_0x3ac094);};handler[a0_0x197cd9(0xe7)]=[a0_0x197cd9(0xed)],handler[a0_0x197cd9(0xeb)]=['convertidores'],handler[a0_0x197cd9(0xf4)]=/^(upload|tourl)$/i;function a0_0xff33(){const _0x5c28cc=['tags','364036gAobFP','tourl\x20<reply\x20image>','texto2','readFileSync','parse','msg','quoted','plugins','command','users','10emQJMv','convertidor_tourl','test','299759wpFhTq','texto1','2250024OiogFD','135616JhnKIW','1346UQUsZz','./language/','data','2841160yeWjEO','.json','1938uBPncC','download','help','sender','8854785YXOwil','language'];a0_0xff33=function(){return _0x5c28cc;};return a0_0xff33();}export default handler;
+import uploadFile from '../lib/uploadFile.js';
+import uploadImage from '../lib/uploadImage.js';
+
+
+const handler = async (m) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.convertidor_tourl
+
+  
+  const q = m.quoted ? m.quoted : m;
+  const mime = (q.msg || q).mimetype || '';
+  if (!mime) throw `*${tradutor.texto1}*`;
+  const media = await q.download();
+  const isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime);
+  const link = await (isTele ? uploadImage : uploadFile)(media);
+  m.reply(`*${tradutor.texto2}* ${link}`);
+};
+handler.help = ['tourl <reply image>'];
+handler.tags = ['convertidores'];
+handler.command = /^(upload|tourl)$/i;
+export default handler;

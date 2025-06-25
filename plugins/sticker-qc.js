@@ -1,1 +1,35 @@
-const a0_0x277d46=a0_0x518a;function a0_0x4692(){const _0x33ac84=['./language/','43743ysDejn','application/json','from','texto3','fromMe','16GyzUiE','#000000','png','.json','5810HvaTSd','1914385UPeVVX','post','184425ygaRPX','command','sendFile','tags','language','reply','12nMIFGs','packname','quoted','error.webp','https://bot.lyo.su/quote/generate','quote','603CLphWG','length','2oaoMTf','1799840wwshEH','mentionedJid','data','result','\x5c$&','getName','replace','sticker_qc','slice','catch','join','219976zjeBiN','texto1','profilePictureUrl','users','397359iSKzUQ','readFileSync','base64','sender','jid','help','plugins'];a0_0x4692=function(){return _0x33ac84;};return a0_0x4692();}(function(_0x34e2b1,_0x1011b4){const _0x2c3d22=a0_0x518a,_0xd30cbb=_0x34e2b1();while(!![]){try{const _0x59d10f=parseInt(_0x2c3d22(0x1bd))/0x1*(parseInt(_0x2c3d22(0x1b1))/0x2)+parseInt(_0x2c3d22(0x1c1))/0x3+parseInt(_0x2c3d22(0x19c))/0x4*(parseInt(_0x2c3d22(0x1a3))/0x5)+parseInt(_0x2c3d22(0x1a9))/0x6*(-parseInt(_0x2c3d22(0x197))/0x7)+-parseInt(_0x2c3d22(0x1b2))/0x8+parseInt(_0x2c3d22(0x1af))/0x9*(parseInt(_0x2c3d22(0x1a0))/0xa)+-parseInt(_0x2c3d22(0x1a1))/0xb;if(_0x59d10f===_0x1011b4)break;else _0xd30cbb['push'](_0xd30cbb['shift']());}catch(_0x31f0f1){_0xd30cbb['push'](_0xd30cbb['shift']());}}}(a0_0x4692,0x1f197));import{sticker}from'../lib/sticker.js';import a0_0x5db537 from'axios';const handler=async(_0x2407fb,{conn:_0x43f105,args:_0x423ce3,usedPrefix:_0x1ac57d,command:_0x93729c})=>{const _0x2a081a=a0_0x518a,_0x1d8241=global,_0x3c4800=_0x1d8241['db'][_0x2a081a(0x1b4)][_0x2a081a(0x1c0)][_0x2407fb['sender']][_0x2a081a(0x1a7)],_0x4a9b31=JSON['parse'](fs[_0x2a081a(0x1c2)](_0x2a081a(0x196)+_0x3c4800+_0x2a081a(0x19f))),_0x2b9158=_0x4a9b31[_0x2a081a(0x195)][_0x2a081a(0x1b9)];let _0xf202f5;if(_0x423ce3[_0x2a081a(0x1b0)]>=0x1)_0xf202f5=_0x423ce3[_0x2a081a(0x1ba)](0x0)[_0x2a081a(0x1bc)]('\x20');else{if(_0x2407fb[_0x2a081a(0x1ab)]&&_0x2407fb[_0x2a081a(0x1ab)]['text'])_0xf202f5=_0x2407fb[_0x2a081a(0x1ab)]['text'];else throw _0x2b9158[_0x2a081a(0x1be)];}if(!_0xf202f5)return _0x2407fb[_0x2a081a(0x1a8)](_0x2b9158['texto2']);const _0x46ccf6=_0x2407fb[_0x2a081a(0x1b3)]&&_0x2407fb['mentionedJid'][0x0]?_0x2407fb[_0x2a081a(0x1b3)][0x0]:_0x2407fb[_0x2a081a(0x19b)]?_0x43f105['user'][_0x2a081a(0x193)]:_0x2407fb[_0x2a081a(0x1c4)],_0x3e38ef=new RegExp('@'+_0x46ccf6['split']('@')[0x0][_0x2a081a(0x1b8)](/[.*+?^${}()|[\]\\]/g,_0x2a081a(0x1b6))+'\x5cs*','g'),_0x50da05=_0xf202f5[_0x2a081a(0x1b8)](_0x3e38ef,'');if(_0x50da05[_0x2a081a(0x1b0)]>0x1e)return _0x2407fb['reply'](_0x2b9158[_0x2a081a(0x19a)]);const _0x5ad5d6=await _0x43f105[_0x2a081a(0x1bf)](_0x46ccf6)[_0x2a081a(0x1bb)](_0x1410ae=>'https://telegra.ph/file/24fa902ead26340f3df2c.png'),_0x31b9fb=await _0x43f105[_0x2a081a(0x1b7)](_0x46ccf6),_0x858be4={'type':_0x2a081a(0x1ae),'format':_0x2a081a(0x19e),'backgroundColor':_0x2a081a(0x19d),'width':0x200,'height':0x300,'scale':0x2,'messages':[{'entities':[],'avatar':!![],'from':{'id':0x1,'name':''+(_0x46ccf6?.['name']||_0x31b9fb),'photo':{'url':''+_0x5ad5d6}},'text':_0x50da05,'replyMessage':{}}]},_0x16e9c5=await a0_0x5db537[_0x2a081a(0x1a2)](_0x2a081a(0x1ad),_0x858be4,{'headers':{'Content-Type':_0x2a081a(0x198)}}),_0x572909=Buffer[_0x2a081a(0x199)](_0x16e9c5['data'][_0x2a081a(0x1b5)]['image'],_0x2a081a(0x1c3));let _0x5b62fa=await sticker(_0x572909,![],global[_0x2a081a(0x1aa)],global['author']);if(_0x5b62fa)return _0x43f105[_0x2a081a(0x1a5)](_0x2407fb['chat'],_0x5b62fa,_0x2a081a(0x1ac),'',_0x2407fb);};function a0_0x518a(_0x4fb4e4,_0x378cf5){const _0x4692d4=a0_0x4692();return a0_0x518a=function(_0x518a8f,_0x3c454f){_0x518a8f=_0x518a8f-0x193;let _0x37ae71=_0x4692d4[_0x518a8f];return _0x37ae71;},a0_0x518a(_0x4fb4e4,_0x378cf5);}handler[a0_0x277d46(0x194)]=['qc'],handler[a0_0x277d46(0x1a6)]=['sticker'],handler[a0_0x277d46(0x1a4)]=/^(qc)$/i;export default handler;
+/* Codigo copiado de GataBot-MD */
+
+import { sticker } from '../lib/sticker.js';
+import axios from 'axios';
+
+
+const handler = async (m, {conn, args, usedPrefix, command}) => {
+    const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.sticker_qc
+
+let text
+    if (args.length >= 1) {
+        text = args.slice(0).join(" ");
+    } else if (m.quoted && m.quoted.text) {
+        text = m.quoted.text;
+    } else throw tradutor.texto1;
+   if (!text) return m.reply(tradutor.texto2);
+    const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender; 
+    const mentionRegex = new RegExp(`@${who.split('@')[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*`, 'g');
+    const mishi = text.replace(mentionRegex, '');
+   if (mishi.length > 30) return m.reply(tradutor.texto3);
+    const pp = await conn.profilePictureUrl(who).catch((_) => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
+    const nombre = await conn.getName(who)
+    const obj = {"type": "quote", "format": "png", "backgroundColor": "#000000", "width": 512, "height": 768, "scale": 2, "messages": [{"entities": [], "avatar": true, "from": {"id": 1, "name": `${who?.name || nombre}`, "photo": {url: `${pp}`}}, "text": mishi, "replyMessage": {}}]};
+    const json = await axios.post('https://bot.lyo.su/quote/generate', obj, {headers: {'Content-Type': 'application/json'}});
+    const buffer = Buffer.from(json.data.result.image, 'base64');
+   let stiker = await sticker(buffer, false, global.packname, global.author);
+   if (stiker) return conn.sendFile(m.chat, stiker, 'error.webp', '', m);
+}
+handler.help = ['qc'];
+handler.tags = ['sticker'];
+handler.command = /^(qc)$/i;
+export default handler;

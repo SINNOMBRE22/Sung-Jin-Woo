@@ -1,1 +1,20 @@
-const a0_0x35d316=a0_0x5513;function a0_0x3095(){const _0x4fe9a1=['owner_listmsg','reply','3110744INUcAO','6WjZktl','*\x0a*','command','tags','texto1','*👉🏻\x20','video','data','help','join','audio','1213816sfufsC','716004yqdpRD','msgs','.json','2206725FNLIkT','./language/','sticker','trim','sender','432885watFCz','504978ryFyZW','msg','44xUfBKY','list','map','13787640jlwhNX','readFileSync','90KuQaBl'];a0_0x3095=function(){return _0x4fe9a1;};return a0_0x3095();}function a0_0x5513(_0x7e48e2,_0x79b353){const _0x309534=a0_0x3095();return a0_0x5513=function(_0x5513cf,_0x3d465b){_0x5513cf=_0x5513cf-0x16c;let _0x50ace6=_0x309534[_0x5513cf];return _0x50ace6;},a0_0x5513(_0x7e48e2,_0x79b353);}(function(_0x41df94,_0x2f332f){const _0x466acb=a0_0x5513,_0x2010d6=_0x41df94();while(!![]){try{const _0x2d8f66=parseInt(_0x466acb(0x179))/0x1+-parseInt(_0x466acb(0x183))/0x2+parseInt(_0x466acb(0x182))/0x3*(-parseInt(_0x466acb(0x185))/0x4)+-parseInt(_0x466acb(0x17d))/0x5*(parseInt(_0x466acb(0x16e))/0x6)+-parseInt(_0x466acb(0x16d))/0x7+parseInt(_0x466acb(0x188))/0x8+parseInt(_0x466acb(0x17a))/0x9*(parseInt(_0x466acb(0x18a))/0xa);if(_0x2d8f66===_0x2f332f)break;else _0x2010d6['push'](_0x2010d6['shift']());}catch(_0x1aface){_0x2010d6['push'](_0x2010d6['shift']());}}}(a0_0x3095,0xe283c));const handler=_0x57a103=>{const _0x309a7c=a0_0x5513,_0xacf457=global,_0x29c6a6=_0xacf457['db'][_0x309a7c(0x175)]['users'][_0x57a103[_0x309a7c(0x181)]]['language'],_0x39b2aa=JSON['parse'](fs[_0x309a7c(0x189)](_0x309a7c(0x17e)+_0x29c6a6+_0x309a7c(0x17c))),_0x1a9988=_0x39b2aa['plugins'][_0x309a7c(0x18b)],_0x130c64=global['db'][_0x309a7c(0x175)][_0x309a7c(0x17b)];_0x57a103[_0x309a7c(0x16c)](('\x0a'+_0x1a9988['texto1'][0x0]+'\x0a\x0a'+_0x1a9988[_0x309a7c(0x172)][0x1]+'\x0a'+Object['keys'](_0x130c64)[_0x309a7c(0x187)](_0x4c7598=>_0x309a7c(0x173)+_0x4c7598)[_0x309a7c(0x177)](_0x309a7c(0x16f))+'*\x0a')[_0x309a7c(0x180)]());};handler[a0_0x35d316(0x176)]=['vn',a0_0x35d316(0x184),a0_0x35d316(0x174),a0_0x35d316(0x178),'img',a0_0x35d316(0x17f)][a0_0x35d316(0x187)](_0x45a06d=>a0_0x35d316(0x186)+_0x45a06d),handler[a0_0x35d316(0x171)]=['owner'],handler[a0_0x35d316(0x170)]=/^lista(vn|msg|video|audio|img|sticker)$/;export default handler;
+
+
+const handler = (m) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.owner_listmsg
+
+  const msgs = global.db.data.msgs;
+  m.reply(`
+${tradutor.texto1[0]}
+
+${tradutor.texto1[1]}
+${Object.keys(msgs).map((v) => '*👉🏻 ' + v).join('*\n*')}*
+`.trim());
+};
+handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map((v) => 'list' + v);
+handler.tags = ['owner'];
+handler.command = /^lista(vn|msg|video|audio|img|sticker)$/;
+export default handler;

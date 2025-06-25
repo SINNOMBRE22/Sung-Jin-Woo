@@ -1,1 +1,19 @@
-const a0_0x1519b5=a0_0x26b1;function a0_0x26b1(_0x28a967,_0x37710a){const _0x1eb707=a0_0x1eb7();return a0_0x26b1=function(_0x26b194,_0x34b079){_0x26b194=_0x26b194-0x183;let _0x49c92d=_0x1eb707[_0x26b194];return _0x49c92d;},a0_0x26b1(_0x28a967,_0x37710a);}(function(_0x17f029,_0x3d29d1){const _0x3f2ba5=a0_0x26b1,_0x590716=_0x17f029();while(!![]){try{const _0x15d72f=parseInt(_0x3f2ba5(0x19c))/0x1+parseInt(_0x3f2ba5(0x197))/0x2+-parseInt(_0x3f2ba5(0x185))/0x3*(-parseInt(_0x3f2ba5(0x193))/0x4)+parseInt(_0x3f2ba5(0x18b))/0x5+-parseInt(_0x3f2ba5(0x18c))/0x6+-parseInt(_0x3f2ba5(0x18d))/0x7+-parseInt(_0x3f2ba5(0x191))/0x8;if(_0x15d72f===_0x3d29d1)break;else _0x590716['push'](_0x590716['shift']());}catch(_0x38369d){_0x590716['push'](_0x590716['shift']());}}}(a0_0x1eb7,0xe6dd2));const handler=async(_0x10db8a,{command:_0x22103b,usedPrefix:_0x3f17f5,text:_0x5d4832})=>{const _0x3f62f6=a0_0x26b1,_0x4cb983=global,_0x2be805=_0x4cb983['db']['data']['users'][_0x10db8a[_0x3f62f6(0x187)]][_0x3f62f6(0x183)],_0x56f547=JSON['parse'](fs[_0x3f62f6(0x198)]('./language/'+_0x2be805+_0x3f62f6(0x188))),_0x1bb3ce=_0x56f547[_0x3f62f6(0x186)]['owner_delmsg'],_0x2b4d91=_0x22103b[_0x3f62f6(0x199)](/eliminar/i,'');if(!_0x5d4832)throw _0x1bb3ce['texto1'][0x0]+'\x20'+_0x3f17f5+'list'+_0x2b4d91+'\x20'+_0x1bb3ce['texto1'][0x1];const _0x510424=global['db']['data'][_0x3f62f6(0x196)];if(!(_0x5d4832 in _0x510424))throw _0x1bb3ce[_0x3f62f6(0x192)][0x0]+'\x20\x27'+_0x5d4832+'\x27\x20'+_0x1bb3ce[_0x3f62f6(0x192)][0x1];delete _0x510424[_0x5d4832],_0x10db8a[_0x3f62f6(0x19d)](_0x1bb3ce['texto3']+'\x20\x27'+_0x5d4832+'\x27*');};function a0_0x1eb7(){const _0x594cbb=['4761190eWEmop','help','img','database','9352608NnfszJ','texto2','4QeWijW','del','\x20<text>','msgs','1353208czowSb','readFileSync','replace','rowner','map','1033604CRVema','reply','language','tags','1801929OdnoSX','plugins','sender','.json','sticker','audio','5272610FRXkDB','3423054XQcSpQ'];a0_0x1eb7=function(){return _0x594cbb;};return a0_0x1eb7();}handler[a0_0x1519b5(0x18e)]=['vn','msg','video',a0_0x1519b5(0x18a),a0_0x1519b5(0x18f),a0_0x1519b5(0x189)][a0_0x1519b5(0x19b)](_0x4ef217=>a0_0x1519b5(0x194)+_0x4ef217+a0_0x1519b5(0x195)),handler[a0_0x1519b5(0x184)]=[a0_0x1519b5(0x190)],handler['command']=/^eliminar(vn|msg|video|audio|img|sticker)$/,handler[a0_0x1519b5(0x19a)]=!![];export default handler;
+const handler = async (m, {command, usedPrefix, text}) => {
+  const datas = global;
+  const idioma = datas.db.data.users[m.sender].language;
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`));
+  const tradutor = _translate.plugins.owner_delmsg;
+
+  const which = command.replace(/eliminar/i, '');
+  if (!text) throw `${tradutor.texto1[0]} ${usedPrefix}list${which} ${tradutor.texto1[1]}`;
+  const msgs = global.db.data.msgs;
+  if (!(text in msgs)) throw `${tradutor.texto2[0]} '${text}' ${tradutor.texto2[1]}`;
+  delete msgs[text];
+  m.reply(`${tradutor.texto3} '${text}'*`);
+};
+
+handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map((v) => 'del' + v + ' <text>');
+handler.tags = ['database'];
+handler.command = /^eliminar(vn|msg|video|audio|img|sticker)$/;
+handler.rowner = true;
+export default handler;

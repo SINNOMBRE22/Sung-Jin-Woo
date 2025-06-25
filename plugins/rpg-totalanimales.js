@@ -1,1 +1,51 @@
-const a0_0x1a064d=a0_0x2634;(function(_0x1b505f,_0x2b12d3){const _0x527f21=a0_0x2634,_0x37ed99=_0x1b505f();while(!![]){try{const _0x28e0bf=-parseInt(_0x527f21(0x74))/0x1*(parseInt(_0x527f21(0x88))/0x2)+-parseInt(_0x527f21(0x85))/0x3+parseInt(_0x527f21(0x7d))/0x4*(-parseInt(_0x527f21(0x7e))/0x5)+parseInt(_0x527f21(0x81))/0x6*(-parseInt(_0x527f21(0x86))/0x7)+parseInt(_0x527f21(0x78))/0x8*(-parseInt(_0x527f21(0x8f))/0x9)+-parseInt(_0x527f21(0x7a))/0xa*(parseInt(_0x527f21(0x73))/0xb)+parseInt(_0x527f21(0x7c))/0xc*(parseInt(_0x527f21(0x91))/0xd);if(_0x28e0bf===_0x2b12d3)break;else _0x37ed99['push'](_0x37ed99['shift']());}catch(_0xb0ee71){_0x37ed99['push'](_0x37ed99['shift']());}}}(a0_0x2306,0x41b25));import a0_0x48369c from'fs';function a0_0x2306(){const _0x1d14a1=['resolve','3310088dNjHSz','sendFile','30kFFfKk','monyet','1617144gcmLYk','233256yFUWvj','40YzkXJk','data','econ','162YyDfLG','chat','sapi','banteng','1072629dAnTRz','7hlJEBW','babihutan','212726gPCKfb','babi','comandos','harimau','users','Tienes\x20los\x20siguientes\x20animales:\x0a\x0a','animales','9ufXcAY','gajah','208hycjaN','ayam','./granja.jpg','sender','1600610CtlHiz','2TLLYTn','buaya','kambing'];a0_0x2306=function(){return _0x1d14a1;};return a0_0x2306();}import a0_0xa7796e from'path';const handler=async(_0x472833,{conn:_0x2a0d0d})=>{const _0x3ed094=a0_0x2634;global['db']['data'][_0x3ed094(0x8c)][_0x472833[_0x3ed094(0x72)]][_0x3ed094(0x8a)]+=0x1;const _0x35ef0b=global['db'][_0x3ed094(0x7f)][_0x3ed094(0x8c)][_0x472833[_0x3ed094(0x72)]],_0x40e228={'🐂\x20Toro':_0x35ef0b[_0x3ed094(0x84)],'🐅\x20Tigre':_0x35ef0b[_0x3ed094(0x8b)],'🐘\x20Elefante':_0x35ef0b[_0x3ed094(0x90)],'🐐\x20Cabra':_0x35ef0b[_0x3ed094(0x76)],'🐖\x20Panda':_0x35ef0b['panda'],'🐊\x20Cocodrilo':_0x35ef0b[_0x3ed094(0x75)],'🐃\x20Bufalo':_0x35ef0b['kerbau'],'🐮\x20Vaca':_0x35ef0b[_0x3ed094(0x83)],'🐒\x20Mono':_0x35ef0b[_0x3ed094(0x7b)],'🐗\x20Jabali':_0x35ef0b[_0x3ed094(0x87)],'🐖\x20Cerdo':_0x35ef0b[_0x3ed094(0x89)],'🐓\x20Pollo':_0x35ef0b[_0x3ed094(0x92)]};let _0x5c2f06=0x0,_0x223d63=_0x3ed094(0x8d);for(const _0x320ff5 in _0x40e228){const _0x7f46f4=_0x40e228[_0x320ff5];_0x7f46f4>0x0&&(_0x223d63+=_0x320ff5+':\x20'+_0x7f46f4+'\x0a',_0x5c2f06+=_0x7f46f4);}_0x223d63+='\x0aTotal\x20de\x20animales:\x20'+_0x5c2f06;const _0x3da267=_0x3ed094(0x71),_0x5efd32=a0_0x48369c['readFileSync'](a0_0xa7796e[_0x3ed094(0x77)](_0x3da267));_0x2a0d0d[_0x3ed094(0x79)](_0x472833[_0x3ed094(0x82)],_0x5efd32,'granja.jpg',_0x223d63,_0x472833);};function a0_0x2634(_0x5a36b1,_0x3aee1b){const _0x2306ad=a0_0x2306();return a0_0x2634=function(_0x2634e7,_0x171ab7){_0x2634e7=_0x2634e7-0x71;let _0x324d2e=_0x2306ad[_0x2634e7];return _0x324d2e;},a0_0x2634(_0x5a36b1,_0x3aee1b);}handler['help']=[a0_0x1a064d(0x8e)],handler['tags']=[a0_0x1a064d(0x80)],handler['command']=/^(animales|granja|misanimales)$/i,handler['group']=!![];export default handler;
+import fs from 'fs'
+import path from 'path'
+
+const handler = async (m, { conn }) => {
+  global.db.data.users[m.sender].comandos += 1;
+
+  const user = global.db.data.users[m.sender];
+
+  const animalCount = {
+    '🐂 Toro': user.banteng,
+    '🐅 Tigre': user.harimau,
+    '🐘 Elefante': user.gajah,
+    '🐐 Cabra': user.kambing,
+    '🐖 Panda': user.panda,
+    '🐊 Cocodrilo': user.buaya,
+    '🐃 Bufalo': user.kerbau,
+    '🐮 Vaca': user.sapi,
+    '🐒 Mono': user.monyet,
+    '🐗 Jabali': user.babihutan,
+    '🐖 Cerdo': user.babi,
+    '🐓 Pollo': user.ayam,
+  };
+
+  let totalanimales = 0;
+
+  let message = "Tienes los siguientes animales:\n\n";
+
+  for (const animal in animalCount) {
+    const count = animalCount[animal];
+    if (count > 0) {
+      message += `${animal}: ${count}\n`;
+      totalanimales += count;
+    }
+  }
+
+  message += `\nTotal de animales: ${totalanimales}`;
+
+  const granjaImagePath = './granja.jpg'; // Ruta de la imagen de la granja
+
+  // Cargar la imagen en un Buffer
+  const granjaImageBuffer = fs.readFileSync(path.resolve(granjaImagePath));
+
+  conn.sendFile(m.chat, granjaImageBuffer, 'granja.jpg', message, m);
+};
+
+handler.help = ['animales'];
+handler.tags = ['econ'];
+handler.command = /^(animales|granja|misanimales)$/i;
+handler.group = true;
+
+export default handler;

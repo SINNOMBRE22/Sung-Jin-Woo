@@ -1,1 +1,13 @@
-const a0_0x877750=a0_0x48f2;(function(_0x49493d,_0x3b79e3){const _0x50d908=a0_0x48f2,_0x353d09=_0x49493d();while(!![]){try{const _0x599fdd=parseInt(_0x50d908(0x12e))/0x1+parseInt(_0x50d908(0x127))/0x2*(-parseInt(_0x50d908(0x13d))/0x3)+parseInt(_0x50d908(0x12d))/0x4+parseInt(_0x50d908(0x139))/0x5+parseInt(_0x50d908(0x125))/0x6*(-parseInt(_0x50d908(0x130))/0x7)+parseInt(_0x50d908(0x134))/0x8*(parseInt(_0x50d908(0x13c))/0x9)+-parseInt(_0x50d908(0x13f))/0xa;if(_0x599fdd===_0x3b79e3)break;else _0x353d09['push'](_0x353d09['shift']());}catch(_0x58943e){_0x353d09['push'](_0x353d09['shift']());}}}(a0_0x5f3d,0x9e3fe));let handler=async(_0x17cc72,{conn:_0xd3eaf4,args:_0x4533c6,usedPrefix:_0x404feb,command:_0x2951c1})=>{const _0x312d7f=a0_0x48f2;let _0x161b75=global[_0x312d7f(0x126)][_0x312d7f(0x133)](_0x2579d2=>_0x2579d2[_0x312d7f(0x140)](/[^0-9]/g,'')+_0x312d7f(0x128))[_0x312d7f(0x12b)](_0x179480=>_0x179480!=_0xd3eaf4[_0x312d7f(0x129)][_0x312d7f(0x13b)]),_0x406b09=_0x312d7f(0x12a)+_0x161b75[_0x312d7f(0x133)](_0x2bc872=>_0x312d7f(0x131)+_0x2bc872['replace'](/@.+/,''))[_0x312d7f(0x12f)]`\n`;_0x17cc72[_0x312d7f(0x136)](_0x406b09,null,{'mentions':_0xd3eaf4[_0x312d7f(0x12c)](_0x406b09)});};handler['help']=[a0_0x877750(0x13e)],handler[a0_0x877750(0x132)]=[a0_0x877750(0x138)],handler['command']=[a0_0x877750(0x137),a0_0x877750(0x13a),a0_0x877750(0x135),'listpremium','listapremium'],handler[a0_0x877750(0x138)]=!![];function a0_0x5f3d(){const _0x3f63dc=['1154225xtSrwr','listprem','jid','783423dGYHSJ','98775yOAvVb','listpremium','1254380luiwXB','replace','372FZbgei','prems','18HMGJQY','@s.whatsapp.net','user','▢\x20*USUARIOS\x20PREMIUM*\x0a─────────────\x0a','filter','parseMention','122148xbcbPy','527353jYYTal','join','105840nNhwnV','-\x20@','tags','map','112cfvERu','premlist','reply','premiumlist','owner'];a0_0x5f3d=function(){return _0x3f63dc;};return a0_0x5f3d();}function a0_0x48f2(_0x542154,_0x35e43c){const _0x5f3d5f=a0_0x5f3d();return a0_0x48f2=function(_0x48f2e9,_0x599205){_0x48f2e9=_0x48f2e9-0x125;let _0x1cbf67=_0x5f3d5f[_0x48f2e9];return _0x1cbf67;},a0_0x48f2(_0x542154,_0x35e43c);}export default handler;
+
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+let prem = global.prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != conn.user.jid) 
+let teks = `▢ *USUARIOS PREMIUM*\n─────────────\n` + prem.map(v => '- @' + v.replace(/@.+/, '')).join`\n`
+m.reply(teks, null, {mentions: conn.parseMention(teks)})
+
+}
+handler.help = ['listpremium']
+handler.tags = ['owner']
+handler.command = ['premiumlist', 'listprem', 'premlist', 'listpremium', 'listapremium'] 
+handler.owner = true
+
+export default handler

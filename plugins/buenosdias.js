@@ -1,1 +1,67 @@
-function a0_0x2516(){const _0xfda62c=['parse','96wxtrUN','text','3099369fUXFuD','1ACpiCj','toISOString','sendMessage','9ClyZBR','buenos\x20días','253127sfRQLk','normalize','utf-8','4850153qZyzhT','feliz\x20dia','buen\x20día','632NWsxrN','isBaileys','NFD','includes','replace','slice','Error\x20al\x20enviar\x20el\x20audio\x20o\x20actualizar\x20estado:','36NezMFV','1093162ReUbkQ','readFileSync','4238296IUMhBd','21705JjADTC','existsSync','resolve','trim','buenas\x20tardes','toLowerCase','3910970anIkHp','El\x20archivo\x20de\x20audio\x20no\x20existe','chat','before','writeFileSync'];a0_0x2516=function(){return _0xfda62c;};return a0_0x2516();}const a0_0x405b4=a0_0x2a46;function a0_0x2a46(_0x11e12b,_0x548ff4){const _0x25160b=a0_0x2516();return a0_0x2a46=function(_0x2a4627,_0x1c5018){_0x2a4627=_0x2a4627-0x76;let _0x41ae4b=_0x25160b[_0x2a4627];return _0x41ae4b;},a0_0x2a46(_0x11e12b,_0x548ff4);}(function(_0x30eb4b,_0x131877){const _0x2698ea=a0_0x2a46,_0x250443=_0x30eb4b();while(!![]){try{const _0x565d08=parseInt(_0x2698ea(0x88))/0x1*(-parseInt(_0x2698ea(0x76))/0x2)+-parseInt(_0x2698ea(0x87))/0x3+parseInt(_0x2698ea(0x93))/0x4*(-parseInt(_0x2698ea(0x79))/0x5)+parseInt(_0x2698ea(0x85))/0x6*(parseInt(_0x2698ea(0x8d))/0x7)+parseInt(_0x2698ea(0x78))/0x8+parseInt(_0x2698ea(0x8b))/0x9*(parseInt(_0x2698ea(0x7f))/0xa)+parseInt(_0x2698ea(0x90))/0xb*(parseInt(_0x2698ea(0x9a))/0xc);if(_0x565d08===_0x131877)break;else _0x250443['push'](_0x250443['shift']());}catch(_0x5f5154){_0x250443['push'](_0x250443['shift']());}}}(a0_0x2516,0x87e67));import a0_0x2f5adb from'fs';import a0_0xabd3b9 from'path';const saludos=[a0_0x405b4(0x8c),a0_0x405b4(0x7d),'buenas\x20noches',a0_0x405b4(0x92),'buen\x20dia','feliz\x20día',a0_0x405b4(0x91),'hola\x20buen\x20día','hola\x20buenos\x20días','buenas'],STATE_FILE=a0_0xabd3b9[a0_0x405b4(0x7b)]('./saludoState.json');let saludoState={};try{saludoState=JSON[a0_0x405b4(0x84)](a0_0x2f5adb[a0_0x405b4(0x77)](STATE_FILE,a0_0x405b4(0x8f)));}catch(a0_0xe75adf){saludoState={};}const handler=async(_0x1e72c9,{conn:_0x5db2d5})=>{const _0x43f196=a0_0x405b4;if(!_0x1e72c9[_0x43f196(0x86)]||_0x1e72c9[_0x43f196(0x94)]||_0x1e72c9['fromMe'])return;const _0x3f4631=_0x1e72c9[_0x43f196(0x86)][_0x43f196(0x7e)]()['normalize'](_0x43f196(0x95))['replace'](/[\u0300-\u036f]/g,'')['replace'](/[^a-zñ ]/g,'')[_0x43f196(0x97)](/\s+/g,'\x20')[_0x43f196(0x7c)](),_0xdec6c2=saludos['some'](_0x52c1fd=>{const _0x3c0d0a=_0x43f196,_0x40fc98=_0x52c1fd[_0x3c0d0a(0x8e)](_0x3c0d0a(0x95))[_0x3c0d0a(0x97)](/[\u0300-\u036f]/g,'');return _0x3f4631[_0x3c0d0a(0x96)](_0x40fc98);});if(!_0xdec6c2)return;const _0x1eb4f3=_0x1e72c9[_0x43f196(0x81)],_0x2b2a04=new Date()[_0x43f196(0x89)]()[_0x43f196(0x98)](0x0,0xa);if(saludoState[_0x1eb4f3]===_0x2b2a04)return;try{const _0xda0156=a0_0xabd3b9[_0x43f196(0x7b)]('./media/buenosdias2.mp3');if(!a0_0x2f5adb[_0x43f196(0x7a)](_0xda0156))throw new Error(_0x43f196(0x80));const _0x50e3f6=a0_0x2f5adb[_0x43f196(0x77)](_0xda0156);await _0x5db2d5[_0x43f196(0x8a)](_0x1eb4f3,{'audio':_0x50e3f6,'mimetype':'audio/mpeg','ptt':!![]},{'quoted':_0x1e72c9}),saludoState[_0x1eb4f3]=_0x2b2a04,a0_0x2f5adb[_0x43f196(0x83)](STATE_FILE,JSON['stringify'](saludoState,null,0x2),_0x43f196(0x8f));}catch(_0xd32d5a){console['error'](_0x43f196(0x99),_0xd32d5a);}};handler[a0_0x405b4(0x82)]=handler;export default handler;
+import fs from 'fs';
+import path from 'path';
+
+const saludos = [
+  'buenos días', 'buenas tardes', 'buenas noches',
+  'buen día', 'buen dia', 'feliz día', 'feliz dia',
+  'hola buen día', 'hola buenos días', 'buenas'
+];
+
+// Ruta donde almacenamos el estado (chatId → "YYYY-MM-DD")
+const STATE_FILE = path.resolve('./saludoState.json');
+
+// Cargamos (o inicializamos) el estado
+let saludoState = {};
+try {
+  saludoState = JSON.parse(fs.readFileSync(STATE_FILE, 'utf-8'));
+} catch (e) {
+  saludoState = {};
+}
+
+const handler = async (m, { conn }) => {
+  if (!m.text || m.isBaileys || m.fromMe) return;
+
+  // Normalizamos texto
+  const texto = m.text.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-zñ ]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  // ¿Es un saludo?
+  const coincide = saludos.some(frase => {
+    const f = frase.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    return texto.includes(f);
+  });
+  if (!coincide) return;
+
+  const chatId = m.chat;
+  // Fecha de hoy en formato ISO corto
+  const hoy = new Date().toISOString().slice(0, 10);
+
+  // Si ya respondimos hoy en este chat, no hacemos nada
+  if (saludoState[chatId] === hoy) return;
+
+  // Si no, enviamos el audio y actualizamos el estado
+  try {
+    const audioPath = path.resolve('./media/buenosdias2.mp3');
+    if (!fs.existsSync(audioPath)) throw new Error('El archivo de audio no existe');
+    const audioBuffer = fs.readFileSync(audioPath);
+
+    await conn.sendMessage(chatId, {
+      audio: audioBuffer,
+      mimetype: 'audio/mpeg',
+      ptt: true
+    }, { quoted: m });
+
+    // Marcamos que respondimos hoy en este chat
+    saludoState[chatId] = hoy;
+    fs.writeFileSync(STATE_FILE, JSON.stringify(saludoState, null, 2), 'utf-8');
+
+  } catch (e) {
+    console.error('Error al enviar el audio o actualizar estado:', e);
+  }
+};
+
+handler.before = handler;
+export default handler;

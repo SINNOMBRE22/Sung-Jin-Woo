@@ -1,1 +1,26 @@
-const a0_0x1b9963=a0_0x42c9;(function(_0x2b87d8,_0x2244c8){const _0x37a1c3=a0_0x42c9,_0xbc2210=_0x2b87d8();while(!![]){try{const _0x37b0f3=-parseInt(_0x37a1c3(0x150))/0x1+-parseInt(_0x37a1c3(0x14c))/0x2*(-parseInt(_0x37a1c3(0x139))/0x3)+parseInt(_0x37a1c3(0x137))/0x4+parseInt(_0x37a1c3(0x132))/0x5+-parseInt(_0x37a1c3(0x14d))/0x6+-parseInt(_0x37a1c3(0x140))/0x7+-parseInt(_0x37a1c3(0x153))/0x8*(-parseInt(_0x37a1c3(0x154))/0x9);if(_0x37b0f3===_0x2244c8)break;else _0xbc2210['push'](_0xbc2210['shift']());}catch(_0xfab3d6){_0xbc2210['push'](_0xbc2210['shift']());}}}(a0_0x1622,0xaa41f));const handler=async(_0x259260,{conn:_0x4de3a0,text:_0x228ca6,command:_0x20177a,usedPrefix:_0x4b02d2})=>{const _0x5af746=a0_0x42c9,_0x1f9542=global,_0xd4c781=_0x1f9542['db'][_0x5af746(0x13f)][_0x5af746(0x152)][_0x259260[_0x5af746(0x143)]][_0x5af746(0x146)],_0x234af4=JSON[_0x5af746(0x135)](fs[_0x5af746(0x14b)](_0x5af746(0x133)+_0xd4c781+_0x5af746(0x134))),_0x4f0cf7=_0x234af4[_0x5af746(0x12f)]['gc_unwarn'],_0x5d4aec=_0x5af746(0x136);let _0x34125f;if(_0x259260[_0x5af746(0x12e)])_0x34125f=_0x259260['mentionedJid'][0x0]?_0x259260[_0x5af746(0x13c)][0x0]:_0x259260[_0x5af746(0x13a)]?_0x259260[_0x5af746(0x13a)][_0x5af746(0x143)]:_0x228ca6;else _0x34125f=_0x259260[_0x5af746(0x131)];const _0x1c776f=global['db']['data'][_0x5af746(0x152)][_0x34125f],_0x16d586=global['db'][_0x5af746(0x13f)][_0x5af746(0x145)][_0x4de3a0[_0x5af746(0x130)][_0x5af746(0x14a)]]||{},_0x2bb852=_0x4f0cf7['texto1']+'\x0a*'+(_0x4b02d2+_0x20177a)+'\x20@'+global[_0x5af746(0x142)]+'*';if(!_0x34125f)throw _0x259260['reply'](_0x2bb852,_0x259260[_0x5af746(0x131)],{'mentions':_0x4de3a0[_0x5af746(0x14f)](_0x2bb852)});if(_0x259260[_0x5af746(0x13c)][_0x5af746(0x144)](_0x4de3a0[_0x5af746(0x130)]['jid']))return;if(_0x1c776f[_0x5af746(0x14e)]==0x0)throw _0x4f0cf7[_0x5af746(0x13b)];_0x1c776f['warn']-=0x1,await _0x259260['reply'](''+(_0x1c776f['warn']==0x1?'*@'+_0x34125f['split']`@`[0x0]+'*':_0x5af746(0x138)+_0x34125f[_0x5af746(0x148)]`@`[0x0]+'*')+_0x4f0cf7[_0x5af746(0x13d)]+'\x20'+_0x1c776f['warn']+_0x5af746(0x147),null,{'mentions':[_0x34125f]});};function a0_0x42c9(_0x246428,_0x540b06){const _0x1622b7=a0_0x1622();return a0_0x42c9=function(_0x42c9b5,_0x19b26a){_0x42c9b5=_0x42c9b5-0x12e;let _0x16730b=_0x1622b7[_0x42c9b5];return _0x16730b;},a0_0x42c9(_0x246428,_0x540b06);}handler[a0_0x1b9963(0x151)]=/^(unwarn|delwarn|deladvertir|deladvertencia|delwarning)$/i,handler[a0_0x1b9963(0x13e)]=!![],handler[a0_0x1b9963(0x149)]=!![],handler[a0_0x1b9963(0x141)]=!![];function a0_0x1622(){const _0x50256b=['/3*','split','admin','jid','readFileSync','2aZlQrG','4634358bgaudX','warn','parseMention','1109496FLxUUJ','command','users','8vsZavx','8943471ksyqwZ','isGroup','plugins','user','chat','2608385bntBuR','./language/','.json','parse','./src/warn.jpg','3393456twptCU','♻️\x20*@','694503dkytGv','quoted','texto2','mentionedJid','texto3','group','data','111979ItufYQ','botAdmin','suittag','sender','includes','settings','language'];a0_0x1622=function(){return _0x50256b;};return a0_0x1622();}export default handler;
+
+
+const handler = async (m, {conn, text, command, usedPrefix}) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.gc_unwarn
+
+  const pp = './src/warn.jpg';
+  let who;
+  if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text;
+  else who = m.chat;
+  const user = global.db.data.users[who];
+  const bot = global.db.data.settings[conn.user.jid] || {};
+  const warntext = `${tradutor.texto1}\n*${usedPrefix + command} @${global.suittag}*`;
+  if (!who) throw m.reply(warntext, m.chat, {mentions: conn.parseMention(warntext)});
+  if (m.mentionedJid.includes(conn.user.jid)) return;
+  if (user.warn == 0) throw tradutor.texto2;
+  user.warn -= 1;
+  await m.reply(`${user.warn == 1 ? `*@${who.split`@`[0]}*` : `♻️ *@${who.split`@`[0]}*`}${tradutor.texto3} ${user.warn}/3*`, null, {mentions: [who]});
+};
+handler.command = /^(unwarn|delwarn|deladvertir|deladvertencia|delwarning)$/i;
+handler.group = true;
+handler.admin = true;
+handler.botAdmin = true;
+export default handler;

@@ -1,1 +1,115 @@
-const a0_0x75c4ed=a0_0x5755;function a0_0x5755(_0x5c631d,_0x335d1a){const _0x223d27=a0_0x223d();return a0_0x5755=function(_0x575581,_0x1df95f){_0x575581=_0x575581-0x197;let _0x4e757b=_0x223d27[_0x575581];return _0x4e757b;},a0_0x5755(_0x5c631d,_0x335d1a);}(function(_0x500629,_0x225b56){const _0x531e8f=a0_0x5755,_0x50eaab=_0x500629();while(!![]){try{const _0x213f2b=-parseInt(_0x531e8f(0x1ad))/0x1+parseInt(_0x531e8f(0x1be))/0x2+-parseInt(_0x531e8f(0x199))/0x3+-parseInt(_0x531e8f(0x19a))/0x4+-parseInt(_0x531e8f(0x1a7))/0x5+-parseInt(_0x531e8f(0x1a0))/0x6*(-parseInt(_0x531e8f(0x197))/0x7)+parseInt(_0x531e8f(0x198))/0x8;if(_0x213f2b===_0x225b56)break;else _0x50eaab['push'](_0x50eaab['shift']());}catch(_0x3b2e6a){_0x50eaab['push'](_0x50eaab['shift']());}}}(a0_0x223d,0x45c7a));function clockString(_0x16f140){const _0x2cfbd4=a0_0x5755,_0x19f354=Math[_0x2cfbd4(0x1af)](_0x16f140/0x36ee80);_0x16f140%=0x36ee80;const _0x312be2=Math[_0x2cfbd4(0x1af)](_0x16f140/0xea60);_0x16f140%=0xea60;const _0x5693eb=Math[_0x2cfbd4(0x1af)](_0x16f140/0x3e8);return _0x19f354+'\x20horas\x20'+_0x312be2+_0x2cfbd4(0x1aa)+_0x5693eb+'\x20segundos';}const handler=async(_0x203086,{conn:_0x29a55c})=>{const _0x3b2677=a0_0x5755;global['db'][_0x3b2677(0x1b0)][_0x3b2677(0x1a4)][_0x203086[_0x3b2677(0x19d)]][_0x3b2677(0x1bb)]+=0x1;const _0x4f464a=global['db'][_0x3b2677(0x1b0)][_0x3b2677(0x1a4)][_0x203086[_0x3b2677(0x19d)]],_0x547d72=Math[_0x3b2677(0x1af)](Math[_0x3b2677(0x1c1)]()*0x5),_0x43e11d=Math[_0x3b2677(0x1af)](Math[_0x3b2677(0x1c1)]()*0x5),_0x510365=Math[_0x3b2677(0x1af)](Math[_0x3b2677(0x1c1)]()*0x5),_0xf43422=Math[_0x3b2677(0x1af)](Math[_0x3b2677(0x1c1)]()*0x5),_0x204599=Math[_0x3b2677(0x1af)](Math[_0x3b2677(0x1c1)]()*0x5),_0x393433=Math['floor'](Math[_0x3b2677(0x1c1)]()*0x5),_0x5e5574=Math[_0x3b2677(0x1af)](Math[_0x3b2677(0x1c1)]()*0x5),_0x13417c=Math[_0x3b2677(0x1af)](Math[_0x3b2677(0x1c1)]()*0x5),_0x54a163=0.01,_0x15d555=0.01,_0x502992=0.5;let _0x194889=_0x4f464a[_0x3b2677(0x1b8)]||0x64,_0x1f6f75=_0x4f464a[_0x3b2677(0x1ac)]||0x0,_0xcaa3ff=_0x4f464a['worm']||0x0;const _0x47d929=0x64,_0x45bb88=Math[_0x3b2677(0x1af)](Math[_0x3b2677(0x1c1)]()*0x65),_0x39dc98=0x6;if(_0x194889<_0x45bb88){if(_0xcaa3ff<=0x0)return _0x29a55c[_0x3b2677(0x19b)](_0x203086[_0x3b2677(0x1c5)],_0x3b2677(0x1bf),_0x203086);_0xcaa3ff=Math[_0x3b2677(0x1b5)](0x0,_0xcaa3ff-0xa),_0x194889=_0x47d929;}else _0x194889=Math[_0x3b2677(0x1b5)](0x0,_0x194889-_0x45bb88);const _0x36129e=Math[_0x3b2677(0x1af)](Math[_0x3b2677(0x1c1)]()*0x76d)+0x3e8,_0xf44a96=0x1+_0x1f6f75;global['db'][_0x3b2677(0x1b0)][_0x3b2677(0x1a4)][_0x203086['sender']][_0x3b2677(0x1c2)]+=_0x547d72*_0xf44a96*0.5,global['db'][_0x3b2677(0x1b0)]['users'][_0x203086[_0x3b2677(0x19d)]]['lele']+=_0x43e11d*_0xf44a96*0.5,global['db'][_0x3b2677(0x1b0)][_0x3b2677(0x1a4)][_0x203086[_0x3b2677(0x19d)]]['nila']+=_0x510365*_0xf44a96*0.5,global['db'][_0x3b2677(0x1b0)][_0x3b2677(0x1a4)][_0x203086[_0x3b2677(0x19d)]][_0x3b2677(0x1ba)]+=_0xf43422*_0xf44a96*0.5,global['db']['data'][_0x3b2677(0x1a4)][_0x203086[_0x3b2677(0x19d)]][_0x3b2677(0x19f)]+=_0x204599*_0xf44a96*0.5,global['db']['data'][_0x3b2677(0x1a4)][_0x203086[_0x3b2677(0x19d)]][_0x3b2677(0x1c6)]+=_0x393433*_0xf44a96*0.5,global['db'][_0x3b2677(0x1b0)]['users'][_0x203086['sender']]['paus']+=_0x5e5574*_0xf44a96*0.5,global['db'][_0x3b2677(0x1b0)][_0x3b2677(0x1a4)][_0x203086['sender']][_0x3b2677(0x1c3)]+=_0x13417c*_0xf44a96*0.5,global['db']['data'][_0x3b2677(0x1a4)][_0x203086['sender']][_0x3b2677(0x1b8)]=_0x194889,global['db']['data'][_0x3b2677(0x1a4)][_0x203086[_0x3b2677(0x19d)]][_0x3b2677(0x1ac)]=_0x1f6f75,global['db'][_0x3b2677(0x1b0)][_0x3b2677(0x1a4)][_0x203086[_0x3b2677(0x19d)]]['exp']=(_0x4f464a[_0x3b2677(0x1b6)]||0x0)+_0x36129e,global['db'][_0x3b2677(0x1b0)]['users'][_0x203086['sender']]['worm']=_0xcaa3ff;const _0xc3ba1c=_0x4f464a[_0x3b2677(0x1a9)]+0x36ee80;if(new Date()-_0x4f464a[_0x3b2677(0x1a9)]<0x36ee80)return _0x29a55c[_0x3b2677(0x19b)](_0x203086[_0x3b2677(0x1c5)],_0x3b2677(0x1a8)+clockString(_0xc3ba1c-new Date()),_0x203086);let _0x218617='';if(_0x54a163<=Math[_0x3b2677(0x1c1)]())_0x218617=_0x3b2677(0x1a5);else{if(_0x15d555<=Math[_0x3b2677(0x1c1)]())_0x218617=_0x3b2677(0x1c0);else _0x502992<=Math['random']()&&(_0x218617='🌊🦈🌊\x20Ya\x20valiste!!!\x20Te\x20salió\x20un\x20Tiburón\x20:\x20Shark\x20»\x20-8000\x20Exp');}const _0x542abb=('\x0a*🎣\x20Resultados\x20de\x20la\x20pesca\x20de\x20'+_0x29a55c[_0x3b2677(0x1a1)](_0x203086[_0x3b2677(0x19d)])+'\x20🎣*\x0a\x0a'+_0x218617+'\x0a🌊🐟🌊\x20Pez\x20:\x20Fish\x20»\x20'+_0x547d72+'\x20x'+_0xf44a96+_0x3b2677(0x1a6)+_0x43e11d+'\x20x'+_0xf44a96+_0x3b2677(0x1a2)+_0x510365+'\x20x'+_0xf44a96+_0x3b2677(0x1c4)+_0xf43422+'\x20x'+_0xf44a96+_0x3b2677(0x1b9)+_0x204599+'\x20x'+_0xf44a96+_0x3b2677(0x19c)+_0x393433+'\x20x'+_0xf44a96+'\x0a🌊🐳🌊\x20Ballena\x20:\x20Whale\x20»\x20'+_0x5e5574+'\x20x'+_0xf44a96+_0x3b2677(0x1b7)+_0x13417c+'\x20x'+_0xf44a96+_0x3b2677(0x19e)+_0x194889+'%\x0aNivel\x20de\x20caña\x20de\x20pescar:\x20'+_0x1f6f75+'/'+_0x39dc98+'\x0aExperiencia\x20ganada:\x20'+_0x36129e+'\x20Exp')[_0x3b2677(0x1b1)]();setTimeout(()=>{const _0x3f3664=_0x3b2677;_0x29a55c[_0x3f3664(0x19b)](_0x203086[_0x3f3664(0x1c5)],_0x542abb,_0x203086);},0x7d0),setTimeout(()=>{const _0x4e5e67=_0x3b2677;_0x29a55c[_0x4e5e67(0x19b)](_0x203086['chat'],'@'+_0x203086[_0x4e5e67(0x19d)][_0x4e5e67(0x1b4)](_0x4e5e67(0x1bd))[0x0]+'\x20*'+['Prepárate\x20para\x20recoger\x20los\x20peces!',_0x4e5e67(0x1ae),'Hora\x20de\x20pescar\x20🌊','¡Pez\x20en\x20el\x20anzuelo!'][_0x4e5e67(0x1c8)]()+'*',null,{'mentions':[_0x203086[_0x4e5e67(0x19d)]]});},0x5dc),setTimeout(()=>{const _0x3711c3=_0x3b2677;_0x29a55c[_0x3711c3(0x19b)](_0x203086['chat'],'@'+_0x203086[_0x3711c3(0x19d)][_0x3711c3(0x1b4)](_0x3711c3(0x1bd))[0x0]+'\x20*'+[_0x3711c3(0x1b3),_0x3711c3(0x1bc),_0x3711c3(0x1c7),_0x3711c3(0x1b2)][_0x3711c3(0x1c8)]()+'*',_0x203086,_0x203086[_0x3711c3(0x1c9)]?{'mentions':[_0x203086[_0x3711c3(0x19d)]]}:{});},0x0),_0x4f464a[_0x3b2677(0x1a9)]=new Date()*0x1;};function a0_0x223d(){const _0x387fdc=['🌊🐠🌊\x20Que\x20suerte!!!\x20Un\x20Pez\x20Dorado\x20:\x20Golden\x20Fish\x20»\x201\x20','random','ikan','kepiting','\x0a🌊🐡🌊\x20Pez\x20Globo\x20:\x20Blowfish\x20»\x20','chat','udang','Buscando\x20el\x20lugar\x20perfecto\x20para\x20pescar...','getRandom','mentionedJid','7xaTQht','8354680PYYgtP','1036863XMftSm','1820620ghSFTN','reply','\x0a🌊🦐🌊\x20Camarón\x20:\x20Shrimp\x20»\x20','sender','\x0a\x0aCarnada\x20restante:\x20','buntal','2990904CsJdwo','getName','\x0a🌊🦭🌊\x20Foca\x20:\x20Sea\x20Lion\x20»\x20','tags','users','🌊🐠🌊\x20Que\x20suerte!!!\x20Pez\x20Plateado\x20:\x20Silver\x20Fish\x20»\x201\x20','\x0a🌊🐟🌊\x20Super\x20Pez\x20:\x20Fish\x20Super\x20»\x20','1164670wwnlFs','Por\x20favor\x20espera\x20un\x20momento\x20antes\x20de\x20pescar\x20de\x20nuevo.\x0a\x0a⫹⫺\x20Tiempo\x20restante:\x20','lastFishing','\x20minutos\x20','command','pancing','522930utnMRr','Equipo\x20de\x20pesca\x20listo!\x20🎣','floor','data','trim','Preparando\x20el\x20equipo\x20de\x20pesca...','Lanzando\x20la\x20línea...','split','max','exp','\x0a🌊🦀🌊\x20Cangrejo\x20:\x20Crab\x20»\x20','umpan','\x0a🌊🐡🌊\x20Super\x20Pez\x20Globo\x20:\x20Blowfish\x20Super\x20»\x20','bawal','comandos','Colocando\x20el\x20cebo...','@s.whatsapp.net','599278VzshuN','No\x20tienes\x20suficiente\x20carnada.\x20Puedes\x20comprar\x20más\x20usando\x20*/carnada*'];a0_0x223d=function(){return _0x387fdc;};return a0_0x223d();}handler['help']=['fish'],handler[a0_0x75c4ed(0x1a3)]=['econ'],handler[a0_0x75c4ed(0x1ab)]=/^(fish|fishing|pescar)$/i,handler['group']=!![];export default handler;
+// rpg-pescar.js
+
+function clockString(ms) {
+  const h = Math.floor(ms / 3600000);
+  ms %= 3600000;
+  const m = Math.floor(ms / 60000);
+  ms %= 60000;
+  const s = Math.floor(ms / 1000);
+  return `${h} horas ${m} minutos ${s} segundos`;
+}
+
+const handler = async (m, { conn }) => {
+	global.db.data.users[m.sender].comandos += 1;
+    const user = global.db.data.users[m.sender];
+    const ikan = Math.floor(Math.random() * 5);
+    const lele = Math.floor(Math.random() * 5);
+    const nila = Math.floor(Math.random() * 5);
+    const bawal = Math.floor(Math.random() * 5);
+    const buntal = Math.floor(Math.random() * 5);
+    const udang = Math.floor(Math.random() * 5);
+    const paus = Math.floor(Math.random() * 5);
+    const kepiting = Math.floor(Math.random() * 5);
+
+    const pezPlateadoProbabilidad = 0.01;
+    const pezDoradoProbabilidad = 0.01;
+    const tiburonProbabilidad = 0.5; // Aumento de la probabilidad de tiburón al 50%
+
+    let carnadaUser = user.umpan || 100;
+    let canaDePescar = user.pancing || 0;
+    let worm = user.worm || 0;
+
+    const maxCarnada = 100;
+    const gastoCarnada = Math.floor(Math.random() * 101);
+
+    const maxCanaDePescar = 6;
+
+    if (carnadaUser < gastoCarnada) {
+      if (worm <= 0) {
+        return conn.reply(m.chat, `No tienes suficiente carnada. Puedes comprar más usando */carnada*`, m);
+      }
+      worm = Math.max(0, worm - 10);
+      carnadaUser = maxCarnada;
+    } else {
+      carnadaUser = Math.max(0, carnadaUser - gastoCarnada);
+    }
+
+    const expGain = Math.floor(Math.random() * 1901) + 1000;
+
+    const fishesCaught = 1 + canaDePescar;
+
+    global.db.data.users[m.sender].ikan += (ikan * fishesCaught * 0.5); // Reducción de ganancias al 50%
+    global.db.data.users[m.sender].lele += (lele * fishesCaught * 0.5);
+    global.db.data.users[m.sender].nila += (nila * fishesCaught * 0.5);
+    global.db.data.users[m.sender].bawal += (bawal * fishesCaught * 0.5);
+    global.db.data.users[m.sender].buntal += (buntal * fishesCaught * 0.5);
+    global.db.data.users[m.sender].udang += (udang * fishesCaught * 0.5);
+    global.db.data.users[m.sender].paus += (paus * fishesCaught * 0.5);
+    global.db.data.users[m.sender].kepiting += (kepiting * fishesCaught * 0.5);
+    global.db.data.users[m.sender].umpan = carnadaUser;
+    global.db.data.users[m.sender].pancing = canaDePescar;
+    global.db.data.users[m.sender].exp = (user.exp || 0) + expGain;
+    global.db.data.users[m.sender].worm = worm;
+
+    const time = user.lastFishing + 3600000;
+    if (new Date - user.lastFishing < 3600000) {
+      return conn.reply(m.chat, `Por favor espera un momento antes de pescar de nuevo.\n\n⫹⫺ Tiempo restante: ${clockString(time - new Date())}`, m);
+    }
+
+    let specialFishResult = '';
+    if (pezPlateadoProbabilidad <= Math.random()) {
+      specialFishResult = '🌊🐠🌊 Que suerte!!! Pez Plateado : Silver Fish » 1 ';
+    } else if (pezDoradoProbabilidad <= Math.random()) {
+      specialFishResult = '🌊🐠🌊 Que suerte!!! Un Pez Dorado : Golden Fish » 1 ';
+    } else if (tiburonProbabilidad <= Math.random()) {
+      specialFishResult = '🌊🦈🌊 Ya valiste!!! Te salió un Tiburón : Shark » -8000 Exp';
+    }
+
+    const fishResults = `
+*🎣 Resultados de la pesca de ${conn.getName(m.sender)} 🎣*
+
+${specialFishResult}
+🌊🐟🌊 Pez : Fish » ${ikan} x${fishesCaught}
+🌊🐟🌊 Super Pez : Fish Super » ${lele} x${fishesCaught}
+🌊🦭🌊 Foca : Sea Lion » ${nila} x${fishesCaught}
+🌊🐡🌊 Pez Globo : Blowfish » ${bawal} x${fishesCaught}
+🌊🐡🌊 Super Pez Globo : Blowfish Super » ${buntal} x${fishesCaught}
+🌊🦐🌊 Camarón : Shrimp » ${udang} x${fishesCaught}
+🌊🐳🌊 Ballena : Whale » ${paus} x${fishesCaught}
+🌊🦀🌊 Cangrejo : Crab » ${kepiting} x${fishesCaught}
+
+Carnada restante: ${carnadaUser}%
+Nivel de caña de pescar: ${canaDePescar}/${maxCanaDePescar}
+Experiencia ganada: ${expGain} Exp`.trim();
+
+    setTimeout(() => {
+      conn.reply(m.chat, fishResults, m);
+    }, 2000);
+
+    setTimeout(() => {
+      conn.reply(m.chat, `@${m.sender.split('@s.whatsapp.net')[0]} *${['Prepárate para recoger los peces!', 'Equipo de pesca listo! 🎣', 'Hora de pescar 🌊', '¡Pez en el anzuelo!'].getRandom()}*`, null, { mentions: [m.sender] });
+    }, 1500);
+
+    setTimeout(() => {
+      conn.reply(m.chat, `@${m.sender.split('@s.whatsapp.net')[0]} *${['Lanzando la línea...', 'Colocando el cebo...', 'Buscando el lugar perfecto para pescar...', 'Preparando el equipo de pesca...'].getRandom()}*`, m, m.mentionedJid ? { mentions: [m.sender] } : {});
+    }, 0);
+
+    user.lastFishing = new Date() * 1;
+
+};
+
+handler.help = ['fish'];
+handler.tags = ['econ'];
+handler.command = /^(fish|fishing|pescar)$/i;
+handler.group = true;
+export default handler;

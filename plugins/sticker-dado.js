@@ -1,1 +1,15 @@
-const a0_0x45b5fd=a0_0x25fc;function a0_0x25fc(_0x5e7d96,_0x1a1188){const _0x5a9f50=a0_0x5a9f();return a0_0x25fc=function(_0x25fc81,_0x662862){_0x25fc81=_0x25fc81-0xa0;let _0x3d0c1a=_0x5a9f50[_0x25fc81];return _0x3d0c1a;},a0_0x25fc(_0x5e7d96,_0x1a1188);}(function(_0x918854,_0x1c78a2){const _0x250ded=a0_0x25fc,_0x1eb75f=_0x918854();while(!![]){try{const _0x219226=parseInt(_0x250ded(0xac))/0x1+parseInt(_0x250ded(0xad))/0x2*(-parseInt(_0x250ded(0xab))/0x3)+-parseInt(_0x250ded(0xa3))/0x4*(parseInt(_0x250ded(0xa1))/0x5)+-parseInt(_0x250ded(0xa0))/0x6+-parseInt(_0x250ded(0xa6))/0x7+-parseInt(_0x250ded(0xa2))/0x8*(-parseInt(_0x250ded(0xa9))/0x9)+-parseInt(_0x250ded(0xae))/0xa*(-parseInt(_0x250ded(0xa5))/0xb);if(_0x219226===_0x1c78a2)break;else _0x1eb75f['push'](_0x1eb75f['shift']());}catch(_0x20028c){_0x1eb75f['push'](_0x1eb75f['shift']());}}}(a0_0x5a9f,0xb05c8));function a0_0x5a9f(){const _0xd241eb=['60ZKwUPr','dadu','11AMcdjJ','2973579KptCMg','sendFile','dados','9VilcvY','chat','1347pzWdrt','800077TrqpwN','3002DbrQLD','14526510yfsKrb','https://api.lolhuman.xyz/api/sticker/dadu?apikey=','3637284ywGQsk','46745gJVsWs','2518744fYpQxu'];a0_0x5a9f=function(){return _0xd241eb;};return a0_0x5a9f();}const handler=async(_0x3d0e52,{conn:_0x3f27c4})=>{const _0x2c09a9=a0_0x25fc;_0x3f27c4[_0x2c09a9(0xa7)](_0x3d0e52[_0x2c09a9(0xaa)],_0x2c09a9(0xaf)+lolkeysapi,'error.webp','',_0x3d0e52,{'asSticker':!![]});};handler['command']=['dado',a0_0x45b5fd(0xa8),a0_0x45b5fd(0xa4)];export default handler;
+const handler = async (m, {conn}) => {
+  conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/sticker/dadu?apikey=${lolkeysapi}`, 'error.webp', '', m, {asSticker: true});
+};
+handler.command = ['dado', 'dados', 'dadu'];
+export default handler;
+
+/* import { sticker } from '../lib/sticker.js'
+let handler = async (m, { conn }) => {
+const dir = ['https://www.random.org/dice/dice1.png', 'https://www.random.org/dice/dice2.png', 'https://www.random.org/dice/dice3.png', 'https://www.random.org/dice/dice4.png', 'https://www.random.org/dice/dice5.png', 'https://www.random.org/dice/dice6.png'];
+let img = dir[Math.floor(Math.random() * dir.length)]
+//let stiker = await sticker(img, false, global.packname, global.author)
+await conn.sendFile(m.chat, img, 'error.webp', '', m, { asSticker: true })
+}
+handler.command = ['dado', 'dados', 'dadu']
+export default handler*/

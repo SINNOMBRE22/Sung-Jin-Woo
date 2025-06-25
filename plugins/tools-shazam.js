@@ -1,1 +1,46 @@
-function a0_0x77d5(_0x3409f6,_0x1e63cd){const _0x266cb4=a0_0x266c();return a0_0x77d5=function(_0x77d5c,_0x409a86){_0x77d5c=_0x77d5c-0x197;let _0x485614=_0x266cb4[_0x77d5c];return _0x485614;},a0_0x77d5(_0x3409f6,_0x1e63cd);}const a0_0x4ac6ec=a0_0x77d5;(function(_0x5427d1,_0x5847ec){const _0x4ae527=a0_0x77d5,_0x53ba0a=_0x5427d1();while(!![]){try{const _0x30f759=parseInt(_0x4ae527(0x1a7))/0x1*(-parseInt(_0x4ae527(0x197))/0x2)+-parseInt(_0x4ae527(0x1a6))/0x3+-parseInt(_0x4ae527(0x1a8))/0x4*(parseInt(_0x4ae527(0x1bd))/0x5)+parseInt(_0x4ae527(0x1a2))/0x6+-parseInt(_0x4ae527(0x1a4))/0x7*(-parseInt(_0x4ae527(0x1ab))/0x8)+-parseInt(_0x4ae527(0x1b3))/0x9*(-parseInt(_0x4ae527(0x1b2))/0xa)+parseInt(_0x4ae527(0x1ad))/0xb;if(_0x30f759===_0x5847ec)break;else _0x53ba0a['push'](_0x53ba0a['shift']());}catch(_0x2c0006){_0x53ba0a['push'](_0x53ba0a['shift']());}}}(a0_0x266c,0xb9738));import a0_0x24c6a9 from'axios';import a0_0x4fd541 from'form-data';let handler=async(_0x47bdcc,{conn:_0x1e1d8a,usedPrefix:_0x3ae9ac,command:_0x1e913e})=>{const _0x395063=a0_0x77d5;_0x47bdcc[_0x395063(0x1ae)]('🎙️');let _0x1397a0=_0x47bdcc[_0x395063(0x199)]?_0x47bdcc['quoted']:_0x47bdcc,_0x14316c=(_0x1397a0[_0x395063(0x1b9)]||_0x1397a0)[_0x395063(0x1be)]||_0x1397a0[_0x395063(0x1c1)]||'';if(/video|audio/['test'](_0x14316c)){let _0xf7a411=await _0x1397a0[_0x395063(0x1c5)]();_0x1e1d8a[_0x395063(0x1ac)](_0x47bdcc['chat'],global[_0x395063(0x19b)],_0x47bdcc);let _0x4341d8=new a0_0x4fd541();_0x4341d8[_0x395063(0x1a9)](_0x395063(0x1c2),_0x395063(0x1af)),_0x4341d8[_0x395063(0x1a9)](_0x395063(0x1b7),_0xf7a411,{'filename':'audio.mp3'});let _0x185564=await a0_0x24c6a9[_0x395063(0x1b1)](_0x395063(0x1aa),_0x4341d8,{'headers':_0x4341d8[_0x395063(0x1bb)]()});if(_0x185564[_0x395063(0x1c3)][_0x395063(0x1b0)]!==_0x395063(0x1c0))throw _0x185564[_0x395063(0x1c3)][_0x395063(0x19c)];let _0x3e4a34=_0x185564[_0x395063(0x1c3)][_0x395063(0x1b4)]||{},_0x41b963=_0x3e4a34['title']||'Desconocido',_0x523772=_0x3e4a34[_0x395063(0x1bf)]||_0x395063(0x19f),_0x36532d=_0x3e4a34[_0x395063(0x1a0)]||_0x395063(0x19f),_0x9acac7=_0x3e4a34[_0x395063(0x1a5)]||_0x395063(0x19f),_0xeabea0=_0x395063(0x1a1);_0xeabea0+=_0x395063(0x198),_0xeabea0+=_0x395063(0x19e)+_0x41b963+'\x0a',_0xeabea0+=_0x395063(0x1a3)+_0x523772+'\x0a',_0xeabea0+=_0x395063(0x1bc)+_0x36532d+'\x0a',_0xeabea0+='*•\x20Fecha\x20de\x20lanzamiento:*\x20'+_0x9acac7+'\x0a',_0xeabea0+='━━━━\x20✦\x20❘༻༺❘\x20✦\x20━━━━',_0x1e1d8a['reply'](_0x47bdcc[_0x395063(0x1c4)],_0xeabea0,_0x47bdcc);}else throw _0x395063(0x19d)+(_0x3ae9ac+_0x1e913e)+_0x395063(0x1ba);};handler['help']=[a0_0x4ac6ec(0x19a)],handler['tags']=[a0_0x4ac6ec(0x1b5)],handler[a0_0x4ac6ec(0x1b8)]=/^(analizar)$/i,handler['group']=!![],handler[a0_0x4ac6ec(0x1b6)]=!![];export default handler;function a0_0x266c(){const _0x21bcd8=['https://api.audd.io/','4653800bjXeYm','reply','26582501mULjbT','react','ee77dc63a716a76e5226f5b676a811d6','status','post','50GrOCTE','311211rBgxEV','result','tools','diamond','file','command','msg','*\x20para\x20analizarlo.','getHeaders','*•\x20Álbum:*\x20','4151620oisoaX','mimetype','artist','success','mediaType','api_token','data','chat','download','10GeHFaT','\x09\x09\x09*∙\x20🔍\x20Análisis\x20de\x20Audio\x20🔍\x20∙*\x0a\x0a','quoted','analizar','wait','error','🏷️\x20Etiqueta\x20un\x20audio\x20o\x20video\x20corto\x20con\x20el\x20comando\x20*','*•\x20Título:*\x20','Desconocido','album','━━━━\x20✦\x20❘༻༺❘\x20✦\x20━━━━\x0a','2153988IhJVlH','*•\x20Artista:*\x20','7VQFwXM','release_date','1641486UpSLHd','278623PBCVsJ','4iOqekh','append'];a0_0x266c=function(){return _0x21bcd8;};return a0_0x266c();}
+import axios from 'axios'
+import FormData from 'form-data'
+
+let handler = async (m, { conn, usedPrefix, command }) => {
+  m.react('🎙️')
+  let q = m.quoted ? m.quoted : m
+  let mime = (q.msg || q).mimetype || q.mediaType || ''
+  if (/video|audio/.test(mime)) {
+    let buffer = await q.download()
+    conn.reply(m.chat, global.wait, m)
+    
+    // Preparar la solicitud a la API de AudD
+    let formData = new FormData()
+    formData.append('api_token', 'ee77dc63a716a76e5226f5b676a811d6')
+    formData.append('file', buffer, { filename: 'audio.mp3' })
+    
+    let response = await axios.post('https://api.audd.io/', formData, {
+      headers: formData.getHeaders()
+    })
+    if (response.data.status !== 'success') throw response.data.error
+    let result = response.data.result || {}
+    let title = result.title || 'Desconocido'
+    let artist = result.artist || 'Desconocido'
+    let album = result.album || 'Desconocido'
+    let release_date = result.release_date || 'Desconocido'
+    
+    let txt = `━━━━ ✦ ❘༻༺❘ ✦ ━━━━\n`
+    txt += `\t\t\t*∙ 🔍 Análisis de Audio 🔍 ∙*\n\n`
+    txt += `*• Título:* ${title}\n`
+    txt += `*• Artista:* ${artist}\n`
+    txt += `*• Álbum:* ${album}\n`
+    txt += `*• Fecha de lanzamiento:* ${release_date}\n`
+    txt += `━━━━ ✦ ❘༻༺❘ ✦ ━━━━`
+    
+    conn.reply(m.chat, txt, m)
+  } else {
+    throw `🏷️ Etiqueta un audio o video corto con el comando *${usedPrefix + command}* para analizarlo.`
+  }
+}
+
+handler.help = ['analizar']
+handler.tags = ['tools']
+handler.command = /^(analizar)$/i
+handler.group = true
+handler.diamond = true
+export default handler

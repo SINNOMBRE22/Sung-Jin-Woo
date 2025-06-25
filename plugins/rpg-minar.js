@@ -1,1 +1,33 @@
-const a0_0x3c8a1c=a0_0x2de6;(function(_0x398a68,_0x39364f){const _0x113199=a0_0x2de6,_0x51bc10=_0x398a68();while(!![]){try{const _0x2e7fd8=-parseInt(_0x113199(0x91))/0x1*(-parseInt(_0x113199(0x88))/0x2)+parseInt(_0x113199(0x7c))/0x3+parseInt(_0x113199(0x89))/0x4+-parseInt(_0x113199(0x87))/0x5*(parseInt(_0x113199(0x80))/0x6)+parseInt(_0x113199(0x8b))/0x7*(-parseInt(_0x113199(0x7b))/0x8)+parseInt(_0x113199(0x84))/0x9+-parseInt(_0x113199(0x78))/0xa*(-parseInt(_0x113199(0x82))/0xb);if(_0x2e7fd8===_0x39364f)break;else _0x51bc10['push'](_0x51bc10['shift']());}catch(_0x2401d6){_0x51bc10['push'](_0x51bc10['shift']());}}}(a0_0xbef9,0xe2122));let handler=async(_0x2da1e6,{conn:_0x473a96,isPrems:_0x12b2e7})=>{const _0x22e0bf=a0_0x2de6;global['db'][_0x22e0bf(0x79)][_0x22e0bf(0x8c)][_0x2da1e6[_0x22e0bf(0x77)]][_0x22e0bf(0x8e)]+=0x1;let _0x22f160=global['db']['data'][_0x22e0bf(0x8c)][_0x2da1e6['sender']],_0x5b6e4d=Math['floor'](Math[_0x22e0bf(0x85)]()*0x3)+0x1,_0x1538f9=Math['floor'](Math[_0x22e0bf(0x85)]()*0x7530)+_0x5b6e4d,_0x24eace=global['db']['data'][_0x22e0bf(0x8c)][_0x2da1e6[_0x22e0bf(0x77)]][_0x22e0bf(0x7a)]+0x927c0;if(new Date()-global['db'][_0x22e0bf(0x79)][_0x22e0bf(0x8c)][_0x2da1e6[_0x22e0bf(0x77)]]['lastmiming']<0x927c0)throw _0x22e0bf(0x7e)+msToTime(_0x24eace-new Date())+_0x22e0bf(0x8a);_0x2da1e6[_0x22e0bf(0x8f)]('*[\x20🎉\x20]\x20𝙶𝚎𝚗𝚒𝚊𝚕,\x20𝚖𝚒𝚗𝚊𝚜𝚝𝚎\x20'+_0x1538f9+_0x22e0bf(0x81)+_0x5b6e4d+_0x22e0bf(0x76)),global['db']['data'][_0x22e0bf(0x8c)][_0x2da1e6['sender']]['lastmiming']=new Date()*0x1;};handler['help']=[a0_0x3c8a1c(0x83)],handler[a0_0x3c8a1c(0x86)]=['econ'],handler[a0_0x3c8a1c(0x8d)]=[a0_0x3c8a1c(0x83),a0_0x3c8a1c(0x7d),a0_0x3c8a1c(0x90)],handler['group']=!![],handler['exp']=0x0;function a0_0x2de6(_0x1137fb,_0x3d9032){const _0xbef9ef=a0_0xbef9();return a0_0x2de6=function(_0x2de69d,_0x309d0e){_0x2de69d=_0x2de69d-0x76;let _0x31c274=_0xbef9ef[_0x2de69d];return _0x31c274;},a0_0x2de6(_0x1137fb,_0x3d9032);}export default handler;function a0_0xbef9(){const _0x1c8d78=['308780UJwsMv','data','lastmiming','19392laXzEZ','1376061VQUcDS','miming','*[\x20⏲️\x20]\x20𝙴𝚜𝚙𝚎𝚛𝚊\x20','floor','2484156PKJuGt','\x20𝚇𝙿\x20y\x20','253EqXUgy','minar','39105jpBkyK','random','tags','5rXBdyq','4cufhWb','3030848NMTgYh','\x20𝚙𝚊𝚛𝚊\x20𝚟𝚘𝚕𝚟𝚎𝚛\x20𝚊\x20𝚖𝚒𝚗𝚊𝚛*','2814rCFzcn','users','command','comandos','reply','mine','191761ODWjOi','\x20💎*','sender'];a0_0xbef9=function(){return _0x1c8d78;};return a0_0xbef9();}function msToTime(_0x19374d){const _0x5a3e6f=a0_0x3c8a1c;var _0x41dceb=parseInt(_0x19374d%0x3e8/0x64),_0x34703b=Math['floor'](_0x19374d/0x3e8%0x3c),_0x13fb47=Math['floor'](_0x19374d/(0x3e8*0x3c)%0x3c),_0x25cf0f=Math[_0x5a3e6f(0x7f)](_0x19374d/(0x3e8*0x3c*0x3c)%0x18);return _0x25cf0f=_0x25cf0f<0xa?'0'+_0x25cf0f:_0x25cf0f,_0x13fb47=_0x13fb47<0xa?'0'+_0x13fb47:_0x13fb47,_0x34703b=_0x34703b<0xa?'0'+_0x34703b:_0x34703b,_0x13fb47+'\x20m\x20y\x20'+_0x34703b+'\x20s\x20';}
+let handler = async (m, { conn, isPrems }) => {
+	global.db.data.users[m.sender].comandos += 1;
+    let limit = global.db.data.users[m.sender];
+    let diamondReward = Math.floor(Math.random() * 3) + 1; // Generar un número aleatorio entre 1 y 3
+    let hasil = Math.floor(Math.random() * 30000) + diamondReward; // Sumar el número aleatorio a hasil
+    let time = global.db.data.users[m.sender].lastmiming + 600000;
+
+    if (new Date() - global.db.data.users[m.sender].lastmiming < 600000) throw `*[ ⏲️ ] 𝙴𝚜𝚙𝚎𝚛𝚊 ${msToTime(time - new Date())} 𝚙𝚊𝚛𝚊 𝚟𝚘𝚕𝚟𝚎𝚛 𝚊 𝚖𝚒𝚗𝚊𝚛*`;
+
+    m.reply(`*[ 🎉 ] 𝙶𝚎𝚗𝚒𝚊𝚕, 𝚖𝚒𝚗𝚊𝚜𝚝𝚎 ${hasil} 𝚇𝙿 y ${diamondReward} 💎*`);
+    global.db.data.users[m.sender].lastmiming = new Date() * 1;
+}
+
+handler.help = ['minar'];
+handler.tags = ['econ']
+handler.command = ['minar', 'miming', 'mine'];
+handler.group = true;
+handler.exp = 0;
+
+export default handler;
+
+function msToTime(duration) {
+    var milliseconds = parseInt((duration % 1000) / 100),
+        seconds = Math.floor((duration / 1000) % 60),
+        minutes = Math.floor((duration / (1000 * 60)) % 60),
+        hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+    return minutes + " m y " + seconds + " s ";
+}

@@ -1,1 +1,33 @@
-const a0_0x3d5cff=a0_0x74f3;function a0_0x74f3(_0x271ac0,_0x27e885){const _0x5b1e6d=a0_0x5b1e();return a0_0x74f3=function(_0x74f35c,_0x2d677b){_0x74f35c=_0x74f35c-0x9f;let _0x2cb676=_0x5b1e6d[_0x74f35c];return _0x2cb676;},a0_0x74f3(_0x271ac0,_0x27e885);}(function(_0x2bb091,_0x8e215d){const _0x3ee2e8=a0_0x74f3,_0x1f8aed=_0x2bb091();while(!![]){try{const _0x481480=parseInt(_0x3ee2e8(0xba))/0x1*(-parseInt(_0x3ee2e8(0xb1))/0x2)+-parseInt(_0x3ee2e8(0xbb))/0x3+-parseInt(_0x3ee2e8(0x9f))/0x4*(-parseInt(_0x3ee2e8(0xaa))/0x5)+-parseInt(_0x3ee2e8(0xb6))/0x6+-parseInt(_0x3ee2e8(0xaf))/0x7*(parseInt(_0x3ee2e8(0xa0))/0x8)+parseInt(_0x3ee2e8(0xab))/0x9*(parseInt(_0x3ee2e8(0xa6))/0xa)+parseInt(_0x3ee2e8(0xb2))/0xb*(parseInt(_0x3ee2e8(0xa1))/0xc);if(_0x481480===_0x8e215d)break;else _0x1f8aed['push'](_0x1f8aed['shift']());}catch(_0x5e753f){_0x1f8aed['push'](_0x1f8aed['shift']());}}}(a0_0x5b1e,0x4ca95));const handler=async(_0x15b97e,{conn:_0x497b57})=>{const _0x340927=a0_0x74f3;global['db'][_0x340927(0xa2)][_0x340927(0xb4)][_0x15b97e[_0x340927(0xa8)]][_0x340927(0xb5)]+=0x1;const _0x45d002=global['db'][_0x340927(0xa2)][_0x340927(0xb4)][_0x15b97e['sender']],_0x4b1fd0=0x64,_0x1dab2c=0x9c4,_0x1ae998=_0x45d002['umpan']/0x19;if(_0x45d002[_0x340927(0xb7)]>=_0x4b1fd0)return _0x497b57[_0x340927(0xa5)](_0x15b97e[_0x340927(0xb9)],'🪱\x20Ya\x20tienes\x20la\x20cantidad\x20máxima\x20de\x20carnada\x20('+_0x4b1fd0+'%).\x20¡No\x20puedes\x20comprar\x20más!',_0x15b97e);const _0x380582=_0x1dab2c*(_0x1ae998+0x1);if(_0x45d002[_0x340927(0xb3)]<_0x380582||_0x45d002[_0x340927(0xb3)]<0x0)return _0x497b57[_0x340927(0xa5)](_0x15b97e[_0x340927(0xb9)],'No\x20tienes\x20suficiente\x20experiencia\x20para\x20comprar\x20carnada.\x20Necesitas\x20'+_0x380582+'\x20puntos\x20de\x20experiencia\x20para\x20comprar\x20'+0x19+'%\x20de\x20carnada.',_0x15b97e);global['db']['data'][_0x340927(0xb4)][_0x15b97e['sender']][_0x340927(0xb7)]=Math['min'](_0x45d002[_0x340927(0xb7)]+0x19,_0x4b1fd0),global['db']['data'][_0x340927(0xb4)][_0x15b97e[_0x340927(0xa8)]][_0x340927(0xb3)]-=_0x380582,_0x497b57[_0x340927(0xa5)](_0x15b97e['chat'],'🪱\x20Has\x20comprado\x20carnada.\x20Ahora\x20tienes\x20'+_0x45d002['umpan']+_0x340927(0xa9)+_0x380582+_0x340927(0xac),_0x15b97e);};handler[a0_0x3d5cff(0xae)]=['comprarcarnada'],handler[a0_0x3d5cff(0xb8)]=[a0_0x3d5cff(0xa4)],handler[a0_0x3d5cff(0xa3)]=/^(buyworm|carnada)$/i,handler[a0_0x3d5cff(0xad)]=!![],handler[a0_0x3d5cff(0xb0)]=![],handler[a0_0x3d5cff(0xa7)]=![],handler[a0_0x3d5cff(0xb3)]=0x0;export default handler;function a0_0x5b1e(){const _0x5e43b7=['chat','20ooGuOM','1638099OnFpRN','4vMhuoi','152heGRKd','13299228JCXnzj','data','command','econ','reply','586380XfTaxd','botAdmin','sender','%\x20de\x20carnada.\x20\x0a\x0aGastaste\x20','2544085uRiJJq','9kgUUgu','\x20puntos\x20de\x20experiencia.','group','help','50407RyNXcP','admin','58126NuTirm','11UArQmv','exp','users','comandos','585642CbIIBu','umpan','tags'];a0_0x5b1e=function(){return _0x5e43b7;};return a0_0x5b1e();}
+// rpg-carnada.js
+
+const handler = async (m, { conn }) => {
+  global.db.data.users[m.sender].comandos += 1;
+  const user = global.db.data.users[m.sender];
+
+  const maxWorm = 100;
+  const costPerWorm = 2500;
+  const umpanLevel = user.umpan / 25; 
+
+  if (user.umpan >= maxWorm) {
+    return conn.reply(m.chat, `🪱 Ya tienes la cantidad máxima de carnada (${maxWorm}%). ¡No puedes comprar más!`, m);
+  }
+
+  const requiredExp = costPerWorm * (umpanLevel + 1); 
+  if (user.exp < requiredExp || user.exp < 0) {
+    return conn.reply(m.chat, `No tienes suficiente experiencia para comprar carnada. Necesitas ${requiredExp} puntos de experiencia para comprar ${25}% de carnada.`, m);
+  }
+
+  global.db.data.users[m.sender].umpan = Math.min(user.umpan + 25, maxWorm);
+  global.db.data.users[m.sender].exp -= requiredExp; 
+
+  conn.reply(m.chat, `🪱 Has comprado carnada. Ahora tienes ${user.umpan}% de carnada. \n\nGastaste ${requiredExp} puntos de experiencia.`, m);
+};
+
+handler.help = ['comprarcarnada'];
+handler.tags = ['econ'];
+handler.command = /^(buyworm|carnada)$/i;
+handler.group = true;
+handler.admin = false;
+handler.botAdmin = false;
+handler.exp = 0;
+export default handler;

@@ -1,1 +1,61 @@
-function a0_0x3067(){const _0x1141bf=['//i.ibb.co/nzqPBpC/http-error-404-not-found.png','attr','trim','No\x20se\x20encontró\x20información.','549uxLImV','wikipedia','\x20<término>','get','find','https:','data','1709260oqkOKX','524rySZOc','each','\x20<término\x20de\x20búsqueda>','Resultado','#firstHeading','text','push','219253WUPzhY','Uso:\x20','.json','parse','#mw-content-text','help','10qCfzyN','join','582iBCLNx','command','918104CnBeMI','texto2','language','282268gfiPja','No\x20se\x20encontró\x20información\x20en\x20Wikipedia.','contenido','texto3','load','1424367FOVzhR','reply','src','users','*\x0a\x0a','tags','status','#mw-content-text\x20>\x20div.mw-parser-output\x20p','https://es.wikipedia.org/wiki/','map','div.mw-parser-output\x20>\x20div:nth-child(1)\x20>\x20table\x20>\x20tbody\x20>\x20tr:nth-child(2)\x20>\x20td\x20>\x20a\x20>\x20img','2219oQRPCE','plugins','./language/'];a0_0x3067=function(){return _0x1141bf;};return a0_0x3067();}const a0_0x44928c=a0_0x2041;(function(_0x27d54c,_0x49704d){const _0x4fadb4=a0_0x2041,_0x457df5=_0x27d54c();while(!![]){try{const _0x496915=parseInt(_0x4fadb4(0x129))/0x1+parseInt(_0x4fadb4(0x103))/0x2+parseInt(_0x4fadb4(0x11a))/0x3*(-parseInt(_0x4fadb4(0x122))/0x4)+-parseInt(_0x4fadb4(0x121))/0x5+-parseInt(_0x4fadb4(0xfe))/0x6*(parseInt(_0x4fadb4(0x113))/0x7)+parseInt(_0x4fadb4(0x100))/0x8+-parseInt(_0x4fadb4(0x108))/0x9*(-parseInt(_0x4fadb4(0xfc))/0xa);if(_0x496915===_0x49704d)break;else _0x457df5['push'](_0x457df5['shift']());}catch(_0xd59368){_0x457df5['push'](_0x457df5['shift']());}}}(a0_0x3067,0x39d27));function a0_0x2041(_0x151f05,_0x471eaa){const _0x306744=a0_0x3067();return a0_0x2041=function(_0x20415a,_0x4fd795){_0x20415a=_0x20415a-0xfa;let _0x24afb5=_0x306744[_0x20415a];return _0x24afb5;},a0_0x2041(_0x151f05,_0x471eaa);}import a0_0x1be8e6 from'axios';import a0_0x2dd0c1 from'node-fetch';import a0_0x32df85 from'cheerio';import a0_0x185b90 from'fs';async function wikipedia(_0x369a32){const _0x4ffee5=a0_0x2041;try{const _0x24adac=await a0_0x1be8e6[_0x4ffee5(0x11d)](_0x4ffee5(0x110)+_0x369a32),_0x5a9237=a0_0x32df85[_0x4ffee5(0x107)](_0x24adac[_0x4ffee5(0x120)]),_0x2e0713=_0x5a9237(_0x4ffee5(0x126))[_0x4ffee5(0x127)]()[_0x4ffee5(0x118)](),_0x5ede6c=_0x5a9237(_0x4ffee5(0xfa))[_0x4ffee5(0x11e)](_0x4ffee5(0x112))[_0x4ffee5(0x117)](_0x4ffee5(0x10a))||_0x4ffee5(0x116),_0x56416f=[];return _0x5a9237(_0x4ffee5(0x10f))[_0x4ffee5(0x123)]((_0x22cc59,_0x34ce65)=>{const _0x12484f=_0x4ffee5,_0x99beef=_0x5a9237(_0x34ce65)[_0x12484f(0x127)]()[_0x12484f(0x118)]();if(_0x99beef)_0x56416f[_0x12484f(0x128)](_0x99beef);}),{'status':_0x24adac[_0x4ffee5(0x10e)],'result':{'titulo':_0x2e0713,'thumb':_0x4ffee5(0x11f)+_0x5ede6c,'contenido':_0x56416f[_0x4ffee5(0xfd)]('\x0a\x0a')}};}catch(_0x27dc87){return{'status':0x194,'mensaje':_0x4ffee5(0x104)};}}const handler=async(_0xd8d21b,{conn:_0x213732,text:_0x1bc313,usedPrefix:_0x4a5c73,command:_0xb192d5})=>{const _0x49b27d=a0_0x2041;if(!_0x1bc313)throw _0x49b27d(0x12a)+(_0x4a5c73+_0xb192d5)+_0x49b27d(0x124);try{const _0x410995=global?.['db']?.[_0x49b27d(0x120)]?.[_0x49b27d(0x10b)]?.[_0xd8d21b['sender']],_0x336471=_0x410995?.[_0x49b27d(0x102)]||'es',_0x93041=JSON[_0x49b27d(0x12c)](a0_0x185b90['readFileSync'](_0x49b27d(0x115)+_0x336471+_0x49b27d(0x12b),'utf8')),_0x72c728=_0x93041?.[_0x49b27d(0x114)]?.['buscador_wikipedia']||{},_0x30d98c=await wikipedia(_0x1bc313);_0x30d98c[_0x49b27d(0x10e)]===0x194?_0xd8d21b[_0x49b27d(0x109)](_0x72c728[_0x49b27d(0x106)]||_0x49b27d(0x119)):_0xd8d21b[_0x49b27d(0x109)]('*'+(_0x72c728[_0x49b27d(0x101)]||_0x49b27d(0x125))+_0x49b27d(0x10c)+_0x30d98c['result'][_0x49b27d(0x105)]);}catch(_0x5c80cf){_0xd8d21b[_0x49b27d(0x109)]('Hubo\x20un\x20error\x20en\x20la\x20búsqueda.');}};handler[a0_0x44928c(0xfb)]=[a0_0x44928c(0x11b)][a0_0x44928c(0x111)](_0x43517d=>_0x43517d+a0_0x44928c(0x11c)),handler[a0_0x44928c(0x10d)]=['search'],handler[a0_0x44928c(0xff)]=/^(wiki|wikipedia)$/i;export default handler;
+import axios from 'axios';
+import fetch from 'node-fetch';
+import cheerio from 'cheerio';
+import fs from 'fs';
+
+async function wikipedia(query) {
+  try {
+    const link = await axios.get(`https://es.wikipedia.org/wiki/${query}`);
+    const $ = cheerio.load(link.data);
+    const titulo = $('#firstHeading').text().trim();
+    const thumb = $('#mw-content-text')
+      .find('div.mw-parser-output > div:nth-child(1) > table > tbody > tr:nth-child(2) > td > a > img')
+      .attr('src') || `//i.ibb.co/nzqPBpC/http-error-404-not-found.png`;
+    
+    const contenido = [];
+    $('#mw-content-text > div.mw-parser-output p').each((i, elem) => {
+      const texto = $(elem).text().trim();
+      if (texto) contenido.push(texto);
+    });
+
+    return {
+      status: link.status,
+      result: {
+        titulo,
+        thumb: 'https:' + thumb,
+        contenido: contenido.join('\n\n')
+      }
+    };
+  } catch (err) {
+    return {
+      status: 404,
+      mensaje: "No se encontró información en Wikipedia."
+    };
+  }
+}
+
+const handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `Uso: ${usedPrefix + command} <término de búsqueda>`;
+
+  try {
+    const userData = global?.db?.data?.users?.[m.sender];
+    const idioma = userData?.language || 'es';
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`, 'utf8'));
+    const tradutor = _translate?.plugins?.buscador_wikipedia || {};
+
+    const res = await wikipedia(text);
+    if (res.status === 404) {
+      m.reply(tradutor.texto3 || "No se encontró información.");
+    } else {
+      m.reply(`*${tradutor.texto2 || "Resultado"}*\n\n${res.result.contenido}`);
+    }
+  } catch (error) {
+    m.reply("Hubo un error en la búsqueda.");
+  }
+};
+
+handler.help = ['wikipedia'].map((v) => v + ' <término>');
+handler.tags = ['search'];
+handler.command = /^(wiki|wikipedia)$/i;
+
+export default handler;

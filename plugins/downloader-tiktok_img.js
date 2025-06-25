@@ -1,1 +1,53 @@
-const a0_0x35cce8=a0_0xcea2;function a0_0xcea2(_0x1262cf,_0x2b3adb){const _0x278de3=a0_0x278d();return a0_0xcea2=function(_0xcea20c,_0x3cd8f5){_0xcea20c=_0xcea20c-0x1c2;let _0x3e4029=_0x278de3[_0xcea20c];return _0x3e4029;},a0_0xcea2(_0x1262cf,_0x2b3adb);}(function(_0x218fa5,_0x84600a){const _0x4dfda8=a0_0xcea2,_0x13efca=_0x218fa5();while(!![]){try{const _0x15d818=-parseInt(_0x4dfda8(0x1c2))/0x1+parseInt(_0x4dfda8(0x1d3))/0x2+-parseInt(_0x4dfda8(0x1d7))/0x3*(parseInt(_0x4dfda8(0x1c4))/0x4)+-parseInt(_0x4dfda8(0x1cd))/0x5+-parseInt(_0x4dfda8(0x1d6))/0x6*(parseInt(_0x4dfda8(0x1cc))/0x7)+-parseInt(_0x4dfda8(0x1c6))/0x8*(parseInt(_0x4dfda8(0x1c8))/0x9)+parseInt(_0x4dfda8(0x1ca))/0xa;if(_0x15d818===_0x84600a)break;else _0x13efca['push'](_0x13efca['shift']());}catch(_0x4fd952){_0x13efca['push'](_0x13efca['shift']());}}}(a0_0x278d,0x40b36));import a0_0x5f5565 from'axios';import a0_0x2f1a12 from'cheerio';let handler=async(_0x9b1d4b,{conn:_0x3edcad,text:_0x2343b7,args:_0x1df395,command:_0x38f193,usedPrefix:_0x590bab})=>{const _0x424db1=a0_0xcea2,_0x4bb303=global,_0x2dfe84=_0x4bb303['db']['data'][_0x424db1(0x1d1)][_0x9b1d4b[_0x424db1(0x1c5)]][_0x424db1(0x1e1)],_0x222725=JSON[_0x424db1(0x1dc)](fs[_0x424db1(0x1c7)]('./language/'+_0x2dfe84+'.json')),_0x47b2c9=_0x222725[_0x424db1(0x1db)][_0x424db1(0x1df)];if(!_0x2343b7)throw _0x47b2c9[_0x424db1(0x1d9)];let _0xd171d1;if(_0xd171d1)return;_0xd171d1=!![];try{let _0x5600c2=await ttimg(_0x2343b7),_0x1696af=_0x5600c2?.[_0x424db1(0x1de)];for(let _0x312754 of _0x1696af){await _0x3edcad[_0x424db1(0x1cf)](_0x9b1d4b[_0x424db1(0x1cb)],{'image':{'url':_0x312754}},{'quoted':_0x9b1d4b});};_0xd171d1=![];}catch{_0xd171d1=![];throw _0x47b2c9[_0x424db1(0x1d8)];}};handler[a0_0x35cce8(0x1d0)]=[a0_0x35cce8(0x1d5)],handler['tags']=[a0_0x35cce8(0x1ce)],handler[a0_0x35cce8(0x1da)]=/^(ttimg|tiktokimg)$/i;export default handler;async function ttimg(_0x466745){const _0x24d075=a0_0x35cce8;try{let _0x1cbdf1=_0x24d075(0x1d2)+_0x466745+'&token=G7eRpMaa',_0x2a1cd2=await a0_0x5f5565[_0x24d075(0x1e0)](_0x1cbdf1);const _0x25cde5=_0x2a1cd2[_0x24d075(0x1de)],_0x358a1f=a0_0x2f1a12[_0x24d075(0x1c3)](_0x25cde5);let _0x474b7e=[];_0x358a1f('div.col-md-12\x20>\x20img')['each']((_0x58f8fb,_0x20b5f6)=>{const _0x2baa60=_0x24d075;_0x474b7e['push'](_0x358a1f(_0x20b5f6)[_0x2baa60(0x1dd)](_0x2baa60(0x1e2)));});if(_0x474b7e[_0x24d075(0x1c9)]===0x0)return{'data':tradutor[_0x24d075(0x1d4)]};return{'data':_0x474b7e};}catch(_0xaf437c){return console['lo'](_0xaf437c),{'data':tradutor['texto4']};};};function a0_0x278d(){const _0x3b8662=['13020770UuMvxb','chat','103621cJLbEi','579515GceEaJ','downloader','sendMessage','help','users','https://dlpanda.com/es?url=','89584jVVLbQ','texto3','tiktokimg','24gFXFbv','3GQEXSA','texto2','texto1','command','plugins','parse','attr','data','downloader_tiktok_img','get','language','src','380725bZuOGH','load','1087428jUlokn','sender','1016632hOfxRB','readFileSync','18IeYzrE','length'];a0_0x278d=function(){return _0x3b8662;};return a0_0x278d();}
+// 
+////////////////////////////////////
+
+import axios from 'axios';
+import cheerio from 'cheerio';
+
+
+let handler = async (m, { conn, text: tiktok, args, command, usedPrefix }) => {
+    const datas = global
+    const idioma = datas.db.data.users[m.sender].language
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+    const tradutor = _translate.plugins.downloader_tiktok_img
+
+    if (!tiktok) throw tradutor.texto1;
+    let imagesSent
+    if (imagesSent) return;
+    imagesSent = true
+    try {
+        let tioShadow = await ttimg(tiktok);
+        let result = tioShadow?.data;
+        for (let d of result) {
+            await conn.sendMessage(m.chat, { image: { url: d } }, { quoted: m });
+        };
+        imagesSent = false
+    } catch {
+        imagesSent = false
+        throw tradutor.texto2
+    }
+};
+handler.help = ['tiktokimg'];
+handler.tags = ['downloader'];
+handler.command = /^(ttimg|tiktokimg)$/i;
+export default handler;
+
+async function ttimg(link) {
+    try {
+        let url = `https://dlpanda.com/es?url=${link}&token=G7eRpMaa`;
+        let response = await axios.get(url);
+        const html = response.data;
+        const $ = cheerio.load(html);
+        let imgSrc = [];
+        $('div.col-md-12 > img').each((index, element) => {
+            imgSrc.push($(element).attr('src'));
+        });
+        if (imgSrc.length === 0) {
+            return { data: tradutor.texto3 };
+        }
+        return { data: imgSrc };
+    } catch (error) {
+        console.lo(error);
+        return { data: tradutor.texto4 };
+    };
+};

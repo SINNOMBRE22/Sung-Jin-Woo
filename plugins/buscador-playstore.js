@@ -1,1 +1,36 @@
-const a0_0xb65b5c=a0_0x57b0;function a0_0x57b0(_0x3ddb96,_0x5c32fd){const _0x4981f5=a0_0x4981();return a0_0x57b0=function(_0x57b09a,_0x3daf5e){_0x57b09a=_0x57b09a-0x72;let _0x3ebff5=_0x4981f5[_0x57b09a];return _0x3ebff5;},a0_0x57b0(_0x3ddb96,_0x5c32fd);}(function(_0x380e7f,_0x5de5cb){const _0x2416a1=a0_0x57b0,_0x4dcacb=_0x380e7f();while(!![]){try{const _0xed2d2b=parseInt(_0x2416a1(0x85))/0x1*(parseInt(_0x2416a1(0x88))/0x2)+-parseInt(_0x2416a1(0x8e))/0x3*(parseInt(_0x2416a1(0x93))/0x4)+parseInt(_0x2416a1(0x8f))/0x5+parseInt(_0x2416a1(0x8a))/0x6*(-parseInt(_0x2416a1(0x8d))/0x7)+parseInt(_0x2416a1(0x80))/0x8*(parseInt(_0x2416a1(0x7f))/0x9)+-parseInt(_0x2416a1(0x7c))/0xa+parseInt(_0x2416a1(0x75))/0xb;if(_0xed2d2b===_0x5de5cb)break;else _0x4dcacb['push'](_0x4dcacb['shift']());}catch(_0x2ad13e){_0x4dcacb['push'](_0x4dcacb['shift']());}}}(a0_0x4981,0xb2db5));function a0_0x4981(){const _0x95bb84=['7697900qxeOno','playstore\x20<aplicacion>','summary','9nIJEDs','6943432UIQNCi','help','\x0a\x20\x20\x20\x20\x20\x20','title','reply','102677BNJhBd','texto3','scoreText','26ORsEcf','command','4782rZZgFd','url','language','6881zrsUhk','9YAXbUb','476940DXCadh','texto1','./language/','icon','1819352iRbecZ','sender','search','priceText','14874574UHZmoh','developer','users','length','join','log','getFile'];a0_0x4981=function(){return _0x95bb84;};return a0_0x4981();}import a0_0x5eb056 from'google-play-scraper';let handler=async(_0x26b443,{conn:_0x6e72ad,text:_0x32c9e7})=>{const _0x2edad2=a0_0x57b0,_0x22a3e5=global,_0x25a3fe=_0x22a3e5['db']['data'][_0x2edad2(0x77)][_0x26b443[_0x2edad2(0x72)]][_0x2edad2(0x8c)],_0x7e4d53=JSON['parse'](fs['readFileSync'](_0x2edad2(0x91)+_0x25a3fe+'.json')),_0x4b7ee2=_0x7e4d53['plugins']['buscador_playstore'];if(!_0x32c9e7)throw'*'+_0x4b7ee2[_0x2edad2(0x90)]+'*';let _0x175ea6=await a0_0x5eb056[_0x2edad2(0x73)]({'term':_0x32c9e7});if(!_0x175ea6[_0x2edad2(0x78)])throw'*'+_0x4b7ee2['texto2']+'*';let _0x32f79a={'contextInfo':{'externalAdReply':{'title':_0x175ea6[0x0]['title'],'body':_0x175ea6[0x0][_0x2edad2(0x7e)],'thumbnail':(await _0x6e72ad[_0x2edad2(0x7b)](_0x175ea6[0x0][_0x2edad2(0x92)]))['data'],'sourceUrl':_0x175ea6[0x0]['url']}}};await console[_0x2edad2(0x7a)](_0x175ea6),_0x175ea6=_0x175ea6['map'](_0x31a4ce=>_0x4b7ee2[_0x2edad2(0x86)][0x0]+'\x20'+_0x31a4ce[_0x2edad2(0x83)]+_0x2edad2(0x82)+_0x4b7ee2[_0x2edad2(0x86)][0x1]+'\x20'+_0x31a4ce[_0x2edad2(0x76)]+'\x0a\x20\x20\x20\x20\x20\x20'+_0x4b7ee2[_0x2edad2(0x86)][0x2]+'\x20'+_0x31a4ce[_0x2edad2(0x74)]+_0x2edad2(0x82)+_0x4b7ee2[_0x2edad2(0x86)][0x3]+'\x20'+_0x31a4ce[_0x2edad2(0x87)]+_0x2edad2(0x82)+_0x4b7ee2[_0x2edad2(0x86)][0x4]+_0x31a4ce[_0x2edad2(0x8b)])[_0x2edad2(0x79)]`\n\n`,_0x26b443[_0x2edad2(0x84)](_0x175ea6,null,_0x32f79a);};handler[a0_0xb65b5c(0x81)]=[a0_0xb65b5c(0x7d)],handler['tags']=[a0_0xb65b5c(0x73)],handler[a0_0xb65b5c(0x89)]=/^(playstore)$/i;export default handler;
+import gplay from "google-play-scraper";
+
+let handler = async (m, { conn, text }) => {
+  const datas = global
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.buscador_playstore
+  
+  if (!text) throw `*${tradutor.texto1}*`;
+  let res = await gplay.search({ term: text });
+  if (!res.length) throw `*${tradutor.texto2}*`;
+  let opt = {
+    contextInfo: {
+      externalAdReply: {
+        title: res[0].title,
+        body: res[0].summary,
+        thumbnail: (await conn.getFile(res[0].icon)).data,
+        sourceUrl: res[0].url,
+      },
+    },
+  };
+  await console.log(res);
+  res = res.map(
+    (v) =>
+      `${tradutor.texto3[0]} ${v.title}
+      ${tradutor.texto3[1]} ${v.developer}
+      ${tradutor.texto3[2]} ${v.priceText}
+      ${tradutor.texto3[3]} ${v.scoreText}
+      ${tradutor.texto3[4]}${v.url}`
+  ).join`\n\n`;
+  m.reply(res, null, opt);
+};
+handler.help = ['playstore <aplicacion>'];
+handler.tags = ['search'];
+handler.command = /^(playstore)$/i;
+export default handler;
