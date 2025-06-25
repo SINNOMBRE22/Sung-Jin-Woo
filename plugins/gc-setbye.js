@@ -1,17 +1,1 @@
-
-const handler = async (m, {conn, text, isROwner, isOwner}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.gc_setbye
-
-  if (text) {
-    global.db.data.chats[m.chat].sBye = text;
-    m.reply(tradutor.texto1);
-  } else throw `${tradutor.texto2}\n*- @user ${tradutor.texto3}`;
-};
-handler.help = ['setbye <text>'];
-handler.tags = ['group'];
-handler.command = ['setbye'];
-handler.admin = true;
-export default handler;
+function a0_0xfbd8(_0x3eaf55,_0x591384){const _0x5cf584=a0_0x5cf5();return a0_0xfbd8=function(_0xfbd85d,_0x5a1cee){_0xfbd85d=_0xfbd85d-0x108;let _0x21ea47=_0x5cf584[_0xfbd85d];return _0x21ea47;},a0_0xfbd8(_0x3eaf55,_0x591384);}const a0_0x938384=a0_0xfbd8;(function(_0x15eff7,_0x546956){const _0x148d8b=a0_0xfbd8,_0x322e31=_0x15eff7();while(!![]){try{const _0x35969d=parseInt(_0x148d8b(0x11b))/0x1+-parseInt(_0x148d8b(0x118))/0x2+-parseInt(_0x148d8b(0x10d))/0x3*(parseInt(_0x148d8b(0x113))/0x4)+-parseInt(_0x148d8b(0x114))/0x5+-parseInt(_0x148d8b(0x117))/0x6+parseInt(_0x148d8b(0x11a))/0x7+parseInt(_0x148d8b(0x10b))/0x8;if(_0x35969d===_0x546956)break;else _0x322e31['push'](_0x322e31['shift']());}catch(_0x55098c){_0x322e31['push'](_0x322e31['shift']());}}}(a0_0x5cf5,0x7f792));const handler=async(_0x4513ee,{conn:_0x524366,text:_0x3dde74,isROwner:_0x537f71,isOwner:_0x568b6e})=>{const _0x4b94a4=a0_0xfbd8,_0x41223f=global,_0x19bdea=_0x41223f['db'][_0x4b94a4(0x115)]['users'][_0x4513ee[_0x4b94a4(0x11e)]][_0x4b94a4(0x11f)],_0xa39eaf=JSON[_0x4b94a4(0x109)](fs[_0x4b94a4(0x116)]('./language/'+_0x19bdea+_0x4b94a4(0x11d))),_0x668484=_0xa39eaf[_0x4b94a4(0x112)]['gc_setbye'];if(_0x3dde74)global['db'][_0x4b94a4(0x115)][_0x4b94a4(0x110)][_0x4513ee[_0x4b94a4(0x120)]][_0x4b94a4(0x108)]=_0x3dde74,_0x4513ee['reply'](_0x668484[_0x4b94a4(0x111)]);else throw _0x668484[_0x4b94a4(0x10e)]+_0x4b94a4(0x10f)+_0x668484[_0x4b94a4(0x10c)];};function a0_0x5cf5(){const _0x2453cc=['texto1','plugins','8ZQytdA','1013550pxJEZc','data','readFileSync','2251170gcNBuT','1950634GjNcKk','setbye\x20<text>','668157mKQHcd','182884HqGpQS','setbye','.json','sender','language','chat','sBye','parse','help','18326840GWlCln','texto3','740757cxfSwp','texto2','\x0a*-\x20@user\x20','chats'];a0_0x5cf5=function(){return _0x2453cc;};return a0_0x5cf5();}handler[a0_0x938384(0x10a)]=[a0_0x938384(0x119)],handler['tags']=['group'],handler['command']=[a0_0x938384(0x11c)],handler['admin']=!![];export default handler;

@@ -1,9 +1,1 @@
-/* Generar error de prueba */
-const handler = async (m, { conn, command }) => {
-  throw new Error('Error de prueba lanzado por el comando handerror');
-};
-
-handler.command = /^(handerror)$/i;
-handler.owner = true;
-
-export default handler;
+function a0_0x2a47(_0x4663a0,_0x45f49f){const _0x30170d=a0_0x3017();return a0_0x2a47=function(_0x2a4705,_0x3326cf){_0x2a4705=_0x2a4705-0x16a;let _0x38317a=_0x30170d[_0x2a4705];return _0x38317a;},a0_0x2a47(_0x4663a0,_0x45f49f);}const a0_0x12bc44=a0_0x2a47;(function(_0x41f7e1,_0x394f00){const _0x447677=a0_0x2a47,_0xf4cfe5=_0x41f7e1();while(!![]){try{const _0x3b509f=parseInt(_0x447677(0x173))/0x1*(-parseInt(_0x447677(0x16f))/0x2)+parseInt(_0x447677(0x177))/0x3+parseInt(_0x447677(0x16d))/0x4*(-parseInt(_0x447677(0x171))/0x5)+parseInt(_0x447677(0x16c))/0x6*(parseInt(_0x447677(0x16a))/0x7)+parseInt(_0x447677(0x16e))/0x8+parseInt(_0x447677(0x174))/0x9*(parseInt(_0x447677(0x16b))/0xa)+-parseInt(_0x447677(0x170))/0xb;if(_0x3b509f===_0x394f00)break;else _0xf4cfe5['push'](_0xf4cfe5['shift']());}catch(_0x7dfa0e){_0xf4cfe5['push'](_0xf4cfe5['shift']());}}}(a0_0x3017,0x95966));const handler=async(_0x125a70,{conn:_0x1a4af2,command:_0x930032})=>{const _0x56652f=a0_0x2a47;throw new Error(_0x56652f(0x176));};function a0_0x3017(){const _0x4557c9=['2169240oIpNDm','6582625ZNKzke','68100tPeRDc','6WhFHXZ','12oRxCfb','701032KnWniT','1109938qtEWlI','72974AyuZRN','1290435zIjhlM','command','1lgimWo','261oqPQhW','owner','Error\x20de\x20prueba\x20lanzado\x20por\x20el\x20comando\x20handerror'];a0_0x3017=function(){return _0x4557c9;};return a0_0x3017();}handler[a0_0x12bc44(0x172)]=/^(handerror)$/i,handler[a0_0x12bc44(0x175)]=!![];export default handler;

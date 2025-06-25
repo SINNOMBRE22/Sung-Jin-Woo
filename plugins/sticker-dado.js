@@ -1,15 +1,1 @@
-const handler = async (m, {conn}) => {
-  conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/sticker/dadu?apikey=${lolkeysapi}`, 'error.webp', '', m, {asSticker: true});
-};
-handler.command = ['dado', 'dados', 'dadu'];
-export default handler;
-
-/* import { sticker } from '../lib/sticker.js'
-let handler = async (m, { conn }) => {
-const dir = ['https://www.random.org/dice/dice1.png', 'https://www.random.org/dice/dice2.png', 'https://www.random.org/dice/dice3.png', 'https://www.random.org/dice/dice4.png', 'https://www.random.org/dice/dice5.png', 'https://www.random.org/dice/dice6.png'];
-let img = dir[Math.floor(Math.random() * dir.length)]
-//let stiker = await sticker(img, false, global.packname, global.author)
-await conn.sendFile(m.chat, img, 'error.webp', '', m, { asSticker: true })
-}
-handler.command = ['dado', 'dados', 'dadu']
-export default handler*/
+const a0_0xf49b65=a0_0xe7a3;(function(_0x40e0a8,_0x8639b9){const _0x7714d8=a0_0xe7a3,_0x590363=_0x40e0a8();while(!![]){try{const _0x117138=parseInt(_0x7714d8(0xcf))/0x1+-parseInt(_0x7714d8(0xce))/0x2+-parseInt(_0x7714d8(0xc9))/0x3+-parseInt(_0x7714d8(0xd2))/0x4+parseInt(_0x7714d8(0xc7))/0x5+parseInt(_0x7714d8(0xd4))/0x6+parseInt(_0x7714d8(0xcb))/0x7;if(_0x117138===_0x8639b9)break;else _0x590363['push'](_0x590363['shift']());}catch(_0x4a4982){_0x590363['push'](_0x590363['shift']());}}}(a0_0x50e6,0xbeef3));const handler=async(_0x108560,{conn:_0xda9cec})=>{const _0x44616b=a0_0xe7a3;_0xda9cec[_0x44616b(0xcd)](_0x108560[_0x44616b(0xca)],_0x44616b(0xd0)+lolkeysapi,_0x44616b(0xd3),'',_0x108560,{'asSticker':!![]});};handler[a0_0xf49b65(0xcc)]=[a0_0xf49b65(0xc8),'dados',a0_0xf49b65(0xd1)];function a0_0x50e6(){const _0x16b5b9=['2754065LSkNyo','dado','2391153fkhxGh','chat','7431998PFzfEp','command','sendFile','1402778sHaLDh','435843qbTude','https://api.lolhuman.xyz/api/sticker/dadu?apikey=','dadu','818640XBXIEF','error.webp','2620782BaYkDo'];a0_0x50e6=function(){return _0x16b5b9;};return a0_0x50e6();}function a0_0xe7a3(_0x36f3e2,_0x49854d){const _0x50e603=a0_0x50e6();return a0_0xe7a3=function(_0xe7a35c,_0x59f3b1){_0xe7a35c=_0xe7a35c-0xc7;let _0x2340bd=_0x50e603[_0xe7a35c];return _0x2340bd;},a0_0xe7a3(_0x36f3e2,_0x49854d);}export default handler;

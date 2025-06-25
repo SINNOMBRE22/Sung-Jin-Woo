@@ -1,15 +1,1 @@
-
-const handler = async (m) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.owner_unbanchat
-
-  global.db.data.chats[m.chat].isBanned = false;
-  m.reply(tradutor.texto1);
-};
-handler.help = ['unbanchat'];
-handler.tags = ['owner'];
-handler.command = /^unbanchat$/i;
-handler.rowner = true;
-export default handler;
+const a0_0x4a1809=a0_0x4aba;(function(_0xb58450,_0x1474db){const _0x1cf76c=a0_0x4aba,_0x38b888=_0xb58450();while(!![]){try{const _0x8e2859=parseInt(_0x1cf76c(0x6f))/0x1*(-parseInt(_0x1cf76c(0x83))/0x2)+-parseInt(_0x1cf76c(0x7d))/0x3*(-parseInt(_0x1cf76c(0x6b))/0x4)+parseInt(_0x1cf76c(0x72))/0x5+-parseInt(_0x1cf76c(0x77))/0x6+parseInt(_0x1cf76c(0x70))/0x7*(-parseInt(_0x1cf76c(0x6c))/0x8)+parseInt(_0x1cf76c(0x7a))/0x9+-parseInt(_0x1cf76c(0x78))/0xa;if(_0x8e2859===_0x1474db)break;else _0x38b888['push'](_0x38b888['shift']());}catch(_0x15d8ee){_0x38b888['push'](_0x38b888['shift']());}}}(a0_0x3e22,0x3a2a8));const handler=async _0x4a979f=>{const _0x4dcf7b=a0_0x4aba,_0x56a128=global,_0x5c4c49=_0x56a128['db'][_0x4dcf7b(0x80)][_0x4dcf7b(0x75)][_0x4a979f[_0x4dcf7b(0x76)]][_0x4dcf7b(0x7e)],_0x52512e=JSON[_0x4dcf7b(0x6d)](fs[_0x4dcf7b(0x79)](_0x4dcf7b(0x82)+_0x5c4c49+_0x4dcf7b(0x7b))),_0x3a6470=_0x52512e[_0x4dcf7b(0x81)][_0x4dcf7b(0x74)];global['db']['data']['chats'][_0x4a979f[_0x4dcf7b(0x73)]]['isBanned']=![],_0x4a979f[_0x4dcf7b(0x71)](_0x3a6470['texto1']);};handler['help']=[a0_0x4a1809(0x6e)],handler['tags']=[a0_0x4a1809(0x7f)],handler[a0_0x4a1809(0x7c)]=/^unbanchat$/i,handler['rowner']=!![];function a0_0x4aba(_0x102792,_0x26e071){const _0x3e2284=a0_0x3e22();return a0_0x4aba=function(_0x4aba61,_0x3c787b){_0x4aba61=_0x4aba61-0x6b;let _0x4a3059=_0x3e2284[_0x4aba61];return _0x4a3059;},a0_0x4aba(_0x102792,_0x26e071);}export default handler;function a0_0x3e22(){const _0x4ddc1d=['parse','unbanchat','1AjtwiK','7TFgZzf','reply','921035qWfVrC','chat','owner_unbanchat','users','sender','492276VPAozp','1846630EIxnyd','readFileSync','2727342rzmVmp','.json','command','3epzahu','language','owner','data','plugins','./language/','196vMvUUQ','535108bDkQYL','927736FdSJmc'];a0_0x3e22=function(){return _0x4ddc1d;};return a0_0x3e22();}

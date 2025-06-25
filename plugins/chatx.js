@@ -1,14 +1,1 @@
-let handler = async m => m.reply(`
-
-≡  *Sung Jin-Woo┃ Innozent Zero*   
-
-─────────────
-Para ver mis comandos teclea 
-.arise
-.despertare
-.menu
-`.trim())
-handler.help = ['bot']
-handler.command = ['bot'] 
-
-export default handler
+const a0_0x387941=a0_0xd98a;function a0_0x190a(){const _0x2a054b=['trim','bot','213848DbUrtc','1532307QZWGcQ','4zlnhRH','132RhnRmY','265596aZimXS','401695VIRQRZ','174889kthnzz','6MqAxSl','\x0a\x0a≡\x20\x20*Sung\x20Jin-Woo┃\x20Innozent\x20Zero*\x20\x20\x20\x0a\x0a─────────────\x0aPara\x20ver\x20mis\x20comandos\x20teclea\x20\x0a.arise\x0a.despertare\x0a.menu\x0a','help','command','498513dpSrKD','2vAdNCF','63shMlau','322070opPeNm'];a0_0x190a=function(){return _0x2a054b;};return a0_0x190a();}function a0_0xd98a(_0x541c78,_0x54a4b2){const _0x190a7b=a0_0x190a();return a0_0xd98a=function(_0xd98a3c,_0x231010){_0xd98a3c=_0xd98a3c-0x1f4;let _0xc5d089=_0x190a7b[_0xd98a3c];return _0xc5d089;},a0_0xd98a(_0x541c78,_0x54a4b2);}(function(_0x2079db,_0x2d4155){const _0x5f52e0=a0_0xd98a,_0x5dd64c=_0x2079db();while(!![]){try{const _0x4864c0=-parseInt(_0x5f52e0(0x1fe))/0x1*(parseInt(_0x5f52e0(0x204))/0x2)+parseInt(_0x5f52e0(0x203))/0x3*(parseInt(_0x5f52e0(0x1fa))/0x4)+-parseInt(_0x5f52e0(0x1fd))/0x5+parseInt(_0x5f52e0(0x1ff))/0x6*(parseInt(_0x5f52e0(0x1f9))/0x7)+-parseInt(_0x5f52e0(0x1f8))/0x8+-parseInt(_0x5f52e0(0x1f4))/0x9*(parseInt(_0x5f52e0(0x1f5))/0xa)+-parseInt(_0x5f52e0(0x1fb))/0xb*(-parseInt(_0x5f52e0(0x1fc))/0xc);if(_0x4864c0===_0x2d4155)break;else _0x5dd64c['push'](_0x5dd64c['shift']());}catch(_0x2bf3f7){_0x5dd64c['push'](_0x5dd64c['shift']());}}}(a0_0x190a,0x22f9c));let handler=async _0xb72638=>_0xb72638['reply'](a0_0x387941(0x200)[a0_0x387941(0x1f6)]());handler[a0_0x387941(0x201)]=['bot'],handler[a0_0x387941(0x202)]=[a0_0x387941(0x1f7)];export default handler;

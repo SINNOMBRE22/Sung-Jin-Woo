@@ -1,18 +1,1 @@
-
-
-const handler = async (m, {conn, args}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.gc_setdesc
-
-  await conn.groupUpdateDescription(m.chat, `${args.join(' ')}`);
-  m.reply(tradutor.texto1);
-};
-handler.help = ['Setdesc <text>'];
-handler.tags = ['group'];
-handler.command = /^setdesk|setdesc$/i;
-handler.group = true;
-handler.admin = true;
-handler.botAdmin = true;
-export default handler;
+function a0_0x5acd(_0x5f2134,_0x340e44){const _0x533dd2=a0_0x533d();return a0_0x5acd=function(_0x5acd9f,_0x9de5d6){_0x5acd9f=_0x5acd9f-0xac;let _0x49085e=_0x533dd2[_0x5acd9f];return _0x49085e;},a0_0x5acd(_0x5f2134,_0x340e44);}const a0_0x1e8dca=a0_0x5acd;function a0_0x533d(){const _0x59d0d6=['Setdesc\x20<text>','parse','4408840XzxCjH','244086iImcwJ','botAdmin','12uFQDJo','group','9DXbGqn','1350fpZJAe','./language/','669221PrAuOr','gc_setdesc','2mLyvAI','.json','users','admin','3tPKXeo','data','command','2027252VzPEWu','texto1','sender','14315384rXtXHj','16742QEqHYC','reply','readFileSync','59075796acPtmO','tags'];a0_0x533d=function(){return _0x59d0d6;};return a0_0x533d();}(function(_0x2e08c5,_0x52a392){const _0x1cde82=a0_0x5acd,_0x1b4f97=_0x2e08c5();while(!![]){try{const _0x27794f=parseInt(_0x1cde82(0xbf))/0x1*(-parseInt(_0x1cde82(0xb6))/0x2)+-parseInt(_0x1cde82(0xc3))/0x3*(parseInt(_0x1cde82(0xc6))/0x4)+parseInt(_0x1cde82(0xb5))/0x5*(-parseInt(_0x1cde82(0xb8))/0x6)+parseInt(_0x1cde82(0xbd))/0x7+parseInt(_0x1cde82(0xad))/0x8*(-parseInt(_0x1cde82(0xba))/0x9)+-parseInt(_0x1cde82(0xbb))/0xa*(-parseInt(_0x1cde82(0xae))/0xb)+parseInt(_0x1cde82(0xb1))/0xc;if(_0x27794f===_0x52a392)break;else _0x1b4f97['push'](_0x1b4f97['shift']());}catch(_0x2883ca){_0x1b4f97['push'](_0x1b4f97['shift']());}}}(a0_0x533d,0xe0a86));const handler=async(_0xd26860,{conn:_0x27f417,args:_0x1c733d})=>{const _0x2f3b01=a0_0x5acd,_0x580d48=global,_0x354261=_0x580d48['db'][_0x2f3b01(0xc4)][_0x2f3b01(0xc1)][_0xd26860[_0x2f3b01(0xac)]]['language'],_0x230189=JSON[_0x2f3b01(0xb4)](fs[_0x2f3b01(0xb0)](_0x2f3b01(0xbc)+_0x354261+_0x2f3b01(0xc0))),_0xeebbaf=_0x230189['plugins'][_0x2f3b01(0xbe)];await _0x27f417['groupUpdateDescription'](_0xd26860['chat'],''+_0x1c733d['join']('\x20')),_0xd26860[_0x2f3b01(0xaf)](_0xeebbaf[_0x2f3b01(0xc7)]);};handler['help']=[a0_0x1e8dca(0xb3)],handler[a0_0x1e8dca(0xb2)]=['group'],handler[a0_0x1e8dca(0xc5)]=/^setdesk|setdesc$/i,handler[a0_0x1e8dca(0xb9)]=!![],handler[a0_0x1e8dca(0xc2)]=!![],handler[a0_0x1e8dca(0xb7)]=!![];export default handler;

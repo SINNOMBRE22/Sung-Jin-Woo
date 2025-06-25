@@ -1,16 +1,1 @@
-
-
-const handler = async (m, {conn, text, command}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.owner_leavegc
-
-  const id = text ? text : m.chat;
-  await conn.reply(id, tradutor.texto1);
-  await conn.groupLeave(id);
-};
-handler.command = /^(out|leavegc|leave|salirdelgrupo)$/i;
-handler.group = true;
-handler.rowner = true;
-export default handler;
+function a0_0x13bd(_0x2e4fc6,_0x8ffd80){const _0x81cb5a=a0_0x81cb();return a0_0x13bd=function(_0x13bd8a,_0x219ddf){_0x13bd8a=_0x13bd8a-0x1ce;let _0x14eec5=_0x81cb5a[_0x13bd8a];return _0x14eec5;},a0_0x13bd(_0x2e4fc6,_0x8ffd80);}const a0_0x485ef6=a0_0x13bd;function a0_0x81cb(){const _0x49f625=['7257752eAAcxT','plugins','5710671SLyQtE','10IlKTLX','./language/','texto1','language','404491gMWQSt','owner_leavegc','rowner','25606YkIHJy','chat','.json','1511000aHtjoS','14974zTiSEN','3051308oOixlC','1692TsKOpW','users','group','data','459HkZmTl','reply','readFileSync','command','parse'];a0_0x81cb=function(){return _0x49f625;};return a0_0x81cb();}(function(_0x27bcca,_0x42df62){const _0x3aaabf=a0_0x13bd,_0x4145c0=_0x27bcca();while(!![]){try{const _0x2bf02f=parseInt(_0x3aaabf(0x1d2))/0x1+parseInt(_0x3aaabf(0x1d9))/0x2*(-parseInt(_0x3aaabf(0x1df))/0x3)+parseInt(_0x3aaabf(0x1da))/0x4+parseInt(_0x3aaabf(0x1d8))/0x5+parseInt(_0x3aaabf(0x1db))/0x6*(-parseInt(_0x3aaabf(0x1d5))/0x7)+parseInt(_0x3aaabf(0x1e4))/0x8+-parseInt(_0x3aaabf(0x1e6))/0x9*(-parseInt(_0x3aaabf(0x1ce))/0xa);if(_0x2bf02f===_0x42df62)break;else _0x4145c0['push'](_0x4145c0['shift']());}catch(_0x2e9437){_0x4145c0['push'](_0x4145c0['shift']());}}}(a0_0x81cb,0xcba8d));const handler=async(_0x2ec195,{conn:_0x487944,text:_0x1dbad0,command:_0x4ff78d})=>{const _0x48c1f6=a0_0x13bd,_0x120b90=global,_0x629f15=_0x120b90['db'][_0x48c1f6(0x1de)][_0x48c1f6(0x1dc)][_0x2ec195['sender']][_0x48c1f6(0x1d1)],_0x5e969b=JSON[_0x48c1f6(0x1e3)](fs[_0x48c1f6(0x1e1)](_0x48c1f6(0x1cf)+_0x629f15+_0x48c1f6(0x1d7))),_0x7eb5d0=_0x5e969b[_0x48c1f6(0x1e5)][_0x48c1f6(0x1d3)],_0x1a0ec1=_0x1dbad0?_0x1dbad0:_0x2ec195[_0x48c1f6(0x1d6)];await _0x487944[_0x48c1f6(0x1e0)](_0x1a0ec1,_0x7eb5d0[_0x48c1f6(0x1d0)]),await _0x487944['groupLeave'](_0x1a0ec1);};handler[a0_0x485ef6(0x1e2)]=/^(out|leavegc|leave|salirdelgrupo)$/i,handler[a0_0x485ef6(0x1dd)]=!![],handler[a0_0x485ef6(0x1d4)]=!![];export default handler;

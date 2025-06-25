@@ -1,17 +1,1 @@
-/* Creditos a https://github.com/ALBERTO9883 */
-
-
-const handler = async (m, {conn}) => {
-  const datas = global
-  const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.plugins.gc_revoke
-
-  const revoke = await conn.groupRevokeInvite(m.chat);
-  await conn.reply(m.chat, `${tradutor.texto1} ${'https://chat.whatsapp.com/' + revoke}`, m);
-};
-handler.command = ['resetlink', 'revoke'];
-handler.botAdmin = true;
-handler.admin = true;
-handler.group = true;
-export default handler;
+const a0_0x12eb45=a0_0x1d58;(function(_0x3db23d,_0x51ee46){const _0x3de09f=a0_0x1d58,_0x13c4bb=_0x3db23d();while(!![]){try{const _0x12c48a=parseInt(_0x3de09f(0x1eb))/0x1+-parseInt(_0x3de09f(0x1e6))/0x2+parseInt(_0x3de09f(0x1e2))/0x3+parseInt(_0x3de09f(0x1ee))/0x4+-parseInt(_0x3de09f(0x1df))/0x5+parseInt(_0x3de09f(0x1f0))/0x6+-parseInt(_0x3de09f(0x1de))/0x7*(parseInt(_0x3de09f(0x1e3))/0x8);if(_0x12c48a===_0x51ee46)break;else _0x13c4bb['push'](_0x13c4bb['shift']());}catch(_0x458065){_0x13c4bb['push'](_0x13c4bb['shift']());}}}(a0_0x3581,0x249b8));function a0_0x1d58(_0x3598eb,_0x31b983){const _0x3581fc=a0_0x3581();return a0_0x1d58=function(_0x1d58d1,_0x3fed1b){_0x1d58d1=_0x1d58d1-0x1de;let _0x3c70da=_0x3581fc[_0x1d58d1];return _0x3c70da;},a0_0x1d58(_0x3598eb,_0x31b983);}function a0_0x3581(){const _0x111ae8=['1095913AEWwJP','842540fPahIn','groupRevokeInvite','admin','575958YFjLAc','8pqjmxj','resetlink','.json','552464GFVsDh','https://chat.whatsapp.com/','./language/','chat','plugins','235301GLCrxO','parse','language','1010980EUvpuj','gc_revoke','427266fTDhFK','readFileSync','command','texto1','group','botAdmin'];a0_0x3581=function(){return _0x111ae8;};return a0_0x3581();}const handler=async(_0x252387,{conn:_0x4bd77c})=>{const _0x3c1ced=a0_0x1d58,_0x188604=global,_0x4cbd5f=_0x188604['db']['data']['users'][_0x252387['sender']][_0x3c1ced(0x1ed)],_0x1a3bce=JSON[_0x3c1ced(0x1ec)](fs[_0x3c1ced(0x1f1)](_0x3c1ced(0x1e8)+_0x4cbd5f+_0x3c1ced(0x1e5))),_0xbad81a=_0x1a3bce[_0x3c1ced(0x1ea)][_0x3c1ced(0x1ef)],_0x378287=await _0x4bd77c[_0x3c1ced(0x1e0)](_0x252387[_0x3c1ced(0x1e9)]);await _0x4bd77c['reply'](_0x252387[_0x3c1ced(0x1e9)],_0xbad81a[_0x3c1ced(0x1f3)]+'\x20'+(_0x3c1ced(0x1e7)+_0x378287),_0x252387);};handler[a0_0x12eb45(0x1f2)]=[a0_0x12eb45(0x1e4),'revoke'],handler[a0_0x12eb45(0x1f5)]=!![],handler[a0_0x12eb45(0x1e1)]=!![],handler[a0_0x12eb45(0x1f4)]=!![];export default handler;
